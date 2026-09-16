@@ -1178,6 +1178,163 @@ Y2  - 2026-09-16
 N1  - Stable ID M-002. Certainty-assessment methods. PubMed/MEDLINE citation and abstract reviewed; full text not reviewed. Verified against PubMed / Europe PMC MEDLINE.
 ER  - 
 
+TY  - JOUR
+ID  - M-003
+AU  - Moher, David
+AU  - Shamseer, Larissa
+AU  - Clarke, Mike
+AU  - Ghersi, Davina
+AU  - Liberati, Alessandro
+AU  - Petticrew, Mark
+AU  - Shekelle, Paul
+AU  - Stewart, Lesley A
+AU  - PRISMA-P Group
+TI  - Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement.
+JO  - Systematic reviews
+JA  - Syst Rev
+PY  - 2015
+VL  - 4
+IS  - 1
+SP  - 1
+DO  - 10.1186/2046-4053-4-1
+AN  - 25554246
+UR  - https://pubmed.ncbi.nlm.nih.gov/25554246/
+KW  - Reporting guidance
+Y2  - 2026-09-16
+N1  - Stable ID M-003. Reporting guidance. PubMed/MEDLINE metadata and abstract reviewed; official PRISMA protocol guidance reviewed; full article not reviewed. Verified against PubMed / Europe PMC MEDLINE. Issue 1 verified in PubMed record; Europe PMC core metadata omits issue. Collective author retained separately from named individual authors.
+ER  - 
+
+TY  - JOUR
+ID  - M-004
+AU  - Rethlefsen, Melissa L
+AU  - Kirtley, Shona
+AU  - Waffenschmidt, Siw
+AU  - Ayala, Ana Patricia
+AU  - Moher, David
+AU  - Page, Matthew J
+AU  - Koffel, Jonathan B
+AU  - PRISMA-S Group
+TI  - PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.
+JO  - Systematic reviews
+JA  - Syst Rev
+PY  - 2021
+VL  - 10
+IS  - 1
+SP  - 39
+DO  - 10.1186/s13643-020-01542-z
+AN  - 33499930
+UR  - https://pubmed.ncbi.nlm.nih.gov/33499930/
+KW  - Reporting guidance
+Y2  - 2026-09-16
+N1  - Stable ID M-004. Reporting guidance. PubMed/MEDLINE metadata and abstract reviewed; full article not reviewed. Verified against PubMed / Europe PMC MEDLINE. Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors.
+ER  - 
+
+TY  - JOUR
+ID  - M-005
+AU  - McGowan, Jessie
+AU  - Sampson, Margaret
+AU  - Salzwedel, Douglas M
+AU  - Cogo, Elise
+AU  - Foerster, Vicki
+AU  - Lefebvre, Carol
+TI  - PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement.
+JO  - Journal of clinical epidemiology
+JA  - J Clin Epidemiol
+PY  - 2016
+VL  - 75
+SP  - 40
+EP  - 46
+DO  - 10.1016/j.jclinepi.2016.01.021
+AN  - 27005575
+UR  - https://pubmed.ncbi.nlm.nih.gov/27005575/
+KW  - Search peer-review methods
+Y2  - 2026-09-16
+N1  - Stable ID M-005. Search peer-review methods. PubMed/MEDLINE citation and abstract reviewed; full guideline documents not reviewed. Verified against PubMed / Europe PMC MEDLINE.
+ER  - 
+
+TY  - JOUR
+ID  - M-006
+AU  - Welch, Vivian
+AU  - Petticrew, Mark
+AU  - Tugwell, Peter
+AU  - Moher, David
+AU  - O'Neill, Jennifer
+AU  - Waters, Elizabeth
+AU  - White, Howard
+AU  - PRISMA-Equity Bellagio group
+TI  - PRISMA-Equity 2012 extension: reporting guidelines for systematic reviews with a focus on health equity.
+JO  - PLoS medicine
+JA  - PLoS Med
+PY  - 2012
+VL  - 9
+IS  - 10
+SP  - e1001333
+DO  - 10.1371/journal.pmed.1001333
+AN  - 23222917
+UR  - https://pubmed.ncbi.nlm.nih.gov/23222917/
+KW  - Reporting guidance
+Y2  - 2026-09-16
+N1  - Stable ID M-006. Reporting guidance. PubMed/MEDLINE metadata, official PRISMA-Equity scope guidance and selected full-text excerpts reviewed; full explanation-and-elaboration article not reviewed. Verified against PubMed / Europe PMC MEDLINE. Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors.
+ER  - 
+
+TY  - JOUR
+ID  - M-007
+AU  - Campbell, Mhairi
+AU  - McKenzie, Joanne E
+AU  - Sowden, Amanda
+AU  - Katikireddi, Srinivasa Vittal
+AU  - Brennan, Sue E
+AU  - Ellis, Simon
+AU  - Hartmann-Boyce, Jamie
+AU  - Ryan, Rebecca
+AU  - Shepperd, Sasha
+AU  - Thomas, James
+AU  - Welch, Vivian
+AU  - Thomson, Hilary
+TI  - Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline.
+JO  - BMJ (Clinical research ed.)
+JA  - BMJ
+PY  - 2020
+VL  - 368
+SP  - l6890
+DO  - 10.1136/bmj.l6890
+AN  - 31948937
+UR  - https://pubmed.ncbi.nlm.nih.gov/31948937/
+KW  - Reporting guidance
+Y2  - 2026-09-16
+N1  - Stable ID M-007. Reporting guidance. PubMed/MEDLINE metadata and publisher summary reviewed; official Cochrane guidance on scope reviewed; full guideline not reviewed. Verified against PubMed / Europe PMC MEDLINE.
+ER  - 
+
+TY  - JOUR
+ID  - M-008
+AU  - Lewin, Simon
+AU  - Booth, Andrew
+AU  - Glenton, Claire
+AU  - Munthe-Kaas, Heather
+AU  - Rashidian, Arash
+AU  - Wainwright, Megan
+AU  - Bohren, Meghan A
+AU  - Tunçalp, Özge
+AU  - Colvin, Christopher J
+AU  - Garside, Ruth
+AU  - Carlsen, Benedicte
+AU  - Langlois, Etienne V
+AU  - Noyes, Jane
+TI  - Applying GRADE-CERQual to qualitative evidence synthesis findings: introduction to the series.
+JO  - Implementation science : IS
+JA  - Implement Sci
+PY  - 2018
+VL  - 13
+IS  - Suppl 1
+SP  - 2
+DO  - 10.1186/s13012-017-0688-3
+AN  - 29384079
+UR  - https://pubmed.ncbi.nlm.nih.gov/29384079/
+KW  - Certainty-assessment methods
+Y2  - 2026-09-16
+N1  - Stable ID M-008. Certainty-assessment methods. PubMed/MEDLINE metadata, abstract and selected open-access full-text sections reviewed; CERQual implementation papers not fully reviewed. Verified against PubMed / Europe PMC MEDLINE.
+ER  - 
+
 TY  - ELEC
 ID  - P-001
 TI  - Generic oral estradiol

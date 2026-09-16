@@ -758,6 +758,72 @@ Guyatt G, Oxman AD, Akl EA, Kunz R, Vist G, Brozek J, et al. GRADE guidelines: 1
 
 **Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
 
+### M-003
+
+Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, et al. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. Syst Rev. 2015;4(1):1.
+
+[DOI](https://doi.org/10.1186/2046-4053-4-1) · [PMID 25554246](https://pubmed.ncbi.nlm.nih.gov/25554246/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/25554246/)
+
+**Role:** Reporting guidance. **Access:** PubMed/MEDLINE metadata and abstract reviewed; official PRISMA protocol guidance reviewed; full article not reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+Metadata note: Issue 1 verified in PubMed record; Europe PMC core metadata omits issue. Collective author retained separately from named individual authors.
+
+### M-004
+
+Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, et al. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews. Syst Rev. 2021;10(1):39.
+
+[DOI](https://doi.org/10.1186/s13643-020-01542-z) · [PMID 33499930](https://pubmed.ncbi.nlm.nih.gov/33499930/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/33499930/)
+
+**Role:** Reporting guidance. **Access:** PubMed/MEDLINE metadata and abstract reviewed; full article not reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+Metadata note: Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors.
+
+### M-005
+
+McGowan J, Sampson M, Salzwedel DM, Cogo E, Foerster V, Lefebvre C. PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement. J Clin Epidemiol. 2016;75:40-46.
+
+[DOI](https://doi.org/10.1016/j.jclinepi.2016.01.021) · [PMID 27005575](https://pubmed.ncbi.nlm.nih.gov/27005575/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/27005575/)
+
+**Role:** Search peer-review methods. **Access:** PubMed/MEDLINE citation and abstract reviewed; full guideline documents not reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+### M-006
+
+Welch V, Petticrew M, Tugwell P, Moher D, O'Neill J, Waters E, et al. PRISMA-Equity 2012 extension: reporting guidelines for systematic reviews with a focus on health equity. PLoS Med. 2012;9(10):e1001333.
+
+[DOI](https://doi.org/10.1371/journal.pmed.1001333) · [PMID 23222917](https://pubmed.ncbi.nlm.nih.gov/23222917/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/23222917/)
+
+**Role:** Reporting guidance. **Access:** PubMed/MEDLINE metadata, official PRISMA-Equity scope guidance and selected full-text excerpts reviewed; full explanation-and-elaboration article not reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+Metadata note: Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors.
+
+### M-007
+
+Campbell M, McKenzie JE, Sowden A, Katikireddi SV, Brennan SE, Ellis S, et al. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline. BMJ. 2020;368:l6890.
+
+[DOI](https://doi.org/10.1136/bmj.l6890) · [PMID 31948937](https://pubmed.ncbi.nlm.nih.gov/31948937/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31948937/)
+
+**Role:** Reporting guidance. **Access:** PubMed/MEDLINE metadata and publisher summary reviewed; official Cochrane guidance on scope reviewed; full guideline not reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+### M-008
+
+Lewin S, Booth A, Glenton C, Munthe-Kaas H, Rashidian A, Wainwright M, et al. Applying GRADE-CERQual to qualitative evidence synthesis findings: introduction to the series. Implement Sci. 2018;13(Suppl 1):2.
+
+[DOI](https://doi.org/10.1186/s13012-017-0688-3) · [PMID 29384079](https://pubmed.ncbi.nlm.nih.gov/29384079/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/29384079/)
+
+**Role:** Certainty-assessment methods. **Access:** PubMed/MEDLINE metadata, abstract and selected open-access full-text sections reviewed; CERQual implementation papers not fully reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
 ## Clinical guidance for anatomy and physiology classification
 
 These sources support clinical classification, not Medicare coverage decisions. C-IDs are guidance records and are not counted as scientific studies.

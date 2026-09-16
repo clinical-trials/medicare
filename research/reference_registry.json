@@ -7,7 +7,7 @@
     "verified_scientific_metadata": 43,
     "policy_and_data_sources": 45,
     "clinical_guidance_sources": 4,
-    "methodology_sources": 2
+    "methodology_sources": 8
   },
   "scientific_references": [
     {
@@ -3420,6 +3420,433 @@
       "source_type": "methodology",
       "citation": "Guyatt G, Oxman AD, Akl EA, Kunz R, Vist G, Brozek J, et al. GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables. J Clin Epidemiol. 2011;64(4):383-394.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/21195583/",
+      "status": "Certainty-assessment methods"
+    },
+    {
+      "id": "M-003",
+      "authors": [
+        {
+          "family": "Moher",
+          "given": "David",
+          "initials": "D"
+        },
+        {
+          "family": "Shamseer",
+          "given": "Larissa",
+          "initials": "L"
+        },
+        {
+          "family": "Clarke",
+          "given": "Mike",
+          "initials": "M"
+        },
+        {
+          "family": "Ghersi",
+          "given": "Davina",
+          "initials": "D"
+        },
+        {
+          "family": "Liberati",
+          "given": "Alessandro",
+          "initials": "A"
+        },
+        {
+          "family": "Petticrew",
+          "given": "Mark",
+          "initials": "M"
+        },
+        {
+          "family": "Shekelle",
+          "given": "Paul",
+          "initials": "P"
+        },
+        {
+          "family": "Stewart",
+          "given": "Lesley A",
+          "initials": "LA"
+        },
+        {
+          "literal": "PRISMA-P Group"
+        }
+      ],
+      "title": "Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement.",
+      "journal": "Systematic reviews",
+      "journal_abbreviation": "Syst Rev",
+      "year": 2015,
+      "volume": "4",
+      "issue": "1",
+      "pages": "1",
+      "doi": "10.1186/2046-4053-4-1",
+      "pmid": "25554246",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25554246/",
+      "metadata_status": "Verified against PubMed / Europe PMC MEDLINE",
+      "verified_on": "2026-09-16",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25554246+AND+SRC%3AMED&format=json&resultType=core",
+      "role": "Reporting guidance",
+      "access_level": "PubMed/MEDLINE metadata and abstract reviewed; official PRISMA protocol guidance reviewed; full article not reviewed",
+      "notes": [
+        "Issue 1 verified in PubMed record; Europe PMC core metadata omits issue. Collective author retained separately from named individual authors."
+      ],
+      "source_type": "methodology",
+      "citation": "Moher D, Shamseer L, Clarke M, Ghersi D, Liberati A, Petticrew M, et al. Preferred reporting items for systematic review and meta-analysis protocols (PRISMA-P) 2015 statement. Syst Rev. 2015;4(1):1.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25554246/",
+      "status": "Reporting guidance"
+    },
+    {
+      "id": "M-004",
+      "authors": [
+        {
+          "family": "Rethlefsen",
+          "given": "Melissa L",
+          "initials": "ML"
+        },
+        {
+          "family": "Kirtley",
+          "given": "Shona",
+          "initials": "S"
+        },
+        {
+          "family": "Waffenschmidt",
+          "given": "Siw",
+          "initials": "S"
+        },
+        {
+          "family": "Ayala",
+          "given": "Ana Patricia",
+          "initials": "AP"
+        },
+        {
+          "family": "Moher",
+          "given": "David",
+          "initials": "D"
+        },
+        {
+          "family": "Page",
+          "given": "Matthew J",
+          "initials": "MJ"
+        },
+        {
+          "family": "Koffel",
+          "given": "Jonathan B",
+          "initials": "JB"
+        },
+        {
+          "literal": "PRISMA-S Group"
+        }
+      ],
+      "title": "PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.",
+      "journal": "Systematic reviews",
+      "journal_abbreviation": "Syst Rev",
+      "year": 2021,
+      "volume": "10",
+      "issue": "1",
+      "pages": "39",
+      "doi": "10.1186/s13643-020-01542-z",
+      "pmid": "33499930",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33499930/",
+      "metadata_status": "Verified against PubMed / Europe PMC MEDLINE",
+      "verified_on": "2026-09-16",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33499930+AND+SRC%3AMED&format=json&resultType=core",
+      "role": "Reporting guidance",
+      "access_level": "PubMed/MEDLINE metadata and abstract reviewed; full article not reviewed",
+      "notes": [
+        "Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors."
+      ],
+      "source_type": "methodology",
+      "citation": "Rethlefsen ML, Kirtley S, Waffenschmidt S, Ayala AP, Moher D, Page MJ, et al. PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews. Syst Rev. 2021;10(1):39.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33499930/",
+      "status": "Reporting guidance"
+    },
+    {
+      "id": "M-005",
+      "authors": [
+        {
+          "family": "McGowan",
+          "given": "Jessie",
+          "initials": "J"
+        },
+        {
+          "family": "Sampson",
+          "given": "Margaret",
+          "initials": "M"
+        },
+        {
+          "family": "Salzwedel",
+          "given": "Douglas M",
+          "initials": "DM"
+        },
+        {
+          "family": "Cogo",
+          "given": "Elise",
+          "initials": "E"
+        },
+        {
+          "family": "Foerster",
+          "given": "Vicki",
+          "initials": "V"
+        },
+        {
+          "family": "Lefebvre",
+          "given": "Carol",
+          "initials": "C"
+        }
+      ],
+      "title": "PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement.",
+      "journal": "Journal of clinical epidemiology",
+      "journal_abbreviation": "J Clin Epidemiol",
+      "year": 2016,
+      "volume": "75",
+      "issue": "",
+      "pages": "40-46",
+      "doi": "10.1016/j.jclinepi.2016.01.021",
+      "pmid": "27005575",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27005575/",
+      "metadata_status": "Verified against PubMed / Europe PMC MEDLINE",
+      "verified_on": "2026-09-16",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27005575+AND+SRC%3AMED&format=json&resultType=core",
+      "role": "Search peer-review methods",
+      "access_level": "PubMed/MEDLINE citation and abstract reviewed; full guideline documents not reviewed",
+      "source_type": "methodology",
+      "citation": "McGowan J, Sampson M, Salzwedel DM, Cogo E, Foerster V, Lefebvre C. PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement. J Clin Epidemiol. 2016;75:40-46.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27005575/",
+      "status": "Search peer-review methods"
+    },
+    {
+      "id": "M-006",
+      "authors": [
+        {
+          "family": "Welch",
+          "given": "Vivian",
+          "initials": "V"
+        },
+        {
+          "family": "Petticrew",
+          "given": "Mark",
+          "initials": "M"
+        },
+        {
+          "family": "Tugwell",
+          "given": "Peter",
+          "initials": "P"
+        },
+        {
+          "family": "Moher",
+          "given": "David",
+          "initials": "D"
+        },
+        {
+          "family": "O'Neill",
+          "given": "Jennifer",
+          "initials": "J"
+        },
+        {
+          "family": "Waters",
+          "given": "Elizabeth",
+          "initials": "E"
+        },
+        {
+          "family": "White",
+          "given": "Howard",
+          "initials": "H"
+        },
+        {
+          "literal": "PRISMA-Equity Bellagio group"
+        }
+      ],
+      "title": "PRISMA-Equity 2012 extension: reporting guidelines for systematic reviews with a focus on health equity.",
+      "journal": "PLoS medicine",
+      "journal_abbreviation": "PLoS Med",
+      "year": 2012,
+      "volume": "9",
+      "issue": "10",
+      "pages": "e1001333",
+      "doi": "10.1371/journal.pmed.1001333",
+      "pmid": "23222917",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23222917/",
+      "metadata_status": "Verified against PubMed / Europe PMC MEDLINE",
+      "verified_on": "2026-09-16",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A23222917+AND+SRC%3AMED&format=json&resultType=core",
+      "role": "Reporting guidance",
+      "access_level": "PubMed/MEDLINE metadata, official PRISMA-Equity scope guidance and selected full-text excerpts reviewed; full explanation-and-elaboration article not reviewed",
+      "notes": [
+        "Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors."
+      ],
+      "source_type": "methodology",
+      "citation": "Welch V, Petticrew M, Tugwell P, Moher D, O'Neill J, Waters E, et al. PRISMA-Equity 2012 extension: reporting guidelines for systematic reviews with a focus on health equity. PLoS Med. 2012;9(10):e1001333.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/23222917/",
+      "status": "Reporting guidance"
+    },
+    {
+      "id": "M-007",
+      "authors": [
+        {
+          "family": "Campbell",
+          "given": "Mhairi",
+          "initials": "M"
+        },
+        {
+          "family": "McKenzie",
+          "given": "Joanne E",
+          "initials": "JE"
+        },
+        {
+          "family": "Sowden",
+          "given": "Amanda",
+          "initials": "A"
+        },
+        {
+          "family": "Katikireddi",
+          "given": "Srinivasa Vittal",
+          "initials": "SV"
+        },
+        {
+          "family": "Brennan",
+          "given": "Sue E",
+          "initials": "SE"
+        },
+        {
+          "family": "Ellis",
+          "given": "Simon",
+          "initials": "S"
+        },
+        {
+          "family": "Hartmann-Boyce",
+          "given": "Jamie",
+          "initials": "J"
+        },
+        {
+          "family": "Ryan",
+          "given": "Rebecca",
+          "initials": "R"
+        },
+        {
+          "family": "Shepperd",
+          "given": "Sasha",
+          "initials": "S"
+        },
+        {
+          "family": "Thomas",
+          "given": "James",
+          "initials": "J"
+        },
+        {
+          "family": "Welch",
+          "given": "Vivian",
+          "initials": "V"
+        },
+        {
+          "family": "Thomson",
+          "given": "Hilary",
+          "initials": "H"
+        }
+      ],
+      "title": "Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline.",
+      "journal": "BMJ (Clinical research ed.)",
+      "journal_abbreviation": "BMJ",
+      "year": 2020,
+      "volume": "368",
+      "issue": "",
+      "pages": "l6890",
+      "doi": "10.1136/bmj.l6890",
+      "pmid": "31948937",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31948937/",
+      "metadata_status": "Verified against PubMed / Europe PMC MEDLINE",
+      "verified_on": "2026-09-16",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31948937+AND+SRC%3AMED&format=json&resultType=core",
+      "role": "Reporting guidance",
+      "access_level": "PubMed/MEDLINE metadata and publisher summary reviewed; official Cochrane guidance on scope reviewed; full guideline not reviewed",
+      "source_type": "methodology",
+      "citation": "Campbell M, McKenzie JE, Sowden A, Katikireddi SV, Brennan SE, Ellis S, et al. Synthesis without meta-analysis (SWiM) in systematic reviews: reporting guideline. BMJ. 2020;368:l6890.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31948937/",
+      "status": "Reporting guidance"
+    },
+    {
+      "id": "M-008",
+      "authors": [
+        {
+          "family": "Lewin",
+          "given": "Simon",
+          "initials": "S"
+        },
+        {
+          "family": "Booth",
+          "given": "Andrew",
+          "initials": "A"
+        },
+        {
+          "family": "Glenton",
+          "given": "Claire",
+          "initials": "C"
+        },
+        {
+          "family": "Munthe-Kaas",
+          "given": "Heather",
+          "initials": "H"
+        },
+        {
+          "family": "Rashidian",
+          "given": "Arash",
+          "initials": "A"
+        },
+        {
+          "family": "Wainwright",
+          "given": "Megan",
+          "initials": "M"
+        },
+        {
+          "family": "Bohren",
+          "given": "Meghan A",
+          "initials": "MA"
+        },
+        {
+          "family": "Tunçalp",
+          "given": "Özge",
+          "initials": "Ö"
+        },
+        {
+          "family": "Colvin",
+          "given": "Christopher J",
+          "initials": "CJ"
+        },
+        {
+          "family": "Garside",
+          "given": "Ruth",
+          "initials": "R"
+        },
+        {
+          "family": "Carlsen",
+          "given": "Benedicte",
+          "initials": "B"
+        },
+        {
+          "family": "Langlois",
+          "given": "Etienne V",
+          "initials": "EV"
+        },
+        {
+          "family": "Noyes",
+          "given": "Jane",
+          "initials": "J"
+        }
+      ],
+      "title": "Applying GRADE-CERQual to qualitative evidence synthesis findings: introduction to the series.",
+      "journal": "Implementation science : IS",
+      "journal_abbreviation": "Implement Sci",
+      "year": 2018,
+      "volume": "13",
+      "issue": "Suppl 1",
+      "pages": "2",
+      "doi": "10.1186/s13012-017-0688-3",
+      "pmid": "29384079",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29384079/",
+      "metadata_status": "Verified against PubMed / Europe PMC MEDLINE",
+      "verified_on": "2026-09-16",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29384079+AND+SRC%3AMED&format=json&resultType=core",
+      "role": "Certainty-assessment methods",
+      "access_level": "PubMed/MEDLINE metadata, abstract and selected open-access full-text sections reviewed; CERQual implementation papers not fully reviewed",
+      "source_type": "methodology",
+      "citation": "Lewin S, Booth A, Glenton C, Munthe-Kaas H, Rashidian A, Wainwright M, et al. Applying GRADE-CERQual to qualitative evidence synthesis findings: introduction to the series. Implement Sci. 2018;13(Suppl 1):2.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29384079/",
       "status": "Certainty-assessment methods"
     }
   ],

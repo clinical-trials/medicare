@@ -1,0 +1,46 @@
+{
+  "prepared_on": "2026-09-16",
+  "status": "Preliminary submission assessment and proposed methods; formal systematic review not completed",
+  "files": [
+    "Health_Affairs_Scholar_submission_assessment.md",
+    "Medicare_systematic_review_protocol.md",
+    "PRISMA_readiness_crosswalk.md",
+    "README.md",
+    "manuscript_methods_proposed.md",
+    "search_strategy_draft.md"
+  ],
+  "methodology_reference_ids": [
+    "M-001",
+    "M-002",
+    "M-003",
+    "M-004",
+    "M-005",
+    "M-006",
+    "M-007",
+    "M-008"
+  ],
+  "checks": {
+    "local_markdown_links": "All checked and resolved",
+    "methodology_reference_ids": "All cited M-IDs present in verified metadata",
+    "methodology_pmid_export": "All eight method PMIDs present in living bibliography and RIS",
+    "ris_record_count": 100,
+    "active_study_count": 34,
+    "journal_policy_check": "Independent tool-assisted check against official author guidance and OUP calculator",
+    "clinical_evidence_changes": "None",
+    "existing_white_paper_pdf_and_workbook": "Unchanged",
+    "methods_consistency_review": "Independent AI-assisted draft review found no blocking issues; operational eligibility and independent PRESS-review wording strengthened. This is not independent human study screening."
+  },
+  "not_performed": [
+    "Journal submission or editor contact",
+    "Database search execution",
+    "Independent human screening or extraction",
+    "Formal risk-of-bias or certainty assessment",
+    "Review registration"
+  ],
+  "limitations": [
+    "Draft queries require information-specialist review and pilot testing",
+    "Current population eligibility requires resolution of unreported identity",
+    "No acceptance probability or guarantee",
+    "APC and journal instructions must be rechecked at submission"
+  ]
+}
