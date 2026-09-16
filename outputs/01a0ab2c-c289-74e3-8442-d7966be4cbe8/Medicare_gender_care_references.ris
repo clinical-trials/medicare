@@ -1103,6 +1103,81 @@ N1  - Stable ID L-B01-E1. Linked correction; not an independent study. Correctio
 N1  - corrects: L-B01
 ER  - 
 
+TY  - JOUR
+ID  - M-001
+AU  - Page, Matthew J
+AU  - McKenzie, Joanne E
+AU  - Bossuyt, Patrick M
+AU  - Boutron, Isabelle
+AU  - Hoffmann, Tammy C
+AU  - Mulrow, Cynthia D
+AU  - Shamseer, Larissa
+AU  - Tetzlaff, Jennifer M
+AU  - Akl, Elie A
+AU  - Brennan, Sue E
+AU  - Chou, Roger
+AU  - Glanville, Julie
+AU  - Grimshaw, Jeremy M
+AU  - Hróbjartsson, Asbjørn
+AU  - Lalu, Manoj M
+AU  - Li, Tianjing
+AU  - Loder, Elizabeth W
+AU  - Mayo-Wilson, Evan
+AU  - McDonald, Steve
+AU  - McGuinness, Luke A
+AU  - Stewart, Lesley A
+AU  - Thomas, James
+AU  - Tricco, Andrea C
+AU  - Welch, Vivian A
+AU  - Whiting, Penny
+AU  - Moher, David
+TI  - The PRISMA 2020 statement: an updated guideline for reporting systematic reviews.
+JO  - BMJ (Clinical research ed.)
+JA  - BMJ
+PY  - 2021
+VL  - 372
+SP  - n71
+DO  - 10.1136/bmj.n71
+AN  - 33782057
+UR  - https://pubmed.ncbi.nlm.nih.gov/33782057/
+KW  - Reporting guidance
+Y2  - 2026-09-16
+N1  - Stable ID M-001. Reporting guidance. PubMed/MEDLINE metadata; PRISMA statement abstract and publisher scope/reporting guidance reviewed. Verified against PubMed / Europe PMC MEDLINE.
+ER  - 
+
+TY  - JOUR
+ID  - M-002
+AU  - Guyatt, Gordon
+AU  - Oxman, Andrew D
+AU  - Akl, Elie A
+AU  - Kunz, Regina
+AU  - Vist, Gunn
+AU  - Brozek, Jan
+AU  - Norris, Susan
+AU  - Falck-Ytter, Yngve
+AU  - Glasziou, Paul
+AU  - DeBeer, Hans
+AU  - Jaeschke, Roman
+AU  - Rind, David
+AU  - Meerpohl, Joerg
+AU  - Dahm, Philipp
+AU  - Schünemann, Holger J
+TI  - GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables.
+JO  - Journal of clinical epidemiology
+JA  - J Clin Epidemiol
+PY  - 2011
+VL  - 64
+IS  - 4
+SP  - 383
+EP  - 394
+DO  - 10.1016/j.jclinepi.2010.04.026
+AN  - 21195583
+UR  - https://pubmed.ncbi.nlm.nih.gov/21195583/
+KW  - Certainty-assessment methods
+Y2  - 2026-09-16
+N1  - Stable ID M-002. Certainty-assessment methods. PubMed/MEDLINE citation and abstract reviewed; full text not reviewed. Verified against PubMed / Europe PMC MEDLINE.
+ER  - 
+
 TY  - ELEC
 ID  - P-001
 TI  - Generic oral estradiol

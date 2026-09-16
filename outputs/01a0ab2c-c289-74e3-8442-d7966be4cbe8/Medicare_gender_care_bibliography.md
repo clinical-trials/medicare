@@ -736,6 +736,28 @@ Balkan E, Babbs G, Meyers DJ, Kelly PJA, Yee K, Pletta DR, et al. Gender-Affirmi
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
+## Methodology and reporting guidance
+
+### M-001
+
+Page MJ, McKenzie JE, Bossuyt PM, Boutron I, Hoffmann TC, Mulrow CD, et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. 2021;372:n71.
+
+[DOI](https://doi.org/10.1136/bmj.n71) · [PMID 33782057](https://pubmed.ncbi.nlm.nih.gov/33782057/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/33782057/)
+
+**Role:** Reporting guidance. **Access:** PubMed/MEDLINE metadata; PRISMA statement abstract and publisher scope/reporting guidance reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+### M-002
+
+Guyatt G, Oxman AD, Akl EA, Kunz R, Vist G, Brozek J, et al. GRADE guidelines: 1. Introduction-GRADE evidence profiles and summary of findings tables. J Clin Epidemiol. 2011;64(4):383-394.
+
+[DOI](https://doi.org/10.1016/j.jclinepi.2010.04.026) · [PMID 21195583](https://pubmed.ncbi.nlm.nih.gov/21195583/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/21195583/)
+
+**Role:** Certainty-assessment methods. **Access:** PubMed/MEDLINE citation and abstract reviewed; full text not reviewed.
+
+**Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
 ## Clinical guidance for anatomy and physiology classification
 
 These sources support clinical classification, not Medicare coverage decisions. C-IDs are guidance records and are not counted as scientific studies.

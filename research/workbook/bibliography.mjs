@@ -81,10 +81,13 @@ export async function buildBibliography(data,drugSources){
   }
   const policies=[...policyMap.values()].sort((a,b)=>a.id.localeCompare(b.id));
   const clinicalGuidance=data.clinicalBasis?.sources||[];
+  const methodData=JSON.parse(await fs.readFile(`${root}/research/methodology_references.json`,'utf8').catch(e=>{if(e.code==='ENOENT')return '{"records":[]}';throw e;}));
+  const methods=methodData.records.map(m=>({...m,source_type:'methodology',citation:formatCitation(m),source_url:m.url,status:m.role||'Methodology guidance; not a Medicare outcome study'}));
   const records=[...scientific,...corrections];
-  assert.equal(new Set(records.map(x=>x.id)).size,records.length,'Duplicate reference ID');
+  assert.equal(new Set([...records,...methods].map(x=>x.id)).size,records.length+methods.length,'Duplicate reference ID');
   const counts={active_studies:data.studies.length,excluded_studies:data.excludedStudies.length,linked_corrections:corrections.length,verified_scientific_metadata:records.filter(x=>x.metadata_status?.startsWith('Verified')).length,policy_and_data_sources:policies.filter(x=>x.current_use).length};
   counts.clinical_guidance_sources=clinicalGuidance.length;
+  counts.methodology_sources=methods.length;
   const lines=['# Medicare sex-based coverage and reimbursement: working bibliography','',`Updated ${date}. Stable IDs match the evidence register. ${counts.active_studies} active literature records; ${counts.excluded_studies} scope-excluded records retained for audit; ${counts.linked_corrections} linked correction.`,
     '', 'This is a living reference list for an ongoing review, not a completed systematic-review bibliography. Publication metadata have been checked separately from full-text extraction, eligibility and risk-of-bias assessment. References cited within reviews are not automatically included as screened studies.',
     '', 'Use `[L-ID]` in working drafts. The bibliography gives up to six authors followed by et al.; the RIS export preserves all available authors. Article titles and publication details follow MEDLINE metadata. Policy descriptions below are source labels, not verified publication titles unless identified as such. The record date is not a new policy verification date.',''];
@@ -104,6 +107,7 @@ export async function buildBibliography(data,drugSources){
   emit('Contextual literature',scientific.filter(x=>contextStatuses.has(x.status)));
   emit('Linked corrections',corrections);
   emit('Excluded records retained for audit',scientific.filter(x=>excludedIds.has(x.id)));
+  emit('Methodology and reporting guidance',methods);
   lines.push('## Clinical guidance for anatomy and physiology classification','', 'These sources support clinical classification, not Medicare coverage decisions. C-IDs are guidance records and are not counted as scientific studies.','');
   for(const s of clinicalGuidance){
     const ids=data.items.filter(i=>i.classification_source_ids?.includes(s.id)).map(i=>i.id);
@@ -117,7 +121,7 @@ export async function buildBibliography(data,drugSources){
   }
   const ris=[];
   const field=(tag,value)=>{if(value!==undefined&&value!==null&&value!=='')ris.push(`${tag}  - ${clean(value)}`);};
-  for(const r of records){
+  for(const r of [...records,...methods]){
     field('TY','JOUR');field('ID',r.id);
     for(const a of r.authors||[])field('AU',a.literal||`${a.family}, ${a.given||a.initials||''}`);
     field('TI',r.title||r.original_citation);field('JO',r.journal);field('JA',r.journal_abbreviation);field('PY',r.year);field('VL',r.volume);field('IS',r.issue);
@@ -137,7 +141,7 @@ export async function buildBibliography(data,drugSources){
   await fs.mkdir(out,{recursive:true});
   await fs.writeFile(`${out}/Medicare_gender_care_bibliography.md`,lines.join('\n'));
   await fs.writeFile(`${out}/Medicare_gender_care_references.ris`,ris.join('\n'));
-  await fs.writeFile(`${root}/research/reference_registry.json`,JSON.stringify({updated_on:date,counts,scientific_references:records,policy_sources:policies,clinical_guidance_sources:clinicalGuidance},null,2));
+  await fs.writeFile(`${root}/research/reference_registry.json`,JSON.stringify({updated_on:date,counts,scientific_references:records,methodology_references:methods,policy_sources:policies,clinical_guidance_sources:clinicalGuidance},null,2));
   console.log('Bibliography '+JSON.stringify(counts));
   return counts;
 }
