@@ -92,7 +92,7 @@ export async function buildBibliography(data,drugSources){
     lines.push(`## ${section}`,'');
     for(const r of rows){
       lines.push(`### ${r.id}`,'',r.citation||r.original_citation,'');
-      const urls=[r.doi?`[DOI](https://doi.org/${link(r.doi)})`:'',r.pmid?`[PubMed](https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/)`:'',r.source_url?`[Reviewed source](${link(r.source_url)})`:''].filter(Boolean);
+      const urls=[r.doi?`[DOI](https://doi.org/${link(r.doi)})`:'',r.pmid?`[PMID ${r.pmid}](https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/)`:'',r.source_url?`[Reviewed source](${link(r.source_url)})`:''].filter(Boolean);
       lines.push(urls.join(' · '),'',`**Role:** ${r.status}. **Access:** ${r.access_level}.`,'',`**Citation metadata:** ${r.metadata_status}${r.verified_on?`; checked ${r.verified_on}`:''}.`,'');
       if(r.linked_care_ids?.length)lines.push(`Care-item links: ${r.linked_care_ids.join(', ')}.`,'');
       if(r.analytic_subject)lines.push(`**Analytic subject:** ${r.analytic_subject}. **Unit:** ${r.unit_of_analysis}.`,'',`Patient sex/gender: ${r.patient_sex_gender_role}. Physician sex/gender: ${r.physician_sex_gender_role}.`,'',`Comparison: ${period(r.comparison_axis)} Inference boundary: ${period(r.inference_boundary)}`,'');

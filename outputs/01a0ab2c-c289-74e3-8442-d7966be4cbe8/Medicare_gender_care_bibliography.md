@@ -12,7 +12,7 @@ Use `[L-ID]` in working drafts. The bibliography gives up to six authors followe
 
 Penn M, Colley D, Koirala P, King L, Fitzgerald J. Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies. J Womens Health (Larchmt). 2025;34(5):665-676.
 
-[DOI](https://doi.org/10.1089/jwh.2024.0984) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39978776/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/39978776/)
+[DOI](https://doi.org/10.1089/jwh.2024.0984) · [PMID 39978776](https://pubmed.ncbi.nlm.nih.gov/39978776/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/39978776/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Abstract plus accessible limitations excerpts.
 
@@ -30,7 +30,7 @@ Comparison: Male- versus female-anatomy procedure valuation. Inference boundary:
 
 Hathaway JK, Schuster MS, Richards KA, Turk TMT. Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures. Urol Pract. 2024;11(4):654-660.
 
-[DOI](https://doi.org/10.1097/upj.0000000000000612) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38758183/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38758183/)
+[DOI](https://doi.org/10.1097/upj.0000000000000612) · [PMID 38758183](https://pubmed.ncbi.nlm.nih.gov/38758183/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38758183/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Abstract plus authors’ detailed AUA comparison table.
 
@@ -48,7 +48,7 @@ Comparison: Directly analogous urologic and gynecologic procedures. Inference bo
 
 Polan RM, Barber EL. Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time. Obstet Gynecol. 2021;138(6):878-883.
 
-[DOI](https://doi.org/10.1097/aog.0000000000004599) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34736273/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/34736273/)
+[DOI](https://doi.org/10.1097/aog.0000000000004599) · [PMID 34736273](https://pubmed.ncbi.nlm.nih.gov/34736273/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/34736273/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Targeted full-text review.
 
@@ -66,7 +66,7 @@ Comparison: Female- versus male-specific procedure work and modeled compensation
 
 Uppal S, Rice LW, Spencer RJ. Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement. Obstet Gynecol. 2021;138(2):182-188.
 
-[DOI](https://doi.org/10.1097/aog.0000000000004467) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34237766/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/34237766/)
+[DOI](https://doi.org/10.1097/aog.0000000000004467) · [PMID 34237766](https://pubmed.ncbi.nlm.nih.gov/34237766/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/34237766/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
@@ -84,7 +84,7 @@ Comparison: Valuation and reported versus observed operative time across special
 
 Goff BA, Muntz HG, Cain JM. Is Adam worth more than Eve? The financial impact of gender bias in the federal reimbursement of gynecological procedures. Gynecol Oncol. 1997;64(3):372-377.
 
-[DOI](https://doi.org/10.1006/gyno.1996.4607) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/9062137/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/9062137/)
+[DOI](https://doi.org/10.1006/gyno.1996.4607) · [PMID 9062137](https://pubmed.ncbi.nlm.nih.gov/9062137/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/9062137/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
@@ -100,7 +100,7 @@ Comparison: Male- versus female-anatomy procedures in the 1995 schedule. Inferen
 
 Benoit MF, Ma JF, Upperman BA. Comparison of 2015 Medicare relative value units for gender-specific procedures: Gynecologic and gynecologic-oncologic versus urologic CPT coding. Has time healed gender-worth? Gynecol Oncol. 2017;144(2):336-342.
 
-[DOI](https://doi.org/10.1016/j.ygyno.2016.12.006) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/28024653/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/28024653/)
+[DOI](https://doi.org/10.1016/j.ygyno.2016.12.006) · [PMID 28024653](https://pubmed.ncbi.nlm.nih.gov/28024653/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/28024653/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Targeted full-text review.
 
@@ -120,7 +120,7 @@ Metadata note: Legacy citation abbreviates the title after “gender-specific pr
 
 Graziano FD, Levy J, Chen J, Shammas RL, Boe L, Allen RJ, et al. Longitudinal Trends in wRVU and Reimbursement for Free Flap and Implant-Based Breast Reconstruction: A 13-Year Valuation Analysis. Plast Reconstr Surg. 2026.
 
-[DOI](https://doi.org/10.1097/prs.0000000000013164) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/42085599/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/42085599/)
+[DOI](https://doi.org/10.1097/prs.0000000000013164) · [PMID 42085599](https://pubmed.ncbi.nlm.nih.gov/42085599/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/42085599/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
@@ -140,7 +140,7 @@ Metadata note: Volume, issue and pages absent from retrieved MEDLINE metadata; r
 
 Stigliano M, Gundlach C, Qin N, McVeigh AB, Wei L, Vaeth AM, et al. Trends in Medicare Reimbursement for Breast Procedures: A National and Geographic Analysis, 2010-2024. Ann Plast Surg. 2026;96(Suppl 5):S228-S233.
 
-[DOI](https://doi.org/10.1097/sap.0000000000004646) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/41701182/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/41701182/)
+[DOI](https://doi.org/10.1097/sap.0000000000004646) · [PMID 41701182](https://pubmed.ncbi.nlm.nih.gov/41701182/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/41701182/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
@@ -158,7 +158,7 @@ Comparison: Breast-procedure payments over time and across locations. Inference 
 
 Doval AF, Gratzon AC, Neese V, Shuck JW, Friedman J, Echo A. Is Our Effort Appropriately Valued? An Analysis of Work Relative Value Units in Immediate Breast Reconstruction. Plast Reconstr Surg. 2020;146(3):502-508.
 
-[DOI](https://doi.org/10.1097/prs.0000000000007054) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32453268/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/32453268/)
+[DOI](https://doi.org/10.1097/prs.0000000000007054) · [PMID 32453268](https://pubmed.ncbi.nlm.nih.gov/32453268/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/32453268/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
@@ -176,7 +176,7 @@ Comparison: Implant, pedicled-flap and free-flap work and payment per time. Infe
 
 Morin M, Dumoulin C, Bergeron S, Mayrand MH, Khalifé S, Waddell G, et al. Multimodal physical therapy versus topical lidocaine for provoked vestibulodynia: a multicenter, randomized trial. Am J Obstet Gynecol. 2021;224(2):189.e1-189.e12.
 
-[DOI](https://doi.org/10.1016/j.ajog.2020.08.038) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32818475/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/32818475/)
+[DOI](https://doi.org/10.1016/j.ajog.2020.08.038) · [PMID 32818475](https://pubmed.ncbi.nlm.nih.gov/32818475/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/32818475/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
@@ -194,7 +194,7 @@ Comparison: Physical therapy versus topical lidocaine. Inference boundary: Clini
 
 Tabakin AL, Lee W, Winkler HA, Shalom DF. Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries. Urogynecology (Phila). 2025;31(1):58-64.
 
-[DOI](https://doi.org/10.1097/spv.0000000000001504) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38527966/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38527966/)
+[DOI](https://doi.org/10.1097/spv.0000000000001504) · [PMID 38527966](https://pubmed.ncbi.nlm.nih.gov/38527966/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38527966/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -214,7 +214,7 @@ Metadata note: Legacy citation uses 2024, the electronic publication year (2024-
 
 Baik SH, Baye F, McDonald CJ. Use of menopausal hormone therapy beyond age 65 years and its effects on women's health outcomes by types, routes, and doses. Menopause. 2024;31(5):363-371.
 
-[DOI](https://doi.org/10.1097/gme.0000000000002335) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38595196/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38595196/)
+[DOI](https://doi.org/10.1097/gme.0000000000002335) · [PMID 38595196](https://pubmed.ncbi.nlm.nih.gov/38595196/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38595196/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -232,7 +232,7 @@ Comparison: Hormone treatment, formulation, route and dose versus nonuse/discont
 
 Mitchell CM, Reed SD, Diem S, Larson JC, Newton KM, Ensrud KE, et al. Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial. JAMA Intern Med. 2018;178(5):681-690.
 
-[DOI](https://doi.org/10.1001/jamainternmed.2018.0116) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/29554173/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/29554173/)
+[DOI](https://doi.org/10.1001/jamainternmed.2018.0116) · [PMID 29554173](https://pubmed.ncbi.nlm.nih.gov/29554173/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/29554173/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -250,7 +250,7 @@ Comparison: Vaginal estradiol, moisturizer and placebo. Inference boundary: A wi
 
 Danan ER, Sowerby C, Ullman KE, Ensrud K, Forte ML, Zerzan N, et al. Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause : A Systematic Review. Ann Intern Med. 2024;177(10):1400-1414.
 
-[DOI](https://doi.org/10.7326/annals-24-00610) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39250810/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/39250810/)
+[DOI](https://doi.org/10.7326/annals-24-00610) · [PMID 39250810](https://pubmed.ncbi.nlm.nih.gov/39250810/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/39250810/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -268,7 +268,7 @@ Comparison: GSM treatments versus placebo or alternatives. Inference boundary: T
 
 Lederman S, Ottery FD, Cano A, Santoro N, Shapiro M, Stute P, et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. Lancet. 2023;401(10382):1091-1102.
 
-[DOI](https://doi.org/10.1016/s0140-6736%2823%2900085-5) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/36924778/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/36924778/)
+[DOI](https://doi.org/10.1016/s0140-6736%2823%2900085-5) · [PMID 36924778](https://pubmed.ncbi.nlm.nih.gov/36924778/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/36924778/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -286,7 +286,7 @@ Comparison: Fezolinetant versus placebo. Inference boundary: Treatment efficacy 
 
 Simon JA, Portman DJ, Kaunitz AM, Mekonnen H, Kazempour K, Bhaskar S, et al. Low-dose paroxetine 7.5 mg for menopausal vasomotor symptoms: two randomized controlled trials. Menopause. 2013;20(10):1027-1035.
 
-[DOI](https://doi.org/10.1097/gme.0b013e3182a66aa7) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/24045678/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/24045678/)
+[DOI](https://doi.org/10.1097/gme.0b013e3182a66aa7) · [PMID 24045678](https://pubmed.ncbi.nlm.nih.gov/24045678/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/24045678/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -304,7 +304,7 @@ Comparison: Low-dose paroxetine versus placebo. Inference boundary: Clinical ben
 
 Jaspers L, Feys F, Bramer WM, Franco OH, Leusink P, Laan ET. Efficacy and Safety of Flibanserin for the Treatment of Hypoactive Sexual Desire Disorder in Women: A Systematic Review and Meta-analysis. JAMA Intern Med. 2016;176(4):453-462.
 
-[DOI](https://doi.org/10.1001/jamainternmed.2015.8565) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/26927498/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/26927498/)
+[DOI](https://doi.org/10.1001/jamainternmed.2015.8565) · [PMID 26927498](https://pubmed.ncbi.nlm.nih.gov/26927498/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/26927498/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -322,7 +322,7 @@ Comparison: Flibanserin versus placebo. Inference boundary: Benefits and harms w
 
 Kingsberg SA, Clayton AH, Portman D, Williams LA, Krop J, Jordan R, et al. Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials. Obstet Gynecol. 2019;134(5):899-908.
 
-[DOI](https://doi.org/10.1097/aog.0000000000003500) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31599840/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31599840/)
+[DOI](https://doi.org/10.1097/aog.0000000000003500) · [PMID 31599840](https://pubmed.ncbi.nlm.nih.gov/31599840/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31599840/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -340,7 +340,7 @@ Comparison: Bremelanotide versus placebo. Inference boundary: Clinical response 
 
 Lincoff AM, Bhasin S, Flevaris P, Mitchell LM, Basaria S, Boden WE, et al. Cardiovascular Safety of Testosterone-Replacement Therapy. N Engl J Med. 2023;389(2):107-117.
 
-[DOI](https://doi.org/10.1056/nejmoa2215025) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37326322/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/37326322/)
+[DOI](https://doi.org/10.1056/nejmoa2215025) · [PMID 37326322](https://pubmed.ncbi.nlm.nih.gov/37326322/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/37326322/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -358,7 +358,7 @@ Comparison: Testosterone gel versus placebo. Inference boundary: Male-only safet
 
 Rossouw JE, Anderson GL, Prentice RL, LaCroix AZ, Kooperberg C, Stefanick ML, et al. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial. JAMA. 2002;288(3):321-333.
 
-[DOI](https://doi.org/10.1001/jama.288.3.321) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/12117397/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/12117397/)
+[DOI](https://doi.org/10.1001/jama.288.3.321) · [PMID 12117397](https://pubmed.ncbi.nlm.nih.gov/12117397/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/12117397/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** PubMed citation and abstract; no systematic full-text extraction.
 
@@ -376,7 +376,7 @@ Comparison: Combined hormone regimen versus placebo for primary prevention. Infe
 
 Curtis JR, Carbone L, Cheng H, Hayes B, Laster A, Matthews R, et al. Longitudinal trends in use of bone mass measurement among older americans, 1999-2005. J Bone Miner Res. 2008;23(7):1061-1067.
 
-[DOI](https://doi.org/10.1359/jbmr.080232) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/18302495/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC2497454/)
+[DOI](https://doi.org/10.1359/jbmr.080232) · [PMID 18302495](https://pubmed.ncbi.nlm.nih.gov/18302495/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC2497454/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Full-text sections.
 
@@ -394,7 +394,7 @@ Comparison: DXA utilization by patient sex and other demographic strata. Inferen
 
 Pasquale MK, Sheer RL, Yehoshua A, McFadden A, Chines A, Caloyeras J. Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians. Med Care. 2021;59(2):148-154.
 
-[DOI](https://doi.org/10.1097/mlr.0000000000001459) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33273290/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/)
+[DOI](https://doi.org/10.1097/mlr.0000000000001459) · [PMID 33273290](https://pubmed.ncbi.nlm.nih.gov/33273290/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Full-text sections.
 
@@ -412,7 +412,7 @@ Comparison: Outreach versus usual care for bone testing and treatment. Inference
 
 Bellerose M, Ellison J, Steenland MW, Meyers DJ, Mitra M, Shireman TI. Coverage Gaps and Contraceptive Use Among Medicare Enrollees With Disabilities. JAMA Netw Open. 2025;8(6):e2517718.
 
-[DOI](https://doi.org/10.1001/jamanetworkopen.2025.17718) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40560583/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12199052/)
+[DOI](https://doi.org/10.1001/jamanetworkopen.2025.17718) · [PMID 40560583](https://pubmed.ncbi.nlm.nih.gov/40560583/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12199052/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Full-text sections.
 
@@ -430,7 +430,7 @@ Comparison: Payer/coverage groups and change after dual enrollment. Inference bo
 
 Ellison J, Pudasainy S, Bellerose M, Quinn D, Borrero S, Olson I, et al. Contraceptive Use Among Traditional Medicare And Medicare Advantage Enrollees. Health Aff (Millwood). 2024;43(1):98-107.
 
-[DOI](https://doi.org/10.1377/hlthaff.2023.00286) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38190592/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38190592/)
+[DOI](https://doi.org/10.1377/hlthaff.2023.00286) · [PMID 38190592](https://pubmed.ncbi.nlm.nih.gov/38190592/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38190592/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Abstract plus author-institution summary for period.
 
@@ -448,7 +448,7 @@ Comparison: Traditional Medicare versus Medicare Advantage and clinical indicati
 
 Dean LT, Ransome Y, Frasso-Jaramillo L, Moss SL, Zhang Y, Ashing K, et al. Drivers of cost differences between US breast cancer survivors with or without lymphedema. J Cancer Surviv. 2019;13(5):804-814.
 
-[DOI](https://doi.org/10.1007/s11764-019-00799-1) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31446591/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31446591/)
+[DOI](https://doi.org/10.1007/s11764-019-00799-1) · [PMID 31446591](https://pubmed.ncbi.nlm.nih.gov/31446591/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31446591/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation/abstract extraction recorded; full-text review pending.
 
@@ -466,7 +466,7 @@ Comparison: Survivors with versus without lymphedema. Inference boundary: Sex/ge
 
 Lynn JV, Hespe GE, Akhter MF, David CM, Kung TA, Myers PL. Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States. JAMA Surg. 2023;158(9):920-926.
 
-[DOI](https://doi.org/10.1001/jamasurg.2023.2017) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/37285151/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/37285151/)
+[DOI](https://doi.org/10.1001/jamasurg.2023.2017) · [PMID 37285151](https://pubmed.ncbi.nlm.nih.gov/37285151/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/37285151/)
 
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation/abstract extraction recorded; full-text review pending.
 
@@ -484,7 +484,7 @@ Comparison: Lymphedema treatment coverage across insurers and modalities. Infere
 
 Gornick M, Newton M, Hackerman C. Factors affecting differences in Medicare reimbursements for physicians' services. Health Care Financ Rev. 1980;1(4):15-37.
 
-[PubMed](https://pubmed.ncbi.nlm.nih.gov/10309221/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/)
+[PMID 10309221](https://pubmed.ncbi.nlm.nih.gov/10309221/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/)
 
 **Role:** Historical patient evidence; eligibility pending. **Access:** Targeted full-text extraction; CMS PDF checked against indexed PMC.
 
@@ -504,7 +504,7 @@ Metadata note: DOI not supplied in MEDLINE metadata.
 
 Ahmad S, Ramulu P, Akpek E, Deobhakta A, Klawe J. Gender-Specific Trends in Ophthalmologist Medicare Collections. Am J Ophthalmol. 2020;214:32-39.
 
-[DOI](https://doi.org/10.1016/j.ajo.2019.12.024) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/31926887/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31926887/)
+[DOI](https://doi.org/10.1016/j.ajo.2019.12.024) · [PMID 31926887](https://pubmed.ncbi.nlm.nih.gov/31926887/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31926887/)
 
 **Role:** Clinician context. **Access:** Abstract verified; full text not reviewed.
 
@@ -520,7 +520,7 @@ Comparison: Medicare collections by ophthalmologist gender. Inference boundary: 
 
 Raber I, Al Rifai M, McCarthy CP, Vaduganathan M, Michos ED, Wood MJ, et al. Gender Differences in Medicare Payments Among Cardiologists. JAMA Cardiol. 2021;6(12):1432-1439.
 
-[DOI](https://doi.org/10.1001/jamacardio.2021.3385) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/34495296/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/)
+[DOI](https://doi.org/10.1001/jamacardio.2021.3385) · [PMID 34495296](https://pubmed.ncbi.nlm.nih.gov/34495296/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/)
 
 **Role:** Clinician context. **Access:** Targeted main-text review via indexed PMC; supplement not reviewed.
 
@@ -536,7 +536,7 @@ Comparison: Annual Medicare payments and common-code payments by cardiologist ge
 
 Munir MM, Dillhoff M, Tsai S, Collins C, Dedhia P, Pawlik TM. Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties. JAMA Surg. 2024;159(9):1060-1070.
 
-[DOI](https://doi.org/10.1001/jamasurg.2024.2298) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39046733/) · [Reviewed source](https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588)
+[DOI](https://doi.org/10.1001/jamasurg.2024.2298) · [PMID 39046733](https://pubmed.ncbi.nlm.nih.gov/39046733/) · [Reviewed source](https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588)
 
 **Role:** Clinician context. **Access:** Targeted main-text and tables review; supplement not independently reviewed.
 
@@ -556,7 +556,7 @@ Metadata note: No linked correction or retraction appeared in the Europe PMC/MED
 
 Mauvais-Jarvis F, Bairey Merz N, Barnes PJ, Brinton RD, Carrero JJ, DeMeo DL, et al. Sex and gender: modifiers of health, disease, and medicine. Lancet. 2020;396(10250):565-582.
 
-[DOI](https://doi.org/10.1016/s0140-6736%2820%2931561-0) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32828189/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/)
+[DOI](https://doi.org/10.1016/s0140-6736%2820%2931561-0) · [PMID 32828189](https://pubmed.ncbi.nlm.nih.gov/32828189/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/)
 
 **Role:** Clinical background. **Access:** Targeted main-text review; citation and linked correction verified.
 
@@ -576,7 +576,7 @@ Metadata note: MEDLINE links a published erratum: PMID 32891210; DOI 10.1016/S01
 
 Chang WH. Understanding the COVID-19 pandemic from a gender perspective. Taiwan J Obstet Gynecol. 2020;59(6):801-807.
 
-[DOI](https://doi.org/10.1016/j.tjog.2020.09.004) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33218392/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/)
+[DOI](https://doi.org/10.1016/j.tjog.2020.09.004) · [PMID 33218392](https://pubmed.ncbi.nlm.nih.gov/33218392/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/)
 
 **Role:** Clinical background. **Access:** Targeted main-text review via indexed PMC; citation verified.
 
@@ -596,7 +596,7 @@ Metadata note: Narrative review published in 2020; metadata verification does no
 
 Betron M, Gottert A, Pulerwitz J, Shattuck D, Stevanovic-Fenn N. Men and COVID-19: Adding a gender lens. Glob Public Health. 2020;15(7):1090-1092.
 
-[DOI](https://doi.org/10.1080/17441692.2020.1769702) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32436422/) · [Reviewed source](https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702)
+[DOI](https://doi.org/10.1080/17441692.2020.1769702) · [PMID 32436422](https://pubmed.ncbi.nlm.nih.gov/32436422/) · [Reviewed source](https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702)
 
 **Role:** Clinical background. **Access:** Publisher main text reviewed via indexed page; citation verified.
 
@@ -618,7 +618,7 @@ Metadata note: No linked correction or retraction was present in the Europe PMC/
 
 Tong A, Evangelidis N, Kurnikowski A, Lewandowski M, Bretschneider P, Oberbauer R, et al. Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis. Kidney Int Rep. 2022;7(3):424-435.
 
-[DOI](https://doi.org/10.1016/j.ekir.2021.10.022) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/35257055/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/)
+[DOI](https://doi.org/10.1016/j.ekir.2021.10.022) · [PMID 35257055](https://pubmed.ncbi.nlm.nih.gov/35257055/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/)
 
 **Role:** Qualitative access context. **Access:** Targeted full-text review: methods, results, tables and limitations.
 
@@ -644,7 +644,7 @@ Metadata note: No linked correction or retraction appeared in the Europe PMC/MED
 
 Department of Error. Lancet. 2020;396(10252):668.
 
-[DOI](https://doi.org/10.1016/s0140-6736%2820%2931827-4) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32891210/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/32891210/)
+[DOI](https://doi.org/10.1016/s0140-6736%2820%2931827-4) · [PMID 32891210](https://pubmed.ncbi.nlm.nih.gov/32891210/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/32891210/)
 
 **Role:** Linked correction; not an independent study. **Access:** Correction metadata verified.
 
@@ -660,7 +660,7 @@ Metadata note: Published erratum linked by MEDLINE to PMID 32828189. No authors 
 
 Proctor K, Haffer SC, Ewald E, Hodge C, James CV. Identifying the Transgender Population in the Medicare Program. Transgend Health. 2016;1(1):250-265.
 
-[DOI](https://doi.org/10.1089/trgh.2016.0031) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/28861539/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5367475/)
+[DOI](https://doi.org/10.1089/trgh.2016.0031) · [PMID 28861539](https://pubmed.ncbi.nlm.nih.gov/28861539/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC5367475/)
 
 **Role:** Excluded by current population scope. **Access:** Full-text sections.
 
@@ -670,7 +670,7 @@ Proctor K, Haffer SC, Ewald E, Hodge C, James CV. Identifying the Transgender Po
 
 Almazan AN, Keuroghlian AS. Association Between Gender-Affirming Surgeries and Mental Health Outcomes. JAMA Surg. 2021;156(7):611-618.
 
-[DOI](https://doi.org/10.1001/jamasurg.2021.0952) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33909023/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8082431/)
+[DOI](https://doi.org/10.1001/jamasurg.2021.0952) · [PMID 33909023](https://pubmed.ncbi.nlm.nih.gov/33909023/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC8082431/)
 
 **Role:** Excluded by current population scope. **Access:** Full-text sections.
 
@@ -680,7 +680,7 @@ Almazan AN, Keuroghlian AS. Association Between Gender-Affirming Surgeries and M
 
 Baker KE, Wilson LM, Sharma R, Dukhanin V, McArthur K, Robinson KA. Hormone Therapy, Mental Health, and Quality of Life Among Transgender People: A Systematic Review. J Endocr Soc. 2021;5(4):bvab011.
 
-[DOI](https://doi.org/10.1210/jendso/bvab011) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/33644622/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/33644622/)
+[DOI](https://doi.org/10.1210/jendso/bvab011) · [PMID 33644622](https://pubmed.ncbi.nlm.nih.gov/33644622/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/33644622/)
 
 **Role:** Excluded by current population scope. **Access:** Abstract.
 
@@ -690,7 +690,7 @@ Baker KE, Wilson LM, Sharma R, Dukhanin V, McArthur K, Robinson KA. Hormone Ther
 
 Chokshi M, Morgan O, Carroll EF, Fraker JL, Holligan H, Kling JM. Disparities in Study Inclusion and Breast Cancer Screening Rates Among Transgender People: A Systematic Review. J Am Coll Radiol. 2024;21(9):1430-1443.
 
-[DOI](https://doi.org/10.1016/j.jacr.2024.04.006) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38663835/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38663835/)
+[DOI](https://doi.org/10.1016/j.jacr.2024.04.006) · [PMID 38663835](https://pubmed.ncbi.nlm.nih.gov/38663835/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38663835/)
 
 **Role:** Excluded by current population scope. **Access:** Abstract.
 
@@ -700,7 +700,7 @@ Chokshi M, Morgan O, Carroll EF, Fraker JL, Holligan H, Kling JM. Disparities in
 
 Kalavacherla S, Riviere P, Kalavacherla S, Anger JT, Murphy JD, Rose BS. Prostate Cancer Screening Uptake in Transgender Women. JAMA Netw Open. 2024;7(2):e2356088.
 
-[DOI](https://doi.org/10.1001/jamanetworkopen.2023.56088) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/38353948/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38353948/)
+[DOI](https://doi.org/10.1001/jamanetworkopen.2023.56088) · [PMID 38353948](https://pubmed.ncbi.nlm.nih.gov/38353948/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38353948/)
 
 **Role:** Excluded by current population scope. **Access:** Abstract.
 
@@ -710,7 +710,7 @@ Kalavacherla S, Riviere P, Kalavacherla S, Anger JT, Murphy JD, Rose BS. Prostat
 
 Peitzmeier SM, Khullar K, Reisner SL, Potter J. Pap test use is lower among female-to-male patients than non-transgender women. Am J Prev Med. 2014;47(6):808-812.
 
-[DOI](https://doi.org/10.1016/j.amepre.2014.07.031) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/25455121/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/25455121/)
+[DOI](https://doi.org/10.1016/j.amepre.2014.07.031) · [PMID 25455121](https://pubmed.ncbi.nlm.nih.gov/25455121/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/25455121/)
 
 **Role:** Excluded by current population scope. **Access:** Abstract.
 
@@ -720,7 +720,7 @@ Peitzmeier SM, Khullar K, Reisner SL, Potter J. Pap test use is lower among fema
 
 Bakko M, Kattari SK. Transgender-Related Insurance Denials as Barriers to Transgender Healthcare: Differences in Experience by Insurance Type. J Gen Intern Med. 2020;35(6):1693-1700.
 
-[DOI](https://doi.org/10.1007/s11606-020-05724-2) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/32128693/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7280420/)
+[DOI](https://doi.org/10.1007/s11606-020-05724-2) · [PMID 32128693](https://pubmed.ncbi.nlm.nih.gov/32128693/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7280420/)
 
 **Role:** Excluded by current population scope. **Access:** Indexed full-text methods/results; direct PMC page blocked.
 
@@ -730,7 +730,7 @@ Bakko M, Kattari SK. Transgender-Related Insurance Denials as Barriers to Transg
 
 Balkan E, Babbs G, Meyers DJ, Kelly PJA, Yee K, Pletta DR, et al. Gender-Affirming Surgery for Transgender and Gender Diverse Medicare Beneficiaries. JAMA Netw Open. 2025;8(5):e258072.
 
-[DOI](https://doi.org/10.1001/jamanetworkopen.2025.8072) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/40310645/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12046427/)
+[DOI](https://doi.org/10.1001/jamanetworkopen.2025.8072) · [PMID 40310645](https://pubmed.ncbi.nlm.nih.gov/40310645/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC12046427/)
 
 **Role:** Excluded by current population scope. **Access:** Indexed full-text methods/results; direct PMC page blocked.
 
