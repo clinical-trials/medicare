@@ -1061,3 +1061,11 @@ Linked records: Medicare benchmark rationale. Version/date: 2019. Recorded sourc
 Context and measurement: Table 1: 708.5 office visits per 100 people age 65+, 374.9 for ages 45–64 and 188.0 for ages 18–44. Nonfederal office-based physicians only; not all encounters. Older adults and infants had higher rates than other groups. Tables 2–3 concern expected payer and major reason for visits, not paid claims or patient-level disease prevalence.
 
 Ashman JJ, Santo L, Okeyode T. National Health Statistics Reports, no. 184 (2023).
+
+### P-045
+
+NLM VSAC indexed CPT 51597 descriptor, version 2021. [Source](https://vsac.nlm.nih.gov/context/cs/codesystem/CPT/version/2021/code/51597/info).
+
+Linked records: Procedure values. Version/date: 2021. Recorded source access: 2026-09-16. Verified against the indexed NLM VSAC code entry on 2026-09-16.
+
+Context and measurement: The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values.

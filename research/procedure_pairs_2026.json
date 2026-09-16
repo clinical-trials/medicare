@@ -12,8 +12,23 @@
     "author_table_url": "https://auanews.net/issues/articles/2024/july-extra-2024/upj-insight-comparison-of-work-relative-value-units-assigned-to-urological-and-gynecological-surgical-procedures",
     "table": "Directly Analogous Pairs With Similar Conditions for Valuation"
   },
+  "supplemental_classification_sources": [
+    {
+      "url": "https://vsac.nlm.nih.gov/context/cs/codesystem/CPT/version/2021/code/51597/info",
+      "description": "NLM VSAC indexed CPT 51597 descriptor, version 2021",
+      "organization": "National Library of Medicine, Value Set Authority Center",
+      "code_system": "CPT",
+      "code": "51597",
+      "version": "2021",
+      "verified_on": "2026-09-16",
+      "verification_status": "Verified against the indexed NLM VSAC code entry on 2026-09-16",
+      "access_level": "Indexed code descriptor; direct page displayed an unpopulated interactive view",
+      "note": "The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values."
+    }
+  ],
   "interpretation": [
     "Illustrative subset selected from the study authors' analogous pairs, not a random sample or a fresh estimate of a Medicare-wide sex effect.",
+    "The legacy male/female keys and derived field names preserve the original extraction order only; they do not establish patient sex or exclusive anatomy. Display comparisons as first code minus second code. In particular, CPT 51597 can include hysterectomy and must not be treated as an exclusively male procedure.",
     "Comparability is based on the published clinical assessment. Matching global days alone does not establish equal operating time, intensity, risk, or total perioperative work.",
     "The 2024 paper considered global periods, intraservice and total time, hospital days, postoperative visits, and review date. This extract independently checks 2026 RVUs and global days only.",
     "All displayed values are national unadjusted RVUs from the nonQPP file. Geographic practice-cost adjustment, payment modifiers, and claim-specific adjustments are not applied.",

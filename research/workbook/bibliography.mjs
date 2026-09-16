@@ -71,6 +71,9 @@ export async function buildBibliography(data,drugSources){
   const pairs=JSON.parse(await fs.readFile(`${root}/research/procedure_pairs_2026.json`,'utf8'));
   add(pairs.cms_landing_url,'CMS RVU26C physician relative value files','Procedure values',{source_version:pairs.csv_released,source_access_date:pairs.review_date});
   add(pairs.pair_selection_source.author_table_url,'Author-published procedure comparison table','Procedure values');
+  for(const s of pairs.supplemental_classification_sources||[]){
+    add(s.url,s.description,'Procedure values',{organization:s.organization,source_version:s.version,source_access_date:s.verified_on,verification_status:s.verification_status,access_level:s.access_level,notes:s.note});
+  }
   const cms=JSON.parse(await fs.readFile(`${root}/research/sources/CMS_source_metadata.json`,'utf8'));
   for(const s of cms){
     add(s.landingPage,s.title,'CMS data sources',{official_title:s.title,source_version:s.modified});

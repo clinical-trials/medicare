@@ -2,12 +2,13 @@
 
 Research on sex-based differences in Medicare coverage, reimbursement, patient costs and access to clinically indicated care. Medicare is the national policy benchmark for care in later life and substantial health needs.
 
-This is an ongoing evidence register and analysis framework for a future systematic review and white paper. It is not a completed systematic review or a national estimate of reimbursement bias.
+This is an ongoing evidence register, analysis framework and preliminary white paper for a future systematic review. It is not a completed systematic review or a national estimate of reimbursement bias.
 
 ## Current deliverables
 
 Updated September 16, 2026.
 
+- [White paper with figures (PDF)](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_sex_gender_equity_white_paper_2026-09-16.pdf): 15 pages, four figures, eight exploratory hypotheses and 42 cited sources, with numeric PMIDs for scientific and methodology articles. Clearly labeled as a preliminary synthesis. [Markdown manuscript](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_sex_gender_equity_white_paper_2026-09-16.md) and [figure files](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/white_paper_figures/).
 - [Evidence register and analysis dashboard](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_evidence_register_2026-09-16.xlsx): 40 care-item/indication rows and 34 active literature records, with coverage findings, clinical classifications, sources and limitations.
 - [Living bibliography](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_bibliography.md) and [RIS reference export](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_references.ris).
 - [White-paper analysis framework](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_anatomy_physiology_analysis_framework.md): Medicare benchmark rationale, anatomy/physiology distinctions, patient versus physician sex/gender, and planned comparison methods.
@@ -32,5 +33,7 @@ The dashboard distinguishes shared body systems, female and male reproductive an
 ## Reproduction and source notices
 
 The Python analysis scripts and downloaded public source files are retained for traceability. Workbook generation uses the Codex artifact runtime. Some workbook scripts contain local workspace/runtime/template paths and need configuration in another environment; a standalone installation is not packaged here. Local dependencies and rendering diagnostics are excluded from Git.
+
+The PDF and figures can be regenerated with the [white-paper builder](research/whitepaper/README.md). Figure 3 uses first-code/second-code comparisons because the urologic exenteration code is not exclusive to male patients; the classification check is documented as P-045. Legacy extraction keys remain preserved in the source JSON.
 
 Third-party data and code sets retain their source terms and copyright notices, including the AMA/ADA notices in the CMS relative-value archive. Source inclusion or formulary listing is not itself proof of Medicare coverage for every indication.

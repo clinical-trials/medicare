@@ -1531,6 +1531,14 @@ N1  - Source description from register; not necessarily formal title. Linked rec
 ER  - 
 
 TY  - ELEC
+ID  - P-045
+TI  - NLM VSAC indexed CPT 51597 descriptor, version 2021
+UR  - https://vsac.nlm.nih.gov/context/cs/codesystem/CPT/version/2021/code/51597/info
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Procedure values. Verified against the indexed NLM VSAC code entry on 2026-09-16. Version: 2021. The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values.
+ER  - 
+
+TY  - ELEC
 ID  - C-001
 AU  - National Cancer Institute,
 TI  - Male Breast Cancer

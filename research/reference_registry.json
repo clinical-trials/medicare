@@ -5,7 +5,7 @@
     "excluded_studies": 8,
     "linked_corrections": 1,
     "verified_scientific_metadata": 43,
-    "policy_and_data_sources": 44,
+    "policy_and_data_sources": 45,
     "clinical_guidance_sources": 4,
     "methodology_sources": 2
   },
@@ -4111,6 +4111,25 @@
       "source_version": "2019",
       "source_access_date": "2026-09-16",
       "notes": "Table 1: 708.5 office visits per 100 people age 65+, 374.9 for ages 45–64 and 188.0 for ages 18–44. Nonfederal office-based physicians only; not all encounters. Older adults and infants had higher rates than other groups. Tables 2–3 concern expected payer and major reason for visits, not paid claims or patient-level disease prevalence."
+    },
+    {
+      "id": "P-045",
+      "url": "https://vsac.nlm.nih.gov/context/cs/codesystem/CPT/version/2021/code/51597/info",
+      "descriptions": [
+        "NLM VSAC indexed CPT 51597 descriptor, version 2021"
+      ],
+      "linked_record_ids": [
+        "Procedure values"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Verified against the indexed NLM VSAC code entry on 2026-09-16",
+      "current_use": true,
+      "organization": "National Library of Medicine, Value Set Authority Center",
+      "source_version": "2021",
+      "source_access_date": "2026-09-16",
+      "access_level": "Indexed code descriptor; direct page displayed an unpopulated interactive view",
+      "notes": "The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values."
     }
   ],
   "clinical_guidance_sources": [
