@@ -1,9 +1,10 @@
 {
   "title": "Sex, gender and equity in Medicare reimbursement",
+  "version": "1.1",
   "date": "2026-09-16",
   "stage": "Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed",
   "pdf": "Medicare_sex_gender_equity_white_paper_2026-09-16.pdf",
-  "pages": 15,
+  "pages": 17,
   "figures": 4,
   "cited_references": [
     "L-A01",
@@ -74,11 +75,22 @@
     "M-001": "33782057",
     "M-002": "21195583"
   },
+  "methods_pages": [
+    3,
+    4,
+    5
+  ],
   "input_files": [
     "research/synthesis_analysis.json",
     "research/procedure_pairs_2026.json",
     "research/preliminary_synthesis.json",
-    "research/reference_registry.json"
+    "research/reference_registry.json",
+    "REVIEW_SCOPE.md",
+    "research/scoped_evidence.json",
+    "research/analyze_formularies.py",
+    "research/formulary_results.json",
+    "research/formulary_validation.json",
+    "research/whitepaper/build_whitepaper.py"
   ],
   "checks": [
     "All formulation states sum to 5,499",
@@ -86,21 +98,28 @@
     "Every in-text reference resolves",
     "All scientific and methodology citations retain PMIDs",
     "Four figure captions present",
-    "15 pages verified; no orphan overflow pages",
-    "42 cited sources; 23 scientific/methodology PMIDs verified",
-    "All PDF internal citation destinations resolve",
-    "HTTPS source links preserved in PDF and Markdown",
-    "Existing scientific, methodology and clinical-guidance records unchanged",
-    "Excluded studies absent from cited synthesis"
+    "Methods verified on pages 3-5",
+    "17 pages; no orphan overflow pages",
+    "All 42 references and 23 scientific/methodology PMIDs preserved",
+    "All internal citation destinations resolve",
+    "All non-methods content preserved except version and numbering",
+    "All four figure images unchanged from version 1.0",
+    "Completed work distinguished from planned systematic review methods"
   ],
-  "visual_review": "Passed: all 15 pages rendered and inspected; revised figures on pages 6-7 re-rendered and rechecked. No clipping, overlap or broken table pagination.",
-  "pdf_sha256": "a6fd1c090333abc3dfa6abebae12a26498c12c9e4e8268307a9cf7a02837f020",
+  "visual_review": "Passed: all 17 pages rendered; full-size Methods pages 3-5 inspected and complete-document overview checked. Unchanged content was compared with version 1.0; no clipping, overlap or orphan pages.",
+  "pdf_sha256": "4cd1aaf1e728d9c23c641b134ab0b534713c8ad23abbafb6e20deb8f32b3bcef",
   "input_sha256": {
     "research/synthesis_analysis.json": "af0c51802d13e0ed927dc0fa98784cafe1e0adee5c81db72a28ca82e0ee2f850",
     "research/procedure_pairs_2026.json": "9a8de0b41f11a7037a8f22a172eedd01f0cce6a0dbc7113813168beb425a5fdb",
     "research/preliminary_synthesis.json": "07c24ab5e98da7aeede7d360ea4797b09642df87b220225d2330d034b530b404",
-    "research/reference_registry.json": "b622bb98cf9592e4c3c145a69f3dc21432a5f92b201a6d6b2854b80c16699eae"
+    "research/reference_registry.json": "b622bb98cf9592e4c3c145a69f3dc21432a5f92b201a6d6b2854b80c16699eae",
+    "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+    "research/scoped_evidence.json": "95febcf810d26c9f5551b99c09838a15c5f7bd2f4368d5b8cf26c627b33e5968",
+    "research/analyze_formularies.py": "11b053eb5b147093d1da5f96abc09117eda4bc03e9f689536a0e0624862d4753",
+    "research/formulary_results.json": "91e842a3522ff38d7ddbd849ce2271f048f2371598402a81dbe89d00344097f5",
+    "research/formulary_validation.json": "1fb85e37dade898f606d5bed73229c175868ff1be6834844e1e3b26e7c056f29",
+    "research/whitepaper/build_whitepaper.py": "716975a98eb2a3292320462f5337f3d82a55261752904ea2fb1c613f85cb581a"
   },
-  "pdf_internal_links": 100,
+  "pdf_internal_links": 110,
   "pdf_external_link_annotations": 70
 }

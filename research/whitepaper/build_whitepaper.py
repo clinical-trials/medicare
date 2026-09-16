@@ -209,7 +209,7 @@ def callout(title,text):
 
 # Page 1: cover with substantive abstract and honest review stage.
 story.append(Spacer(1,34))
-p('MEDICARE RESEARCH / WHITE PAPER / VERSION 1.0','eyebrow')
+p('MEDICARE RESEARCH / WHITE PAPER / VERSION 1.1','eyebrow')
 story.append(Paragraph('Sex, gender and equity<br/>in Medicare reimbursement',
     ParagraphStyle('cover',parent=styles['h1'],fontSize=32,leading=39,spaceAfter=20)))
 manuscript.append('# Sex, gender and equity in Medicare reimbursement')
@@ -236,21 +236,46 @@ for title,text in [
  ('6. Coverage alone is an incomplete access measure','Financial, transport and caregiving barriers may affect treatment completion. Interviews and clinical frameworks suggest mechanisms, but do not quantify Medicare-specific causal effects. [L-Q01; L-B01]')]:
     heading(title);p(text)
 
-page(2,'Scope, sources and methods')
-heading('Medicare as a national policy benchmark')
-p('Medicare is a useful benchmark for care in later life, when per-person use and spending are substantial. In 2020, adults aged 65 and older were 17% of the population and accounted for 37% of all-payer personal health care spending. This does not mean that Medicare finances most US care or that most lifetime care occurs after age 65. Younger beneficiaries remain in scope. [P-041; P-043]')
-heading('Population and dated scope amendment')
-p('At the investigator\'s direction, the scope was amended on September 16, 2026 to focus on cisgender women and men and exclude transgender-focused patient studies and gender-affirming-care indications. The amendment followed initial searching. Male/female reporting does not establish gender identity: such cohorts remain candidates pending eligibility adjudication. Mixed-population results are eligible only when the in-scope results can be separated. Policy and code data contain no patient identity.')
-heading('Current synthesis')
-p('We organized the selected register by clinical indication, anatomy/physiology, analytic subject, payer and policy period. We retained conflicting and null findings and separated official rules from empirical evidence about their effects. This is a structured narrative synthesis of an assembled evidence set, not an exhaustive review of all Medicare procedures or prescriptions.')
-table([['Register component','Current extent and interpretation'],
- ['Care inventory','40 selected care-item/indication rows; neither a census nor a representative sample.'],
- ['Active literature','34 records: 27 primary candidates or retained code-policy components and 7 contextual records.'],
- ['Analytic subjects','18 patient care/access; 10 service/anatomy valuation; 3 physician sex/gender; 3 general clinical background.'],
- ['Audit trail','8 excluded studies and 1 linked correction retained separately. Two methodology references are separate from the 34 literature records.']], [125,391])
-p('PMIDs, DOIs, source links, access levels and stable reference IDs are preserved. Verified metadata does not imply full-text review or final inclusion. Some findings are available only through abstracts or accessible excerpts. No formal GRADE ratings have been assigned. [M-001; M-002]','small')
+page(2,'Methods: design and eligibility')
+heading('Design, objective and review status')
+p('This preliminary narrative synthesis combines a selected literature register, Medicare policy review and descriptive analyses of public CMS files. The question is whether coverage rules, service values, patient costs and administrative requirements align with clinically indicated care for women and men. The project has not completed a systematic review. No prospective registration or protocol fixed before searching is documented; the eight hypotheses were developed after evidence inspection.')
+heading('Medicare benchmark and population')
+p('Medicare serves as a national policy benchmark for later-life care. Adults aged 65 and older accounted for 17% of the population and 37% of all-payer personal health care spending in 2020. These figures do not establish that Medicare finances most US care. Younger beneficiaries remain eligible, including those entitled through disability, end-stage renal disease or amyotrophic lateral sclerosis; age and entitlement strata should be preserved when available. [P-041; P-043]')
+p('At the investigator\'s direction, the population scope was amended on September 16, 2026, after initial evidence identification, to focus on cisgender women and men. Transgender-focused patient studies and gender-affirming-care indications were excluded from this project. Male/female reporting alone does not establish gender identity; uncertain cohorts remain candidates pending adjudication. Mixed-population findings require separately extractable eligible results. Policy and code evidence is assessed by indication without inferring patient identity.')
+heading('Source identification and access')
+p('The register was assembled through investigator-provided publications and targeted source retrieval. Article material came from PubMed, PMC, publisher or author-institution pages, indexed text and selected PDFs. Policy sources included federal statutes, CMS manuals and coverage documents, Medicare.gov, CMS datasets and identified contractor or plan examples. The Lancet review guided clinical framing and citation following; its cited references were not automatically treated as screened evidence. [L-B01; L-B01-E1]')
+p('September 16, 2026 is the extraction and verification date, not the endpoint of a completed reproducible database search. Complete search strings, search-specific result counts, universal deduplication and a full screening flow are not documented. No comprehensive language, publication-date or database coverage can therefore be claimed. National rules, local decisions and individual plan examples retain their distinct scope.','small')
 
-page(3,'Separate the clinical and payment questions')
+page(3,'Methods: evidence handling')
+heading('Selection, extraction and classification')
+p('The active register retains empirical patient studies and code/policy components as candidate evidence; clinical reviews, qualitative accounts and physician-payment studies have separately labeled roles. Exclusion reasons and original broad-search records remain in the audit trail. Independent duplicate human screening, duplicate extraction and final adjudication have not been completed.')
+p('Structured records capture citation, design, population, payer, data period, findings, limitations, relevance and source access where recorded. Titles, authors, DOI and PMID were checked against PubMed/MEDLINE metadata, including Europe PMC MEDLINE records. PMCID and PMID remain distinct; corrections are linked rather than counted as new studies. Extraction combines abstracts, accessible excerpts and targeted main/full-text review. Metadata verification is not confirmation of every finding or final eligibility.')
+p('Each care row is classified by shared systems/functions, female or male reproductive anatomy, female or male reproductive physiology, or mixed/site-dependent services. Each study separately records patient, service, physician or general-background subject; analytical unit; comparison axis; and inference limits. The framework requires clinical need to be defined independently of coverage rules; patient-level need was not measured in these CMS summaries. Figure 1 presents these distinctions.')
+table([['Register component','Count and interpretation'],
+ ['Care items','40 selected care-item/indication rows; not a census or representative sample.'],
+ ['Active literature','34 records: 27 primary candidates or code-policy components; 7 contextual records.'],
+ ['Analytic subjects','18 patient care/access; 10 service/anatomy valuation; 3 physician sex/gender; 3 general clinical background.'],
+ ['Separate audit records','8 excluded studies, 3 excluded care items and 1 linked correction. Two methodology references are outside the 34-record count.']], [126,390])
+heading('Narrative synthesis and appraisal')
+p('Findings were grouped by indication, unit, payer, policy period and outcome. Coverage, RVUs, actual payments, patient spending and completed care were kept separate. Official rules describe policy, not effects. Null, reversed and conflicting findings were retained. No meta-analysis, causal estimate or national prevalence of bias was calculated. Limitations were recorded descriptively; formal design-specific risk-of-bias, publication-bias and outcome-specific GRADE assessments remain unfinished. [M-002]')
+p('AI-assisted retrieval, extraction and scripted checks supported this work; computational verification does not replace independent expert screening or appraisal. Register counts are not a PRISMA flow diagram. Planned systematic-review procedures are described later and are not represented as completed methods. [M-001]','small')
+
+page(4,'Methods: CMS data analysis')
+heading('Formulary cohort and drug matching')
+p('Figure 2 uses the August 2026 CMS monthly file (release August 26; archive member label August 31) and the August 25 formulary reference file, retrieved September 16. Repeated county rows were collapsed to unique contract/plan/segment identifiers; a consistency check required one formulary per segment. Rows whose suppression flag was not N were excluded: 19 distinct segments. The 112,294 source rows yielded 5,499 unsuppressed segments, 5,055 contract-plan pairs and 328 formularies. CMS public-file scope omits employer, PACE, most demonstration and non-Part-D plans. [P-002; P-034; P-037; P-038]')
+p('Basic formulary entries were joined to the reference by RxNorm concept identifier (RxCUI) and to segments by formulary ID. Target groups used ingredient, dosage form and brand fields. Single-ingredient hormone groups excluded combination concepts; generic formulation groups used non-brand-specific clinical-drug concepts (TTY = SCD). Estring was identified by brand. Listing required at least one matching product/strength, not every dose, manufacturer or package. Twenty-three unmatched basic-file RxCUIs remained unclassified; no eligible formulary was missing.')
+heading('Three mutually exclusive states per formulation')
+p('PA = prior authorization; ST = step therapy. The same option must have neither flag to meet state U.','small')
+table([['State','Operational definition'],
+ ['U: option without PA/ST','At least one matched row has both prior-authorization and step-therapy flags equal to N.'],
+ ['R: all options flagged','One or more matched rows are listed, but none has both flags equal to N: listed count minus U.'],
+ ['NL: no matched listing','No matched row is listed: 5,499 minus listed count.']], [144,372])
+p('Each segment receives equal weight. Counts sum to 5,499 per row; percentages equal count / 5,499 x 100, rounded for display. Ten specific groups are plotted; two overlapping all-form aggregates are omitted. No enrollment weighting, confidence intervals or between-drug significance tests were applied. Reused formularies are not independent policy decisions. Flags do not establish clinical suitability, actual criteria, costs, denials or the outcome of an exception.','small')
+heading('Procedure values and computational checks')
+p('Figure 3 uses five purposively selected published procedure pairs and the July 2026 CMS RVU26C nonQPP file, released June 30. We extracted active-status, blank-modifier code rows and computed first-code minus second-code work RVUs. Values are unadjusted; no geographic adjustment, dollar conversion or pooled effect was calculated. Published matching is not proof of equal complete work; code 51597 is not male-exclusive. [L-P02; P-035; P-036; P-045]')
+p('Scripts checked joins, denominators, state sums and all five RVU differences. A separate AI-assisted implementation reproduced selected formulary joins/counts. Source files, extraction scripts, concept lists and validation records are retained. Figures use Matplotlib; the PDF uses ReportLab. No patient-level claims or identifiable records were analyzed.','small')
+
+page(5,'Separate the clinical and payment questions')
 figure('figure_1_analytical_streams',226,
  '<b>Figure 1. Three analytical streams.</b> Proposed classification framework, not a measured causal model. The patient, service and physician units must remain separate. Clinical framing draws on the Lancet review and its correction. [L-B01; L-B01-E1]')
 p('Anatomy and physiology describe the care being delivered. They do not establish a person\'s gender identity or the gender of the clinician. Record the original study\'s sex/gender terminology and measurement method.')
@@ -262,7 +287,7 @@ table([['Clinical basis','Examples and comparison approach'],
  ['Mixed/site-dependent services','Split bundled procedures or services by site, indication and code before comparison.']], [140,376])
 p('Clinical need must be defined independently of coverage eligibility. Otherwise people excluded by a rule disappear from the denominator, concealing possible unmet need.','small')
 
-page(4,'Drug coverage varies within clinical care')
+page(6,'Drug coverage varies within clinical care')
 figure('figure_2_formulary_states',329,
  '<b>Figure 2. Formulary states for ten selected formulations, August 2026.</b> Each bar contains 5,499 unsuppressed plan segments, equally weighted, using 328 formularies. PA = prior authorization; ST = step therapy. States are mutually exclusive within each row. Small segments are unlabeled; exact counts appear in the appendix. Sources: CMS monthly file and reference file. [P-002; P-034; P-037; P-038]')
 p('The national snapshot does not support a blanket estradiol exclusion. Oral, vaginal and transdermal products still differ in indication, dose, suitability and restrictions. Testosterone gel is shown as another clinical context, not an equivalent treatment comparator.')
@@ -270,7 +295,7 @@ p('Basic Part D excludes a drug when used for sexual or erectile dysfunction. A 
 p('Clinical evidence is mixed: one vaginal estradiol trial found no primary symptom advantage over dual placebo; a broader review found possible benefits for selected symptoms, generally with low certainty. These findings do not settle every formulation or indication. [L-D03; L-D04]')
 p('<b>Inference limit:</b> Listed means at least one matched product/strength. These data contain no beneficiary enrollment weights, clinical need, actual costs, denials or treatment outcomes. PA/ST flags do not disclose the criteria. Nonlisting does not rule out a successful exception. [P-033]','small')
 
-page(5,'Procedure valuation: signals in both directions')
+page(7,'Procedure valuation: signals in both directions')
 figure('figure_3_selected_work_rvu_differences',258,
  '<b>Figure 3. Five selected procedure pairs, July 2026.</b> Bars show national, unadjusted work relative value units (RVUs): first listed code minus second. Published anatomical/indication comparisons are illustrative, not random or a pooled sex effect. The urologic exenteration code 51597 is not exclusive to male patients. [P-035; P-036; P-045]')
 table([['Study','Observed result','What it can establish'],
@@ -280,7 +305,7 @@ table([['Study','Observed result','What it can establish'],
 p('Work RVUs are not dollars paid. Complete comparisons need independently measured preoperative, intraoperative and postoperative work, intensity and risk. Matching global periods alone is insufficient. For the genital-lesion pair, compare like treatment methods; the male code specifies chemical treatment. [P-035; P-036]','small')
 p('Breast reconstruction adds a within-condition question: flap procedures may have lower work RVUs per operative hour than implant procedures. This is a complexity/valuation question, not a patient-sex or physician-gender estimate. [L-P07]','small')
 
-page(6,'From benefit rules to completed care')
+page(8,'From benefit rules to completed care')
 figure('figure_4_care_pathway',171,
  '<b>Figure 4. Proposed care-pathway measurement framework.</b> Arrows organize measurements; they do not represent estimated causal effects. Clinical need is assessed independently of reimbursement eligibility. Practical barriers are hypotheses to test. [L-B01; L-Q01]')
 heading('Shared-condition care can reveal gaps affecting men')
@@ -291,7 +316,7 @@ heading('Historical burden must be interpreted against current policy')
 p('A breast-cancer study reported greater monthly out-of-pocket spending with lymphedema. Insurer-policy research also describes coverage gaps. Both predate Medicare\'s compression-treatment benefit, which began in 2024. A current evaluation should test unmet need and costs after the change; compression items, pumps and surgery are distinct benefits. [L-A01; L-A02; P-021; P-022]')
 p('Kidney-care interviews with 51 nephrologists in 22 countries suggest financial, transport and caregiving barriers. Only seven respondents were in the United States. Their accounts are perceptions, not measured Medicare denial rates or causal estimates. [L-Q01]','small')
 
-page(7,'Physician sex/gender: a separate question')
+page(9,'Physician sex/gender: a separate question')
 p('The user-supplied ophthalmology, cardiology and surgery papers compare physicians. They cannot establish that women patients receive lower coverage or payments. Annual Medicare receipts also differ from physician salary, per-service payment and patient out-of-pocket cost. [L-C01; L-C02; L-C03]')
 table([['Evidence','Outcome and finding','Interpretation boundary'],
  ['Ophthalmology\nAhmad, 2020 [L-C01]','Women ophthalmologists had lower adjusted annual Medicare collections.','Abstract-level extraction; collections do not measure salary or a patient-sex contrast.'],
@@ -310,7 +335,7 @@ def hypothesis_card(rid, title, claim, test, challenge, refs):
     p('<b>Hypothesis:</b> '+claim)
     p('<b>Test:</b> '+test+' <b>What would weaken it:</b> '+challenge+' '+refs,'small')
 
-page(8,'Exploratory hypotheses: patient access')
+page(10,'Exploratory hypotheses: patient access')
 p('These hypotheses were developed after inspecting the selected evidence. They are research propositions, not preregistered analyses or confirmed findings. Clinical need and patient preferences must be established independently of coverage rules.','small')
 hypothesis_card('HYP-01','Formulation restrictions',
  'For beneficiaries who need a particular formulation for menopause symptoms or genitourinary syndrome of menopause (GSM), greater cost or authorization burden reduces timely use of suitable treatment.',
@@ -333,7 +358,7 @@ hypothesis_card('HYP-05','Practical barriers in kidney care',
  'Such support precisely fails to reduce the completion gap. Absence of a sex-by-intervention interaction alone is not a refutation.',
  '[L-Q01]')
 
-page(9,'Exploratory hypotheses: valuation and policy')
+page(11,'Exploratory hypotheses: valuation and policy')
 hypothesis_card('HYP-02','Comparable clinical work',
  'Across a prespecified matched set, female-anatomy procedures have lower average work RVUs after accounting for independently measured complete clinical work.',
  'Fix the clinical matches before viewing values; measure the full episode. Estimate mean paired differences and matching sensitivity.',
@@ -356,7 +381,7 @@ hypothesis_card('HYP-08','Complex reconstruction',
  '[L-P07; L-P08; L-P09; P-035]')
 p('Priority sequence: complete the formulation audit; extend the analogous-procedure set; design a contemporary shared-condition patient-access study. All eight hypotheses remain untested in this project.','small')
 
-page(10,'Completing the systematic review')
+page(12,'Completing the systematic review')
 heading('Search and screen transparently')
 p('The next phase should specify dated searches across bibliographic databases and Medicare policy sources, publish complete search strings, deduplicate records, and use independent screening with documented resolution of disagreements. Expand beyond reproductive care to cardiovascular, kidney, lung, cancer, metabolic, musculoskeletal, pain, mental-health and preventive care. Use the Lancet review for citation following, then screen underlying papers independently. [L-B01]')
 heading('Appraise evidence at the appropriate level')
@@ -369,7 +394,7 @@ p('The evidence set is selected and concentrated in reproductive care. Eligibili
 callout('Plain-language concept for public communication',
  'We are asking whether Medicare rules help women and men obtain the care they actually need. We will track how evidence is found and selected using PRISMA, then assess how much confidence each important conclusion deserves using GRADE. The goal is to identify where policies appear fair, where care may be harder to obtain, and what evidence is still missing. This paper is the starting synthesis, not the completed review.')
 
-page(11,'Data appendix: figures 2 and 3')
+page(13,'Data appendix: figures 2 and 3')
 p('<b>Table A1.</b> Exact plan-segment counts underlying Figure 2. Every row totals 5,499. U = at least one listed option without PA/ST; R = listed, but every matched option has PA and/or ST; NL = no matched listing. These states are not rates of claim approval. [P-002; P-034; P-037; P-038]','small')
 table([['Formulation','U','R','NL']]+[[name,str(r['at_least_one_option_without_PA_ST']),
     str(r['listed_all_options_PA_or_ST']),str(r['no_matched_listing'])] for name,r in zip(names,dist)],
@@ -382,7 +407,7 @@ table([['Code pair (first / second)','First code','Second code','Difference']]+[
 p('Reproducibility: figures derive from research/synthesis_analysis.json and research/procedure_pairs_2026.json. The repository preserves source dates, URLs, data extraction scripts and source notices. A static release is dated September 16, 2026; later policy or formulary changes require a new analysis.','small')
 
 # References include every citation actually used, with numeric PMIDs and access status.
-page(12,'References and source notes')
+page(14,'References and source notes')
 p('Stable IDs connect this paper to the evidence workbook and living bibliography. Every cited scientific article has a verified PMID below. Access notes describe the extraction available to this project, not the quality of the publication. Policy labels are descriptive source labels. No excluded study supplies this synthesis.','small')
 policy_labels={
  'P-002':'CMS. Monthly Part D formulary archive, August 2026 (release August 26, 2026).',
@@ -448,12 +473,16 @@ for rid in ref_ids:
     assert f'[{rid}]' in alltext
 assert '32828189' in alltext and '32891210' in alltext
 assert '33782057' in alltext and '21195583' in alltext
-manifest={'title':'Sex, gender and equity in Medicare reimbursement','date':'2026-09-16',
+manifest={'title':'Sex, gender and equity in Medicare reimbursement','version':'1.1','date':'2026-09-16',
     'stage':analysis['stage'],'pdf':PDF.name,'pages':len(reader.pages),'figures':4,
     'cited_references':ref_ids,'scientific_and_methodology_pmids':{
         rid:records[rid]['pmid'] for rid in ref_ids if rid.startswith(('L-','M-'))},
+    'methods_pages':[3,4,5],
     'input_files':['research/synthesis_analysis.json','research/procedure_pairs_2026.json',
-        'research/preliminary_synthesis.json','research/reference_registry.json'],
+        'research/preliminary_synthesis.json','research/reference_registry.json',
+        'REVIEW_SCOPE.md','research/scoped_evidence.json','research/analyze_formularies.py',
+        'research/formulary_results.json','research/formulary_validation.json',
+        'research/whitepaper/build_whitepaper.py'],
     'checks':['All formulation states sum to 5,499','All five RVU differences recomputed',
         'Every in-text reference resolves','All scientific and methodology citations retain PMIDs',
         'Four figure captions present'], 'visual_review':'Required after generation'}
