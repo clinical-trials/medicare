@@ -1,0 +1,72 @@
+{
+  "year": 2024,
+  "all_source_rows": 14536,
+  "overall_product_rows": 3625,
+  "rows": [
+    {
+      "Brnd_Name": "Estradiol*",
+      "Gnrc_Name": "Estradiol",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "4055858",
+      "Tot_Benes_2024": "1611030",
+      "Tot_Spndng_2024": "218158281.52"
+    },
+    {
+      "Brnd_Name": "Intrarosa",
+      "Gnrc_Name": "Prasterone (Dhea)",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "11112",
+      "Tot_Benes_2024": "3611",
+      "Tot_Spndng_2024": "4306828.15"
+    },
+    {
+      "Brnd_Name": "Osphena",
+      "Gnrc_Name": "Ospemifene",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "17063",
+      "Tot_Benes_2024": "4417",
+      "Tot_Spndng_2024": "7843922.81"
+    },
+    {
+      "Brnd_Name": "Revatio",
+      "Gnrc_Name": "Sildenafil Citrate",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "684",
+      "Tot_Benes_2024": "100",
+      "Tot_Spndng_2024": "7220470.14"
+    },
+    {
+      "Brnd_Name": "Sildenafil Citrate",
+      "Gnrc_Name": "Sildenafil Citrate",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "837854",
+      "Tot_Benes_2024": "240319",
+      "Tot_Spndng_2024": "38871229.76"
+    },
+    {
+      "Brnd_Name": "Testosterone",
+      "Gnrc_Name": "Testosterone",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "556670",
+      "Tot_Benes_2024": "132638",
+      "Tot_Spndng_2024": "93434855.74"
+    },
+    {
+      "Brnd_Name": "Veozah",
+      "Gnrc_Name": "Fezolinetant",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "52827",
+      "Tot_Benes_2024": "13805",
+      "Tot_Spndng_2024": "38434966"
+    },
+    {
+      "Brnd_Name": "Viagra",
+      "Gnrc_Name": "Sildenafil Citrate",
+      "Mftr_Name": "Overall",
+      "Tot_Clms_2024": "398",
+      "Tot_Benes_2024": "92",
+      "Tot_Spndng_2024": "164848.43"
+    }
+  ],
+  "caution": "Gross drug spending includes plan and beneficiary amounts, before rebates; not federal reimbursement alone. Drug names lack indication. Beneficiaries cannot be added across products."
+}

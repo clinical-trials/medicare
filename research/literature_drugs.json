@@ -1,0 +1,458 @@
+{
+  "as_of": "2026-09-16",
+  "scope": "Nationwide Medicare benefit rules with national public formulary analysis and named plan examples; clinical studies do not independently establish reimbursement.",
+  "items": [
+    {
+      "id": "D01",
+      "domain": "Menopause",
+      "item": "Generic oral estradiol",
+      "indication": "Menopausal vasomotor symptoms",
+      "population": "People experiencing menopause; much evidence concerns postmenopausal women",
+      "medicare_part": "Part D",
+      "status": "Covered with conditions",
+      "policy_summary": "All analyzed unsuppressed plan segments listed at least one generic oral estradiol product. Blue Medicare Essential Plus lists 0.5/1/2 mg tablets at Tier 1. No nationwide exclusion of generic estradiol was found.",
+      "policy_scope": "CMS August 2026 snapshot; Blue Medicare Essential Plus HMO-POS, September 1, 2026, printed page 58.",
+      "comparison": "Compare hormone replacement with testosterone for documented hypogonadism; Viagra for erectile dysfunction has a different statutory treatment.",
+      "disparity_evidence": "Broad formulary listing is counterevidence to a blanket female-hormone exclusion; it does not establish affordability, successful claims, or equal treatment.",
+      "evidence_type": "National descriptive formulary analysis; plan policy; observational outcomes",
+      "limitations": "Listing does not cover every manufacturer, diagnosis, or claim. Oral systemic estrogen cannot be treated as clinically equivalent to vaginal estrogen or every testosterone use.",
+      "next_question": "What are age-specific denial rates, patient costs, and exceptions for the same indication?",
+      "policy_url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "study_ids": [
+        "L-D02",
+        "L-D10"
+      ]
+    },
+    {
+      "id": "D02",
+      "domain": "Menopause",
+      "item": "Transdermal estradiol patches and topical gels",
+      "indication": "Menopausal vasomotor symptoms",
+      "population": "People experiencing menopause who need systemic therapy",
+      "medicare_part": "Part D",
+      "status": "Plan dependent",
+      "policy_summary": "The national snapshot shows wider listing of generic patches than gels. Blue Medicare Essential Plus lists patches at Tier 3 and gel at Tier 4; route and formulation matter.",
+      "policy_scope": "CMS August 2026 snapshot; selected plan September 1, 2026. See separate national formulary results.",
+      "comparison": "Compare with oral estradiol and testosterone gel while accounting for indication, clinical suitability, and formulary alternatives.",
+      "disparity_evidence": "Route-specific access differences are observed; their cause and clinical consequences are not established by listing data.",
+      "evidence_type": "National descriptive formulary analysis; plan policy; observational outcomes",
+      "limitations": "Formulations are not interchangeable for every patient. Observational route comparisons cannot establish causal superiority or prove discriminatory restrictions.",
+      "next_question": "How often are a clinically preferred route and its exception denied?",
+      "policy_url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "study_ids": [
+        "L-D02",
+        "L-D10"
+      ]
+    },
+    {
+      "id": "D03",
+      "domain": "Genitourinary menopause",
+      "item": "Low-dose vaginal estradiol: cream, insert/tablet, or local ring",
+      "indication": "Genitourinary syndrome of menopause, including vaginal dryness and atrophy-related painful intercourse",
+      "population": "Postmenopausal people with symptomatic GSM",
+      "medicare_part": "Part D",
+      "status": "Covered with conditions",
+      "policy_summary": "Generic cream appears in all analyzed unsuppressed plan segments; inserts and Estring vary. Selected Blue Medicare tiers differ by formulation. These atrophy treatments are not categorically excluded merely because symptoms affect sexual activity.",
+      "policy_scope": "CMS August 2026 snapshot; selected plan September 1, 2026. Local Estring is distinct from systemic estrogen rings.",
+      "comparison": "Compare local formulations and nonhormonal moisturizers; erectile-dysfunction medicines address a different condition and benefit exclusion.",
+      "disparity_evidence": "A Medicare study reports rising spending per treated beneficiary for selected vaginal-estrogen products; national listing contradicts a blanket exclusion. Direct evidence of sex-based denials is absent.",
+      "evidence_type": "Medicare prescribing/cost study; randomized trial; systematic review; formulary analysis",
+      "limitations": "Cost study may be affected by product selection and generic substitution. A 302-person trial found no additional symptom benefit over placebo; broader review finds some benefits with low certainty.",
+      "next_question": "Which formulation provides accessible treatment for patients unable to use covered cream?",
+      "policy_url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "study_ids": [
+        "L-D01",
+        "L-D03",
+        "L-D04"
+      ]
+    },
+    {
+      "id": "D04",
+      "domain": "Menopause",
+      "item": "Systemic estradiol plus progestogen",
+      "indication": "Menopausal vasomotor symptoms when endometrial protection is needed",
+      "population": "Postmenopausal people with a uterus",
+      "medicare_part": "Part D",
+      "status": "Plan dependent",
+      "policy_summary": "Blue Medicare Essential Plus lists estradiol/norethindrone combination tablets at Tier 4. Coverage and age-related prior authorization vary by plan and product; there is no universal prohibition on combined menopausal therapy.",
+      "policy_scope": "Selected plan September 1, 2026; not a census of all combination regimens or standalone progesterone.",
+      "comparison": "Compare complete regimens, including progestogen, rather than estrogen alone in patients with a uterus.",
+      "disparity_evidence": "Product and age rules can burden access; historic randomized safety findings provide relevant counterevidence to interpreting every restriction as sex bias.",
+      "evidence_type": "Plan formulary; randomized clinical evidence; Medicare observational outcomes",
+      "limitations": "WHI studied oral conjugated estrogens plus medroxyprogesterone for chronic-disease prevention. It cannot determine the benefit-risk balance of every modern formulation, symptom indication, or younger patient.",
+      "next_question": "Are restrictions aligned with formulation-specific evidence and individualized clinical risk?",
+      "policy_url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "study_ids": [
+        "L-D02",
+        "L-D10"
+      ]
+    },
+    {
+      "id": "D05",
+      "domain": "Menopause",
+      "item": "Fezolinetant (Veozah)",
+      "indication": "Moderate-to-severe vasomotor symptoms due to menopause",
+      "population": "People with menopausal vasomotor symptoms, including those avoiding hormones",
+      "medicare_part": "Part D",
+      "status": "Plan dependent",
+      "policy_summary": "Listing varies nationally; most listing segments flag prior authorization for every listed option. Blue Medicare Essential Plus lists 45 mg at Tier 4 with prior authorization and a quantity limit.",
+      "policy_scope": "CMS August 2026 snapshot; selected plan September 1, 2026, printed page 47.",
+      "comparison": "Compare with systemic estrogen when suitable and other nonhormonal treatments; differences in price and safety must be examined.",
+      "disparity_evidence": "Coverage friction is measurable; evidence does not show whether restrictions cause unequal access relative to clinically comparable male treatments.",
+      "evidence_type": "National formulary analysis; randomized efficacy trial; FDA safety communication",
+      "limitations": "SKYLIGHT 1 enrolled women aged 40–65. Short trials cannot establish safety in older Medicare populations; FDA subsequently added a serious liver-injury warning and monitoring requirements.",
+      "next_question": "Do prior authorization criteria allow exceptions for contraindications or intolerance to alternatives?",
+      "policy_url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "study_ids": [
+        "L-D05"
+      ]
+    },
+    {
+      "id": "D06",
+      "domain": "Menopause",
+      "item": "Paroxetine mesylate 7.5 mg capsule",
+      "indication": "Moderate-to-severe menopausal vasomotor symptoms",
+      "population": "Postmenopausal people seeking nonhormonal treatment",
+      "medicare_part": "Part D",
+      "status": "Plan dependent",
+      "policy_summary": "The August 2026 basic formulary file lists the menopause-specific 7.5 mg capsule in some formularies. Do not infer its coverage from generic paroxetine antidepressant tablets.",
+      "policy_scope": "CMS August 2026 snapshot; RxCUI 1430122 independently mapped in the CMS reference file.",
+      "comparison": "Compare approved 7.5 mg capsules with other nonhormonal therapies; alternative paroxetine doses have different labeling and coverage questions.",
+      "disparity_evidence": "Variation within the same active moiety is a concrete access question; neither formulation preference nor clinical efficacy establishes sex discrimination.",
+      "evidence_type": "National formulary record; two randomized efficacy trials",
+      "limitations": "This supplementary screen is separate from the original drug-group table. Off-label alternatives require their own medically accepted indication and benefit assessment.",
+      "next_question": "Do plans offer a usable nonhormonal option when estrogen is inappropriate?",
+      "policy_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+      "study_ids": [
+        "L-D06"
+      ]
+    },
+    {
+      "id": "D07",
+      "domain": "Genitourinary menopause",
+      "item": "Ospemifene (Osphena)",
+      "indication": "Moderate-to-severe dyspareunia or vaginal dryness due to menopausal vulvovaginal atrophy",
+      "population": "Postmenopausal women with symptomatic vulvovaginal atrophy",
+      "medicare_part": "Part D",
+      "status": "Plan dependent",
+      "policy_summary": "Ospemifene is listed in a minority of analyzed basic formularies; prior authorization is common where listed. Basic listing confirms that atrophy-related painful intercourse is not automatically treated as excluded sexual dysfunction.",
+      "policy_scope": "CMS August 2026 snapshot; see separate national listing and prior-authorization table.",
+      "comparison": "Compare with vaginal estrogen and prasterone for the same atrophy symptoms, accounting for route and contraindications.",
+      "disparity_evidence": "Access is substantially narrower than generic vaginal estrogen. The data identify a formulation/therapy difference, not its cause or a male-female causal disparity.",
+      "evidence_type": "National formulary analysis; systematic review of randomized trials",
+      "limitations": "Low-certainty short-term efficacy evidence; no proof of superiority for all patients. Nonlisting does not determine exception outcomes or final reimbursement.",
+      "next_question": "Are covered alternatives clinically feasible and exceptions timely for patients who cannot use vaginal products?",
+      "policy_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+      "study_ids": [
+        "L-D04"
+      ]
+    },
+    {
+      "id": "D08",
+      "domain": "Genitourinary menopause",
+      "item": "Vaginal prasterone (Intrarosa)",
+      "indication": "Moderate-to-severe dyspareunia due to menopausal vulvovaginal atrophy",
+      "population": "Postmenopausal women with atrophy-related painful intercourse",
+      "medicare_part": "Part D",
+      "status": "Plan dependent",
+      "policy_summary": "Prasterone appears in very few analyzed basic formularies. Its presence demonstrates eligibility for this atrophy indication; a plan-specific exception may still be relevant when it is absent.",
+      "policy_scope": "CMS August 2026 snapshot; see separate national listing table.",
+      "comparison": "Compare with vaginal estrogen and ospemifene for the same symptom, rather than medicines for desire or erectile dysfunction.",
+      "disparity_evidence": "Very narrow listing suggests a potential access barrier, but unmet need, denials, substitution, cost, and disparate impact were not measured.",
+      "evidence_type": "National formulary analysis; systematic review of randomized trials",
+      "limitations": "Evidence suggests short-term symptom benefit with low certainty. Limited long-term comparative data do not establish that all patients require this product.",
+      "next_question": "Which patients lack an effective covered alternative, and what happens to their exception requests?",
+      "policy_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+      "study_ids": [
+        "L-D04"
+      ]
+    },
+    {
+      "id": "D09",
+      "domain": "Sexual health",
+      "item": "Sildenafil or Viagra for erectile dysfunction",
+      "indication": "Erectile dysfunction",
+      "population": "People with erectile dysfunction",
+      "medicare_part": "Part D",
+      "status": "Excluded for this use",
+      "policy_summary": "Federal statute excludes drugs when used for sexual or erectile dysfunction from the basic Part D benefit. Supplemental coverage may exist. Sildenafil prescribed for an eligible nonsexual indication, such as pulmonary arterial hypertension, is a separate case.",
+      "policy_scope": "Nationwide statutory exclusion; individual supplemental benefits vary. CMS guidance effective for erectile-dysfunction drugs from 2007.",
+      "comparison": "Female HSDD drugs face the same statutory category. Atrophy treatments and pulmonary-hypertension treatment are different clinical uses.",
+      "disparity_evidence": "This is counterevidence to the claim that standard Medicare reimburses Viagra for erectile dysfunction while universally excluding estradiol.",
+      "evidence_type": "Federal statute; CMS benefit guidance; supplemental-plan example",
+      "limitations": "The 2024 national dataset includes 398 Viagra claims, but lacks indication and benefit basis. Those records cannot establish standard Part D erectile-dysfunction coverage.",
+      "next_question": "For a reported paid claim, what were the diagnosis, payer, product, and supplemental benefit?",
+      "policy_url": "https://www.ssa.gov/OP_Home/ssact/title18/1860D-02.htm",
+      "study_ids": []
+    },
+    {
+      "id": "D10",
+      "domain": "Sexual health",
+      "item": "Flibanserin (Addyi) for HSDD",
+      "indication": "Acquired, generalized hypoactive sexual desire disorder",
+      "population": "FDA December 2025 label: women younger than 65, including postmenopausal women",
+      "medicare_part": "Part D",
+      "status": "Excluded for this use",
+      "policy_summary": "The statutory exclusion for drugs used for sexual dysfunction applies to HSDD treatment under basic Part D. FDA approval or label expansion does not itself create Medicare reimbursement. A reviewed employer supplemental formulary lists Addyi.",
+      "policy_scope": "Nationwide basic Part D exclusion; supplemental benefits vary. December 2025 FDA label expands beyond premenopausal women.",
+      "comparison": "Compare with sildenafil for erectile dysfunction under the same statutory exclusion, while recognizing different mechanisms and clinical endpoints.",
+      "disparity_evidence": "Women face a coverage gap, but the basic statutory exclusion also reaches male erectile-dysfunction drugs. Unequal supplemental coverage remains an empirical question.",
+      "evidence_type": "Federal statute; FDA label; systematic review and meta-analysis",
+      "limitations": "Meta-analysis found small average benefit and increased adverse events; individual benefit varies. Most age-eligible Medicare beneficiaries are outside the approved age range, while younger disabled beneficiaries may qualify clinically.",
+      "next_question": "Which supplemental plans cover each sexual-health treatment, and with what cost sharing?",
+      "policy_url": "https://www.ssa.gov/OP_Home/ssact/title18/1860D-02.htm",
+      "study_ids": [
+        "L-D07"
+      ]
+    },
+    {
+      "id": "D11",
+      "domain": "Sexual health",
+      "item": "Bremelanotide (Vyleesi) for HSDD",
+      "indication": "Acquired, generalized hypoactive sexual desire disorder",
+      "population": "Premenopausal women meeting the labeled indication",
+      "medicare_part": "Part D",
+      "status": "Excluded for this use",
+      "policy_summary": "Basic Part D excludes drugs used for sexual dysfunction. FDA approval of bremelanotide does not override that exclusion; a supplemental benefit would require separate verification.",
+      "policy_scope": "Nationwide basic Part D statutory rule; current labeling remains limited to premenopausal women.",
+      "comparison": "Compare with flibanserin and erectile-dysfunction drugs; avoid treating all sexual symptoms as the same disease.",
+      "disparity_evidence": "Exclusion affects younger Medicare beneficiaries who meet the indication; the statute is not a female-only exclusion.",
+      "evidence_type": "Federal statute; current drug label; two randomized phase 3 trials",
+      "limitations": "Trial participants were predominantly White, with a mean age of 39. Desire and distress improved; adverse effects and limited older-population evidence matter for interpretation.",
+      "next_question": "Do disabled premenopausal beneficiaries have access through supplemental benefits or other programs?",
+      "policy_url": "https://www.ssa.gov/OP_Home/ssact/title18/1860D-02.htm",
+      "study_ids": [
+        "L-D08"
+      ]
+    },
+    {
+      "id": "D12",
+      "domain": "Hormone replacement",
+      "item": "Prescription testosterone for documented hypogonadism",
+      "indication": "Testosterone deficiency due to an underlying medical condition",
+      "population": "Men with documented hypogonadism; this row does not assess gender-affirming care",
+      "medicare_part": "Part D",
+      "status": "Covered with conditions",
+      "policy_summary": "Testosterone is broadly listed, often with prior authorization. Selected Blue Medicare formulations require prior authorization and some quantity limits. Coverage for replacement must not be conflated with erectile-dysfunction treatment or automatic coverage of age-related low testosterone.",
+      "policy_scope": "CMS August 2026 snapshot; selected plan September 1, 2026, printed page 62.",
+      "comparison": "A useful hormone-replacement comparator for estrogen only after accounting for diagnosis, route, baseline risk, required monitoring, and age.",
+      "disparity_evidence": "Testosterone faces substantial prior-authorization restrictions, providing counterevidence to a claim of uniformly easy access for male hormones.",
+      "evidence_type": "National formulary analysis; plan policy; randomized safety trial",
+      "limitations": "TRAVERSE studied selected men with low testosterone and cardiovascular risk; it does not establish safety or coverage for all ages, indications, or formulations. FDA labeling developments require product-specific review.",
+      "next_question": "How do indication-matched denials, monitoring demands, and patient costs compare with menopausal therapy?",
+      "policy_url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "study_ids": [
+        "L-D09"
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "id": "L-D01",
+      "citation": "Tabakin AL, Lee W, Winkler HA, Shalom DF. Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries. Urogynecology. 2024.",
+      "year": 2024,
+      "design": "Retrospective analysis of Medicare Part D spending and prescriber datasets",
+      "population": "Medicare beneficiaries receiving the vaginal-estrogen products studied",
+      "payer": "Medicare Part D",
+      "data_period": "2016–2020",
+      "finding": "Reported spending per treated beneficiary rose from $688.52 to $1,027.55, while claims for the products studied decreased. Estrace, Yuvafem, Vagifem, and Estring dominated the reported product distribution.",
+      "limitation": "Spending is not beneficiary out-of-pocket cost. Product selection and generic substitution may affect trends; observational counts do not establish cost-caused undertreatment or discriminatory denials.",
+      "relevance": "Direct Medicare cost/utilization evidence; interpret product scope before generalizing to all vaginal estrogen.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38527966/",
+      "doi_or_pmid": "10.1097/SPV.0000000000001504; PMID 38527966",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D02",
+      "citation": "Baik SH, Baye F, McDonald CJ. Use of menopausal hormone therapy beyond age 65 years and its effects on women’s health outcomes by types, routes, and doses. Menopause. 2024;31:363–371.",
+      "year": 2024,
+      "design": "Large observational cohort with time-varying adjusted Cox models",
+      "population": "Approximately 10 million senior women in Medicare records",
+      "payer": "Medicare",
+      "data_period": "2007–2020",
+      "finding": "Estrogen monotherapy after 65 was associated with lower mortality than never use/discontinuation (adjusted HR 0.81). Associations differed by hormone combination, route, and dose.",
+      "limitation": "Residual confounding, treatment selection, and healthy-user effects prevent causal claims. This is not a randomized initiation trial or a study of coverage denials.",
+      "relevance": "Direct Medicare outcomes research counters blanket age-based assumptions; interpret alongside randomized evidence and formulation-specific risk.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38595196/",
+      "doi_or_pmid": "10.1097/GME.0000000000002335; PMID 38595196",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D03",
+      "citation": "Mitchell CM et al. Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial. JAMA Intern Med. 2018;178:681–690.",
+      "year": 2018,
+      "design": "Randomized double-blind three-group trial; 12 weeks",
+      "population": "302 postmenopausal women with moderate-to-severe vulvovaginal symptoms",
+      "payer": "Clinical trial; not a payer-policy study",
+      "data_period": "Trial reported 2018",
+      "finding": "Vaginal estradiol 10 mcg tablets and moisturizer did not reduce the most bothersome symptom more than dual placebo over 12 weeks.",
+      "limitation": "One formulation and short follow-up; substantial placebo improvement. Does not prove all vaginal-estrogen regimens are ineffective or determine treatment for each patient.",
+      "relevance": "Essential counterevidence; clinical uncertainty must remain visible when interpreting access restrictions.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29554173/",
+      "doi_or_pmid": "10.1001/jamainternmed.2018.0116; PMID 29554173",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D04",
+      "citation": "Danan ER et al. Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause: A Systematic Review. Ann Intern Med. 2024;177:1400–1414.",
+      "year": 2024,
+      "design": "Systematic review of 46 randomized trials; no pooled meta-analysis because of heterogeneity",
+      "population": "Postmenopausal women with at least one GSM symptom",
+      "payer": "Mixed trial settings; AHRQ/PCORI-funded review, not Medicare coverage analysis",
+      "data_period": "Search through December 11, 2023",
+      "finding": "Vaginal estrogen, vaginal DHEA, and oral ospemifene may improve selected GSM symptoms compared with placebo; certainty was generally low. Moisturizers may improve dryness.",
+      "limitation": "Most trials lasted 12 weeks or less; inconsistent outcomes and limited long-term safety data. Few enrolled women with prior cancer.",
+      "relevance": "Supports plausible clinical benefit while preserving uncertainty; does not itself establish coverage or comparative cost-effectiveness.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39250810/",
+      "doi_or_pmid": "10.7326/ANNALS-24-00610; PMID 39250810",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D05",
+      "citation": "Lederman S et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. Lancet. 2023.",
+      "year": 2023,
+      "design": "Phase 3 randomized placebo-controlled trial; 12-week controlled phase and 40-week extension",
+      "population": "Women aged 40–65 with at least seven moderate-to-severe hot flashes daily",
+      "payer": "Industry-sponsored trial; not payer research",
+      "data_period": "Enrollment July 2019–August 2021",
+      "finding": "At week 12, fezolinetant 45 mg reduced daily vasomotor-symptom frequency by approximately 2.55 more episodes than placebo and improved severity.",
+      "limitation": "Participants older than 65 were excluded. Trial efficacy does not resolve real-world affordability or rare liver injury subsequently identified through safety surveillance.",
+      "relevance": "Evidence for a nonhormonal alternative; coverage rules need separate CMS/plan evidence.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36924778/",
+      "doi_or_pmid": "10.1016/S0140-6736(23)00085-5; PMID 36924778",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D06",
+      "citation": "Simon JA et al. Low-dose paroxetine 7.5 mg for menopausal vasomotor symptoms: two randomized controlled trials. Menopause. 2013;20:1027–1035.",
+      "year": 2013,
+      "design": "Two randomized double-blind placebo-controlled phase 3 trials lasting 12 and 24 weeks",
+      "population": "Postmenopausal women with moderate-to-severe vasomotor symptoms; 591 paroxetine and 593 placebo participants",
+      "payer": "Clinical trials; not payer-policy research",
+      "data_period": "Trials reported 2013",
+      "finding": "Paroxetine 7.5 mg reduced symptom frequency at weeks 4 and 12. The 24-week study met all four primary endpoints; the shorter study met three of four.",
+      "limitation": "One severity endpoint was not significant in the shorter trial. Evidence concerns a particular low-dose formulation, not all antidepressant doses or all Medicare patients.",
+      "relevance": "Establishes a nonhormonal treatment option; cannot establish its formulary status.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24045678/",
+      "doi_or_pmid": "10.1097/GME.0b013e3182a66aa7; PMID 24045678",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D07",
+      "citation": "Jaspers L et al. Efficacy and Safety of Flibanserin for the Treatment of Hypoactive Sexual Desire Disorder in Women: A Systematic Review and Meta-analysis. JAMA Intern Med. 2016;176:453–462.",
+      "year": 2016,
+      "design": "Systematic review and meta-analysis of five published and three unpublished randomized trials",
+      "population": "5,914 women with HSDD; eligible studies included premenopausal and postmenopausal women",
+      "payer": "Mixed trials; no Medicare reimbursement analysis",
+      "data_period": "Search through June 17, 2015",
+      "finding": "Flibanserin 100 mg produced about 0.49 additional satisfying sexual events monthly versus placebo. Discontinuation due to adverse effects increased (risk ratio 2.19), alongside dizziness, somnolence, nausea, and fatigue.",
+      "limitation": "Review graded overall evidence very low; population diversity and comorbidity representation were limited. It predates the December 2025 expanded FDA label.",
+      "relevance": "Documents both modest average benefit and harms; neither result overrides the statutory Part D exclusion.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26927498/",
+      "doi_or_pmid": "10.1001/jamainternmed.2015.8565; PMID 26927498",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D08",
+      "citation": "Kingsberg SA et al. Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials. Obstet Gynecol. 2019;134:899–908.",
+      "year": 2019,
+      "design": "Two randomized placebo-controlled phase 3 trials; 24-week core phase",
+      "population": "1,267 randomized premenopausal women; mean age 39; 85.6% White",
+      "payer": "Clinical trials; not payer-policy research",
+      "data_period": "2015–2016",
+      "finding": "Bremelanotide improved measured sexual desire and associated distress versus placebo. Nausea, flushing, and headache occurred more often with active treatment.",
+      "limitation": "Demographics and indication limit extrapolation to older Medicare women. Changes in desire/distress do not measure reimbursement, affordability, or unequal access.",
+      "relevance": "Demonstrates a female sexual-health therapy with clinical benefit and tolerability tradeoffs, despite the shared statutory exclusion.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/",
+      "doi_or_pmid": "10.1097/AOG.0000000000003500; PMID 31599840",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D09",
+      "citation": "Lincoff AM et al.; TRAVERSE investigators. Cardiovascular Safety of Testosterone-Replacement Therapy. N Engl J Med. 2023;389:107–117.",
+      "year": 2023,
+      "design": "Randomized double-blind placebo-controlled noninferiority trial",
+      "population": "5,246 men aged 45–80 with hypogonadism and established or elevated cardiovascular risk",
+      "payer": "Clinical trial; not Medicare coverage analysis",
+      "data_period": "Published 2023; mean follow-up approximately 33 months",
+      "finding": "Testosterone gel was noninferior to placebo for major adverse cardiovascular events. Atrial fibrillation, acute kidney injury, and pulmonary embolism occurred more often in the testosterone group.",
+      "limitation": "Selected symptomatic men with repeatedly low testosterone; findings do not establish long-term safety in every population, formulation, or indication.",
+      "relevance": "Comparator evidence: coverage can coexist with indication limits, monitoring, and meaningful safety concerns.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37326322/",
+      "doi_or_pmid": "10.1056/NEJMoa2215025; PMID 37326322",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    },
+    {
+      "id": "L-D10",
+      "citation": "Rossouw JE et al.; WHI investigators. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results from the Women’s Health Initiative randomized controlled trial. JAMA. 2002;288:321–333.",
+      "year": 2002,
+      "design": "Randomized placebo-controlled primary-prevention trial; stopped early after mean 5.2 years",
+      "population": "16,608 postmenopausal women aged 50–79 with an intact uterus",
+      "payer": "Federally supported clinical trial; not Medicare policy research",
+      "data_period": "Recruitment 1993–1998; stopped 2002",
+      "finding": "Oral conjugated equine estrogens plus medroxyprogesterone increased important cardiovascular and breast-cancer outcomes while reducing fractures; the overall balance did not favor use for primary chronic-disease prevention.",
+      "limitation": "A specific oral combination and prevention question; cannot generalize directly to local vaginal estrogen, transdermal estradiol, other progestogens, or every symptom-treatment decision.",
+      "relevance": "Counterbalances favorable observational findings; historic evidence and updated labeling must be interpreted by regimen and indication.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12117397/",
+      "doi_or_pmid": "10.1001/jama.288.3.321; PMID 12117397",
+      "extraction_level": "PubMed citation and abstract; no systematic full-text extraction"
+    }
+  ],
+  "supplemental_policy_sources": [
+    {
+      "topic": "Part D sexual/erectile dysfunction exclusion; sildenafil for pulmonary hypertension and supplemental coverage",
+      "url": "https://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/Downloads/QAEDDrugs_070606.pdf"
+    },
+    {
+      "topic": "Addyi FDA label, December 2025: women less than 65; not limited to premenopausal women",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022526s013lbl.pdf"
+    },
+    {
+      "topic": "Vyleesi current label: premenopausal HSDD",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf"
+    },
+    {
+      "topic": "Veozah FDA warning about rare serious liver injury",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-warning-about-rare-occurrence-serious-liver-injury-use-veozah-fezolinetant-hot-flashes-due"
+    },
+    {
+      "topic": "2026 FDA menopausal hormone product label revisions; changes are not coverage mandates",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/menopausal-hormone-therapies-updated-prescribing-information"
+    },
+    {
+      "topic": "Testosterone FDA indication and evolving label information",
+      "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/testosterone-information"
+    },
+    {
+      "topic": "PSERS 2026 employer supplemental bonus benefit lists Viagra and Addyi; outside national public plan-file scope",
+      "url": "https://www.discoverhopbenefits.com/wp-content/uploads/2025/09/PSERS-Doc-114-CompForm_2026_Medicare-Plus_final_accessible.pdf"
+    },
+    {
+      "topic": "Medicare formulary exceptions",
+      "url": "https://www.cms.gov/medicare/appeals-grievances/prescription-drug/exceptions"
+    }
+  ],
+  "formulary_evidence": {
+    "existing_results": "research/formulary_results.json",
+    "independent_validation": "research/formulary_validation.json",
+    "denominator": "5,499 unsuppressed contract-plan-segment combinations; 5,055 contract-plan pairs; not enrollment weighted.",
+    "scope_limits": "Public file excludes employer plans, PACE, non-Part-D plans, and demonstration plans except MMPs. Listing does not establish every strength, product, indication, payment, or absence of age edits.",
+    "supplementary_paroxetine_screen": {
+      "rxcui": "1430122",
+      "description": "Paroxetine mesylate 7.5 mg oral capsule",
+      "formulary_count": 14,
+      "listed_plan_segments": 313,
+      "plan_segments_total": 5499,
+      "listed_percent": 5.69,
+      "method": "Independent standard-library csv join; basic formulary RxCUI 1430122; unique unsuppressed contract/plan/segment joined by formulary ID. Not added to original national group table.",
+      "source_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip"
+    }
+  },
+  "review_limitations": [
+    "Targeted literature review, not a prospectively registered systematic review.",
+    "Direct Medicare costs/outcomes studies are separated from efficacy trials and statutory coverage rules.",
+    "Evidence does not establish causal discrimination by sex, gender identity, or race.",
+    "Current label expansions and plan revisions should be checked at the point of care.",
+    "All ten scientific study summaries are abstract-based; full articles were not systematically extracted or independently risk-of-bias assessed."
+  ]
+}

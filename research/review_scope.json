@@ -1,0 +1,88 @@
+{
+  "version": "5",
+  "amended_on": "2026-09-16",
+  "national_review_question": "Across Medicare, how do coverage rules, payment values, cost sharing and administrative requirements affect access to clinically indicated care for women and men, including unequal effects of formally neutral rules?",
+  "motivating_example_rule": "Estradiol is one motivating case in a national review of drugs, procedures and care pathways; a single drug finding cannot establish or resolve the national question.",
+  "medicare_benchmark_rule": "Medicare is the national policy benchmark for care in later life and substantial health needs, not a claim that it finances most US care or that most lifetime care occurs after 65. Preserve younger Medicare beneficiaries separately. See research/medicare_benchmark.json for the rationale, age-stratification and measurement rules.",
+  "topic_scope": "Sex-specific conditions, conditions predominantly affecting one sex, and shared conditions across reproductive, sexual, cardiovascular, cancer, musculoskeletal, pain, mental health, preventive and rehabilitative care.",
+  "comparison_rule": "Use within-condition comparisons, clinically justified service groups and population-burden analyses. Do not require a direct counterpart for every sex-specific service. Consider utilization and service mix as possible mechanisms as well as confounders.",
+  "policy_level_rule": "Distinguish Original Medicare, Medicare Advantage and Part D; national rules, contractor decisions and plan implementation; preserve policy year and denominators.",
+  "target_population": "Cisgender men and women",
+  "scope_decision": "Exclude transgender-focused patient evidence and gender-affirming care from the present review and future white paper.",
+  "excluded_item_ids": [
+    "G01",
+    "G02",
+    "G03"
+  ],
+  "excluded_study_ids": [
+    "L-G01",
+    "L-G02",
+    "L-G03",
+    "L-G06",
+    "L-G07",
+    "L-G08",
+    "L-G11",
+    "L-G12"
+  ],
+  "mixed_population_rule": "Use only separately extractable eligible cisgender male/female results from mixed-population studies. Exclude nonseparable mixed results from the primary synthesis and record the reason.",
+  "unreported_identity_rule": "Studies reporting only male/female remain candidate evidence pending full-text eligibility checks. Record gender identity as not reported; do not infer confirmed cisgender status or zero transgender participants.",
+  "nonpatient_data_rule": "Fee schedules, formularies and policy documents have no patient cohort. Retain when relevant to included indications and label as policy or code-level evidence.",
+  "clinical_basis_rule": "Separate shared body systems, female/male reproductive anatomy, female/male reproductive physiology and mixed or site-dependent services. Classify each indication rather than the molecule or assumed patient identity. Keep sex-defined eligibility and disease burden distinct. Classification details are in research/clinical_basis.json.",
+  "anatomy_analysis_rule": "Compare women and men within shared conditions when clinically comparable. For anatomy- or physiology-linked care, assess need, benefit and policy consistency without requiring an opposite-sex counterpart. Split bundled services by organ, indication and procedure before comparative synthesis.",
+  "overrides": {
+    "D01": {
+      "population": "Women experiencing menopause; most cited evidence concerns postmenopausal women"
+    },
+    "D02": {
+      "population": "Women experiencing menopause who need systemic therapy"
+    },
+    "D03": {
+      "population": "Postmenopausal women with symptomatic GSM"
+    },
+    "D04": {
+      "population": "Postmenopausal women with a uterus"
+    },
+    "D05": {
+      "population": "Women with menopausal vasomotor symptoms, including those avoiding hormones"
+    },
+    "D06": {
+      "population": "Postmenopausal women seeking nonhormonal treatment"
+    },
+    "D09": {
+      "population": "Men with erectile dysfunction"
+    },
+    "D12": {
+      "population": "Men with documented hypogonadism"
+    },
+    "G06": {
+      "population": "Women meeting Medicare screening eligibility",
+      "comparison": "Mammography and other cancer screening: compare eligibility and patient costs while accounting for different clinical indications.",
+      "disparity_evidence": "The previously linked transgender-screening studies are excluded under the revised population criterion. No eligible screening-disparity study is currently linked.",
+      "evidence_type": "National coverage policy; in-scope literature gap",
+      "limitations": "Screening and diagnostic mammography have different coverage rules. A difference between screening programs is not itself proof of bias.",
+      "next_question": "Identify eligible studies of screening costs, denials and follow-up among women and clinically justified comparisons.",
+      "study_ids": []
+    },
+    "G07": {
+      "population": "Men meeting Medicare prostate-screening eligibility",
+      "comparison": "PSA versus digital rectal screening cost sharing; comparisons with other cancer screens require clinical justification.",
+      "disparity_evidence": "The previously linked transgender-screening studies are excluded under the revised population criterion. No eligible screening-disparity study is currently linked.",
+      "evidence_type": "National coverage policy; in-scope literature gap",
+      "limitations": "Screening frequency alone does not measure appropriate care. Comparisons require adjustment for clinical need and screening recommendations.",
+      "next_question": "Identify eligible studies of prostate-screening costs, denials and utilization among men.",
+      "study_ids": []
+    },
+    "G09": {
+      "population": "Women meeting anatomy, age and risk criteria",
+      "comparison": "Routine versus high-risk cervical screening pathways; comparisons with other cancer screens require clinical justification.",
+      "disparity_evidence": "The previously linked transgender-screening studies are excluded under the revised population criterion. No eligible screening-disparity study is currently linked.",
+      "evidence_type": "National coverage policy; in-scope literature gap",
+      "limitations": "Coverage of screening does not establish access to diagnostic follow-up. No eligible comparative denial study is currently attached.",
+      "next_question": "Identify eligible studies of cervical screening, follow-up costs and access among women.",
+      "study_ids": []
+    },
+    "G12": {
+      "comparison": "Sperm versus oocyte preservation for infertility or prevention of treatment-related infertility, including cancer care."
+    }
+  }
+}

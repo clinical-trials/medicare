@@ -1,0 +1,65 @@
+{
+  "items": [],
+  "studies": [
+    {
+      "id": "L-C01",
+      "citation": "Ahmad S et al. Gender-Specific Trends in Ophthalmologist Medicare Collections. Am J Ophthalmol. 2020;214:32–39.",
+      "year": 2020,
+      "design": "Retrospective cohort; adjusted regressions",
+      "population": "US ophthalmologists grouped by physician gender; sample size not verified",
+      "payer": "Medicare physician utilization and payment data",
+      "data_period": "2012–2015",
+      "finding": "Women ophthalmologists collected 42% less after adjustment for age, geography and subspecialty. Women also saw fewer patients.",
+      "limitation": "Collections are not salary. Observational findings do not establish unequal rates for identical services or patient-sex discrimination.",
+      "relevance": "Context for clinician payment disparities; outside the primary patient-sex comparison.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31926887/",
+      "doi_or_pmid": "10.1016/j.ajo.2019.12.024; PMID 31926887",
+      "extraction_level": "Abstract verified; full text not reviewed",
+      "population_screening_status": "Context only: clinician gender",
+      "identity_reporting": "Physician gender comparison; cisgender identity not verified. No patient-sex analysis.",
+      "screening_notes": "Not extracted: sample size, confidence interval and unadjusted totals.",
+      "synthesis_role": "context_only"
+    },
+    {
+      "id": "L-C02",
+      "citation": "Raber I et al. Gender Differences in Medicare Payments Among Cardiologists. JAMA Cardiol. 2021;6(12):1432–1439.",
+      "year": 2021,
+      "design": "Cross-sectional; adjusted regressions",
+      "population": "20,273 US cardiologists; physician-level analysis",
+      "payer": "Medicare fee-for-service",
+      "data_period": "2016",
+      "finding": "Median annual payments (men/women): inpatient $62,897/$45,288; outpatient $91,053/$51,975. Reported adjusted log coefficient for women: −0.06 (95% CI −0.11 to −0.02). No per-charge difference for the three most common billing codes in each setting.",
+      "limitation": "Work hours, encounter time and nonclinical duties unavailable; residual confounding. Payments are not salary. Findings do not compare patient sexes.",
+      "relevance": "Clinician-payment context; outside primary patient-sex synthesis.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/",
+      "doi_or_pmid": "10.1001/jamacardio.2021.3385; PMID 34495296",
+      "extraction_level": "Targeted main-text review via indexed PMC; supplement not reviewed",
+      "population_screening_status": "Context only: clinician gender",
+      "identity_reporting": "Self-reported physician gender linked to NPI; cisgender identity not established.",
+      "screening_notes": "Adjusted for billing volume/diversity, case mix, experience and subspecialty. Formal risk-of-bias assessment pending.",
+      "synthesis_role": "context_only"
+    }
+  ],
+  "provenance": [
+    {
+      "id": "L-C01",
+      "user_supplied_url": "https://www.ajo.com/article/S0002-9394(20)30004-0/abstract",
+      "verified_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/31926887/",
+        "https://scholars.mssm.edu/en/publications/gender-specific-trends-in-ophthalmologist-medicare-collections-2/"
+      ],
+      "checked": "2026-09-16"
+    },
+    {
+      "id": "L-C02",
+      "user_supplied_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/",
+      "verified_sources": [
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/",
+        "https://pubmed.ncbi.nlm.nih.gov/34495296/",
+        "https://jamanetwork.com/journals/jamacardiology/fullarticle/2783692"
+      ],
+      "source_access": "Direct PMC page returned a browser challenge; indexed primary-source main text was accessible. Supplemental tables not independently reviewed.",
+      "checked": "2026-09-16"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "id": "A01",
+      "domain": "Cancer survivorship / lymphedema",
+      "item": "Lymphedema compression garments, wraps and bandaging supplies",
+      "indication": "Diagnosed lymphedema with a clinician order",
+      "population": "Any sex; includes breast-cancer survivors",
+      "medicare_part": "B",
+      "status": "Covered with conditions",
+      "policy_summary": "A dedicated benefit began January 1, 2024. Eligible prescribed garments, wraps and supplies are covered. Part B deductible and 20% coinsurance generally apply.",
+      "policy_scope": "National benefit since 2024; checked September 16, 2026",
+      "comparison": "Historical coverage gap versus current benefit; lymphedema versus no lymphedema",
+      "disparity_evidence": "A 2015 cost-diary study found higher patient costs among breast-cancer survivors with lymphedema. It predates the new benefit.",
+      "evidence_type": "National coverage change; observational patient-cost evidence",
+      "limitations": "No male/female matched comparison. Coverage does not remove all out-of-pocket costs.",
+      "next_question": "Have costs, use and claim denials changed since the 2024 benefit?",
+      "policy_url": "https://www.medicare.gov/coverage/lymphedema-compression-treatment-items",
+      "policy_url2": "https://www.cms.gov/medicare/regulations-guidance/transmittals/2024-transmittals/r12532bp",
+      "study_ids": [
+        "L-A01",
+        "L-A02"
+      ]
+    },
+    {
+      "id": "A02",
+      "domain": "Cancer survivorship / lymphedema",
+      "item": "Home pneumatic compression pump",
+      "indication": "Lymphedema persisting after conservative therapy",
+      "population": "Any sex; includes cancer-related lymphedema",
+      "medicare_part": "B / DME",
+      "status": "Covered with conditions",
+      "policy_summary": "NCD 280.6 allows home pumps after a four-week conservative trial with no significant improvement or significant remaining symptoms. Advanced devices have additional requirements.",
+      "policy_scope": "National NCD 280.6; checked September 16, 2026",
+      "comparison": "Standard versus advanced devices; coverage versus practical access",
+      "disparity_evidence": "A 2022 review found varied insurer policies. Those insurer-level results do not establish Medicare denial rates.",
+      "evidence_type": "National conditional coverage; broader insurer policy analysis",
+      "limitations": "Policy presence is not claim approval, access or a sex-based payment comparison.",
+      "next_question": "Compare denial reasons, device requirements and patient costs across indications and sexes.",
+      "policy_url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=225",
+      "study_ids": [
+        "L-A02"
+      ]
+    }
+  ],
+  "studies": [
+    {
+      "id": "L-A01",
+      "citation": "Dean LT et al. Drivers of cost differences between US breast cancer survivors with or without lymphedema. J Cancer Surviv. 2019;13:804–814.",
+      "year": 2019,
+      "design": "Mixed methods: monthly cost diaries and interviews",
+      "population": "129 breast-cancer survivors; 40 interviewed",
+      "payer": "Mixed insurance; not Medicare-only",
+      "data_period": "2015",
+      "finding": "Mean monthly direct costs were $355 with lymphedema versus $160 without. Higher costs extended beyond lymphedema treatment alone.",
+      "limitation": "Self-reported costs; socioeconomic ability to pay; no matched male comparator; predates 2024 Medicare benefit.",
+      "relevance": "Historical financial burden relevant to cancer survivorship; does not establish current noncoverage.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31446591/",
+      "doi_or_pmid": "10.1007/s11764-019-00799-1; PMID 31446591"
+    },
+    {
+      "id": "L-A02",
+      "citation": "Lynn JV et al. Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States. JAMA Surg. 2023;158:920–926.",
+      "year": 2023,
+      "design": "Cross-sectional insurer policy review",
+      "population": "67 insurers representing 88.7% of the US market",
+      "payer": "Major US insurers; not a Medicare-specific audit",
+      "data_period": "March 2022",
+      "finding": "Coverage with authorization: nonprogrammable pumps 55/67 insurers, programmable pumps 53/67, debulking 13/67 and physiologic surgery 5/67.",
+      "limitation": "Published policies, not actual claims; no sex-controlled comparison; predates the 2024 Medicare compression-item benefit.",
+      "relevance": "Identifies broader lymphedema coverage variation; Medicare-specific findings require separate verification.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+      "doi_or_pmid": "10.1001/jamasurg.2023.2017; PMID 37285151"
+    }
+  ]
+}

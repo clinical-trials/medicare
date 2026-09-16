@@ -1,0 +1,20 @@
+{
+  "expected": {
+    "items": 43,
+    "studies": 34,
+    "statuses": {
+      "Covered with conditions": 17,
+      "Plan dependent": 8,
+      "Excluded for this use": 7,
+      "Local decision": 6,
+      "Not established": 5
+    },
+    "withStudies": 32
+  },
+  "output": "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_evidence_register_2026-09-16.xlsx",
+  "errors": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}",
+  "careEnd": 51,
+  "litEnd": 42,
+  "drugEnd": 21,
+  "rvuEnd": 13
+}

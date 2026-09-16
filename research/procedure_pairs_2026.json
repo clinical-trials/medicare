@@ -1,0 +1,171 @@
+{
+  "title": "Illustrative July 2026 CMS RVU check of five published analogous procedure pairs",
+  "review_date": "2026-09-16",
+  "cms_archive_local": "/private/tmp/medicare-rvu26c.zip",
+  "cms_archive_sha256": "d45a158e02694c1539e7f88192c611883e377181eda86dc213359707bcacbacb",
+  "csv_member": "PPRRVU2026_Jul_nonQPP.csv",
+  "csv_released": "2026-06-30",
+  "cms_landing_url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c",
+  "pair_selection_source": {
+    "study": "Hathaway et al. Urology Practice 2024;11(4):654\u2013660",
+    "pubmed_url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
+    "author_table_url": "https://auanews.net/issues/articles/2024/july-extra-2024/upj-insight-comparison-of-work-relative-value-units-assigned-to-urological-and-gynecological-surgical-procedures",
+    "table": "Directly Analogous Pairs With Similar Conditions for Valuation"
+  },
+  "interpretation": [
+    "Illustrative subset selected from the study authors' analogous pairs, not a random sample or a fresh estimate of a Medicare-wide sex effect.",
+    "Comparability is based on the published clinical assessment. Matching global days alone does not establish equal operating time, intensity, risk, or total perioperative work.",
+    "The 2024 paper considered global periods, intraservice and total time, hospital days, postoperative visits, and review date. This extract independently checks 2026 RVUs and global days only.",
+    "All displayed values are national unadjusted RVUs from the nonQPP file. Geographic practice-cost adjustment, payment modifiers, and claim-specific adjustments are not applied.",
+    "Facility total is the physician fee schedule RVU total for a service delivered in a facility. It is not a hospital facility payment.",
+    "The selected penile lesion code specifies chemical treatment; the vulvar simple-treatment code is broader in method. Interpret the analogy only when the treatment method is comparable.",
+    "No pooled average, causal inference, or dollars paid to a beneficiary are calculated. All rows have active payment status A and no modifier."
+  ],
+  "pairs": [
+    {
+      "comparison": "Urinary incontinence sling placement",
+      "male": {
+        "cpt": "53440",
+        "label": "Male sling placement",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 13.03,
+        "facility_practice_expense_rvu": 5.7,
+        "malpractice_rvu": 1.67,
+        "physician_facility_total_rvu": 20.4,
+        "global_days": "090"
+      },
+      "female": {
+        "cpt": "57288",
+        "label": "Female stress-incontinence sling placement",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 11.83,
+        "facility_practice_expense_rvu": 6.13,
+        "malpractice_rvu": 1.91,
+        "physician_facility_total_rvu": 19.87,
+        "global_days": "090"
+      },
+      "male_minus_female_work_rvu": 1.2,
+      "male_minus_female_physician_facility_total_rvu": 0.53,
+      "higher_work_rvu": "male",
+      "higher_physician_facility_total_rvu": "male"
+    },
+    {
+      "comparison": "Urinary incontinence sling removal or revision",
+      "male": {
+        "cpt": "53442",
+        "label": "Male sling revision/removal",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 13.15,
+        "facility_practice_expense_rvu": 6.61,
+        "malpractice_rvu": 1.69,
+        "physician_facility_total_rvu": 21.45,
+        "global_days": "090"
+      },
+      "female": {
+        "cpt": "57287",
+        "label": "Female sling revision/removal",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 10.87,
+        "facility_practice_expense_rvu": 7.17,
+        "malpractice_rvu": 1.72,
+        "physician_facility_total_rvu": 19.76,
+        "global_days": "090"
+      },
+      "male_minus_female_work_rvu": 2.28,
+      "male_minus_female_physician_facility_total_rvu": 1.69,
+      "higher_work_rvu": "male",
+      "higher_physician_facility_total_rvu": "male"
+    },
+    {
+      "comparison": "Simple genital lesion destruction",
+      "male": {
+        "cpt": "54050",
+        "label": "Penile lesion chemical treatment",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 1.26,
+        "facility_practice_expense_rvu": 1.5,
+        "malpractice_rvu": 0.14,
+        "physician_facility_total_rvu": 2.9,
+        "global_days": "010"
+      },
+      "female": {
+        "cpt": "56501",
+        "label": "Simple vulvar lesion treatment",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 1.54,
+        "facility_practice_expense_rvu": 1.8,
+        "malpractice_rvu": 0.25,
+        "physician_facility_total_rvu": 3.59,
+        "global_days": "010"
+      },
+      "male_minus_female_work_rvu": -0.28,
+      "male_minus_female_physician_facility_total_rvu": -0.69,
+      "higher_work_rvu": "female",
+      "higher_physician_facility_total_rvu": "female"
+    },
+    {
+      "comparison": "Complete external genital excision",
+      "male": {
+        "cpt": "55150",
+        "label": "Scrotal resection",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 7.94,
+        "facility_practice_expense_rvu": 4.62,
+        "malpractice_rvu": 1.08,
+        "physician_facility_total_rvu": 13.64,
+        "global_days": "090"
+      },
+      "female": {
+        "cpt": "56625",
+        "label": "Complete simple vulvar excision",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 9.44,
+        "facility_practice_expense_rvu": 7.18,
+        "malpractice_rvu": 1.98,
+        "physician_facility_total_rvu": 18.6,
+        "global_days": "090"
+      },
+      "male_minus_female_work_rvu": -1.5,
+      "male_minus_female_physician_facility_total_rvu": -4.96,
+      "higher_work_rvu": "female",
+      "higher_physician_facility_total_rvu": "female"
+    },
+    {
+      "comparison": "Pelvic exenteration for malignancy",
+      "male": {
+        "cpt": "51597",
+        "label": "Exenteration for urinary-organ malignancy",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 41.79,
+        "facility_practice_expense_rvu": 13.56,
+        "malpractice_rvu": 5.73,
+        "physician_facility_total_rvu": 61.08,
+        "global_days": "090"
+      },
+      "female": {
+        "cpt": "58240",
+        "label": "Exenteration for gynecologic malignancy",
+        "modifier": "",
+        "status": "A",
+        "work_rvu": 48.1,
+        "facility_practice_expense_rvu": 22.25,
+        "malpractice_rvu": 9.82,
+        "physician_facility_total_rvu": 80.17,
+        "global_days": "090"
+      },
+      "male_minus_female_work_rvu": -6.31,
+      "male_minus_female_physician_facility_total_rvu": -19.09,
+      "higher_work_rvu": "female",
+      "higher_physician_facility_total_rvu": "female"
+    }
+  ]
+}

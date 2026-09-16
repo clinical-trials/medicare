@@ -1,0 +1,9 @@
+# Local runtime dependencies and caches
+node_modules
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Workbook rendering and inspection diagnostics
+research/workbook/*.png
+*.inspect.ndjson

@@ -1,0 +1,810 @@
+[
+  {
+    "RxCUI": "848330",
+    "TTY": "SBD",
+    "RxNorm Description": "90 DAY ESTRADIOL 0.000313 MG/HR VAGINAL SYSTEM [ESTRING]",
+    "Related BN": "ESTRING",
+    "Related SCDC": "ESTRADIOL 0.000313 MG/HR",
+    "Related DF": "VAGINAL SYSTEM"
+  },
+  {
+    "RxCUI": "545276",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.000583 MG/HR TRANSDERMAL SYSTEM [MENOSTAR]",
+    "Related BN": "MENOSTAR",
+    "Related SCDC": "ESTRADIOL 0.000583 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "706467",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL 0.0006 MG/MG TOPICAL GEL [ELESTRIN]",
+    "Related BN": "ELESTRIN",
+    "Related SCDC": "ESTRADIOL 0.0006 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "226597",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL 0.0006 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.0006 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619677",
+    "TTY": "SCD",
+    "RxNorm Description": "250 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619678",
+    "TTY": "SBD",
+    "RxNorm Description": "250 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL [DIVIGEL]",
+    "Related BN": "DIVIGEL",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619679",
+    "TTY": "SCD",
+    "RxNorm Description": "500 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619680",
+    "TTY": "SBD",
+    "RxNorm Description": "500 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL [DIVIGEL]",
+    "Related BN": "DIVIGEL",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619681",
+    "TTY": "SCD",
+    "RxNorm Description": "750 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619682",
+    "TTY": "SBD",
+    "RxNorm Description": "750 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL [DIVIGEL]",
+    "Related BN": "DIVIGEL",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619683",
+    "TTY": "SCD",
+    "RxNorm Description": "1000 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619684",
+    "TTY": "SBD",
+    "RxNorm Description": "1000 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL [DIVIGEL]",
+    "Related BN": "DIVIGEL",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619685",
+    "TTY": "SCD",
+    "RxNorm Description": "1250 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "2619686",
+    "TTY": "SBD",
+    "RxNorm Description": "1250 MG ESTRADIOL 0.001 MG/MG TOPICAL GEL [DIVIGEL]",
+    "Related BN": "DIVIGEL",
+    "Related SCDC": "ESTRADIOL 0.001 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "284378",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM [VIVELLE]",
+    "Related BN": "VIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "1551622",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM [MINIVELLE]",
+    "Related BN": "MINIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2399892",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM [LYLLANA]",
+    "Related BN": "LYLLANA",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310170",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM [CLIMARA]",
+    "Related BN": "CLIMARA",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2110774",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM [DOTTI]",
+    "Related BN": "DOTTI",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "248478",
+    "TTY": "SCD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "242333",
+    "TTY": "SCD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00104 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00104 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "1356979",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM [MINIVELLE]",
+    "Related BN": "MINIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310172",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM [VIVELLE]",
+    "Related BN": "VIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "404656",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM [CLIMARA]",
+    "Related BN": "CLIMARA",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "241946",
+    "TTY": "SCD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2399895",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM [LYLLANA]",
+    "Related BN": "LYLLANA",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2110777",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM [DOTTI]",
+    "Related BN": "DOTTI",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "403922",
+    "TTY": "SCD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00156 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00156 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2399898",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM [LYLLANA]",
+    "Related BN": "LYLLANA",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "242891",
+    "TTY": "SCD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310176",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM [VIVELLE]",
+    "Related BN": "VIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310174",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM [CLIMARA]",
+    "Related BN": "CLIMARA",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "848333",
+    "TTY": "SBD",
+    "RxNorm Description": "90 DAY ESTRADIOL 0.00208 MG/HR VAGINAL SYSTEM [FEMRING]",
+    "Related BN": "FEMRING",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "VAGINAL SYSTEM"
+  },
+  {
+    "RxCUI": "1356997",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM [MINIVELLE]",
+    "Related BN": "MINIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "238003",
+    "TTY": "SCD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2110780",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00208 MG/HR TRANSDERMAL SYSTEM [DOTTI]",
+    "Related BN": "DOTTI",
+    "Related SCDC": "ESTRADIOL 0.00208 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "404657",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.0025 MG/HR TRANSDERMAL SYSTEM [CLIMARA]",
+    "Related BN": "CLIMARA",
+    "Related SCDC": "ESTRADIOL 0.0025 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "403923",
+    "TTY": "SCD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.0025 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.0025 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310178",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00312 MG/HR TRANSDERMAL SYSTEM [CLIMARA]",
+    "Related BN": "CLIMARA",
+    "Related SCDC": "ESTRADIOL 0.00312 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "241527",
+    "TTY": "SCD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00312 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00312 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "1149632",
+    "TTY": "SCD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00313 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00313 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "1149634",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00313 MG/HR TRANSDERMAL SYSTEM [VIVELLE]",
+    "Related BN": "VIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00313 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "1357007",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00313 MG/HR TRANSDERMAL SYSTEM [MINIVELLE]",
+    "Related BN": "MINIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00313 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2399901",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00313 MG/HR TRANSDERMAL SYSTEM [LYLLANA]",
+    "Related BN": "LYLLANA",
+    "Related SCDC": "ESTRADIOL 0.00313 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2110783",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00313 MG/HR TRANSDERMAL SYSTEM [DOTTI]",
+    "Related BN": "DOTTI",
+    "Related SCDC": "ESTRADIOL 0.00313 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2054313",
+    "TTY": "BPCK",
+    "RxNorm Description": "{18 (ESTRADIOL 0.004 MG VAGINAL INSERT [IMVEXXY]) } PACK [IMVEXXY 4 MCG STARTER PACK]",
+    "Related BN": "IMVEXXY 4 MCG STARTER PACK",
+    "Related SCDC": "ESTRADIOL 0.004 MG",
+    "Related DF": "PACK"
+  },
+  {
+    "RxCUI": "2054310",
+    "TTY": "BPCK",
+    "RxNorm Description": "{8 (ESTRADIOL 0.004 MG VAGINAL INSERT [IMVEXXY]) } PACK [IMVEXXY 4 MCG MAINTENANCE PACK]",
+    "Related BN": "IMVEXXY 4 MCG MAINTENANCE PACK",
+    "Related SCDC": "ESTRADIOL 0.004 MG",
+    "Related DF": "PACK"
+  },
+  {
+    "RxCUI": "1357009",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM [MINIVELLE]",
+    "Related BN": "MINIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2110786",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM [DOTTI]",
+    "Related BN": "DOTTI",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "238004",
+    "TTY": "SCD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "242892",
+    "TTY": "SCD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "2399904",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM [LYLLANA]",
+    "Related BN": "LYLLANA",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310183",
+    "TTY": "SBD",
+    "RxNorm Description": "84 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM [VIVELLE]",
+    "Related BN": "VIVELLE",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "310181",
+    "TTY": "SBD",
+    "RxNorm Description": "168 HR ESTRADIOL 0.00417 MG/HR TRANSDERMAL SYSTEM [CLIMARA]",
+    "Related BN": "CLIMARA",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "TRANSDERMAL SYSTEM"
+  },
+  {
+    "RxCUI": "848343",
+    "TTY": "SBD",
+    "RxNorm Description": "90 DAY ESTRADIOL 0.00417 MG/HR VAGINAL SYSTEM [FEMRING]",
+    "Related BN": "FEMRING",
+    "Related SCDC": "ESTRADIOL 0.00417 MG/HR",
+    "Related DF": "VAGINAL SYSTEM"
+  },
+  {
+    "RxCUI": "2054316",
+    "TTY": "BPCK",
+    "RxNorm Description": "{8 (ESTRADIOL 0.01 MG VAGINAL INSERT [IMVEXXY]) } PACK [IMVEXXY 10 MCG MAINTENANCE PACK]",
+    "Related BN": "IMVEXXY 10 MCG MAINTENANCE PACK",
+    "Related SCDC": "ESTRADIOL 0.01 MG",
+    "Related DF": "PACK"
+  },
+  {
+    "RxCUI": "2054318",
+    "TTY": "BPCK",
+    "RxNorm Description": "{18 (ESTRADIOL 0.01 MG VAGINAL INSERT [IMVEXXY]) } PACK [IMVEXXY 10 MCG STARTER PACK]",
+    "Related BN": "IMVEXXY 10 MCG STARTER PACK",
+    "Related SCDC": "ESTRADIOL 0.01 MG",
+    "Related DF": "PACK"
+  },
+  {
+    "RxCUI": "884709",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL 0.01 MG VAGINAL INSERT [VAGIFEM]",
+    "Related BN": "VAGIFEM",
+    "Related SCDC": "ESTRADIOL 0.01 MG",
+    "Related DF": "VAGINAL INSERT"
+  },
+  {
+    "RxCUI": "884707",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL 0.01 MG VAGINAL INSERT",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.01 MG",
+    "Related DF": "VAGINAL INSERT"
+  },
+  {
+    "RxCUI": "1797113",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL 0.01 MG VAGINAL INSERT [YUVAFEM]",
+    "Related BN": "YUVAFEM",
+    "Related SCDC": "ESTRADIOL 0.01 MG",
+    "Related DF": "VAGINAL INSERT"
+  },
+  {
+    "RxCUI": "890918",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL 0.1 MG/ML VAGINAL CREAM [ESTRACE]",
+    "Related BN": "ESTRACE",
+    "Related SCDC": "ESTRADIOL 0.1 MG/ML",
+    "Related DF": "VAGINAL CREAM"
+  },
+  {
+    "RxCUI": "310169",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL 0.1 MG/ML VAGINAL CREAM",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.1 MG/ML",
+    "Related DF": "VAGINAL CREAM"
+  },
+  {
+    "RxCUI": "197657",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL 0.5 MG ORAL TABLET",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 0.5 MG",
+    "Related DF": "ORAL TABLET"
+  },
+  {
+    "RxCUI": "197658",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL 1 MG ORAL TABLET",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 1 MG",
+    "Related DF": "ORAL TABLET"
+  },
+  {
+    "RxCUI": "728122",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL 1.53 MG/ACTUAT TOPICAL SPRAY [EVAMIST]",
+    "Related BN": "EVAMIST",
+    "Related SCDC": "ESTRADIOL 1.53 MG/ACTUAT",
+    "Related DF": "TOPICAL SPRAY"
+  },
+  {
+    "RxCUI": "197659",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL 2 MG ORAL TABLET",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL 2 MG",
+    "Related DF": "ORAL TABLET"
+  },
+  {
+    "RxCUI": "206417",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL CYPIONATE 5 MG/ML INJECTABLE SOLUTION [DEPO-ESTRADIOL]",
+    "Related BN": "DEPO-ESTRADIOL",
+    "Related SCDC": "ESTRADIOL CYPIONATE 5 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "206620",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL VALERATE 10 MG/ML INJECTABLE SOLUTION [DELESTROGEN]",
+    "Related BN": "DELESTROGEN",
+    "Related SCDC": "ESTRADIOL VALERATE 10 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "310189",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL VALERATE 10 MG/ML INJECTABLE SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL VALERATE 10 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "310190",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL VALERATE 20 MG/ML INJECTABLE SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL VALERATE 20 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "206715",
+    "TTY": "SBD",
+    "RxNorm Description": "ESTRADIOL VALERATE 20 MG/ML INJECTABLE SOLUTION [DELESTROGEN]",
+    "Related BN": "DELESTROGEN",
+    "Related SCDC": "ESTRADIOL VALERATE 20 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "310191",
+    "TTY": "SCD",
+    "RxNorm Description": "ESTRADIOL VALERATE 40 MG/ML INJECTABLE SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "ESTRADIOL VALERATE 40 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "2637147",
+    "TTY": "SBD",
+    "RxNorm Description": "FEZOLINETANT 45 MG ORAL TABLET [VEOZAH]",
+    "Related BN": "VEOZAH",
+    "Related SCDC": "FEZOLINETANT 45 MG",
+    "Related DF": "ORAL TABLET"
+  },
+  {
+    "RxCUI": "1370982",
+    "TTY": "SBD",
+    "RxNorm Description": "OSPEMIFENE 60 MG ORAL TABLET [OSPHENA]",
+    "Related BN": "OSPHENA",
+    "Related SCDC": "OSPEMIFENE 60 MG",
+    "Related DF": "ORAL TABLET"
+  },
+  {
+    "RxCUI": "1927693",
+    "TTY": "SBD",
+    "RxNorm Description": "PRASTERONE 6.5 MG VAGINAL INSERT [INTRAROSA]",
+    "Related BN": "INTRAROSA",
+    "Related SCDC": "PRASTERONE 6.5 MG",
+    "Related DF": "VAGINAL INSERT"
+  },
+  {
+    "RxCUI": "1597132",
+    "TTY": "SBD",
+    "RxNorm Description": "5000 MG TESTOSTERONE 0.01 MG/MG TOPICAL GEL [TESTIM]",
+    "Related BN": "TESTIM",
+    "Related SCDC": "TESTOSTERONE 0.01 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1597129",
+    "TTY": "SCD",
+    "RxNorm Description": "5000 MG TESTOSTERONE 0.01 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 0.01 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1597123",
+    "TTY": "SCD",
+    "RxNorm Description": "2500 MG TESTOSTERONE 0.01 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 0.01 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1597134",
+    "TTY": "SBD",
+    "RxNorm Description": "5000 MG TESTOSTERONE 0.01 MG/MG TOPICAL GEL [VOGELXO]",
+    "Related BN": "VOGELXO",
+    "Related SCDC": "TESTOSTERONE 0.01 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1597126",
+    "TTY": "SCD",
+    "RxNorm Description": "2500 MG TESTOSTERONE 0.0162 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 0.0162 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1597120",
+    "TTY": "SCD",
+    "RxNorm Description": "1250 MG TESTOSTERONE 0.0162 MG/MG TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 0.0162 MG/MG",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1596780",
+    "TTY": "SCD",
+    "RxNorm Description": "60 ACTUAT TESTOSTERONE 12.5 MG/ACTUAT TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 12.5 MG/ACTUAT",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1596785",
+    "TTY": "SBD",
+    "RxNorm Description": "60 ACTUAT TESTOSTERONE 12.5 MG/ACTUAT TOPICAL GEL [VOGELXO]",
+    "Related BN": "VOGELXO",
+    "Related SCDC": "TESTOSTERONE 12.5 MG/ACTUAT",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1597076",
+    "TTY": "SCD",
+    "RxNorm Description": "60 ACTUAT TESTOSTERONE 20.25 MG/ACTUAT TOPICAL GEL",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 20.25 MG/ACTUAT",
+    "Related DF": "TOPICAL GEL"
+  },
+  {
+    "RxCUI": "1599949",
+    "TTY": "SCD",
+    "RxNorm Description": "60 ACTUAT TESTOSTERONE 30 MG/ACTUAT TOPICAL SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE 30 MG/ACTUAT",
+    "Related DF": "TOPICAL SOLUTION"
+  },
+  {
+    "RxCUI": "835829",
+    "TTY": "SCD",
+    "RxNorm Description": "TESTOSTERONE CYPIONATE 100 MG/ML INJECTABLE SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE CYPIONATE 100 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "835831",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE CYPIONATE 100 MG/ML INJECTABLE SOLUTION [DEPO-TESTOSTERONE]",
+    "Related BN": "DEPO-TESTOSTERONE",
+    "Related SCDC": "TESTOSTERONE CYPIONATE 100 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "835840",
+    "TTY": "SCD",
+    "RxNorm Description": "TESTOSTERONE CYPIONATE 200 MG/ML INJECTABLE SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE CYPIONATE 200 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "835842",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE CYPIONATE 200 MG/ML INJECTABLE SOLUTION [DEPO-TESTOSTERONE]",
+    "Related BN": "DEPO-TESTOSTERONE",
+    "Related SCDC": "TESTOSTERONE CYPIONATE 200 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "2047882",
+    "TTY": "SCD",
+    "RxNorm Description": "1 ML TESTOSTERONE CYPIONATE 200 MG/ML INJECTION",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE CYPIONATE 200 MG/ML",
+    "Related DF": "INJECTION"
+  },
+  {
+    "RxCUI": "2099691",
+    "TTY": "SBD",
+    "RxNorm Description": "0.5 ML TESTOSTERONE ENANTHATE 100 MG/ML AUTO-INJECTOR [XYOSTED]",
+    "Related BN": "XYOSTED",
+    "Related SCDC": "TESTOSTERONE ENANTHATE 100 MG/ML",
+    "Related DF": "AUTO-INJECTOR"
+  },
+  {
+    "RxCUI": "2099697",
+    "TTY": "SBD",
+    "RxNorm Description": "0.5 ML TESTOSTERONE ENANTHATE 150 MG/ML AUTO-INJECTOR [XYOSTED]",
+    "Related BN": "XYOSTED",
+    "Related SCDC": "TESTOSTERONE ENANTHATE 150 MG/ML",
+    "Related DF": "AUTO-INJECTOR"
+  },
+  {
+    "RxCUI": "2099686",
+    "TTY": "SBD",
+    "RxNorm Description": "0.5 ML TESTOSTERONE ENANTHATE 200 MG/ML AUTO-INJECTOR [XYOSTED]",
+    "Related BN": "XYOSTED",
+    "Related SCDC": "TESTOSTERONE ENANTHATE 200 MG/ML",
+    "Related DF": "AUTO-INJECTOR"
+  },
+  {
+    "RxCUI": "835809",
+    "TTY": "SCD",
+    "RxNorm Description": "TESTOSTERONE ENANTHATE 200 MG/ML INJECTABLE SOLUTION",
+    "Related BN": "",
+    "Related SCDC": "TESTOSTERONE ENANTHATE 200 MG/ML",
+    "Related DF": "INJECTABLE SOLUTION"
+  },
+  {
+    "RxCUI": "2599060",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE UNDECANOATE 112.5 MG ORAL CAPSULE [TLANDO]",
+    "Related BN": "TLANDO",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 112.5 MG",
+    "Related DF": "ORAL CAPSULE"
+  },
+  {
+    "RxCUI": "2609607",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE UNDECANOATE 150 MG ORAL CAPSULE [KYZATREX]",
+    "Related BN": "KYZATREX",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 150 MG",
+    "Related DF": "ORAL CAPSULE"
+  },
+  {
+    "RxCUI": "2201640",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE UNDECANOATE 158 MG ORAL CAPSULE [JATENZO]",
+    "Related BN": "JATENZO",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 158 MG",
+    "Related DF": "ORAL CAPSULE"
+  },
+  {
+    "RxCUI": "2201642",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE UNDECANOATE 198 MG ORAL CAPSULE [JATENZO]",
+    "Related BN": "JATENZO",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 198 MG",
+    "Related DF": "ORAL CAPSULE"
+  },
+  {
+    "RxCUI": "2609611",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE UNDECANOATE 200 MG ORAL CAPSULE [KYZATREX]",
+    "Related BN": "KYZATREX",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 200 MG",
+    "Related DF": "ORAL CAPSULE"
+  },
+  {
+    "RxCUI": "2121776",
+    "TTY": "SBD",
+    "RxNorm Description": "TESTOSTERONE UNDECANOATE 237 MG ORAL CAPSULE [JATENZO]",
+    "Related BN": "JATENZO",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 237 MG",
+    "Related DF": "ORAL CAPSULE"
+  },
+  {
+    "RxCUI": "1490667",
+    "TTY": "SBD",
+    "RxNorm Description": "3 ML TESTOSTERONE UNDECANOATE 250 MG/ML INJECTION [AVEED]",
+    "Related BN": "AVEED",
+    "Related SCDC": "TESTOSTERONE UNDECANOATE 250 MG/ML",
+    "Related DF": "INJECTION"
+  }
+]

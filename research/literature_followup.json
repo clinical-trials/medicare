@@ -1,0 +1,150 @@
+{
+  "items": [],
+  "studies": [
+    {
+      "id": "L-H01",
+      "citation": "Gornick M, Newton M, Hackerman C. Factors Affecting Differences in Medicare Reimbursements for Physicians' Services. Health Care Financ Rev. 1980;1(4):15–37.",
+      "year": 1980,
+      "design": "Descriptive administrative-data analysis",
+      "population": "US Part B enrollees aged 65+; 1% analytic sample",
+      "payer": "Medicare Part B",
+      "data_period": "1975 (main analysis)",
+      "finding": "Women/men, 1975 nominal dollars: mean reimbursement per enrollee $125/$140; deductible exceeded 51%/47%; mean allowed charge per service $14.60/$16.46. Inpatient surgery allowed charges reversed: $277.06/$267.94 (Tables 1, 3, 5).",
+      "limitation": "No diagnoses or specific procedure codes; incomplete below-deductible utilization. Service mix may explain differences. Historical customary/prevailing/reasonable-charge system; no causal or current-coverage inference.",
+      "relevance": "Historical patient-sex evidence on benefit distribution and cost sharing.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/",
+      "doi_or_pmid": "PMID 10309221; PMCID PMC4191131",
+      "extraction_level": "Targeted full-text extraction; CMS PDF checked against indexed PMC",
+      "population_screening_status": "Historical patient evidence: eligibility pending",
+      "identity_reporting": "Enrollment-file sex; gender identity not reported.",
+      "screening_notes": "Population eligibility and risk-of-bias assessment pending; retain in historical synthesis separately from current policy.",
+      "synthesis_role": "historical_patient_candidate"
+    },
+    {
+      "id": "L-B01",
+      "citation": "Mauvais-Jarvis F et al. Sex and gender: modifiers of health, disease, and medicine. Lancet. 2020;396(10250):565–582.",
+      "year": 2020,
+      "design": "Narrative clinical review",
+      "population": "Clinical and preclinical literature; no Medicare cohort",
+      "payer": "Not payer-specific",
+      "data_period": "Search: Jan 2000–Jun 2020; earlier seminal work also cited",
+      "finding": "Synthesizes sex-related biology and gender-related social influences on disease, diagnosis and treatment. Provides a framework for evaluating clinical needs across disease domains.",
+      "limitation": "Selective narrative review; no original Medicare coverage, reimbursement or patient-cost analysis. Underlying studies require separate eligibility and quality assessment.",
+      "relevance": "Foundational clinical background for the national question and white paper; source for citation following.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/",
+      "doi_or_pmid": "10.1016/S0140-6736(20)31561-0; PMID 32828189",
+      "extraction_level": "Targeted main-text review; citation and linked correction verified",
+      "population_screening_status": "Background: sex/gender medicine review",
+      "identity_reporting": "Discusses sex and gender; no defined patient cohort. Not classified as cisgender-only.",
+      "screening_notes": "Linked correction L-B01-E1, PMID 32891210 (Figure 4 label). Retain background separately from direct reimbursement evidence.",
+      "synthesis_role": "context_only",
+      "context_type": "clinical_background",
+      "related_reference_ids": ["L-B01-E1"]
+    },
+    {
+      "id": "L-B02",
+      "citation": "Chang WH. Understanding the COVID-19 pandemic from a gender perspective. Taiwan J Obstet Gynecol. 2020;59(6):801–807.",
+      "year": 2020,
+      "design": "Narrative review",
+      "population": "International literature on women and men; no defined Medicare cohort",
+      "payer": "Not payer-specific",
+      "data_period": "Early-pandemic literature, 2020; no formal search window reported",
+      "finding": "Discusses gendered caregiving, employment, occupational exposure and health-seeking behavior alongside early sex differences in COVID-19 outcomes.",
+      "limitation": "Author acknowledges limited source-credibility assessment, including non-peer-reviewed websites. Mixes early studies, preprints and media; clinical claims require independent verification. No Medicare reimbursement analysis.",
+      "relevance": "Background on social and economic pathways potentially affecting access; generates hypotheses for the national review.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/",
+      "doi_or_pmid": "10.1016/j.tjog.2020.09.004; PMID 33218392",
+      "extraction_level": "Targeted main-text review via indexed PMC; citation verified",
+      "population_screening_status": "Background: pandemic gender inequities",
+      "identity_reporting": "Discusses men and women; no defined cohort or verified cisgender-only population.",
+      "screening_notes": "Underlying references require independent screening. No pooled estimate extracted; formal quality assessment pending.",
+      "synthesis_role": "context_only",
+      "context_type": "clinical_background"
+    },
+    {
+      "id": "L-B03",
+      "citation": "Betron M, Gottert A, Pulerwitz J, Shattuck D, Stevanovic-Fenn N. Men and COVID-19: Adding a gender lens. Glob Public Health. 2020;15(7):1090–1092.",
+      "year": 2020,
+      "design": "Public-health commentary",
+      "population": "Global public-health context; no original patient cohort",
+      "payer": "Not payer-specific",
+      "data_period": "Early-pandemic commentary; online May 2020",
+      "finding": "Highlights men's care-seeking barriers and gender norms. Proposes tailored outreach, shared caregiving and violence prevention, while acknowledging uncertainty about biological versus social drivers of COVID-19 risk.",
+      "limitation": "Commentary using prior research, programmes and media; no original cohort, systematic search or pooled effect estimate. No Medicare coverage or payment comparison.",
+      "relevance": "Framework for examining access barriers affecting either sex; Medicare applicability requires primary evidence.",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702",
+      "doi_or_pmid": "10.1080/17441692.2020.1769702; PMID 32436422",
+      "extraction_level": "Publisher main text reviewed via indexed page; citation verified",
+      "population_screening_status": "Background: gender and access commentary",
+      "identity_reporting": "Discusses men and women; no defined cohort or verified cisgender-only population.",
+      "screening_notes": "Publisher notes republication with minor changes that do not affect academic content. Cited interventions need independent retrieval and appraisal.",
+      "synthesis_role": "context_only",
+      "context_type": "clinical_background"
+    },
+    {
+      "id": "L-Q01",
+      "citation": "Tong A et al. Nephrologists’ Perspectives on Gender Disparities in CKD and Dialysis. Kidney Int Rep. 2022;7(3):424–435.",
+      "year": 2022,
+      "design": "Qualitative interviews; thematic analysis",
+      "population": "51 nephrologists, 22 countries (7 US); no patient cohort",
+      "payer": "Multiple health systems; no Medicare-specific analysis",
+      "data_period": "Oct 2019–Apr 2020",
+      "finding": "Clinicians described caregiving, financial and transport barriers, limited support and stereotyping affecting women's kidney care. Men's provider roles and reluctance to relinquish control could also delay care. These are perceptions, not measured disparity rates.",
+      "limitation": "Purposive professional-network sample; English/German interviews. Responses reporting no perceived differences were not detailed. No patient interviews or Medicare payment, denial or cost estimates; national generalizability is limited.",
+      "relevance": "Original qualitative evidence for access mechanisms to investigate in CKD and dialysis; requires Medicare-specific follow-up.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/",
+      "doi_or_pmid": "10.1016/j.ekir.2021.10.022; PMID 35257055",
+      "extraction_level": "Targeted full-text review: methods, results, tables and limitations",
+      "population_screening_status": "Context: qualitative patient-access evidence",
+      "identity_reporting": "Authors excluded transgender-patient disparity data. No patient cohort; clinician gender identity not established.",
+      "screening_notes": "Original research, not commentary. Retain as qualitative access context; formal appraisal pending. Linked editorial is a citation lead, not a correction.",
+      "synthesis_role": "context_only",
+      "context_type": "qualitative_access"
+    }
+  ],
+  "provenance": [
+    {
+      "id": "L-H01",
+      "user_supplied_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/",
+      "verified_sources": [
+        "https://www.cms.gov/research-statistics-data-and-systems/research/healthcarefinancingreview/downloads/cms1191058dl.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/",
+        "https://pubmed.ncbi.nlm.nih.gov/10309221/"
+      ],
+      "checked": "2026-09-16",
+      "source_access": "CMS PDF text accessible; direct PMC page challenged browser, indexed PMC text accessible. PDF screenshot tool failed; tabular text and narrative cross-checked.",
+      "verification_locations": "Methods and sample: printed pp. 16–17. Table 1: p. 18. Table 3: p. 21. Table 5: p. 23.",
+      "data_quality_notes": "CMS PDF confirms a 1% analytic subsample of the 5% Bill Summary system and age 65+; PMC Table 1 heading misreads age as 85+. Per-enrollee amounts use the enrolled population denominator, not only reimbursed users. Counts are weighted estimates."
+    },
+    {
+      "id": "L-B01",
+      "user_supplied_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/",
+      "verified_sources": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/", "https://pubmed.ncbi.nlm.nih.gov/32828189/", "https://pmc.ncbi.nlm.nih.gov/articles/PMC8445312/"],
+      "checked": "2026-09-16",
+      "source_access": "Main text reviewed through indexed PMC. Bibliographic metadata and linked erratum checked against MEDLINE. Correction linked as L-B01-E1; not an independent study."
+    },
+    {
+      "id": "L-B02",
+      "user_supplied_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/",
+      "verified_sources": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/", "https://pubmed.ncbi.nlm.nih.gov/33218392/", "https://www.sciencedirect.com/science/article/pii/S1028455920302151"],
+      "checked": "2026-09-16",
+      "source_access": "Direct PMC page returned a browser challenge; indexed main text and Europe PMC fullTextXML were accessible. PubMed and publisher citation details checked. Author's Disclaimer acknowledges limited source-credibility assessment. Underlying cited studies were not independently extracted."
+    },
+    {
+      "id": "L-B03",
+      "user_supplied_url": "https://www.tandfonline.com/doi/epdf/10.1080/17441692.2020.1769702?needAccess=true",
+      "verified_sources": ["https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702", "https://pubmed.ncbi.nlm.nih.gov/32436422/", "https://knowledgecommons.popcouncil.org/departments_sbsr-hiv/392/"],
+      "checked": "2026-09-16",
+      "source_access": "User's ePDF URL failed to open; publisher's indexed full article and author-institution record were accessible. Inline republication statement recorded; no independent correction record created."
+    },
+    {
+      "id": "L-Q01",
+      "user_supplied_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/",
+      "verified_sources": ["https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/", "https://pubmed.ncbi.nlm.nih.gov/35257055/", "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8897691/fullTextXML"],
+      "checked": "2026-09-16",
+      "source_access": "Direct PMC page challenged browser; indexed PMC text and Europe PMC publisher fullTextXML accessible. Targeted full-text extraction reviewed methods, results, tables and conclusion. Supplementary interview guide not separately reviewed.",
+      "verification_locations": "Methods: purposive recruitment, thematic analysis and member checking. Results and Table 1: 51/56 participating nephrologists, 22 countries, 7 US. Results: no-difference responses not detailed. Conclusion: language and network limitations; transgender-patient disparity data excluded.",
+      "data_quality_notes": "Original qualitative study of clinicians' perspectives on patient access, distinct from clinician-pay studies. Suggested interventions are not evaluated outcomes. No measured US/Medicare-specific effect; do not infer that reported barriers establish a coverage exclusion. Formal qualitative appraisal remains pending."
+    }
+  ]
+}

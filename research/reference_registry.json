@@ -1,0 +1,3620 @@
+{
+  "updated_on": "2026-09-16",
+  "counts": {
+    "active_studies": 33,
+    "excluded_studies": 8,
+    "linked_corrections": 1,
+    "verified_scientific_metadata": 42,
+    "policy_and_data_sources": 44,
+    "clinical_guidance_sources": 4
+  },
+  "scientific_references": [
+    {
+      "id": "L-P01",
+      "original_citation": "Penn et al. Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies. J Womens Health. 2025;34:665–676.",
+      "authors": [
+        {
+          "family": "Penn",
+          "given": "Madeline",
+          "initials": "M"
+        },
+        {
+          "family": "Colley",
+          "given": "Donessa",
+          "initials": "D"
+        },
+        {
+          "family": "Koirala",
+          "given": "Pratistha",
+          "initials": "P"
+        },
+        {
+          "family": "King",
+          "given": "Louise",
+          "initials": "L"
+        },
+        {
+          "family": "Fitzgerald",
+          "given": "Jocelyn",
+          "initials": "J"
+        }
+      ],
+      "title": "Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies.",
+      "journal": "Journal of women's health (2002)",
+      "year": 2025,
+      "volume": "34",
+      "issue": "5",
+      "pages": "665-676",
+      "doi": "10.1089/jwh.2024.0984",
+      "pmid": "39978776",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39978776/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39978776+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "J Womens Health (Larchmt)",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Penn M, Colley D, Koirala P, King L, Fitzgerald J. Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies. J Womens Health (Larchmt). 2025;34(5):665-676.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39978776/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Abstract plus accessible limitations excerpts",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P01",
+        "P02",
+        "P13"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P02",
+      "original_citation": "Hathaway et al. Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures. Urol Pract. 2024;11:654–660.",
+      "authors": [
+        {
+          "family": "Hathaway",
+          "given": "Jon K",
+          "initials": "JK"
+        },
+        {
+          "family": "Schuster",
+          "given": "Mitchell S",
+          "initials": "MS"
+        },
+        {
+          "family": "Richards",
+          "given": "Kyle A",
+          "initials": "KA"
+        },
+        {
+          "family": "Turk",
+          "given": "Thomas M T",
+          "initials": "TMT"
+        }
+      ],
+      "title": "Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures.",
+      "journal": "Urology practice",
+      "year": 2024,
+      "volume": "11",
+      "issue": "4",
+      "pages": "654-660",
+      "doi": "10.1097/upj.0000000000000612",
+      "pmid": "38758183",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38758183+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Urol Pract",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Hathaway JK, Schuster MS, Richards KA, Turk TMT. Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures. Urol Pract. 2024;11(4):654-660.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Abstract plus authors’ detailed AUA comparison table",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P01",
+        "P02",
+        "P14"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P03",
+      "original_citation": "Polan and Barber. Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time. Obstet Gynecol. 2021;138:878–883.",
+      "authors": [
+        {
+          "family": "Polan",
+          "given": "Rosa M",
+          "initials": "RM"
+        },
+        {
+          "family": "Barber",
+          "given": "Emma L",
+          "initials": "EL"
+        }
+      ],
+      "title": "Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time.",
+      "journal": "Obstetrics and gynecology",
+      "year": 2021,
+      "volume": "138",
+      "issue": "6",
+      "pages": "878-883",
+      "doi": "10.1097/aog.0000000000004599",
+      "pmid": "34736273",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34736273/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34736273+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Obstet Gynecol",
+      "pmcid": "PMC8602770",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Polan RM, Barber EL. Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time. Obstet Gynecol. 2021;138(6):878-883.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34736273/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Targeted full-text review",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P01",
+        "P14"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P04",
+      "original_citation": "Uppal et al. Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement. Obstet Gynecol. 2021;138:182–188.",
+      "authors": [
+        {
+          "family": "Uppal",
+          "given": "Shitanshu",
+          "initials": "S"
+        },
+        {
+          "family": "Rice",
+          "given": "Laurel W",
+          "initials": "LW"
+        },
+        {
+          "family": "Spencer",
+          "given": "Ryan J",
+          "initials": "RJ"
+        }
+      ],
+      "title": "Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement.",
+      "journal": "Obstetrics and gynecology",
+      "year": 2021,
+      "volume": "138",
+      "issue": "2",
+      "pages": "182-188",
+      "doi": "10.1097/aog.0000000000004467",
+      "pmid": "34237766",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34237766/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34237766+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Obstet Gynecol",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Uppal S, Rice LW, Spencer RJ. Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement. Obstet Gynecol. 2021;138(2):182-188.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34237766/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation and abstract; full-text extraction not completed",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P13"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P05",
+      "original_citation": "Goff et al. Is Adam worth more than Eve? The financial impact of gender bias in the federal reimbursement of gynecological procedures. Gynecol Oncol. 1997;64:372–377.",
+      "authors": [
+        {
+          "family": "Goff",
+          "given": "B A",
+          "initials": "BA"
+        },
+        {
+          "family": "Muntz",
+          "given": "H G",
+          "initials": "HG"
+        },
+        {
+          "family": "Cain",
+          "given": "J M",
+          "initials": "JM"
+        }
+      ],
+      "title": "Is Adam worth more than Eve? The financial impact of gender bias in the federal reimbursement of gynecological procedures.",
+      "journal": "Gynecologic oncology",
+      "year": 1997,
+      "volume": "64",
+      "issue": "3",
+      "pages": "372-377",
+      "doi": "10.1006/gyno.1996.4607",
+      "pmid": "9062137",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/9062137/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A9062137+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Gynecol Oncol",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Goff BA, Muntz HG, Cain JM. Is Adam worth more than Eve? The financial impact of gender bias in the federal reimbursement of gynecological procedures. Gynecol Oncol. 1997;64(3):372-377.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/9062137/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation and abstract; full-text extraction not completed",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P06",
+      "original_citation": "Benoit et al. Comparison of 2015 Medicare relative value units for gender-specific procedures. Gynecol Oncol. 2017;144:336–342.",
+      "authors": [
+        {
+          "family": "Benoit",
+          "given": "M F",
+          "initials": "MF"
+        },
+        {
+          "family": "Ma",
+          "given": "J F",
+          "initials": "JF"
+        },
+        {
+          "family": "Upperman",
+          "given": "B A",
+          "initials": "BA"
+        }
+      ],
+      "title": "Comparison of 2015 Medicare relative value units for gender-specific procedures: Gynecologic and gynecologic-oncologic versus urologic CPT coding. Has time healed gender-worth?",
+      "journal": "Gynecologic oncology",
+      "year": 2017,
+      "volume": "144",
+      "issue": "2",
+      "pages": "336-342",
+      "doi": "10.1016/j.ygyno.2016.12.006",
+      "pmid": "28024653",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28024653/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28024653+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Legacy citation abbreviates the title after “gender-specific procedures.” Full MEDLINE title includes the subtitle; DOI and PMID agree."
+      ],
+      "journal_abbreviation": "Gynecol Oncol",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Benoit MF, Ma JF, Upperman BA. Comparison of 2015 Medicare relative value units for gender-specific procedures: Gynecologic and gynecologic-oncologic versus urologic CPT coding. Has time healed gender-worth? Gynecol Oncol. 2017;144(2):336-342.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/28024653/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Targeted full-text review",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P02"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P07",
+      "original_citation": "Graziano et al. Longitudinal Trends in wRVU and Reimbursement for Free Flap and Implant-Based Breast Reconstruction: A 13-Year Valuation Analysis. Plast Reconstr Surg. 2026.",
+      "authors": [
+        {
+          "family": "Graziano",
+          "given": "Francis D",
+          "initials": "FD"
+        },
+        {
+          "family": "Levy",
+          "given": "Jacob",
+          "initials": "J"
+        },
+        {
+          "family": "Chen",
+          "given": "Jenny",
+          "initials": "J"
+        },
+        {
+          "family": "Shammas",
+          "given": "Ronnie L",
+          "initials": "RL"
+        },
+        {
+          "family": "Boe",
+          "given": "Lillian",
+          "initials": "L"
+        },
+        {
+          "family": "Allen",
+          "given": "Robert J",
+          "initials": "RJ"
+        },
+        {
+          "family": "Mehrara",
+          "given": "Babak J",
+          "initials": "BJ"
+        },
+        {
+          "family": "Nelson",
+          "given": "Jonas A",
+          "initials": "JA"
+        },
+        {
+          "family": "Rochlin",
+          "given": "Danielle",
+          "initials": "D"
+        },
+        {
+          "family": "Matros",
+          "given": "Evan",
+          "initials": "E"
+        }
+      ],
+      "title": "Longitudinal Trends in wRVU and Reimbursement for Free Flap and Implant-Based Breast Reconstruction: A 13-Year Valuation Analysis.",
+      "journal": "Plastic and reconstructive surgery",
+      "year": 2026,
+      "volume": "",
+      "issue": "",
+      "pages": "",
+      "doi": "10.1097/prs.0000000000013164",
+      "pmid": "42085599",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42085599/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42085599+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Volume, issue and pages absent from retrieved MEDLINE metadata; retain online-ahead-of-print citation and DOI."
+      ],
+      "journal_abbreviation": "Plast Reconstr Surg",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "electronic_publication_date": "2026-05-05",
+      "publication_status": "aheadofprint",
+      "source_type": "scientific",
+      "citation": "Graziano FD, Levy J, Chen J, Shammas RL, Boe L, Allen RJ, et al. Longitudinal Trends in wRVU and Reimbursement for Free Flap and Implant-Based Breast Reconstruction: A 13-Year Valuation Analysis. Plast Reconstr Surg. 2026.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/42085599/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation and abstract; full-text extraction not completed",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P03"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P08",
+      "original_citation": "Stigliano et al. Trends in Medicare Reimbursement for Breast Procedures: A National and Geographic Analysis, 2010–2024. Ann Plast Surg. 2026;96:S228–S233.",
+      "authors": [
+        {
+          "family": "Stigliano",
+          "given": "Michael",
+          "initials": "M"
+        },
+        {
+          "family": "Gundlach",
+          "given": "Carson",
+          "initials": "C"
+        },
+        {
+          "family": "Qin",
+          "given": "Nancy",
+          "initials": "N"
+        },
+        {
+          "family": "McVeigh",
+          "given": "Annie B",
+          "initials": "AB"
+        },
+        {
+          "family": "Wei",
+          "given": "Lucy",
+          "initials": "L"
+        },
+        {
+          "family": "Vaeth",
+          "given": "Anna M",
+          "initials": "AM"
+        },
+        {
+          "family": "Kochheiser",
+          "given": "Makayla",
+          "initials": "M"
+        },
+        {
+          "family": "Otterburn",
+          "given": "David M",
+          "initials": "DM"
+        }
+      ],
+      "title": "Trends in Medicare Reimbursement for Breast Procedures: A National and Geographic Analysis, 2010-2024.",
+      "journal": "Annals of plastic surgery",
+      "year": 2026,
+      "volume": "96",
+      "issue": "Suppl 5",
+      "pages": "S228-S233",
+      "doi": "10.1097/sap.0000000000004646",
+      "pmid": "41701182",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41701182/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A41701182+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Ann Plast Surg",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Stigliano M, Gundlach C, Qin N, McVeigh AB, Wei L, Vaeth AM, et al. Trends in Medicare Reimbursement for Breast Procedures: A National and Geographic Analysis, 2010-2024. Ann Plast Surg. 2026;96(Suppl 5):S228-S233.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/41701182/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation and abstract; full-text extraction not completed",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P03",
+        "P07"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P09",
+      "original_citation": "Doval et al. Is Our Effort Appropriately Valued? An Analysis of Work Relative Value Units in Immediate Breast Reconstruction. Plast Reconstr Surg. 2020;146:502–508.",
+      "authors": [
+        {
+          "family": "Doval",
+          "given": "Andres F",
+          "initials": "AF"
+        },
+        {
+          "family": "Gratzon",
+          "given": "Andrew C",
+          "initials": "AC"
+        },
+        {
+          "family": "Neese",
+          "given": "Virginia",
+          "initials": "V"
+        },
+        {
+          "family": "Shuck",
+          "given": "John W",
+          "initials": "JW"
+        },
+        {
+          "family": "Friedman",
+          "given": "Jeffrey",
+          "initials": "J"
+        },
+        {
+          "family": "Echo",
+          "given": "Anthony",
+          "initials": "A"
+        }
+      ],
+      "title": "Is Our Effort Appropriately Valued? An Analysis of Work Relative Value Units in Immediate Breast Reconstruction.",
+      "journal": "Plastic and reconstructive surgery",
+      "year": 2020,
+      "volume": "146",
+      "issue": "3",
+      "pages": "502-508",
+      "doi": "10.1097/prs.0000000000007054",
+      "pmid": "32453268",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32453268/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32453268+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Plast Reconstr Surg",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Doval AF, Gratzon AC, Neese V, Shuck JW, Friedman J, Echo A. Is Our Effort Appropriately Valued? An Analysis of Work Relative Value Units in Immediate Breast Reconstruction. Plast Reconstr Surg. 2020;146(3):502-508.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32453268/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation and abstract; full-text extraction not completed",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P03"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-P10",
+      "original_citation": "Morin et al. Multimodal physical therapy versus topical lidocaine for provoked vestibulodynia: a multicenter, randomized trial. Am J Obstet Gynecol. 2021;224:189.e1–189.e12.",
+      "authors": [
+        {
+          "family": "Morin",
+          "given": "Mélanie",
+          "initials": "M"
+        },
+        {
+          "family": "Dumoulin",
+          "given": "Chantale",
+          "initials": "C"
+        },
+        {
+          "family": "Bergeron",
+          "given": "Sophie",
+          "initials": "S"
+        },
+        {
+          "family": "Mayrand",
+          "given": "Marie-Hélène",
+          "initials": "MH"
+        },
+        {
+          "family": "Khalifé",
+          "given": "Samir",
+          "initials": "S"
+        },
+        {
+          "family": "Waddell",
+          "given": "Guy",
+          "initials": "G"
+        },
+        {
+          "family": "Dubois",
+          "given": "Marie-France",
+          "initials": "MF"
+        },
+        {
+          "literal": "PVD Study Group"
+        }
+      ],
+      "title": "Multimodal physical therapy versus topical lidocaine for provoked vestibulodynia: a multicenter, randomized trial.",
+      "journal": "American journal of obstetrics and gynecology",
+      "year": 2021,
+      "volume": "224",
+      "issue": "2",
+      "pages": "189.e1-189.e12",
+      "doi": "10.1016/j.ajog.2020.08.038",
+      "pmid": "32818475",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32818475/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32818475+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Am J Obstet Gynecol",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Morin M, Dumoulin C, Bergeron S, Mayrand MH, Khalifé S, Waddell G, et al. Multimodal physical therapy versus topical lidocaine for provoked vestibulodynia: a multicenter, randomized trial. Am J Obstet Gynecol. 2021;224(2):189.e1-189.e12.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32818475/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation and abstract; full-text extraction not completed",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "P12"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D01",
+      "original_citation": "Tabakin AL, Lee W, Winkler HA, Shalom DF. Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries. Urogynecology. 2024.",
+      "authors": [
+        {
+          "family": "Tabakin",
+          "given": "Alexandra L",
+          "initials": "AL"
+        },
+        {
+          "family": "Lee",
+          "given": "Wai",
+          "initials": "W"
+        },
+        {
+          "family": "Winkler",
+          "given": "Harvey A",
+          "initials": "HA"
+        },
+        {
+          "family": "Shalom",
+          "given": "Dara F",
+          "initials": "DF"
+        }
+      ],
+      "title": "Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries.",
+      "journal": "Urogynecology (Philadelphia, Pa.)",
+      "year": 2025,
+      "volume": "31",
+      "issue": "1",
+      "pages": "58-64",
+      "doi": "10.1097/spv.0000000000001504",
+      "pmid": "38527966",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38527966/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38527966+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Legacy citation uses 2024, the electronic publication year (2024-03-26). The final issue is January 2025;31(1):58–64. Bibliography uses the final issue year; original citation is preserved."
+      ],
+      "journal_abbreviation": "Urogynecology (Phila)",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "electronic_publication_date": "2024-03-26",
+      "source_type": "scientific",
+      "citation": "Tabakin AL, Lee W, Winkler HA, Shalom DF. Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries. Urogynecology (Phila). 2025;31(1):58-64.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38527966/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D03"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D02",
+      "original_citation": "Baik SH, Baye F, McDonald CJ. Use of menopausal hormone therapy beyond age 65 years and its effects on women’s health outcomes by types, routes, and doses. Menopause. 2024;31:363–371.",
+      "authors": [
+        {
+          "family": "Baik",
+          "given": "Seo H",
+          "initials": "SH"
+        },
+        {
+          "family": "Baye",
+          "given": "Fitsum",
+          "initials": "F"
+        },
+        {
+          "family": "McDonald",
+          "given": "Clement J",
+          "initials": "CJ"
+        }
+      ],
+      "title": "Use of menopausal hormone therapy beyond age 65 years and its effects on women's health outcomes by types, routes, and doses.",
+      "journal": "Menopause (New York, N.Y.)",
+      "year": 2024,
+      "volume": "31",
+      "issue": "5",
+      "pages": "363-371",
+      "doi": "10.1097/gme.0000000000002335",
+      "pmid": "38595196",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38595196/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38595196+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Menopause",
+      "pmcid": "PMC11465799",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Baik SH, Baye F, McDonald CJ. Use of menopausal hormone therapy beyond age 65 years and its effects on women's health outcomes by types, routes, and doses. Menopause. 2024;31(5):363-371.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38595196/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D01",
+        "D02",
+        "D04"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D03",
+      "original_citation": "Mitchell CM et al. Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial. JAMA Intern Med. 2018;178:681–690.",
+      "authors": [
+        {
+          "family": "Mitchell",
+          "given": "Caroline M",
+          "initials": "CM"
+        },
+        {
+          "family": "Reed",
+          "given": "Susan D",
+          "initials": "SD"
+        },
+        {
+          "family": "Diem",
+          "given": "Susan",
+          "initials": "S"
+        },
+        {
+          "family": "Larson",
+          "given": "Joseph C",
+          "initials": "JC"
+        },
+        {
+          "family": "Newton",
+          "given": "Katherine M",
+          "initials": "KM"
+        },
+        {
+          "family": "Ensrud",
+          "given": "Kristine E",
+          "initials": "KE"
+        },
+        {
+          "family": "LaCroix",
+          "given": "Andrea Z",
+          "initials": "AZ"
+        },
+        {
+          "family": "Caan",
+          "given": "Bette",
+          "initials": "B"
+        },
+        {
+          "family": "Guthrie",
+          "given": "Katherine A",
+          "initials": "KA"
+        }
+      ],
+      "title": "Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial.",
+      "journal": "JAMA internal medicine",
+      "year": 2018,
+      "volume": "178",
+      "issue": "5",
+      "pages": "681-690",
+      "doi": "10.1001/jamainternmed.2018.0116",
+      "pmid": "29554173",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29554173/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29554173+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Intern Med",
+      "pmcid": "PMC5885275",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Mitchell CM, Reed SD, Diem S, Larson JC, Newton KM, Ensrud KE, et al. Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial. JAMA Intern Med. 2018;178(5):681-690.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29554173/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D03"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D04",
+      "original_citation": "Danan ER et al. Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause: A Systematic Review. Ann Intern Med. 2024;177:1400–1414.",
+      "authors": [
+        {
+          "family": "Danan",
+          "given": "Elisheva R",
+          "initials": "ER"
+        },
+        {
+          "family": "Sowerby",
+          "given": "Catherine",
+          "initials": "C"
+        },
+        {
+          "family": "Ullman",
+          "given": "Kristen E",
+          "initials": "KE"
+        },
+        {
+          "family": "Ensrud",
+          "given": "Kristine",
+          "initials": "K"
+        },
+        {
+          "family": "Forte",
+          "given": "Mary L",
+          "initials": "ML"
+        },
+        {
+          "family": "Zerzan",
+          "given": "Nicholas",
+          "initials": "N"
+        },
+        {
+          "family": "Anthony",
+          "given": "Maylen",
+          "initials": "M"
+        },
+        {
+          "family": "Kalinowski",
+          "given": "Caleb",
+          "initials": "C"
+        },
+        {
+          "family": "Abdi",
+          "given": "Hamdi I",
+          "initials": "HI"
+        },
+        {
+          "family": "Friedman",
+          "given": "Jessica K",
+          "initials": "JK"
+        },
+        {
+          "family": "Landsteiner",
+          "given": "Adrienne",
+          "initials": "A"
+        },
+        {
+          "family": "Greer",
+          "given": "Nancy",
+          "initials": "N"
+        },
+        {
+          "family": "Nardos",
+          "given": "Rahel",
+          "initials": "R"
+        },
+        {
+          "family": "Fok",
+          "given": "Cynthia",
+          "initials": "C"
+        },
+        {
+          "family": "Dahm",
+          "given": "Philipp",
+          "initials": "P"
+        },
+        {
+          "family": "Butler",
+          "given": "Mary",
+          "initials": "M"
+        },
+        {
+          "family": "Wilt",
+          "given": "Timothy J",
+          "initials": "TJ"
+        },
+        {
+          "family": "Diem",
+          "given": "Susan",
+          "initials": "S"
+        }
+      ],
+      "title": "Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause : A Systematic Review.",
+      "journal": "Annals of internal medicine",
+      "year": 2024,
+      "volume": "177",
+      "issue": "10",
+      "pages": "1400-1414",
+      "doi": "10.7326/annals-24-00610",
+      "pmid": "39250810",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39250810/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39250810+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Ann Intern Med",
+      "pmcid": "PMC12333043",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Danan ER, Sowerby C, Ullman KE, Ensrud K, Forte ML, Zerzan N, et al. Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause : A Systematic Review. Ann Intern Med. 2024;177(10):1400-1414.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39250810/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D03",
+        "D07",
+        "D08"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D05",
+      "original_citation": "Lederman S et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. Lancet. 2023.",
+      "authors": [
+        {
+          "family": "Lederman",
+          "given": "Samuel",
+          "initials": "S"
+        },
+        {
+          "family": "Ottery",
+          "given": "Faith D",
+          "initials": "FD"
+        },
+        {
+          "family": "Cano",
+          "given": "Antonio",
+          "initials": "A"
+        },
+        {
+          "family": "Santoro",
+          "given": "Nanette",
+          "initials": "N"
+        },
+        {
+          "family": "Shapiro",
+          "given": "Marla",
+          "initials": "M"
+        },
+        {
+          "family": "Stute",
+          "given": "Petra",
+          "initials": "P"
+        },
+        {
+          "family": "Thurston",
+          "given": "Rebecca C",
+          "initials": "RC"
+        },
+        {
+          "family": "English",
+          "given": "Marci",
+          "initials": "M"
+        },
+        {
+          "family": "Franklin",
+          "given": "Catherine",
+          "initials": "C"
+        },
+        {
+          "family": "Lee",
+          "given": "Misun",
+          "initials": "M"
+        },
+        {
+          "family": "Neal-Perry",
+          "given": "Genevieve",
+          "initials": "G"
+        }
+      ],
+      "title": "Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study.",
+      "journal": "Lancet (London, England)",
+      "year": 2023,
+      "volume": "401",
+      "issue": "10382",
+      "pages": "1091-1102",
+      "doi": "10.1016/s0140-6736(23)00085-5",
+      "pmid": "36924778",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36924778/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36924778+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Lancet",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Lederman S, Ottery FD, Cano A, Santoro N, Shapiro M, Stute P, et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. Lancet. 2023;401(10382):1091-1102.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36924778/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D05"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D06",
+      "original_citation": "Simon JA et al. Low-dose paroxetine 7.5 mg for menopausal vasomotor symptoms: two randomized controlled trials. Menopause. 2013;20:1027–1035.",
+      "authors": [
+        {
+          "family": "Simon",
+          "given": "James A",
+          "initials": "JA"
+        },
+        {
+          "family": "Portman",
+          "given": "David J",
+          "initials": "DJ"
+        },
+        {
+          "family": "Kaunitz",
+          "given": "Andrew M",
+          "initials": "AM"
+        },
+        {
+          "family": "Mekonnen",
+          "given": "Hana",
+          "initials": "H"
+        },
+        {
+          "family": "Kazempour",
+          "given": "Kazem",
+          "initials": "K"
+        },
+        {
+          "family": "Bhaskar",
+          "given": "Sailaja",
+          "initials": "S"
+        },
+        {
+          "family": "Lippman",
+          "given": "Joel",
+          "initials": "J"
+        }
+      ],
+      "title": "Low-dose paroxetine 7.5 mg for menopausal vasomotor symptoms: two randomized controlled trials.",
+      "journal": "Menopause (New York, N.Y.)",
+      "year": 2013,
+      "volume": "20",
+      "issue": "10",
+      "pages": "1027-1035",
+      "doi": "10.1097/gme.0b013e3182a66aa7",
+      "pmid": "24045678",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24045678/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A24045678+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Menopause",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Simon JA, Portman DJ, Kaunitz AM, Mekonnen H, Kazempour K, Bhaskar S, et al. Low-dose paroxetine 7.5 mg for menopausal vasomotor symptoms: two randomized controlled trials. Menopause. 2013;20(10):1027-1035.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/24045678/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D06"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D07",
+      "original_citation": "Jaspers L et al. Efficacy and Safety of Flibanserin for the Treatment of Hypoactive Sexual Desire Disorder in Women: A Systematic Review and Meta-analysis. JAMA Intern Med. 2016;176:453–462.",
+      "authors": [
+        {
+          "family": "Jaspers",
+          "given": "Loes",
+          "initials": "L"
+        },
+        {
+          "family": "Feys",
+          "given": "Frederik",
+          "initials": "F"
+        },
+        {
+          "family": "Bramer",
+          "given": "Wichor M",
+          "initials": "WM"
+        },
+        {
+          "family": "Franco",
+          "given": "Oscar H",
+          "initials": "OH"
+        },
+        {
+          "family": "Leusink",
+          "given": "Peter",
+          "initials": "P"
+        },
+        {
+          "family": "Laan",
+          "given": "Ellen T M",
+          "initials": "ET"
+        }
+      ],
+      "title": "Efficacy and Safety of Flibanserin for the Treatment of Hypoactive Sexual Desire Disorder in Women: A Systematic Review and Meta-analysis.",
+      "journal": "JAMA internal medicine",
+      "year": 2016,
+      "volume": "176",
+      "issue": "4",
+      "pages": "453-462",
+      "doi": "10.1001/jamainternmed.2015.8565",
+      "pmid": "26927498",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26927498/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A26927498+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Intern Med",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Jaspers L, Feys F, Bramer WM, Franco OH, Leusink P, Laan ET. Efficacy and Safety of Flibanserin for the Treatment of Hypoactive Sexual Desire Disorder in Women: A Systematic Review and Meta-analysis. JAMA Intern Med. 2016;176(4):453-462.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/26927498/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D10"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D08",
+      "original_citation": "Kingsberg SA et al. Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials. Obstet Gynecol. 2019;134:899–908.",
+      "authors": [
+        {
+          "family": "Kingsberg",
+          "given": "Sheryl A",
+          "initials": "SA"
+        },
+        {
+          "family": "Clayton",
+          "given": "Anita H",
+          "initials": "AH"
+        },
+        {
+          "family": "Portman",
+          "given": "David",
+          "initials": "D"
+        },
+        {
+          "family": "Williams",
+          "given": "Laura A",
+          "initials": "LA"
+        },
+        {
+          "family": "Krop",
+          "given": "Julie",
+          "initials": "J"
+        },
+        {
+          "family": "Jordan",
+          "given": "Robert",
+          "initials": "R"
+        },
+        {
+          "family": "Lucas",
+          "given": "Johna",
+          "initials": "J"
+        },
+        {
+          "family": "Simon",
+          "given": "James A",
+          "initials": "JA"
+        }
+      ],
+      "title": "Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials.",
+      "journal": "Obstetrics and gynecology",
+      "year": 2019,
+      "volume": "134",
+      "issue": "5",
+      "pages": "899-908",
+      "doi": "10.1097/aog.0000000000003500",
+      "pmid": "31599840",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31599840/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31599840+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Obstet Gynecol",
+      "pmcid": "PMC6819021",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Kingsberg SA, Clayton AH, Portman D, Williams LA, Krop J, Jordan R, et al. Bremelanotide for the Treatment of Hypoactive Sexual Desire Disorder: Two Randomized Phase 3 Trials. Obstet Gynecol. 2019;134(5):899-908.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31599840/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D11"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D09",
+      "original_citation": "Lincoff AM et al.; TRAVERSE investigators. Cardiovascular Safety of Testosterone-Replacement Therapy. N Engl J Med. 2023;389:107–117.",
+      "authors": [
+        {
+          "family": "Lincoff",
+          "given": "A Michael",
+          "initials": "AM"
+        },
+        {
+          "family": "Bhasin",
+          "given": "Shalender",
+          "initials": "S"
+        },
+        {
+          "family": "Flevaris",
+          "given": "Panagiotis",
+          "initials": "P"
+        },
+        {
+          "family": "Mitchell",
+          "given": "Lisa M",
+          "initials": "LM"
+        },
+        {
+          "family": "Basaria",
+          "given": "Shehzad",
+          "initials": "S"
+        },
+        {
+          "family": "Boden",
+          "given": "William E",
+          "initials": "WE"
+        },
+        {
+          "family": "Cunningham",
+          "given": "Glenn R",
+          "initials": "GR"
+        },
+        {
+          "family": "Granger",
+          "given": "Christopher B",
+          "initials": "CB"
+        },
+        {
+          "family": "Khera",
+          "given": "Mohit",
+          "initials": "M"
+        },
+        {
+          "family": "Thompson",
+          "given": "Ian M",
+          "initials": "IM"
+        },
+        {
+          "family": "Wang",
+          "given": "Qiuqing",
+          "initials": "Q"
+        },
+        {
+          "family": "Wolski",
+          "given": "Kathy",
+          "initials": "K"
+        },
+        {
+          "family": "Davey",
+          "given": "Deborah",
+          "initials": "D"
+        },
+        {
+          "family": "Kalahasti",
+          "given": "Vidyasagar",
+          "initials": "V"
+        },
+        {
+          "family": "Khan",
+          "given": "Nader",
+          "initials": "N"
+        },
+        {
+          "family": "Miller",
+          "given": "Michael G",
+          "initials": "MG"
+        },
+        {
+          "family": "Snabes",
+          "given": "Michael C",
+          "initials": "MC"
+        },
+        {
+          "family": "Chan",
+          "given": "Anna",
+          "initials": "A"
+        },
+        {
+          "family": "Dubcenco",
+          "given": "Elena",
+          "initials": "E"
+        },
+        {
+          "family": "Li",
+          "given": "Xue",
+          "initials": "X"
+        },
+        {
+          "family": "Yi",
+          "given": "Tingting",
+          "initials": "T"
+        },
+        {
+          "family": "Huang",
+          "given": "Bidan",
+          "initials": "B"
+        },
+        {
+          "family": "Pencina",
+          "given": "Karol M",
+          "initials": "KM"
+        },
+        {
+          "family": "Travison",
+          "given": "Thomas G",
+          "initials": "TG"
+        },
+        {
+          "family": "Nissen",
+          "given": "Steven E",
+          "initials": "SE"
+        },
+        {
+          "literal": "TRAVERSE Study Investigators"
+        }
+      ],
+      "title": "Cardiovascular Safety of Testosterone-Replacement Therapy.",
+      "journal": "The New England journal of medicine",
+      "year": 2023,
+      "volume": "389",
+      "issue": "2",
+      "pages": "107-117",
+      "doi": "10.1056/nejmoa2215025",
+      "pmid": "37326322",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37326322/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37326322+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "N Engl J Med",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Lincoff AM, Bhasin S, Flevaris P, Mitchell LM, Basaria S, Boden WE, et al. Cardiovascular Safety of Testosterone-Replacement Therapy. N Engl J Med. 2023;389(2):107-117.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37326322/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D12"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-D10",
+      "original_citation": "Rossouw JE et al.; WHI investigators. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results from the Women’s Health Initiative randomized controlled trial. JAMA. 2002;288:321–333.",
+      "authors": [
+        {
+          "family": "Rossouw",
+          "given": "Jacques E",
+          "initials": "JE"
+        },
+        {
+          "family": "Anderson",
+          "given": "Garnet L",
+          "initials": "GL"
+        },
+        {
+          "family": "Prentice",
+          "given": "Ross L",
+          "initials": "RL"
+        },
+        {
+          "family": "LaCroix",
+          "given": "Andrea Z",
+          "initials": "AZ"
+        },
+        {
+          "family": "Kooperberg",
+          "given": "Charles",
+          "initials": "C"
+        },
+        {
+          "family": "Stefanick",
+          "given": "Marcia L",
+          "initials": "ML"
+        },
+        {
+          "family": "Jackson",
+          "given": "Rebecca D",
+          "initials": "RD"
+        },
+        {
+          "family": "Beresford",
+          "given": "Shirley A A",
+          "initials": "SA"
+        },
+        {
+          "family": "Howard",
+          "given": "Barbara V",
+          "initials": "BV"
+        },
+        {
+          "family": "Johnson",
+          "given": "Karen C",
+          "initials": "KC"
+        },
+        {
+          "family": "Kotchen",
+          "given": "Jane Morley",
+          "initials": "JM"
+        },
+        {
+          "family": "Ockene",
+          "given": "Judith",
+          "initials": "J"
+        },
+        {
+          "literal": "Writing Group for the Women's Health Initiative Investigators"
+        }
+      ],
+      "title": "Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial.",
+      "journal": "JAMA",
+      "year": 2002,
+      "volume": "288",
+      "issue": "3",
+      "pages": "321-333",
+      "doi": "10.1001/jama.288.3.321",
+      "pmid": "12117397",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/12117397/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A12117397+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Rossouw JE, Anderson GL, Prentice RL, LaCroix AZ, Kooperberg C, Stefanick ML, et al. Risks and benefits of estrogen plus progestin in healthy postmenopausal women: principal results From the Women's Health Initiative randomized controlled trial. JAMA. 2002;288(3):321-333.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/12117397/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "PubMed citation and abstract; no systematic full-text extraction",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "D01",
+        "D02",
+        "D04"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G04",
+      "original_citation": "Curtis JR et al. Longitudinal Trends in Use of Bone Mass Measurement Among Older Americans, 1999–2005. J Bone Miner Res. 2008;23:1061–1067.",
+      "authors": [
+        {
+          "family": "Curtis",
+          "given": "Jeffrey R",
+          "initials": "JR"
+        },
+        {
+          "family": "Carbone",
+          "given": "Laura",
+          "initials": "L"
+        },
+        {
+          "family": "Cheng",
+          "given": "Hong",
+          "initials": "H"
+        },
+        {
+          "family": "Hayes",
+          "given": "Burton",
+          "initials": "B"
+        },
+        {
+          "family": "Laster",
+          "given": "Andrew",
+          "initials": "A"
+        },
+        {
+          "family": "Matthews",
+          "given": "Robert",
+          "initials": "R"
+        },
+        {
+          "family": "Saag",
+          "given": "Kenneth G",
+          "initials": "KG"
+        },
+        {
+          "family": "Sepanski",
+          "given": "Robert",
+          "initials": "R"
+        },
+        {
+          "family": "Tanner",
+          "given": "Simpson B",
+          "initials": "SB"
+        },
+        {
+          "family": "Delzell",
+          "given": "Elizabeth",
+          "initials": "E"
+        }
+      ],
+      "title": "Longitudinal trends in use of bone mass measurement among older americans, 1999-2005.",
+      "journal": "Journal of bone and mineral research : the official journal of the American Society for Bone and Mineral Research",
+      "year": 2008,
+      "volume": "23",
+      "issue": "7",
+      "pages": "1061-1067",
+      "doi": "10.1359/jbmr.080232",
+      "pmid": "18302495",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18302495/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A18302495+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "J Bone Miner Res",
+      "pmcid": "PMC2497454",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Curtis JR, Carbone L, Cheng H, Hayes B, Laster A, Matthews R, et al. Longitudinal trends in use of bone mass measurement among older americans, 1999-2005. J Bone Miner Res. 2008;23(7):1061-1067.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2497454/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Full-text sections",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "G04",
+        "G05"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G05",
+      "original_citation": "Pasquale MK et al. Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians. Med Care. 2021;59:148–154.",
+      "authors": [
+        {
+          "family": "Pasquale",
+          "given": "Margaret K",
+          "initials": "MK"
+        },
+        {
+          "family": "Sheer",
+          "given": "Richard L",
+          "initials": "RL"
+        },
+        {
+          "family": "Yehoshua",
+          "given": "Alon",
+          "initials": "A"
+        },
+        {
+          "family": "McFadden",
+          "given": "Adrienne",
+          "initials": "A"
+        },
+        {
+          "family": "Chines",
+          "given": "Arkadi",
+          "initials": "A"
+        },
+        {
+          "family": "Caloyeras",
+          "given": "John",
+          "initials": "J"
+        }
+      ],
+      "title": "Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians.",
+      "journal": "Medical care",
+      "year": 2021,
+      "volume": "59",
+      "issue": "2",
+      "pages": "148-154",
+      "doi": "10.1097/mlr.0000000000001459",
+      "pmid": "33273290",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33273290/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33273290+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Med Care",
+      "pmcid": "PMC7899217",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Pasquale MK, Sheer RL, Yehoshua A, McFadden A, Chines A, Caloyeras J. Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians. Med Care. 2021;59(2):148-154.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Full-text sections",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "G04",
+        "G05"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G09",
+      "original_citation": "Bellerose M et al. Coverage Gaps and Contraceptive Use Among Medicare Enrollees With Disabilities. JAMA Netw Open. 2025;8:e2517718.",
+      "authors": [
+        {
+          "family": "Bellerose",
+          "given": "Meghan",
+          "initials": "M"
+        },
+        {
+          "family": "Ellison",
+          "given": "Jacqueline",
+          "initials": "J"
+        },
+        {
+          "family": "Steenland",
+          "given": "Maria W",
+          "initials": "MW"
+        },
+        {
+          "family": "Meyers",
+          "given": "David J",
+          "initials": "DJ"
+        },
+        {
+          "family": "Mitra",
+          "given": "Monika",
+          "initials": "M"
+        },
+        {
+          "family": "Shireman",
+          "given": "Theresa I",
+          "initials": "TI"
+        }
+      ],
+      "title": "Coverage Gaps and Contraceptive Use Among Medicare Enrollees With Disabilities.",
+      "journal": "JAMA network open",
+      "year": 2025,
+      "volume": "8",
+      "issue": "6",
+      "pages": "e2517718",
+      "doi": "10.1001/jamanetworkopen.2025.17718",
+      "pmid": "40560583",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40560583/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40560583+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Netw Open",
+      "pmcid": "PMC12199052",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Bellerose M, Ellison J, Steenland MW, Meyers DJ, Mitra M, Shireman TI. Coverage Gaps and Contraceptive Use Among Medicare Enrollees With Disabilities. JAMA Netw Open. 2025;8(6):e2517718.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12199052/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Full-text sections",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "G08",
+        "G10",
+        "G13",
+        "G14"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G10",
+      "original_citation": "Ellison J et al. Contraceptive Use Among Traditional Medicare And Medicare Advantage Enrollees. Health Aff. 2024;43:98–107.",
+      "authors": [
+        {
+          "family": "Ellison",
+          "given": "Jacqueline",
+          "initials": "J"
+        },
+        {
+          "family": "Pudasainy",
+          "given": "Sabnum",
+          "initials": "S"
+        },
+        {
+          "family": "Bellerose",
+          "given": "Meghan",
+          "initials": "M"
+        },
+        {
+          "family": "Quinn",
+          "given": "Deirdre",
+          "initials": "D"
+        },
+        {
+          "family": "Borrero",
+          "given": "Sonya",
+          "initials": "S"
+        },
+        {
+          "family": "Olson",
+          "given": "Iris",
+          "initials": "I"
+        },
+        {
+          "family": "Chen",
+          "given": "Qingwen",
+          "initials": "Q"
+        },
+        {
+          "family": "Shireman",
+          "given": "Theresa I",
+          "initials": "TI"
+        },
+        {
+          "family": "Jarlenski",
+          "given": "Marian P",
+          "initials": "MP"
+        }
+      ],
+      "title": "Contraceptive Use Among Traditional Medicare And Medicare Advantage Enrollees.",
+      "journal": "Health affairs (Project Hope)",
+      "year": 2024,
+      "volume": "43",
+      "issue": "1",
+      "pages": "98-107",
+      "doi": "10.1377/hlthaff.2023.00286",
+      "pmid": "38190592",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38190592/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38190592+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Health Aff (Millwood)",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Ellison J, Pudasainy S, Bellerose M, Quinn D, Borrero S, Olson I, et al. Contraceptive Use Among Traditional Medicare And Medicare Advantage Enrollees. Health Aff (Millwood). 2024;43(1):98-107.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38190592/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Abstract plus author-institution summary for period",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "G08",
+        "G10",
+        "G13",
+        "G14"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-A01",
+      "original_citation": "Dean LT et al. Drivers of cost differences between US breast cancer survivors with or without lymphedema. J Cancer Surviv. 2019;13:804–814.",
+      "authors": [
+        {
+          "family": "Dean",
+          "given": "Lorraine T",
+          "initials": "LT"
+        },
+        {
+          "family": "Ransome",
+          "given": "Yusuf",
+          "initials": "Y"
+        },
+        {
+          "family": "Frasso-Jaramillo",
+          "given": "Livia",
+          "initials": "L"
+        },
+        {
+          "family": "Moss",
+          "given": "Shadiya L",
+          "initials": "SL"
+        },
+        {
+          "family": "Zhang",
+          "given": "Yuehan",
+          "initials": "Y"
+        },
+        {
+          "family": "Ashing",
+          "given": "Kimlin",
+          "initials": "K"
+        },
+        {
+          "family": "Denis",
+          "given": "Gerald V",
+          "initials": "GV"
+        },
+        {
+          "family": "Frick",
+          "given": "Kevin D",
+          "initials": "KD"
+        },
+        {
+          "family": "Visvanathan",
+          "given": "Kala",
+          "initials": "K"
+        },
+        {
+          "family": "Schmitz",
+          "given": "Kathryn H",
+          "initials": "KH"
+        }
+      ],
+      "title": "Drivers of cost differences between US breast cancer survivors with or without lymphedema.",
+      "journal": "Journal of cancer survivorship : research and practice",
+      "year": 2019,
+      "volume": "13",
+      "issue": "5",
+      "pages": "804-814",
+      "doi": "10.1007/s11764-019-00799-1",
+      "pmid": "31446591",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31446591/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31446591+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "J Cancer Surviv",
+      "pmcid": "PMC6828620",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Dean LT, Ransome Y, Frasso-Jaramillo L, Moss SL, Zhang Y, Ashing K, et al. Drivers of cost differences between US breast cancer survivors with or without lymphedema. J Cancer Surviv. 2019;13(5):804-814.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31446591/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation/abstract extraction recorded; full-text review pending",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "A01"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-A02",
+      "original_citation": "Lynn JV et al. Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States. JAMA Surg. 2023;158:920–926.",
+      "authors": [
+        {
+          "family": "Lynn",
+          "given": "Jeremy V",
+          "initials": "JV"
+        },
+        {
+          "family": "Hespe",
+          "given": "Geoffrey E",
+          "initials": "GE"
+        },
+        {
+          "family": "Akhter",
+          "given": "Maheen F",
+          "initials": "MF"
+        },
+        {
+          "family": "David",
+          "given": "Christelle M",
+          "initials": "CM"
+        },
+        {
+          "family": "Kung",
+          "given": "Theodore A",
+          "initials": "TA"
+        },
+        {
+          "family": "Myers",
+          "given": "Paige L",
+          "initials": "PL"
+        }
+      ],
+      "title": "Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States.",
+      "journal": "JAMA surgery",
+      "year": 2023,
+      "volume": "158",
+      "issue": "9",
+      "pages": "920-926",
+      "doi": "10.1001/jamasurg.2023.2017",
+      "pmid": "37285151",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A37285151+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Surg",
+      "pmcid": "PMC10248808",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Lynn JV, Hespe GE, Akhter MF, David CM, Kung TA, Myers PL. Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States. JAMA Surg. 2023;158(9):920-926.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+      "status": "Candidate evidence / retained code-policy component",
+      "access_level": "Citation/abstract extraction recorded; full-text review pending",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [
+        "A01",
+        "A02"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-C01",
+      "original_citation": "Ahmad S et al. Gender-Specific Trends in Ophthalmologist Medicare Collections. Am J Ophthalmol. 2020;214:32–39.",
+      "authors": [
+        {
+          "family": "Ahmad",
+          "given": "Sumayya",
+          "initials": "S"
+        },
+        {
+          "family": "Ramulu",
+          "given": "Pradeep",
+          "initials": "P"
+        },
+        {
+          "family": "Akpek",
+          "given": "Esen",
+          "initials": "E"
+        },
+        {
+          "family": "Deobhakta",
+          "given": "Avnish",
+          "initials": "A"
+        },
+        {
+          "family": "Klawe",
+          "given": "Janek",
+          "initials": "J"
+        }
+      ],
+      "title": "Gender-Specific Trends in Ophthalmologist Medicare Collections.",
+      "journal": "American journal of ophthalmology",
+      "year": 2020,
+      "volume": "214",
+      "issue": "",
+      "pages": "32-39",
+      "doi": "10.1016/j.ajo.2019.12.024",
+      "pmid": "31926887",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31926887/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31926887+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Am J Ophthalmol",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Ahmad S, Ramulu P, Akpek E, Deobhakta A, Klawe J. Gender-Specific Trends in Ophthalmologist Medicare Collections. Am J Ophthalmol. 2020;214:32-39.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31926887/",
+      "status": "Clinician context",
+      "access_level": "Abstract verified; full text not reviewed",
+      "eligibility": "Context only: clinician gender",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-C02",
+      "original_citation": "Raber I et al. Gender Differences in Medicare Payments Among Cardiologists. JAMA Cardiol. 2021;6(12):1432–1439.",
+      "authors": [
+        {
+          "family": "Raber",
+          "given": "Inbar",
+          "initials": "I"
+        },
+        {
+          "family": "Al Rifai",
+          "given": "Mahmoud",
+          "initials": "M"
+        },
+        {
+          "family": "McCarthy",
+          "given": "Cian P",
+          "initials": "CP"
+        },
+        {
+          "family": "Vaduganathan",
+          "given": "Muthiah",
+          "initials": "M"
+        },
+        {
+          "family": "Michos",
+          "given": "Erin D",
+          "initials": "ED"
+        },
+        {
+          "family": "Wood",
+          "given": "Malissa J",
+          "initials": "MJ"
+        },
+        {
+          "family": "Smyth",
+          "given": "Yvonne M",
+          "initials": "YM"
+        },
+        {
+          "family": "Ibrahim",
+          "given": "Nasrien E",
+          "initials": "NE"
+        },
+        {
+          "family": "Asnani",
+          "given": "Aarti",
+          "initials": "A"
+        },
+        {
+          "family": "Mehran",
+          "given": "Roxana",
+          "initials": "R"
+        },
+        {
+          "family": "McEvoy",
+          "given": "John W",
+          "initials": "JW"
+        }
+      ],
+      "title": "Gender Differences in Medicare Payments Among Cardiologists.",
+      "journal": "JAMA cardiology",
+      "year": 2021,
+      "volume": "6",
+      "issue": "12",
+      "pages": "1432-1439",
+      "doi": "10.1001/jamacardio.2021.3385",
+      "pmid": "34495296",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34495296/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34495296+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Cardiol",
+      "pmcid": "PMC8427494",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Raber I, Al Rifai M, McCarthy CP, Vaduganathan M, Michos ED, Wood MJ, et al. Gender Differences in Medicare Payments Among Cardiologists. JAMA Cardiol. 2021;6(12):1432-1439.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/",
+      "status": "Clinician context",
+      "access_level": "Targeted main-text review via indexed PMC; supplement not reviewed",
+      "eligibility": "Context only: clinician gender",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-H01",
+      "original_citation": "Gornick M, Newton M, Hackerman C. Factors Affecting Differences in Medicare Reimbursements for Physicians' Services. Health Care Financ Rev. 1980;1(4):15–37.",
+      "authors": [
+        {
+          "family": "Gornick",
+          "given": "M",
+          "initials": "M"
+        },
+        {
+          "family": "Newton",
+          "given": "M",
+          "initials": "M"
+        },
+        {
+          "family": "Hackerman",
+          "given": "C",
+          "initials": "C"
+        }
+      ],
+      "title": "Factors affecting differences in Medicare reimbursements for physicians' services.",
+      "journal": "Health care financing review",
+      "year": 1980,
+      "volume": "1",
+      "issue": "4",
+      "pages": "15-37",
+      "doi": "",
+      "pmid": "10309221",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10309221/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A10309221+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "DOI not supplied in MEDLINE metadata."
+      ],
+      "journal_abbreviation": "Health Care Financ Rev",
+      "pmcid": "PMC4191131",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Gornick M, Newton M, Hackerman C. Factors affecting differences in Medicare reimbursements for physicians' services. Health Care Financ Rev. 1980;1(4):15-37.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/",
+      "status": "Historical patient evidence; eligibility pending",
+      "access_level": "Targeted full-text extraction; CMS PDF checked against indexed PMC",
+      "eligibility": "Historical patient evidence: eligibility pending",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-B01",
+      "original_citation": "Mauvais-Jarvis F et al. Sex and gender: modifiers of health, disease, and medicine. Lancet. 2020;396(10250):565–582.",
+      "authors": [
+        {
+          "family": "Mauvais-Jarvis",
+          "given": "Franck",
+          "initials": "F"
+        },
+        {
+          "family": "Bairey Merz",
+          "given": "Noel",
+          "initials": "N"
+        },
+        {
+          "family": "Barnes",
+          "given": "Peter J",
+          "initials": "PJ"
+        },
+        {
+          "family": "Brinton",
+          "given": "Roberta D",
+          "initials": "RD"
+        },
+        {
+          "family": "Carrero",
+          "given": "Juan-Jesus",
+          "initials": "JJ"
+        },
+        {
+          "family": "DeMeo",
+          "given": "Dawn L",
+          "initials": "DL"
+        },
+        {
+          "family": "De Vries",
+          "given": "Geert J",
+          "initials": "GJ"
+        },
+        {
+          "family": "Epperson",
+          "given": "C Neill",
+          "initials": "CN"
+        },
+        {
+          "family": "Govindan",
+          "given": "Ramaswamy",
+          "initials": "R"
+        },
+        {
+          "family": "Klein",
+          "given": "Sabra L",
+          "initials": "SL"
+        },
+        {
+          "family": "Lonardo",
+          "given": "Amedeo",
+          "initials": "A"
+        },
+        {
+          "family": "Maki",
+          "given": "Pauline M",
+          "initials": "PM"
+        },
+        {
+          "family": "McCullough",
+          "given": "Louise D",
+          "initials": "LD"
+        },
+        {
+          "family": "Regitz-Zagrosek",
+          "given": "Vera",
+          "initials": "V"
+        },
+        {
+          "family": "Regensteiner",
+          "given": "Judith G",
+          "initials": "JG"
+        },
+        {
+          "family": "Rubin",
+          "given": "Joshua B",
+          "initials": "JB"
+        },
+        {
+          "family": "Sandberg",
+          "given": "Kathryn",
+          "initials": "K"
+        },
+        {
+          "family": "Suzuki",
+          "given": "Ayako",
+          "initials": "A"
+        }
+      ],
+      "title": "Sex and gender: modifiers of health, disease, and medicine.",
+      "journal": "Lancet (London, England)",
+      "journal_abbreviation": "Lancet",
+      "year": 2020,
+      "volume": "396",
+      "issue": "10250",
+      "pages": "565-582",
+      "doi": "10.1016/s0140-6736(20)31561-0",
+      "pmid": "32828189",
+      "pmcid": "PMC7440877",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32828189/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32828189+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "MEDLINE links a published erratum: PMID 32891210; DOI 10.1016/S0140-6736(20)31827-4."
+      ],
+      "record_type": "journal-article",
+      "related_record_id": "L-B01-E1",
+      "relationship": "corrected_by",
+      "source_type": "scientific",
+      "citation": "Mauvais-Jarvis F, Bairey Merz N, Barnes PJ, Brinton RD, Carrero JJ, DeMeo DL, et al. Sex and gender: modifiers of health, disease, and medicine. Lancet. 2020;396(10250):565-582.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/",
+      "status": "Clinical background",
+      "access_level": "Targeted main-text review; citation and linked correction verified",
+      "eligibility": "Background: sex/gender medicine review",
+      "linked_care_ids": [],
+      "related_reference_ids": [
+        "L-B01-E1"
+      ]
+    },
+    {
+      "id": "L-B02",
+      "original_citation": "Chang WH. Understanding the COVID-19 pandemic from a gender perspective. Taiwan J Obstet Gynecol. 2020;59(6):801–807.",
+      "authors": [
+        {
+          "family": "Chang",
+          "given": "Wen-Han",
+          "initials": "WH"
+        }
+      ],
+      "title": "Understanding the COVID-19 pandemic from a gender perspective.",
+      "journal": "Taiwanese journal of obstetrics & gynecology",
+      "journal_abbreviation": "Taiwan J Obstet Gynecol",
+      "year": 2020,
+      "volume": "59",
+      "issue": "6",
+      "pages": "801-807",
+      "doi": "10.1016/j.tjog.2020.09.004",
+      "pmid": "33218392",
+      "pmcid": "PMC7486042",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33218392/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33218392+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "record_type": "journal-article",
+      "electronic_publication_date": "2020-09-11",
+      "notes": [
+        "No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16; absence of metadata links is not a guarantee that none exists.",
+        "Narrative review published in 2020; metadata verification does not validate its early-pandemic clinical claims."
+      ],
+      "correction_retraction_verification_sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33218392+AND+SRC%3AMED&format=json&resultType=core",
+        "https://api.crossref.org/works/10.1016%2Fj.tjog.2020.09.004"
+      ],
+      "source_type": "scientific",
+      "citation": "Chang WH. Understanding the COVID-19 pandemic from a gender perspective. Taiwan J Obstet Gynecol. 2020;59(6):801-807.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/",
+      "status": "Clinical background",
+      "access_level": "Targeted main-text review via indexed PMC; citation verified",
+      "eligibility": "Background: pandemic gender inequities",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-B03",
+      "original_citation": "Betron M, Gottert A, Pulerwitz J, Shattuck D, Stevanovic-Fenn N. Men and COVID-19: Adding a gender lens. Glob Public Health. 2020;15(7):1090–1092.",
+      "authors": [
+        {
+          "family": "Betron",
+          "given": "Myra",
+          "initials": "M"
+        },
+        {
+          "family": "Gottert",
+          "given": "Ann",
+          "initials": "A"
+        },
+        {
+          "family": "Pulerwitz",
+          "given": "Julie",
+          "initials": "J"
+        },
+        {
+          "family": "Shattuck",
+          "given": "Dominick",
+          "initials": "D"
+        },
+        {
+          "family": "Stevanovic-Fenn",
+          "given": "Natacha",
+          "initials": "N"
+        }
+      ],
+      "title": "Men and COVID-19: Adding a gender lens.",
+      "journal": "Global public health",
+      "journal_abbreviation": "Glob Public Health",
+      "year": 2020,
+      "volume": "15",
+      "issue": "7",
+      "pages": "1090-1092",
+      "doi": "10.1080/17441692.2020.1769702",
+      "pmid": "32436422",
+      "pmcid": "",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32436422/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32436422+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "record_type": "journal-article",
+      "electronic_publication_date": "2020-05-21",
+      "notes": [
+        "Publisher classifies this three-page article as commentary. It is contextual literature, not an original Medicare reimbursement study.",
+        "The publisher’s inline Correction Statement reports republication with minor changes that do not affect academic content. No separate correction identifier is supplied there; retain the statement with this record rather than create an independent erratum.",
+        "No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16. This does not negate the publisher’s inline republication notice or guarantee that no other update exists."
+      ],
+      "correction_retraction_verification_sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32436422+AND+SRC%3AMED&format=json&resultType=core",
+        "https://api.crossref.org/works/10.1080%2F17441692.2020.1769702",
+        "https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702"
+      ],
+      "source_type": "scientific",
+      "citation": "Betron M, Gottert A, Pulerwitz J, Shattuck D, Stevanovic-Fenn N. Men and COVID-19: Adding a gender lens. Glob Public Health. 2020;15(7):1090-1092.",
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702",
+      "status": "Clinical background",
+      "access_level": "Publisher main text reviewed via indexed page; citation verified",
+      "eligibility": "Background: gender and access commentary",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-Q01",
+      "original_citation": "Tong A et al. Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis. Kidney Int Rep. 2022;7(3):424–435.",
+      "authors": [
+        {
+          "family": "Tong",
+          "given": "Allison",
+          "initials": "A"
+        },
+        {
+          "family": "Evangelidis",
+          "given": "Nicole",
+          "initials": "N"
+        },
+        {
+          "family": "Kurnikowski",
+          "given": "Amelie",
+          "initials": "A"
+        },
+        {
+          "family": "Lewandowski",
+          "given": "Michal",
+          "initials": "M"
+        },
+        {
+          "family": "Bretschneider",
+          "given": "Philipp",
+          "initials": "P"
+        },
+        {
+          "family": "Oberbauer",
+          "given": "Rainer",
+          "initials": "R"
+        },
+        {
+          "family": "Baumgart",
+          "given": "Amanda",
+          "initials": "A"
+        },
+        {
+          "family": "Scholes-Robertson",
+          "given": "Nicole",
+          "initials": "N"
+        },
+        {
+          "family": "Stamm",
+          "given": "Tanja",
+          "initials": "T"
+        },
+        {
+          "family": "Carrero",
+          "given": "Juan Jesus",
+          "initials": "JJ"
+        },
+        {
+          "family": "Pecoits-Filho",
+          "given": "Roberto",
+          "initials": "R"
+        },
+        {
+          "family": "Hecking",
+          "given": "Manfred",
+          "initials": "M"
+        }
+      ],
+      "title": "Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis.",
+      "journal": "Kidney international reports",
+      "journal_abbreviation": "Kidney Int Rep",
+      "year": 2022,
+      "volume": "7",
+      "issue": "3",
+      "pages": "424-435",
+      "doi": "10.1016/j.ekir.2021.10.022",
+      "pmid": "35257055",
+      "pmcid": "PMC8897691",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35257055/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35257055+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "record_type": "journal-article",
+      "electronic_publication_date": "2021-11-09",
+      "notes": [
+        "Published electronically 2021-11-09; final collection citation is March 2022, volume 7, issue 3, pages 424–435. Bibliography uses the final collection year.",
+        "Original qualitative interview study, rather than a general review or clinician-payment comparison.",
+        "MEDLINE and publisher-supplied full-text XML link the editorial “CKD—Where Have All the Women Gone?” (PMID 35258512; PMCID PMC8897673; DOI 10.1016/j.ekir.2021.11.032) as commentary on this article, not as a correction or retraction. It is a related lead, not a separately screened study in this register.",
+        "No linked correction or retraction appeared in the Europe PMC/MEDLINE record, publisher-supplied full-text XML or Crossref relation/update fields checked on 2026-09-16. Absence of such links is not a guarantee that no notice exists."
+      ],
+      "correction_retraction_verification_sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A35257055+AND+SRC%3AMED&format=json&resultType=core",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC8897691/fullTextXML",
+        "https://api.crossref.org/works/10.1016%2Fj.ekir.2021.10.022"
+      ],
+      "related_publications": [
+        {
+          "relationship": "commented_on_by",
+          "title": "CKD-Where Have All the Women Gone?",
+          "doi": "10.1016/j.ekir.2021.11.032",
+          "pmid": "35258512",
+          "pmcid": "PMC8897673",
+          "url": "https://pubmed.ncbi.nlm.nih.gov/35258512/",
+          "record_status": "Citation lead; not independently counted or screened"
+        }
+      ],
+      "source_type": "scientific",
+      "citation": "Tong A, Evangelidis N, Kurnikowski A, Lewandowski M, Bretschneider P, Oberbauer R, et al. Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis. Kidney Int Rep. 2022;7(3):424-435.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/",
+      "status": "Qualitative access context",
+      "access_level": "Targeted full-text review: methods, results, tables and limitations",
+      "eligibility": "Context: qualitative patient-access evidence",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G01",
+      "original_citation": "Proctor K et al. Identifying the Transgender Population in the Medicare Program. Transgender Health. 2016;1:250–265.",
+      "authors": [
+        {
+          "family": "Proctor",
+          "given": "Kimberly",
+          "initials": "K"
+        },
+        {
+          "family": "Haffer",
+          "given": "Samuel C",
+          "initials": "SC"
+        },
+        {
+          "family": "Ewald",
+          "given": "Erin",
+          "initials": "E"
+        },
+        {
+          "family": "Hodge",
+          "given": "Carla",
+          "initials": "C"
+        },
+        {
+          "family": "James",
+          "given": "Cara V",
+          "initials": "CV"
+        }
+      ],
+      "title": "Identifying the Transgender Population in the Medicare Program.",
+      "journal": "Transgender health",
+      "year": 2016,
+      "volume": "1",
+      "issue": "1",
+      "pages": "250-265",
+      "doi": "10.1089/trgh.2016.0031",
+      "pmid": "28861539",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28861539/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A28861539+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Transgend Health",
+      "pmcid": "PMC5367475",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Proctor K, Haffer SC, Ewald E, Hodge C, James CV. Identifying the Transgender Population in the Medicare Program. Transgend Health. 2016;1(1):250-265.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5367475/",
+      "status": "Excluded by current population scope",
+      "access_level": "Full-text sections",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G02",
+      "original_citation": "Almazan AN, Keuroghlian AS. Association Between Gender-Affirming Surgeries and Mental Health Outcomes. JAMA Surgery. 2021;156:611–618.",
+      "authors": [
+        {
+          "family": "Almazan",
+          "given": "Anthony N",
+          "initials": "AN"
+        },
+        {
+          "family": "Keuroghlian",
+          "given": "Alex S",
+          "initials": "AS"
+        }
+      ],
+      "title": "Association Between Gender-Affirming Surgeries and Mental Health Outcomes.",
+      "journal": "JAMA surgery",
+      "year": 2021,
+      "volume": "156",
+      "issue": "7",
+      "pages": "611-618",
+      "doi": "10.1001/jamasurg.2021.0952",
+      "pmid": "33909023",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33909023/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33909023+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Surg",
+      "pmcid": "PMC8082431",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Almazan AN, Keuroghlian AS. Association Between Gender-Affirming Surgeries and Mental Health Outcomes. JAMA Surg. 2021;156(7):611-618.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8082431/",
+      "status": "Excluded by current population scope",
+      "access_level": "Full-text sections",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G03",
+      "original_citation": "Baker KE et al. Hormone Therapy, Mental Health, and Quality of Life Among Transgender People: A Systematic Review. J Endocr Soc. 2021;5:bvab011.",
+      "authors": [
+        {
+          "family": "Baker",
+          "given": "Kellan E",
+          "initials": "KE"
+        },
+        {
+          "family": "Wilson",
+          "given": "Lisa M",
+          "initials": "LM"
+        },
+        {
+          "family": "Sharma",
+          "given": "Ritu",
+          "initials": "R"
+        },
+        {
+          "family": "Dukhanin",
+          "given": "Vadim",
+          "initials": "V"
+        },
+        {
+          "family": "McArthur",
+          "given": "Kristen",
+          "initials": "K"
+        },
+        {
+          "family": "Robinson",
+          "given": "Karen A",
+          "initials": "KA"
+        }
+      ],
+      "title": "Hormone Therapy, Mental Health, and Quality of Life Among Transgender People: A Systematic Review.",
+      "journal": "Journal of the Endocrine Society",
+      "year": 2021,
+      "volume": "5",
+      "issue": "4",
+      "pages": "bvab011",
+      "doi": "10.1210/jendso/bvab011",
+      "pmid": "33644622",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33644622/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33644622+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "J Endocr Soc",
+      "pmcid": "PMC7894249",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Baker KE, Wilson LM, Sharma R, Dukhanin V, McArthur K, Robinson KA. Hormone Therapy, Mental Health, and Quality of Life Among Transgender People: A Systematic Review. J Endocr Soc. 2021;5(4):bvab011.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/33644622/",
+      "status": "Excluded by current population scope",
+      "access_level": "Abstract",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G06",
+      "original_citation": "Chokshi M et al. Disparities in Study Inclusion and Breast Cancer Screening Rates Among Transgender People: A Systematic Review. J Am Coll Radiol. 2024;21:1430–1443.",
+      "authors": [
+        {
+          "family": "Chokshi",
+          "given": "Millie",
+          "initials": "M"
+        },
+        {
+          "family": "Morgan",
+          "given": "Orly",
+          "initials": "O"
+        },
+        {
+          "family": "Carroll",
+          "given": "Evelyn F",
+          "initials": "EF"
+        },
+        {
+          "family": "Fraker",
+          "given": "Jessica L",
+          "initials": "JL"
+        },
+        {
+          "family": "Holligan",
+          "given": "Hannah",
+          "initials": "H"
+        },
+        {
+          "family": "Kling",
+          "given": "Juliana M",
+          "initials": "JM"
+        }
+      ],
+      "title": "Disparities in Study Inclusion and Breast Cancer Screening Rates Among Transgender People: A Systematic Review.",
+      "journal": "Journal of the American College of Radiology : JACR",
+      "year": 2024,
+      "volume": "21",
+      "issue": "9",
+      "pages": "1430-1443",
+      "doi": "10.1016/j.jacr.2024.04.006",
+      "pmid": "38663835",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38663835/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38663835+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "J Am Coll Radiol",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Chokshi M, Morgan O, Carroll EF, Fraker JL, Holligan H, Kling JM. Disparities in Study Inclusion and Breast Cancer Screening Rates Among Transgender People: A Systematic Review. J Am Coll Radiol. 2024;21(9):1430-1443.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38663835/",
+      "status": "Excluded by current population scope",
+      "access_level": "Abstract",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G07",
+      "original_citation": "Kalavacherla S et al. Prostate Cancer Screening Uptake in Transgender Women. JAMA Netw Open. 2024;7:e2356088.",
+      "authors": [
+        {
+          "family": "Kalavacherla",
+          "given": "Sandhya",
+          "initials": "S"
+        },
+        {
+          "family": "Riviere",
+          "given": "Paul",
+          "initials": "P"
+        },
+        {
+          "family": "Kalavacherla",
+          "given": "Sruthi",
+          "initials": "S"
+        },
+        {
+          "family": "Anger",
+          "given": "Jennifer T",
+          "initials": "JT"
+        },
+        {
+          "family": "Murphy",
+          "given": "James D",
+          "initials": "JD"
+        },
+        {
+          "family": "Rose",
+          "given": "Brent S",
+          "initials": "BS"
+        }
+      ],
+      "title": "Prostate Cancer Screening Uptake in Transgender Women.",
+      "journal": "JAMA network open",
+      "year": 2024,
+      "volume": "7",
+      "issue": "2",
+      "pages": "e2356088",
+      "doi": "10.1001/jamanetworkopen.2023.56088",
+      "pmid": "38353948",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38353948/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38353948+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Netw Open",
+      "pmcid": "PMC10867675",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Kalavacherla S, Riviere P, Kalavacherla S, Anger JT, Murphy JD, Rose BS. Prostate Cancer Screening Uptake in Transgender Women. JAMA Netw Open. 2024;7(2):e2356088.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38353948/",
+      "status": "Excluded by current population scope",
+      "access_level": "Abstract",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G08",
+      "original_citation": "Peitzmeier SM et al. Pap Test Use Is Lower Among Female-to-Male Patients Than Non-Transgender Women. Am J Prev Med. 2014;47:808–812.",
+      "authors": [
+        {
+          "family": "Peitzmeier",
+          "given": "Sarah M",
+          "initials": "SM"
+        },
+        {
+          "family": "Khullar",
+          "given": "Karishma",
+          "initials": "K"
+        },
+        {
+          "family": "Reisner",
+          "given": "Sari L",
+          "initials": "SL"
+        },
+        {
+          "family": "Potter",
+          "given": "Jennifer",
+          "initials": "J"
+        }
+      ],
+      "title": "Pap test use is lower among female-to-male patients than non-transgender women.",
+      "journal": "American journal of preventive medicine",
+      "year": 2014,
+      "volume": "47",
+      "issue": "6",
+      "pages": "808-812",
+      "doi": "10.1016/j.amepre.2014.07.031",
+      "pmid": "25455121",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25455121/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A25455121+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "Am J Prev Med",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Peitzmeier SM, Khullar K, Reisner SL, Potter J. Pap test use is lower among female-to-male patients than non-transgender women. Am J Prev Med. 2014;47(6):808-812.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/25455121/",
+      "status": "Excluded by current population scope",
+      "access_level": "Abstract",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G11",
+      "original_citation": "Bakko M, Kattari SK. Transgender-Related Insurance Denials as Barriers to Transgender Healthcare: Differences in Experience by Insurance Type. J Gen Intern Med. 2020;35:1693–1700.",
+      "authors": [
+        {
+          "family": "Bakko",
+          "given": "Matthew",
+          "initials": "M"
+        },
+        {
+          "family": "Kattari",
+          "given": "Shanna K",
+          "initials": "SK"
+        }
+      ],
+      "title": "Transgender-Related Insurance Denials as Barriers to Transgender Healthcare: Differences in Experience by Insurance Type.",
+      "journal": "Journal of general internal medicine",
+      "year": 2020,
+      "volume": "35",
+      "issue": "6",
+      "pages": "1693-1700",
+      "doi": "10.1007/s11606-020-05724-2",
+      "pmid": "32128693",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32128693/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32128693+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "J Gen Intern Med",
+      "pmcid": "PMC7280420",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Bakko M, Kattari SK. Transgender-Related Insurance Denials as Barriers to Transgender Healthcare: Differences in Experience by Insurance Type. J Gen Intern Med. 2020;35(6):1693-1700.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7280420/",
+      "status": "Excluded by current population scope",
+      "access_level": "Indexed full-text methods/results; direct PMC page blocked",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-G12",
+      "original_citation": "Balkan E et al. Gender-Affirming Surgery for Transgender and Gender Diverse Medicare Beneficiaries. JAMA Netw Open. 2025;8:e258072.",
+      "authors": [
+        {
+          "family": "Balkan",
+          "given": "Em",
+          "initials": "E"
+        },
+        {
+          "family": "Babbs",
+          "given": "Gray",
+          "initials": "G"
+        },
+        {
+          "family": "Meyers",
+          "given": "David J",
+          "initials": "DJ"
+        },
+        {
+          "family": "Kelly",
+          "given": "Patrick J A",
+          "initials": "PJA"
+        },
+        {
+          "family": "Yee",
+          "given": "Kim",
+          "initials": "K"
+        },
+        {
+          "family": "Pletta",
+          "given": "David R",
+          "initials": "DR"
+        },
+        {
+          "family": "Shireman",
+          "given": "Theresa I",
+          "initials": "TI"
+        },
+        {
+          "family": "Alpert",
+          "given": "Ash B",
+          "initials": "AB"
+        },
+        {
+          "family": "Baker",
+          "given": "Kellan E",
+          "initials": "KE"
+        },
+        {
+          "family": "Hughto",
+          "given": "Jaclyn M W",
+          "initials": "JMW"
+        }
+      ],
+      "title": "Gender-Affirming Surgery for Transgender and Gender Diverse Medicare Beneficiaries.",
+      "journal": "JAMA network open",
+      "year": 2025,
+      "volume": "8",
+      "issue": "5",
+      "pages": "e258072",
+      "doi": "10.1001/jamanetworkopen.2025.8072",
+      "pmid": "40310645",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40310645/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40310645+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [],
+      "journal_abbreviation": "JAMA Netw Open",
+      "pmcid": "PMC12046427",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Balkan E, Babbs G, Meyers DJ, Kelly PJA, Yee K, Pletta DR, et al. Gender-Affirming Surgery for Transgender and Gender Diverse Medicare Beneficiaries. JAMA Netw Open. 2025;8(5):e258072.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12046427/",
+      "status": "Excluded by current population scope",
+      "access_level": "Indexed full-text methods/results; direct PMC page blocked",
+      "eligibility": "See workbook population-screening status",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-B01-E1",
+      "original_citation": "Department of Error. Lancet. 2020;396(10252):668. doi:10.1016/S0140-6736(20)31827-4.",
+      "authors": [],
+      "title": "Department of Error.",
+      "journal": "Lancet (London, England)",
+      "journal_abbreviation": "Lancet",
+      "year": 2020,
+      "volume": "396",
+      "issue": "10252",
+      "pages": "668",
+      "doi": "10.1016/s0140-6736(20)31827-4",
+      "pmid": "32891210",
+      "pmcid": "PMC8445312",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32891210/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A32891210+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Published erratum linked by MEDLINE to PMID 32828189. No authors supplied in the correction metadata. This is a linked correction, not an independent study."
+      ],
+      "record_type": "correction",
+      "related_record_id": "L-B01",
+      "relationship": "corrects",
+      "source_type": "scientific",
+      "citation": "Department of Error. Lancet. 2020;396(10252):668.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32891210/",
+      "status": "Linked correction; not an independent study",
+      "access_level": "Correction metadata verified",
+      "linked_care_ids": []
+    }
+  ],
+  "policy_sources": [
+    {
+      "id": "P-001",
+      "url": "https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf",
+      "descriptions": [
+        "Generic oral estradiol",
+        "Transdermal estradiol patches and topical gels",
+        "Low-dose vaginal estradiol: cream, insert/tablet, or local ring",
+        "Systemic estradiol plus progestogen",
+        "Fezolinetant (Veozah)",
+        "Prescription testosterone for documented hypogonadism"
+      ],
+      "linked_record_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D12"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-002",
+      "url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+      "descriptions": [
+        "Paroxetine mesylate 7.5 mg capsule",
+        "Ospemifene (Osphena)",
+        "Vaginal prasterone (Intrarosa)",
+        "CMS monthly Part D formulary archive"
+      ],
+      "linked_record_ids": [
+        "D06",
+        "D07",
+        "D08",
+        "Drug formularies"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true,
+      "source_version": "2026-08-26",
+      "source_access_date": "2026-09-16"
+    },
+    {
+      "id": "P-003",
+      "url": "https://www.ssa.gov/OP_Home/ssact/title18/1860D-02.htm",
+      "descriptions": [
+        "Sildenafil or Viagra for erectile dysfunction",
+        "Flibanserin (Addyi) for HSDD",
+        "Bremelanotide (Vyleesi) for HSDD"
+      ],
+      "linked_record_ids": [
+        "D09",
+        "D10",
+        "D11"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-004",
+      "url": "https://www.medicare.gov/coverage/surgery",
+      "descriptions": [
+        "Male and female incontinence sling placement",
+        "Male and female sling revision or removal",
+        "Surgical diagnosis or treatment of endometriosis",
+        "Surgical repair of symptomatic pelvic-organ prolapse"
+      ],
+      "linked_record_ids": [
+        "P01",
+        "P02",
+        "P13",
+        "P14"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-005",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=64",
+      "descriptions": [
+        "Reconstruction after medically necessary mastectomy",
+        "Breast reconstruction solely for cosmetic reasons"
+      ],
+      "linked_record_ids": [
+        "P03",
+        "P05"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-006",
+      "url": "https://www.medicare.gov/coverage/breast-prostheses",
+      "descriptions": [
+        "External breast prosthesis and postsurgical bra"
+      ],
+      "linked_record_ids": [
+        "P04"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-007",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=38914",
+      "descriptions": [
+        "Surgery for symptomatic gynecomastia",
+        "Reduction mammoplasty for symptomatic breast enlargement"
+      ],
+      "linked_record_ids": [
+        "P06",
+        "P07"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-008",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=42",
+      "descriptions": [
+        "Clinician-provided biofeedback-assisted pelvic exercises",
+        "Home biofeedback for urinary incontinence"
+      ],
+      "linked_record_ids": [
+        "P08",
+        "P09"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-009",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=249",
+      "descriptions": [
+        "Sacral nerve stimulation"
+      ],
+      "linked_record_ids": [
+        "P10"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-010",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=231",
+      "descriptions": [
+        "Nonimplantable pelvic-floor electrical stimulation"
+      ],
+      "linked_record_ids": [
+        "P11"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-011",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56566",
+      "descriptions": [
+        "Skilled pelvic-floor therapy for pain without incontinence"
+      ],
+      "linked_record_ids": [
+        "P12"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-012",
+      "url": "https://www.medicare.gov/coverage/bone-mass-measurements",
+      "descriptions": [
+        "Bone mass measurement: estrogen-deficient risk category",
+        "Bone mass measurement: men and other qualifying groups"
+      ],
+      "linked_record_ids": [
+        "G04",
+        "G05"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-013",
+      "url": "https://www.medicare.gov/coverage/mammograms",
+      "descriptions": [
+        "Screening mammography"
+      ],
+      "linked_record_ids": [
+        "G06"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-014",
+      "url": "https://www.medicare.gov/coverage/prostate-cancer-screenings",
+      "descriptions": [
+        "PSA and digital rectal prostate screening"
+      ],
+      "linked_record_ids": [
+        "G07"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-015",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=55951",
+      "descriptions": [
+        "IUD insertion solely for pregnancy prevention",
+        "Hormone-eluting IUD for endometrial hyperplasia"
+      ],
+      "linked_record_ids": [
+        "G08",
+        "G10"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-016",
+      "url": "https://www.medicare.gov/coverage/cervical-vaginal-cancer-screenings",
+      "descriptions": [
+        "Cervical/vaginal screening and HPV cotesting"
+      ],
+      "linked_record_ids": [
+        "G09"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-017",
+      "url": "https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/Downloads/bp102c15.pdf",
+      "descriptions": [
+        "Medically necessary infertility evaluation and treatment",
+        "IVF and fertility preservation/cryostorage"
+      ],
+      "linked_record_ids": [
+        "G11",
+        "G12"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-018",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=13",
+      "descriptions": [
+        "Elective sterilization for pregnancy prevention"
+      ],
+      "linked_record_ids": [
+        "G13"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-019",
+      "url": "https://www.medicare.gov/coverage/prescription-drugs-outpatient",
+      "descriptions": [
+        "Prescription contraceptive pills, patches and rings",
+        "Outpatient gender-affirming hormones"
+      ],
+      "linked_record_ids": [
+        "G14",
+        "G02"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-020",
+      "url": "https://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/Downloads/Part-D-Benefits-Manual-Chapter-6.pdf",
+      "descriptions": [
+        "Drugs used to promote fertility"
+      ],
+      "linked_record_ids": [
+        "G15"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-021",
+      "url": "https://www.medicare.gov/coverage/lymphedema-compression-treatment-items",
+      "descriptions": [
+        "Lymphedema compression garments, wraps and bandaging supplies"
+      ],
+      "linked_record_ids": [
+        "A01"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-022",
+      "url": "https://www.cms.gov/medicare/regulations-guidance/transmittals/2024-transmittals/r12532bp",
+      "descriptions": [
+        "Lymphedema compression garments, wraps and bandaging supplies"
+      ],
+      "linked_record_ids": [
+        "A01"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-023",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=225",
+      "descriptions": [
+        "Home pneumatic compression pump"
+      ],
+      "linked_record_ids": [
+        "A02"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-024",
+      "url": "https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=368&ncdver=1",
+      "descriptions": [
+        "Gender-affirming surgery"
+      ],
+      "linked_record_ids": [
+        "G01"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-025",
+      "url": "https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/clm104c32.pdf",
+      "descriptions": [
+        "Anatomy-appropriate services when recorded sex conflicts"
+      ],
+      "linked_record_ids": [
+        "G03"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-026",
+      "url": "https://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/Downloads/QAEDDrugs_070606.pdf",
+      "descriptions": [
+        "Part D sexual/erectile dysfunction exclusion; sildenafil for pulmonary hypertension and supplemental coverage"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-027",
+      "url": "https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022526s013lbl.pdf",
+      "descriptions": [
+        "Addyi FDA label, December 2025: women less than 65; not limited to premenopausal women"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-028",
+      "url": "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf",
+      "descriptions": [
+        "Vyleesi current label: premenopausal HSDD"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-029",
+      "url": "https://www.fda.gov/drugs/drug-safety-communications/fda-adds-warning-about-rare-occurrence-serious-liver-injury-use-veozah-fezolinetant-hot-flashes-due",
+      "descriptions": [
+        "Veozah FDA warning about rare serious liver injury"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-030",
+      "url": "https://www.fda.gov/drugs/drug-safety-and-availability/menopausal-hormone-therapies-updated-prescribing-information",
+      "descriptions": [
+        "2026 FDA menopausal hormone product label revisions; changes are not coverage mandates"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-031",
+      "url": "https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/testosterone-information",
+      "descriptions": [
+        "Testosterone FDA indication and evolving label information"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-032",
+      "url": "https://www.discoverhopbenefits.com/wp-content/uploads/2025/09/PSERS-Doc-114-CompForm_2026_Medicare-Plus_final_accessible.pdf",
+      "descriptions": [
+        "PSERS 2026 employer supplemental bonus benefit lists Viagra and Addyi; outside national public plan-file scope"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-033",
+      "url": "https://www.cms.gov/medicare/appeals-grievances/prescription-drug/exceptions",
+      "descriptions": [
+        "Medicare formulary exceptions"
+      ],
+      "linked_record_ids": [
+        "Supplemental source"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-034",
+      "url": "https://www.cms.gov/files/zip/cy-2026-august-formulary-reference-file.zip",
+      "descriptions": [
+        "CMS formulary reference file"
+      ],
+      "linked_record_ids": [
+        "Drug formularies"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true,
+      "source_version": "2026-08-25",
+      "source_access_date": "2026-09-16"
+    },
+    {
+      "id": "P-035",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c",
+      "descriptions": [
+        "CMS RVU26C physician relative value files"
+      ],
+      "linked_record_ids": [
+        "Procedure values"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true,
+      "source_version": "2026-06-30",
+      "source_access_date": "2026-09-16"
+    },
+    {
+      "id": "P-036",
+      "url": "https://auanews.net/issues/articles/2024/july-extra-2024/upj-insight-comparison-of-work-relative-value-units-assigned-to-urological-and-gynecological-surgical-procedures",
+      "descriptions": [
+        "Author-published procedure comparison table"
+      ],
+      "linked_record_ids": [
+        "Procedure values"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-037",
+      "url": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/monthly-prescription-drug-plan-formulary-and-pharmacy-network-information",
+      "descriptions": [
+        "Monthly Prescription Drug Plan Formulary and Pharmacy Network Information"
+      ],
+      "linked_record_ids": [
+        "CMS data sources"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true,
+      "official_title": "Monthly Prescription Drug Plan Formulary and Pharmacy Network Information",
+      "source_version": "2026-08-26"
+    },
+    {
+      "id": "P-038",
+      "url": "https://data.cms.gov/sites/default/files/2025-10/0564eb37-402d-4110-bd98-2d5399dc30e7/PUFRecordLayout-2026.pdf",
+      "descriptions": [
+        "Data dictionary: Monthly Prescription Drug Plan Formulary and Pharmacy Network Information"
+      ],
+      "linked_record_ids": [
+        "CMS data sources"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-039",
+      "url": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug",
+      "descriptions": [
+        "Medicare Part D Spending by Drug"
+      ],
+      "linked_record_ids": [
+        "CMS data sources"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true,
+      "official_title": "Medicare Part D Spending by Drug",
+      "source_version": "2026-06-25"
+    },
+    {
+      "id": "P-040",
+      "url": "https://data.cms.gov/resources/medicare-part-d-spending-by-drug-data-dictionary",
+      "descriptions": [
+        "Data dictionary: Medicare Part D Spending by Drug"
+      ],
+      "linked_record_ids": [
+        "CMS data sources"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Carried from research sources; not reverified during bibliography backfill",
+      "current_use": true
+    },
+    {
+      "id": "P-041",
+      "url": "https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/Downloads/AgeandGenderHighlights.pdf",
+      "descriptions": [
+        "U.S. Personal Health Care Spending By Age and Sex: 2020 Highlights"
+      ],
+      "linked_record_ids": [
+        "Medicare benchmark rationale"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Verified against official source for benchmark framing on 2026-09-16",
+      "current_use": true,
+      "official_title": "U.S. Personal Health Care Spending By Age and Sex: 2020 Highlights",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "source_version": "2020",
+      "source_access_date": "2026-09-16",
+      "notes": "All-payer personal health care spending. Older adults were 17% of population and 37% of PHC spending. The pandemic effects are not isolated and COVID provider funding is allocated in the estimates."
+    },
+    {
+      "id": "P-042",
+      "url": "https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet",
+      "descriptions": [
+        "NHE Fact Sheet"
+      ],
+      "linked_record_ids": [
+        "Medicare benchmark rationale"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Verified against official source for benchmark framing on 2026-09-16",
+      "current_use": true,
+      "official_title": "NHE Fact Sheet",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "source_version": "2024 NHE; 2020 age-specific PHC",
+      "source_access_date": "2026-09-16",
+      "notes": "Medicare financed 21% of national health expenditures in 2024. All-payer PHC per person in 2020 was $22,356 for ages 65+ and $9,154 for ages 19–64. Spending is not a count of services."
+    },
+    {
+      "id": "P-043",
+      "url": "https://www.medicare.gov/basics/get-started-with-medicare",
+      "descriptions": [
+        "Get started with Medicare"
+      ],
+      "linked_record_ids": [
+        "Medicare benchmark rationale"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Verified against official source for benchmark framing on 2026-09-16",
+      "current_use": true,
+      "official_title": "Get started with Medicare",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "source_version": "Current eligibility overview checked 2026-09-16",
+      "source_access_date": "2026-09-16",
+      "notes": "Medicare covers eligible people age 65+ and certain younger people with disability, ESRD or ALS. Benchmark framing does not create a new age exclusion."
+    },
+    {
+      "id": "P-044",
+      "url": "https://www.cdc.gov/nchs/data/nhsr/nhsr184.pdf",
+      "descriptions": [
+        "Characteristics of Office-based Physician Visits by Age, 2019"
+      ],
+      "linked_record_ids": [
+        "Medicare benchmark rationale"
+      ],
+      "source_type": "policy_or_data",
+      "recorded_on": "2026-09-16",
+      "verification_status": "Verified against official source for benchmark framing on 2026-09-16",
+      "current_use": true,
+      "official_title": "Characteristics of Office-based Physician Visits by Age, 2019",
+      "organization": "National Center for Health Statistics",
+      "authors": "Ashman JJ, Santo L, Okeyode T",
+      "report": "National Health Statistics Reports, no. 184 (2023)",
+      "source_version": "2019",
+      "source_access_date": "2026-09-16",
+      "notes": "Table 1: 708.5 office visits per 100 people age 65+, 374.9 for ages 45–64 and 188.0 for ages 18–44. Nonfederal office-based physicians only; not all encounters. Older adults and infants had higher rates than other groups. Tables 2–3 concern expected payer and major reason for visits, not paid claims or patient-level disease prevalence."
+    }
+  ],
+  "clinical_guidance_sources": [
+    {
+      "id": "C-001",
+      "organization": "National Cancer Institute",
+      "title": "Male Breast Cancer",
+      "url": "https://www.cancer.gov/types/breast/male-breast-cancer",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; breast tissue is present in both sexes."
+    },
+    {
+      "id": "C-002",
+      "organization": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "title": "About Endometriosis",
+      "url": "https://www.nichd.nih.gov/health/topics/endometri/conditioninfo",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; endometriosis can involve reproductive and other anatomical sites."
+    },
+    {
+      "id": "C-003",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "title": "Treatments for Bladder Control Problems (Urinary Incontinence)",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/treatment",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; pelvic-floor therapy can apply to women and men."
+    },
+    {
+      "id": "C-004",
+      "organization": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "title": "Osteoporosis in Men",
+      "url": "https://www.niams.nih.gov/health-topics/osteoporosis-men",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; osteoporosis is not limited to women."
+    }
+  ]
+}

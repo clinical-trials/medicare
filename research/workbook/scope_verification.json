@@ -1,0 +1,24 @@
+{
+  "items": 40,
+  "studies": 33,
+  "contextRecords": 6,
+  "primaryCandidateRecords": 27,
+  "excludedItems": 3,
+  "excludedStudies": 8,
+  "withStudies": 26,
+  "statuses": {
+    "Covered with conditions": 16,
+    "Plan dependent": 7,
+    "Excluded for this use": 7,
+    "Local decision": 5,
+    "Not established": 5
+  },
+  "clinicalBasis": {
+    "Shared body systems / functions": 16,
+    "Female reproductive anatomy": 6,
+    "Male reproductive anatomy": 2,
+    "Female reproductive physiology": 6,
+    "Male reproductive physiology": 1,
+    "Mixed or site-dependent": 9
+  }
+}

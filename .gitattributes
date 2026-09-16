@@ -1,0 +1,5 @@
+# Preserve downloaded source bytes and avoid line-by-line diffs of large datasets.
+research/sources/** -text -diff
+
+# Preserve the reference exchange format as exported.
+*.ris -text

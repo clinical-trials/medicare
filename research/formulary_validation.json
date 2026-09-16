@@ -1,0 +1,101 @@
+{
+  "validation_date": "2026-09-16",
+  "validator": "Independent drug-coverage subagent",
+  "status": "Reported selected counts and joins independently reproduced; interpretive limits retained",
+  "method": "Read source CSV/pipe-delimited files independently using bundled Python; constructed unique eligible contract-plan-segment-formulary tuples; used explicit RxCUI sets for oral estradiol, vaginal cream, Veozah and Intrarosa; independently selected generic estradiol patch concepts from the CMS reference; joined formulary membership directly to plan tuples. Did not import or execute analyze_formularies.py. Queried every unmatched RxCUI using NIH RxNav historystatus API.",
+  "source_files": [
+    "sources/plan information  20260831.txt",
+    "sources/basic drugs formulary file  20260831.txt",
+    "sources/CY26 FRF_20260825.csv",
+    "sources/CMS_PartD_Spending_2024.csv"
+  ],
+  "independent_denominator": {
+    "unsuppressed_plan_segments": 5499,
+    "unique_contract_plan_pairs": 5055,
+    "unique_formularies": 328,
+    "suppressed_plan_segments": 19,
+    "suppressed_unsuppressed_overlap": 0
+  },
+  "integrity_checks": {
+    "basic_rows": 1125804,
+    "all_contract_years_are_2026": true,
+    "duplicate_reference_rxcuis": 0,
+    "malformed_basic_rxcuis": 0,
+    "duplicate_formulary_rxcui_pairs": 0,
+    "formularies_with_multiple_versions": 0,
+    "basic_formularies_unused_by_eligible_plans": 0,
+    "eligible_plan_formularies_missing_from_basic_file": 0,
+    "unmatched_basic_rxcuis": 23,
+    "unmatched_basic_rows": 2318,
+    "unmatched_rxcuis_belonging_to_target_ingredients_after_NIH_lookup": 0
+  },
+  "independently_recomputed_counts": [
+    {"group": "Generic estradiol oral tablets", "rxcuis": ["197657", "197658", "197659"], "formularies_listing": 328, "plan_segments_listing": 5499, "listed_percent": 100.0, "segments_with_at_least_one_listed_option_PA_N": 5499},
+    {"group": "Generic estradiol vaginal cream", "rxcuis": ["310169"], "formularies_listing": 328, "plan_segments_listing": 5499, "listed_percent": 100.0, "segments_with_at_least_one_listed_option_PA_N": 5499},
+    {"group": "Generic estradiol transdermal patches", "rxcui_count": 11, "formularies_listing": 324, "plan_segments_listing": 5366, "listed_percent": 97.58137843244226, "segments_with_at_least_one_listed_option_PA_N": 5096},
+    {"group": "Veozah", "rxcuis": ["2637147"], "formularies_listing": 177, "plan_segments_listing": 2380, "listed_percent": 43.28059647208583, "segments_with_at_least_one_listed_option_PA_N": 45},
+    {"group": "Intrarosa", "rxcuis": ["1927693"], "formularies_listing": 7, "plan_segments_listing": 39, "listed_percent": 0.7092198581560284, "segments_with_at_least_one_listed_option_PA_N": 24}
+  ],
+  "independently_checked_2024_spending_rows": [
+    {"Brnd_Name": "Estradiol*", "Gnrc_Name": "Estradiol", "Mftr_Name": "Overall", "Tot_Clms_2024": 4055858, "Tot_Benes_2024": 1611030, "Tot_Spndng_2024": 218158281.52},
+    {"Brnd_Name": "Viagra", "Gnrc_Name": "Sildenafil Citrate", "Mftr_Name": "Overall", "Tot_Clms_2024": 398, "Tot_Benes_2024": 92, "Tot_Spndng_2024": 164848.43}
+  ],
+  "interpretive_review": [
+    "No arithmetic or join defect identified. Only the listed selected product counts were independently recomputed; remaining groups were inspected in code and target definitions, not separately recalculated.",
+    "CMS defines a plan using contract, plan and segment. Retain plan-segment language and distinguish 5,055 contract-plan pairs from 5,499 segments.",
+    "Scope excludes non-Part-D, employer, PACE and demonstration plans except included MMPs; 19 suppressed plan-segments are excluded.",
+    "Presence means at least one matching listed strength/product. It does not mean every formulation, every strength, every manufacturer or every indication is covered.",
+    "PA_N is a field observation. It does not establish absence of quantity limits, diagnosis restrictions, age edits, pharmacy requirements or denied claims. The basic-file NDC is a proxy NDC.",
+    "The calculation named without_PA_or_ST actually requires PA_N and ST_N on the same listed option; describe it as neither PA nor ST.",
+    "Drug groups have different indications, routes, alternatives, prices and safety considerations. Comparisons do not independently establish sex or gender discrimination.",
+    "The monthly data are plan-segment-weighted rather than enrollment-weighted, and are an August 2026 snapshot, not September claims data.",
+    "All 23 unmatched identifiers were resolved and none maps to estradiol, testosterone, fezolinetant, ospemifene or prasterone. Their absence from the CMS reference does not affect target counts.",
+    "Viagra aggregate claims lack indication and benefit basis. Do not assert they are ED claims, pulmonary-hypertension claims, supplemental payments, federal reimbursement or improper payments. Current retrieved public methodology did not resolve supplemental-only inclusion.",
+    "Gross annual drug spending includes plan and beneficiary amounts before rebates. Estradiol* aggregates routes; it is not all estradiol products and is not a female-only beneficiary count."
+  ],
+  "methodology_sources": {
+    "CMS_2026_PUF_methodology": "https://data.cms.gov/sites/default/files/2025-10/8f1d8b42-bfd1-4f9c-b86d-b92af0c6f3d5/Methodology-PUF-2026.pdf",
+    "CMS_2026_PUF_record_layout": "https://data.cms.gov/sites/default/files/2025-10/0564eb37-402d-4110-bd98-2d5399dc30e7/PUFRecordLayout-2026.pdf",
+    "CMS_2024_spending_dataset": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug",
+    "CMS_older_spending_methodology_January_2023_not_asserted_current": "https://data.cms.gov/sites/default/files/2023-02/DSD_PTD_R22_20230118_Methodology_WDDSE%20508.pdf"
+  },
+  "NIH_unmatched_lookup": {
+    "retrieved": "2026-09-16",
+    "provider": "U.S. National Library of Medicine RxNav RxNorm API",
+    "all_returned_status_Active": true,
+    "mappings": [
+      {"rxcui": "1926069", "name": "ritonavir 100 MG Oral Powder [Norvir]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1926069/historystatus.json"},
+      {"rxcui": "847749", "name": "lopinavir 80 MG/ML / ritonavir 20 MG/ML Oral Solution [Kaletra]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/847749/historystatus.json"},
+      {"rxcui": "1300378", "name": "0.5 ML Bordetella pertussis filamentous hemagglutinin vaccine, inactivated 0.016 MG/ML / Bordetella pertussis pertactin vaccine, inactivated 0.005 UNT/ML / Bordetella pertussis toxoid vaccine, inactivated 0.016 MG/ML / diphtheria toxoid vaccine, inactivated 5 UNT/ML / tetanus toxoid vaccine, inactivated 10 UNT/ML Injection [Boostrix]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1300378/historystatus.json"},
+      {"rxcui": "1495070", "name": "miltefosine 50 MG Oral Capsule [Impavido]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/1495070/historystatus.json"},
+      {"rxcui": "902648", "name": "12 HR disopyramide 100 MG Extended Release Oral Capsule [Norpace]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/902648/historystatus.json"},
+      {"rxcui": "902652", "name": "12 HR disopyramide 150 MG Extended Release Oral Capsule [Norpace]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/902652/historystatus.json"},
+      {"rxcui": "2001565", "name": "BX Rating 24 HR methylphenidate hydrochloride 27 MG Extended Release Oral Tablet", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2001565/historystatus.json"},
+      {"rxcui": "2001566", "name": "BX Rating 24 HR methylphenidate hydrochloride 36 MG Extended Release Oral Tablet", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2001566/historystatus.json"},
+      {"rxcui": "2001568", "name": "BX Rating 24 HR methylphenidate hydrochloride 54 MG Extended Release Oral Tablet", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2001568/historystatus.json"},
+      {"rxcui": "2045245", "name": "{1 (ascorbic acid 7540 MG / polyethylene glycol 3350 40000 MG / potassium chloride 1200 MG / sodium ascorbate 48110 MG / sodium chloride 3200 MG Powder for Oral Solution) / 1 (polyethylene glycol 3350 100000 MG / potassium chloride 1000 MG / sodium chloride 2000 MG / sodium sulfate 9000 MG Powder for Oral Solution) } Pack [Plenvu]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2045245/historystatus.json"},
+      {"rxcui": "2055676", "name": "0.6 ML risperidone 150 MG/ML Prefilled Syringe [Perseris]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2055676/historystatus.json"},
+      {"rxcui": "2055672", "name": "0.8 ML risperidone 150 MG/ML Prefilled Syringe [Perseris]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2055672/historystatus.json"},
+      {"rxcui": "2049558", "name": "10 ML plazomicin 50 MG/ML Injection [Zemdri]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2049558/historystatus.json"},
+      {"rxcui": "2668484", "name": "0.2 ML adalimumab-aaty 100 MG/ML Prefilled Syringe [Yuflyma]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2668484/historystatus.json"},
+      {"rxcui": "2055286", "name": "loteprednol etabonate 10 MG/ML Ophthalmic Suspension [Inveltys]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2055286/historystatus.json"},
+      {"rxcui": "847745", "name": "lopinavir 100 MG / ritonavir 25 MG Oral Tablet [Kaletra]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/847745/historystatus.json"},
+      {"rxcui": "847741", "name": "lopinavir 200 MG / ritonavir 50 MG Oral Tablet [Kaletra]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/847741/historystatus.json"},
+      {"rxcui": "616485", "name": "quetiapine 400 MG Oral Tablet [Seroquel]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/616485/historystatus.json"},
+      {"rxcui": "208094", "name": "sucralfate 100 MG/ML Oral Suspension [Carafate]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/208094/historystatus.json"},
+      {"rxcui": "404406", "name": "montelukast 4 MG Oral Granules [Singulair]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/404406/historystatus.json"},
+      {"rxcui": "2122634", "name": "cladribine 10 MG Oral Tablet", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/2122634/historystatus.json"},
+      {"rxcui": "207791", "name": "nitrofurantoin, macrocrystals 25 MG Oral Capsule [Macrodantin]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/207791/historystatus.json"},
+      {"rxcui": "201882", "name": "nitrofurantoin, macrocrystals 50 MG Oral Capsule [Macrodantin]", "source_url": "https://rxnav.nlm.nih.gov/REST/rxcui/201882/historystatus.json"}
+    ]
+  },
+  "main_report_drug_section_review": {
+    "file": "Medicare_gender_bias_review_2026-09-16.md",
+    "result": "No material drug-section misstatement identified in draft inspected September 16, 2026.",
+    "suggested_precision_edits": [
+      "Consider replacing table header all listed options require PA with all listed options have a PA flag to distinguish a CMS-file observation from fully validated plan criteria.",
+      "Consider describing PSERS as its published 2026 formulary dated August 5, 2025, since no current September 2026 revision was verified."
+    ],
+    "main_report_edited": false
+  }
+}

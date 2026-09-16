@@ -1,0 +1,158 @@
+[
+  {
+    "@type": "dcat:Dataset",
+    "accessLevel": "public",
+    "accessRights": "Open",
+    "accrualPeriodicity": "R/P1M",
+    "bureauCode": [
+      "009:38"
+    ],
+    "contactPoint": {
+      "@type": "vcard:Contact",
+      "fn": "Plan Finder - CM",
+      "hasEmail": "mailto:planfinderqa@cms.hhs.gov"
+    },
+    "describedBy": "https://data.cms.gov/sites/default/files/2025-10/0564eb37-402d-4110-bd98-2d5399dc30e7/PUFRecordLayout-2026.pdf",
+    "describedByType": "application/pdf",
+    "dataQuality": true,
+    "description": "The Monthly Prescription Drug Plan Formulary and Pharmacy Network Information files contain formulary and pharmacy network data for Medicare Prescription Drug Plans and Medicare Advantage (MA) Prescription Drug Plans (with the exception of employer and Program of All-Inclusive Care for the Elderly plans).\u00a0These non-identifiable files are available on a monthly basis and are comprised of the following tables:Plan Information - Information such as plan name, contract ID, plan ID, service area, and plan type.Geographic Locator - MA and Prescription Drug Plans region codes and county codes.Basic Drugs Formulary - Formulary details for each plan including National Drug Codes (NDCs), cost share tier level, and indicators for step therapy, quantity limits, prior authorization, and a newly added Selected Drug flag.Excluded Drugs Formulary - Enhanced alternative plans may elect to provide a supplemental benefit and cover excluded drugs. File includes formulary details for excluded drugs that are covered by the plan (for enhanced alternative plans only).Beneficiary Cost - Plan level cost sharing details for preferred, non-preferred, and mail order network pharmacies.Pharmacy Network - National Provider Identifier (NPI) numbers for each network pharmacy including preferred, retail, and mail order indicators, and brand, generic, and selected drug dispensing fees for 30/60/90 days supply, respectively.Indication Based Coverage Formulary File - Includes drugs covered based on FDA-approved indication for each plan.Insulin Beneficiary Cost File - Plan level copay and coinsurance amounts\u00a0for insulin at preferred, non-preferred and mail order network pharmacies.\u00a0These are large files and can take time to download.\u00a0\u00a0Please read the \u201cAgreement for Use\u201d in the Resources section below. This document contains important information regarding timeframes for obtaining data as well as data accuracy and integrity.\u00a0The Quarterly Prescription Drug Plan Formulary, Pharmacy Network, and Pricing Information\u00a0is also available to access for the quarterly level information.\u00a0\u00a0Please note:\u00a0The Part D benefit year information for plans become available in October of the year prior. For example, year 2026 data is available in the October, November and December 2025 monthly files. Year 2026 data continues to be available in the January through September 2026 monthly files, then beginning in October of 2026 year 2027 data becomes available.Estimated release dates for upcoming monthly data (files reflect data for the month in which the file is released):9/23/2610/15/2611/25/2612/23/261/20/272/17/273/17/274/28/275/26/276/23/277/21/278/18/279/29/27Files older than contract year 2019 can be purchased.",
+    "distribution": [
+      {
+        "@type": "dcat:Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/f2bcba91-c75f-46c8-b00b-3d9631767b4e",
+        "title": "Monthly Prescription Drug Plan Formulary and Pharmacy Network Information : 2026-08-26",
+        "modified": "2026-08-26",
+        "temporal": "2026-08-01/2026-08-31"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-07/86072516-8629-44d7-9f0e-2d8877ef7fd3/2026_20260722.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/a460bcca-d245-4658-81fb-fc209150b665",
+        "title": "Monthly Prescription Drug Plan Formulary and Pharmacy Network Information : 2026-07-29",
+        "modified": "2026-07-29",
+        "temporal": "2026-07-01/2026-07-31"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-06/72a58ff7-527b-4b6b-a89c-700099d78122/2026_20260610.zip",
+        "mediaType": "application/zip",
+        "format": "ZIP",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/b33a361d-c647-41ec-8864-55427fe4a0d7",
+        "title": "Monthly Prescription Drug Plan Formulary and Pharmacy Network Information : 2026-06-17",
+        "modified": "2026-06-17",
+        "temporal": "2026-06-01/2026-06-30"
+      }
+    ],
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/cb2a224f-4d52-4cae-aa55-8c00c671384f/data-viewer",
+    "keyword": [
+      "Medicare",
+      "Medicare Advantage",
+      "Medicare Prescription Drug",
+      "All Other Provider Care Types",
+      "Drugs",
+      "Health Care Use & Payments"
+    ],
+    "landingPage": "https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/monthly-prescription-drug-plan-formulary-and-pharmacy-network-information",
+    "language": [
+      "en-US"
+    ],
+    "license": "https://www.usa.gov/government-works",
+    "modified": "2026-08-26",
+    "programCode": [
+      "009:000"
+    ],
+    "publisher": {
+      "@type": "org:Organization",
+      "name": "Centers for Medicare & Medicaid Services"
+    },
+    "references": [
+      "https://data.cms.gov/sites/default/files/2025-10/8f1d8b42-bfd1-4f9c-b86d-b92af0c6f3d5/Methodology-PUF-2026.pdf"
+    ],
+    "temporal": "2019-01-01/2026-08-31",
+    "theme": [
+      "Medicare"
+    ],
+    "title": "Monthly Prescription Drug Plan Formulary and Pharmacy Network Information"
+  },
+  {
+    "@type": "dcat:Dataset",
+    "accessLevel": "public",
+    "accessRights": "Open",
+    "accrualPeriodicity": "R/P1Y",
+    "bureauCode": [
+      "009:38"
+    ],
+    "contactPoint": {
+      "@type": "vcard:Contact",
+      "fn": "CMS Drug Spending - OEDA",
+      "hasEmail": "mailto:IPAG_Data_Products@cms.hhs.gov"
+    },
+    "describedBy": "https://data.cms.gov/resources/medicare-part-d-spending-by-drug-data-dictionary",
+    "dataQuality": true,
+    "description": "The Medicare Part D by Drug dataset presents information on spending for drugs prescribed to Medicare beneficiaries enrolled in Part D by physicians and other healthcare providers. Drugs prescribed in the Medicare Part D program are drugs patients generally administer themselves.\n\n\u00a0\n\nThe dataset focuses on average spending per dosage unit and change in average spending per dosage unit over time. It\u00a0also includes spending information for manufacturer(s) of the drugs as well as consumer-friendly information of drug uses and clinical indications.\n\n\u00a0\n\nDrug spending metrics for Part D drugs are based on the gross drug cost, which represents total spending for the prescription claim, including Medicare, plan, and beneficiary payments. The Part D spending metrics do not reflect any manufacturers\u2019 rebates or other price concessions as CMS is prohibited from publicly disclosing such information.",
+    "distribution": [
+      {
+        "@type": "dcat:Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b",
+        "description": "latest",
+        "title": "Medicare Part D Spending by Drug : 2024-01-01",
+        "modified": "2026-06-25",
+        "temporal": "2024-01-01/2024-12-31"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "downloadURL": "https://data.cms.gov/sites/default/files/2026-06/98218f98-166c-4723-8438-c344a4ef96a6/DSD_PTD_RY26_P04_V10_DY24_BGM.csv",
+        "mediaType": "text/csv",
+        "format": "CSV",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/da5ff50b-e5da-42de-b68b-6cfac1f64f35",
+        "title": "Medicare Part D Spending by Drug : 2024-01-01",
+        "modified": "2026-06-25",
+        "temporal": "2024-01-01/2024-12-31"
+      },
+      {
+        "@type": "dcat:Distribution",
+        "format": "API",
+        "accessURL": "https://data.cms.gov/data-api/v1/dataset/da5ff50b-e5da-42de-b68b-6cfac1f64f35/data",
+        "resourcesAPI": "https://data.cms.gov/data-api/v1/dataset-resources/da5ff50b-e5da-42de-b68b-6cfac1f64f35",
+        "title": "Medicare Part D Spending by Drug : 2024-01-01",
+        "modified": "2026-06-25",
+        "temporal": "2024-01-01/2024-12-31"
+      }
+    ],
+    "identifier": "https://data.cms.gov/data-api/v1/dataset/7e0b4365-fd63-4a29-8f5e-e0ac9f66a81b/data-viewer",
+    "keyword": [
+      "Medicare",
+      "Medicare Prescription Drug",
+      "Medical Suppliers & Equipment",
+      "Drugs"
+    ],
+    "landingPage": "https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug",
+    "language": [
+      "en-US"
+    ],
+    "license": "https://www.usa.gov/government-works",
+    "modified": "2026-06-25",
+    "programCode": [
+      "009:000"
+    ],
+    "publisher": {
+      "@type": "org:Organization",
+      "name": "Centers for Medicare & Medicaid Services"
+    },
+    "references": [
+      "https://data.cms.gov/resources/medicare-part-d-spending-by-drug-methodology"
+    ],
+    "temporal": "2024-01-01/2024-12-31",
+    "theme": [
+      "Medicare"
+    ],
+    "title": "Medicare Part D Spending by Drug"
+  }
+]

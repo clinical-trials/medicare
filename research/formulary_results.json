@@ -1,0 +1,165 @@
+{
+  "metadata": {
+    "retrieved": "2026-09-16",
+    "formulary_release": "2026-08-26",
+    "archive_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+    "archive_members_date_label": "20260831",
+    "reference_date": "2026-08-25",
+    "reference_url": "https://www.cms.gov/files/zip/cy-2026-august-formulary-reference-file.zip",
+    "basic_rows": 1125804,
+    "basic_unique_rxcuis": 6140,
+    "unmatched_basic_rxcuis": 23,
+    "unmatched_basic_rows": 2318,
+    "reference_rows": 6702,
+    "raw_plan_county_rows": 112294,
+    "unsuppressed_unique_plan_segments": 5499,
+    "unique_contract_plan_pairs": 5055,
+    "suppressed_plan_segments_excluded": 19,
+    "formularies_used": 328,
+    "missing_formularies": {},
+    "limitations": [
+      "Plan-segment weighted, not enrollment weighted; county repetitions removed.",
+      "Employer, PACE, demonstration (except included MMP), and non-Part-D plans excluded from CMS monthly public data.",
+      "Listed means at least one reference-matched formulation/strength; not every dose or a guarantee of claim approval.",
+      "PA flag does not identify age-specific or diagnosis-specific criteria.",
+      "No patient cost, denied-claim, indication, clinical-need or gender-identity data.",
+      "Missing formulary entries do not preclude approved exceptions.",
+      "Reference IDs absent from August reference are not classified; target concept list retained for review.",
+      "Hormone groups have different indications; between-group PA comparisons do not establish unfairness."
+    ]
+  },
+  "results": [
+    {
+      "group": "Estradiol: any single-ingredient form, generic or brand",
+      "reference_rxcuis": 72,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5499,
+      "listed_pct": 100.0,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 5499,
+      "listed_plan_segments_all_options_PA": 0,
+      "all_options_PA_pct_of_listed": 0.0,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 5499
+    },
+    {
+      "group": "Generic estradiol: oral tablet",
+      "reference_rxcuis": 3,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5499,
+      "listed_pct": 100.0,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 5499,
+      "listed_plan_segments_all_options_PA": 0,
+      "all_options_PA_pct_of_listed": 0.0,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 5499
+    },
+    {
+      "group": "Generic estradiol: vaginal cream",
+      "reference_rxcuis": 1,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5499,
+      "listed_pct": 100.0,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 5499,
+      "listed_plan_segments_all_options_PA": 0,
+      "all_options_PA_pct_of_listed": 0.0,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 5499
+    },
+    {
+      "group": "Generic estradiol: vaginal insert",
+      "reference_rxcuis": 1,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5380,
+      "listed_pct": 97.84,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 5380,
+      "listed_plan_segments_all_options_PA": 0,
+      "all_options_PA_pct_of_listed": 0.0,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 5380
+    },
+    {
+      "group": "Generic estradiol: transdermal patch",
+      "reference_rxcuis": 11,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5366,
+      "listed_pct": 97.58,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 5096,
+      "listed_plan_segments_all_options_PA": 270,
+      "all_options_PA_pct_of_listed": 5.03,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 5096
+    },
+    {
+      "group": "Generic estradiol: topical gel",
+      "reference_rxcuis": 6,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 1391,
+      "listed_pct": 25.3,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 1391,
+      "listed_plan_segments_all_options_PA": 0,
+      "all_options_PA_pct_of_listed": 0.0,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 1391
+    },
+    {
+      "group": "Estring brand",
+      "reference_rxcuis": 1,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 3364,
+      "listed_pct": 61.17,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 3364,
+      "listed_plan_segments_all_options_PA": 0,
+      "all_options_PA_pct_of_listed": 0.0,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 3364
+    },
+    {
+      "group": "Testosterone: any single-ingredient form, generic or brand",
+      "reference_rxcuis": 26,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5499,
+      "listed_pct": 100.0,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 3071,
+      "listed_plan_segments_all_options_PA": 2428,
+      "all_options_PA_pct_of_listed": 44.15,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 3071
+    },
+    {
+      "group": "Generic testosterone: topical gel",
+      "reference_rxcuis": 6,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 5465,
+      "listed_pct": 99.38,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 2089,
+      "listed_plan_segments_all_options_PA": 3376,
+      "all_options_PA_pct_of_listed": 61.77,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 2089
+    },
+    {
+      "group": "Fezolinetant / Veozah",
+      "reference_rxcuis": 1,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 2380,
+      "listed_pct": 43.28,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 45,
+      "listed_plan_segments_all_options_PA": 2335,
+      "all_options_PA_pct_of_listed": 98.11,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 42
+    },
+    {
+      "group": "Ospemifene / Osphena",
+      "reference_rxcuis": 1,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 1183,
+      "listed_pct": 21.51,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 171,
+      "listed_plan_segments_all_options_PA": 1012,
+      "all_options_PA_pct_of_listed": 85.55,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 171
+    },
+    {
+      "group": "Prasterone / Intrarosa",
+      "reference_rxcuis": 1,
+      "plan_segments_total": 5499,
+      "plan_segments_listed": 39,
+      "listed_pct": 0.71,
+      "plan_segments_with_at_least_one_listed_option_without_PA": 24,
+      "listed_plan_segments_all_options_PA": 15,
+      "all_options_PA_pct_of_listed": 38.46,
+      "plan_segments_with_at_least_one_option_with_neither_PA_nor_ST": 24
+    }
+  ]
+}
