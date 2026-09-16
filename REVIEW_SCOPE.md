@@ -39,6 +39,19 @@ Split bundled or site-dependent rows before comparative synthesis. Sling procedu
 
 Dashboard counts summarize the selected inventory rows, not unique codes, patient prevalence, nationwide coverage rates or the frequency of bias. Do not pool category counts or raw spending as a causal test of reimbursement inequity. Population burden and reproductive physiology may affect the need for shared-system care; retain both features in interpretation.
 
+## Patient sex/gender versus physician sex/gender
+
+Clarified September 16, 2026 at the user's request. Classify every active study in `research/evidence_subjects.json` and the Literature sheet by analytic subject, unit of analysis, patient sex/gender role, physician sex/gender role, comparison axis and inference boundary. These dimensions are independent of the clinical anatomy/physiology classification.
+
+- **Patient care/access:** coverage, patient costs, need, use and outcomes. Distinguish a direct male/female contrast from care within one eligible population and qualitative accounts of patient barriers.
+- **Service/anatomy valuation or coverage:** procedure codes, specialty or insurer-policy comparisons. Anatomy or specialty is not a measured physician-gender exposure, and code-level values are not patient-level access outcomes.
+- **Physician sex/gender:** physician collections, payments or practice patterns compared by physician sex/gender. Retain this as a separate contextual evidence stream, outside the primary patient-sex disparity synthesis. Annual Medicare payments, per-service payments and physician salary are different outcomes. Matching a procedure code does not ensure identical modifiers, setting, case mix or complete billing circumstances.
+- **General patient sex/gender background:** clinical or social frameworks without a direct original reimbursement comparison.
+
+When both patient and physician sex/gender are analyzed, record both variables and retain main effects, concordance and interaction estimates separately. Do not infer one from the other. Preserve each study's terminology and measurement source. A clinician interview about patient access (L-Q01), a prescriber dataset (L-D01), and specialty-based code valuation (L-P04) are not automatically physician-gender comparisons.
+
+L-C01–L-C03 are physician-gender context. The new surgeon study L-C03 contributes annual and CPT-matched payment findings, with limitations and a null colorectal payment-per-service result retained. Its patient case-mix descriptions do not constitute a patient-sex disparity estimate. See the living bibliography and register for source details. The white paper will report this contextual stream separately and will not pool its effects with patient or anatomy comparisons.
+
 ## Population criterion
 
 - Focus on cisgender men and women. Exclude transgender-focused patient studies and gender-affirming-care indications from the present synthesis.

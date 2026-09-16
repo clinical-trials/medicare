@@ -2,13 +2,13 @@ import fs from 'node:fs/promises';
 
 const out='/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8';
 
-export async function writeAnalysisFramework({clinicalBasis,benchmark,items,expected}){
+export async function writeAnalysisFramework({clinicalBasis,evidenceSubjects,benchmark,items,expected}){
   const cite=id=>`[${id}](./Medicare_gender_care_bibliography.md#${id.toLowerCase()})`;
   const registry=JSON.parse(await fs.readFile('/Users/lgm/Documents/ChatGPT/Medicare/research/reference_registry.json','utf8'));
   const source=key=>{const s=benchmark.sources.find(x=>x.key===key);const r=registry.policy_sources.find(x=>x.url===s.url);if(!r)throw new Error(`Missing benchmark bibliography source: ${key}`);return cite(r.id);};
   const examples={shared:'Breast, bone, lymphatic and continence care; sexual desire',female_anatomy:'Local vaginal treatment, cervical screening and intrauterine devices',male_anatomy:'Prostate screening and penile erectile function',female_physiology:'Menopausal vasomotor treatment and contraceptive endocrine effects',male_physiology:'Treatment of documented male hypogonadism',mixed:'Male/female sling procedures, broad pelvic pain, site-dependent surgery and fertility services'};
   const lines=[
-    '# Anatomy, physiology and sex-based access: analysis framework',
+    '# Patient and physician sex/gender, anatomy and access: analysis framework',
     '',
     `Adopted ${clinicalBasis.adopted_on} at the investigator’s request. Working methods for the Medicare review and future white paper; not a completed systematic review or a finding of bias.`,
     '',
@@ -32,6 +32,22 @@ export async function writeAnalysisFramework({clinicalBasis,benchmark,items,expe
     `${benchmark.measurement_rule} These findings do not establish that most lifetime medical care occurs after age 65. The report’s intended inference is about equitable access in Medicare and its specified populations; extensions to other payers or ages require separate evidence.`,
     '',
     '**Draft rationale for the white paper:** We use Medicare as a national policy benchmark for evaluating sex-based equity in access to clinically indicated care in later life, a period characterized by substantial chronic illness and healthcare use. We will analyze coverage, payment and realized access relative to clinical need, distinguishing shared body systems from reproductive anatomy and physiology. We will identify age and entitlement groups separately and retain younger Medicare beneficiaries within the review’s existing eligibility scope.',
+    '',
+    '## Whose sex/gender is analyzed?',
+    '',
+    'Added September 16, 2026 at the investigator’s request. Patient sex/gender and physician sex/gender are separate variables. Neither is inferred from procedure anatomy, specialty or the sex/gender of interview respondents. This classification is independent of clinical basis and primary-synthesis eligibility.',
+    '',
+    '| Analytic subject | What the category contains | Active records |',
+    '|---|---|---:|',
+    ...evidenceSubjects.groups.map(g=>`| ${g.label} | ${g.description} | ${expected.analyticSubjects[g.label]} |`),
+    '',
+    'These are selected-record counts, not estimates of bias. Patient-care evidence includes studies within one eligible population and is not automatically a between-sex comparison. Code or specialty valuation is distinct from a measured patient-sex effect. Physician evidence remains a contextual stream outside the primary patient-sex disparity synthesis.',
+    '',
+    `**Patient question:** How do coverage, costs and access differ with patient sex/gender and clinical need? ${cite('L-G04')} and ${cite('L-H01')} contain direct patient-sex comparisons in the current extraction; eligibility and historical applicability still require review. ${cite('L-Q01')} addresses perceived patient barriers through clinician interviews, not physician payment.`,
+    '',
+    `**Physician question:** How do payments differ by the treating physician’s sex/gender? ${cite('L-C01')}, ${cite('L-C02')} and ${cite('L-C03')} belong here. The surgeon article ${cite('L-C03')} reports annual and CPT-matched payment differences; unavailable modifiers limit identical-service inference. Its null colorectal payment-per-service result is retained. Physician payments do not measure salary or patient coverage.`,
+    '',
+    '**Joint question:** When studies analyze both patient and physician sex/gender, extract both measurements, main effects and any concordance or interaction estimate separately. Do not substitute a clinician effect for a patient effect, or infer that one causes the other. Record author terminology, measurement source, unit of analysis and uncertainty. Future joint analyses will require their own extraction and cannot be inferred from the current physician-payment studies.',
     '',
     '## Distinctions used in the analysis',
     '',
@@ -65,21 +81,22 @@ export async function writeAnalysisFramework({clinicalBasis,benchmark,items,expe
     '',
     '## Proposed white-paper reporting structure',
     '',
-    '1. Methods: report this dated analytic amendment, the six clinical categories, population screening and indication-level coding. State that the classification was added during the ongoing review rather than prospectively registered.',
+    '1. Methods: report this dated analytic amendment, separate patient and physician sex/gender variables, study units, the six clinical categories, population screening and indication-level coding. State that the classification was added during the ongoing review rather than prospectively registered.',
     '2. Results on shared conditions: report sex differences in clinically appropriate access, patient spending, coverage restrictions and comparable-service payments.',
     '3. Results on reproductive anatomy and physiology: report organ- or indication-specific coverage and valuation, clinically justified cross-service comparisons, and services without a direct counterpart.',
     '4. Mixed services and unresolved comparisons: identify the information needed for component-level analysis instead of combining incompatible procedures.',
-    '5. Discussion: distinguish anatomical/physiological need, unequal burden, policy design and evidence supporting inequity. Explain uncertainty, limitations and null findings.',
+    '5. Separate contextual section: report physician-gender payment evidence, annual versus per-service outcomes and matching limitations. Do not pool these effects with patient comparisons. Identify patient–physician interaction results separately when available.',
+    '6. Discussion: distinguish anatomical/physiological need, unequal burden, policy design and evidence supporting inequity. Explain uncertainty, limitations and null findings.',
     '',
-    `Kidney care in ${cite('L-Q01')} illustrates a shared-system access question. Its clinician interviews are qualitative context, not a Medicare reimbursement estimate; it does not add a dialysis coverage row to the current inventory. Clinician-payment studies ${cite('L-C01')} and ${cite('L-C02')} remain separate from patient-sex comparisons.`,
+    `Kidney care in ${cite('L-Q01')} illustrates a shared-system access question. Its clinician interviews are qualitative context, not a Medicare reimbursement estimate; it does not add a dialysis coverage row to the current inventory. Clinician-payment studies ${cite('L-C01')}, ${cite('L-C02')} and ${cite('L-C03')} remain separate from patient-sex comparisons.`,
     '',
     '## Draft Methods paragraph',
     '',
-    '> We classified each care-item/indication by its clinical basis: shared body systems or functions; female reproductive anatomy; male reproductive anatomy; female reproductive physiology; male reproductive physiology; or mixed/site-dependent services. We separately recorded sex-defined eligibility, relevant physiology and the population represented in the evidence. Planned comparisons for shared conditions will examine women and men with comparable clinical need, including those who did not receive care. Clinical need will be assessed independently of reimbursement eligibility. For reproductive anatomy or physiology, we will assess clinical need and policy consistency without requiring an opposite-sex counterpart; any cross-procedure comparison will require explicit justification of clinical and resource comparability. Bundled services remain unresolved pending component-level extraction. Inventory counts are descriptive and are not interpreted as national coverage rates or causal evidence of reimbursement bias.',
+    '> We recorded the analytic subject, unit, patient sex/gender role, physician sex/gender role, comparison axis and inference boundary for each active study. Physician-gender findings are maintained separately from the primary patient-sex synthesis; studies within one population and code-level comparisons are not automatically treated as direct patient-sex contrasts. We classified each care-item/indication by its clinical basis: shared body systems or functions; female reproductive anatomy; male reproductive anatomy; female reproductive physiology; male reproductive physiology; or mixed/site-dependent services. We separately recorded sex-defined eligibility, relevant physiology and the population represented in the evidence. Planned comparisons for shared conditions will examine women and men with comparable clinical need, including those who did not receive care. Clinical need will be assessed independently of reimbursement eligibility. For reproductive anatomy or physiology, we will assess clinical need and policy consistency without requiring an opposite-sex counterpart; any cross-procedure comparison will require explicit justification of clinical and resource comparability. Bundled services remain unresolved pending component-level extraction. Inventory counts are descriptive and are not interpreted as national coverage rates or causal evidence of reimbursement bias.',
     '',
     '## Maintenance and sources',
     '',
-    'Item-level classifications, explanations and comparison approaches appear in Data & Targets, columns U–X. The dashboard summarizes clinical basis against coverage status. The canonical classification file is research/clinical_basis.json. Coverage findings are unchanged by classification alone.',
+    'Item-level classifications, explanations and comparison approaches appear in Data & Targets, columns U–X. The dashboard summarizes clinical basis against coverage status. The canonical clinical classification file is research/clinical_basis.json. Literature columns S–X and research/evidence_subjects.json retain study subject and variable roles. The dashboard shows these study counts separately. Coverage findings are unchanged by classification alone.',
     '',
     'See the [living bibliography](./Medicare_gender_care_bibliography.md) for all stable reference IDs and source links. Scientific evidence, clinical classification guidance and Medicare policy sources remain separately identified.',
     ''

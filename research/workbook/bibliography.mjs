@@ -43,6 +43,9 @@ export async function buildBibliography(data,drugSources){
       status:excludedIds.has(s.id)?'Excluded by current population scope':s.synthesis_role==='context_only'?(s.context_type==='qualitative_access'?'Qualitative access context':s.context_type==='clinical_background'?'Clinical background':'Clinician context'):s.synthesis_role==='historical_patient_candidate'?'Historical patient evidence; eligibility pending':'Candidate evidence / retained code-policy component',
       access_level:s.extraction_level||'Citation/abstract extraction recorded; full-text review pending',
       eligibility:s.population_screening_status||'See workbook population-screening status',
+      analytic_subject:s.analytic_subject,unit_of_analysis:s.unit_of_analysis,
+      patient_sex_gender_role:s.patient_sex_gender_role,physician_sex_gender_role:s.physician_sex_gender_role,
+      comparison_axis:s.comparison_axis,inference_boundary:s.inference_boundary,
       linked_care_ids:data.items.filter(i=>i.study_ids.includes(s.id)).map(i=>i.id),
       related_reference_ids:s.related_reference_ids||[]};
   });
@@ -92,6 +95,7 @@ export async function buildBibliography(data,drugSources){
       const urls=[r.doi?`[DOI](https://doi.org/${link(r.doi)})`:'',r.pmid?`[PubMed](https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/)`:'',r.source_url?`[Reviewed source](${link(r.source_url)})`:''].filter(Boolean);
       lines.push(urls.join(' · '),'',`**Role:** ${r.status}. **Access:** ${r.access_level}.`,'',`**Citation metadata:** ${r.metadata_status}${r.verified_on?`; checked ${r.verified_on}`:''}.`,'');
       if(r.linked_care_ids?.length)lines.push(`Care-item links: ${r.linked_care_ids.join(', ')}.`,'');
+      if(r.analytic_subject)lines.push(`**Analytic subject:** ${r.analytic_subject}. **Unit:** ${r.unit_of_analysis}.`,'',`Patient sex/gender: ${r.patient_sex_gender_role}. Physician sex/gender: ${r.physician_sex_gender_role}.`,'',`Comparison: ${period(r.comparison_axis)} Inference boundary: ${period(r.inference_boundary)}`,'');
       if(r.related_record_id)lines.push(`Linked reference: [${r.related_record_id}](#${r.related_record_id.toLowerCase()}) (${r.relationship}).`,'');
       for(const note of r.notes||[])lines.push(`Metadata note: ${note}`,'');
     }
@@ -120,6 +124,7 @@ export async function buildBibliography(data,drugSources){
     const pages=(r.pages||'').split(/[-–]/);field('SP',pages[0]);if(pages.length===2)field('EP',pages[1]);
     field('DO',r.doi);field('AN',r.pmid);field('UR',r.source_url||r.url);field('KW',r.status);field('Y2',r.verified_on);
     field('N1',`Stable ID ${r.id}. ${r.status}. ${r.access_level}. ${r.metadata_status}. ${(r.notes||[]).join(' ')}`);
+    if(r.analytic_subject)field('N1',`Analytic subject: ${r.analytic_subject}. Patient sex/gender: ${r.patient_sex_gender_role}. Physician sex/gender: ${r.physician_sex_gender_role}. Comparison: ${r.comparison_axis}. Inference boundary: ${r.inference_boundary}.`);
     if(r.related_record_id)field('N1',`${r.relationship}: ${r.related_record_id}`);
     field('ER',' ');ris.push('');
   }

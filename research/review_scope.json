@@ -1,5 +1,5 @@
 {
-  "version": "5",
+  "version": "6",
   "amended_on": "2026-09-16",
   "national_review_question": "Across Medicare, how do coverage rules, payment values, cost sharing and administrative requirements affect access to clinically indicated care for women and men, including unequal effects of formally neutral rules?",
   "motivating_example_rule": "Estradiol is one motivating case in a national review of drugs, procedures and care pathways; a single drug finding cannot establish or resolve the national question.",
@@ -84,5 +84,8 @@
     "G12": {
       "comparison": "Sperm versus oocyte preservation for infertility or prevention of treatment-related infertility, including cancer care."
     }
-  }
+  },
+  "analysis_subject_rule": "Code patient sex/gender and physician sex/gender separately for every study, with the unit of analysis and comparison axis. Keep patient care/access, service/anatomy valuation or coverage, physician sex/gender and general patient background distinct. These categories do not replace clinical-basis classification or eligibility screening.",
+  "physician_evidence_rule": "Physician-gender payment studies remain a separate contextual stream outside the primary patient-sex disparity synthesis. Distinguish annual collections, per-service payments, complete billing circumstances and salary; code-matched payment differences are not automatically identical-service differences. Clinician interview participants or prescriber data do not by themselves make a study a physician-gender comparison.",
+  "interaction_evidence_rule": "Code both patient and physician sex/gender when analyzed together; retain concordance or interaction results separately from each main effect. Never infer a patient-sex effect from a physician-gender comparison, a specialty label, or procedure anatomy."
 }

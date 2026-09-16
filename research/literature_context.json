@@ -38,6 +38,26 @@
       "identity_reporting": "Self-reported physician gender linked to NPI; cisgender identity not established.",
       "screening_notes": "Adjusted for billing volume/diversity, case mix, experience and subspecialty. Formal risk-of-bias assessment pending.",
       "synthesis_role": "context_only"
+    },
+    {
+      "id": "L-C03",
+      "citation": "Munir MM et al. Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties. JAMA Surg. 2024;159(9):1060–1070.",
+      "year": 2024,
+      "design": "Cross-sectional; surgeon-level regression and CPT-matched payment analysis",
+      "population": "20,549 general surgeons, 1,065 surgical oncologists and 1,601 colorectal surgeons; physician-level comparison",
+      "payer": "Medicare fee-for-service",
+      "data_period": "2021; monetary values in 2021 US dollars",
+      "finding": "Adjusted annual payments were lower for women surgeons: general −$14,963.46 (95% CI −18,822.27 to −11,104.64); oncology −$8,354.69 (−15,018.12 to −1,691.25); colorectal −$4,346.73 (−7,660.15 to −1,033.32). CPT-matched mean differences were −$3.87, −$18.02 and −$0.44, respectively (no CIs/P values shown). Unadjusted colorectal payment/service was similar: $167.33 vs $169.20, P=.52.",
+      "limitation": "Payments are not salary. Modifiers/add-on codes and complete billing circumstances were unavailable; matching CPT does not establish identical services. Observational results do not establish causal discrimination or patient-sex coverage differences.",
+      "relevance": "Physician-gender payment evidence; separate from the primary patient-sex disparity synthesis.",
+      "url": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588",
+      "doi_or_pmid": "10.1001/jamasurg.2024.2298; PMID 39046733",
+      "extraction_level": "Targeted main-text and tables review; supplement not independently reviewed",
+      "population_screening_status": "Context only: clinician gender",
+      "identity_reporting": "Self-reported Rendering Provider Gender (female/male) from CMS; cisgender identity not verified. Patient gender describes case mix, not an extracted patient-sex disparity.",
+      "screening_notes": "Annual and per-service outcomes are distinct. Retain the null colorectal per-service finding. Matched-code differences lack displayed uncertainty estimates. Formal risk-of-bias assessment pending.",
+      "synthesis_role": "context_only",
+      "context_type": "clinician"
     }
   ],
   "provenance": [
@@ -60,6 +80,17 @@
       ],
       "source_access": "Direct PMC page returned a browser challenge; indexed primary-source main text was accessible. Supplemental tables not independently reviewed.",
       "checked": "2026-09-16"
+    },
+    {
+      "id": "L-C03",
+      "user_supplied_url": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588#google_vignette",
+      "verified_sources": [
+        "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588",
+        "https://pubmed.ncbi.nlm.nih.gov/39046733/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC11270248/"
+      ],
+      "checked": "2026-09-16",
+      "source_access": "Publisher main text and tables reviewed; supplemental content not independently reviewed."
     }
   ]
 }

@@ -1,7 +1,7 @@
 {
   "items": 40,
-  "studies": 33,
-  "contextRecords": 6,
+  "studies": 34,
+  "contextRecords": 7,
   "primaryCandidateRecords": 27,
   "excludedItems": 3,
   "excludedStudies": 8,
@@ -12,6 +12,12 @@
     "Excluded for this use": 7,
     "Local decision": 5,
     "Not established": 5
+  },
+  "analyticSubjects": {
+    "Patient care / access": 18,
+    "Service / anatomy valuation or coverage": 10,
+    "Physician sex / gender": 3,
+    "General patient sex / gender background": 3
   },
   "clinicalBasis": {
     "Shared body systems / functions": 16,

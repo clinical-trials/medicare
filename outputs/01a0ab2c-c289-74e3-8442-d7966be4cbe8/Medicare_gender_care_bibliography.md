@@ -1,6 +1,6 @@
 # Medicare sex-based coverage and reimbursement: working bibliography
 
-Updated 2026-09-16. Stable IDs match the evidence register. 33 active literature records; 8 scope-excluded records retained for audit; 1 linked correction.
+Updated 2026-09-16. Stable IDs match the evidence register. 34 active literature records; 8 scope-excluded records retained for audit; 1 linked correction.
 
 This is a living reference list for an ongoing review, not a completed systematic-review bibliography. Publication metadata have been checked separately from full-text extraction, eligibility and risk-of-bias assessment. References cited within reviews are not automatically included as screened studies.
 
@@ -20,6 +20,12 @@ Penn M, Colley D, Koirala P, King L, Fitzgerald J. Price and Prejudice: Reimburs
 
 Care-item links: P01, P02, P13.
 
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Matched CPT-code pairs and fee-schedule years.
+
+Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Male- versus female-anatomy procedure valuation. Inference boundary: Payment to a physician for a code is not a comparison of physician genders; selected pairs are not all Medicare services.
+
 ### L-P02
 
 Hathaway JK, Schuster MS, Richards KA, Turk TMT. Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures. Urol Pract. 2024;11(4):654-660.
@@ -31,6 +37,12 @@ Hathaway JK, Schuster MS, Richards KA, Turk TMT. Comparison of Work Relative Val
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: P01, P02, P14.
+
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Matched procedure-code pairs and work/time valuations.
+
+Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Directly analogous urologic and gynecologic procedures. Inference boundary: Null results in selected pairs do not establish equality across all services or patient access.
 
 ### L-P03
 
@@ -44,6 +56,12 @@ Polan RM, Barber EL. Reimbursement for Female-Specific Compared With Male-Specif
 
 Care-item links: P01, P14.
 
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Matched procedures, NSQIP patient records and specialty compensation estimates.
+
+Patient sex/gender: Anatomy-specific procedure groups; patient data inform operative resources. Physician sex/gender: Specialty compensation variable; not physician gender.
+
+Comparison: Female- versus male-specific procedure work and modeled compensation. Inference boundary: Modeled specialty compensation is not an observed physician-gender effect or a sex-specific Medicare conversion factor.
+
 ### L-P04
 
 Uppal S, Rice LW, Spencer RJ. Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement. Obstet Gynecol. 2021;138(2):182-188.
@@ -56,6 +74,12 @@ Uppal S, Rice LW, Spencer RJ. Discrepancies Created by Surgeon Self-Reported Ope
 
 Care-item links: P13.
 
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Surgical registry cases linked to CMS procedure time and RVUs.
+
+Patient sex/gender: Patient clinical case mix; no isolated patient-sex effect extracted. Physician sex/gender: Surgical specialty comparison; not physician gender.
+
+Comparison: Valuation and reported versus observed operative time across specialties. Inference boundary: Specialty differences do not isolate either patient-sex or physician-gender discrimination.
+
 ### L-P05
 
 Goff BA, Muntz HG, Cain JM. Is Adam worth more than Eve? The financial impact of gender bias in the federal reimbursement of gynecological procedures. Gynecol Oncol. 1997;64(3):372-377.
@@ -65,6 +89,12 @@ Goff BA, Muntz HG, Cain JM. Is Adam worth more than Eve? The financial impact of
 **Role:** Candidate evidence / retained code-policy component. **Access:** Citation and abstract; full-text extraction not completed.
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
+
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Historically matched procedure groups.
+
+Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Male- versus female-anatomy procedures in the 1995 schedule. Inference boundary: Historical code-payment differences do not measure current coverage or physician-gender pay.
 
 ### L-P06
 
@@ -77,6 +107,12 @@ Benoit MF, Ma JF, Upperman BA. Comparison of 2015 Medicare relative value units 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: P02.
+
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Anatomically matched procedure-code pairs.
+
+Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Male- versus female-anatomy procedure RVUs and compensation estimates. Inference boundary: Matching assumptions and the underlying FECA source limit direct Medicare interpretation; physician gender is not the extracted comparison.
 
 Metadata note: Legacy citation abbreviates the title after “gender-specific procedures.” Full MEDLINE title includes the subtitle; DOI and PMID agree.
 
@@ -92,6 +128,12 @@ Graziano FD, Levy J, Chen J, Shammas RL, Boe L, Allen RJ, et al. Longitudinal Tr
 
 Care-item links: P03.
 
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Breast-reconstruction registry cases and longitudinal code valuations.
+
+Patient sex/gender: Breast-reconstruction indication; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Implant versus flap reconstruction and changes over time. Inference boundary: Within-breast-service resource differences do not independently establish patient-sex or physician-gender bias.
+
 Metadata note: Volume, issue and pages absent from retrieved MEDLINE metadata; retain online-ahead-of-print citation and DOI.
 
 ### L-P08
@@ -106,6 +148,12 @@ Stigliano M, Gundlach C, Qin N, McVeigh AB, Wei L, Vaeth AM, et al. Trends in Me
 
 Care-item links: P03, P07.
 
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Breast procedure types by fee-schedule year and city.
+
+Patient sex/gender: Anatomical service category; no patient cohort. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Breast-procedure payments over time and across locations. Inference boundary: Payment erosion within selected services is not a patient-sex comparison or evidence of physician-gender differences.
+
 ### L-P09
 
 Doval AF, Gratzon AC, Neese V, Shuck JW, Friedman J, Echo A. Is Our Effort Appropriately Valued? An Analysis of Work Relative Value Units in Immediate Breast Reconstruction. Plast Reconstr Surg. 2020;146(3):502-508.
@@ -117,6 +165,12 @@ Doval AF, Gratzon AC, Neese V, Shuck JW, Friedman J, Echo A. Is Our Effort Appro
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: P03.
+
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Breast-reconstruction patient records grouped by procedure.
+
+Patient sex/gender: Breast-reconstruction indication; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Implant, pedicled-flap and free-flap work and payment per time. Inference boundary: Patient records support resource comparisons; no independent sex-disparity estimate is extracted.
 
 ### L-P10
 
@@ -130,6 +184,12 @@ Morin M, Dumoulin C, Bergeron S, Mayrand MH, Khalifé S, Waddell G, et al. Multi
 
 Care-item links: P12.
 
+**Analytic subject:** Patient care / access. **Unit:** Trial participants with provoked vestibulodynia.
+
+Patient sex/gender: Women in an indication-specific trial; not a between-sex contrast. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Physical therapy versus topical lidocaine. Inference boundary: Clinical effectiveness within an eligible population does not establish reimbursement inequity.
+
 ### L-D01
 
 Tabakin AL, Lee W, Winkler HA, Shalom DF. Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries. Urogynecology (Phila). 2025;31(1):58-64.
@@ -141,6 +201,12 @@ Tabakin AL, Lee W, Winkler HA, Shalom DF. Vaginal Estrogen Prescribing and Cost 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: D03.
+
+**Analytic subject:** Patient care / access. **Unit:** Part D drug-product spending, claims, beneficiaries and prescriber data.
+
+Patient sex/gender: Vaginal-estrogen indication; no between-sex effect extracted. Physician sex/gender: Prescriber data source; no physician-gender effect extracted.
+
+Comparison: Selected vaginal-estrogen products and spending/utilization over time. Inference boundary: Use of prescriber files does not make this a physician-gender study; product spending is not patient out-of-pocket cost.
 
 Metadata note: Legacy citation uses 2024, the electronic publication year (2024-03-26). The final issue is January 2025;31(1):58–64. Bibliography uses the final issue year; original citation is preserved.
 
@@ -156,6 +222,12 @@ Baik SH, Baye F, McDonald CJ. Use of menopausal hormone therapy beyond age 65 ye
 
 Care-item links: D01, D02, D04.
 
+**Analytic subject:** Patient care / access. **Unit:** Medicare beneficiary records and treatment exposure over time.
+
+Patient sex/gender: Senior women; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Hormone treatment, formulation, route and dose versus nonuse/discontinuation. Inference boundary: Observational treatment-outcome associations do not estimate sex-based reimbursement or prove causal treatment effects.
+
 ### L-D03
 
 Mitchell CM, Reed SD, Diem S, Larson JC, Newton KM, Ensrud KE, et al. Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial. JAMA Intern Med. 2018;178(5):681-690.
@@ -167,6 +239,12 @@ Mitchell CM, Reed SD, Diem S, Larson JC, Newton KM, Ensrud KE, et al. Efficacy o
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: D03.
+
+**Analytic subject:** Patient care / access. **Unit:** Randomized trial participants.
+
+Patient sex/gender: Postmenopausal women; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Vaginal estradiol, moisturizer and placebo. Inference boundary: A within-population clinical null result does not determine Medicare coverage or demonstrate reimbursement parity.
 
 ### L-D04
 
@@ -180,6 +258,12 @@ Danan ER, Sowerby C, Ullman KE, Ensrud K, Forte ML, Zerzan N, et al. Hormonal Tr
 
 Care-item links: D03, D07, D08.
 
+**Analytic subject:** Patient care / access. **Unit:** Randomized trials synthesized in a systematic review.
+
+Patient sex/gender: Postmenopausal women with GSM; indication-specific evidence. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: GSM treatments versus placebo or alternatives. Inference boundary: Treatment benefit and certainty are clinical evidence; no reimbursement or between-sex effect is extracted.
+
 ### L-D05
 
 Lederman S, Ottery FD, Cano A, Santoro N, Shapiro M, Stute P, et al. Fezolinetant for treatment of moderate-to-severe vasomotor symptoms associated with menopause (SKYLIGHT 1): a phase 3 randomised controlled study. Lancet. 2023;401(10382):1091-1102.
@@ -191,6 +275,12 @@ Lederman S, Ottery FD, Cano A, Santoro N, Shapiro M, Stute P, et al. Fezolinetan
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: D05.
+
+**Analytic subject:** Patient care / access. **Unit:** Randomized trial participants with menopausal symptoms.
+
+Patient sex/gender: Women aged 40–65; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Fezolinetant versus placebo. Inference boundary: Treatment efficacy is not a coverage comparison; applicability to older Medicare beneficiaries requires assessment.
 
 ### L-D06
 
@@ -204,6 +294,12 @@ Simon JA, Portman DJ, Kaunitz AM, Mekonnen H, Kazempour K, Bhaskar S, et al. Low
 
 Care-item links: D06.
 
+**Analytic subject:** Patient care / access. **Unit:** Participants in two randomized trials.
+
+Patient sex/gender: Postmenopausal women; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Low-dose paroxetine versus placebo. Inference boundary: Clinical benefit does not establish formulary access or a between-sex disparity.
+
 ### L-D07
 
 Jaspers L, Feys F, Bramer WM, Franco OH, Leusink P, Laan ET. Efficacy and Safety of Flibanserin for the Treatment of Hypoactive Sexual Desire Disorder in Women: A Systematic Review and Meta-analysis. JAMA Intern Med. 2016;176(4):453-462.
@@ -215,6 +311,12 @@ Jaspers L, Feys F, Bramer WM, Franco OH, Leusink P, Laan ET. Efficacy and Safety
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: D10.
+
+**Analytic subject:** Patient care / access. **Unit:** Published and unpublished randomized trials in a meta-analysis.
+
+Patient sex/gender: Women with HSDD; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Flibanserin versus placebo. Inference boundary: Benefits and harms within women do not measure physician gender or comparative Medicare reimbursement.
 
 ### L-D08
 
@@ -228,6 +330,12 @@ Kingsberg SA, Clayton AH, Portman D, Williams LA, Krop J, Jordan R, et al. Breme
 
 Care-item links: D11.
 
+**Analytic subject:** Patient care / access. **Unit:** Participants in two randomized trials.
+
+Patient sex/gender: Premenopausal women with HSDD; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Bremelanotide versus placebo. Inference boundary: Clinical response and adverse effects do not establish sex-based coverage differences.
+
 ### L-D09
 
 Lincoff AM, Bhasin S, Flevaris P, Mitchell LM, Basaria S, Boden WE, et al. Cardiovascular Safety of Testosterone-Replacement Therapy. N Engl J Med. 2023;389(2):107-117.
@@ -239,6 +347,12 @@ Lincoff AM, Bhasin S, Flevaris P, Mitchell LM, Basaria S, Boden WE, et al. Cardi
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: D12.
+
+**Analytic subject:** Patient care / access. **Unit:** Randomized trial participants.
+
+Patient sex/gender: Men with hypogonadism and cardiovascular risk; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Testosterone gel versus placebo. Inference boundary: Male-only safety evidence supplies clinical context, not a matched female comparison or payment-disparity estimate.
 
 ### L-D10
 
@@ -252,6 +366,12 @@ Rossouw JE, Anderson GL, Prentice RL, LaCroix AZ, Kooperberg C, Stefanick ML, et
 
 Care-item links: D01, D02, D04.
 
+**Analytic subject:** Patient care / access. **Unit:** Randomized trial participants.
+
+Patient sex/gender: Postmenopausal women with a uterus; sex/anatomy-defined eligibility. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Combined hormone regimen versus placebo for primary prevention. Inference boundary: Regimen-specific benefits and harms do not establish reimbursement differences or apply to every menopausal indication.
+
 ### L-G04
 
 Curtis JR, Carbone L, Cheng H, Hayes B, Laster A, Matthews R, et al. Longitudinal trends in use of bone mass measurement among older americans, 1999-2005. J Bone Miner Res. 2008;23(7):1061-1067.
@@ -263,6 +383,12 @@ Curtis JR, Carbone L, Cheng H, Hayes B, Laster A, Matthews R, et al. Longitudina
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: G04, G05.
+
+**Analytic subject:** Patient care / access. **Unit:** Medicare beneficiaries in longitudinal claims.
+
+Patient sex/gender: Recorded patient sex is a direct male–female comparison; identity not established. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: DXA utilization by patient sex and other demographic strata. Inference boundary: Utilization differences do not isolate coverage, clinical need or discrimination.
 
 ### L-G05
 
@@ -276,6 +402,12 @@ Pasquale MK, Sheer RL, Yehoshua A, McFadden A, Chines A, Caloyeras J. Evaluation
 
 Care-item links: G04, G05.
 
+**Analytic subject:** Patient care / access. **Unit:** Male Medicare Advantage beneficiaries assigned to outreach.
+
+Patient sex/gender: Men with fragility fractures; population restriction rather than between-sex comparison. Physician sex/gender: Physicians receive outreach; no physician-gender effect extracted.
+
+Comparison: Outreach versus usual care for bone testing and treatment. Inference boundary: Physician participation in an intervention is not physician-gender analysis; no direct female comparator.
+
 ### L-G09
 
 Bellerose M, Ellison J, Steenland MW, Meyers DJ, Mitra M, Shireman TI. Coverage Gaps and Contraceptive Use Among Medicare Enrollees With Disabilities. JAMA Netw Open. 2025;8(6):e2517718.
@@ -287,6 +419,12 @@ Bellerose M, Ellison J, Steenland MW, Meyers DJ, Mitra M, Shireman TI. Coverage 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: G08, G10, G13, G14.
+
+**Analytic subject:** Patient care / access. **Unit:** Disabled women in claims and coverage transitions.
+
+Patient sex/gender: Women aged 20–49; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Payer/coverage groups and change after dual enrollment. Inference boundary: Coverage-associated contraceptive use is patient-access evidence, not a male–female matched effect.
 
 ### L-G10
 
@@ -300,6 +438,12 @@ Ellison J, Pudasainy S, Bellerose M, Quinn D, Borrero S, Olson I, et al. Contrac
 
 Care-item links: G08, G10, G13, G14.
 
+**Analytic subject:** Patient care / access. **Unit:** Reproductive-age beneficiaries in payer-linked claims.
+
+Patient sex/gender: Contraceptive indication/population; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Traditional Medicare versus Medicare Advantage and clinical indications. Inference boundary: Payer and method comparisons do not identify patient-sex or physician-gender effects; claims may miss unmet need.
+
 ### L-A01
 
 Dean LT, Ransome Y, Frasso-Jaramillo L, Moss SL, Zhang Y, Ashing K, et al. Drivers of cost differences between US breast cancer survivors with or without lymphedema. J Cancer Surviv. 2019;13(5):804-814.
@@ -311,6 +455,12 @@ Dean LT, Ransome Y, Frasso-Jaramillo L, Moss SL, Zhang Y, Ashing K, et al. Drive
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
 Care-item links: A01.
+
+**Analytic subject:** Patient care / access. **Unit:** Breast-cancer survivors reporting costs and interviews.
+
+Patient sex/gender: Survivorship population; no matched male–female effect extracted. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Survivors with versus without lymphedema. Inference boundary: Sex/gender identity is not inferred from breast cancer; condition-related costs are not a direct sex-disparity estimate.
 
 ### L-A02
 
@@ -324,6 +474,12 @@ Lynn JV, Hespe GE, Akhter MF, David CM, Kung TA, Myers PL. Cross-Sectional Analy
 
 Care-item links: A01, A02.
 
+**Analytic subject:** Service / anatomy valuation or coverage. **Unit:** Insurers and their published coverage policies.
+
+Patient sex/gender: Condition-specific benefit policies; no patient cohort. Physician sex/gender: No physician-level comparison in the extracted policy analysis.
+
+Comparison: Lymphedema treatment coverage across insurers and modalities. Inference boundary: Published policy is distinct from patient claims, access and sex-specific effects; Medicare applicability needs separate verification.
+
 ### L-H01
 
 Gornick M, Newton M, Hackerman C. Factors affecting differences in Medicare reimbursements for physicians' services. Health Care Financ Rev. 1980;1(4):15-37.
@@ -333,6 +489,12 @@ Gornick M, Newton M, Hackerman C. Factors affecting differences in Medicare reim
 **Role:** Historical patient evidence; eligibility pending. **Access:** Targeted full-text extraction; CMS PDF checked against indexed PMC.
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
+
+**Analytic subject:** Patient care / access. **Unit:** Part B enrollees, reported utilization and reimbursements.
+
+Patient sex/gender: Enrollment-file sex is a direct male–female comparison; identity not reported. Physician sex/gender: Not extracted as an analytic exposure.
+
+Comparison: Beneficiary reimbursement, charges and deductible experience by patient sex. Inference boundary: Payments for physician services are grouped by patient sex here; historical service mix prevents a causal or current-policy inference.
 
 Metadata note: DOI not supplied in MEDLINE metadata.
 
@@ -348,6 +510,12 @@ Ahmad S, Ramulu P, Akpek E, Deobhakta A, Klawe J. Gender-Specific Trends in Opht
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
+**Analytic subject:** Physician sex / gender. **Unit:** Ophthalmologists and their Medicare collections.
+
+Patient sex/gender: No patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary comparison; measurement details not fully extracted.
+
+Comparison: Medicare collections by ophthalmologist gender. Inference boundary: Collections are not salary or identical-service payment rates; patient-sex inequity cannot be inferred.
+
 ### L-C02
 
 Raber I, Al Rifai M, McCarthy CP, Vaduganathan M, Michos ED, Wood MJ, et al. Gender Differences in Medicare Payments Among Cardiologists. JAMA Cardiol. 2021;6(12):1432-1439.
@@ -358,6 +526,32 @@ Raber I, Al Rifai M, McCarthy CP, Vaduganathan M, Michos ED, Wood MJ, et al. Gen
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
+**Analytic subject:** Physician sex / gender. **Unit:** Cardiologists and provider billing/payment measures.
+
+Patient sex/gender: Patient case mix enters adjustment; no patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary comparison; self-reported gender linked to NPI.
+
+Comparison: Annual Medicare payments and common-code payments by cardiologist gender. Inference boundary: Provider payments are not salary; adjusted annual differences do not establish unequal rates for identical services.
+
+### L-C03
+
+Munir MM, Dillhoff M, Tsai S, Collins C, Dedhia P, Pawlik TM. Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties. JAMA Surg. 2024;159(9):1060-1070.
+
+[DOI](https://doi.org/10.1001/jamasurg.2024.2298) · [PubMed](https://pubmed.ncbi.nlm.nih.gov/39046733/) · [Reviewed source](https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588)
+
+**Role:** Clinician context. **Access:** Targeted main-text and tables review; supplement not independently reviewed.
+
+**Citation metadata:** Verified against Europe PMC / MEDLINE and publisher; checked 2026-09-16.
+
+**Analytic subject:** Physician sex / gender. **Unit:** Surgeons and provider-service payment/utilization measures.
+
+Patient sex/gender: Patient sex is descriptive case mix; no patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary analytic exposure.
+
+Comparison: Surgeon gender and provider-service payment/utilization comparisons. Inference boundary: Physician-gender findings do not establish patient-sex reimbursement effects; distinguish provider totals, service rates and salary.
+
+Metadata note: Publisher explicitly reports online publication on 2024-07-24; the final issue citation is September 2024. Europe PMC does not populate the electronic-publication-date field in this record, so the publisher supplies that date.
+
+Metadata note: No linked correction or retraction appeared in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16, and no such notice was identified on the publisher article page. Absence of links is not a guarantee that no notice exists.
+
 ### L-B01
 
 Mauvais-Jarvis F, Bairey Merz N, Barnes PJ, Brinton RD, Carrero JJ, DeMeo DL, et al. Sex and gender: modifiers of health, disease, and medicine. Lancet. 2020;396(10250):565-582.
@@ -367,6 +561,12 @@ Mauvais-Jarvis F, Bairey Merz N, Barnes PJ, Brinton RD, Carrero JJ, DeMeo DL, et
 **Role:** Clinical background. **Access:** Targeted main-text review; citation and linked correction verified.
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
+
+**Analytic subject:** General patient sex / gender background. **Unit:** Clinical and preclinical literature in a narrative review.
+
+Patient sex/gender: Sex-related biology and gender-related social influences are general clinical topics. Physician sex/gender: No original physician-gender estimate extracted.
+
+Comparison: General frameworks across diseases and treatments. Inference boundary: Background synthesis supplies rationale; underlying studies require independent screening and cannot be treated as Medicare evidence.
 
 Linked reference: [L-B01-E1](#l-b01-e1) (corrected_by).
 
@@ -382,6 +582,12 @@ Chang WH. Understanding the COVID-19 pandemic from a gender perspective. Taiwan 
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
+**Analytic subject:** General patient sex / gender background. **Unit:** Early-pandemic literature in a narrative review.
+
+Patient sex/gender: Sex/gender-related outcomes and social pathways are general topics. Physician sex/gender: No original physician-gender estimate extracted.
+
+Comparison: Gendered social conditions and early COVID-19 findings. Inference boundary: Narrative background is not an original patient cohort or Medicare reimbursement analysis.
+
 Metadata note: No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16; absence of metadata links is not a guarantee that none exists.
 
 Metadata note: Narrative review published in 2020; metadata verification does not validate its early-pandemic clinical claims.
@@ -395,6 +601,12 @@ Betron M, Gottert A, Pulerwitz J, Shattuck D, Stevanovic-Fenn N. Men and COVID-1
 **Role:** Clinical background. **Access:** Publisher main text reviewed via indexed page; citation verified.
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
+
+**Analytic subject:** General patient sex / gender background. **Unit:** Public-health commentary drawing on earlier research and programs.
+
+Patient sex/gender: Men's care-seeking and gender norms are general access topics. Physician sex/gender: No original physician-gender estimate extracted.
+
+Comparison: Proposed gender-responsive public-health approaches. Inference boundary: Commentary generates access hypotheses; it does not establish Medicare effects or intervention effectiveness.
 
 Metadata note: Publisher classifies this three-page article as commentary. It is contextual literature, not an original Medicare reimbursement study.
 
@@ -411,6 +623,12 @@ Tong A, Evangelidis N, Kurnikowski A, Lewandowski M, Bretschneider P, Oberbauer 
 **Role:** Qualitative access context. **Access:** Targeted full-text review: methods, results, tables and limitations.
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
+
+**Analytic subject:** Patient care / access. **Unit:** Nephrologist interviews and qualitative themes.
+
+Patient sex/gender: Patient-sex/gender access barriers are the interview topic; no measured patient cohort. Physician sex/gender: Clinicians are respondents; no physician-gender disparity estimate extracted.
+
+Comparison: Clinician perceptions of barriers affecting women's and men's kidney care. Inference boundary: The respondents' profession does not change the patient-access question; perceptions are not measured patient outcomes or Medicare effects.
 
 Metadata note: Published electronically 2021-11-09; final collection citation is March 2022, volume 7, issue 3, pages 424–435. Bibliography uses the final collection year.
 

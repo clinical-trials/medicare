@@ -2476,6 +2476,68 @@
           "record_status": "Citation lead; not independently counted or screened"
         }
       ]
+    },
+    {
+      "id": "L-C03",
+      "original_citation": "Munir MM, Dillhoff M, Tsai S, Collins C, Dedhia P, Pawlik TM. Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties. JAMA Surg. 2024;159(9):1060–1070.",
+      "authors": [
+        {
+          "family": "Munir",
+          "given": "Muhammad Musaab",
+          "initials": "MM"
+        },
+        {
+          "family": "Dillhoff",
+          "given": "Mary",
+          "initials": "M"
+        },
+        {
+          "family": "Tsai",
+          "given": "Susan",
+          "initials": "S"
+        },
+        {
+          "family": "Collins",
+          "given": "Courtney",
+          "initials": "C"
+        },
+        {
+          "family": "Dedhia",
+          "given": "Priya",
+          "initials": "P"
+        },
+        {
+          "family": "Pawlik",
+          "given": "Timothy M",
+          "initials": "TM"
+        }
+      ],
+      "title": "Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties.",
+      "journal": "JAMA surgery",
+      "journal_abbreviation": "JAMA Surg",
+      "year": 2024,
+      "volume": "159",
+      "issue": "9",
+      "pages": "1060-1070",
+      "doi": "10.1001/jamasurg.2024.2298",
+      "pmid": "39046733",
+      "pmcid": "PMC11270248",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39046733/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39046733+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-16",
+      "metadata_status": "Verified against Europe PMC / MEDLINE and publisher",
+      "record_type": "journal-article",
+      "electronic_publication_date": "2024-07-24",
+      "electronic_publication_date_source": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588",
+      "notes": [
+        "Publisher explicitly reports online publication on 2024-07-24; the final issue citation is September 2024. Europe PMC does not populate the electronic-publication-date field in this record, so the publisher supplies that date.",
+        "No linked correction or retraction appeared in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16, and no such notice was identified on the publisher article page. Absence of links is not a guarantee that no notice exists."
+      ],
+      "correction_retraction_verification_sources": [
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39046733+AND+SRC%3AMED&format=json&resultType=core",
+        "https://api.crossref.org/works/10.1001%2Fjamasurg.2024.2298",
+        "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588"
+      ]
     }
   ],
   "provenance_note": "Public Europe PMC CORE API records from source MED (MEDLINE/PubMed). Metadata verification checks record identity and citation fields only; it does not constitute full-text screening or validation of extracted study findings. Original register citations preserved."

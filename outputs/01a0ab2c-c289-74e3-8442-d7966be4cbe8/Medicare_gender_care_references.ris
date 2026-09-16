@@ -19,6 +19,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/39978776/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P01. Candidate evidence / retained code-policy component. Abstract plus accessible limitations excerpts. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Male- versus female-anatomy procedure valuation. Inference boundary: Payment to a physician for a code is not a comparison of physician genders; selected pairs are not all Medicare services..
 ER  - 
 
 TY  - JOUR
@@ -41,6 +42,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/38758183/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P02. Candidate evidence / retained code-policy component. Abstract plus authors’ detailed AUA comparison table. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Directly analogous urologic and gynecologic procedures. Inference boundary: Null results in selected pairs do not establish equality across all services or patient access..
 ER  - 
 
 TY  - JOUR
@@ -61,6 +63,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/34736273/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P03. Candidate evidence / retained code-policy component. Targeted full-text review. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy-specific procedure groups; patient data inform operative resources. Physician sex/gender: Specialty compensation variable; not physician gender. Comparison: Female- versus male-specific procedure work and modeled compensation. Inference boundary: Modeled specialty compensation is not an observed physician-gender effect or a sex-specific Medicare conversion factor..
 ER  - 
 
 TY  - JOUR
@@ -82,6 +85,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/34237766/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P04. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Patient clinical case mix; no isolated patient-sex effect extracted. Physician sex/gender: Surgical specialty comparison; not physician gender. Comparison: Valuation and reported versus observed operative time across specialties. Inference boundary: Specialty differences do not isolate either patient-sex or physician-gender discrimination..
 ER  - 
 
 TY  - JOUR
@@ -103,6 +107,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/9062137/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P05. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Male- versus female-anatomy procedures in the 1995 schedule. Inference boundary: Historical code-payment differences do not measure current coverage or physician-gender pay..
 ER  - 
 
 TY  - JOUR
@@ -124,6 +129,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/28024653/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P06. Candidate evidence / retained code-policy component. Targeted full-text review. Verified against Europe PMC / MEDLINE. Legacy citation abbreviates the title after “gender-specific procedures.” Full MEDLINE title includes the subtitle; DOI and PMID agree.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Male- versus female-anatomy procedure RVUs and compensation estimates. Inference boundary: Matching assumptions and the underlying FECA source limit direct Medicare interpretation; physician gender is not the extracted comparison..
 ER  - 
 
 TY  - JOUR
@@ -148,6 +154,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/42085599/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P07. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE. Volume, issue and pages absent from retrieved MEDLINE metadata; retain online-ahead-of-print citation and DOI.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Breast-reconstruction indication; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Implant versus flap reconstruction and changes over time. Inference boundary: Within-breast-service resource differences do not independently establish patient-sex or physician-gender bias..
 ER  - 
 
 TY  - JOUR
@@ -174,6 +181,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/41701182/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P08. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomical service category; no patient cohort. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Breast-procedure payments over time and across locations. Inference boundary: Payment erosion within selected services is not a patient-sex comparison or evidence of physician-gender differences..
 ER  - 
 
 TY  - JOUR
@@ -198,6 +206,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/32453268/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P09. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Breast-reconstruction indication; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Implant, pedicled-flap and free-flap work and payment per time. Inference boundary: Patient records support resource comparisons; no independent sex-disparity estimate is extracted..
 ER  - 
 
 TY  - JOUR
@@ -224,6 +233,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/32818475/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P10. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Women in an indication-specific trial; not a between-sex contrast. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Physical therapy versus topical lidocaine. Inference boundary: Clinical effectiveness within an eligible population does not establish reimbursement inequity..
 ER  - 
 
 TY  - JOUR
@@ -246,6 +256,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/38527966/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D01. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE. Legacy citation uses 2024, the electronic publication year (2024-03-26). The final issue is January 2025;31(1):58–64. Bibliography uses the final issue year; original citation is preserved.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Vaginal-estrogen indication; no between-sex effect extracted. Physician sex/gender: Prescriber data source; no physician-gender effect extracted. Comparison: Selected vaginal-estrogen products and spending/utilization over time. Inference boundary: Use of prescriber files does not make this a physician-gender study; product spending is not patient out-of-pocket cost..
 ER  - 
 
 TY  - JOUR
@@ -267,6 +278,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/38595196/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D02. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Senior women; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Hormone treatment, formulation, route and dose versus nonuse/discontinuation. Inference boundary: Observational treatment-outcome associations do not estimate sex-based reimbursement or prove causal treatment effects..
 ER  - 
 
 TY  - JOUR
@@ -294,6 +306,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/29554173/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D03. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Vaginal estradiol, moisturizer and placebo. Inference boundary: A within-population clinical null result does not determine Medicare coverage or demonstrate reimbursement parity..
 ER  - 
 
 TY  - JOUR
@@ -330,6 +343,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/39250810/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D04. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women with GSM; indication-specific evidence. Physician sex/gender: Not extracted as an analytic exposure. Comparison: GSM treatments versus placebo or alternatives. Inference boundary: Treatment benefit and certainty are clinical evidence; no reimbursement or between-sex effect is extracted..
 ER  - 
 
 TY  - JOUR
@@ -359,6 +373,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/36924778/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D05. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Women aged 40–65; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Fezolinetant versus placebo. Inference boundary: Treatment efficacy is not a coverage comparison; applicability to older Medicare beneficiaries requires assessment..
 ER  - 
 
 TY  - JOUR
@@ -384,6 +399,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/24045678/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D06. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Low-dose paroxetine versus placebo. Inference boundary: Clinical benefit does not establish formulary access or a between-sex disparity..
 ER  - 
 
 TY  - JOUR
@@ -408,6 +424,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/26927498/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D07. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Women with HSDD; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Flibanserin versus placebo. Inference boundary: Benefits and harms within women do not measure physician gender or comparative Medicare reimbursement..
 ER  - 
 
 TY  - JOUR
@@ -434,6 +451,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/31599840/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D08. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Premenopausal women with HSDD; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Bremelanotide versus placebo. Inference boundary: Clinical response and adverse effects do not establish sex-based coverage differences..
 ER  - 
 
 TY  - JOUR
@@ -478,6 +496,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/37326322/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D09. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Men with hypogonadism and cardiovascular risk; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Testosterone gel versus placebo. Inference boundary: Male-only safety evidence supplies clinical context, not a matched female comparison or payment-disparity estimate..
 ER  - 
 
 TY  - JOUR
@@ -509,6 +528,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/12117397/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D10. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women with a uterus; sex/anatomy-defined eligibility. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Combined hormone regimen versus placebo for primary prevention. Inference boundary: Regimen-specific benefits and harms do not establish reimbursement differences or apply to every menopausal indication..
 ER  - 
 
 TY  - JOUR
@@ -537,6 +557,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC2497454/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G04. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Recorded patient sex is a direct male–female comparison; identity not established. Physician sex/gender: Not extracted as an analytic exposure. Comparison: DXA utilization by patient sex and other demographic strata. Inference boundary: Utilization differences do not isolate coverage, clinical need or discrimination..
 ER  - 
 
 TY  - JOUR
@@ -561,6 +582,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G05. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Men with fragility fractures; population restriction rather than between-sex comparison. Physician sex/gender: Physicians receive outreach; no physician-gender effect extracted. Comparison: Outreach versus usual care for bone testing and treatment. Inference boundary: Physician participation in an intervention is not physician-gender analysis; no direct female comparator..
 ER  - 
 
 TY  - JOUR
@@ -584,6 +606,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12199052/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G09. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Women aged 20–49; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Payer/coverage groups and change after dual enrollment. Inference boundary: Coverage-associated contraceptive use is patient-access evidence, not a male–female matched effect..
 ER  - 
 
 TY  - JOUR
@@ -611,6 +634,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/38190592/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G10. Candidate evidence / retained code-policy component. Abstract plus author-institution summary for period. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Contraceptive indication/population; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Traditional Medicare versus Medicare Advantage and clinical indications. Inference boundary: Payer and method comparisons do not identify patient-sex or physician-gender effects; claims may miss unmet need..
 ER  - 
 
 TY  - JOUR
@@ -639,6 +663,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/31446591/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-A01. Candidate evidence / retained code-policy component. Citation/abstract extraction recorded; full-text review pending. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Survivorship population; no matched male–female effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Survivors with versus without lymphedema. Inference boundary: Sex/gender identity is not inferred from breast cancer; condition-related costs are not a direct sex-disparity estimate..
 ER  - 
 
 TY  - JOUR
@@ -663,6 +688,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/37285151/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-A02. Candidate evidence / retained code-policy component. Citation/abstract extraction recorded; full-text review pending. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Condition-specific benefit policies; no patient cohort. Physician sex/gender: No physician-level comparison in the extracted policy analysis. Comparison: Lymphedema treatment coverage across insurers and modalities. Inference boundary: Published policy is distinct from patient claims, access and sex-specific effects; Medicare applicability needs separate verification..
 ER  - 
 
 TY  - JOUR
@@ -685,6 +711,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/31926887/
 KW  - Clinician context
 Y2  - 2026-09-16
 N1  - Stable ID L-C01. Clinician context. Abstract verified; full text not reviewed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Physician sex / gender. Patient sex/gender: No patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary comparison; measurement details not fully extracted. Comparison: Medicare collections by ophthalmologist gender. Inference boundary: Collections are not salary or identical-service payment rates; patient-sex inequity cannot be inferred..
 ER  - 
 
 TY  - JOUR
@@ -714,6 +741,32 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/
 KW  - Clinician context
 Y2  - 2026-09-16
 N1  - Stable ID L-C02. Clinician context. Targeted main-text review via indexed PMC; supplement not reviewed. Verified against Europe PMC / MEDLINE.
+N1  - Analytic subject: Physician sex / gender. Patient sex/gender: Patient case mix enters adjustment; no patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary comparison; self-reported gender linked to NPI. Comparison: Annual Medicare payments and common-code payments by cardiologist gender. Inference boundary: Provider payments are not salary; adjusted annual differences do not establish unequal rates for identical services..
+ER  - 
+
+TY  - JOUR
+ID  - L-C03
+AU  - Munir, Muhammad Musaab
+AU  - Dillhoff, Mary
+AU  - Tsai, Susan
+AU  - Collins, Courtney
+AU  - Dedhia, Priya
+AU  - Pawlik, Timothy M
+TI  - Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties.
+JO  - JAMA surgery
+JA  - JAMA Surg
+PY  - 2024
+VL  - 159
+IS  - 9
+SP  - 1060
+EP  - 1070
+DO  - 10.1001/jamasurg.2024.2298
+AN  - 39046733
+UR  - https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588
+KW  - Clinician context
+Y2  - 2026-09-16
+N1  - Stable ID L-C03. Clinician context. Targeted main-text and tables review; supplement not independently reviewed. Verified against Europe PMC / MEDLINE and publisher. Publisher explicitly reports online publication on 2024-07-24; the final issue citation is September 2024. Europe PMC does not populate the electronic-publication-date field in this record, so the publisher supplies that date. No linked correction or retraction appeared in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16, and no such notice was identified on the publisher article page. Absence of links is not a guarantee that no notice exists.
+N1  - Analytic subject: Physician sex / gender. Patient sex/gender: Patient sex is descriptive case mix; no patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary analytic exposure. Comparison: Surgeon gender and provider-service payment/utilization comparisons. Inference boundary: Physician-gender findings do not establish patient-sex reimbursement effects; distinguish provider totals, service rates and salary..
 ER  - 
 
 TY  - JOUR
@@ -734,6 +787,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC4191131/
 KW  - Historical patient evidence; eligibility pending
 Y2  - 2026-09-16
 N1  - Stable ID L-H01. Historical patient evidence; eligibility pending. Targeted full-text extraction; CMS PDF checked against indexed PMC. Verified against Europe PMC / MEDLINE. DOI not supplied in MEDLINE metadata.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Enrollment-file sex is a direct male–female comparison; identity not reported. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Beneficiary reimbursement, charges and deductible experience by patient sex. Inference boundary: Payments for physician services are grouped by patient sex here; historical service mix prevents a causal or current-policy inference..
 ER  - 
 
 TY  - JOUR
@@ -770,6 +824,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/
 KW  - Clinical background
 Y2  - 2026-09-16
 N1  - Stable ID L-B01. Clinical background. Targeted main-text review; citation and linked correction verified. Verified against Europe PMC / MEDLINE. MEDLINE links a published erratum: PMID 32891210; DOI 10.1016/S0140-6736(20)31827-4.
+N1  - Analytic subject: General patient sex / gender background. Patient sex/gender: Sex-related biology and gender-related social influences are general clinical topics. Physician sex/gender: No original physician-gender estimate extracted. Comparison: General frameworks across diseases and treatments. Inference boundary: Background synthesis supplies rationale; underlying studies require independent screening and cannot be treated as Medicare evidence..
 N1  - corrected_by: L-B01-E1
 ER  - 
 
@@ -790,6 +845,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7486042/
 KW  - Clinical background
 Y2  - 2026-09-16
 N1  - Stable ID L-B02. Clinical background. Targeted main-text review via indexed PMC; citation verified. Verified against Europe PMC / MEDLINE. No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16; absence of metadata links is not a guarantee that none exists. Narrative review published in 2020; metadata verification does not validate its early-pandemic clinical claims.
+N1  - Analytic subject: General patient sex / gender background. Patient sex/gender: Sex/gender-related outcomes and social pathways are general topics. Physician sex/gender: No original physician-gender estimate extracted. Comparison: Gendered social conditions and early COVID-19 findings. Inference boundary: Narrative background is not an original patient cohort or Medicare reimbursement analysis..
 ER  - 
 
 TY  - JOUR
@@ -813,6 +869,7 @@ UR  - https://www.tandfonline.com/doi/full/10.1080/17441692.2020.1769702
 KW  - Clinical background
 Y2  - 2026-09-16
 N1  - Stable ID L-B03. Clinical background. Publisher main text reviewed via indexed page; citation verified. Verified against Europe PMC / MEDLINE. Publisher classifies this three-page article as commentary. It is contextual literature, not an original Medicare reimbursement study. The publisher’s inline Correction Statement reports republication with minor changes that do not affect academic content. No separate correction identifier is supplied there; retain the statement with this record rather than create an independent erratum. No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16. This does not negate the publisher’s inline republication notice or guarantee that no other update exists.
+N1  - Analytic subject: General patient sex / gender background. Patient sex/gender: Men's care-seeking and gender norms are general access topics. Physician sex/gender: No original physician-gender estimate extracted. Comparison: Proposed gender-responsive public-health approaches. Inference boundary: Commentary generates access hypotheses; it does not establish Medicare effects or intervention effectiveness..
 ER  - 
 
 TY  - JOUR
@@ -843,6 +900,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/
 KW  - Qualitative access context
 Y2  - 2026-09-16
 N1  - Stable ID L-Q01. Qualitative access context. Targeted full-text review: methods, results, tables and limitations. Verified against Europe PMC / MEDLINE. Published electronically 2021-11-09; final collection citation is March 2022, volume 7, issue 3, pages 424–435. Bibliography uses the final collection year. Original qualitative interview study, rather than a general review or clinician-payment comparison. MEDLINE and publisher-supplied full-text XML link the editorial “CKD—Where Have All the Women Gone?” (PMID 35258512; PMCID PMC8897673; DOI 10.1016/j.ekir.2021.11.032) as commentary on this article, not as a correction or retraction. It is a related lead, not a separately screened study in this register. No linked correction or retraction appeared in the Europe PMC/MEDLINE record, publisher-supplied full-text XML or Crossref relation/update fields checked on 2026-09-16. Absence of such links is not a guarantee that no notice exists.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Patient-sex/gender access barriers are the interview topic; no measured patient cohort. Physician sex/gender: Clinicians are respondents; no physician-gender disparity estimate extracted. Comparison: Clinician perceptions of barriers affecting women's and men's kidney care. Inference boundary: The respondents' profession does not change the patient-access question; perceptions are not measured patient outcomes or Medicare effects..
 ER  - 
 
 TY  - JOUR

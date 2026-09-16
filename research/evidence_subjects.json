@@ -1,0 +1,335 @@
+{
+  "version": "1",
+  "amended_on": "2026-09-16",
+  "rule": "Classify the analytic question separately from the source of data and the sex/gender of respondents. Keep patient sex/gender, patient anatomy or indication, and physician sex/gender distinct. Population-specific evidence is not automatically a between-sex comparison. Preserve authors' terminology and measurement details; anatomy, diagnosis, drug use and male/female administrative coding do not establish gender identity. 'Not extracted' marks limits of the current review rather than proof that a variable was absent from the original study.",
+  "groups": [
+    {
+      "id": "patient_care",
+      "label": "Patient care / access",
+      "description": "Patient treatment, outcomes, spending or access, including population-specific evidence and qualitative accounts. This group does not imply a male–female comparison."
+    },
+    {
+      "id": "service_valuation",
+      "label": "Service / anatomy valuation or coverage",
+      "description": "Procedure, service or insurer-policy comparisons. Anatomical categories and specialty-level valuation are distinct from measured patient or physician gender."
+    },
+    {
+      "id": "physician_gender",
+      "label": "Physician sex / gender",
+      "description": "Physician sex or gender is the primary comparison in provider payment or service analyses. Results do not directly establish patient-sex disparities."
+    },
+    {
+      "id": "patient_background",
+      "label": "General patient sex / gender background",
+      "description": "Clinical reviews or commentary addressing sex-related biology and gender-related social pathways, without an original Medicare reimbursement comparison."
+    }
+  ],
+  "studies": [
+    {
+      "id": "L-P01",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Matched CPT-code pairs and fee-schedule years",
+      "patient_sex_gender_role": "Anatomy represented by procedure categories; no patient identity measurement",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Male- versus female-anatomy procedure valuation",
+      "inference_boundary": "Payment to a physician for a code is not a comparison of physician genders; selected pairs are not all Medicare services."
+    },
+    {
+      "id": "L-P02",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Matched procedure-code pairs and work/time valuations",
+      "patient_sex_gender_role": "Anatomy represented by procedure categories; no patient identity measurement",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Directly analogous urologic and gynecologic procedures",
+      "inference_boundary": "Null results in selected pairs do not establish equality across all services or patient access."
+    },
+    {
+      "id": "L-P03",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Matched procedures, NSQIP patient records and specialty compensation estimates",
+      "patient_sex_gender_role": "Anatomy-specific procedure groups; patient data inform operative resources",
+      "physician_sex_gender_role": "Specialty compensation variable; not physician gender",
+      "comparison_axis": "Female- versus male-specific procedure work and modeled compensation",
+      "inference_boundary": "Modeled specialty compensation is not an observed physician-gender effect or a sex-specific Medicare conversion factor."
+    },
+    {
+      "id": "L-P04",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Surgical registry cases linked to CMS procedure time and RVUs",
+      "patient_sex_gender_role": "Patient clinical case mix; no isolated patient-sex effect extracted",
+      "physician_sex_gender_role": "Surgical specialty comparison; not physician gender",
+      "comparison_axis": "Valuation and reported versus observed operative time across specialties",
+      "inference_boundary": "Specialty differences do not isolate either patient-sex or physician-gender discrimination."
+    },
+    {
+      "id": "L-P05",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Historically matched procedure groups",
+      "patient_sex_gender_role": "Anatomy represented by procedure categories; no patient identity measurement",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Male- versus female-anatomy procedures in the 1995 schedule",
+      "inference_boundary": "Historical code-payment differences do not measure current coverage or physician-gender pay."
+    },
+    {
+      "id": "L-P06",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Anatomically matched procedure-code pairs",
+      "patient_sex_gender_role": "Anatomy represented by procedure categories; no patient identity measurement",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Male- versus female-anatomy procedure RVUs and compensation estimates",
+      "inference_boundary": "Matching assumptions and the underlying FECA source limit direct Medicare interpretation; physician gender is not the extracted comparison."
+    },
+    {
+      "id": "L-P07",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Breast-reconstruction registry cases and longitudinal code valuations",
+      "patient_sex_gender_role": "Breast-reconstruction indication; no between-sex effect extracted",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Implant versus flap reconstruction and changes over time",
+      "inference_boundary": "Within-breast-service resource differences do not independently establish patient-sex or physician-gender bias."
+    },
+    {
+      "id": "L-P08",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Breast procedure types by fee-schedule year and city",
+      "patient_sex_gender_role": "Anatomical service category; no patient cohort",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Breast-procedure payments over time and across locations",
+      "inference_boundary": "Payment erosion within selected services is not a patient-sex comparison or evidence of physician-gender differences."
+    },
+    {
+      "id": "L-P09",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Breast-reconstruction patient records grouped by procedure",
+      "patient_sex_gender_role": "Breast-reconstruction indication; no between-sex effect extracted",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Implant, pedicled-flap and free-flap work and payment per time",
+      "inference_boundary": "Patient records support resource comparisons; no independent sex-disparity estimate is extracted."
+    },
+    {
+      "id": "L-P10",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Trial participants with provoked vestibulodynia",
+      "patient_sex_gender_role": "Women in an indication-specific trial; not a between-sex contrast",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Physical therapy versus topical lidocaine",
+      "inference_boundary": "Clinical effectiveness within an eligible population does not establish reimbursement inequity."
+    },
+    {
+      "id": "L-D01",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Part D drug-product spending, claims, beneficiaries and prescriber data",
+      "patient_sex_gender_role": "Vaginal-estrogen indication; no between-sex effect extracted",
+      "physician_sex_gender_role": "Prescriber data source; no physician-gender effect extracted",
+      "comparison_axis": "Selected vaginal-estrogen products and spending/utilization over time",
+      "inference_boundary": "Use of prescriber files does not make this a physician-gender study; product spending is not patient out-of-pocket cost."
+    },
+    {
+      "id": "L-D02",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Medicare beneficiary records and treatment exposure over time",
+      "patient_sex_gender_role": "Senior women; population restriction rather than between-sex comparison",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Hormone treatment, formulation, route and dose versus nonuse/discontinuation",
+      "inference_boundary": "Observational treatment-outcome associations do not estimate sex-based reimbursement or prove causal treatment effects."
+    },
+    {
+      "id": "L-D03",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Randomized trial participants",
+      "patient_sex_gender_role": "Postmenopausal women; population restriction rather than between-sex comparison",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Vaginal estradiol, moisturizer and placebo",
+      "inference_boundary": "A within-population clinical null result does not determine Medicare coverage or demonstrate reimbursement parity."
+    },
+    {
+      "id": "L-D04",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Randomized trials synthesized in a systematic review",
+      "patient_sex_gender_role": "Postmenopausal women with GSM; indication-specific evidence",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "GSM treatments versus placebo or alternatives",
+      "inference_boundary": "Treatment benefit and certainty are clinical evidence; no reimbursement or between-sex effect is extracted."
+    },
+    {
+      "id": "L-D05",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Randomized trial participants with menopausal symptoms",
+      "patient_sex_gender_role": "Women aged 40–65; indication-specific population",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Fezolinetant versus placebo",
+      "inference_boundary": "Treatment efficacy is not a coverage comparison; applicability to older Medicare beneficiaries requires assessment."
+    },
+    {
+      "id": "L-D06",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Participants in two randomized trials",
+      "patient_sex_gender_role": "Postmenopausal women; indication-specific population",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Low-dose paroxetine versus placebo",
+      "inference_boundary": "Clinical benefit does not establish formulary access or a between-sex disparity."
+    },
+    {
+      "id": "L-D07",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Published and unpublished randomized trials in a meta-analysis",
+      "patient_sex_gender_role": "Women with HSDD; indication-specific population",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Flibanserin versus placebo",
+      "inference_boundary": "Benefits and harms within women do not measure physician gender or comparative Medicare reimbursement."
+    },
+    {
+      "id": "L-D08",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Participants in two randomized trials",
+      "patient_sex_gender_role": "Premenopausal women with HSDD; indication-specific population",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Bremelanotide versus placebo",
+      "inference_boundary": "Clinical response and adverse effects do not establish sex-based coverage differences."
+    },
+    {
+      "id": "L-D09",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Randomized trial participants",
+      "patient_sex_gender_role": "Men with hypogonadism and cardiovascular risk; indication-specific population",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Testosterone gel versus placebo",
+      "inference_boundary": "Male-only safety evidence supplies clinical context, not a matched female comparison or payment-disparity estimate."
+    },
+    {
+      "id": "L-D10",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Randomized trial participants",
+      "patient_sex_gender_role": "Postmenopausal women with a uterus; sex/anatomy-defined eligibility",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Combined hormone regimen versus placebo for primary prevention",
+      "inference_boundary": "Regimen-specific benefits and harms do not establish reimbursement differences or apply to every menopausal indication."
+    },
+    {
+      "id": "L-G04",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Medicare beneficiaries in longitudinal claims",
+      "patient_sex_gender_role": "Recorded patient sex is a direct male–female comparison; identity not established",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "DXA utilization by patient sex and other demographic strata",
+      "inference_boundary": "Utilization differences do not isolate coverage, clinical need or discrimination."
+    },
+    {
+      "id": "L-G05",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Male Medicare Advantage beneficiaries assigned to outreach",
+      "patient_sex_gender_role": "Men with fragility fractures; population restriction rather than between-sex comparison",
+      "physician_sex_gender_role": "Physicians receive outreach; no physician-gender effect extracted",
+      "comparison_axis": "Outreach versus usual care for bone testing and treatment",
+      "inference_boundary": "Physician participation in an intervention is not physician-gender analysis; no direct female comparator."
+    },
+    {
+      "id": "L-G09",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Disabled women in claims and coverage transitions",
+      "patient_sex_gender_role": "Women aged 20–49; population restriction rather than between-sex comparison",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Payer/coverage groups and change after dual enrollment",
+      "inference_boundary": "Coverage-associated contraceptive use is patient-access evidence, not a male–female matched effect."
+    },
+    {
+      "id": "L-G10",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Reproductive-age beneficiaries in payer-linked claims",
+      "patient_sex_gender_role": "Contraceptive indication/population; no between-sex effect extracted",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Traditional Medicare versus Medicare Advantage and clinical indications",
+      "inference_boundary": "Payer and method comparisons do not identify patient-sex or physician-gender effects; claims may miss unmet need."
+    },
+    {
+      "id": "L-A01",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Breast-cancer survivors reporting costs and interviews",
+      "patient_sex_gender_role": "Survivorship population; no matched male–female effect extracted",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Survivors with versus without lymphedema",
+      "inference_boundary": "Sex/gender identity is not inferred from breast cancer; condition-related costs are not a direct sex-disparity estimate."
+    },
+    {
+      "id": "L-A02",
+      "subject_id": "service_valuation",
+      "unit_of_analysis": "Insurers and their published coverage policies",
+      "patient_sex_gender_role": "Condition-specific benefit policies; no patient cohort",
+      "physician_sex_gender_role": "No physician-level comparison in the extracted policy analysis",
+      "comparison_axis": "Lymphedema treatment coverage across insurers and modalities",
+      "inference_boundary": "Published policy is distinct from patient claims, access and sex-specific effects; Medicare applicability needs separate verification."
+    },
+    {
+      "id": "L-C01",
+      "subject_id": "physician_gender",
+      "unit_of_analysis": "Ophthalmologists and their Medicare collections",
+      "patient_sex_gender_role": "No patient-sex disparity estimate extracted",
+      "physician_sex_gender_role": "Physician gender is the primary comparison; measurement details not fully extracted",
+      "comparison_axis": "Medicare collections by ophthalmologist gender",
+      "inference_boundary": "Collections are not salary or identical-service payment rates; patient-sex inequity cannot be inferred."
+    },
+    {
+      "id": "L-C02",
+      "subject_id": "physician_gender",
+      "unit_of_analysis": "Cardiologists and provider billing/payment measures",
+      "patient_sex_gender_role": "Patient case mix enters adjustment; no patient-sex disparity estimate extracted",
+      "physician_sex_gender_role": "Physician gender is the primary comparison; self-reported gender linked to NPI",
+      "comparison_axis": "Annual Medicare payments and common-code payments by cardiologist gender",
+      "inference_boundary": "Provider payments are not salary; adjusted annual differences do not establish unequal rates for identical services."
+    },
+    {
+      "id": "L-H01",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Part B enrollees, reported utilization and reimbursements",
+      "patient_sex_gender_role": "Enrollment-file sex is a direct male–female comparison; identity not reported",
+      "physician_sex_gender_role": "Not extracted as an analytic exposure",
+      "comparison_axis": "Beneficiary reimbursement, charges and deductible experience by patient sex",
+      "inference_boundary": "Payments for physician services are grouped by patient sex here; historical service mix prevents a causal or current-policy inference."
+    },
+    {
+      "id": "L-B01",
+      "subject_id": "patient_background",
+      "unit_of_analysis": "Clinical and preclinical literature in a narrative review",
+      "patient_sex_gender_role": "Sex-related biology and gender-related social influences are general clinical topics",
+      "physician_sex_gender_role": "No original physician-gender estimate extracted",
+      "comparison_axis": "General frameworks across diseases and treatments",
+      "inference_boundary": "Background synthesis supplies rationale; underlying studies require independent screening and cannot be treated as Medicare evidence."
+    },
+    {
+      "id": "L-B02",
+      "subject_id": "patient_background",
+      "unit_of_analysis": "Early-pandemic literature in a narrative review",
+      "patient_sex_gender_role": "Sex/gender-related outcomes and social pathways are general topics",
+      "physician_sex_gender_role": "No original physician-gender estimate extracted",
+      "comparison_axis": "Gendered social conditions and early COVID-19 findings",
+      "inference_boundary": "Narrative background is not an original patient cohort or Medicare reimbursement analysis."
+    },
+    {
+      "id": "L-B03",
+      "subject_id": "patient_background",
+      "unit_of_analysis": "Public-health commentary drawing on earlier research and programs",
+      "patient_sex_gender_role": "Men's care-seeking and gender norms are general access topics",
+      "physician_sex_gender_role": "No original physician-gender estimate extracted",
+      "comparison_axis": "Proposed gender-responsive public-health approaches",
+      "inference_boundary": "Commentary generates access hypotheses; it does not establish Medicare effects or intervention effectiveness."
+    },
+    {
+      "id": "L-Q01",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Nephrologist interviews and qualitative themes",
+      "patient_sex_gender_role": "Patient-sex/gender access barriers are the interview topic; no measured patient cohort",
+      "physician_sex_gender_role": "Clinicians are respondents; no physician-gender disparity estimate extracted",
+      "comparison_axis": "Clinician perceptions of barriers affecting women's and men's kidney care",
+      "inference_boundary": "The respondents' profession does not change the patient-access question; perceptions are not measured patient outcomes or Medicare effects."
+    },
+    {
+      "id": "L-C03",
+      "subject_id": "physician_gender",
+      "unit_of_analysis": "Surgeons and provider-service payment/utilization measures",
+      "patient_sex_gender_role": "Patient sex is descriptive case mix; no patient-sex disparity estimate extracted",
+      "physician_sex_gender_role": "Physician gender is the primary analytic exposure",
+      "comparison_axis": "Surgeon gender and provider-service payment/utilization comparisons",
+      "inference_boundary": "Physician-gender findings do not establish patient-sex reimbursement effects; distinguish provider totals, service rates and salary."
+    }
+  ]
+}

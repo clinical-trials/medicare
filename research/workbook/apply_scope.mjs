@@ -12,7 +12,7 @@ const path=`${root}/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender
 const datasets=await Promise.all(['drugs','procedures','gender_screening','additional'].map(async n=>JSON.parse(await fs.readFile(`${root}/research/literature_${n}.json`,'utf8'))));
 const [drugs,procedures,gender,additional]=datasets;
 const benchmark=JSON.parse(await fs.readFile(`${root}/research/medicare_benchmark.json`,'utf8'));
-const {scope,clinicalBasis,items,studies,excludedItems,excludedStudies}=await applyReviewScope(datasets.flatMap(x=>x.items),[...procedures.studies,...drugs.studies,...gender.studies,...additional.studies]);
+const {scope,clinicalBasis,evidenceSubjects,items,studies,excludedItems,excludedStudies}=await applyReviewScope(datasets.flatMap(x=>x.items),[...procedures.studies,...drugs.studies,...gender.studies,...additional.studies]);
 const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path));
 const care=wb.worksheets.getItem('Data & Targets'),lit=wb.worksheets.getItem('Literature'),dash=wb.worksheets.getItem('Dashboard'),helper=wb.worksheets.getItem('_Chart Helpers');
 const navy='#102332',panel='#19354D',ink='#243B50',pale='#EDF4F8';
@@ -51,23 +51,26 @@ box(care,'U3:X4','Classify the item and indication: shared systems, reproductive
 box(care,'U5:X6','Filter Clinical basis to review each group. Counts describe selected inventory rows. Clinical guidance IDs resolve in the bibliography; classifications do not change coverage findings.',pale,ink);
 
 const codeStudies=new Set(['L-P01','L-P02','L-P05','L-P06','L-P08','L-A02']);
-const litHeaders=[...lit.getRange('A8:O8').values[0],'Population-screening status','Sex / gender reporting','Screening notes'];
+const litHeaders=[...lit.getRange('A8:O8').values[0],'Population-screening status','Sex / gender reporting','Screening notes','Analytic subject','Unit of analysis','Patient sex/gender role','Physician sex/gender role','Comparison axis','Inference boundary'];
 const previousStudyNotes=new Map(lit.getRange('A9:R70').values.filter(r=>r[0]).map(r=>[r[0],r[17]||'']));
-const litRows=studies.map(x=>[x.id,x.citation,x.year,x.design,x.population,x.payer,x.data_period,x.finding,x.limitation,x.relevance,items.filter(a=>a.study_ids.includes(x.id)).map(a=>a.id).join(', '),x.extraction_level||'Citation and abstract; full-text extraction not completed','',x.url,x.doi_or_pmid,x.population_screening_status||(codeStudies.has(x.id)?'Policy/code-level component retained':'Candidate: population verification pending'),x.identity_reporting||(codeStudies.has(x.id)?'Code/insurer evidence does not establish patient gender identity. Assess any patient-level component separately.':'Male/female or men/women reported. Cisgender identity and absence of transgender participants are not established by the current extraction.'),previousStudyNotes.get(x.id)||x.screening_notes||'']);
+const litRows=studies.map(x=>[x.id,x.citation,x.year,x.design,x.population,x.payer,x.data_period,x.finding,x.limitation,x.relevance,items.filter(a=>a.study_ids.includes(x.id)).map(a=>a.id).join(', '),x.extraction_level||'Citation and abstract; full-text extraction not completed','',x.url,x.doi_or_pmid,x.population_screening_status||(codeStudies.has(x.id)?'Policy/code-level component retained':'Candidate: population verification pending'),x.identity_reporting||(codeStudies.has(x.id)?'Code/insurer evidence does not establish patient gender identity. Assess any patient-level component separately.':'Male/female or men/women reported. Cisgender identity and absence of transgender participants are not established by the current extraction.'),previousStudyNotes.get(x.id)||x.screening_notes||'',x.analytic_subject,x.unit_of_analysis,x.patient_sex_gender_role,x.physician_sex_gender_role,x.comparison_axis,x.inference_boundary]);
 const litEnd=8+studies.length;
-lit.getRange('A35:R100').unmerge();
-replaceTable(lit,'ScientificLiterature',`A8:R${litEnd}`,litHeaders,litRows,'A8:R100');
+lit.getRange('A35:X110').unmerge();
+replaceTable(lit,'ScientificLiterature',`A8:X${litEnd}`,litHeaders,litRows,'A8:X110');
 // Remove old section fills when the methods block moves down with new records.
-lit.getRange(`A${litEnd+1}:R100`).format.fill='#FFFFFF';
-lit.getRange(`A8:R${litEnd}`).format={font:{name:'Aptos',size:11,color:ink,bold:false},wrapText:true,verticalAlignment:'top'};
-lit.getRange(`A9:R${litEnd}`).format.rowHeightPx=156;
-lit.getRange('A8:R8').format={fill:panel,font:{name:'Aptos',size:11,bold:true,color:'#FFFFFF'},wrapText:true,verticalAlignment:'center',rowHeightPx:48};
-for(let r=9;r<=litEnd;r++)lit.getRange(`A${r}:R${r}`).format.fill=r%2===0?'#F2F6F9':'#FFFFFF';
+lit.getRange(`A${litEnd+1}:X110`).format.fill='#FFFFFF';
+lit.getRange(`A8:X${litEnd}`).format={font:{name:'Aptos',size:11,color:ink,bold:false},wrapText:true,verticalAlignment:'top'};
+lit.getRange(`A9:X${litEnd}`).format.rowHeightPx=156;
+lit.getRange('A8:X8').format={fill:panel,font:{name:'Aptos',size:11,bold:true,color:'#FFFFFF'},wrapText:true,verticalAlignment:'center',rowHeightPx:48};
+for(let r=9;r<=litEnd;r++)lit.getRange(`A${r}:X${r}`).format.fill=r%2===0?'#F2F6F9':'#FFFFFF';
 lit.getRange(`C9:C${litEnd}`).setNumberFormat('0');
 lit.getRange(`M8:M${litEnd}`).format.fill='#FFFFFF';lit.getRange(`M8:M${litEnd}`).setNumberFormat(';;;');lit.getRange('M8').format.font={name:'Aptos',size:11,color:'#FFFFFF'};
 lit.getRange(`N9:N${litEnd}`).format.font={name:'Aptos',size:10,color:'#176CA4'};
 lit.getRange('P:P').format.columnWidthPx=275;lit.getRange('Q:Q').format.columnWidthPx=330;lit.getRange('R:R').format.columnWidthPx=320;
 lit.getRange(`P9:P${litEnd}`).format.fill='#EDF2FA';lit.getRange(`R9:R${litEnd}`).format.fill='#FFF4D6';
+[['S',245],['T',285],['U',340],['V',340],['W',340],['X',400]].forEach(([c,w])=>lit.getRange(`${c}:${c}`).format.columnWidthPx=w);
+box(lit,'S3:X4','Whose sex/gender is analyzed? Patient care, service/anatomy valuation, physician gender and general background are distinct. Filter Analytic subject; read both variable roles and the comparison axis.',pale,ink);
+box(lit,'S5:X6','Physician payment evidence is a separate contextual stream. A single-sex clinical population, procedure anatomy, or clinician interview does not establish a between-sex patient or physician effect.',pale,ink);
 box(lit,'A3:F4','National review of coverage, payment values, patient costs and access across prescriptions, procedures and shared conditions. Estradiol is one motivating case. Target population: cisgender women and men.',pale,ink);
 box(lit,'A5:F6','Population scope amended September 16, 2026. Most summaries remain abstract-based. Excluded records are logged separately. This is not yet a completed systematic review.',pale,ink);
 const methodRows=[
@@ -82,7 +85,9 @@ const methodRows=[
  ['Mixed populations','Include only separately extractable eligible cisgender male/female results. Exclude nonseparable mixed results from primary synthesis and record the reason.'],
  ['Identity not reported','Male/female categories do not establish cisgender status. Retain such papers as candidates, record identity as not reported, and resolve eligibility during full-text screening. Do not claim zero transgender participants.'],
  ['Nonpatient evidence','Fee schedules, formularies and benefit policies have no patient cohort. Retain relevant included indications, without implying a cisgender-only patient-level estimate.'],
- ['Clinician context','User-supplied clinician-gender studies may be retained as context only. They do not establish patient-sex coverage gaps, identical-service payment differences, or salary differences. Keep them outside the primary patient-disparity synthesis.'],
+ ['Analytic subject',scope.analysis_subject_rule],
+ ['Clinician context',scope.physician_evidence_rule],
+ ['Joint sex/gender analysis',scope.interaction_evidence_rule],
  ['Contextual evidence','General reviews support the clinical framework and citation following. Qualitative clinician interviews can identify perceived patient-access barriers, without estimating Medicare disparities. Label these roles separately; cited studies require independent screening.'],
  ['Scope amendment','Adopted September 16, 2026 after the initial broad search. This is a documented amendment, not a prospectively registered criterion. Research-scope exclusion is distinct from Medicare noncoverage.'],
  ['Search status','Initial targeted searches and citation following completed September 16, 2026. Subsequent searches should apply the amended population criterion. This register is not a complete screened-record inventory.'],
@@ -168,6 +173,38 @@ for(let i=0;i<7;i++){
 box(dash,'B66:I69','Shared systems: compare clinical need and access, including unmet care. Breast, bone and pelvic-floor care remain shared even when eligibility is sex-specific. Clinical need is assessed independently of reimbursement rules.',panel,'#C1D1DD',12);
 box(dash,'J66:Q69','Reproductive anatomy and physiology: assess clinical need, benefit and policy consistency. A male/female counterpart is not required; cross-procedure matches must account for purpose and resources.',panel,'#C1D1DD',12);
 box(dash,'B71:Q73','Mixed or site-dependent rows require component review. Endometriosis surgery depends on lesion site; the broad prolapse row remains provisional until the anatomy and repair codes are verified. See Data & Targets, columns U–X, for every classification.',panel,'#C1D1DD',12);
+// Study subjects are independent of anatomy and synthesis eligibility.
+const subjectGroups=evidenceSubjects.groups;
+helper.getRange('AD1:AE6').values=[['Analytic subject','Records'],...subjectGroups.map(g=>[g.label,null]),['Total',null]];
+subjectGroups.forEach((g,i)=>form(helper,`AE${i+2}`,`=COUNTIF(ScientificLiterature[Analytic subject],AD${i+2})`));
+form(helper,'AE6','=SUM(AE2:AE5)');
+helper.getRange('AD:AD').format.columnWidthPx=310;helper.getRange('AE:AE').format.columnWidthPx=100;
+helper.getRange('AD1:AE6').format={font:{name:'Aptos',size:11,color:ink},wrapText:true,rowHeightPx:50};
+helper.getRange('AD1:AE1').format.fill=pale;helper.getRange('AE2:AE6').setNumberFormat('0');
+dash.getRange('B77:Q94').unmerge();dash.getRange('B77:Q94').clear({applyTo:'contents'});
+dash.getRange('B77:Q94').format={fill:navy,font:{name:'Aptos',size:12,color:'#FFFFFF'},wrapText:true,verticalAlignment:'center',rowHeightPx:25};
+box(dash,'B77:Q77','PATIENT SEX/GENDER AND PHYSICIAN SEX/GENDER',panel,'#FFFFFF',14);
+dash.getRange('B77:Q77').format.rowHeightPx=36;
+box(dash,'B78:Q79','Selected literature records, classified by the question studied. Counts include clinical and contextual evidence; they are not counts of demonstrated disparities.',navy,'#C1D1DD',11);
+for(let i=0;i<subjectGroups.length;i++){
+  const g=subjectGroups[i],r=80+i*2,fill=i%2?panel:'#152D42';
+  box(dash,`B${r}:F${r+1}`,g.label,fill,'#FFFFFF',12);
+  box(dash,`G${r}:H${r+1}`,'',fill,'#FFFFFF',20);form(dash,`G${r}`,`='_Chart Helpers'!AE${i+2}`);
+  dash.getRange(`G${r}:H${r+1}`).format.horizontalAlignment='center';
+  box(dash,`I${r}:Q${r+1}`,g.description,fill,'#C1D1DD',11);
+}
+box(dash,'B89:I92','Patient effects: distinguish direct sex comparisons from care within one population, clinical background and perceived barriers. Anatomy-based valuations are a separate comparison.',panel,'#C1D1DD',12);
+box(dash,'J89:Q92','Physician effects: compare payments by physician sex/gender. Annual receipts, per-service payments and salary are distinct. Patient effects cannot be inferred from physician effects.',panel,'#C1D1DD',12);
+box(dash,'B93:Q94','If both variables are analyzed, record each main effect and any interaction separately. Literature columns S–X retain the unit, variable roles, comparison and inference boundary.',navy,'#C1D1DD',11);
+// Verify the new subject counts update when an input changes, then restore.
+const firstSubject=studies[0].analytic_subject,fromSubject=subjectGroups.findIndex(g=>g.label===firstSubject)+2;
+const targetSubject=subjectGroups.findIndex(g=>g.id==='physician_gender')+2;
+const fromCount=helper.getRange(`AE${fromSubject}`).values[0][0],targetCount=helper.getRange(`AE${targetSubject}`).values[0][0];
+put(lit,'S9',subjectGroups.find(g=>g.id==='physician_gender').label);
+assert.equal(helper.getRange(`AE${fromSubject}`).values[0][0],fromCount-1);
+assert.equal(helper.getRange(`AE${targetSubject}`).values[0][0],targetCount+1);
+assert.equal(dash.getRange(`G${80+(targetSubject-2)*2}`).values[0][0],targetCount+1);
+put(lit,'S9',firstSubject);
 // Verify that classification edits propagate through both dimensions, then restore.
 const firstGroup=items[0].clinical_basis,firstIdx=basisGroups.findIndex(g=>g.label===firstGroup)+2;
 const sharedIdx=basisGroups.findIndex(g=>g.id==='shared')+2;
@@ -179,6 +216,9 @@ assert.equal(dash.getRange(`Q${56+sharedIdx}`).values[0][0],beforeShared+1);
 put(care,'U9',firstGroup);
 wb.recalculate();
 const expected={items:items.length,studies:studies.length,contextRecords:contextCount,primaryCandidateRecords:studies.length-contextCount,excludedItems:excludedItems.length,excludedStudies:excludedStudies.length,withStudies:items.filter(x=>x.study_ids.length).length,statuses:Object.fromEntries(statuses.map(s=>[s,items.filter(x=>x.status===s).length]))};
+expected.analyticSubjects=Object.fromEntries(subjectGroups.map(g=>[g.label,studies.filter(x=>x.subject_id===g.id).length]));
+assert.equal(helper.getRange('AE6').values[0][0],studies.length);
+subjectGroups.forEach((g,i)=>assert.equal(helper.getRange(`AE${i+2}`).values[0][0],expected.analyticSubjects[g.label]));
 expected.clinicalBasis=Object.fromEntries(basisGroups.map(g=>[g.label,items.filter(x=>x.clinical_basis===g.label).length]));
 assert.equal(helper.getRange('AB8').values[0][0],items.length);
 basisGroups.forEach((g,i)=>{assert.equal(helper.getRange(`AB${i+2}`).values[0][0],expected.clinicalBasis[g.label]);basisCols.forEach((c,j)=>assert.equal(helper.getRange(`${c}${i+2}`).values[0][0],items.filter(x=>x.clinical_basis===g.label&&x.status===statuses[j]).length));});
@@ -191,9 +231,9 @@ console.log(errors.ndjson);
 assert(!errors.ndjson.includes('"kind":"match"'),'Unexpected cell error');
 await(await SpreadsheetFile.exportXlsx(wb)).save(path);
 console.log(execFileSync('/Users/lgm/.cache/codex-runtimes/codex-primary-runtime/dependencies/python/bin/python3',[`${support}/add_native_links.py`,path],{encoding:'utf8'}));
-await fs.writeFile(`${root}/research/scoped_evidence.json`,JSON.stringify({scope,clinicalBasis,benchmark,items,studies,excludedItems,excludedStudies,expected},null,2));
+await fs.writeFile(`${root}/research/scoped_evidence.json`,JSON.stringify({scope,clinicalBasis,evidenceSubjects,benchmark,items,studies,excludedItems,excludedStudies,expected},null,2));
 await fs.writeFile(`${support}/scope_verification.json`,JSON.stringify(expected,null,2));
-await buildBibliography({scope,clinicalBasis,benchmark,items,studies,excludedItems,excludedStudies,expected},drugs);
-await writeAnalysisFramework({clinicalBasis,benchmark,items,expected});
-for(const [sheetName,range,name] of [['Dashboard','A1:Q14','context-dashboard'],['Dashboard','B43:Q52','benchmark-dashboard'],['Literature',`A${litEnd+4}:J${litEnd+8}`,'benchmark-methods'],['Literature',`A${mr-3}:J${mr}`,'benchmark-sources']]){const b=await wb.render({sheetName,range,scale:1,format:'png'});await fs.writeFile(`${support}/${name}.png`,new Uint8Array(await b.arrayBuffer()));}
+await buildBibliography({scope,clinicalBasis,evidenceSubjects,benchmark,items,studies,excludedItems,excludedStudies,expected},drugs);
+await writeAnalysisFramework({clinicalBasis,evidenceSubjects,benchmark,items,expected});
+for(const [sheetName,range,name] of [['Dashboard','A1:Q14','context-dashboard'],['Dashboard','B43:Q52','benchmark-dashboard'],['Dashboard','B77:Q94','subject-dashboard'],['Literature','S8:X10','subject-columns'],['Literature',`S${9+studies.findIndex(s=>s.id==='L-C03')}:X${9+studies.findIndex(s=>s.id==='L-C03')}`,'surgeon-subject'],['Literature',`A${litEnd+4}:J${litEnd+8}`,'benchmark-methods'],['Literature',`A${mr-3}:J${mr}`,'benchmark-sources']]){const b=await wb.render({sheetName,range,scale:1,format:'png'});await fs.writeFile(`${support}/${name}.png`,new Uint8Array(await b.arrayBuffer()));}
 console.log(`UPDATED ${path}`);
