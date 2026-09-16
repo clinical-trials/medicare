@@ -1,0 +1,378 @@
+{
+  "version": "1",
+  "created_on": "2026-09-16",
+  "status": "Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed",
+  "anchor_study_id": "L-B01",
+  "anchor_correction_id": "L-B01-E1",
+  "central_hypothesis": "Medicare may produce sex-related inequities when benefit rules, service valuation and practical access do not align with clinical need. The direction and mechanism may differ across conditions; a uniform disadvantage to one sex is not established.",
+  "method": "Structured narrative synthesis of the selected active register and previously extracted CMS data. Organize by unit, clinical indication, policy period and outcome. Retain contradictory findings and distinguish observed patterns from proposed mechanisms. No meta-analysis, formal certainty grade or nationwide prevalence estimate of bias is attempted.",
+  "patterns": [
+    {
+      "id": "PAT-01",
+      "title": "Coverage depends on formulation and indication",
+      "observation": "In the existing August 2026 CMS snapshot, oral and vaginal-cream generic estradiol have a listed option without PA/ST in every analyzed segment; other formulations and products vary. Basic Part D excludes drugs when used for sexual or erectile dysfunction, with different rules for other eligible indications.",
+      "interpretation": "Investigate clinically suitable options and actual access within each indication. The original estradiol-versus-Viagra premise does not establish a national female disadvantage.",
+      "boundary": "Listing is not a paid claim or affordable care. Molecules, indications and routes are not interchangeable. Exclusion for sexual dysfunction concerns both male- and female-directed treatments; supplemental benefits differ.",
+      "study_ids": [
+        "L-D01",
+        "L-D03",
+        "L-D04"
+      ],
+      "policy_ids": [
+        "P-002",
+        "P-003",
+        "P-026",
+        "P-034",
+        "P-037",
+        "P-038"
+      ],
+      "dashboard": "Drug availability varies by route and indication. Formulary listing does not establish affordability or receipt of suitable care."
+    },
+    {
+      "id": "PAT-02",
+      "title": "Procedure valuation findings are sensitive to clinical matching and the payment measure",
+      "observation": "Penn reports lower work RVUs for 41 of 55 female-anatomy procedures; Hathaway finds no significant overall difference in 10 closely matched pairs. Polan reports higher female-procedure RVUs/hour but lower modeled specialty compensation/hour. The existing five-pair 2026 check contains differences in both directions.",
+      "interpretation": "A conditional valuation problem is plausible and merits a prespecified comparison of clinically comparable work. Specialty compensation, work RVUs and actual Medicare payments require separate analyses.",
+      "boundary": "Selected pairs cannot establish a universal effect. A nonsignificant small study is not evidence of equivalence. Anatomy-based procedures do not measure physician gender, and operative time omits other work.",
+      "study_ids": [
+        "L-P01",
+        "L-P02",
+        "L-P03",
+        "L-P04",
+        "L-P05",
+        "L-P06"
+      ],
+      "policy_ids": [
+        "P-035",
+        "P-036"
+      ],
+      "dashboard": "Procedure valuation findings are mixed and depend on matching and the measure used. A uniform female-anatomy penalty is not established."
+    },
+    {
+      "id": "PAT-03",
+      "title": "Benefit design can matter within a population without a male-female counterpart",
+      "observation": "Among younger women with disabilities, gaining dual Medicare-Medicaid enrollment was associated with a 3.9-percentage-point rise in contraceptive use. Separate studies describe spending burdens after breast cancer and limited insurer coverage for lymphedema services.",
+      "interpretation": "Study whether clinically indicated, desired care is obtained after benefit changes. Sex-specific care does not need an opposite-sex counterpart to be evaluated for equitable access.",
+      "boundary": "Insurance transitions are observational. More contraceptive use is not automatically better care; patient preference matters. Lymphedema studies predate the 2024 Medicare compression benefit and do not describe all current Medicare services.",
+      "study_ids": [
+        "L-G09",
+        "L-G10",
+        "L-A01",
+        "L-A02"
+      ],
+      "policy_ids": [
+        "P-021",
+        "P-022"
+      ],
+      "dashboard": "Coverage changes may alter access within a clinically eligible population. Historical findings require policy-year checks."
+    },
+    {
+      "id": "PAT-04",
+      "title": "Disadvantage can affect men in shared conditions",
+      "observation": "Historical Medicare bone-testing use was much lower in men. In selected men with recent fragility fracture, an outreach program increased bone-density testing from 4.9% to 10.7%, though absolute uptake stayed low. Testosterone products also face authorization requirements in the formulary snapshot.",
+      "interpretation": "Test gaps in appropriate care in either direction. Clinical recognition, referral and treatment completion may matter alongside reimbursement.",
+      "boundary": "The outreach trial has no female comparison. Current bone-test eligibility has several qualifying routes, including routes for men. Hormone indications and safety requirements differ.",
+      "study_ids": [
+        "L-G04",
+        "L-G05"
+      ],
+      "policy_ids": [
+        "P-002",
+        "P-012"
+      ],
+      "dashboard": "Men also face possible access gaps. Bone care is a useful shared-condition test with clinical need measured independently."
+    },
+    {
+      "id": "PAT-05",
+      "title": "Physician annual-payment gaps are not equivalent to per-service rate gaps",
+      "observation": "Women physicians had lower annual Medicare collections/payments in the ophthalmology, cardiology and surgery studies. Cardiology common-code comparisons and colorectal payment-per-service results include null findings.",
+      "interpretation": "Referral opportunity, service mix, clinical time and billing circumstances are competing mechanisms to investigate in a separate physician evidence stream.",
+      "boundary": "Payments are not salary. Complete modifiers and setting are needed for comparable-rate tests. These studies do not estimate patient-sex coverage differences or establish the cause of annual gaps.",
+      "study_ids": [
+        "L-C01",
+        "L-C02",
+        "L-C03"
+      ],
+      "policy_ids": [],
+      "dashboard": "Women physicians have lower annual payments in selected studies, while some per-service comparisons are null. Keep this stream separate."
+    },
+    {
+      "id": "PAT-06",
+      "title": "Clinical need and practical barriers connect the evidence but remain incompletely measured",
+      "observation": "The Lancet review explains how biological sex and social gender can shape need, presentation and treatment response. Kidney-care interviews describe perceived financial, caregiving and transport barriers. Breast reconstruction studies raise concerns about valuation relative to operative work.",
+      "interpretation": "A useful research model separates clinical need, recognition/referral, eligibility, financial/administrative burden and completed care. It permits both policy and nonpolicy mechanisms.",
+      "boundary": "The Lancet article is clinical background, interviews measure perceptions, and breast studies are not direct patient-sex comparisons. None alone demonstrates Medicare discrimination.",
+      "study_ids": [
+        "L-B01",
+        "L-B01-E1",
+        "L-Q01",
+        "L-P07",
+        "L-P08",
+        "L-P09"
+      ],
+      "policy_ids": [],
+      "dashboard": "Measure the full care pathway: need, referral, eligibility, burden and completed care. The links between stages still need testing."
+    }
+  ],
+  "hypotheses": [
+    {
+      "id": "HYP-01",
+      "title": "Formulation-specific restrictions and unmet menopausal care",
+      "stream": "Patient care/access",
+      "statement": "Among beneficiaries with an independently established need for a particular menopausal/GSM formulation, higher financial or authorization burdens reduce timely initiation and persistence with clinically suitable treatment.",
+      "population": "Clinically eligible Medicare beneficiaries seeking GSM or menopausal symptom treatment; stratify age, indication and route. Assess contraindications and informed preferences.",
+      "exposure": "Formulary nonlisting, PA/ST and actual out-of-pocket burden; analyze each separately.",
+      "comparator": "Same indication and clinical requirements under less restrictive plans or a verified policy change. Do not assume oral, local and transdermal treatments are interchangeable.",
+      "outcome": "Prespecified primary: timely initiation of an appropriate desired therapy. Secondary: abandonment, persistence, delays, symptoms and patient spending.",
+      "test": "First audit options within each plan and indication. Then use linked prescription orders, claims, denials and benefit data to compare policy changes with a defensible control and pretrend checks; account for plan selection and formulary clustering.",
+      "alternatives": "Clinical contraindications, efficacy and safety differences, generic substitution, negotiated prices, patient preference, prescribing practice and healthy-user selection.",
+      "weakens": "Precise estimates excluding a meaningful initiation gap after suitable alternatives, preferences and clinical differences are measured would weaken this mechanism. A nonsignificant imprecise estimate would not.",
+      "readiness": "Descriptive formulation audit ready; patient-access test needs linked data",
+      "priority": "First analysis",
+      "evidence_ids": [
+        "L-D01",
+        "L-D04"
+      ],
+      "counter_ids": [
+        "L-D03",
+        "L-D10"
+      ],
+      "policy_ids": [
+        "P-002",
+        "P-003",
+        "P-029",
+        "P-033",
+        "P-034",
+        "P-037",
+        "P-038"
+      ],
+      "next_step": "Use the three-state formulary summary, then inspect exact strengths/routes and clinical eligibility. Obtain unique-formulary and enrollment-weighted comparisons before estimating beneficiary exposure.",
+      "evidence_summary": "Formulary availability varies by formulation. Vaginal-estrogen spending per treated beneficiary rose in a historical study, but this is not patient out-of-pocket cost. Clinical trials/reviews show heterogeneous effects; listing and efficacy do not establish unmet need."
+    },
+    {
+      "id": "HYP-02",
+      "title": "Female-anatomy valuation after comparable work is measured",
+      "stream": "Service/anatomy valuation",
+      "statement": "Across a prespecified set of clinically analogous procedures, female-anatomy procedures receive lower average work RVUs after independent measurement of complete physician work.",
+      "population": "A prespecified universe of clinically analogous procedures; services without a counterpart remain eligible for separate need/value assessment.",
+      "exposure": "Female-anatomy versus male-anatomy procedure category, not physician gender.",
+      "comparator": "Pairs matched on clinical purpose, setting, complexity, global period and independently measured episode work within the same fee-schedule year.",
+      "outcome": "Primary: mean paired work-RVU difference across the prespecified set. Secondary: fraction exceeding a prespecified meaningful disadvantage and standardized allowed payment, with work, practice-expense and malpractice components separate.",
+      "test": "Define pairs before examining payment direction. Extract the full published pair sets into the same current CMS release; assess pair-selection sensitivity and complete pre-, intra- and postoperative work. Avoid treating current RUC assumptions as independent proof of equal work.",
+      "alternatives": "Different technical intensity, risk, perioperative work, bundling, code revisions and pair selection; specialty compensation may change modeled dollars without changing the Medicare conversion factor.",
+      "weakens": "Precise estimates ruling out the prespecified meaningful mean female disadvantage across defensible matching definitions would weaken the average-effect claim. Report heterogeneous and reversed pairs separately; average parity cannot establish parity for every procedure.",
+      "readiness": "Five-pair descriptive check exists; full pair extraction and work measures needed",
+      "priority": "First analysis",
+      "evidence_ids": [
+        "L-P01",
+        "L-P04",
+        "L-P05",
+        "L-P06"
+      ],
+      "counter_ids": [
+        "L-P02",
+        "L-P03"
+      ],
+      "policy_ids": [
+        "P-035",
+        "P-036"
+      ],
+      "next_step": "Extend the current five-pair check to complete prespecified published sets. Audit code meaning and global/setting compatibility; report all directions before considering pooling.",
+      "evidence_summary": "Penn found lower work RVUs for 41/55 female-anatomy procedures; Hathaway found no significant difference in 10 closely matched pairs. Polan found higher female RVUs/hour but lower modeled specialty compensation/hour. Matching, work and payment measures differ."
+    },
+    {
+      "id": "HYP-03",
+      "title": "Contraceptive benefits and desired care for younger beneficiaries",
+      "stream": "Patient care/access",
+      "statement": "More complete contraceptive benefits increase receipt of desired, clinically appropriate contraception among younger Medicare beneficiaries with disabilities, especially when financial constraints are substantial.",
+      "population": "Eligible reproductive-age Medicare beneficiaries with disabilities; identify clinical need and pregnancy intentions rather than using enrollment alone.",
+      "exposure": "Verified benefit expansion or gaining relevant supplemental/Medicaid benefits, with actual cost sharing documented.",
+      "comparator": "Comparable beneficiaries without the benefit change and the same individuals before the change; no forced male comparator.",
+      "outcome": "Primary: receipt of the patient-preferred appropriate method among those desiring it. Secondary: cost-related nonuse, delays and switching.",
+      "test": "Replicate the coverage-transition association with longitudinal eligibility and claims, assess pretrends and reasons for transitions, and add patient-reported preferences. Distinguish increased availability from coercive or unwanted use.",
+      "alternatives": "Changing income, disability/health status, pregnancy intentions, provider networks, state Medicaid rules and cash purchases missed in claims.",
+      "weakens": "No improvement in need- and preference-concordant access with sufficiently precise estimates after a verified benefit expansion would weaken this hypothesis; utilization alone is insufficient.",
+      "readiness": "Published association available; causal replication needs new data",
+      "priority": "Requires new data",
+      "evidence_ids": [
+        "L-G09",
+        "L-G10"
+      ],
+      "counter_ids": [],
+      "policy_ids": [
+        "P-015",
+        "P-018",
+        "P-019"
+      ],
+      "next_step": "Extract study eligibility and policy periods fully, then seek longitudinal benefit and preference data. WPS IUD guidance is local, the sterilization NCD is national, and Part D drug coverage requires product/plan review. Preserve younger disability beneficiaries separately.",
+      "evidence_summary": "Dual Medicare-Medicaid enrollment was associated with increased contraceptive use in younger women with disabilities. Neither the association nor a higher use rate alone demonstrates causally improved, preference-concordant care."
+    },
+    {
+      "id": "HYP-04",
+      "title": "A male access gap after fragility fracture",
+      "stream": "Patient care/access",
+      "statement": "Among women and men with comparable fracture-related osteoporosis care needs, men receive less appropriate follow-up, and structured outreach reduces that gap.",
+      "population": "Medicare beneficiaries after comparable fragility fractures; assess fracture type, prior testing/treatment, prognosis, contraindications and preferences.",
+      "exposure": "Recorded patient sex and a separately assigned outreach intervention; preserve uncertainty about gender identity.",
+      "comparator": "Women versus men within clinical-need and age/entitlement strata; outreach versus usual care within each sex.",
+      "outcome": "Primary: guideline-concordant completed osteoporosis evaluation/treatment pathway. Report referral, testing, medication offer and initiation separately.",
+      "test": "Use a clinically characterized cohort including nonrecipients, then a pragmatic outreach trial with a prespecified patient-sex interaction. Separate current benefit eligibility from independently assessed need.",
+      "alternatives": "Different fracture risk/severity, survival, prior treatment, contraindications, clinical recognition, patient preferences and access to follow-up.",
+      "weakens": "Comparable need-adjusted completion in women and men would weaken the access-gap claim. Similar outreach effects with a persistent gap would not support the proposed gap-reduction mechanism.",
+      "readiness": "Historical comparison and male outreach study available; current joint test needs data",
+      "priority": "Priority patient study",
+      "evidence_ids": [
+        "L-G04",
+        "L-G05"
+      ],
+      "counter_ids": [],
+      "policy_ids": [
+        "P-012"
+      ],
+      "next_step": "Fully extract the male outreach trial, including post-randomization exclusions, and define contemporary need-based outcomes without making testing alone the goal.",
+      "evidence_summary": "Historical Medicare data show less bone testing in men. A male outreach study improved testing from 4.9% to 10.7%, with no female comparator. Current benefit eligibility has multiple routes for men and women."
+    },
+    {
+      "id": "HYP-05",
+      "title": "Unequal burden under formally similar access requirements",
+      "stream": "Patient care/access",
+      "statement": "Among beneficiaries with comparable kidney-care needs and nominal coverage, financial, transport and caregiving demands contribute to sex differences in completing recommended care.",
+      "population": "Women and men referred for comparable kidney-care pathways; stratify disease severity, age and entitlement.",
+      "exposure": "Measured financial, travel, time and caregiving burden under the same coverage rules; patient and physician sex/gender recorded separately.",
+      "comparator": "Beneficiaries with comparable need but lower practical burden; evaluate targeted support versus usual care within sex strata.",
+      "outcome": "Primary: completion of clinically appropriate, desired care within a prespecified interval. Secondary: delay, out-of-pocket burden and patient-reported unmet need.",
+      "test": "Collect referral, treatment-offer, attendance, burden and preference data prospectively. Test effective transport/caregiving support with a prespecified patient-sex interaction; separate total disparity from exploratory mediation.",
+      "alternatives": "Disease trajectory, medical contraindications, geography, provider supply, unconstrained preferences and differences in treatment offers.",
+      "weakens": "Precise evidence of comparable need-adjusted completion and burdens across sexes would weaken the proposed disparity. If support demonstrably reduces the between-sex burden difference but precisely fails to reduce the corresponding completion gap, the mediation hypothesis is weakened. Absence of an interaction alone is inconclusive.",
+      "readiness": "Qualitative mechanism only; requires patient-level prospective evidence",
+      "priority": "Exploratory mechanism",
+      "evidence_ids": [
+        "L-Q01",
+        "L-B01"
+      ],
+      "counter_ids": [],
+      "policy_ids": [],
+      "next_step": "Retrieve full qualitative methods and contradictory accounts. Develop measures with patients; do not treat clinician perceptions as measured Medicare effects.",
+      "evidence_summary": "Nephrologists described patient financial, transport and caregiving barriers. These are qualitative perceptions, not measured Medicare patient effects. The Lancet framework motivates separating clinical and social mechanisms."
+    },
+    {
+      "id": "HYP-06",
+      "title": "Physician opportunity and annual Medicare payments",
+      "stream": "Physician sex/gender",
+      "statement": "Differences in referral opportunities, access to procedures and clinical time contribute to annual Medicare payment differences between women and men physicians.",
+      "population": "Physicians with recorded specialty, practice, career stage and clinical commitments. Document clinician sex/gender measurement; treat clinical time as a possible mechanism rather than automatically conditioning the primary comparison on it.",
+      "exposure": "Physician sex/gender and measured referral/procedure opportunities, distinct from patient sex.",
+      "comparator": "Women and men physicians in comparable practice contexts; separately compare complete claims for comparable services.",
+      "outcome": "Primary: total annual Medicare payment difference within the prespecified population. Secondary: payments standardized to measured clinical time, referral/procedure opportunities, service mix, and payment per complete comparable claim.",
+      "test": "Link practice rosters, scheduled clinical time, referrals and claims. Estimate annual differences first, then explore opportunity/service pathways without automatically adjusting away mechanisms. Test rates using modifiers, setting, geography and all relevant billing details.",
+      "alternatives": "Scheduling preferences, Medicare share, case mix, practice ownership, coding, employment arrangements and work not reimbursed by Medicare.",
+      "weakens": "Equal measured opportunities with persistent annual differences would weaken that mechanism. Equivalent complete-claim payments would weaken a differential-rate explanation, without excluding opportunity inequity.",
+      "readiness": "Consistent annual-payment associations; mechanisms untested in current register",
+      "priority": "Separate physician stream",
+      "evidence_ids": [
+        "L-C01",
+        "L-C02",
+        "L-C03"
+      ],
+      "counter_ids": [
+        "L-C02",
+        "L-C03"
+      ],
+      "policy_ids": [],
+      "next_step": "Keep annual-payment and per-service estimates separate. Obtain complete claims and measured clinical time; do not infer salary or patient coverage from receipts.",
+      "evidence_summary": "Women physicians had lower annual Medicare payments in three studies. Cardiology common-code comparisons and colorectal per-service results include nulls. Unavailable billing details and clinical-time measures limit rate and mechanism inference."
+    },
+    {
+      "id": "HYP-07",
+      "title": "Policy expansion and lymphedema burden",
+      "stream": "Patient care/access",
+      "statement": "The 2024 Medicare compression-item benefit reduces cost-related unmet lymphedema care, with absolute benefit varying by clinical burden and prior coverage.",
+      "population": "Medicare beneficiaries with clinically assessed lymphedema before and after implementation; breast and other causes, women and men.",
+      "exposure": "Effective access to the new compression-item benefit, distinct from pumps or surgical coverage.",
+      "comparator": "Comparable beneficiaries with differing prior coverage or a defensible unaffected comparison, assessed before and after implementation.",
+      "outcome": "Primary: cost-related unmet need for appropriate compression. Secondary: patient spending, receipt of prescribed items, symptoms and function.",
+      "test": "Use repeated patient reports and claims in an event study with an explicit comparator, pretrend checks and implementation/supplier measures. Analyze sex and disease burden separately.",
+      "alternatives": "Supplier availability, take-up, coding changes, concurrent benefits, inflation, prior supplemental insurance and secular trends.",
+      "weakens": "A sufficiently precise estimate excluding a prespecified meaningful reduction in cost-related unmet need after verified implementation would weaken the access hypothesis. An imprecise null is inconclusive, and a claims increase alone would not confirm clinical benefit.",
+      "readiness": "Historical burden evidence and policy change identified; post-change outcomes needed",
+      "priority": "Requires new data",
+      "evidence_ids": [
+        "L-A01",
+        "L-A02"
+      ],
+      "counter_ids": [],
+      "policy_ids": [
+        "P-021",
+        "P-022"
+      ],
+      "next_step": "Verify implementation details and extract pre/post outcome data. Do not use 2023 insurer coverage rates as present-day Medicare compression coverage.",
+      "evidence_summary": "Historical breast-cancer cost and insurer-policy studies identify burden before the 2024 Medicare compression-item benefit. They cannot establish its present effects or current surgical/pump coverage."
+    },
+    {
+      "id": "HYP-08",
+      "title": "Complexity and breast reconstruction valuation",
+      "stream": "Service/anatomy valuation",
+      "statement": "Time-intensive breast reconstruction receives lower valuation relative to complete episode work than simpler reconstruction, beyond any similar pattern in other reconstructive services.",
+      "population": "Clinically defined flap and implant breast reconstruction, plus defensible non-breast reconstructive comparison groups.",
+      "exposure": "Procedure complexity and complete episode work; breast anatomy is shared, and physician gender is not the exposure.",
+      "comparator": "Flap versus implant reconstruction first; then compare that contrast with analogous complexity contrasts outside breast care.",
+      "outcome": "Primary: work RVUs relative to independently measured full episode work. Secondary: standardized real payment trends, analyzed separately from the complexity contrast.",
+      "test": "Combine current valuations with validated pre-, intra- and postoperative work measures. Account for technique, laterality, concurrent procedures, complications, global services and setting. Estimate time trends separately from cross-procedure levels.",
+      "alternatives": "Bundling, excluded postoperative work, patient selection, different risk/intensity and a general valuation problem affecting time-intensive surgery.",
+      "weakens": "Removal of the gap after full episode measurement would weaken operative-time-only interpretations. Similar gaps outside breast care would challenge a breast-specific excess, though a broader complexity problem could remain.",
+      "readiness": "Within-breast associations available; complete work and outside comparators needed",
+      "priority": "Secondary valuation study",
+      "evidence_ids": [
+        "L-P07",
+        "L-P08",
+        "L-P09",
+        "L-P04"
+      ],
+      "counter_ids": [],
+      "policy_ids": [
+        "P-035"
+      ],
+      "next_step": "Extract reconstruction studies in full and define independent episode work. A later patient-access test requires linked data on offers, delays and nonrecipients; the initial valuation test cannot establish those effects.",
+      "evidence_summary": "Breast reconstruction studies report lower work RVUs per operative time for flap versus implant procedures and declining real fees. Complete episode work and clinically comparable non-breast services remain unmeasured; no direct patient-sex effect was estimated."
+    }
+  ],
+  "guardrails": [
+    "These hypotheses were generated after inspecting the selected evidence. They are exploratory, not prospectively registered confirmatory tests. Prespecify the next analyses, effect sizes of interest and matching rules before testing.",
+    "The 40 care rows and 34 literature records are a selected starting set, with 27 primary candidates and 7 context records. They are not all Medicare services or an unbiased sample of disparities.",
+    "Formal risk-of-bias appraisal, complete searches and full-text eligibility remain incomplete. Reporting male/female does not establish cisgender identity. Apply the current population criterion without relabeling cohorts.",
+    "Distinguish sex/gender, anatomy, need, disease burden and physician gender. Clinical need must be defined independently of coverage and observed utilization. Include eligible people who did not receive care.",
+    "Preserve original Medicare, MA, Part D, contractor, plan, year, setting and age/entitlement distinctions. Do not pool patient, physician and procedure-code effects.",
+    "Retain null and reversed findings. Different clinical benefit or risk may justify different rules; equal rules may still create unequal burdens. Neither difference nor parity alone establishes fairness.",
+    "For causal work, specify whether income, clinical time, referrals and service mix are confounders or mechanisms. Report total and pathway-specific estimates separately; mediation assumptions require justification.",
+    "CMS formularies describe 5,499 plan segments using 328 formularies, not 5,499 independent decisions or beneficiary-weighted exposure. No denials, paid amounts, clinical indications or unmet-need denominators are present.",
+    "Lower spending can reflect efficient care, lower need, different service mix or unmet care. Spending per treated beneficiary is not patient out-of-pocket cost. A nonsignificant estimate with a wide interval is not equivalence."
+  ],
+  "next_analyses": [
+    {
+      "order": 1,
+      "action": "Complete the within-indication formulation audit",
+      "why": "Most directly supported by existing national public files. The three-state summary is descriptive groundwork; exact clinical suitability, unique-formulary sensitivity and enrollment weights remain to be obtained.",
+      "hypothesis_ids": [
+        "HYP-01"
+      ]
+    },
+    {
+      "order": 2,
+      "action": "Complete the analogous-procedure set and matching sensitivity",
+      "why": "Existing studies disagree, and the local 2026 subset contains both directions. Prespecify pairs before examining their values and measure resources independently.",
+      "hypothesis_ids": [
+        "HYP-02",
+        "HYP-08"
+      ]
+    },
+    {
+      "order": 3,
+      "action": "Design a contemporary shared-condition patient-access study",
+      "why": "Osteoporosis after fracture provides a condition affecting both sexes and a concrete care pathway. Obtain need, referrals, denials and outcomes rather than relying on paid claims alone.",
+      "hypothesis_ids": [
+        "HYP-04"
+      ]
+    }
+  ],
+  "search_expansion": "Use the Lancet review to organize searches in cardiovascular and cerebrovascular disease, kidney disease, lung disease, nonreproductive cancers, metabolic disease, musculoskeletal conditions, pain, mental health and prevention. These are search domains, not newly established reimbursement findings. Follow cited references independently, retain PMIDs and append reproducible searches and screening decisions. Seek broader Medicare cohorts to counter the current reproductive-care concentration."
+}

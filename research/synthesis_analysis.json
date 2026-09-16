@@ -1,0 +1,167 @@
+{
+  "updated_on": "2026-09-16",
+  "stage": "Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed",
+  "active_studies": 34,
+  "care_items": 40,
+  "hypotheses": 8,
+  "pattern_count": 6,
+  "formulary_source": {
+    "retrieved": "2026-09-16",
+    "formulary_release": "2026-08-26",
+    "archive_url": "https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip",
+    "archive_members_date_label": "20260831",
+    "reference_date": "2026-08-25",
+    "reference_url": "https://www.cms.gov/files/zip/cy-2026-august-formulary-reference-file.zip",
+    "basic_rows": 1125804,
+    "basic_unique_rxcuis": 6140,
+    "unmatched_basic_rxcuis": 23,
+    "unmatched_basic_rows": 2318,
+    "reference_rows": 6702,
+    "raw_plan_county_rows": 112294,
+    "unsuppressed_unique_plan_segments": 5499,
+    "unique_contract_plan_pairs": 5055,
+    "suppressed_plan_segments_excluded": 19,
+    "formularies_used": 328,
+    "missing_formularies": {},
+    "limitations": [
+      "Plan-segment weighted, not enrollment weighted; county repetitions removed.",
+      "Employer, PACE, demonstration (except included MMP), and non-Part-D plans excluded from CMS monthly public data.",
+      "Listed means at least one reference-matched formulation/strength; not every dose or a guarantee of claim approval.",
+      "PA flag does not identify age-specific or diagnosis-specific criteria.",
+      "No patient cost, denied-claim, indication, clinical-need or gender-identity data.",
+      "Missing formulary entries do not preclude approved exceptions.",
+      "Reference IDs absent from August reference are not classified; target concept list retained for review.",
+      "Hormone groups have different indications; between-group PA comparisons do not establish unfairness."
+    ]
+  },
+  "formulary_distributions": [
+    {
+      "group": "Estradiol: any single-ingredient form, generic or brand",
+      "total": 5499,
+      "no_matched_listing": 0,
+      "listed_all_options_PA_or_ST": 0,
+      "at_least_one_option_without_PA_ST": 5499
+    },
+    {
+      "group": "Generic estradiol: oral tablet",
+      "total": 5499,
+      "no_matched_listing": 0,
+      "listed_all_options_PA_or_ST": 0,
+      "at_least_one_option_without_PA_ST": 5499
+    },
+    {
+      "group": "Generic estradiol: vaginal cream",
+      "total": 5499,
+      "no_matched_listing": 0,
+      "listed_all_options_PA_or_ST": 0,
+      "at_least_one_option_without_PA_ST": 5499
+    },
+    {
+      "group": "Generic estradiol: vaginal insert",
+      "total": 5499,
+      "no_matched_listing": 119,
+      "listed_all_options_PA_or_ST": 0,
+      "at_least_one_option_without_PA_ST": 5380
+    },
+    {
+      "group": "Generic estradiol: transdermal patch",
+      "total": 5499,
+      "no_matched_listing": 133,
+      "listed_all_options_PA_or_ST": 270,
+      "at_least_one_option_without_PA_ST": 5096
+    },
+    {
+      "group": "Generic estradiol: topical gel",
+      "total": 5499,
+      "no_matched_listing": 4108,
+      "listed_all_options_PA_or_ST": 0,
+      "at_least_one_option_without_PA_ST": 1391
+    },
+    {
+      "group": "Estring brand",
+      "total": 5499,
+      "no_matched_listing": 2135,
+      "listed_all_options_PA_or_ST": 0,
+      "at_least_one_option_without_PA_ST": 3364
+    },
+    {
+      "group": "Testosterone: any single-ingredient form, generic or brand",
+      "total": 5499,
+      "no_matched_listing": 0,
+      "listed_all_options_PA_or_ST": 2428,
+      "at_least_one_option_without_PA_ST": 3071
+    },
+    {
+      "group": "Generic testosterone: topical gel",
+      "total": 5499,
+      "no_matched_listing": 34,
+      "listed_all_options_PA_or_ST": 3376,
+      "at_least_one_option_without_PA_ST": 2089
+    },
+    {
+      "group": "Fezolinetant / Veozah",
+      "total": 5499,
+      "no_matched_listing": 3119,
+      "listed_all_options_PA_or_ST": 2338,
+      "at_least_one_option_without_PA_ST": 42
+    },
+    {
+      "group": "Ospemifene / Osphena",
+      "total": 5499,
+      "no_matched_listing": 4316,
+      "listed_all_options_PA_or_ST": 1012,
+      "at_least_one_option_without_PA_ST": 171
+    },
+    {
+      "group": "Prasterone / Intrarosa",
+      "total": 5499,
+      "no_matched_listing": 5460,
+      "listed_all_options_PA_or_ST": 15,
+      "at_least_one_option_without_PA_ST": 24
+    }
+  ],
+  "procedure_pair_count": 5,
+  "reference_ids": [
+    "L-A01",
+    "L-A02",
+    "L-B01",
+    "L-B01-E1",
+    "L-C01",
+    "L-C02",
+    "L-C03",
+    "L-D01",
+    "L-D03",
+    "L-D04",
+    "L-D10",
+    "L-G04",
+    "L-G05",
+    "L-G09",
+    "L-G10",
+    "L-P01",
+    "L-P02",
+    "L-P03",
+    "L-P04",
+    "L-P05",
+    "L-P06",
+    "L-P07",
+    "L-P08",
+    "L-P09",
+    "L-Q01",
+    "P-002",
+    "P-003",
+    "P-012",
+    "P-015",
+    "P-018",
+    "P-019",
+    "P-021",
+    "P-022",
+    "P-026",
+    "P-029",
+    "P-033",
+    "P-034",
+    "P-035",
+    "P-036",
+    "P-037",
+    "P-038"
+  ]
+}

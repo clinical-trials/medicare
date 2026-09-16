@@ -5,6 +5,7 @@ import {SpreadsheetFile, FileBlob} from '@oai/artifact-tool';
 import {applyReviewScope} from './scoped_data.mjs';
 import {buildBibliography} from './bibliography.mjs';
 import {writeAnalysisFramework} from './analysis_framework.mjs';
+import {addSynthesis} from './synthesis.mjs';
 process.on('uncaughtException',e=>{console.error(e.message);process.exit(1);});
 const root='/Users/lgm/Documents/ChatGPT/Medicare';
 const support=`${root}/research/workbook`;
@@ -226,6 +227,9 @@ assert.equal(helper.getRange('N2').values[0][0],items.length);assert.equal(helpe
 const validStudies=new Set(studies.map(s=>s.id));items.forEach(i=>i.study_ids.forEach(s=>assert(validStudies.has(s))));
 statuses.forEach((s,i)=>assert.equal(helper.getRange(`B${i+2}`).values[0][0],expected.statuses[s]));
 console.log(JSON.stringify(expected));
+const synthesis=await addSynthesis(wb,{studies,items});
+wb.recalculate();
+console.log(`Synthesis: ${synthesis.pattern_count} patterns; ${synthesis.hypotheses} hypotheses`);
 const errors=await wb.inspect({kind:'match',searchTerm:'#REF!|#DIV/0!|#VALUE!|#NAME\\?|#N/A|#NUM!|#NULL!|#SPILL!|#CALC!',options:{useRegex:true,maxResults:30},maxChars:2000});
 console.log(errors.ndjson);
 assert(!errors.ndjson.includes('"kind":"match"'),'Unexpected cell error');

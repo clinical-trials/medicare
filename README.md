@@ -11,6 +11,7 @@ Updated September 16, 2026.
 - [Evidence register and analysis dashboard](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_evidence_register_2026-09-16.xlsx): 40 care-item/indication rows and 34 active literature records, with coverage findings, clinical classifications, sources and limitations.
 - [Living bibliography](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_bibliography.md) and [RIS reference export](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_gender_care_references.ris).
 - [White-paper analysis framework](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_anatomy_physiology_analysis_framework.md): Medicare benchmark rationale, anatomy/physiology distinctions, patient versus physician sex/gender, and planned comparison methods.
+- [Preliminary synthesis and testable hypotheses](outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_preliminary_synthesis_and_hypotheses_2026-09-16.md): six provisional patterns and eight hypotheses, with counterevidence, tests and PMIDs. The workbook includes a Hypotheses tab and a dashboard summary.
 - [Current review scope](REVIEW_SCOPE.md): population eligibility, analytic rules and dated amendments.
 
 The current population scope concerns cisgender women and men. Transgender-focused evidence is retained in the exclusion log. Reporting male/female sex alone does not establish gender identity; unresolved eligibility remains marked for review. Younger Medicare beneficiaries remain in scope and will be analyzed separately where the evidence permits.
