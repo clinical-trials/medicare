@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 
 const root='/Users/lgm/Documents/ChatGPT/Medicare';
 const out=`${root}/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8`;
-const date='2026-09-16';
+const date=new Date().toISOString().slice(0,10);
 const clean=x=>String(x??'').replace(/[\r\n]+/g,' ').trim();
 const link=u=>clean(u).replace(/\(/g,'%28').replace(/\)/g,'%29');
 const period=s=>{const t=clean(s);return !t?'':/[.!?]$/.test(t)?t:t+'.';};
@@ -40,7 +40,7 @@ export async function buildBibliography(data,drugSources){
   const scientific=sourceStudies.map(s=>{
     const m=metadata.get(s.id)||{id:s.id,original_citation:s.citation,metadata_status:'Unverified legacy citation',authors:[]};
     return {...m,source_type:'scientific',citation:formatCitation(m),source_url:s.url,
-      status:excludedIds.has(s.id)?'Excluded by current population scope':s.synthesis_role==='context_only'?(s.context_type==='qualitative_access'?'Qualitative access context':s.context_type==='clinical_background'?'Clinical background':'Clinician context'):s.synthesis_role==='historical_patient_candidate'?'Historical patient evidence; eligibility pending':'Candidate evidence / retained code-policy component',
+      status:excludedIds.has(s.id)?'Excluded by current population scope':s.synthesis_role==='context_only'?(s.context_type==='qualitative_access'?'Qualitative access context':s.context_type==='clinical_background'?'Clinical background':'Clinician context'):s.synthesis_role==='historical_patient_candidate'?'Historical patient evidence; eligibility pending':s.subject_id==='patient_care'&&s.primary_synthesis_eligible===false&&s.review_status==='AI preliminary candidate extraction'?'Patient-care candidate; identity eligibility unresolved':'Candidate evidence / retained code-policy component',
       access_level:s.extraction_level||'Citation/abstract extraction recorded; full-text review pending',
       eligibility:s.population_screening_status||'See workbook population-screening status',
       analytic_subject:s.analytic_subject,unit_of_analysis:s.unit_of_analysis,
@@ -50,6 +50,12 @@ export async function buildBibliography(data,drugSources){
       related_reference_ids:s.related_reference_ids||[]};
   });
   const corrections=[...metadata.values()].filter(m=>m.record_type==='correction'&&activeIds.has(m.related_record_id)).map(m=>({...m,source_type:'scientific',citation:formatCitation(m),source_url:m.url,status:'Linked correction; not an independent study',access_level:'Correction metadata verified',linked_care_ids:[]}));
+  const retrievalData=JSON.parse(await fs.readFile(`${root}/research/retrieval_evidence.json`,'utf8').catch(e=>{if(e.code==='ENOENT')return '{"records":[]}';throw e;}));
+  const retrievalReferences=retrievalData.records.map(s=>{
+    const m=metadata.get(s.id);
+    assert(m?.metadata_status?.startsWith('Verified'),`Missing verified retrieval metadata: ${s.id}`);
+    return {...m,...s,source_type:'retrieval_reference',citation:formatCitation(m),source_url:s.url||m.url,linked_care_ids:[]};
+  });
   const previous=JSON.parse(await fs.readFile(`${root}/research/reference_registry.json`,'utf8').catch(e=>{if(e.code==='ENOENT')return '{"policy_sources":[]}';throw e;}));
   const policyMap=new Map((previous.policy_sources||[]).map(x=>[x.url,{...x,linked_record_ids:[],descriptions:[],current_use:false}]));
   let nextId=Math.max(0,...[...policyMap.values()].map(x=>Number(x.id.replace('P-',''))||0))+1;
@@ -87,10 +93,11 @@ export async function buildBibliography(data,drugSources){
   const methodData=JSON.parse(await fs.readFile(`${root}/research/methodology_references.json`,'utf8').catch(e=>{if(e.code==='ENOENT')return '{"records":[]}';throw e;}));
   const methods=methodData.records.map(m=>({...m,source_type:'methodology',citation:formatCitation(m),source_url:m.url,status:m.role||'Methodology guidance; not a Medicare outcome study'}));
   const records=[...scientific,...corrections];
-  assert.equal(new Set([...records,...methods].map(x=>x.id)).size,records.length+methods.length,'Duplicate reference ID');
+  assert.equal(new Set([...records,...methods,...retrievalReferences].map(x=>x.id)).size,records.length+methods.length+retrievalReferences.length,'Duplicate reference ID');
   const counts={active_studies:data.studies.length,excluded_studies:data.excludedStudies.length,linked_corrections:corrections.length,verified_scientific_metadata:records.filter(x=>x.metadata_status?.startsWith('Verified')).length,policy_and_data_sources:policies.filter(x=>x.current_use).length};
   counts.clinical_guidance_sources=clinicalGuidance.length;
   counts.methodology_sources=methods.length;
+  counts.retrieval_references=retrievalReferences.length;
   const lines=['# Medicare sex-based coverage and reimbursement: working bibliography','',`Updated ${date}. Stable IDs match the evidence register. ${counts.active_studies} active literature records; ${counts.excluded_studies} scope-excluded records retained for audit; ${counts.linked_corrections} linked correction.`,
     '', 'This is a living reference list for an ongoing review, not a completed systematic-review bibliography. Publication metadata have been checked separately from full-text extraction, eligibility and risk-of-bias assessment. References cited within reviews are not automatically included as screened studies.',
     '', 'Use `[L-ID]` in working drafts. The bibliography gives up to six authors followed by et al.; the RIS export preserves all available authors. Article titles and publication details follow MEDLINE metadata. Policy descriptions below are source labels, not verified publication titles unless identified as such. The record date is not a new policy verification date.',''];
@@ -98,7 +105,7 @@ export async function buildBibliography(data,drugSources){
     lines.push(`## ${section}`,'');
     for(const r of rows){
       lines.push(`### ${r.id}`,'',r.citation||r.original_citation,'');
-      const urls=[r.doi?`[DOI](https://doi.org/${link(r.doi)})`:'',r.pmid?`[PMID ${r.pmid}](https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/)`:'',r.source_url?`[Reviewed source](${link(r.source_url)})`:''].filter(Boolean);
+      const urls=[r.doi?`[DOI](https://doi.org/${link(r.doi)})`:'',r.pmid?`[PMID ${r.pmid}](https://pubmed.ncbi.nlm.nih.gov/${r.pmid}/)`:'',r.reviewed_fulltext_url?`[Reviewed full text](${link(r.reviewed_fulltext_url)})`:r.source_url?`[Reviewed source](${link(r.source_url)})`:''].filter(Boolean);
       lines.push(urls.join(' · '),'',`**Role:** ${r.status}. **Access:** ${r.access_level}.`,'',`**Citation metadata:** ${r.metadata_status}${r.verified_on?`; checked ${r.verified_on}`:''}.`,'');
       if(r.linked_care_ids?.length)lines.push(`Care-item links: ${r.linked_care_ids.join(', ')}.`,'');
       if(r.analytic_subject)lines.push(`**Analytic subject:** ${r.analytic_subject}. **Unit:** ${r.unit_of_analysis}.`,'',`Patient sex/gender: ${r.patient_sex_gender_role}. Physician sex/gender: ${r.physician_sex_gender_role}.`,'',`Comparison: ${period(r.comparison_axis)} Inference boundary: ${period(r.inference_boundary)}`,'');
@@ -110,6 +117,7 @@ export async function buildBibliography(data,drugSources){
   emit('Contextual literature',scientific.filter(x=>contextStatuses.has(x.status)));
   emit('Linked corrections',corrections);
   emit('Excluded records retained for audit',scientific.filter(x=>excludedIds.has(x.id)));
+  emit('Additional retrieval references outside the active evidence register',retrievalReferences);
   emit('Methodology and reporting guidance',methods);
   lines.push('## Clinical guidance for anatomy and physiology classification','', 'These sources support clinical classification, not Medicare coverage decisions. C-IDs are guidance records and are not counted as scientific studies.','');
   for(const s of clinicalGuidance){
@@ -124,12 +132,13 @@ export async function buildBibliography(data,drugSources){
   }
   const ris=[];
   const field=(tag,value)=>{if(value!==undefined&&value!==null&&value!=='')ris.push(`${tag}  - ${clean(value)}`);};
-  for(const r of [...records,...methods]){
+  for(const r of [...records,...methods,...retrievalReferences]){
     field('TY','JOUR');field('ID',r.id);
     for(const a of r.authors||[])field('AU',a.literal||`${a.family}, ${a.given||a.initials||''}`);
     field('TI',r.title||r.original_citation);field('JO',r.journal);field('JA',r.journal_abbreviation);field('PY',r.year);field('VL',r.volume);field('IS',r.issue);
     const pages=(r.pages||'').split(/[-–]/);field('SP',pages[0]);if(pages.length===2)field('EP',pages[1]);
     field('DO',r.doi);field('AN',r.pmid);field('UR',r.source_url||r.url);field('KW',r.status);field('Y2',r.verified_on);
+    field('L2',r.reviewed_fulltext_url);
     field('N1',`Stable ID ${r.id}. ${r.status}. ${r.access_level}. ${r.metadata_status}. ${(r.notes||[]).join(' ')}`);
     if(r.analytic_subject)field('N1',`Analytic subject: ${r.analytic_subject}. Patient sex/gender: ${r.patient_sex_gender_role}. Physician sex/gender: ${r.physician_sex_gender_role}. Comparison: ${r.comparison_axis}. Inference boundary: ${r.inference_boundary}.`);
     if(r.related_record_id)field('N1',`${r.relationship}: ${r.related_record_id}`);
@@ -143,8 +152,8 @@ export async function buildBibliography(data,drugSources){
   }
   await fs.mkdir(out,{recursive:true});
   await fs.writeFile(`${out}/Medicare_gender_care_bibliography.md`,lines.join('\n'));
-  await fs.writeFile(`${out}/Medicare_gender_care_references.ris`,ris.join('\n'));
-  await fs.writeFile(`${root}/research/reference_registry.json`,JSON.stringify({updated_on:date,counts,scientific_references:records,methodology_references:methods,policy_sources:policies,clinical_guidance_sources:clinicalGuidance},null,2));
+  await fs.writeFile(`${out}/Medicare_gender_care_references.ris`,ris.map(line=>line.trimEnd()).join('\n'));
+  await fs.writeFile(`${root}/research/reference_registry.json`,JSON.stringify({updated_on:date,counts,scientific_references:records,methodology_references:methods,retrieval_references:retrievalReferences,policy_sources:policies,clinical_guidance_sources:clinicalGuidance},null,2));
   console.log('Bibliography '+JSON.stringify(counts));
   return counts;
 }

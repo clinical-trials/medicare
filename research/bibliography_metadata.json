@@ -1,5 +1,5 @@
 {
-  "generated_on": "2026-09-16",
+  "generated_on": "2026-09-21",
   "records": [
     {
       "id": "L-P01",
@@ -2538,6 +2538,303 @@
         "https://api.crossref.org/works/10.1001%2Fjamasurg.2024.2298",
         "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588"
       ]
+    },
+    {
+      "id": "L-R01",
+      "original_citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.",
+      "authors": [
+        {
+          "family": "Nekui",
+          "given": "Farrah",
+          "initials": "F"
+        },
+        {
+          "family": "Galbraith",
+          "given": "Alison A",
+          "initials": "AA"
+        },
+        {
+          "family": "Briesacher",
+          "given": "Becky A",
+          "initials": "BA"
+        },
+        {
+          "family": "Zhang",
+          "given": "Fang",
+          "initials": "F"
+        },
+        {
+          "family": "Soumerai",
+          "given": "Stephen B",
+          "initials": "SB"
+        },
+        {
+          "family": "Ross-Degnan",
+          "given": "Dennis",
+          "initials": "D"
+        },
+        {
+          "family": "Gurwitz",
+          "given": "Jerry H",
+          "initials": "JH"
+        },
+        {
+          "family": "Madden",
+          "given": "Jeanne M",
+          "initials": "JM"
+        }
+      ],
+      "title": "Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.",
+      "journal": "Medical care",
+      "year": 2021,
+      "volume": "59",
+      "issue": "1",
+      "pages": "13-21",
+      "doi": "10.1097/mlr.0000000000001458",
+      "pmid": "33298705",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33298705/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis."
+      ],
+      "journal_abbreviation": "Med Care",
+      "pmcid": "PMC7735208",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-R02",
+      "original_citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.",
+      "authors": [
+        {
+          "family": "De Avila",
+          "given": "Jorge L",
+          "initials": "JL"
+        },
+        {
+          "family": "Meltzer",
+          "given": "David O",
+          "initials": "DO"
+        },
+        {
+          "family": "Zhang",
+          "given": "James X",
+          "initials": "JX"
+        }
+      ],
+      "title": "Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.",
+      "journal": "JAMA network open",
+      "year": 2021,
+      "volume": "4",
+      "issue": "3",
+      "pages": "e210498",
+      "doi": "10.1001/jamanetworkopen.2021.0498",
+      "pmid": "33656528",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33656528/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis."
+      ],
+      "journal_abbreviation": "JAMA Netw Open",
+      "pmcid": "PMC7930921",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-X01",
+      "original_citation": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y. Gender differences in drug use and expenditures in a privately insured population of older adults. J Womens Health (Larchmt). 2005;14(1):73-81.",
+      "authors": [
+        {
+          "family": "Correa-de-Araujo",
+          "given": "Rosaly",
+          "initials": "R"
+        },
+        {
+          "family": "Miller",
+          "given": "G Edward",
+          "initials": "GE"
+        },
+        {
+          "family": "Banthin",
+          "given": "Jessica S",
+          "initials": "JS"
+        },
+        {
+          "family": "Trinh",
+          "given": "Yen",
+          "initials": "Y"
+        }
+      ],
+      "title": "Gender differences in drug use and expenditures in a privately insured population of older adults.",
+      "journal": "Journal of women's health (2002)",
+      "year": 2005,
+      "volume": "14",
+      "issue": "1",
+      "pages": "73-81",
+      "doi": "10.1089/jwh.2005.14.73",
+      "pmid": "15692281",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15692281/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "Historical retrieval lead outside active evidence register; full text, payer composition and identity eligibility remain unresolved.",
+        "Verified first author is Rosaly Correa-de-Araujo. Earlier Wilson attribution in a seed record is incorrect; preserve that record separately as an audit trail."
+      ],
+      "journal_abbreviation": "J Womens Health (Larchmt)",
+      "pmcid": "",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-X02",
+      "original_citation": "Dusetzina SB, Huskamp HA, Qin X, Keating NL. Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019. JAMA. 2022;328(15):1515-1522.",
+      "authors": [
+        {
+          "family": "Dusetzina",
+          "given": "Stacie B",
+          "initials": "SB"
+        },
+        {
+          "family": "Huskamp",
+          "given": "Haiden A",
+          "initials": "HA"
+        },
+        {
+          "family": "Qin",
+          "given": "Xuanzi",
+          "initials": "X"
+        },
+        {
+          "family": "Keating",
+          "given": "Nancy L",
+          "initials": "NL"
+        }
+      ],
+      "title": "Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019.",
+      "journal": "JAMA",
+      "year": 2022,
+      "volume": "328",
+      "issue": "15",
+      "pages": "1515-1522",
+      "doi": "10.1001/jama.2022.17825",
+      "pmid": "36255428",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36255428/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "Spending context outside active evidence register; main report does not estimate a patient-sex effect.",
+        "Linked PMID 36255438 is Comment in, not a correction.",
+        "Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json."
+      ],
+      "journal_abbreviation": "JAMA",
+      "pmcid": "PMC9579917",
+      "record_type": "journal-article"
+    },
+    {
+      "title": "Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans.",
+      "authors": [
+        {
+          "family": "Gyftopoulos",
+          "given": "Soterios",
+          "initials": "S"
+        },
+        {
+          "family": "Pelzl",
+          "given": "Casey E",
+          "initials": "CE"
+        },
+        {
+          "family": "Da Silva Cardoso",
+          "given": "Madalena",
+          "initials": "M"
+        },
+        {
+          "family": "Xie",
+          "given": "Juliana",
+          "initials": "J"
+        },
+        {
+          "family": "Kwon",
+          "given": "Simona C",
+          "initials": "SC"
+        },
+        {
+          "family": "Chang",
+          "given": "Connie Y",
+          "initials": "CY"
+        }
+      ],
+      "journal": "Skeletal radiology",
+      "journal_abbreviation": "Skeletal Radiol",
+      "year": 2024,
+      "volume": "53",
+      "issue": "11",
+      "pages": "2347-2355",
+      "doi": "10.1007/s00256-024-04643-1",
+      "pmid": "38459983",
+      "pmcid": null,
+      "first_publication_date": "2024-03-09",
+      "issue_date": "2024 Nov",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38459983/",
+      "metadata_status": "Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers",
+      "verified_on": "2026-09-21",
+      "id": "L-R03",
+      "record_type": "journal-article",
+      "original_citation": "Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans.",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38459983+AND+SRC%3AMED&format=json&resultType=core",
+      "notes": [
+        "No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields. This is a bounded metadata check, not proof no notice exists.",
+        "Population identity unresolved; AI candidate extraction, not human eligibility adjudication."
+      ]
+    },
+    {
+      "title": "Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014.",
+      "authors": [
+        {
+          "family": "Gillespie",
+          "given": "Catherine W",
+          "initials": "CW"
+        },
+        {
+          "family": "Morin",
+          "given": "Pamela E",
+          "initials": "PE"
+        }
+      ],
+      "journal": "The American journal of medicine",
+      "journal_abbreviation": "Am J Med",
+      "year": 2017,
+      "volume": "130",
+      "issue": "3",
+      "pages": "306-316",
+      "doi": "10.1016/j.amjmed.2016.10.018",
+      "pmid": "27884649",
+      "pmcid": null,
+      "first_publication_date": "2016-11-21",
+      "issue_date": "2017 Mar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27884649/",
+      "metadata_status": "Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers",
+      "verified_on": "2026-09-21",
+      "id": "L-R04",
+      "record_type": "journal-article",
+      "original_citation": "Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014.",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27884649+AND+SRC%3AMED&format=json&resultType=core",
+      "notes": [
+        "No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields; bounded metadata check, not proof of absence.",
+        "Population identity unresolved; AI candidate extraction, not human eligibility adjudication."
+      ],
+      "reviewed_fulltext_url": "https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol"
     }
   ],
   "provenance_note": "Public Europe PMC CORE API records from source MED (MEDLINE/PubMed). Metadata verification checks record identity and citation fields only; it does not constitute full-text screening or validation of extracted study findings. Original register citations preserved."

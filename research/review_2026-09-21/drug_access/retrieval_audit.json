@@ -1,0 +1,158 @@
+{
+  "date": "2026-09-21",
+  "time_zone": "America/Los_Angeles",
+  "identification_route": "Targeted web/other-method retrieval; root executes formal database searches separately",
+  "formal_database_search": false,
+  "queries": [
+    {
+      "search_id": "DA-WEB-01",
+      "platform": "web tool search engine",
+      "query": "Medicare \"cost-related\" nonadherence women men sex differences study",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-02",
+      "platform": "web tool search engine",
+      "query": "\"15692281\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-03",
+      "platform": "web tool search engine",
+      "query": "\"36255428\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-04",
+      "platform": "web tool search engine",
+      "query": "\"Gender differences in drug use and expenditures in a privately insured population of older adults\" full text",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-05",
+      "platform": "web tool search engine",
+      "query": "\"Cost-Related Medication Nonadherence and its Risk Factors among Medicare Beneficiaries\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-06",
+      "platform": "web tool search engine",
+      "query": "\"Gender differences in drug use\" \"1998\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-07",
+      "platform": "web tool search engine",
+      "query": "\"Gender differences in drug use and expenditures\" \"pdf\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-08",
+      "platform": "web tool search engine",
+      "query": "\"10.1089/jwh.2005.14.73\" fulltext",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-09",
+      "platform": "web tool search engine",
+      "query": "\"15692281\" \"correction\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    },
+    {
+      "search_id": "DA-WEB-10",
+      "platform": "web tool search engine",
+      "query": "\"36255428\" \"correction\"",
+      "date": "2026-09-21",
+      "total_result_count": null,
+      "note": "Search returned ranked results; no systematic database result count claimed"
+    }
+  ],
+  "metadata_queries": [
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "raw_file": "seed_metadata_europepmc.json",
+      "records": 2
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "raw_file": "additional_metadata_europepmc.json",
+      "records": 2
+    }
+  ],
+  "successful_fulltext_access": [
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/",
+      "method": "Python urllib public HTML; maintext/tables reviewed, not supplements"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7930921/fullTextXML",
+      "method": "Public API XML; full maintext/tables reviewed"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/",
+      "method": "Python urllib public HTML; funding/disclosures"
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9579917/",
+      "method": "Python urllib public HTML; maintext/tables reviewed, not supplements"
+    }
+  ],
+  "access_failures": [
+    {
+      "url": "https://markdown.new/https://pubmed.ncbi.nlm.nih.gov/15692281/",
+      "result": "Web tool internal error; direct primary metadata fallback"
+    },
+    {
+      "url": "https://markdown.new/https://pubmed.ncbi.nlm.nih.gov/36255428/",
+      "result": "Web tool internal error"
+    },
+    {
+      "url": "https://markdown.new/https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/",
+      "result": "Web tool inaccessible; direct public HTML succeeded"
+    },
+    {
+      "url": "https://markdown.new/https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/",
+      "result": "Web tool inaccessible; API XML succeeded"
+    },
+    {
+      "url": "https://markdown.new/https://pmc.ncbi.nlm.nih.gov/articles/PMC9579917/",
+      "result": "Web tool inaccessible; direct public HTML succeeded"
+    },
+    {
+      "url": "https://doi.org/10.1089/jwh.2005.14.73",
+      "result": "Web tool internal error; no accessible full text found in targeted retrieval"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7735208/fullTextXML",
+      "result": "HTTP500; HTML fallback succeeded"
+    },
+    {
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC9579917/fullTextXML",
+      "result": "HTTP500; HTML fallback succeeded"
+    }
+  ],
+  "notices": "Europe PMC MED commentCorrectionList checked for all4records; no linked correction/retraction returned; PMID36255428 links commentary36255438, not correction. Two seed-specific web correction searches added no verified correction.",
+  "other_search_hits": "Not imported/screened beyond the4records due bounded task; incidental results are leads only.",
+  "metadata_sha256": {
+    "seed_metadata_europepmc.json": "822f6369fcd5f172b83af35da876300a498e90357b5e70475256c92ceab76d17",
+    "additional_metadata_europepmc.json": "9b52f9448acdfcb335efa7f9eabbc535ca47384106086355cb02eaf712b40992"
+  }
+}

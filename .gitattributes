@@ -1,5 +1,6 @@
-# Preserve downloaded source bytes and avoid line-by-line diffs of large datasets.
-research/sources/** -text -diff
-
-# Preserve the reference exchange format as exported.
-*.ris -text
+# Preserve captured PubMed response bytes and suppress enormous raw-data diffs.
+research/review_*/pubmed/raw/* -text -diff
+research/review_*/pubmed/priority_records.json -diff
+# CSV exports use RFC-style CRLF record endings; retain their bytes.
+research/review_*/*.csv -text whitespace=cr-at-eol
+research/review_*/pubmed/*.csv -text -diff

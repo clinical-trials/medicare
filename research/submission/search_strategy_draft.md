@@ -1,6 +1,8 @@
 # Draft search strategy and audit specification
 
-September 16, 2026. **Not executed, not librarian-validated, and not a complete systematic search.** This is a concrete starting strategy for testing and translation, not evidence that the review has searched these databases.
+Prepared September 16; execution update September 21, 2026. **PubMed queries executed for development before independent PRESS review; other planned databases not yet searched.** The [execution archive](../review_2026-09-21/README.md) preserves the original queries, API translations, partitioned identifier exports, hashes, metadata and the correction below. These runs do not constitute a completed systematic review.
+
+The original core used `"Drug Formularies"[Mesh]`, which PubMed flagged as unrecognized. Replacing it with `"Formularies as Topic"[Mesh]` added 60 records (43,844 to 43,904); the original response and the added-PMID set are preserved. The core and supplementary searches together identify 58,686 unique PMIDs after 2,084 exact-PMID overlaps. A post-execution diagnostic retrieved 9 of 10 chosen pilot papers; L-G04 was missed because screening/testing/use vocabulary was absent from the outcome block. These are documented development findings for the information specialist, not a PRESS validation or an estimated sensitivity.
 
 ## Planned sources
 
@@ -26,7 +28,7 @@ AND
   OR "Health Services Accessibility"[Mesh]
   OR "Health Expenditures"[Mesh]
   OR "Fees and Charges"[Mesh]
-  OR "Drug Formularies"[Mesh]
+  OR "Formularies as Topic"[Mesh]
   OR reimburs*[tiab]
   OR coverag*[tiab]
   OR payment*[tiab]

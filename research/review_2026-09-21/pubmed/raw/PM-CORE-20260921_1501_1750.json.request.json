@@ -1,0 +1,14 @@
+{
+  "requested_at_utc": "2026-09-21T17:13:25.341602+00:00",
+  "completed_at_utc": "2026-09-21T17:13:25.949570+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=MedicareEvidenceReview&term=%28%28%0A++%22Medicare%22%5BMesh%5D%0A++OR+medicare%5Btiab%5D%0A++OR+%22Medicare+Advantage%22%5Btiab%5D%0A++OR+%22Medicare+Part+D%22%5Btiab%5D%0A++OR+%22Medicare+Part+B%22%5Btiab%5D%0A++OR+%22Medicare+Part+A%22%5Btiab%5D%0A%29%0AAND%0A%28%0A++%22Reimbursement+Mechanisms%22%5BMesh%5D%0A++OR+%22Insurance+Coverage%22%5BMesh%5D%0A++OR+%22Health+Services+Accessibility%22%5BMesh%5D%0A++OR+%22Health+Expenditures%22%5BMesh%5D%0A++OR+%22Fees+and+Charges%22%5BMesh%5D%0A++OR+%22Drug+Formularies%22%5BMesh%5D%0A++OR+reimburs%2A%5Btiab%5D%0A++OR+coverag%2A%5Btiab%5D%0A++OR+payment%2A%5Btiab%5D%0A++OR+%22relative+value%22%5Btiab%5D%0A++OR+RVU%5Btiab%5D+OR+RVUs%5Btiab%5D%0A++OR+formular%2A%5Btiab%5D%0A++OR+%22prior+authorization%22%5Btiab%5D%0A++OR+%22step+therapy%22%5Btiab%5D%0A++OR+%22cost+sharing%22%5Btiab%5D%0A++OR+%22out+of+pocket%22%5Btiab%5D%0A++OR+copay%2A%5Btiab%5D+OR+coinsurance%5Btiab%5D+OR+deductible%2A%5Btiab%5D%0A++OR+affordab%2A%5Btiab%5D%0A++OR+access%2A%5Btiab%5D%0A++OR+utilization%5Btiab%5D+OR+utilisation%5Btiab%5D%0A++OR+denial%2A%5Btiab%5D+OR+denied%5Btiab%5D%0A++OR+delay%2A%5Btiab%5D%0A++OR+%22unmet+need%22%5Btiab%5D%0A%29%29+AND+%28%221501%2F01%2F01%22%5BDate+-+Publication%5D+%3A+%221750%2F12%2F31%22%5BDate+-+Publication%5D%29&retmode=json&retmax=9999",
+  "params": {
+    "db": "pubmed",
+    "tool": "MedicareEvidenceReview",
+    "term": "((\n  \"Medicare\"[Mesh]\n  OR medicare[tiab]\n  OR \"Medicare Advantage\"[tiab]\n  OR \"Medicare Part D\"[tiab]\n  OR \"Medicare Part B\"[tiab]\n  OR \"Medicare Part A\"[tiab]\n)\nAND\n(\n  \"Reimbursement Mechanisms\"[Mesh]\n  OR \"Insurance Coverage\"[Mesh]\n  OR \"Health Services Accessibility\"[Mesh]\n  OR \"Health Expenditures\"[Mesh]\n  OR \"Fees and Charges\"[Mesh]\n  OR \"Drug Formularies\"[Mesh]\n  OR reimburs*[tiab]\n  OR coverag*[tiab]\n  OR payment*[tiab]\n  OR \"relative value\"[tiab]\n  OR RVU[tiab] OR RVUs[tiab]\n  OR formular*[tiab]\n  OR \"prior authorization\"[tiab]\n  OR \"step therapy\"[tiab]\n  OR \"cost sharing\"[tiab]\n  OR \"out of pocket\"[tiab]\n  OR copay*[tiab] OR coinsurance[tiab] OR deductible*[tiab]\n  OR affordab*[tiab]\n  OR access*[tiab]\n  OR utilization[tiab] OR utilisation[tiab]\n  OR denial*[tiab] OR denied[tiab]\n  OR delay*[tiab]\n  OR \"unmet need\"[tiab]\n)) AND (\"1501/01/01\"[Date - Publication] : \"1750/12/31\"[Date - Publication])",
+    "retmode": "json",
+    "retmax": 9999
+  },
+  "sha256": "374fd6f28674ff3dd9767c57b7fe16e9d33418f5e3ba784c7e11bd32595df1ed",
+  "bytes": 1492
+}

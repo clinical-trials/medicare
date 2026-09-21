@@ -1,5 +1,5 @@
 {
-  "updated_on": "2026-09-16",
+  "updated_on": "2026-09-18",
   "records": [
     {
       "id": "M-001",
@@ -648,6 +648,40 @@
       "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A29384079+AND+SRC%3AMED&format=json&resultType=core",
       "role": "Certainty-assessment methods",
       "access_level": "PubMed/MEDLINE metadata, abstract and selected open-access full-text sections reviewed; CERQual implementation papers not fully reviewed"
+    },
+    {
+      "id": "M-009",
+      "authors": [
+        {"family": "Calderon Martinez", "given": "Ernesto", "initials": "E"},
+        {"family": "Ghattas Hasbun", "given": "Patricia E", "initials": "PE"},
+        {"family": "Salolin Vargas", "given": "Vanessa P", "initials": "VP"},
+        {"family": "García-González", "given": "Oxiris Y", "initials": "OY"},
+        {"family": "Fermin Madera", "given": "Mariela D", "initials": "MD"},
+        {"family": "Rueda Capistrán", "given": "Diego E", "initials": "DE"},
+        {"family": "Campos Carmona", "given": "Thomas", "initials": "T"},
+        {"family": "Sanchez Cruz", "given": "Camila", "initials": "C"},
+        {"family": "Teran Hooper", "given": "Camila", "initials": "C"}
+      ],
+      "title": "A comprehensive guide to conduct a systematic review and meta-analysis in medical research.",
+      "journal": "Medicine (Baltimore)",
+      "journal_abbreviation": "Medicine (Baltimore)",
+      "year": 2025,
+      "volume": "104",
+      "issue": "33",
+      "pages": "e41868",
+      "doi": "10.1097/MD.0000000000041868",
+      "pmid": "40826741",
+      "pmcid": "PMC12366998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40826741/",
+      "metadata_status": "Verified against PubMed and the attached full-text PDF",
+      "verified_on": "2026-09-18",
+      "verification_source": "https://pubmed.ncbi.nlm.nih.gov/40826741/",
+      "role": "Methodological narrative guidance; secondary source",
+      "access_level": "Attached full text visually and textually reviewed; PubMed metadata and abstract reviewed",
+      "notes": [
+        "This is a narrative methodological guide, not a protocol, completed systematic review, reporting standard, risk-of-bias instrument, or Medicare evidence study.",
+        "Use for practical workflow reminders only; PRISMA 2020, PRISMA-P, PRISMA-S, PRESS, design-specific risk-of-bias tools and GRADE/CERQual remain the governing methods sources for this project."
+      ]
     }
   ]
 }

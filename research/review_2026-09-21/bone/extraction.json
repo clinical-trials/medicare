@@ -1,0 +1,639 @@
+{
+  "created_on": "2026-09-21",
+  "scope_file": "REVIEW_SCOPE.md",
+  "reviewer": "Codex provisional AI extraction",
+  "human_independent_review_completed": false,
+  "bounded_task": "PMID38459983 and exactly one original study from its references",
+  "global_registers_modified": false,
+  "records": [
+    {
+      "candidate_id": "BONE-2026-09-21-01",
+      "metadata": {
+        "title": "Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans.",
+        "authors": [
+          {
+            "family": "Gyftopoulos",
+            "given": "Soterios",
+            "initials": "S"
+          },
+          {
+            "family": "Pelzl",
+            "given": "Casey E",
+            "initials": "CE"
+          },
+          {
+            "family": "Da Silva Cardoso",
+            "given": "Madalena",
+            "initials": "M"
+          },
+          {
+            "family": "Xie",
+            "given": "Juliana",
+            "initials": "J"
+          },
+          {
+            "family": "Kwon",
+            "given": "Simona C",
+            "initials": "SC"
+          },
+          {
+            "family": "Chang",
+            "given": "Connie Y",
+            "initials": "CY"
+          }
+        ],
+        "journal": "Skeletal radiology",
+        "journal_abbreviation": "Skeletal Radiol",
+        "year": 2024,
+        "volume": "53",
+        "issue": "11",
+        "pages": "2347-2355",
+        "doi": "10.1007/s00256-024-04643-1",
+        "pmid": "38459983",
+        "pmcid": null,
+        "first_publication_date": "2024-03-09",
+        "issue_date": "2024 Nov",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38459983/",
+        "metadata_status": "Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers",
+        "verified_on": "2026-09-21"
+      },
+      "discovery": {
+        "method": "Parent-assigned targeted article",
+        "seed_pmid": "38459983"
+      },
+      "review_status": "Provisional AI screening and abstract extraction; not independent human review",
+      "recommendation": "candidate",
+      "eligibility_resolution": "Unresolved: obtain full text and adjudicate population criterion; no final inclusion decision",
+      "access": {
+        "level": "Abstract and publisher preview only",
+        "full_text_reviewed": false,
+        "sources": [
+          {
+            "url": "https://pubmed.ncbi.nlm.nih.gov/38459983/",
+            "sections": "Abstract and metadata"
+          },
+          {
+            "url": "https://link.springer.com/article/10.1007/s00256-024-04643-1",
+            "sections": "Abstract, references, funding and disclosure sections; main full text subscription restricted"
+          }
+        ],
+        "limitations": "No PMCID or open full-text location in Europe PMC record; no manuscript was obtained."
+      },
+      "correction_check": {
+        "checked_on": "2026-09-21",
+        "sources": [
+          "38459983_europepmc.json",
+          "38459983_crossref.json"
+        ],
+        "result": "No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields. This is a bounded metadata check, not proof no notice exists.",
+        "linked_notices": []
+      },
+      "study": {
+        "design": "Retrospective administrative claims analysis",
+        "unit_of_analysis": "Medicare beneficiary",
+        "data_source": "Medicare 5% Research Identifiable Files",
+        "study_years": null,
+        "payer": "Medicare; FFS/MA enrollment restrictions not specified in accessible abstract",
+        "setting": "United States",
+        "age_eligibility": "Females >=65 years; males >=70 years, using ACR-SPR-SSR age recommendations",
+        "follow_up": "Not reported in accessible abstract",
+        "clinical_need_measure": "Age-based recommended screening eligibility; individual fracture risk, prior screening and other eligibility restrictions unresolved",
+        "sample_total_derived": 3060240,
+        "sample_total_note": "Derived sum of reported Asian American and non-Asian American denominators, not a separately reported total."
+      },
+      "sex_gender": {
+        "subject": "Patient sex",
+        "terms_used": [
+          "females",
+          "males",
+          "women",
+          "men"
+        ],
+        "measurement": "Exact field/source and coding not reported in accessible abstract; claims study population",
+        "gender_identity": "Not reported",
+        "cisgender_status": "Not established; do not infer from recorded sex",
+        "comparison": "Unadjusted female/male contrast within Asian American beneficiaries; not all Medicare beneficiaries",
+        "physician_gender": "Not analyzed"
+      },
+      "existing_care_item_ids": [
+        "G04",
+        "G05"
+      ],
+      "clinical_basis": "Shared bone system; sex-defined policy eligibility and disease burden are separate from anatomy",
+      "outcomes": [
+        {
+          "label": "DXA receipt within Asian American beneficiaries",
+          "groups": [
+            {
+              "label": "All eligible Asian American beneficiaries",
+              "denominator": 80439,
+              "numerator": 12102,
+              "percent": 15.1,
+              "confidence_interval_95_percent": null
+            }
+          ],
+          "source_locator": "Abstract Results",
+          "adjusted": false
+        },
+        {
+          "label": "DXA receipt by sex within Asian American beneficiaries",
+          "groups": [
+            {
+              "label": "Women",
+              "denominator": null,
+              "numerator": null,
+              "percent": 19.8,
+              "confidence_interval_95_percent": null
+            },
+            {
+              "label": "Men",
+              "denominator": null,
+              "numerator": null,
+              "percent": 5.0,
+              "confidence_interval_95_percent": null
+            }
+          ],
+          "source_locator": "Abstract Results",
+          "adjusted": false,
+          "p_value": "<0.001",
+          "missing": "Sex-specific denominators and numerators not reported"
+        },
+        {
+          "label": "DXA receipt among eligible non-Asian American beneficiaries",
+          "groups": [
+            {
+              "label": "Non-Asian American beneficiaries",
+              "denominator": 2979801,
+              "numerator": 496957,
+              "percent": 16.7,
+              "confidence_interval_95_percent": null
+            }
+          ],
+          "source_locator": "Abstract Results",
+          "adjusted": false
+        },
+        {
+          "label": "Asian American versus non-Asian American DXA receipt",
+          "groups": [],
+          "source_locator": "Abstract Results",
+          "adjusted": true,
+          "direction": "Lower among Asian American beneficiaries",
+          "p_value": "<0.001",
+          "estimate": null,
+          "confidence_interval": null
+        },
+        {
+          "label": "Asian American age subgroup DXA receipt",
+          "groups": [
+            {
+              "label": "<80 years",
+              "denominator": null,
+              "numerator": null,
+              "percent": 15.5,
+              "confidence_interval_95_percent": null
+            },
+            {
+              "label": ">=80 years",
+              "denominator": null,
+              "numerator": null,
+              "percent": 14.1,
+              "confidence_interval_95_percent": null
+            }
+          ],
+          "source_locator": "Abstract Results",
+          "adjusted": false,
+          "p_value": "<0.001"
+        },
+        {
+          "label": "Asian American ZIP mean household income subgroup DXA receipt",
+          "groups": [
+            {
+              "label": "Higher mean household income",
+              "denominator": null,
+              "numerator": null,
+              "percent": 17.6,
+              "confidence_interval_95_percent": null
+            },
+            {
+              "label": "Lower mean household income",
+              "denominator": null,
+              "numerator": null,
+              "percent": 14.3,
+              "confidence_interval_95_percent": null
+            }
+          ],
+          "source_locator": "Abstract Results",
+          "adjusted": false,
+          "p_value": "<0.001",
+          "missing": "Income cutoffs and subgroup counts not reported"
+        }
+      ],
+      "adjustment": {
+        "race_contrast_covariates": [
+          "years of Medicare eligibility",
+          "patient age",
+          "sex",
+          "location",
+          "mean income"
+        ],
+        "adjusted_sex_contrast_available": false,
+        "model_type": "Not reported in accessible abstract",
+        "effect_sizes_and_confidence_intervals": "Not reported for adjusted racial contrast"
+      },
+      "limitations": [
+        "Full text unavailable: study years, exact CPTs, exclusion rules, beneficiary sex counts, enrollment restrictions, model type, confidence intervals, person-time and mortality handling remain unknown.",
+        "Female and male eligibility begins at different ages; crude screening rates are not a comparison standardized to equal age and clinical need.",
+        "Sex difference reported in abstract is within Asian American beneficiaries, not the whole Medicare population.",
+        "Claims receipt of DXA does not directly measure denial, cost sharing, allowed payment or a causal coverage effect.",
+        "Gender identity is unreported and eligibility under project population criterion remains pending.",
+        "The adjusted result concerns Asian American versus non-Asian American beneficiaries, not the female/male comparison."
+      ],
+      "counterevidence_and_boundaries": [
+        "Women have higher screening use than men in the reported subgroup, contrary to an assumption that all access differences disadvantage women.",
+        "The secondary study (PMID27884649) reports higher adjusted screening odds for Asian versus white women at ages65-79; different payer/sample/years and comparisons prevent treating this as a direct replication."
+      ],
+      "funding_and_conflicts": {
+        "source_locator": "Publisher Funding and Ethics declarations",
+        "funding": "RSNA Emerging Issues Grant; Massachusetts General Hospital Schlaeger Fellowship, as listed by publisher",
+        "conflicts": "Authors declare no competing interests"
+      },
+      "next_actions": [
+        "Obtain authorized full text through library/publisher access.",
+        "Verify observation years, original Medicare enrollment restrictions, exact sex field and denominators, screening history/need restrictions, adjusted sex estimates, and uncertainty intervals.",
+        "Human eligibility review must resolve unreported gender identity under REVIEW_SCOPE.md before final synthesis."
+      ],
+      "proposed_root_study_id": "L-R03"
+    },
+    {
+      "candidate_id": "BONE-2026-09-21-02",
+      "metadata": {
+        "title": "Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014.",
+        "authors": [
+          {
+            "family": "Gillespie",
+            "given": "Catherine W",
+            "initials": "CW"
+          },
+          {
+            "family": "Morin",
+            "given": "Pamela E",
+            "initials": "PE"
+          }
+        ],
+        "journal": "The American journal of medicine",
+        "journal_abbreviation": "Am J Med",
+        "year": 2017,
+        "volume": "130",
+        "issue": "3",
+        "pages": "306-316",
+        "doi": "10.1016/j.amjmed.2016.10.018",
+        "pmid": "27884649",
+        "pmcid": null,
+        "first_publication_date": "2016-11-21",
+        "issue_date": "2017 Mar",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27884649/",
+        "metadata_status": "Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers",
+        "verified_on": "2026-09-21"
+      },
+      "discovery": {
+        "method": "Backward citation from PMID38459983, publisher reference9",
+        "seed_pmid": "38459983",
+        "reference_number": 9,
+        "selection_reason": "Original US bone-screening claims study including Medicare Advantage; selected as the single additional reference allowed by this bounded task"
+      },
+      "review_status": "Provisional AI full-text screening and extraction; not independent human review",
+      "recommendation": "candidate_context",
+      "eligibility_resolution": "Candidate Medicare utilization context with separable MA outcomes; no male comparator. Gender-identity criterion still unresolved; no final inclusion decision.",
+      "access": {
+        "level": "Full main article read as publisher-formatted open-access text hosted on ResearchGate; supplementary file not reviewed",
+        "full_text_reviewed": true,
+        "source_url": "https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol",
+        "publisher_url": "https://www.sciencedirect.com/science/article/pii/S0002934316311913",
+        "license": "CC BY-NC-ND 4.0 verified in article and Crossref license entry",
+        "archive": "27884649_web_fulltext_excerpts.json contains selected web-rendered excerpts, not complete manuscript; raw HTML download was blocked403",
+        "metadata_discrepancy": "Europe PMC flags non-open-access/subscription required, but article and Crossref identify CC BY-NC-ND open-access version. ResearchGate page heading adds a descriptive subtitle absent from the actual article/PubMed; canonical title preserved."
+      },
+      "correction_check": {
+        "checked_on": "2026-09-21",
+        "sources": [
+          "27884649_europepmc.json",
+          "27884649_crossref.json"
+        ],
+        "result": "No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields; bounded metadata check, not proof of absence.",
+        "linked_notices": []
+      },
+      "study": {
+        "design": "Retrospective administrative claims cohort",
+        "unit_of_analysis": "Woman/enrollee; most recent two-year observation window",
+        "data_source": "OptumLabs Data Warehouse, a large national health plan",
+        "study_years": "2008-2014; table calendar-year categories identify start of two-year observation window,2008-2013",
+        "payer": "Medicare Advantage and commercial insurance; no Medicare FFS",
+        "setting": "United States",
+        "age_eligibility": ">=50 years",
+        "sample_n": 1638454,
+        "medicare_advantage_n": 588737,
+        "commercial_n": 1049717,
+        "age_groups_n": {
+          "50-64": 1061951,
+          "65-79": 439096,
+          "80+": 137407
+        },
+        "medicare_advantage_age_groups_n": {
+          "50-64": 58285,
+          "65-79": 394791,
+          "80+": 135661
+        },
+        "follow_up": "Latest two years of continuous enrollment; >=3 years continuous primary medical and pharmacy coverage overall, with >=12 months lookback",
+        "inclusion_flow": {
+          "initial_women_50plus": 5472083,
+          "minimum_three_years_enrollment": 2092888,
+          "excluded_prior_disease_drugs_fracture_or_other_bone_conditions": 454434,
+          "analytic_sample": 1638454
+        },
+        "exclusions": "Prior osteoporosis diagnosis, osteoporosis medication, qualifying hip fracture, ESRD, bone metastases, Cushing syndrome, Paget disease, osteogenesis imperfecta or specified neoplastic disease",
+        "source_locator": "Methods pp307-308; Table1 pp309-310"
+      },
+      "sex_gender": {
+        "subject": "Patient sex; women-only cohort",
+        "terms_used": [
+          "sex",
+          "women"
+        ],
+        "measurement": "Enrollee sex obtained from member files (Methods, Data Source,p307); original coding rules not detailed",
+        "gender_identity": "Not reported",
+        "cisgender_status": "Not established; do not infer from recorded sex",
+        "comparison": "Within women by age, payer, race/ethnicity and other characteristics; no female/male contrast",
+        "physician_gender": "Not analyzed"
+      },
+      "existing_care_item_ids": [
+        "G04",
+        "G05"
+      ],
+      "clinical_basis": "Shared bone system",
+      "outcome_definition": {
+        "name": "Claims-based receipt of bone mass measurement during latest two-year observation window",
+        "note": "Broader than DXA alone; code set includes multiple bone measurement methods and screening diagnosis code. Do not relabel all tests DXA.",
+        "CPT": [
+          "76070",
+          "76071",
+          "76075",
+          "76076",
+          "76077",
+          "76078",
+          "76977",
+          "77078",
+          "77079",
+          "77080",
+          "77081",
+          "77082",
+          "77083",
+          "78350",
+          "78351"
+        ],
+        "HCPCS": [
+          "G0130"
+        ],
+        "ICD9": [
+          "V82.81"
+        ],
+        "source_locator": "Methods, Measures of Utilization,p308"
+      },
+      "outcomes": [
+        {
+          "label": "Two-year bone mass measurement among Medicare Advantage women",
+          "groups": [
+            {
+              "label": "All MA women>=50",
+              "denominator": 588737,
+              "numerator": null,
+              "percent": 22.9,
+              "confidence_interval_95_percent": [
+                22.8,
+                23.0
+              ]
+            },
+            {
+              "label": "MA women50-64",
+              "denominator": 58285,
+              "numerator": null,
+              "percent": 19.6,
+              "confidence_interval_95_percent": [
+                19.3,
+                19.9
+              ]
+            },
+            {
+              "label": "MA women65-79",
+              "denominator": 394791,
+              "numerator": null,
+              "percent": 26.8,
+              "confidence_interval_95_percent": [
+                26.6,
+                26.9
+              ]
+            },
+            {
+              "label": "MA women80+",
+              "denominator": 135661,
+              "numerator": null,
+              "percent": 12.9,
+              "confidence_interval_95_percent": [
+                12.7,
+                13.1
+              ]
+            }
+          ],
+          "source_locator": "Tables1-2,pp309-311",
+          "adjusted": false,
+          "missing": "Screened numerators not reported in these payer rows; do not reconstruct exact counts from rounded percentages"
+        },
+        {
+          "label": "Crude payer comparison among women",
+          "groups": [
+            {
+              "label": "Commercial, all ages>=50",
+              "denominator": 1049717,
+              "numerator": null,
+              "percent": 21.3,
+              "confidence_interval_95_percent": [
+                21.2,
+                21.3
+              ]
+            },
+            {
+              "label": "MA, all ages>=50",
+              "denominator": 588737,
+              "numerator": null,
+              "percent": 22.9,
+              "confidence_interval_95_percent": [
+                22.8,
+                23.0
+              ]
+            }
+          ],
+          "source_locator": "Tables1-2,pp309-311",
+          "adjusted": false,
+          "p_value": "<0.0001",
+          "causal": false
+        },
+        {
+          "label": "Mixed-payer two-year bone mass measurement by age",
+          "groups": [
+            {
+              "label": "Women50-64",
+              "denominator": 1061951,
+              "numerator": null,
+              "percent": 21.1,
+              "confidence_interval_95_percent": null
+            },
+            {
+              "label": "Women65-79",
+              "denominator": 439096,
+              "numerator": null,
+              "percent": 26.5,
+              "confidence_interval_95_percent": null
+            },
+            {
+              "label": "Women80+",
+              "denominator": 137407,
+              "numerator": null,
+              "percent": 12.8,
+              "confidence_interval_95_percent": null
+            }
+          ],
+          "source_locator": "Abstract Results; Table1 age denominators",
+          "adjusted": false
+        },
+        {
+          "label": "Mixed-payer women65-79,2008 versus2013 observation-start year",
+          "groups": [
+            {
+              "label": "Start2008",
+              "denominator": 21568,
+              "numerator": null,
+              "percent": 26.2,
+              "confidence_interval_95_percent": [
+                25.6,
+                26.8
+              ]
+            },
+            {
+              "label": "Start2013",
+              "denominator": 273320,
+              "numerator": null,
+              "percent": 26.8,
+              "confidence_interval_95_percent": [
+                26.6,
+                27.0
+              ]
+            }
+          ],
+          "source_locator": "Tables1-2,pp309-311",
+          "adjusted": false
+        },
+        {
+          "label": "Mixed-payer adjusted odds,2013 versus2008,age65-79",
+          "groups": [],
+          "source_locator": "Table3,p314",
+          "adjusted": true,
+          "measure": "aOR",
+          "estimate": 0.86,
+          "confidence_interval_95": [
+            0.84,
+            0.89
+          ],
+          "p_value": "<0.001",
+          "model_population_n": 439096
+        },
+        {
+          "label": "Mixed-payer adjusted odds,Asian versus white women,age65-79",
+          "groups": [],
+          "source_locator": "Table3,p314",
+          "adjusted": true,
+          "measure": "aOR",
+          "estimate": 1.18,
+          "confidence_interval_95": [
+            1.13,
+            1.24
+          ],
+          "p_value": "<0.001",
+          "model_population_n": 439096
+        },
+        {
+          "label": "Mixed-payer adjusted odds,Asian versus white women,age80+",
+          "groups": [],
+          "source_locator": "Table3,p314",
+          "adjusted": true,
+          "measure": "aOR",
+          "estimate": 0.97,
+          "confidence_interval_95": [
+            0.86,
+            1.11
+          ],
+          "model_population_n": 137407,
+          "interpretation": "No statistically significant difference shown"
+        },
+        {
+          "label": "Mixed-payer adjusted odds,Black versus white women,age65-79",
+          "groups": [],
+          "source_locator": "Table3,p314",
+          "adjusted": true,
+          "measure": "aOR",
+          "estimate": 0.87,
+          "confidence_interval_95": [
+            0.85,
+            0.89
+          ],
+          "p_value": "<0.001",
+          "model_population_n": 439096
+        }
+      ],
+      "adjustment": {
+        "method": "Age-stratified multivariable logistic regression; adjusted odds ratios,95% CIs; additional calendar-year interaction models",
+        "reported_table3_covariates": [
+          "calendar year at start of observation",
+          "age",
+          "race/ethnicity",
+          "estimated net worth",
+          "census division",
+          "chronic comorbidity count",
+          "bone measurement before observation",
+          "primary care encounter during observation",
+          "qualifying hip fracture during observation"
+        ],
+        "important_boundary": "Table3 displayed models are mixed-payer cohorts, not Medicare-only estimates. Insurance type is not displayed as a Table3 coefficient; Methods says all measured characteristics. Exact handling of insurance requires clarification rather than assumption.",
+        "same_window_covariates": "Primary care use and incident hip fracture overlap outcome window; do not assume temporal causality."
+      },
+      "limitations": [
+        "Women-only study cannot estimate a female/male reimbursement or access disparity.",
+        "MA/commercial plan sample does not represent FFS, Medicaid or uninsured populations; MA is separately extractable in Table2, whereas adjusted racial and year coefficients combine payers.",
+        "At least three years continuous enrollment and absence of prior osteoporosis/fracture/drugs restrict generalizability.",
+        "Family history and other individual risk factors, prior test results and life expectancy may justify different screening intervals or nonreceipt; a missing test in two years does not itself prove unmet need.",
+        "Claims-based bone measurement is broader than DXA and cannot ensure every test was screening rather than diagnostic evaluation; hip fractures during follow-up were included.",
+        "No direct measure of denial, reimbursement amount, beneficiary cost sharing or experimentally isolated coverage change; contemporaneous trends do not identify ACA effects.",
+        "Race/ethnicity blends self-report/public records and some name/census imputation; misclassification may affect subgroup estimates.",
+        "Gender identity not reported; project population eligibility pending human adjudication.",
+        "Supplementary file not reviewed and rendered text was not visually checked against a downloaded PDF."
+      ],
+      "counterevidence_and_boundaries": [
+        "MA screening rates were higher than commercial rates overall and among women>=65; this is a crude payer comparison subject to selection/confounding.",
+        "For ages80+, Asian-versus-white adjusted odds ratio0.97 (95%CI0.86-1.11) was null; do not state all Asian age groups had higher screening.",
+        "Unadjusted rates in women65-79 changed little across observation-start years, yet adjusted odds at2013vs2008 were lower. Preserve both.",
+        "Lower rates in younger women may reflect more appropriate risk-targeted testing, not automatically worse access.",
+        "The article describes USPSTF recommendations as universal two-year screening; do not import that as current guidance or treat every two-year nonreceipt as underuse. Verify clinical intervals independently."
+      ],
+      "funding_and_conflicts": {
+        "funding": "No external funding reported",
+        "conflicts": "No conflicts disclosed",
+        "source_locator": "Article p306"
+      },
+      "next_actions": [
+        "Human eligibility adjudication of identity-not-reported cohort.",
+        "Verify key table entries visually from authorized PDF before final publication; supplemental definitions remain unchecked.",
+        "Keep MA-only descriptive results apart from mixed-payer adjusted comparisons.",
+        "Do not use this women-only study to quantify a sex effect or infer a reimbursement-policy effect."
+      ],
+      "proposed_root_study_id": "L-R04"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 # Medicare sex-based coverage and reimbursement: working bibliography
 
-Updated 2026-09-16. Stable IDs match the evidence register. 34 active literature records; 8 scope-excluded records retained for audit; 1 linked correction.
+Updated 2026-09-21. Stable IDs match the evidence register. 38 active literature records; 8 scope-excluded records retained for audit; 1 linked correction.
 
 This is a living reference list for an ongoing review, not a completed systematic-review bibliography. Publication metadata have been checked separately from full-text extraction, eligibility and risk-of-bias assessment. References cited within reviews are not automatically included as screened studies.
 
@@ -14,7 +14,7 @@ Penn M, Colley D, Koirala P, King L, Fitzgerald J. Price and Prejudice: Reimburs
 
 [DOI](https://doi.org/10.1089/jwh.2024.0984) · [PMID 39978776](https://pubmed.ncbi.nlm.nih.gov/39978776/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/39978776/)
 
-**Role:** Candidate evidence / retained code-policy component. **Access:** Abstract plus accessible limitations excerpts.
+**Role:** Candidate evidence / retained code-policy component. **Access:** Source-verified PubMed/publisher abstract; search-indexed publisher PDF limitation excerpt. Full article not retrieved..
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
@@ -32,7 +32,7 @@ Hathaway JK, Schuster MS, Richards KA, Turk TMT. Comparison of Work Relative Val
 
 [DOI](https://doi.org/10.1097/upj.0000000000000612) · [PMID 38758183](https://pubmed.ncbi.nlm.nih.gov/38758183/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38758183/)
 
-**Role:** Candidate evidence / retained code-policy component. **Access:** Abstract plus authors’ detailed AUA comparison table.
+**Role:** Candidate evidence / retained code-policy component. **Access:** Source-verified PubMed and journal abstract; same-author AUA News companion text/table accessed through search index. Peer-reviewed full text not retrieved..
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
@@ -50,7 +50,7 @@ Polan RM, Barber EL. Reimbursement for Female-Specific Compared With Male-Specif
 
 [DOI](https://doi.org/10.1097/aog.0000000000004599) · [PMID 34736273](https://pubmed.ncbi.nlm.nih.gov/34736273/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/34736273/)
 
-**Role:** Candidate evidence / retained code-policy component. **Access:** Targeted full-text review.
+**Role:** Candidate evidence / retained code-policy component. **Access:** Full author manuscript including Methods, Results, Discussion and Table 1 retrieved through public NCBI PMC EFetch XML. Free full text; Europe PMC does not mark an open-access license..
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
@@ -498,6 +498,94 @@ Comparison: Beneficiary reimbursement, charges and deductible experience by pati
 
 Metadata note: DOI not supplied in MEDLINE metadata.
 
+### L-R01
+
+Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, et al. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.
+
+[DOI](https://doi.org/10.1097/mlr.0000000000001458) · [PMID 33298705](https://pubmed.ncbi.nlm.nih.gov/33298705/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/)
+
+**Role:** Patient-care candidate; identity eligibility unresolved. **Access:** Main full-text methods/results/limitations and Tables 1–3; AI preliminary; supplements not reviewed.
+
+**Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-21.
+
+**Analytic subject:** Patient care / access. **Unit:** Community-dwelling Medicare beneficiaries in survey-weighted 2016 MCBS analyses.
+
+Patient sex/gender: Enrollment-record sex, female versus male; gender identity not reported and cisgender eligibility unresolved. Physician sex/gender: Not measured as an analytic exposure.
+
+Comparison: Patient sex differences in cost-related medication nonadherence and companion financial-burden measures, separately for <65 and >=65. Inference boundary: Adjusted associations are not causal reimbursement effects; historical enrollment sex does not establish cisgender identity. Weighted prevalence does not supply unweighted event counts.
+
+Metadata note: Metadata verification is separate from full-text review and study eligibility.
+
+Metadata note: No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.
+
+Metadata note: AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis.
+
+### L-R02
+
+De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.
+
+[DOI](https://doi.org/10.1001/jamanetworkopen.2021.0498) · [PMID 33656528](https://pubmed.ncbi.nlm.nih.gov/33656528/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/)
+
+**Role:** Patient-care candidate; identity eligibility unresolved. **Access:** Full-text methods/results/limitations, Figure 2 and Tables 1–2 via PMC XML; AI preliminary.
+
+**Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-21.
+
+**Analytic subject:** Patient care / access. **Unit:** High-hospitalization-risk Medicare beneficiaries with five repeated CRN surveys.
+
+Patient sex/gender: Survey asked sex; authors report woman/man as gender. Gender identity and cisgender eligibility unresolved. Physician sex/gender: Not measured as an analytic exposure.
+
+Comparison: Patient sex differences in transient, intermittent and persistent cost-related medication nonadherence. Inference boundary: Selected observational cohort, not national prevalence or a randomized sex comparison. Adjusted persistent estimate includes null; this does not establish equivalence.
+
+Metadata note: Metadata verification is separate from full-text review and study eligibility.
+
+Metadata note: No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.
+
+Metadata note: AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis.
+
+### L-R03
+
+Gyftopoulos S, Pelzl CE, Da Silva Cardoso M, Xie J, Kwon SC, Chang CY. Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans. Skeletal Radiol. 2024;53(11):2347-2355.
+
+[DOI](https://doi.org/10.1007/s00256-024-04643-1) · [PMID 38459983](https://pubmed.ncbi.nlm.nih.gov/38459983/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/38459983/)
+
+**Role:** Patient-care candidate; identity eligibility unresolved. **Access:** Abstract and publisher preview only.
+
+**Citation metadata:** Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers; checked 2026-09-21.
+
+Care-item links: G04, G05.
+
+**Analytic subject:** Patient care / access. **Unit:** Medicare beneficiary.
+
+Patient sex/gender: Exact field/source and coding not reported in accessible abstract; claims study population; gender identity not reported. Physician sex/gender: No physician-sex comparison.
+
+Comparison: Unadjusted female/male contrast within Asian American beneficiaries; not all Medicare beneficiaries. Inference boundary: Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved.
+
+Metadata note: No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields. This is a bounded metadata check, not proof no notice exists.
+
+Metadata note: Population identity unresolved; AI candidate extraction, not human eligibility adjudication.
+
+### L-R04
+
+Gillespie CW, Morin PE. Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014. Am J Med. 2017;130(3):306-316.
+
+[DOI](https://doi.org/10.1016/j.amjmed.2016.10.018) · [PMID 27884649](https://pubmed.ncbi.nlm.nih.gov/27884649/) · [Reviewed full text](https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol)
+
+**Role:** Patient-care candidate; identity eligibility unresolved. **Access:** Full main article read as publisher-formatted open-access text hosted on ResearchGate; supplementary file not reviewed.
+
+**Citation metadata:** Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers; checked 2026-09-21.
+
+Care-item links: G04.
+
+**Analytic subject:** Patient care / access. **Unit:** Woman/enrollee; most recent two-year observation window.
+
+Patient sex/gender: Enrollee sex obtained from member files (Methods, Data Source,p307); original coding rules not detailed; gender identity not reported. Physician sex/gender: No physician-sex comparison.
+
+Comparison: Within women by age, payer, race/ethnicity and other characteristics; no female/male contrast. Inference boundary: Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved.
+
+Metadata note: No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields; bounded metadata check, not proof of absence.
+
+Metadata note: Population identity unresolved; AI candidate extraction, not human eligibility adjudication.
+
 ## Contextual literature
 
 ### L-C01
@@ -736,6 +824,46 @@ Balkan E, Babbs G, Meyers DJ, Kelly PJA, Yee K, Pletta DR, et al. Gender-Affirmi
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
+## Additional retrieval references outside the active evidence register
+
+### L-X01
+
+Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y. Gender differences in drug use and expenditures in a privately insured population of older adults. J Womens Health (Larchmt). 2005;14(1):73-81.
+
+[DOI](https://doi.org/10.1089/jwh.2005.14.73) · [PMID 15692281](https://pubmed.ncbi.nlm.nih.gov/15692281/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/15692281/)
+
+**Role:** Unresolved historical lead. **Access:** Verified abstract only.
+
+**Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-21.
+
+Metadata note: Metadata verification is separate from full-text review and study eligibility.
+
+Metadata note: No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.
+
+Metadata note: Historical retrieval lead outside active evidence register; full text, payer composition and identity eligibility remain unresolved.
+
+Metadata note: Verified first author is Rosaly Correa-de-Araujo. Earlier Wilson attribution in a seed record is incorrect; preserve that record separately as an audit trail.
+
+### L-X02
+
+Dusetzina SB, Huskamp HA, Qin X, Keating NL. Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019. JAMA. 2022;328(15):1515-1522.
+
+[DOI](https://doi.org/10.1001/jama.2022.17825) · [PMID 36255428](https://pubmed.ncbi.nlm.nih.gov/36255428/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/36255428/)
+
+**Role:** Spending context outside active register. **Access:** Main full text and table inspected; supplement not inspected.
+
+**Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-21.
+
+Metadata note: Metadata verification is separate from full-text review and study eligibility.
+
+Metadata note: No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.
+
+Metadata note: Spending context outside active evidence register; main report does not estimate a patient-sex effect.
+
+Metadata note: Linked PMID 36255438 is Comment in, not a correction.
+
+Metadata note: Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json.
+
 ## Methodology and reporting guidance
 
 ### M-001
@@ -823,6 +951,20 @@ Lewin S, Booth A, Glenton C, Munthe-Kaas H, Rashidian A, Wainwright M, et al. Ap
 **Role:** Certainty-assessment methods. **Access:** PubMed/MEDLINE metadata, abstract and selected open-access full-text sections reviewed; CERQual implementation papers not fully reviewed.
 
 **Citation metadata:** Verified against PubMed / Europe PMC MEDLINE; checked 2026-09-16.
+
+### M-009
+
+Calderon Martinez E, Ghattas Hasbun PE, Salolin Vargas VP, García-González OY, Fermin Madera MD, Rueda Capistrán DE, et al. A comprehensive guide to conduct a systematic review and meta-analysis in medical research. Medicine (Baltimore). 2025;104(33):e41868.
+
+[DOI](https://doi.org/10.1097/MD.0000000000041868) · [PMID 40826741](https://pubmed.ncbi.nlm.nih.gov/40826741/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/40826741/)
+
+**Role:** Methodological narrative guidance; secondary source. **Access:** Attached full text visually and textually reviewed; PubMed metadata and abstract reviewed.
+
+**Citation metadata:** Verified against PubMed and the attached full-text PDF; checked 2026-09-18.
+
+Metadata note: This is a narrative methodological guide, not a protocol, completed systematic review, reporting standard, risk-of-bias instrument, or Medicare evidence study.
+
+Metadata note: Use for practical workflow reminders only; PRISMA 2020, PRISMA-P, PRISMA-S, PRESS, design-specific risk-of-bias tools and GRADE/CERQual remain the governing methods sources for this project.
 
 ## Clinical guidance for anatomy and physiology classification
 

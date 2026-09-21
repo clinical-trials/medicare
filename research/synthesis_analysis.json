@@ -1,9 +1,9 @@
 {
-  "updated_on": "2026-09-16",
+  "updated_on": "2026-09-21",
   "stage": "Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed",
-  "active_studies": 34,
+  "active_studies": 38,
   "care_items": 40,
-  "hypotheses": 8,
+  "hypotheses": 9,
   "pattern_count": 6,
   "formulary_source": {
     "retrieved": "2026-09-16",
@@ -147,6 +147,10 @@
     "L-P08",
     "L-P09",
     "L-Q01",
+    "L-R01",
+    "L-R02",
+    "L-R03",
+    "L-R04",
     "P-002",
     "P-003",
     "P-012",

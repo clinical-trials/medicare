@@ -7,3 +7,6 @@ __pycache__/
 # Workbook rendering and inspection diagnostics
 research/workbook/*.png
 *.inspect.ndjson
+
+# Research workbook previews (derived visual QA)
+research/review_*/previews/

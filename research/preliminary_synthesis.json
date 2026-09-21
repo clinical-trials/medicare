@@ -1,5 +1,5 @@
 {
-  "version": "1",
+  "version": "1.1",
   "created_on": "2026-09-16",
   "status": "Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed",
   "anchor_study_id": "L-B01",
@@ -33,7 +33,7 @@
       "title": "Procedure valuation findings are sensitive to clinical matching and the payment measure",
       "observation": "Penn reports lower work RVUs for 41 of 55 female-anatomy procedures; Hathaway finds no significant overall difference in 10 closely matched pairs. Polan reports higher female-procedure RVUs/hour but lower modeled specialty compensation/hour. The existing five-pair 2026 check contains differences in both directions.",
       "interpretation": "A conditional valuation problem is plausible and merits a prespecified comparison of clinically comparable work. Specialty compensation, work RVUs and actual Medicare payments require separate analyses.",
-      "boundary": "Selected pairs cannot establish a universal effect. A nonsignificant small study is not evidence of equivalence. Anatomy-based procedures do not measure physician gender, and operative time omits other work.",
+      "boundary": "Selected pairs cannot establish a universal effect. Nonsignificance does not establish equivalence. Full texts of Penn/Hathaway remain pending; Hathaway journal/companion pair counts disagree (10/9). Polan dollar rates model specialty compensation; some printed arithmetic needs verification.",
       "study_ids": [
         "L-P01",
         "L-P02",
@@ -69,12 +69,14 @@
     {
       "id": "PAT-04",
       "title": "Disadvantage can affect men in shared conditions",
-      "observation": "Historical Medicare bone-testing use was much lower in men. In selected men with recent fragility fracture, an outreach program increased bone-density testing from 4.9% to 10.7%, though absolute uptake stayed low. Testosterone products also face authorization requirements in the formulary snapshot.",
+      "observation": "Historical Medicare bone-testing use was lower in men. A men's fragility-fracture outreach program increased testing from 4.9% to 10.7%. A newly checked, identity-unresolved Asian American Medicare study reports DXA receipt of 19.8% in women and 5.0% in men, with different age thresholds. A separate women-only MA study reports lower two-year bone measurement at age >=80 than 65–79.",
       "interpretation": "Test gaps in appropriate care in either direction. Clinical recognition, referral and treatment completion may matter alongside reimbursement.",
-      "boundary": "The outreach trial has no female comparison. Current bone-test eligibility has several qualifying routes, including routes for men. Hormone indications and safety requirements differ.",
+      "boundary": "New patient records have unresolved identity eligibility. The Asian American result is crude and abstract-only, with women >=65 versus men >=70; it is not a national adjusted sex effect. MA women-only results do not estimate a male/female gap. Need, preferences, intervals and delivery barriers remain distinct from coverage.",
       "study_ids": [
         "L-G04",
-        "L-G05"
+        "L-G05",
+        "L-R03",
+        "L-R04"
       ],
       "policy_ids": [
         "P-002",
@@ -99,19 +101,21 @@
     {
       "id": "PAT-06",
       "title": "Clinical need and practical barriers connect the evidence but remain incompletely measured",
-      "observation": "The Lancet review explains how biological sex and social gender can shape need, presentation and treatment response. Kidney-care interviews describe perceived financial, caregiving and transport barriers. Breast reconstruction studies raise concerns about valuation relative to operative work.",
+      "observation": "The Lancet review connects biology and social pathways to clinical need; kidney-care interviews identify perceived practical barriers. Newly extracted, identity-unresolved Medicare studies report female-higher cost-related nonadherence in a 2016 national survey but an imprecise adjusted persistent-nonadherence contrast in a selected Chicago cohort.",
       "interpretation": "A useful research model separates clinical need, recognition/referral, eligibility, financial/administrative burden and completed care. It permits both policy and nonpolicy mechanisms.",
-      "boundary": "The Lancet article is clinical background, interviews measure perceptions, and breast studies are not direct patient-sex comparisons. None alone demonstrates Medicare discrimination.",
+      "boundary": "Patient identity eligibility and human verification remain pending. Annual any-nonadherence and persistent nonadherence are different outcomes; do not pool them. These historical observational results do not establish current coverage discrimination.",
       "study_ids": [
         "L-B01",
         "L-B01-E1",
         "L-Q01",
         "L-P07",
         "L-P08",
-        "L-P09"
+        "L-P09",
+        "L-R01",
+        "L-R02"
       ],
       "policy_ids": [],
-      "dashboard": "Measure the full care pathway: need, referral, eligibility, burden and completed care. The links between stages still need testing."
+      "dashboard": "Medication affordability is a measurable access pathway. National and selected-cohort results differ in precision and outcome; identity eligibility remains unresolved."
     }
   ],
   "hypotheses": [
@@ -334,11 +338,35 @@
       ],
       "next_step": "Extract reconstruction studies in full and define independent episode work. A later patient-access test requires linked data on offers, delays and nonrecipients; the initial valuation test cannot establish those effects.",
       "evidence_summary": "Breast reconstruction studies report lower work RVUs per operative time for flap versus implant procedures and declining real fees. Complete episode work and clinically comparable non-breast services remain unmeasured; no direct patient-sex effect was estimated."
+    },
+    {
+      "id": "HYP-09",
+      "title": "Medication affordability and sex differences in nonadherence",
+      "stream": "Patient care/access",
+      "statement": "Among beneficiaries with comparable medication needs, financial burden contributes to sex differences in cost-related nonadherence, with potentially different effects for younger and older beneficiaries.",
+      "population": "Medicare beneficiaries using indicated medicines; retain <65 and >=65 strata and resolve the project identity criterion before primary inclusion.",
+      "exposure": "Actual patient cost sharing and changes in financial protection; keep coverage, income and disease burden distinct.",
+      "comparator": "Comparable medication needs across sex and policy periods; benefit-change studies need defensible controls.",
+      "outcome": "Annual any cost-related nonadherence and longitudinal persistence analyzed separately; retain reduced spending on necessities as a separate outcome.",
+      "test": "Extract complete age-specific estimates, assess overlap and outcome compatibility, then examine policy-change designs with pretrends, clinical need and potential mediators specified.",
+      "alternatives": "Different illness and medicine burdens, income, recall, patient preferences, plan selection and survivor selection; adjustment may also remove pathways of disparity.",
+      "weakens": "Precise null contrasts in clinically comparable groups and no differential response to financial protection would weaken the proposed mechanism; imprecise null results do not establish equality.",
+      "readiness": "Two provisional full-text candidates; identity eligibility, human verification and appraisal pending",
+      "priority": "Further evidence extraction",
+      "evidence_ids": [
+        "L-R01"
+      ],
+      "counter_ids": [
+        "L-R02"
+      ],
+      "policy_ids": [],
+      "next_step": "Verify complete tables and model denominators, retrieve supplements, complete independent human review and search for compatible policy-change studies.",
+      "evidence_summary": "MCBS 2016 female:male adjusted OR 1.66 (1.31–2.10) under65 and 1.21 (1.04–1.41) at65+. Chicago persistent-nonadherence OR 1.36 (0.95–1.95). Different endpoints and samples prevent direct pooling; neither establishes current causal bias."
     }
   ],
   "guardrails": [
     "These hypotheses were generated after inspecting the selected evidence. They are exploratory, not prospectively registered confirmatory tests. Prespecify the next analyses, effect sizes of interest and matching rules before testing.",
-    "The 40 care rows and 34 literature records are a selected starting set, with 27 primary candidates and 7 context records. They are not all Medicare services or an unbiased sample of disparities.",
+    "The 40 care rows and 38 literature records are a selected starting set, with 31 primary candidates and 7 context records. They are not all Medicare services or an unbiased sample of disparities.",
     "Formal risk-of-bias appraisal, complete searches and full-text eligibility remain incomplete. Reporting male/female does not establish cisgender identity. Apply the current population criterion without relabeling cohorts.",
     "Distinguish sex/gender, anatomy, need, disease burden and physician gender. Clinical need must be defined independently of coverage and observed utilization. Include eligible people who did not receive care.",
     "Preserve original Medicare, MA, Part D, contractor, plan, year, setting and age/entitlement distinctions. Do not pool patient, physician and procedure-code effects.",
@@ -374,5 +402,6 @@
       ]
     }
   ],
-  "search_expansion": "Use the Lancet review to organize searches in cardiovascular and cerebrovascular disease, kidney disease, lung disease, nonreproductive cancers, metabolic disease, musculoskeletal conditions, pain, mental health and prevention. These are search domains, not newly established reimbursement findings. Follow cited references independently, retain PMIDs and append reproducible searches and screening decisions. Seek broader Medicare cohorts to counter the current reproductive-care concentration."
+  "search_expansion": "Use the Lancet review to organize searches in cardiovascular and cerebrovascular disease, kidney disease, lung disease, nonreproductive cancers, metabolic disease, musculoskeletal conditions, pain, mental health and prevention. These are search domains, not newly established reimbursement findings. Follow cited references independently, retain PMIDs and append reproducible searches and screening decisions. Seek broader Medicare cohorts to counter the current reproductive-care concentration.",
+  "updated_on": "2026-09-21"
 }

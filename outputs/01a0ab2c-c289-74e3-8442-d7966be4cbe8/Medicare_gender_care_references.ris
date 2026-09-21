@@ -18,9 +18,9 @@ AN  - 39978776
 UR  - https://pubmed.ncbi.nlm.nih.gov/39978776/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
-N1  - Stable ID L-P01. Candidate evidence / retained code-policy component. Abstract plus accessible limitations excerpts. Verified against Europe PMC / MEDLINE.
+N1  - Stable ID L-P01. Candidate evidence / retained code-policy component. Source-verified PubMed/publisher abstract; search-indexed publisher PDF limitation excerpt. Full article not retrieved.. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Male- versus female-anatomy procedure valuation. Inference boundary: Payment to a physician for a code is not a comparison of physician genders; selected pairs are not all Medicare services..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P02
@@ -41,9 +41,9 @@ AN  - 38758183
 UR  - https://pubmed.ncbi.nlm.nih.gov/38758183/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
-N1  - Stable ID L-P02. Candidate evidence / retained code-policy component. Abstract plus authors’ detailed AUA comparison table. Verified against Europe PMC / MEDLINE.
+N1  - Stable ID L-P02. Candidate evidence / retained code-policy component. Source-verified PubMed and journal abstract; same-author AUA News companion text/table accessed through search index. Peer-reviewed full text not retrieved.. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Directly analogous urologic and gynecologic procedures. Inference boundary: Null results in selected pairs do not establish equality across all services or patient access..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P03
@@ -62,9 +62,9 @@ AN  - 34736273
 UR  - https://pubmed.ncbi.nlm.nih.gov/34736273/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
-N1  - Stable ID L-P03. Candidate evidence / retained code-policy component. Targeted full-text review. Verified against Europe PMC / MEDLINE.
+N1  - Stable ID L-P03. Candidate evidence / retained code-policy component. Full author manuscript including Methods, Results, Discussion and Table 1 retrieved through public NCBI PMC EFetch XML. Free full text; Europe PMC does not mark an open-access license.. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy-specific procedure groups; patient data inform operative resources. Physician sex/gender: Specialty compensation variable; not physician gender. Comparison: Female- versus male-specific procedure work and modeled compensation. Inference boundary: Modeled specialty compensation is not an observed physician-gender effect or a sex-specific Medicare conversion factor..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P04
@@ -86,7 +86,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P04. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Patient clinical case mix; no isolated patient-sex effect extracted. Physician sex/gender: Surgical specialty comparison; not physician gender. Comparison: Valuation and reported versus observed operative time across specialties. Inference boundary: Specialty differences do not isolate either patient-sex or physician-gender discrimination..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P05
@@ -108,7 +108,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P05. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Male- versus female-anatomy procedures in the 1995 schedule. Inference boundary: Historical code-payment differences do not measure current coverage or physician-gender pay..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P06
@@ -130,7 +130,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P06. Candidate evidence / retained code-policy component. Targeted full-text review. Verified against Europe PMC / MEDLINE. Legacy citation abbreviates the title after “gender-specific procedures.” Full MEDLINE title includes the subtitle; DOI and PMID agree.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomy represented by procedure categories; no patient identity measurement. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Male- versus female-anatomy procedure RVUs and compensation estimates. Inference boundary: Matching assumptions and the underlying FECA source limit direct Medicare interpretation; physician gender is not the extracted comparison..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P07
@@ -155,7 +155,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P07. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE. Volume, issue and pages absent from retrieved MEDLINE metadata; retain online-ahead-of-print citation and DOI.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Breast-reconstruction indication; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Implant versus flap reconstruction and changes over time. Inference boundary: Within-breast-service resource differences do not independently establish patient-sex or physician-gender bias..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P08
@@ -182,7 +182,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P08. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Anatomical service category; no patient cohort. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Breast-procedure payments over time and across locations. Inference boundary: Payment erosion within selected services is not a patient-sex comparison or evidence of physician-gender differences..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P09
@@ -207,7 +207,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P09. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Breast-reconstruction indication; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Implant, pedicled-flap and free-flap work and payment per time. Inference boundary: Patient records support resource comparisons; no independent sex-disparity estimate is extracted..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-P10
@@ -234,7 +234,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-P10. Candidate evidence / retained code-policy component. Citation and abstract; full-text extraction not completed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Women in an indication-specific trial; not a between-sex contrast. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Physical therapy versus topical lidocaine. Inference boundary: Clinical effectiveness within an eligible population does not establish reimbursement inequity..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D01
@@ -257,7 +257,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D01. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE. Legacy citation uses 2024, the electronic publication year (2024-03-26). The final issue is January 2025;31(1):58–64. Bibliography uses the final issue year; original citation is preserved.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Vaginal-estrogen indication; no between-sex effect extracted. Physician sex/gender: Prescriber data source; no physician-gender effect extracted. Comparison: Selected vaginal-estrogen products and spending/utilization over time. Inference boundary: Use of prescriber files does not make this a physician-gender study; product spending is not patient out-of-pocket cost..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D02
@@ -279,7 +279,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D02. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Senior women; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Hormone treatment, formulation, route and dose versus nonuse/discontinuation. Inference boundary: Observational treatment-outcome associations do not estimate sex-based reimbursement or prove causal treatment effects..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D03
@@ -307,7 +307,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D03. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Vaginal estradiol, moisturizer and placebo. Inference boundary: A within-population clinical null result does not determine Medicare coverage or demonstrate reimbursement parity..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D04
@@ -344,7 +344,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D04. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women with GSM; indication-specific evidence. Physician sex/gender: Not extracted as an analytic exposure. Comparison: GSM treatments versus placebo or alternatives. Inference boundary: Treatment benefit and certainty are clinical evidence; no reimbursement or between-sex effect is extracted..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D05
@@ -374,7 +374,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D05. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Women aged 40–65; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Fezolinetant versus placebo. Inference boundary: Treatment efficacy is not a coverage comparison; applicability to older Medicare beneficiaries requires assessment..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D06
@@ -400,7 +400,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D06. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Low-dose paroxetine versus placebo. Inference boundary: Clinical benefit does not establish formulary access or a between-sex disparity..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D07
@@ -425,7 +425,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D07. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Women with HSDD; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Flibanserin versus placebo. Inference boundary: Benefits and harms within women do not measure physician gender or comparative Medicare reimbursement..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D08
@@ -452,7 +452,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D08. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Premenopausal women with HSDD; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Bremelanotide versus placebo. Inference boundary: Clinical response and adverse effects do not establish sex-based coverage differences..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D09
@@ -497,7 +497,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D09. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Men with hypogonadism and cardiovascular risk; indication-specific population. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Testosterone gel versus placebo. Inference boundary: Male-only safety evidence supplies clinical context, not a matched female comparison or payment-disparity estimate..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-D10
@@ -529,7 +529,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-D10. Candidate evidence / retained code-policy component. PubMed citation and abstract; no systematic full-text extraction. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Postmenopausal women with a uterus; sex/anatomy-defined eligibility. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Combined hormone regimen versus placebo for primary prevention. Inference boundary: Regimen-specific benefits and harms do not establish reimbursement differences or apply to every menopausal indication..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G04
@@ -558,7 +558,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G04. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Recorded patient sex is a direct male–female comparison; identity not established. Physician sex/gender: Not extracted as an analytic exposure. Comparison: DXA utilization by patient sex and other demographic strata. Inference boundary: Utilization differences do not isolate coverage, clinical need or discrimination..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G05
@@ -583,7 +583,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G05. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Men with fragility fractures; population restriction rather than between-sex comparison. Physician sex/gender: Physicians receive outreach; no physician-gender effect extracted. Comparison: Outreach versus usual care for bone testing and treatment. Inference boundary: Physician participation in an intervention is not physician-gender analysis; no direct female comparator..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G09
@@ -607,7 +607,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G09. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Women aged 20–49; population restriction rather than between-sex comparison. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Payer/coverage groups and change after dual enrollment. Inference boundary: Coverage-associated contraceptive use is patient-access evidence, not a male–female matched effect..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G10
@@ -635,7 +635,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-G10. Candidate evidence / retained code-policy component. Abstract plus author-institution summary for period. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Contraceptive indication/population; no between-sex effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Traditional Medicare versus Medicare Advantage and clinical indications. Inference boundary: Payer and method comparisons do not identify patient-sex or physician-gender effects; claims may miss unmet need..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-A01
@@ -664,7 +664,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-A01. Candidate evidence / retained code-policy component. Citation/abstract extraction recorded; full-text review pending. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Survivorship population; no matched male–female effect extracted. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Survivors with versus without lymphedema. Inference boundary: Sex/gender identity is not inferred from breast cancer; condition-related costs are not a direct sex-disparity estimate..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-A02
@@ -689,7 +689,7 @@ KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
 N1  - Stable ID L-A02. Candidate evidence / retained code-policy component. Citation/abstract extraction recorded; full-text review pending. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Service / anatomy valuation or coverage. Patient sex/gender: Condition-specific benefit policies; no patient cohort. Physician sex/gender: No physician-level comparison in the extracted policy analysis. Comparison: Lymphedema treatment coverage across insurers and modalities. Inference boundary: Published policy is distinct from patient claims, access and sex-specific effects; Medicare applicability needs separate verification..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-C01
@@ -712,7 +712,7 @@ KW  - Clinician context
 Y2  - 2026-09-16
 N1  - Stable ID L-C01. Clinician context. Abstract verified; full text not reviewed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Physician sex / gender. Patient sex/gender: No patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary comparison; measurement details not fully extracted. Comparison: Medicare collections by ophthalmologist gender. Inference boundary: Collections are not salary or identical-service payment rates; patient-sex inequity cannot be inferred..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-C02
@@ -742,7 +742,7 @@ KW  - Clinician context
 Y2  - 2026-09-16
 N1  - Stable ID L-C02. Clinician context. Targeted main-text review via indexed PMC; supplement not reviewed. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Physician sex / gender. Patient sex/gender: Patient case mix enters adjustment; no patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary comparison; self-reported gender linked to NPI. Comparison: Annual Medicare payments and common-code payments by cardiologist gender. Inference boundary: Provider payments are not salary; adjusted annual differences do not establish unequal rates for identical services..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-C03
@@ -767,7 +767,7 @@ KW  - Clinician context
 Y2  - 2026-09-16
 N1  - Stable ID L-C03. Clinician context. Targeted main-text and tables review; supplement not independently reviewed. Verified against Europe PMC / MEDLINE and publisher. Publisher explicitly reports online publication on 2024-07-24; the final issue citation is September 2024. Europe PMC does not populate the electronic-publication-date field in this record, so the publisher supplies that date. No linked correction or retraction appeared in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16, and no such notice was identified on the publisher article page. Absence of links is not a guarantee that no notice exists.
 N1  - Analytic subject: Physician sex / gender. Patient sex/gender: Patient sex is descriptive case mix; no patient-sex disparity estimate extracted. Physician sex/gender: Physician gender is the primary analytic exposure. Comparison: Surgeon gender and provider-service payment/utilization comparisons. Inference boundary: Physician-gender findings do not establish patient-sex reimbursement effects; distinguish provider totals, service rates and salary..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-H01
@@ -788,7 +788,7 @@ KW  - Historical patient evidence; eligibility pending
 Y2  - 2026-09-16
 N1  - Stable ID L-H01. Historical patient evidence; eligibility pending. Targeted full-text extraction; CMS PDF checked against indexed PMC. Verified against Europe PMC / MEDLINE. DOI not supplied in MEDLINE metadata.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Enrollment-file sex is a direct male–female comparison; identity not reported. Physician sex/gender: Not extracted as an analytic exposure. Comparison: Beneficiary reimbursement, charges and deductible experience by patient sex. Inference boundary: Payments for physician services are grouped by patient sex here; historical service mix prevents a causal or current-policy inference..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-B01
@@ -826,7 +826,7 @@ Y2  - 2026-09-16
 N1  - Stable ID L-B01. Clinical background. Targeted main-text review; citation and linked correction verified. Verified against Europe PMC / MEDLINE. MEDLINE links a published erratum: PMID 32891210; DOI 10.1016/S0140-6736(20)31827-4.
 N1  - Analytic subject: General patient sex / gender background. Patient sex/gender: Sex-related biology and gender-related social influences are general clinical topics. Physician sex/gender: No original physician-gender estimate extracted. Comparison: General frameworks across diseases and treatments. Inference boundary: Background synthesis supplies rationale; underlying studies require independent screening and cannot be treated as Medicare evidence..
 N1  - corrected_by: L-B01-E1
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-B02
@@ -846,7 +846,7 @@ KW  - Clinical background
 Y2  - 2026-09-16
 N1  - Stable ID L-B02. Clinical background. Targeted main-text review via indexed PMC; citation verified. Verified against Europe PMC / MEDLINE. No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16; absence of metadata links is not a guarantee that none exists. Narrative review published in 2020; metadata verification does not validate its early-pandemic clinical claims.
 N1  - Analytic subject: General patient sex / gender background. Patient sex/gender: Sex/gender-related outcomes and social pathways are general topics. Physician sex/gender: No original physician-gender estimate extracted. Comparison: Gendered social conditions and early COVID-19 findings. Inference boundary: Narrative background is not an original patient cohort or Medicare reimbursement analysis..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-B03
@@ -870,7 +870,7 @@ KW  - Clinical background
 Y2  - 2026-09-16
 N1  - Stable ID L-B03. Clinical background. Publisher main text reviewed via indexed page; citation verified. Verified against Europe PMC / MEDLINE. Publisher classifies this three-page article as commentary. It is contextual literature, not an original Medicare reimbursement study. The publisher’s inline Correction Statement reports republication with minor changes that do not affect academic content. No separate correction identifier is supplied there; retain the statement with this record rather than create an independent erratum. No linked correction or retraction was present in the Europe PMC/MEDLINE record or Crossref relation/update fields checked on 2026-09-16. This does not negate the publisher’s inline republication notice or guarantee that no other update exists.
 N1  - Analytic subject: General patient sex / gender background. Patient sex/gender: Men's care-seeking and gender norms are general access topics. Physician sex/gender: No original physician-gender estimate extracted. Comparison: Proposed gender-responsive public-health approaches. Inference boundary: Commentary generates access hypotheses; it does not establish Medicare effects or intervention effectiveness..
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-Q01
@@ -901,7 +901,102 @@ KW  - Qualitative access context
 Y2  - 2026-09-16
 N1  - Stable ID L-Q01. Qualitative access context. Targeted full-text review: methods, results, tables and limitations. Verified against Europe PMC / MEDLINE. Published electronically 2021-11-09; final collection citation is March 2022, volume 7, issue 3, pages 424–435. Bibliography uses the final collection year. Original qualitative interview study, rather than a general review or clinician-payment comparison. MEDLINE and publisher-supplied full-text XML link the editorial “CKD—Where Have All the Women Gone?” (PMID 35258512; PMCID PMC8897673; DOI 10.1016/j.ekir.2021.11.032) as commentary on this article, not as a correction or retraction. It is a related lead, not a separately screened study in this register. No linked correction or retraction appeared in the Europe PMC/MEDLINE record, publisher-supplied full-text XML or Crossref relation/update fields checked on 2026-09-16. Absence of such links is not a guarantee that no notice exists.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Patient-sex/gender access barriers are the interview topic; no measured patient cohort. Physician sex/gender: Clinicians are respondents; no physician-gender disparity estimate extracted. Comparison: Clinician perceptions of barriers affecting women's and men's kidney care. Inference boundary: The respondents' profession does not change the patient-access question; perceptions are not measured patient outcomes or Medicare effects..
-ER  - 
+ER  -
+
+TY  - JOUR
+ID  - L-R01
+AU  - Nekui, Farrah
+AU  - Galbraith, Alison A
+AU  - Briesacher, Becky A
+AU  - Zhang, Fang
+AU  - Soumerai, Stephen B
+AU  - Ross-Degnan, Dennis
+AU  - Gurwitz, Jerry H
+AU  - Madden, Jeanne M
+TI  - Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.
+JO  - Medical care
+JA  - Med Care
+PY  - 2021
+VL  - 59
+IS  - 1
+SP  - 13
+EP  - 21
+DO  - 10.1097/mlr.0000000000001458
+AN  - 33298705
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/
+KW  - Patient-care candidate; identity eligibility unresolved
+Y2  - 2026-09-21
+N1  - Stable ID L-R01. Patient-care candidate; identity eligibility unresolved. Main full-text methods/results/limitations and Tables 1–3; AI preliminary; supplements not reviewed. Verified against Europe PMC / MEDLINE. Metadata verification is separate from full-text review and study eligibility. No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence. AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Enrollment-record sex, female versus male; gender identity not reported and cisgender eligibility unresolved. Physician sex/gender: Not measured as an analytic exposure. Comparison: Patient sex differences in cost-related medication nonadherence and companion financial-burden measures, separately for <65 and >=65. Inference boundary: Adjusted associations are not causal reimbursement effects; historical enrollment sex does not establish cisgender identity. Weighted prevalence does not supply unweighted event counts..
+ER  -
+
+TY  - JOUR
+ID  - L-R02
+AU  - De Avila, Jorge L
+AU  - Meltzer, David O
+AU  - Zhang, James X
+TI  - Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.
+JO  - JAMA network open
+JA  - JAMA Netw Open
+PY  - 2021
+VL  - 4
+IS  - 3
+SP  - e210498
+DO  - 10.1001/jamanetworkopen.2021.0498
+AN  - 33656528
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/
+KW  - Patient-care candidate; identity eligibility unresolved
+Y2  - 2026-09-21
+N1  - Stable ID L-R02. Patient-care candidate; identity eligibility unresolved. Full-text methods/results/limitations, Figure 2 and Tables 1–2 via PMC XML; AI preliminary. Verified against Europe PMC / MEDLINE. Metadata verification is separate from full-text review and study eligibility. No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence. AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Survey asked sex; authors report woman/man as gender. Gender identity and cisgender eligibility unresolved. Physician sex/gender: Not measured as an analytic exposure. Comparison: Patient sex differences in transient, intermittent and persistent cost-related medication nonadherence. Inference boundary: Selected observational cohort, not national prevalence or a randomized sex comparison. Adjusted persistent estimate includes null; this does not establish equivalence..
+ER  -
+
+TY  - JOUR
+ID  - L-R03
+AU  - Gyftopoulos, Soterios
+AU  - Pelzl, Casey E
+AU  - Da Silva Cardoso, Madalena
+AU  - Xie, Juliana
+AU  - Kwon, Simona C
+AU  - Chang, Connie Y
+TI  - Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans.
+JO  - Skeletal radiology
+JA  - Skeletal Radiol
+PY  - 2024
+VL  - 53
+IS  - 11
+SP  - 2347
+EP  - 2355
+DO  - 10.1007/s00256-024-04643-1
+AN  - 38459983
+UR  - https://pubmed.ncbi.nlm.nih.gov/38459983/
+KW  - Patient-care candidate; identity eligibility unresolved
+Y2  - 2026-09-21
+N1  - Stable ID L-R03. Patient-care candidate; identity eligibility unresolved. Abstract and publisher preview only. Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers. No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields. This is a bounded metadata check, not proof no notice exists. Population identity unresolved; AI candidate extraction, not human eligibility adjudication.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Exact field/source and coding not reported in accessible abstract; claims study population; gender identity not reported. Physician sex/gender: No physician-sex comparison. Comparison: Unadjusted female/male contrast within Asian American beneficiaries; not all Medicare beneficiaries. Inference boundary: Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved..
+ER  -
+
+TY  - JOUR
+ID  - L-R04
+AU  - Gillespie, Catherine W
+AU  - Morin, Pamela E
+TI  - Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014.
+JO  - The American journal of medicine
+JA  - Am J Med
+PY  - 2017
+VL  - 130
+IS  - 3
+SP  - 306
+EP  - 316
+DO  - 10.1016/j.amjmed.2016.10.018
+AN  - 27884649
+UR  - https://pubmed.ncbi.nlm.nih.gov/27884649/
+KW  - Patient-care candidate; identity eligibility unresolved
+Y2  - 2026-09-21
+L2  - https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol
+N1  - Stable ID L-R04. Patient-care candidate; identity eligibility unresolved. Full main article read as publisher-formatted open-access text hosted on ResearchGate; supplementary file not reviewed. Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers. No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields; bounded metadata check, not proof of absence. Population identity unresolved; AI candidate extraction, not human eligibility adjudication.
+N1  - Analytic subject: Patient care / access. Patient sex/gender: Enrollee sex obtained from member files (Methods, Data Source,p307); original coding rules not detailed; gender identity not reported. Physician sex/gender: No physician-sex comparison. Comparison: Within women by age, payer, race/ethnicity and other characteristics; no female/male contrast. Inference boundary: Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved..
+ER  -
 
 TY  - JOUR
 ID  - L-G01
@@ -924,7 +1019,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC5367475/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G01. Excluded by current population scope. Full-text sections. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G02
@@ -944,7 +1039,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8082431/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G02. Excluded by current population scope. Full-text sections. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G03
@@ -967,7 +1062,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/33644622/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G03. Excluded by current population scope. Abstract. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G06
@@ -991,7 +1086,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/38663835/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G06. Excluded by current population scope. Abstract. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G07
@@ -1014,7 +1109,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/38353948/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G07. Excluded by current population scope. Abstract. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G08
@@ -1036,7 +1131,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/25455121/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G08. Excluded by current population scope. Abstract. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G11
@@ -1056,7 +1151,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7280420/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G11. Excluded by current population scope. Indexed full-text methods/results; direct PMC page blocked. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-G12
@@ -1083,7 +1178,7 @@ UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12046427/
 KW  - Excluded by current population scope
 Y2  - 2026-09-16
 N1  - Stable ID L-G12. Excluded by current population scope. Indexed full-text methods/results; direct PMC page blocked. Verified against Europe PMC / MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - L-B01-E1
@@ -1101,7 +1196,7 @@ KW  - Linked correction; not an independent study
 Y2  - 2026-09-16
 N1  - Stable ID L-B01-E1. Linked correction; not an independent study. Correction metadata verified. Verified against Europe PMC / MEDLINE. Published erratum linked by MEDLINE to PMID 32828189. No authors supplied in the correction metadata. This is a linked correction, not an independent study.
 N1  - corrects: L-B01
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-001
@@ -1143,7 +1238,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/33782057/
 KW  - Reporting guidance
 Y2  - 2026-09-16
 N1  - Stable ID M-001. Reporting guidance. PubMed/MEDLINE metadata; PRISMA statement abstract and publisher scope/reporting guidance reviewed. Verified against PubMed / Europe PMC MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-002
@@ -1176,7 +1271,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/21195583/
 KW  - Certainty-assessment methods
 Y2  - 2026-09-16
 N1  - Stable ID M-002. Certainty-assessment methods. PubMed/MEDLINE citation and abstract reviewed; full text not reviewed. Verified against PubMed / Europe PMC MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-003
@@ -1202,7 +1297,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/25554246/
 KW  - Reporting guidance
 Y2  - 2026-09-16
 N1  - Stable ID M-003. Reporting guidance. PubMed/MEDLINE metadata and abstract reviewed; official PRISMA protocol guidance reviewed; full article not reviewed. Verified against PubMed / Europe PMC MEDLINE. Issue 1 verified in PubMed record; Europe PMC core metadata omits issue. Collective author retained separately from named individual authors.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-004
@@ -1227,7 +1322,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/33499930/
 KW  - Reporting guidance
 Y2  - 2026-09-16
 N1  - Stable ID M-004. Reporting guidance. PubMed/MEDLINE metadata and abstract reviewed; full article not reviewed. Verified against PubMed / Europe PMC MEDLINE. Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-005
@@ -1250,7 +1345,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/27005575/
 KW  - Search peer-review methods
 Y2  - 2026-09-16
 N1  - Stable ID M-005. Search peer-review methods. PubMed/MEDLINE citation and abstract reviewed; full guideline documents not reviewed. Verified against PubMed / Europe PMC MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-006
@@ -1275,7 +1370,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/23222917/
 KW  - Reporting guidance
 Y2  - 2026-09-16
 N1  - Stable ID M-006. Reporting guidance. PubMed/MEDLINE metadata, official PRISMA-Equity scope guidance and selected full-text excerpts reviewed; full explanation-and-elaboration article not reviewed. Verified against PubMed / Europe PMC MEDLINE. Collective author retained separately from named individual authors; listed collaborators are not duplicated as individual authors.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-007
@@ -1303,7 +1398,7 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/31948937/
 KW  - Reporting guidance
 Y2  - 2026-09-16
 N1  - Stable ID M-007. Reporting guidance. PubMed/MEDLINE metadata and publisher summary reviewed; official Cochrane guidance on scope reviewed; full guideline not reviewed. Verified against PubMed / Europe PMC MEDLINE.
-ER  - 
+ER  -
 
 TY  - JOUR
 ID  - M-008
@@ -1333,7 +1428,77 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/29384079/
 KW  - Certainty-assessment methods
 Y2  - 2026-09-16
 N1  - Stable ID M-008. Certainty-assessment methods. PubMed/MEDLINE metadata, abstract and selected open-access full-text sections reviewed; CERQual implementation papers not fully reviewed. Verified against PubMed / Europe PMC MEDLINE.
-ER  - 
+ER  -
+
+TY  - JOUR
+ID  - M-009
+AU  - Calderon Martinez, Ernesto
+AU  - Ghattas Hasbun, Patricia E
+AU  - Salolin Vargas, Vanessa P
+AU  - García-González, Oxiris Y
+AU  - Fermin Madera, Mariela D
+AU  - Rueda Capistrán, Diego E
+AU  - Campos Carmona, Thomas
+AU  - Sanchez Cruz, Camila
+AU  - Teran Hooper, Camila
+TI  - A comprehensive guide to conduct a systematic review and meta-analysis in medical research.
+JO  - Medicine (Baltimore)
+JA  - Medicine (Baltimore)
+PY  - 2025
+VL  - 104
+IS  - 33
+SP  - e41868
+DO  - 10.1097/MD.0000000000041868
+AN  - 40826741
+UR  - https://pubmed.ncbi.nlm.nih.gov/40826741/
+KW  - Methodological narrative guidance; secondary source
+Y2  - 2026-09-18
+N1  - Stable ID M-009. Methodological narrative guidance; secondary source. Attached full text visually and textually reviewed; PubMed metadata and abstract reviewed. Verified against PubMed and the attached full-text PDF. This is a narrative methodological guide, not a protocol, completed systematic review, reporting standard, risk-of-bias instrument, or Medicare evidence study. Use for practical workflow reminders only; PRISMA 2020, PRISMA-P, PRISMA-S, PRESS, design-specific risk-of-bias tools and GRADE/CERQual remain the governing methods sources for this project.
+ER  -
+
+TY  - JOUR
+ID  - L-X01
+AU  - Correa-de-Araujo, Rosaly
+AU  - Miller, G Edward
+AU  - Banthin, Jessica S
+AU  - Trinh, Yen
+TI  - Gender differences in drug use and expenditures in a privately insured population of older adults.
+JO  - Journal of women's health (2002)
+JA  - J Womens Health (Larchmt)
+PY  - 2005
+VL  - 14
+IS  - 1
+SP  - 73
+EP  - 81
+DO  - 10.1089/jwh.2005.14.73
+AN  - 15692281
+UR  - https://pubmed.ncbi.nlm.nih.gov/15692281/
+KW  - Unresolved historical lead
+Y2  - 2026-09-21
+N1  - Stable ID L-X01. Unresolved historical lead. Verified abstract only. Verified against Europe PMC / MEDLINE. Metadata verification is separate from full-text review and study eligibility. No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence. Historical retrieval lead outside active evidence register; full text, payer composition and identity eligibility remain unresolved. Verified first author is Rosaly Correa-de-Araujo. Earlier Wilson attribution in a seed record is incorrect; preserve that record separately as an audit trail.
+ER  -
+
+TY  - JOUR
+ID  - L-X02
+AU  - Dusetzina, Stacie B
+AU  - Huskamp, Haiden A
+AU  - Qin, Xuanzi
+AU  - Keating, Nancy L
+TI  - Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019.
+JO  - JAMA
+JA  - JAMA
+PY  - 2022
+VL  - 328
+IS  - 15
+SP  - 1515
+EP  - 1522
+DO  - 10.1001/jama.2022.17825
+AN  - 36255428
+UR  - https://pubmed.ncbi.nlm.nih.gov/36255428/
+KW  - Spending context outside active register
+Y2  - 2026-09-21
+N1  - Stable ID L-X02. Spending context outside active register. Main full text and table inspected; supplement not inspected. Verified against Europe PMC / MEDLINE. Metadata verification is separate from full-text review and study eligibility. No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence. Spending context outside active evidence register; main report does not estimate a patient-sex effect. Linked PMID 36255438 is Comment in, not a correction. Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json.
+ER  -
 
 TY  - ELEC
 ID  - P-001
@@ -1341,7 +1506,7 @@ TI  - Generic oral estradiol
 UR  - https://www.myprime.com/content/dam/prime/memberportal/WebDocs/2026/Formularies/MedD/2026%20Blue%20Medicare%20Essential%20Plus%20%28HMO-POS%29%20Formulary.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: D01, D02, D03, D04, D05, D12. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-002
@@ -1349,7 +1514,7 @@ TI  - Paroxetine mesylate 7.5 mg capsule
 UR  - https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: D06, D07, D08, Drug formularies. Carried from research sources; not reverified during bibliography backfill. Version: 2026-08-26.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-003
@@ -1357,7 +1522,7 @@ TI  - Sildenafil or Viagra for erectile dysfunction
 UR  - https://www.ssa.gov/OP_Home/ssact/title18/1860D-02.htm
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: D09, D10, D11. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-004
@@ -1365,7 +1530,7 @@ TI  - Male and female incontinence sling placement
 UR  - https://www.medicare.gov/coverage/surgery
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P01, P02, P13, P14. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-005
@@ -1373,7 +1538,7 @@ TI  - Reconstruction after medically necessary mastectomy
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=64
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P03, P05. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-006
@@ -1381,7 +1546,7 @@ TI  - External breast prosthesis and postsurgical bra
 UR  - https://www.medicare.gov/coverage/breast-prostheses
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P04. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-007
@@ -1389,7 +1554,7 @@ TI  - Surgery for symptomatic gynecomastia
 UR  - https://www.cms.gov/medicare-coverage-database/view/lcd.aspx?LCDId=38914
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P06, P07. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-008
@@ -1397,7 +1562,7 @@ TI  - Clinician-provided biofeedback-assisted pelvic exercises
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=42
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P08, P09. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-009
@@ -1405,7 +1570,7 @@ TI  - Sacral nerve stimulation
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=249
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P10. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-010
@@ -1413,7 +1578,7 @@ TI  - Nonimplantable pelvic-floor electrical stimulation
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=231
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P11. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-011
@@ -1421,7 +1586,7 @@ TI  - Skilled pelvic-floor therapy for pain without incontinence
 UR  - https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=56566
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: P12. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-012
@@ -1429,7 +1594,7 @@ TI  - Bone mass measurement: estrogen-deficient risk category
 UR  - https://www.medicare.gov/coverage/bone-mass-measurements
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G04, G05. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-013
@@ -1437,7 +1602,7 @@ TI  - Screening mammography
 UR  - https://www.medicare.gov/coverage/mammograms
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G06. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-014
@@ -1445,7 +1610,7 @@ TI  - PSA and digital rectal prostate screening
 UR  - https://www.medicare.gov/coverage/prostate-cancer-screenings
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G07. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-015
@@ -1453,7 +1618,7 @@ TI  - IUD insertion solely for pregnancy prevention
 UR  - https://www.cms.gov/medicare-coverage-database/view/article.aspx?articleid=55951
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G08, G10. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-016
@@ -1461,7 +1626,7 @@ TI  - Cervical/vaginal screening and HPV cotesting
 UR  - https://www.medicare.gov/coverage/cervical-vaginal-cancer-screenings
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G09. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-017
@@ -1469,7 +1634,7 @@ TI  - Medically necessary infertility evaluation and treatment
 UR  - https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/Downloads/bp102c15.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G11, G12. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-018
@@ -1477,7 +1642,7 @@ TI  - Elective sterilization for pregnancy prevention
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=13
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G13. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-019
@@ -1485,7 +1650,7 @@ TI  - Prescription contraceptive pills, patches and rings
 UR  - https://www.medicare.gov/coverage/prescription-drugs-outpatient
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G14, G02. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-020
@@ -1493,7 +1658,7 @@ TI  - Drugs used to promote fertility
 UR  - https://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/Downloads/Part-D-Benefits-Manual-Chapter-6.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G15. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-021
@@ -1501,7 +1666,7 @@ TI  - Lymphedema compression garments, wraps and bandaging supplies
 UR  - https://www.medicare.gov/coverage/lymphedema-compression-treatment-items
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: A01. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-022
@@ -1509,7 +1674,7 @@ TI  - Lymphedema compression garments, wraps and bandaging supplies
 UR  - https://www.cms.gov/medicare/regulations-guidance/transmittals/2024-transmittals/r12532bp
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: A01. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-023
@@ -1517,7 +1682,7 @@ TI  - Home pneumatic compression pump
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?NCDId=225
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: A02. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-024
@@ -1525,7 +1690,7 @@ TI  - Gender-affirming surgery
 UR  - https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=368&ncdver=1
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G01. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-025
@@ -1533,7 +1698,7 @@ TI  - Anatomy-appropriate services when recorded sex conflicts
 UR  - https://www.cms.gov/Regulations-and-Guidance/Guidance/Manuals/downloads/clm104c32.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: G03. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-026
@@ -1541,7 +1706,7 @@ TI  - Part D sexual/erectile dysfunction exclusion; sildenafil for pulmonary hyp
 UR  - https://www.cms.gov/Medicare/Prescription-Drug-Coverage/PrescriptionDrugCovContra/Downloads/QAEDDrugs_070606.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-027
@@ -1549,7 +1714,7 @@ TI  - Addyi FDA label, December 2025: women less than 65; not limited to premeno
 UR  - https://www.accessdata.fda.gov/drugsatfda_docs/label/2025/022526s013lbl.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-028
@@ -1557,7 +1722,7 @@ TI  - Vyleesi current label: premenopausal HSDD
 UR  - https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=f1d0c1b5-2f39-4bad-a6a4-0066e3ad5dcf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-029
@@ -1565,7 +1730,7 @@ TI  - Veozah FDA warning about rare serious liver injury
 UR  - https://www.fda.gov/drugs/drug-safety-communications/fda-adds-warning-about-rare-occurrence-serious-liver-injury-use-veozah-fezolinetant-hot-flashes-due
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-030
@@ -1573,7 +1738,7 @@ TI  - 2026 FDA menopausal hormone product label revisions; changes are not cover
 UR  - https://www.fda.gov/drugs/drug-safety-and-availability/menopausal-hormone-therapies-updated-prescribing-information
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-031
@@ -1581,7 +1746,7 @@ TI  - Testosterone FDA indication and evolving label information
 UR  - https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/testosterone-information
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-032
@@ -1589,7 +1754,7 @@ TI  - PSERS 2026 employer supplemental bonus benefit lists Viagra and Addyi; out
 UR  - https://www.discoverhopbenefits.com/wp-content/uploads/2025/09/PSERS-Doc-114-CompForm_2026_Medicare-Plus_final_accessible.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-033
@@ -1597,7 +1762,7 @@ TI  - Medicare formulary exceptions
 UR  - https://www.cms.gov/medicare/appeals-grievances/prescription-drug/exceptions
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Supplemental source. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-034
@@ -1605,7 +1770,7 @@ TI  - CMS formulary reference file
 UR  - https://www.cms.gov/files/zip/cy-2026-august-formulary-reference-file.zip
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Drug formularies. Carried from research sources; not reverified during bibliography backfill. Version: 2026-08-25.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-035
@@ -1613,7 +1778,7 @@ TI  - CMS RVU26C physician relative value files
 UR  - https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Procedure values. Carried from research sources; not reverified during bibliography backfill. Version: 2026-06-30.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-036
@@ -1621,7 +1786,7 @@ TI  - Author-published procedure comparison table
 UR  - https://auanews.net/issues/articles/2024/july-extra-2024/upj-insight-comparison-of-work-relative-value-units-assigned-to-urological-and-gynecological-surgical-procedures
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Procedure values. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-037
@@ -1629,7 +1794,7 @@ TI  - Monthly Prescription Drug Plan Formulary and Pharmacy Network Information
 UR  - https://data.cms.gov/provider-summary-by-type-of-service/medicare-part-d-prescribers/monthly-prescription-drug-plan-formulary-and-pharmacy-network-information
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: CMS data sources. Carried from research sources; not reverified during bibliography backfill. Version: 2026-08-26.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-038
@@ -1637,7 +1802,7 @@ TI  - Data dictionary: Monthly Prescription Drug Plan Formulary and Pharmacy Net
 UR  - https://data.cms.gov/sites/default/files/2025-10/0564eb37-402d-4110-bd98-2d5399dc30e7/PUFRecordLayout-2026.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: CMS data sources. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-039
@@ -1645,7 +1810,7 @@ TI  - Medicare Part D Spending by Drug
 UR  - https://data.cms.gov/summary-statistics-on-use-and-payments/medicare-medicaid-spending-by-drug/medicare-part-d-spending-by-drug
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: CMS data sources. Carried from research sources; not reverified during bibliography backfill. Version: 2026-06-25.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-040
@@ -1653,7 +1818,7 @@ TI  - Data dictionary: Medicare Part D Spending by Drug
 UR  - https://data.cms.gov/resources/medicare-part-d-spending-by-drug-data-dictionary
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: CMS data sources. Carried from research sources; not reverified during bibliography backfill.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-041
@@ -1661,7 +1826,7 @@ TI  - U.S. Personal Health Care Spending By Age and Sex: 2020 Highlights
 UR  - https://www.cms.gov/Research-Statistics-Data-and-Systems/Statistics-Trends-and-Reports/NationalHealthExpendData/Downloads/AgeandGenderHighlights.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Medicare benchmark rationale. Verified against official source for benchmark framing on 2026-09-16. Version: 2020. All-payer personal health care spending. Older adults were 17% of population and 37% of PHC spending. The pandemic effects are not isolated and COVID provider funding is allocated in the estimates.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-042
@@ -1669,7 +1834,7 @@ TI  - NHE Fact Sheet
 UR  - https://www.cms.gov/data-research/statistics-trends-and-reports/national-health-expenditure-data/nhe-fact-sheet
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Medicare benchmark rationale. Verified against official source for benchmark framing on 2026-09-16. Version: 2024 NHE; 2020 age-specific PHC. Medicare financed 21% of national health expenditures in 2024. All-payer PHC per person in 2020 was $22,356 for ages 65+ and $9,154 for ages 19–64. Spending is not a count of services.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-043
@@ -1677,7 +1842,7 @@ TI  - Get started with Medicare
 UR  - https://www.medicare.gov/basics/get-started-with-medicare
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Medicare benchmark rationale. Verified against official source for benchmark framing on 2026-09-16. Version: Current eligibility overview checked 2026-09-16. Medicare covers eligible people age 65+ and certain younger people with disability, ESRD or ALS. Benchmark framing does not create a new age exclusion.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-044
@@ -1685,7 +1850,7 @@ TI  - Characteristics of Office-based Physician Visits by Age, 2019
 UR  - https://www.cdc.gov/nchs/data/nhsr/nhsr184.pdf
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Medicare benchmark rationale. Verified against official source for benchmark framing on 2026-09-16. Version: 2019. Table 1: 708.5 office visits per 100 people age 65+, 374.9 for ages 45–64 and 188.0 for ages 18–44. Nonfederal office-based physicians only; not all encounters. Older adults and infants had higher rates than other groups. Tables 2–3 concern expected payer and major reason for visits, not paid claims or patient-level disease prevalence. Authors: Ashman JJ, Santo L, Okeyode T. National Health Statistics Reports, no. 184 (2023).
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - P-045
@@ -1693,7 +1858,7 @@ TI  - NLM VSAC indexed CPT 51597 descriptor, version 2021
 UR  - https://vsac.nlm.nih.gov/context/cs/codesystem/CPT/version/2021/code/51597/info
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Procedure values. Verified against the indexed NLM VSAC code entry on 2026-09-16. Version: 2021. The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - C-001
@@ -1703,7 +1868,7 @@ UR  - https://www.cancer.gov/types/breast/male-breast-cancer
 KW  - Clinical classification guidance
 Y2  - 2026-09-16
 N1  - Clinical classification guidance; breast tissue is present in both sexes.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - C-002
@@ -1713,7 +1878,7 @@ UR  - https://www.nichd.nih.gov/health/topics/endometri/conditioninfo
 KW  - Clinical classification guidance
 Y2  - 2026-09-16
 N1  - Clinical classification guidance; endometriosis can involve reproductive and other anatomical sites.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - C-003
@@ -1723,7 +1888,7 @@ UR  - https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-con
 KW  - Clinical classification guidance
 Y2  - 2026-09-16
 N1  - Clinical classification guidance; pelvic-floor therapy can apply to women and men.
-ER  - 
+ER  -
 
 TY  - ELEC
 ID  - C-004
@@ -1733,4 +1898,4 @@ UR  - https://www.niams.nih.gov/health-topics/osteoporosis-men
 KW  - Clinical classification guidance
 Y2  - 2026-09-16
 N1  - Clinical classification guidance; osteoporosis is not limited to women.
-ER  - 
+ER  -

@@ -1,0 +1,622 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "PMC7735208 OR PMC7930921",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "33656528",
+        "source": "MED",
+        "pmid": "33656528",
+        "pmcid": "PMC7930921",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7930921"
+          ]
+        },
+        "doi": "10.1001/jamanetworkopen.2021.0498",
+        "title": "Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.",
+        "authorString": "De Avila JL, Meltzer DO, Zhang JX.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "De Avila JL",
+              "lastName": "De Avila",
+              "firstName": "Jorge L",
+              "initials": "JL",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3581-5758"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Pritzker School of Medicine, The University of Chicago, Chicago, Illinois."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Meltzer DO",
+              "lastName": "Meltzer",
+              "firstName": "David O",
+              "initials": "DO",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, The University of Chicago, Chicago, Illinois."
+                  },
+                  {
+                    "affiliation": "Harris School of Public Policy, The University of Chicago, Chicago, Illinois."
+                  },
+                  {
+                    "affiliation": "Department of Economics, The University of Chicago, Chicago, Illinois."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang JX",
+              "lastName": "Zhang",
+              "firstName": "James X",
+              "initials": "JX",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-6251-0474"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Medicine, The University of Chicago, Chicago, Illinois."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3581-5758"
+            },
+            {
+              "type": "ORCID",
+              "value": "0000-0002-6251-0474"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "3",
+          "volume": "4",
+          "journalIssueId": 3121026,
+          "dateOfPublication": "2021 Mar",
+          "monthOfPublication": 3,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "JAMA Netw Open",
+            "title": "JAMA network open",
+            "essn": "2574-3805",
+            "issn": "2574-3805",
+            "nlmid": "101729235",
+            "isoabbreviation": "JAMA Netw Open"
+          },
+          "printPublicationDate": "2021-03-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "e210498",
+        "abstractText": "<h4>Importance</h4>The unaffordability of drugs has been a persistent and elusive challenge in the US health care system. Little is known about the prevalence and persistence of cost-related medication nonadherence (CRN) in a population with high-cost, high-need resource utilization.<h4>Objective</h4>To evaluate the prevalence and persistence of CRN among Medicare beneficiaries at high risk of hospitalization as well as the characteristics associated with CRN in this population.<h4>Design, setting, and participants</h4>This cohort study used survey data from Medicare patients at high risk of hospitalization and with a life expectancy greater than 12 months at an urban academic medical center from November 6, 2012, to January 30, 2018. Patients were followed up for 12 months at 3-month intervals from baseline, for a total of 5 surveys. Data were analyzed from September 1, 2020, to January 5, 2021.<h4>Main outcomes and measures</h4>Self-reported CRN, using a metric of persistence and transiency. Based on the results of the 5 surveys, CRN was categorized as persistent (3 or more surveys), intermittent (2), transient (1), and any (1 or more). Multiple logistic regression analyses were used to evaluate factors associated with persistent and transient CRN.<h4>Results</h4>Of the 1655 Medicare beneficiaries followed up during the 15-month study period, 1036 (62.6%) were women and 1452 (87.7%) were Black or African American; 769 (46.5%) were younger than 65 years, and 886 (53.5%) were 65 years or older (mean [SD] age, 62.4 [15.9] years). A total of 374 patients (22.6%) reported CRN at baseline, 810 (48.9%) reported any CRN, and 230 (13.9%) reported persistent CRN (148 [19.2%] of those younger than 65 years and 82 [9.3%] of those 65 years or older). The 230 patients who had persistent CRN accounted for 28% of those who reported CRN at least once during the 15-month study period. Younger age (eg, <50 years vs 75 years: adjusted odds ratio [AOR], 3.07; 95% CI, 1.61-5.86; P\u2009=\u2009.001), worse self-reported health (AOR, 1.59; 95% CI, 1.10-2.31; P\u2009=\u2009.01), and depression (AOR, 1.58; 95% CI, 1.11-2.24; P\u2009=\u2009.01) were associated with greater likelihood of persistent CRN. The population-adjusted prevalence of CRN was 53.6% (887 patients).<h4>Conclusions and relevance</h4>The findings suggest that CRN is prevalent, moderately persistent, and variable in the Medicare population at high risk of hospitalization despite coverage by insurance. Longitudinal follow-up and refined predictive modeling of CRN appear to be needed to identify and target more precisely those with persistent CRN and to develop effective interventions.",
+        "affiliation": "Pritzker School of Medicine, The University of Chicago, Chicago, Illinois.",
+        "publicationStatus": "epublish",
+        "language": "eng",
+        "pubModel": "Electronic",
+        "pubTypeList": {
+          "pubType": [
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "T35 AG029795",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIDDK NIH HHS",
+              "acronym": "DK",
+              "grantId": "P30 DK092949",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Monitoring"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Hospitalization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Risk Assessment"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Costs",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1001/jamanetworkopen.2021.0498"
+            },
+            {
+              "availability": "Open access",
+              "availabilityCode": "OA",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7930921"
+            }
+          ]
+        },
+        "isOpenAccess": "Y",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 17,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "license": "cc by",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2021-06-17",
+        "dateOfCreation": "2021-03-03",
+        "dateOfRevision": "2026-01-27",
+        "electronicPublicationDate": "2021-03-01",
+        "firstPublicationDate": "2021-03-01",
+        "firstIndexDate": "2021-03-04",
+        "fullTextReceivedDate": "2025-02-04",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "33298705",
+        "source": "MED",
+        "pmid": "33298705",
+        "pmcid": "PMC7735208",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC7735208"
+          ]
+        },
+        "doi": "10.1097/mlr.0000000000001458",
+        "title": "Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.",
+        "authorString": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Nekui F",
+              "lastName": "Nekui",
+              "firstName": "Farrah",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Northeastern University."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Galbraith AA",
+              "lastName": "Galbraith",
+              "firstName": "Alison A",
+              "initials": "AA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Health Care Institute, Boston."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Briesacher BA",
+              "lastName": "Briesacher",
+              "firstName": "Becky A",
+              "initials": "BA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Northeastern University."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Zhang F",
+              "lastName": "Zhang",
+              "firstName": "Fang",
+              "initials": "F",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Health Care Institute, Boston."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Soumerai SB",
+              "lastName": "Soumerai",
+              "firstName": "Stephen B",
+              "initials": "SB",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Health Care Institute, Boston."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Ross-Degnan D",
+              "lastName": "Ross-Degnan",
+              "firstName": "Dennis",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Health Care Institute, Boston."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Gurwitz JH",
+              "lastName": "Gurwitz",
+              "firstName": "Jerry H",
+              "initials": "JH",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Meyers Primary Care Institute."
+                  },
+                  {
+                    "affiliation": "Division of Geriatric Medicine, University of Massachusetts Medical School, Worcester, MA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Madden JM",
+              "lastName": "Madden",
+              "firstName": "Jeanne M",
+              "initials": "JM",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "School of Pharmacy, Northeastern University."
+                  },
+                  {
+                    "affiliation": "Department of Population Medicine, Harvard Medical School and Harvard Pilgrim Health Care Institute, Boston."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "59",
+          "journalIssueId": 3065071,
+          "dateOfPublication": "2021 Jan",
+          "monthOfPublication": 1,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Med Care",
+            "title": "Medical care",
+            "essn": "1537-1948",
+            "issn": "0025-7079",
+            "nlmid": "0230027",
+            "isoabbreviation": "Med Care"
+          },
+          "printPublicationDate": "2021-01-01"
+        },
+        "pubYear": "2021",
+        "pageInfo": "13-21",
+        "abstractText": "<h4>Background</h4>Unaffordability of medications is a barrier to effective treatment. Cost-related nonadherence (CRN) is a crucial, widely used measure of medications access.<h4>Objectives</h4>Our study examines the current national prevalence of and risk factors for CRN (eg, not filling, skipping or reducing doses) and companion measures in the US Medicare population.<h4>Research design</h4>Survey-weighted analyses included logistic regression and trends 2006-2016.<h4>Subjects</h4>Main analyses used the 2016 Medicare Current Beneficiary Survey. Our study sample of 12,625 represented 56 million community-dwelling beneficiaries.<h4>Measures</h4>Additional outcome measures were spending less on other necessities in order to pay for medicines and use of drug cost reduction strategies such as requesting generics.<h4>Results</h4>In 2016, 34.5% of enrollees under 65 years with disability and 14.4% of those 65 years and older did not take their medications as prescribed due to high costs; 19.4% and 4.7%, respectively, experienced going without other essentials to pay for medicines. Near-poor older beneficiaries with incomes $15-25K had 50% higher odds of CRN (vs. >$50K), but beneficiaries with incomes <$15K, more likely to be eligible for the Part D Low-Income Subsidy, did not have significantly higher risk. Three indicators of worse health (general health status, functional limits, and count of conditions) were all independently associated with higher risk of CRN.<h4>Conclusions</h4>Changes in the risk profile for CRN since Part D reflect the effectiveness of targeted policies. The persistent prevalence of CRN and associated risks for sicker people in Medicare demonstrate the consequences of high cost-sharing for prescription fills.",
+        "affiliation": "School of Pharmacy, Northeastern University.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "grantsList": {
+          "grant": [
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "R01 AG022362",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "R21 AG060401",
+              "orderIn": 0
+            },
+            {
+              "agency": "NIA NIH HHS",
+              "acronym": "AG",
+              "grantId": "R01 AG028745",
+              "orderIn": 0
+            }
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Drug Monitoring"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Prevalence"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Risk Factors"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Costs",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health Expenditures",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare Part D",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Persons with Disabilities",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/MLR.0000000000001458"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7735208"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC7735208?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/mlr.0000000000001458"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 39,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "Y",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "Y",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "Y",
+        "manuscriptId": "NIHMS1638471",
+        "hasTMAccessionNumbers": "Y",
+        "tmAccessionTypeList": {
+          "accessionType": [
+            "doi"
+          ]
+        },
+        "dateOfCompletion": "2021-02-19",
+        "dateOfCreation": "2020-12-10",
+        "dateOfRevision": "2026-01-27",
+        "firstPublicationDate": "2021-01-01",
+        "firstIndexDate": "2020-12-11",
+        "fullTextReceivedDate": "2025-02-03",
+        "embargoDate": "2022-01-01",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "retrieved_on": "2026-09-21",
+  "sources": [
+    {
+      "file": "27884649_europepmc.json",
+      "status": "saved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27884649+AND+SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "file": "38459983_europepmc.json",
+      "status": "saved",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38459983+AND+SRC%3AMED&format=json&resultType=core"
+    },
+    {
+      "file": "38459983_crossref.json",
+      "status": "saved",
+      "url": "https://api.crossref.org/works/10.1007/s00256-024-04643-1"
+    },
+    {
+      "file": "27884649_crossref.json",
+      "status": "saved",
+      "url": "https://api.crossref.org/works/10.1016/j.amjmed.2016.10.018"
+    },
+    {
+      "file": "27884649_web_fulltext_excerpts.json",
+      "status": "selected web-rendered full-text excerpts saved",
+      "url": "https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol"
+    }
+  ],
+  "failed_attempts": [
+    {
+      "url": "https://www.sciencedirect.com/science/article/pii/S0002934316311913",
+      "result": "HTTP403; publisher HTML not saved"
+    },
+    {
+      "url": "https://www.amjmed.com/article/S0002-9343(16)31191-3/fulltext",
+      "result": "HTTP403 via web tool"
+    },
+    {
+      "url": "https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol",
+      "result": "Raw HTML download HTTP403; web-tool rendered article text was accessible"
+    },
+    {
+      "url": "https://api.crossref.org/works/10.1016/j.amjmed.2016.10.018",
+      "result": "First attempt429; retry successful,metadata archived"
+    }
+  ],
+  "preview_only": [
+    {
+      "url": "https://link.springer.com/article/10.1007/s00256-024-04643-1",
+      "result": "Subscription preview; abstract,reference list and disclosures read. No full manuscript retrieved."
+    }
+  ],
+  "notes": "Metadata and access checks only; not a comprehensive database search log. Root maintains reproducible search archive separately."
+}

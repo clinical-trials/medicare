@@ -1,0 +1,25 @@
+{
+  "updated_on": "2026-09-21",
+  "updates": {
+    "L-P01": {
+      "extraction_level": "Source-verified PubMed/publisher abstract; search-indexed publisher PDF limitation excerpt. Full article not retrieved.",
+      "last_reviewed_on": "2026-09-21",
+      "extraction_source": "research/review_2026-09-21/valuation/extraction.json",
+      "screening_notes": "Retain; abstract verified and metadata matched. Full-text methods, pair list, valuation inputs and uncertainty remain pending."
+    },
+    "L-P02": {
+      "extraction_level": "Source-verified PubMed and journal abstract; same-author AUA News companion text/table accessed through search index. Peer-reviewed full text not retrieved.",
+      "last_reviewed_on": "2026-09-21",
+      "extraction_source": "research/review_2026-09-21/valuation/extraction.json",
+      "screening_notes": "Retain explicitly as null/opposing evidence; full-text uncertainty, valuation year and pair-count discrepancy pending.",
+      "limitation": "Small selected set; null does not establish equivalence. Journal abstract reports 10 pairs (7 female higher), AUA companion 9 (6 female higher). Full text, valuation year and numerical CIs pending."
+    },
+    "L-P03": {
+      "extraction_level": "Full author manuscript including Methods, Results, Discussion and Table 1 retrieved through public NCBI PMC EFetch XML. Free full text; Europe PMC does not mark an open-access license.",
+      "last_reviewed_on": "2026-09-21",
+      "extraction_source": "research/review_2026-09-21/valuation/extraction.json",
+      "screening_notes": "Retain; full-text extraction advanced in this session. Classify as service valuation with registry time data and modeled specialty compensation, not cisgender patient disparity or physician-gender outcome evidence.",
+      "limitation": "Specialty compensation multipliers are not Medicare conversion factors; global/perioperative work omitted. Published arithmetic discrepancies flagged in extraction notes. NSQIP is not a Medicare-only cohort."
+    }
+  }
+}

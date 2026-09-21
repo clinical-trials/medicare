@@ -24,7 +24,8 @@ export async function applyReviewScope(rawItems,rawStudies){
   });
   const context=JSON.parse(await fs.readFile('/Users/lgm/Documents/ChatGPT/Medicare/research/literature_context.json','utf8').catch(e=>{if(e.code==='ENOENT')return '{"studies":[]}';throw e;}));
   const followup=JSON.parse(await fs.readFile('/Users/lgm/Documents/ChatGPT/Medicare/research/literature_followup.json','utf8').catch(e=>{if(e.code==='ENOENT')return '{"studies":[]}';throw e;}));
-  const studies=[...rawStudies.filter(x=>!scope.excluded_study_ids.includes(x.id)),...[...context.studies,...followup.studies].filter(x=>!rawStudies.some(s=>s.id===x.id)&&!scope.excluded_study_ids.includes(x.id))].map(s=>synchronizeCitation(s,metadata));
+  const reviewUpdates=JSON.parse(await fs.readFile('/Users/lgm/Documents/ChatGPT/Medicare/research/study_review_updates.json','utf8').catch(e=>{if(e.code==='ENOENT')return '{"updates":{}}';throw e;})).updates;
+  const studies=[...rawStudies.filter(x=>!scope.excluded_study_ids.includes(x.id)),...[...context.studies,...followup.studies].filter(x=>!rawStudies.some(s=>s.id===x.id)&&!scope.excluded_study_ids.includes(x.id))].map(s=>synchronizeCitation({...s,...reviewUpdates[s.id]},metadata));
   for(const study of studies){
     const coding=subjectStudies.get(study.id),group=coding&&subjectGroups.get(coding.subject_id);
     assert(group,`Missing analytic subject for ${study.id}`);

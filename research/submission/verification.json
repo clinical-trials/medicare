@@ -1,13 +1,18 @@
 {
-  "prepared_on": "2026-09-16",
-  "status": "Preliminary submission assessment and proposed methods; formal systematic review not completed",
+  "prepared_on": "2026-09-18",
+  "status": "Preliminary evidence register and completed pre-PRESS PubMed development export; formal systematic review not completed",
   "files": [
     "Health_Affairs_Scholar_submission_assessment.md",
     "Medicare_systematic_review_protocol.md",
     "PRISMA_readiness_crosswalk.md",
+    "prisma_attachment_appraisal.md",
     "README.md",
     "manuscript_methods_proposed.md",
-    "search_strategy_draft.md"
+    "search_strategy_draft.md",
+    "../sources/PRISMA_2020_Checklist_attached.pdf",
+    "../review_2026-09-21/README.md",
+    "../review_2026-09-21/search_summary.json",
+    "../review_2026-09-21/pubmed/manifest.json"
   ],
   "methodology_reference_ids": [
     "M-001",
@@ -17,30 +22,90 @@
     "M-005",
     "M-006",
     "M-007",
-    "M-008"
+    "M-008",
+    "M-009"
   ],
   "checks": {
-    "local_markdown_links": "All checked and resolved",
+    "local_markdown_links": "Previously checked submission package links retained; all links in the two modified Markdown files rechecked and resolved on 2026-09-21.",
     "methodology_reference_ids": "All cited M-IDs present in verified metadata",
-    "methodology_pmid_export": "All eight method PMIDs present in living bibliography and RIS",
-    "ris_record_count": 100,
-    "active_study_count": 34,
+    "methodology_pmid_export": "All nine method PMIDs present in living bibliography and RIS",
+    "ris_record_count": 107,
+    "active_study_count": 38,
     "journal_policy_check": "Independent tool-assisted check against official author guidance and OUP calculator",
-    "clinical_evidence_changes": "None",
-    "existing_white_paper_pdf_and_workbook": "Unchanged",
-    "methods_consistency_review": "Independent AI-assisted draft review found no blocking issues; operational eligibility and independent PRESS-review wording strengthened. This is not independent human study screening."
+    "orientation_retrieval": "Earlier September 18, 2026 concept searches remain other-method leads. September 21 targeted drug/bone/valuation retrievals are separately logged and require route deduplication; they do not constitute screening of all PubMed records.",
+    "clinical_evidence_changes": "Four patient-care candidates L-R01–L-R04 added to the working register after AI preliminary extraction; identity eligibility remains unresolved. L-X01 and L-X02 remain outside-register leads/context. No completed human eligibility decision is implied.",
+    "methods_consistency_review": "Independent AI-assisted draft review found no blocking issues; operational eligibility and independent PRESS-review wording strengthened. This is not independent human study screening.",
+    "prisma_attachment": "Local two-page PRISMA 2020 Checklist inspected on 2026-09-18; it is a reporting template mapped to M-001 (PMID 33782057), not a new clinical evidence record. Its printed page locations are not Medicare manuscript locations.",
+    "prisma_attachment_sha256": "0f41064d710e6b18d44b4c0b7bee307f2732547177f217d89eef3f2ba0afecf9",
+    "prisma_attachment_repository_copy": "research/sources/PRISMA_2020_Checklist_attached.pdf",
+    "care_item_count": 40,
+    "scientific_metadata_count": 49,
+    "scope_excluded_study_count": 8,
+    "linked_correction_count": 1,
+    "outside_active_lead_context_count": 2,
+    "exploratory_hypothesis_count": 9,
+    "artifact_review_boundary": "This search-archive audit did not modify or assess current workbook/PDF rendering; artifact verification is separate.",
+    "database_search_execution": "PubMed E-utilities development run executed September 21, 2026 before PRESS review; corrected core 43,904 plus supplement 16,866 minus 2,084 exact-PMID overlaps equals 58,686 unique records. All metadata exported; independent human screening remains 0.",
+    "development_search": {
+      "execution_date": "2026-09-21",
+      "corrected_core": 43904,
+      "supplement": 16866,
+      "duplicate_hits_removed_by_pmid": 2084,
+      "unique_identified": 58686,
+      "metadata_exported": 58686,
+      "identifier_only": 0,
+      "with_abstract": 46735,
+      "without_abstract": 11951,
+      "calibration_records": 50,
+      "human_screened": 0,
+      "sentinels_retrieved": 9,
+      "sentinels_total": 10,
+      "not_completed": [
+        "PRESS review",
+        "Embase/CINAHL/EconLit/citation-index searches",
+        "DOI/title/report-family deduplication",
+        "Independent human screening",
+        "Formal risk-of-bias and certainty assessment"
+      ],
+      "deduplication_rule": "Exact PMID across current core and supplementary queries; priority subset is not a third identification source",
+      "calibration_sampling": "Purposive existing diagnostic sources plus up to five title-term matches per listed domain, SHA-256 deterministic order, then remainder to 50. Selection after search; not representative and not PRESS validation."
+    },
+    "search_archive_validation": {
+      "verified_on": "2026-09-21",
+      "raw_successful_response_hashes_and_byte_counts_passed": 223,
+      "xml_batch_request_response_pmid_sets_passed": 164,
+      "id_export_hash_and_count_checks_passed": 5,
+      "normalized_jsonl_records": 58686,
+      "normalized_csv_records": 58686,
+      "duplicate_or_missing_metadata_pmids": 0,
+      "stored_hash_check": "Passed wherever stored_sha256 field supplied; gzip decompressed for response-body hash checks",
+      "explicit_post_sidecars": 117,
+      "older_sidecars_without_method_field": 106,
+      "calibration_n": 50,
+      "calibration_review_fields_all_blank": true,
+      "diagnostic_sentinel_missing": [
+        "L-G04"
+      ],
+      "failure_retry_log_limit": "Successful raw responses/parameters preserved; archive is not a complete failed-request/retry log. Long EFetch batches recovered via POST and existing cached responses were reused."
+    }
   },
   "not_performed": [
     "Journal submission or editor contact",
-    "Database search execution",
-    "Independent human screening or extraction",
+    "Independent PRESS review and finalized multi-database systematic search",
+    "Embase, CINAHL, EconLit and multidisciplinary citation-index searches",
+    "DOI/title/report-family deduplication",
+    "Independent human calibration, screening, extraction and eligibility adjudication",
     "Formal risk-of-bias or certainty assessment",
     "Review registration"
   ],
   "limitations": [
-    "Draft queries require information-specialist review and pilot testing",
-    "Current population eligibility requires resolution of unreported identity",
+    "Executed PubMed run predates PRESS review; high volume and 9/10 post-execution diagnostic retrieval do not establish sensitivity or completeness.",
+    "L-G04 was absent from both current PubMed queries and must be investigated",
+    "Current population eligibility requires resolution of unreported identity; no cisgender inference from recorded sex",
+    "Fifty calibration records are prepared but unscreened; primary included-study counts and final PRISMA flow are not available",
+    "Nine hypotheses remain exploratory after prior evidence inspection",
     "No acceptance probability or guarantee",
     "APC and journal instructions must be rechecked at submission"
-  ]
+  ],
+  "updated_on": "2026-09-21"
 }

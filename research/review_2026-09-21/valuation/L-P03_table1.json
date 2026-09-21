@@ -1,0 +1,501 @@
+{
+  "study_id": "L-P03",
+  "pmid": "34736273",
+  "pmcid": "PMC8602770",
+  "doi": "10.1097/AOG.0000000000004599",
+  "retrieved_on": "2026-09-21",
+  "source_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8602770",
+  "reader_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8602770/#T1",
+  "access_level": "Full author manuscript XML",
+  "locator": "Table 1, CPT code identifies each row",
+  "note": "Published numerical cells transcribed as reported; table descriptors are source labels, not clinical eligibility classifications. Arithmetic checks are reviewer calculations from rounded source values and do not replace published results. Large discrepancies require verification, not silent correction.",
+  "case_count_checks": {
+    "total": 12120,
+    "male": 6217,
+    "female": 5903
+  },
+  "rows": [
+    {
+      "cpt": "54015",
+      "description_as_printed": "Penis",
+      "n": 55,
+      "source_group": "male-specific",
+      "rvu_2015": 5.36,
+      "rvu_1997": 5.16,
+      "rvu_percent_change_as_printed": "+4%",
+      "operative_minutes_median_iqr_as_printed": "37 (18\u201356)",
+      "paired_minutes_difference_as_printed": "+21",
+      "rvu_per_hour_as_printed": 8.69,
+      "usd_per_hour_as_printed": 536.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 535.74,
+        "printed_minus_calculated_usd": 0.26,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "56405",
+      "description_as_printed": "Vulva",
+      "n": 830,
+      "source_group": "female-specific",
+      "rvu_2015": 1.49,
+      "rvu_1997": 1.39,
+      "rvu_percent_change_as_printed": "+7%",
+      "operative_minutes_median_iqr_as_printed": "16 (11\u201323)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 5.59,
+      "usd_per_hour_as_printed": 291.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 290.79,
+        "printed_minus_calculated_usd": 0.21,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55041",
+      "description_as_printed": "Excision of bilateral Hydroceles",
+      "n": 409,
+      "source_group": "male-specific",
+      "rvu_2015": 8.54,
+      "rvu_1997": 7.38,
+      "rvu_percent_change_as_printed": "+16%",
+      "operative_minutes_median_iqr_as_printed": "49 (34\u201368)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 10.46,
+      "usd_per_hour_as_printed": 645.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 644.86,
+        "printed_minus_calculated_usd": 0.14,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "58925",
+      "description_as_printed": "Excision of bilateral ovarian cysts",
+      "n": 1001,
+      "source_group": "female-specific",
+      "rvu_2015": 12.43,
+      "rvu_1997": 6.4,
+      "rvu_percent_change_as_printed": "+94%",
+      "operative_minutes_median_iqr_as_printed": "74 (52\u2013100)",
+      "paired_minutes_difference_as_printed": "+25",
+      "rvu_per_hour_as_printed": 10.08,
+      "usd_per_hour_as_printed": 520.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 524.36,
+        "printed_minus_calculated_usd": -4.36,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55175",
+      "description_as_printed": "Simple",
+      "n": 77,
+      "source_group": "male-specific",
+      "rvu_2015": 5.87,
+      "rvu_1997": 4.93,
+      "rvu_percent_change_as_printed": "+19%",
+      "operative_minutes_median_iqr_as_printed": "72 (39\u201390)",
+      "paired_minutes_difference_as_printed": "+44",
+      "rvu_per_hour_as_printed": 4.89,
+      "usd_per_hour_as_printed": 301.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 301.47,
+        "printed_minus_calculated_usd": -0.47,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55180",
+      "description_as_printed": "Complex",
+      "n": 18,
+      "source_group": "male-specific",
+      "rvu_2015": 11.78,
+      "rvu_1997": 10.07,
+      "rvu_percent_change_as_printed": "+17%",
+      "operative_minutes_median_iqr_as_printed": "65.5 (43\u2013137)",
+      "paired_minutes_difference_as_printed": "+37.5",
+      "rvu_per_hour_as_printed": 10.79,
+      "usd_per_hour_as_printed": 665.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 665.2,
+        "printed_minus_calculated_usd": -0.2,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "56810",
+      "description_as_printed": "Perineoplasty",
+      "n": 229,
+      "source_group": "female-specific",
+      "rvu_2015": 4.29,
+      "rvu_1997": 3.97,
+      "rvu_percent_change_as_printed": "+8%",
+      "operative_minutes_median_iqr_as_printed": "28 (17\u201347)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 9.19,
+      "usd_per_hour_as_printed": 478.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 478.06,
+        "printed_minus_calculated_usd": -0.06,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "54125",
+      "description_as_printed": "Resection Penis",
+      "n": 28,
+      "source_group": "male-specific",
+      "rvu_2015": 14.56,
+      "rvu_1997": 12.8,
+      "rvu_percent_change_as_printed": "+14%",
+      "operative_minutes_median_iqr_as_printed": "124.5 (94.5\u2013156)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 7.02,
+      "usd_per_hour_as_printed": 433.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 432.78,
+        "printed_minus_calculated_usd": 0.22,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "57110",
+      "description_as_printed": "Vaginectomy",
+      "n": 23,
+      "source_group": "female-specific",
+      "rvu_2015": 15.48,
+      "rvu_1997": 13.48,
+      "rvu_percent_change_as_printed": "+15%",
+      "operative_minutes_median_iqr_as_printed": "83 (68\u2013120)",
+      "paired_minutes_difference_as_printed": "\u221241.5",
+      "rvu_per_hour_as_printed": 11.19,
+      "usd_per_hour_as_printed": 582.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 582.1,
+        "printed_minus_calculated_usd": -0.1,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55150",
+      "description_as_printed": "Resection Scrotum",
+      "n": 111,
+      "source_group": "male-specific",
+      "rvu_2015": 8.14,
+      "rvu_1997": 6.62,
+      "rvu_percent_change_as_printed": "+23%",
+      "operative_minutes_median_iqr_as_printed": "38 (24\u201361)",
+      "paired_minutes_difference_as_printed": "+8",
+      "rvu_per_hour_as_printed": 12.85,
+      "usd_per_hour_as_printed": 792.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 792.2,
+        "printed_minus_calculated_usd": -0.2,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "56620",
+      "description_as_printed": "Vulva",
+      "n": 1842,
+      "source_group": "female-specific",
+      "rvu_2015": 7.53,
+      "rvu_1997": 6.67,
+      "rvu_percent_change_as_printed": "+13%",
+      "operative_minutes_median_iqr_as_printed": "30 (20\u201345)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 15.06,
+      "usd_per_hour_as_printed": 783.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 783.42,
+        "printed_minus_calculated_usd": -0.42,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "54130",
+      "description_as_printed": "Radical amputation Penis with GND",
+      "n": 6,
+      "source_group": "male-specific",
+      "rvu_2015": 21.84,
+      "rvu_1997": 18.92,
+      "rvu_percent_change_as_printed": "+15%",
+      "operative_minutes_median_iqr_as_printed": "200 (163\u2013247)",
+      "paired_minutes_difference_as_printed": "+61",
+      "rvu_per_hour_as_printed": 6.55,
+      "usd_per_hour_as_printed": 404.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 403.81,
+        "printed_minus_calculated_usd": 0.19,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "56637",
+      "description_as_printed": "Radical vulvectomy with GND",
+      "n": 41,
+      "source_group": "female-specific",
+      "rvu_2015": 24.75,
+      "rvu_1997": 20.34,
+      "rvu_percent_change_as_printed": "+22%",
+      "operative_minutes_median_iqr_as_printed": "139 (109\u2013223)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 10.68,
+      "usd_per_hour_as_printed": 556.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 555.57,
+        "printed_minus_calculated_usd": 0.43,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "54135",
+      "description_as_printed": "Radical amputation Penis with GND & PND",
+      "n": 2,
+      "source_group": "male-specific",
+      "rvu_2015": 28.17,
+      "rvu_1997": 25.01,
+      "rvu_percent_change_as_printed": "+13%",
+      "operative_minutes_median_iqr_as_printed": "244.5 (208\u2013281)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 6.91,
+      "usd_per_hour_as_printed": 453.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 426.0,
+        "printed_minus_calculated_usd": 27.0,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "56640",
+      "description_as_printed": "Radical vulvectomy with GND & PND",
+      "n": 5,
+      "source_group": "female-specific",
+      "rvu_2015": 24.78,
+      "rvu_1997": 20.09,
+      "rvu_percent_change_as_printed": "+23%",
+      "operative_minutes_median_iqr_as_printed": "58 (42\u201375)",
+      "paired_minutes_difference_as_printed": "\u2212186.5",
+      "rvu_per_hour_as_printed": 25.63,
+      "usd_per_hour_as_printed": 1333.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 1333.27,
+        "printed_minus_calculated_usd": -0.27,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55821",
+      "description_as_printed": "Subtotal",
+      "n": 340,
+      "source_group": "male-specific",
+      "rvu_2015": 17.19,
+      "rvu_1997": 13.0,
+      "rvu_percent_change_as_printed": "+32%",
+      "operative_minutes_median_iqr_as_printed": "99 (79\u2013129)",
+      "paired_minutes_difference_as_printed": "+45",
+      "rvu_per_hour_as_printed": 10.42,
+      "usd_per_hour_as_printed": 642.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 642.39,
+        "printed_minus_calculated_usd": -0.39,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "57530",
+      "description_as_printed": "Trachelectomy",
+      "n": 65,
+      "source_group": "female-specific",
+      "rvu_2015": 5.27,
+      "rvu_1997": 6.63,
+      "rvu_percent_change_as_printed": "\u221221%",
+      "operative_minutes_median_iqr_as_printed": "54 (32\u201380)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 5.86,
+      "usd_per_hour_as_printed": 305.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 304.84,
+        "printed_minus_calculated_usd": 0.16,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55842",
+      "description_as_printed": "Prostatectomy with limited nodes",
+      "n": 1730,
+      "source_group": "male-specific",
+      "rvu_2015": 21.36,
+      "rvu_1997": 22.7,
+      "rvu_percent_change_as_printed": "\u22126%",
+      "operative_minutes_median_iqr_as_printed": "133 (105\u2013173)",
+      "paired_minutes_difference_as_printed": "\u22127.5",
+      "rvu_per_hour_as_printed": 9.64,
+      "usd_per_hour_as_printed": 594.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 594.31,
+        "printed_minus_calculated_usd": -0.31,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "58200",
+      "description_as_printed": "TAH BSO with limited nodes",
+      "n": 430,
+      "source_group": "female-specific",
+      "rvu_2015": 23.1,
+      "rvu_1997": 20.34,
+      "rvu_percent_change_as_printed": "+14%",
+      "operative_minutes_median_iqr_as_printed": "140.5 (104\u2013195)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 9.86,
+      "usd_per_hour_as_printed": 513.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 512.92,
+        "printed_minus_calculated_usd": 0.08,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55845",
+      "description_as_printed": "Radical Prostatectomy",
+      "n": 3184,
+      "source_group": "male-specific",
+      "rvu_2015": 25.18,
+      "rvu_1997": 26.73,
+      "rvu_percent_change_as_printed": "\u22126%",
+      "operative_minutes_median_iqr_as_printed": "155 (116\u2013202)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 9.75,
+      "usd_per_hour_as_printed": 601.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 601.09,
+        "printed_minus_calculated_usd": -0.09,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "58210",
+      "description_as_printed": "Hysterectomy",
+      "n": 1312,
+      "source_group": "female-specific",
+      "rvu_2015": 30.91,
+      "rvu_1997": 23.97,
+      "rvu_percent_change_as_printed": "+29%",
+      "operative_minutes_median_iqr_as_printed": "168 (115\u2013220)",
+      "paired_minutes_difference_as_printed": "+13",
+      "rvu_per_hour_as_printed": 11.04,
+      "usd_per_hour_as_printed": 574.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 574.3,
+        "printed_minus_calculated_usd": -0.3,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "55810",
+      "description_as_printed": "Radical prostatectomy Perineal approach",
+      "n": 177,
+      "source_group": "male-specific",
+      "rvu_2015": 24.29,
+      "rvu_1997": 21.21,
+      "rvu_percent_change_as_printed": "+15%",
+      "operative_minutes_median_iqr_as_printed": "152 (120\u2013193)",
+      "paired_minutes_difference_as_printed": "+64",
+      "rvu_per_hour_as_printed": 9.59,
+      "usd_per_hour_as_printed": 591.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 591.22,
+        "printed_minus_calculated_usd": -0.22,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "58285",
+      "description_as_printed": "Radical hysterectomy Vaginal approach",
+      "n": 29,
+      "source_group": "female-specific",
+      "rvu_2015": 23.38,
+      "rvu_1997": 17.45,
+      "rvu_percent_change_as_printed": "+34%",
+      "operative_minutes_median_iqr_as_printed": "88 (69\u2013131)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 15.94,
+      "usd_per_hour_as_printed": 829.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 829.2,
+        "printed_minus_calculated_usd": -0.2,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "51597",
+      "description_as_printed": "Exenteration for prostate Cancer",
+      "n": 80,
+      "source_group": "male-specific",
+      "rvu_2015": 42.86,
+      "rvu_1997": 35.27,
+      "rvu_percent_change_as_printed": "+22%",
+      "operative_minutes_median_iqr_as_printed": "319.5 (262.5\u2013386)",
+      "paired_minutes_difference_as_printed": "+4",
+      "rvu_per_hour_as_printed": 8.05,
+      "usd_per_hour_as_printed": 496.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 496.28,
+        "printed_minus_calculated_usd": -0.28,
+        "not_a_corrected_estimate": true
+      }
+    },
+    {
+      "cpt": "58240",
+      "description_as_printed": "Exenteration for cervical Cancer",
+      "n": 96,
+      "source_group": "female-specific",
+      "rvu_2015": 49.33,
+      "rvu_1997": 28.79,
+      "rvu_percent_change_as_printed": "+71%",
+      "operative_minutes_median_iqr_as_printed": "314.5 (230\u2013448.5)",
+      "paired_minutes_difference_as_printed": "",
+      "rvu_per_hour_as_printed": 9.41,
+      "usd_per_hour_as_printed": 489.0,
+      "arithmetic_check": {
+        "reviewer_calculated_usd_from_printed_rvu_hour_and_specialty_rate": 489.51,
+        "printed_minus_calculated_usd": -0.51,
+        "not_a_corrected_estimate": true
+      }
+    }
+  ],
+  "arithmetic_flags": [
+    {
+      "cpt": "58925",
+      "printed_usd_hour": 520.0,
+      "expected_from_printed_inputs": 524.36
+    },
+    {
+      "cpt": "54135",
+      "printed_usd_hour": 453.0,
+      "expected_from_printed_inputs": 426.0
+    }
+  ],
+  "other_internal_checks": [
+    {
+      "locator": "Table 1, exenteration rows CPT 51597 and 58240",
+      "printed_median_minutes": [
+        319.5,
+        314.5
+      ],
+      "printed_difference_minutes": 4,
+      "calculated_difference_minutes": 5
+    },
+    {
+      "locator": "Results paragraph 5, specialty compensation",
+      "printed_obgyn_rates": [
+        44.5,
+        52.02
+      ],
+      "author_reported_increase_percent": 14,
+      "reviewer_baseline_relative_increase_percent": 16.9
+    }
+  ]
+}

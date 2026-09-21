@@ -1,0 +1,24 @@
+{
+  "execution_date": "2026-09-21",
+  "corrected_core": 43904,
+  "supplement": 16866,
+  "duplicate_hits_removed_by_pmid": 2084,
+  "unique_identified": 58686,
+  "metadata_exported": 58686,
+  "identifier_only": 0,
+  "with_abstract": 46735,
+  "without_abstract": 11951,
+  "calibration_records": 50,
+  "human_screened": 0,
+  "sentinels_retrieved": 9,
+  "sentinels_total": 10,
+  "not_completed": [
+    "PRESS review",
+    "Embase/CINAHL/EconLit/citation-index searches",
+    "DOI/title/report-family deduplication",
+    "Independent human screening",
+    "Formal risk-of-bias and certainty assessment"
+  ],
+  "deduplication_rule": "Exact PMID across current core and supplementary queries; priority subset is not a third identification source",
+  "calibration_sampling": "Purposive existing diagnostic sources plus up to five title-term matches per listed domain, SHA-256 deterministic order, then remainder to 50. Selection after search; not representative and not PRESS validation."
+}

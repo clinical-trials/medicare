@@ -1,0 +1,11 @@
+study_id,pmid,title,core,supplement,priority_metadata,selection
+L-P01,39978776,Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies.,False,True,True,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-P02,38758183,Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures.,True,True,True,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-P03,34736273,Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time.,False,True,True,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-D01,38527966,Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries.,True,False,False,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-G04,18302495,"Longitudinal trends in use of bone mass measurement among older americans, 1999-2005.",False,False,False,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-G05,33273290,Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians.,True,False,True,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-G09,40560583,Coverage Gaps and Contraceptive Use Among Medicare Enrollees With Disabilities.,True,False,True,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-G10,38190592,Contraceptive Use Among Traditional Medicare And Medicare Advantage Enrollees.,True,False,False,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-H01,10309221,Factors affecting differences in Medicare reimbursements for physicians' services.,True,False,False,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"
+L-C03,39046733,Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties.,True,True,True,"Post-execution pilot-register diagnostic, not an independent validated sentinel set"

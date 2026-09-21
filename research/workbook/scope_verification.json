@@ -1,8 +1,8 @@
 {
   "items": 40,
-  "studies": 34,
+  "studies": 38,
   "contextRecords": 7,
-  "primaryCandidateRecords": 27,
+  "primaryCandidateRecords": 31,
   "excludedItems": 3,
   "excludedStudies": 8,
   "withStudies": 26,
@@ -14,7 +14,7 @@
     "Not established": 5
   },
   "analyticSubjects": {
-    "Patient care / access": 18,
+    "Patient care / access": 22,
     "Service / anatomy valuation or coverage": 10,
     "Physician sex / gender": 3,
     "General patient sex / gender background": 3

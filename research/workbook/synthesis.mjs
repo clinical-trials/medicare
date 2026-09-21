@@ -31,7 +31,7 @@ export async function addSynthesis(wb,{studies,items}){
   const form=(s,r,value)=>s.getRange(r).formulas=[[value]];
 
   // This is a separate hypothesis unit, not an addition to the study inventory.
-  const sheet=wb.worksheets.add('Hypotheses');sheet.showGridLines=false;sheet.tabColor=panel;
+  let sheet;try{sheet=wb.worksheets.getItem('Hypotheses');}catch{sheet=wb.worksheets.add('Hypotheses');}sheet.showGridLines=false;sheet.tabColor=panel;
   const oldNotes=new Map(sheet.getRange('A9:R50').values.filter(r=>r[0]).map(r=>[r[0],r[17]||'']));
   const headers=['Hypothesis ID','Evidence stream','Proposed hypothesis','Observed pattern / limits','Proposed test','What would weaken it','Analysis readiness','Research priority','Population and need','Exposure','Comparator','Primary / secondary outcomes','Alternative explanations','Next step','Supporting / motivating studies','Counterevidence / qualification','PMIDs (study ID: PMID)','Research notes','Policy source IDs'];
   const rows=spec.hypotheses.map(h=>[h.id,h.stream,h.statement,h.evidence_summary,h.test,h.weakens,h.readiness,h.priority,h.population,h.exposure,h.comparator,h.outcome,h.alternatives,h.next_step,h.evidence_ids.join(', '),h.counter_ids.join(', ')||'No direct counter-study extracted; see alternative explanations',pmids([...h.evidence_ids,...h.counter_ids]),oldNotes.get(h.id)||'',h.policy_ids.join(', ')||'No direct policy estimate attached']);
@@ -99,7 +99,7 @@ export async function addSynthesis(wb,{studies,items}){
   const selected=distributions.filter(x=>!x.group.includes('any single-ingredient'));
   const pct=(v,n)=>(100*v/n).toFixed(1)+'%';
   const nformat=n=>n.toLocaleString('en-US');
-  const report=['# Medicare sex/gender equity: preliminary synthesis and hypotheses','',`Version ${spec.version} | ${spec.created_on} | ${spec.status}.`,'',
+  const report=['# Medicare sex/gender equity: preliminary synthesis and hypotheses','',`Version ${spec.version} | ${spec.updated_on||spec.created_on} | ${spec.status}.`,'',
     `**Working thesis:** ${spec.central_hypothesis}`,'',
     `${spec.method} The source set contains ${items.length} care-item rows and ${studies.length} active literature records. The hypothesis numbers below are research propositions, not additional studies.`,'',
     `The organizing clinical review is ${cite(spec.anchor_study_id)}; retain its correction ${cite(spec.anchor_correction_id)}. It supports a framework for clinical need and sex/gender mechanisms, rather than a direct Medicare payment conclusion.`,'',
@@ -125,10 +125,10 @@ export async function addSynthesis(wb,{studies,items}){
   report.push('','## Interpretation and design limits','',...spec.guardrails.map(x=>`- ${x}`),'','## Next analyses','');
   for(const a of spec.next_analyses)report.push(`${a.order}. **${a.action}** (${a.hypothesis_ids.join(', ')}). ${a.why}`,'');
   report.push('## Broader literature search','',spec.search_expansion,'','## Citation and audit trail','',
-    'Study IDs and numeric PMIDs above resolve to the active register and its [living bibliography](./Medicare_gender_care_bibliography.md). No cited primary references from background reviews were automatically added. No new studies were added by this synthesis; 43 scientific metadata records, including eight excluded papers and one correction, remain in the bibliography. Excluded studies do not supply the substantive synthesis.','',
+    `Study IDs and numeric PMIDs above resolve to the active register and its [living bibliography](./Medicare_gender_care_bibliography.md). No cited primary references from background reviews were automatically added. The current verified scientific metadata contain ${meta.records.length} records, including ${studies.length} active candidates/context records, eight scope-excluded papers, one correction and two separately logged retrieval references. Excluded studies and outside-register references do not supply the substantive synthesis.`,'',
     'The workbook retains the underlying records, a new Hypotheses tab, the dashboard pattern summary, and derived formulation states beside the existing Drug formularies inputs. The active population scope, patient/physician distinction and clinical anatomy/physiology classifications remain in force.','');
-  await fs.writeFile(`${out}/Medicare_preliminary_synthesis_and_hypotheses_2026-09-16.md`,report.join('\n'));
-  const analysis={updated_on:spec.created_on,stage:spec.status,active_studies:studies.length,care_items:items.length,hypotheses:spec.hypotheses.length,pattern_count:spec.patterns.length,formulary_source:fm.metadata,formulary_distributions:distributions,procedure_pair_count:pairs.pairs.length,reference_ids:[...allReferences].sort()};
+  await fs.writeFile(`${out}/Medicare_preliminary_synthesis_and_hypotheses_2026-09-16.md`,report.map(line=>line.trimEnd()).join('\n'));
+  const analysis={updated_on:spec.updated_on||spec.created_on,stage:spec.status,active_studies:studies.length,care_items:items.length,hypotheses:spec.hypotheses.length,pattern_count:spec.patterns.length,formulary_source:fm.metadata,formulary_distributions:distributions,procedure_pair_count:pairs.pairs.length,reference_ids:[...allReferences].sort()};
   await fs.writeFile(`${root}/research/synthesis_analysis.json`,JSON.stringify(analysis,null,2)+'\n');
   for(const [sheetName,range,name] of [['Dashboard','B97:Q123','synthesis-dashboard'],['Hypotheses','A8:C11','hypotheses-opening'],['Hypotheses','E8:H10','hypotheses-tests'],['Drug formularies','M8:S14','formulary-states']]){
     const blob=await wb.render({sheetName,range,scale:1,format:'png'});await fs.writeFile(`${support}/${name}.png`,new Uint8Array(await blob.arrayBuffer()));

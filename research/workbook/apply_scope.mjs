@@ -15,6 +15,8 @@ const [drugs,procedures,gender,additional]=datasets;
 const benchmark=JSON.parse(await fs.readFile(`${root}/research/medicare_benchmark.json`,'utf8'));
 const {scope,clinicalBasis,evidenceSubjects,items,studies,excludedItems,excludedStudies}=await applyReviewScope(datasets.flatMap(x=>x.items),[...procedures.studies,...drugs.studies,...gender.studies,...additional.studies]);
 const wb=await SpreadsheetFile.importXlsx(await FileBlob.load(path));
+const beforePreview=await wb.render({sheetName:'Dashboard',range:'A1:Q14',scale:1,format:'png'});
+await fs.writeFile(`${support}/before-review-update.png`,new Uint8Array(await beforePreview.arrayBuffer()));
 const care=wb.worksheets.getItem('Data & Targets'),lit=wb.worksheets.getItem('Literature'),dash=wb.worksheets.getItem('Dashboard'),helper=wb.worksheets.getItem('_Chart Helpers');
 const navy='#102332',panel='#19354D',ink='#243B50',pale='#EDF4F8';
 const reviewed=new Date('2026-09-16T12:00:00Z');
@@ -73,7 +75,7 @@ lit.getRange(`P9:P${litEnd}`).format.fill='#EDF2FA';lit.getRange(`R9:R${litEnd}`
 box(lit,'S3:X4','Whose sex/gender is analyzed? Patient care, service/anatomy valuation, physician gender and general background are distinct. Filter Analytic subject; read both variable roles and the comparison axis.',pale,ink);
 box(lit,'S5:X6','Physician payment evidence is a separate contextual stream. A single-sex clinical population, procedure anatomy, or clinician interview does not establish a between-sex patient or physician effect.',pale,ink);
 box(lit,'A3:F4','National review of coverage, payment values, patient costs and access across prescriptions, procedures and shared conditions. Estradiol is one motivating case. Target population: cisgender women and men.',pale,ink);
-box(lit,'A5:F6','Population scope amended September 16, 2026. Most summaries remain abstract-based. Excluded records are logged separately. This is not yet a completed systematic review.',pale,ink);
+box(lit,'A5:F6','Scope amended September 16. Four patient-access candidates and three source checks added September 21, 2026. Human screening and identity eligibility remain pending; access level is recorded for each study.',pale,ink);
 const methodRows=[
  ['National question',scope.national_review_question],
  ['Medicare benchmark',benchmark.rationale],
@@ -91,7 +93,7 @@ const methodRows=[
  ['Joint sex/gender analysis',scope.interaction_evidence_rule],
  ['Contextual evidence','General reviews support the clinical framework and citation following. Qualitative clinician interviews can identify perceived patient-access barriers, without estimating Medicare disparities. Label these roles separately; cited studies require independent screening.'],
  ['Scope amendment','Adopted September 16, 2026 after the initial broad search. This is a documented amendment, not a prospectively registered criterion. Research-scope exclusion is distinct from Medicare noncoverage.'],
- ['Search status','Initial targeted searches and citation following completed September 16, 2026. Subsequent searches should apply the amended population criterion. This register is not a complete screened-record inventory.'],
+ ['Search status','PubMed core and supplementary queries executed September 21, 2026 before PRESS review. 58,686 unique PMIDs identified; search and metadata archives are separate from this selected evidence register. Human screening and other planned databases remain pending.'],
  ['Eligible topic searches',scope.topic_scope],
  ['Policy levels',scope.policy_level_rule],
  ['Source hierarchy','Coverage uses federal benefit rules, CMS/Medicare guidance, named contractor policy and identified formularies. Scientific studies inform effects and disparity hypotheses, not automatic coverage decisions.'],
@@ -112,7 +114,7 @@ for(const [label,txt] of methodRows){mr++;box(lit,`A${mr}:B${mr}`,label,pale,ink
 mr+=3;box(lit,`A${mr}:F${mr}`,'Additional primary policy and label sources',panel);lit.getRange(`A${mr}:F${mr}`).format.rowHeightPx=30;
 for(const s of [...drugs.supplemental_policy_sources,...benchmark.sources.map(s=>({topic:`Benchmark context: ${s.title} (${s.data_period})`,url:s.url}))]){mr++;box(lit,`A${mr}:F${mr}`,s.topic,pale,ink);box(lit,`H${mr}:J${mr}`,s.url,'#FFFFFF','#176CA4',10);lit.getRange(`A${mr}:J${mr}`).format.rowHeightPx=55;}
 
-const exclusion=wb.worksheets.add('Exclusions');exclusion.showGridLines=false;exclusion.tabColor='#8B728F';
+let exclusion;try{exclusion=wb.worksheets.getItem('Exclusions');}catch{exclusion=wb.worksheets.add('Exclusions');}exclusion.showGridLines=false;exclusion.tabColor='#8B728F';
 exclusion.getRange('A1:H30').format={font:{name:'Aptos',size:11,color:ink},wrapText:true,verticalAlignment:'top',fill:'#FFFFFF'};
 [95,115,350,260,370,310,110,350].forEach((width,i)=>exclusion.getRange(`${String.fromCharCode(65+i)}:${String.fromCharCode(65+i)}`).format.columnWidthPx=width);
 box(exclusion,'A1:F2','Population-scope exclusions',navy,'#FFFFFF',22);

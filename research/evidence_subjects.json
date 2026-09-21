@@ -330,6 +330,43 @@
       "physician_sex_gender_role": "Physician gender is the primary analytic exposure",
       "comparison_axis": "Surgeon gender and provider-service payment/utilization comparisons",
       "inference_boundary": "Physician-gender findings do not establish patient-sex reimbursement effects; distinguish provider totals, service rates and salary."
+    },
+    {
+      "id": "L-R01",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Community-dwelling Medicare beneficiaries in survey-weighted 2016 MCBS analyses",
+      "patient_sex_gender_role": "Enrollment-record sex, female versus male; gender identity not reported and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in cost-related medication nonadherence and companion financial-burden measures, separately for <65 and >=65",
+      "inference_boundary": "Adjusted associations are not causal reimbursement effects; historical enrollment sex does not establish cisgender identity. Weighted prevalence does not supply unweighted event counts."
+    },
+    {
+      "id": "L-R02",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "High-hospitalization-risk Medicare beneficiaries with five repeated CRN surveys",
+      "patient_sex_gender_role": "Survey asked sex; authors report woman/man as gender. Gender identity and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in transient, intermittent and persistent cost-related medication nonadherence",
+      "inference_boundary": "Selected observational cohort, not national prevalence or a randomized sex comparison. Adjusted persistent estimate includes null; this does not establish equivalence."
+    },
+    {
+      "id": "L-R03",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Medicare beneficiary",
+      "patient_sex_gender_role": "Exact field/source and coding not reported in accessible abstract; claims study population; gender identity not reported",
+      "physician_sex_gender_role": "No physician-sex comparison",
+      "comparison_axis": "Unadjusted female/male contrast within Asian American beneficiaries; not all Medicare beneficiaries",
+      "inference_boundary": "Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved."
+    },
+    {
+      "id": "L-R04",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Woman/enrollee; most recent two-year observation window",
+      "patient_sex_gender_role": "Enrollee sex obtained from member files (Methods, Data Source,p307); original coding rules not detailed; gender identity not reported",
+      "physician_sex_gender_role": "No physician-sex comparison",
+      "comparison_axis": "Within women by age, payer, race/ethnicity and other characteristics; no female/male contrast",
+      "inference_boundary": "Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved."
     }
-  ]
+  ],
+  "updated_on": "2026-09-21"
 }

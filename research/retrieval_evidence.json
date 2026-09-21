@@ -1,0 +1,28 @@
+{
+  "updated_on": "2026-09-21",
+  "status": "Reviewed retrieval leads/context outside the active register; no final full-text exclusion counts",
+  "records": [
+    {
+      "id": "L-X01",
+      "pmid": "15692281",
+      "status": "Unresolved historical lead",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "reason": "Abstract-only drug-use/expenditure sex comparison; full text, payer composition, spending denominator and identity eligibility unresolved. Do not infer wrong payer from title alone.",
+      "access_level": "Verified abstract only",
+      "finding": "Abstract reports average drug expenditures of $1,178 for women versus $1,009 for men (about 17% higher); not verified as OOP or reimbursement.",
+      "next_action": "Retrieve lawful full text and adjudicate separately extractable Medicare findings."
+    },
+    {
+      "id": "L-X02",
+      "pmid": "36255428",
+      "status": "Spending context outside active register",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "reason": "Accessed main report contains descriptive sex composition but no patient-sex outcome contrast.",
+      "access_level": "Main full text and table inspected; supplement not inspected",
+      "finding": "2008–2019 FFS A/B/D spending study; expenditure includes Medicare allowed amounts, other-payer payments and patient liabilities, not OOP alone.",
+      "next_action": "Retain outside direct sex-effect synthesis; reconcile abstract/body spending discrepancies before numerical reuse."
+    }
+  ]
+}

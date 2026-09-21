@@ -1,10 +1,10 @@
 # Medicare sex/gender equity: preliminary synthesis and hypotheses
 
-Version 1 | 2026-09-16 | Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed.
+Version 1.1 | 2026-09-21 | Preliminary narrative synthesis and exploratory hypotheses; no causal tests completed.
 
 **Working thesis:** Medicare may produce sex-related inequities when benefit rules, service valuation and practical access do not align with clinical need. The direction and mechanism may differ across conditions; a uniform disadvantage to one sex is not established.
 
-Structured narrative synthesis of the selected active register and previously extracted CMS data. Organize by unit, clinical indication, policy period and outcome. Retain contradictory findings and distinguish observed patterns from proposed mechanisms. No meta-analysis, formal certainty grade or nationwide prevalence estimate of bias is attempted. The source set contains 40 care-item rows and 34 active literature records. The hypothesis numbers below are research propositions, not additional studies.
+Structured narrative synthesis of the selected active register and previously extracted CMS data. Organize by unit, clinical indication, policy period and outcome. Retain contradictory findings and distinguish observed patterns from proposed mechanisms. No meta-analysis, formal certainty grade or nationwide prevalence estimate of bias is attempted. The source set contains 40 care-item rows and 38 active literature records. The hypothesis numbers below are research propositions, not additional studies.
 
 The organizing clinical review is [L-B01; PMID 32828189](https://pubmed.ncbi.nlm.nih.gov/32828189/); retain its correction [L-B01-E1; PMID 32891210](https://pubmed.ncbi.nlm.nih.gov/32891210/). It supports a framework for clinical need and sex/gender mechanisms, rather than a direct Medicare payment conclusion.
 
@@ -26,7 +26,7 @@ Sources: [L-D01; PMID 38527966](https://pubmed.ncbi.nlm.nih.gov/38527966/); [L-D
 
 **Interpretation to investigate:** A conditional valuation problem is plausible and merits a prespecified comparison of clinically comparable work. Specialty compensation, work RVUs and actual Medicare payments require separate analyses.
 
-**Limit:** Selected pairs cannot establish a universal effect. A nonsignificant small study is not evidence of equivalence. Anatomy-based procedures do not measure physician gender, and operative time omits other work.
+**Limit:** Selected pairs cannot establish a universal effect. Nonsignificance does not establish equivalence. Full texts of Penn/Hathaway remain pending; Hathaway journal/companion pair counts disagree (10/9). Polan dollar rates model specialty compensation; some printed arithmetic needs verification.
 
 Sources: [L-P01; PMID 39978776](https://pubmed.ncbi.nlm.nih.gov/39978776/); [L-P02; PMID 38758183](https://pubmed.ncbi.nlm.nih.gov/38758183/); [L-P03; PMID 34736273](https://pubmed.ncbi.nlm.nih.gov/34736273/); [L-P04; PMID 34237766](https://pubmed.ncbi.nlm.nih.gov/34237766/); [L-P05; PMID 9062137](https://pubmed.ncbi.nlm.nih.gov/9062137/); [L-P06; PMID 28024653](https://pubmed.ncbi.nlm.nih.gov/28024653/); [P-035](https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c); [P-036](https://auanews.net/issues/articles/2024/july-extra-2024/upj-insight-comparison-of-work-relative-value-units-assigned-to-urological-and-gynecological-surgical-procedures).
 
@@ -42,13 +42,13 @@ Sources: [L-G09; PMID 40560583](https://pubmed.ncbi.nlm.nih.gov/40560583/); [L-G
 
 ### PAT-04. Disadvantage can affect men in shared conditions
 
-**Observed:** Historical Medicare bone-testing use was much lower in men. In selected men with recent fragility fracture, an outreach program increased bone-density testing from 4.9% to 10.7%, though absolute uptake stayed low. Testosterone products also face authorization requirements in the formulary snapshot.
+**Observed:** Historical Medicare bone-testing use was lower in men. A men's fragility-fracture outreach program increased testing from 4.9% to 10.7%. A newly checked, identity-unresolved Asian American Medicare study reports DXA receipt of 19.8% in women and 5.0% in men, with different age thresholds. A separate women-only MA study reports lower two-year bone measurement at age >=80 than 65–79.
 
 **Interpretation to investigate:** Test gaps in appropriate care in either direction. Clinical recognition, referral and treatment completion may matter alongside reimbursement.
 
-**Limit:** The outreach trial has no female comparison. Current bone-test eligibility has several qualifying routes, including routes for men. Hormone indications and safety requirements differ.
+**Limit:** New patient records have unresolved identity eligibility. The Asian American result is crude and abstract-only, with women >=65 versus men >=70; it is not a national adjusted sex effect. MA women-only results do not estimate a male/female gap. Need, preferences, intervals and delivery barriers remain distinct from coverage.
 
-Sources: [L-G04; PMID 18302495](https://pubmed.ncbi.nlm.nih.gov/18302495/); [L-G05; PMID 33273290](https://pubmed.ncbi.nlm.nih.gov/33273290/); [P-002](https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip); [P-012](https://www.medicare.gov/coverage/bone-mass-measurements).
+Sources: [L-G04; PMID 18302495](https://pubmed.ncbi.nlm.nih.gov/18302495/); [L-G05; PMID 33273290](https://pubmed.ncbi.nlm.nih.gov/33273290/); [L-R03; PMID 38459983](https://pubmed.ncbi.nlm.nih.gov/38459983/); [L-R04; PMID 27884649](https://pubmed.ncbi.nlm.nih.gov/27884649/); [P-002](https://data.cms.gov/sites/default/files/2026-08/d8c9b393-66f0-4973-a748-f66742fe0fd2/2026_20260819.zip); [P-012](https://www.medicare.gov/coverage/bone-mass-measurements).
 
 ### PAT-05. Physician annual-payment gaps are not equivalent to per-service rate gaps
 
@@ -62,13 +62,13 @@ Sources: [L-C01; PMID 31926887](https://pubmed.ncbi.nlm.nih.gov/31926887/); [L-C
 
 ### PAT-06. Clinical need and practical barriers connect the evidence but remain incompletely measured
 
-**Observed:** The Lancet review explains how biological sex and social gender can shape need, presentation and treatment response. Kidney-care interviews describe perceived financial, caregiving and transport barriers. Breast reconstruction studies raise concerns about valuation relative to operative work.
+**Observed:** The Lancet review connects biology and social pathways to clinical need; kidney-care interviews identify perceived practical barriers. Newly extracted, identity-unresolved Medicare studies report female-higher cost-related nonadherence in a 2016 national survey but an imprecise adjusted persistent-nonadherence contrast in a selected Chicago cohort.
 
 **Interpretation to investigate:** A useful research model separates clinical need, recognition/referral, eligibility, financial/administrative burden and completed care. It permits both policy and nonpolicy mechanisms.
 
-**Limit:** The Lancet article is clinical background, interviews measure perceptions, and breast studies are not direct patient-sex comparisons. None alone demonstrates Medicare discrimination.
+**Limit:** Patient identity eligibility and human verification remain pending. Annual any-nonadherence and persistent nonadherence are different outcomes; do not pool them. These historical observational results do not establish current coverage discrimination.
 
-Sources: [L-B01; PMID 32828189](https://pubmed.ncbi.nlm.nih.gov/32828189/); [L-B01-E1; PMID 32891210](https://pubmed.ncbi.nlm.nih.gov/32891210/); [L-Q01; PMID 35257055](https://pubmed.ncbi.nlm.nih.gov/35257055/); [L-P07; PMID 42085599](https://pubmed.ncbi.nlm.nih.gov/42085599/); [L-P08; PMID 41701182](https://pubmed.ncbi.nlm.nih.gov/41701182/); [L-P09; PMID 32453268](https://pubmed.ncbi.nlm.nih.gov/32453268/).
+Sources: [L-B01; PMID 32828189](https://pubmed.ncbi.nlm.nih.gov/32828189/); [L-B01-E1; PMID 32891210](https://pubmed.ncbi.nlm.nih.gov/32891210/); [L-Q01; PMID 35257055](https://pubmed.ncbi.nlm.nih.gov/35257055/); [L-P07; PMID 42085599](https://pubmed.ncbi.nlm.nih.gov/42085599/); [L-P08; PMID 41701182](https://pubmed.ncbi.nlm.nih.gov/41701182/); [L-P09; PMID 32453268](https://pubmed.ncbi.nlm.nih.gov/32453268/); [L-R01; PMID 33298705](https://pubmed.ncbi.nlm.nih.gov/33298705/); [L-R02; PMID 33656528](https://pubmed.ncbi.nlm.nih.gov/33656528/).
 
 ## A descriptive result from the existing formulary data
 
@@ -195,7 +195,7 @@ Motivating evidence: [L-G04; PMID 18302495](https://pubmed.ncbi.nlm.nih.gov/1830
 
 **Readiness:** Qualitative mechanism only; requires patient-level prospective evidence. **Priority:** Exploratory mechanism. **Next step:** Retrieve full qualitative methods and contradictory accounts. Develop measures with patients; do not treat clinician perceptions as measured Medicare effects.
 
-Motivating evidence: [L-Q01; PMID 35257055](https://pubmed.ncbi.nlm.nih.gov/35257055/); [L-B01; PMID 32828189](https://pubmed.ncbi.nlm.nih.gov/32828189/). 
+Motivating evidence: [L-Q01; PMID 35257055](https://pubmed.ncbi.nlm.nih.gov/35257055/); [L-B01; PMID 32828189](https://pubmed.ncbi.nlm.nih.gov/32828189/).
 
 ### HYP-06. Physician opportunity and annual Medicare payments
 
@@ -215,7 +215,7 @@ Motivating evidence: [L-Q01; PMID 35257055](https://pubmed.ncbi.nlm.nih.gov/3525
 
 **Readiness:** Consistent annual-payment associations; mechanisms untested in current register. **Priority:** Separate physician stream. **Next step:** Keep annual-payment and per-service estimates separate. Obtain complete claims and measured clinical time; do not infer salary or patient coverage from receipts.
 
-Motivating evidence: [L-C01; PMID 31926887](https://pubmed.ncbi.nlm.nih.gov/31926887/); [L-C02; PMID 34495296](https://pubmed.ncbi.nlm.nih.gov/34495296/); [L-C03; PMID 39046733](https://pubmed.ncbi.nlm.nih.gov/39046733/). Counterevidence or qualification: [L-C02; PMID 34495296](https://pubmed.ncbi.nlm.nih.gov/34495296/); [L-C03; PMID 39046733](https://pubmed.ncbi.nlm.nih.gov/39046733/). 
+Motivating evidence: [L-C01; PMID 31926887](https://pubmed.ncbi.nlm.nih.gov/31926887/); [L-C02; PMID 34495296](https://pubmed.ncbi.nlm.nih.gov/34495296/); [L-C03; PMID 39046733](https://pubmed.ncbi.nlm.nih.gov/39046733/). Counterevidence or qualification: [L-C02; PMID 34495296](https://pubmed.ncbi.nlm.nih.gov/34495296/); [L-C03; PMID 39046733](https://pubmed.ncbi.nlm.nih.gov/39046733/).
 
 ### HYP-07. Policy expansion and lymphedema burden
 
@@ -257,10 +257,30 @@ Motivating evidence: [L-A01; PMID 31446591](https://pubmed.ncbi.nlm.nih.gov/3144
 
 Motivating evidence: [L-P07; PMID 42085599](https://pubmed.ncbi.nlm.nih.gov/42085599/); [L-P08; PMID 41701182](https://pubmed.ncbi.nlm.nih.gov/41701182/); [L-P09; PMID 32453268](https://pubmed.ncbi.nlm.nih.gov/32453268/); [L-P04; PMID 34237766](https://pubmed.ncbi.nlm.nih.gov/34237766/). Policy/data: [P-035](https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c).
 
+### HYP-09. Medication affordability and sex differences in nonadherence
+
+**Patient care/access. Hypothesis:** Among beneficiaries with comparable medication needs, financial burden contributes to sex differences in cost-related nonadherence, with potentially different effects for younger and older beneficiaries.
+
+**Population:** Medicare beneficiaries using indicated medicines; retain <65 and >=65 strata and resolve the project identity criterion before primary inclusion.
+
+**Exposure and comparison:** Actual patient cost sharing and changes in financial protection; keep coverage, income and disease burden distinct. Comparable medication needs across sex and policy periods; benefit-change studies need defensible controls.
+
+**Outcome:** Annual any cost-related nonadherence and longitudinal persistence analyzed separately; retain reduced spending on necessities as a separate outcome.
+
+**Proposed test:** Extract complete age-specific estimates, assess overlap and outcome compatibility, then examine policy-change designs with pretrends, clinical need and potential mediators specified.
+
+**Alternative explanations:** Different illness and medicine burdens, income, recall, patient preferences, plan selection and survivor selection; adjustment may also remove pathways of disparity.
+
+**What would weaken it:** Precise null contrasts in clinically comparable groups and no differential response to financial protection would weaken the proposed mechanism; imprecise null results do not establish equality.
+
+**Readiness:** Two provisional full-text candidates; identity eligibility, human verification and appraisal pending. **Priority:** Further evidence extraction. **Next step:** Verify complete tables and model denominators, retrieve supplements, complete independent human review and search for compatible policy-change studies.
+
+Motivating evidence: [L-R01; PMID 33298705](https://pubmed.ncbi.nlm.nih.gov/33298705/). Counterevidence or qualification: [L-R02; PMID 33656528](https://pubmed.ncbi.nlm.nih.gov/33656528/).
+
 ## Interpretation and design limits
 
 - These hypotheses were generated after inspecting the selected evidence. They are exploratory, not prospectively registered confirmatory tests. Prespecify the next analyses, effect sizes of interest and matching rules before testing.
-- The 40 care rows and 34 literature records are a selected starting set, with 27 primary candidates and 7 context records. They are not all Medicare services or an unbiased sample of disparities.
+- The 40 care rows and 38 literature records are a selected starting set, with 31 primary candidates and 7 context records. They are not all Medicare services or an unbiased sample of disparities.
 - Formal risk-of-bias appraisal, complete searches and full-text eligibility remain incomplete. Reporting male/female does not establish cisgender identity. Apply the current population criterion without relabeling cohorts.
 - Distinguish sex/gender, anatomy, need, disease burden and physician gender. Clinical need must be defined independently of coverage and observed utilization. Include eligible people who did not receive care.
 - Preserve original Medicare, MA, Part D, contractor, plan, year, setting and age/entitlement distinctions. Do not pool patient, physician and procedure-code effects.
@@ -283,6 +303,6 @@ Use the Lancet review to organize searches in cardiovascular and cerebrovascular
 
 ## Citation and audit trail
 
-Study IDs and numeric PMIDs above resolve to the active register and its [living bibliography](./Medicare_gender_care_bibliography.md). No cited primary references from background reviews were automatically added. No new studies were added by this synthesis; 43 scientific metadata records, including eight excluded papers and one correction, remain in the bibliography. Excluded studies do not supply the substantive synthesis.
+Study IDs and numeric PMIDs above resolve to the active register and its [living bibliography](./Medicare_gender_care_bibliography.md). No cited primary references from background reviews were automatically added. The current verified scientific metadata contain 49 records, including 38 active candidates/context records, eight scope-excluded papers, one correction and two separately logged retrieval references. Excluded studies and outside-register references do not supply the substantive synthesis.
 
 The workbook retains the underlying records, a new Hypotheses tab, the dashboard pattern summary, and derived formulation states beside the existing Drug formularies inputs. The active population scope, patient/physician distinction and clinical anatomy/physiology classifications remain in force.

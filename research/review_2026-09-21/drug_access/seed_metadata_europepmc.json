@@ -1,0 +1,677 @@
+{
+  "version": "6.9",
+  "hitCount": 2,
+  "request": {
+    "queryString": "EXT_ID:15692281 OR EXT_ID:36255428",
+    "resultType": "core",
+    "cursorMark": "*",
+    "pageSize": 25,
+    "sort": "",
+    "synonym": false
+  },
+  "resultList": {
+    "result": [
+      {
+        "id": "36255428",
+        "source": "MED",
+        "pmid": "36255428",
+        "pmcid": "PMC9579917",
+        "fullTextIdList": {
+          "fullTextId": [
+            "PMC9579917"
+          ]
+        },
+        "doi": "10.1001/jama.2022.17825",
+        "title": "Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019.",
+        "authorString": "Dusetzina SB, Huskamp HA, Qin X, Keating NL.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Dusetzina SB",
+              "lastName": "Dusetzina",
+              "firstName": "Stacie B",
+              "initials": "SB",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0002-3907-9196"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Policy, Vanderbilt University School of Medicine, Nashville, Tennessee."
+                  },
+                  {
+                    "affiliation": "Vanderbilt-Ingram Cancer Center, Nashville, Tennessee."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Huskamp HA",
+              "lastName": "Huskamp",
+              "firstName": "Haiden A",
+              "initials": "HA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Care Policy, Harvard Medical School, Boston, Massachusetts."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Qin X",
+              "lastName": "Qin",
+              "firstName": "Xuanzi",
+              "initials": "X",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Policy, Vanderbilt University School of Medicine, Nashville, Tennessee."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Keating NL",
+              "lastName": "Keating",
+              "firstName": "Nancy L",
+              "initials": "NL",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Health Care Policy, Harvard Medical School, Boston, Massachusetts."
+                  },
+                  {
+                    "affiliation": "Division of General Internal Medicine, Brigham and Women's Hospital, Boston Massachusetts."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "authorIdList": {
+          "authorId": [
+            {
+              "type": "ORCID",
+              "value": "0000-0002-3907-9196"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics",
+            "supporting_data"
+          ]
+        },
+        "journalInfo": {
+          "issue": "15",
+          "volume": "328",
+          "journalIssueId": 3442072,
+          "dateOfPublication": "2022 Oct",
+          "monthOfPublication": 10,
+          "yearOfPublication": 2022,
+          "journal": {
+            "medlineAbbreviation": "JAMA",
+            "title": "JAMA",
+            "essn": "1538-3598",
+            "issn": "0098-7484",
+            "nlmid": "7501160",
+            "isoabbreviation": "JAMA"
+          },
+          "printPublicationDate": "2022-10-01"
+        },
+        "pubYear": "2022",
+        "pageInfo": "1515-1522",
+        "abstractText": "<h4>Importance</h4>Prescription drug spending is a topic of increased interest to the public and policymakers. However, prior assessments have been limited by focusing on retail spending (Part D-covered drugs), omitting clinician-administered (Part B-covered) drug spending, or focusing on all fee-for-service Medicare beneficiaries, regardless of their enrollment into prescription drug coverage.<h4>Objective</h4>To estimate the proportion of health care spending contributed by prescription drugs and to assess spending for retail and clinician-administered prescriptions.<h4>Design, setting, and participants</h4>Descriptive, serial, cross-sectional analysis of a 20% random sample of fee-for-service Medicare beneficiaries in the United States from 2008 to 2019 who were continuously enrolled in Parts A (hospital), B (medical), and D (prescription drug) benefits, and not in Medicare Advantage.<h4>Exposure</h4>Calendar year.<h4>Main outcomes and measures</h4>Net spending on retail (Part D-covered) and clinician-administered (Part B-covered) prescription drugs; prescription drug spending (spending on Part B-covered and Part D-covered drugs) as a percentage of total per-capita health care spending. Measures were adjusted for inflation and for postsale rebates (for Part D-covered drugs).<h4>Results</h4>There were 3\u202f201\u202f284 beneficiaries enrolled in Parts A, B, and D in 2008 and 4\u202f502\u202f718 in 2019. In 2019, beneficiaries had a mean (SD) age of 71.7 (12.0) years, documented sex was female for 57.7%, and 69.5% had no low-income subsidies. Total per-capita spending was $16\u202f345 in 2008 and $20\u202f117 in 2019. Comparing 2008 with 2019, per-capita Part A spending was $7106 (95% CI, $7084-$7128) vs $7120 (95% CI, $7098-$7141), Part B drug spending was $720 (95% CI, $713-$728) vs $1641 (95% CI, $1629-$1653), Part B nondrug spending was $5113 (95% CI, $5105-$5122) vs $6702 (95% CI, $6692-$6712), and Part D net spending was $3122 (95% CI, $3117-$3127) vs $3477 (95% CI, $3466-$3489). The proportion of total annual spending attributed to prescription drugs increased from 24.0% in 2008 to 27.2% in 2019, net of estimated rebates and discounts.<h4>Conclusions and relevance</h4>In 2019, spending on prescription drugs represented approximately 27% of total spending among fee-for-service Medicare beneficiaries enrolled in Part D, even after accounting for postsale rebates.",
+        "affiliation": "Department of Health Policy, Vanderbilt University School of Medicine, Nashville, Tennessee.",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Cross-Sectional Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Middle Aged"
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Health Expenditures",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Fee-for-Service Plans",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Medicare",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare Part A",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare Part B",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare Part D",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "TD",
+                    "qualifierName": "trends"
+                  },
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "Y",
+              "descriptorName": "Prescription Drugs",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "chemicalList": {
+          "chemical": [
+            {
+              "name": "Prescription Drugs",
+              "registryNumber": "0"
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9579917"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1001/jama.2022.17825"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC9579917"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1001/jama.2022.17825"
+            }
+          ]
+        },
+        "commentCorrectionList": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "36255438",
+              "reference": "JAMA. 2022 Oct 18;328(15):1502-1503. doi: 10.1001/jama.2022.18624",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "Y",
+        "inPMC": "Y",
+        "citedByCount": 12,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "Y",
+        "hasLabsLinks": "Y",
+        "hasData": "Y",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2022-10-22",
+        "dateOfCreation": "2022-10-18",
+        "dateOfRevision": "2023-04-19",
+        "firstPublicationDate": "2022-10-01",
+        "firstIndexDate": "2022-10-19",
+        "fullTextReceivedDate": "2025-02-04",
+        "embargoDate": "2023-04-18",
+        "hasEvaluations": "N"
+      },
+      {
+        "id": "15692281",
+        "source": "MED",
+        "pmid": "15692281",
+        "doi": "10.1089/jwh.2005.14.73",
+        "title": "Gender differences in drug use and expenditures in a privately insured population of older adults.",
+        "authorString": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Correa-de-Araujo R",
+              "lastName": "Correa-de-Araujo",
+              "firstName": "Rosaly",
+              "initials": "R",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Agency for Healthcare Research and Quality, Rockville, Maryland, USA. Rcorrea@ahrq.gov"
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Miller GE",
+              "lastName": "Miller",
+              "firstName": "G Edward",
+              "initials": "GE"
+            },
+            {
+              "fullName": "Banthin JS",
+              "lastName": "Banthin",
+              "firstName": "Jessica S",
+              "initials": "JS"
+            },
+            {
+              "fullName": "Trinh Y",
+              "lastName": "Trinh",
+              "firstName": "Yen",
+              "initials": "Y"
+            }
+          ]
+        },
+        "dataLinksTagsList": {
+          "dataLinkstag": [
+            "altmetrics"
+          ]
+        },
+        "journalInfo": {
+          "issue": "1",
+          "volume": "14",
+          "journalIssueId": 1218183,
+          "dateOfPublication": "2005 Jan-Feb",
+          "monthOfPublication": 0,
+          "yearOfPublication": 2005,
+          "journal": {
+            "medlineAbbreviation": "J Womens Health (Larchmt)",
+            "title": "Journal of women's health (2002)",
+            "essn": "1931-843X",
+            "issn": "1540-9996",
+            "nlmid": "101159262",
+            "isoabbreviation": "J Womens Health (Larchmt)"
+          },
+          "printPublicationDate": "2005-01-01"
+        },
+        "pubYear": "2005",
+        "pageInfo": "73-81",
+        "abstractText": "We examine gender differences in use and expenditures for prescription drugs among Medicare and privately insured older adults aged 65 and over, using data on a nationally representative sample of prescription drug purchases collected for the Medical Expenditure Panel Survey Household Component. Overall, women spent about $1,178 for drugs, about 17% more than the $1,009 in average expenditures by men. Older women constituted 50.7% of the population and had average annual aggregate expenditures for prescribed medicines of $6.93 billion compared to $5.77 billion for men. Women were more likely than men to use drugs from a number of therapeutic classes-analgesics, hormones and psychotherapeutic agents-and therapeutic subclasses-thyroid drugs, COX-2 inhibitors and anti-depressants. Women also had higher average prescriptions per user for a number of therapeutic classes-hormones, psychotherapeutic agents and analgesics-and therapeutic subclasses-anti-diabetic drugs and beta blockers. Prescribed medications are, arguably, the most important healthcare technology in preventing illness, disability, and death in older adults. It is critical that older women and men have proper access to prescribed medicines. Given the financial vulnerability of this priority population, particularly women, the expanded drug coverage available under the Medicare Modernization Act is of particular relevance in meeting this goal.",
+        "affiliation": "Agency for Healthcare Research and Quality, Rockville, Maryland, USA. Rcorrea@ahrq.gov",
+        "publicationStatus": "ppublish",
+        "language": "eng",
+        "pubModel": "Print",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "meshHeadingList": {
+          "meshHeading": [
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Humans"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health Care Surveys"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Retrospective Studies"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Sex Distribution"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Private Sector"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Aged, 80 and over"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Health Expenditures",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Fees, Pharmaceutical",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Medicare",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insurance Coverage"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Insurance, Pharmaceutical Services",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Utilization",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  },
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "SN",
+                    "qualifierName": "statistics & numerical data"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Quality Assurance, Health Care"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "United States",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "N",
+                    "abbreviation": "EP",
+                    "qualifierName": "epidemiology"
+                  }
+                ]
+              }
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Female"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Male"
+            },
+            {
+              "majorTopic_YN": "N",
+              "descriptorName": "Drug Prescriptions",
+              "meshQualifierList": {
+                "meshQualifier": [
+                  {
+                    "majorTopic_YN": "Y",
+                    "abbreviation": "EC",
+                    "qualifierName": "economics"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "subsetList": {
+          "subset": [
+            {
+              "code": "IM",
+              "name": "Index Medicus"
+            }
+          ]
+        },
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1089/jwh.2005.14.73"
+            }
+          ]
+        },
+        "isOpenAccess": "N",
+        "inEPMC": "N",
+        "inPMC": "N",
+        "citedByCount": 23,
+        "hasReferences": "Y",
+        "hasTextMinedTerms": "Y",
+        "hasDbCrossReferences": "N",
+        "hasPDF": "N",
+        "hasBook": "N",
+        "hasSuppl": "N",
+        "hasLabsLinks": "Y",
+        "hasData": "N",
+        "authMan": "N",
+        "epmcAuthMan": "N",
+        "nihAuthMan": "N",
+        "hasTMAccessionNumbers": "N",
+        "dateOfCompletion": "2005-05-27",
+        "dateOfCreation": "2005-02-05",
+        "dateOfRevision": "2008-11-21",
+        "firstPublicationDate": "2005-01-01",
+        "firstIndexDate": "2008-12-23",
+        "hasEvaluations": "N"
+      }
+    ]
+  }
+}

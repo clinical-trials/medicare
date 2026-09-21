@@ -1,0 +1,370 @@
+{
+  "status": "Bibliographic verification only; not full-text eligibility",
+  "records": [
+    {
+      "retrieved_on": "2026-09-21",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39978776+AND+SRC%3AMED&format=json&resultType=core",
+      "metadata": {
+        "id": "39978776",
+        "source": "MED",
+        "pmid": "39978776",
+        "pmcid": null,
+        "doi": "10.1089/jwh.2024.0984",
+        "title": "Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Penn M",
+              "lastName": "Penn",
+              "firstName": "Madeline",
+              "initials": "M",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mount Sinai Health System, New York, New York, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Colley D",
+              "lastName": "Colley",
+              "firstName": "Donessa",
+              "initials": "D",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Mount Sinai Health System, New York, New York, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Koirala P",
+              "lastName": "Koirala",
+              "firstName": "Pratistha",
+              "initials": "P",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Gynecologic Oncology, Fox Chase Cancer Center, Temple University, Philadelphia, Pennsylvania, USA."
+                  },
+                  {
+                    "affiliation": "Board of Trustees, American Medical Association, Chicago, Illinois, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "King L",
+              "lastName": "King",
+              "firstName": "Louise",
+              "initials": "L",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Division of Minimally Invasive Gynecologic Surgery, Fellowship in Minimally Invasive Gynecologic Surgery, Brigham and Women's Hospital, Boston, Massachusetts, USA."
+                  },
+                  {
+                    "affiliation": "Center for Bioethics, Harvard Medical School, Boston, Massachusetts, USA."
+                  },
+                  {
+                    "affiliation": "Petrie Flom Center, Harvard Law School, Cambridge, Massachusetts, USA."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Fitzgerald J",
+              "lastName": "Fitzgerald",
+              "firstName": "Jocelyn",
+              "initials": "J",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics, Gynecology, and Reproductive Sciences, UPMC Magee-Women's Hospital, Philadelphia, Pennsylvania, USA."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "5",
+          "volume": "34",
+          "journalIssueId": 3933655,
+          "dateOfPublication": "2025 May",
+          "monthOfPublication": 5,
+          "yearOfPublication": 2025,
+          "journal": {
+            "medlineAbbreviation": "J Womens Health (Larchmt)",
+            "title": "Journal of women's health (2002)",
+            "essn": "1931-843X",
+            "issn": "1540-9996",
+            "isoabbreviation": "J Womens Health (Larchmt)",
+            "nlmid": "101159262"
+          },
+          "printPublicationDate": "2025-05-01"
+        },
+        "pubYear": "2025",
+        "firstPublicationDate": "2025-02-21",
+        "pubTypeList": {
+          "pubType": [
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": null,
+        "isOpenAccess": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1089/jwh.2024.0984"
+            }
+          ]
+        }
+      },
+      "pubmed_comments_corrections_checked": true,
+      "study_id": "L-P01"
+    },
+    {
+      "retrieved_on": "2026-09-21",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38758183+AND+SRC%3AMED&format=json&resultType=core",
+      "metadata": {
+        "id": "38758183",
+        "source": "MED",
+        "pmid": "38758183",
+        "pmcid": null,
+        "doi": "10.1097/upj.0000000000000612",
+        "title": "Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Hathaway JK",
+              "lastName": "Hathaway",
+              "firstName": "Jon K",
+              "initials": "JK",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0009-0004-7045-219X"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics and Gynecology, Indiana University, Indianapolis, Indiana."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Schuster MS",
+              "lastName": "Schuster",
+              "firstName": "Mitchell S",
+              "initials": "MS",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Department of Obstetrics and Gynecology, University of Alabama, Birmingham, Alabama."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Richards KA",
+              "lastName": "Richards",
+              "firstName": "Kyle A",
+              "initials": "KA",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Urology, University of Wisconsin, Milwaukee, Wisconsin."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Turk TMT",
+              "lastName": "Turk",
+              "firstName": "Thomas M T",
+              "initials": "TMT",
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Urology, Loyola University Chicago, Chicago, Illinois."
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "4",
+          "volume": "11",
+          "journalIssueId": 3788157,
+          "dateOfPublication": "2024 Jul",
+          "monthOfPublication": 7,
+          "yearOfPublication": 2024,
+          "journal": {
+            "medlineAbbreviation": "Urol Pract",
+            "title": "Urology practice",
+            "essn": "2352-0787",
+            "issn": "2352-0779",
+            "nlmid": "101635343",
+            "isoabbreviation": "Urol Pract"
+          },
+          "printPublicationDate": "2024-07-01"
+        },
+        "pubYear": "2024",
+        "firstPublicationDate": "2024-05-08",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Journal Article"
+          ]
+        },
+        "commentCorrectionList": null,
+        "isOpenAccess": "N",
+        "inPMC": "N",
+        "hasPDF": "N",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/UPJ.0000000000000612"
+            }
+          ]
+        }
+      },
+      "pubmed_comments_corrections_checked": true,
+      "study_id": "L-P02"
+    },
+    {
+      "retrieved_on": "2026-09-21",
+      "source_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A34736273+AND+SRC%3AMED&format=json&resultType=core",
+      "metadata": {
+        "id": "34736273",
+        "source": "MED",
+        "pmid": "34736273",
+        "pmcid": "PMC8602770",
+        "doi": "10.1097/aog.0000000000004599",
+        "title": "Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time.",
+        "authorList": {
+          "author": [
+            {
+              "fullName": "Polan RM",
+              "lastName": "Polan",
+              "firstName": "Rosa M",
+              "initials": "RM",
+              "authorId": {
+                "type": "ORCID",
+                "value": "0000-0001-8738-3187"
+              },
+              "authorAffiliationDetailsList": {
+                "authorAffiliation": [
+                  {
+                    "affiliation": "Karmanos Cancer Institute, Wayne State University, Detroit, Michigan; the Division of Gynecologic Oncology, Department of Obstetrics and Gynecology, the Center for Health Equity Transformation, and Institute of Public Health and Medicine, Northwestern University Feinberg School of Medicine, and the Robert H. Lurie Comprehensive Cancer Center, Northwestern University, Chicago, Illinois."
+                  }
+                ]
+              }
+            },
+            {
+              "fullName": "Barber EL",
+              "lastName": "Barber",
+              "firstName": "Emma L",
+              "initials": "EL"
+            }
+          ]
+        },
+        "journalInfo": {
+          "issue": "6",
+          "volume": "138",
+          "journalIssueId": 3270043,
+          "dateOfPublication": "2021 Dec",
+          "monthOfPublication": 12,
+          "yearOfPublication": 2021,
+          "journal": {
+            "medlineAbbreviation": "Obstet Gynecol",
+            "title": "Obstetrics and gynecology",
+            "essn": "1873-233X",
+            "issn": "0029-7844",
+            "isoabbreviation": "Obstet Gynecol",
+            "nlmid": "0401101"
+          },
+          "printPublicationDate": "2021-12-01"
+        },
+        "pubYear": "2021",
+        "firstPublicationDate": "2021-12-01",
+        "pubTypeList": {
+          "pubType": [
+            "Comparative Study",
+            "Research Support, Non-U.S. Gov't",
+            "research-article",
+            "Evaluation Study",
+            "Journal Article",
+            "Research Support, N.I.H., Extramural"
+          ]
+        },
+        "commentCorrectionList": null,
+        "isOpenAccess": "N",
+        "inPMC": "Y",
+        "hasPDF": "Y",
+        "fullTextUrlList": {
+          "fullTextUrl": [
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Unpaywall",
+              "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8602770"
+            },
+            {
+              "availability": "Subscription required",
+              "availabilityCode": "S",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/AOG.0000000000004599"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "html",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8602770"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "pdf",
+              "site": "Europe_PMC",
+              "url": "https://europepmc.org/articles/PMC8602770?pdf=render"
+            },
+            {
+              "availability": "Free",
+              "availabilityCode": "F",
+              "documentStyle": "doi",
+              "site": "DOI",
+              "url": "https://doi.org/10.1097/aog.0000000000004599"
+            }
+          ]
+        }
+      },
+      "pubmed_comments_corrections_checked": true,
+      "study_id": "L-P03"
+    }
+  ],
+  "pubmed_efetch_url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pubmed&id=39978776,38758183,34736273&retmode=xml",
+  "pubmed_comments_corrections": {
+    "39978776": [],
+    "38758183": [],
+    "34736273": []
+  },
+  "correction_interpretation": "No linked comment/correction relationship returned by these records on the retrieval date; absence does not establish that no correction exists."
+}

@@ -1,0 +1,320 @@
+{
+  "generated_on": "2026-09-21",
+  "status": "Integration proposal only; no canonical files edited",
+  "metadata_records": [
+    {
+      "id": "L-R01",
+      "original_citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.",
+      "authors": [
+        {
+          "family": "Nekui",
+          "given": "Farrah",
+          "initials": "F"
+        },
+        {
+          "family": "Galbraith",
+          "given": "Alison A",
+          "initials": "AA"
+        },
+        {
+          "family": "Briesacher",
+          "given": "Becky A",
+          "initials": "BA"
+        },
+        {
+          "family": "Zhang",
+          "given": "Fang",
+          "initials": "F"
+        },
+        {
+          "family": "Soumerai",
+          "given": "Stephen B",
+          "initials": "SB"
+        },
+        {
+          "family": "Ross-Degnan",
+          "given": "Dennis",
+          "initials": "D"
+        },
+        {
+          "family": "Gurwitz",
+          "given": "Jerry H",
+          "initials": "JH"
+        },
+        {
+          "family": "Madden",
+          "given": "Jeanne M",
+          "initials": "JM"
+        }
+      ],
+      "title": "Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.",
+      "journal": "Medical care",
+      "year": 2021,
+      "volume": "59",
+      "issue": "1",
+      "pages": "13-21",
+      "doi": "10.1097/mlr.0000000000001458",
+      "pmid": "33298705",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33298705/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis."
+      ],
+      "journal_abbreviation": "Med Care",
+      "pmcid": "PMC7735208",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-R02",
+      "original_citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.",
+      "authors": [
+        {
+          "family": "De Avila",
+          "given": "Jorge L",
+          "initials": "JL"
+        },
+        {
+          "family": "Meltzer",
+          "given": "David O",
+          "initials": "DO"
+        },
+        {
+          "family": "Zhang",
+          "given": "James X",
+          "initials": "JX"
+        }
+      ],
+      "title": "Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.",
+      "journal": "JAMA network open",
+      "year": 2021,
+      "volume": "4",
+      "issue": "3",
+      "pages": "e210498",
+      "doi": "10.1001/jamanetworkopen.2021.0498",
+      "pmid": "33656528",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33656528/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis."
+      ],
+      "journal_abbreviation": "JAMA Netw Open",
+      "pmcid": "PMC7930921",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-X01",
+      "original_citation": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y. Gender differences in drug use and expenditures in a privately insured population of older adults. J Womens Health (Larchmt). 2005;14(1):73-81.",
+      "authors": [
+        {
+          "family": "Correa-de-Araujo",
+          "given": "Rosaly",
+          "initials": "R"
+        },
+        {
+          "family": "Miller",
+          "given": "G Edward",
+          "initials": "GE"
+        },
+        {
+          "family": "Banthin",
+          "given": "Jessica S",
+          "initials": "JS"
+        },
+        {
+          "family": "Trinh",
+          "given": "Yen",
+          "initials": "Y"
+        }
+      ],
+      "title": "Gender differences in drug use and expenditures in a privately insured population of older adults.",
+      "journal": "Journal of women's health (2002)",
+      "year": 2005,
+      "volume": "14",
+      "issue": "1",
+      "pages": "73-81",
+      "doi": "10.1089/jwh.2005.14.73",
+      "pmid": "15692281",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15692281/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "Historical retrieval lead outside active evidence register; full text, payer composition and identity eligibility remain unresolved.",
+        "Verified first author is Rosaly Correa-de-Araujo. Earlier Wilson attribution in a seed record is incorrect; preserve that record separately as an audit trail."
+      ],
+      "journal_abbreviation": "J Womens Health (Larchmt)",
+      "pmcid": "",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-X02",
+      "original_citation": "Dusetzina SB, Huskamp HA, Qin X, Keating NL. Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019. JAMA. 2022;328(15):1515-1522.",
+      "authors": [
+        {
+          "family": "Dusetzina",
+          "given": "Stacie B",
+          "initials": "SB"
+        },
+        {
+          "family": "Huskamp",
+          "given": "Haiden A",
+          "initials": "HA"
+        },
+        {
+          "family": "Qin",
+          "given": "Xuanzi",
+          "initials": "X"
+        },
+        {
+          "family": "Keating",
+          "given": "Nancy L",
+          "initials": "NL"
+        }
+      ],
+      "title": "Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019.",
+      "journal": "JAMA",
+      "year": 2022,
+      "volume": "328",
+      "issue": "15",
+      "pages": "1515-1522",
+      "doi": "10.1001/jama.2022.17825",
+      "pmid": "36255428",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36255428/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "Spending context outside active evidence register; main report does not estimate a patient-sex effect.",
+        "Linked PMID 36255438 is Comment in, not a correction.",
+        "Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json."
+      ],
+      "journal_abbreviation": "JAMA",
+      "pmcid": "PMC9579917",
+      "record_type": "journal-article"
+    }
+  ],
+  "studies": [
+    {
+      "id": "L-R01",
+      "citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.",
+      "year": 2021,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/",
+      "doi_or_pmid": "10.1097/mlr.0000000000001458; PMID 33298705",
+      "original_citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.",
+      "citation_metadata_status": "Verified against Europe PMC / MEDLINE",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Community-dwelling Medicare beneficiaries in survey-weighted 2016 MCBS analyses",
+      "patient_sex_gender_role": "Enrollment-record sex, female versus male; gender identity not reported and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in cost-related medication nonadherence and companion financial-burden measures, separately for <65 and >=65",
+      "inference_boundary": "Adjusted associations are not causal reimbursement effects; historical enrollment sex does not establish cisgender identity. Weighted prevalence does not supply unweighted event counts.",
+      "analytic_subject": "Patient care / access",
+      "review_status": "AI preliminary extraction; candidate pending human review and identity eligibility",
+      "identity_status": "Not reported; cisgender identity not established",
+      "scope_status": "Candidate — identity eligibility unresolved",
+      "primary_synthesis_eligible": false,
+      "extraction_source": "research/review_2026-09-21/drug_access/drug_access_candidates.json",
+      "design": "Survey-weighted cross-sectional MCBS analysis with descriptive historical trends",
+      "population": "12,625 community-dwelling beneficiaries: 2,155 under 65 and 10,470 aged 65+; recorded sex, identity unresolved",
+      "payer": "Traditional Medicare and Medicare Advantage; Part D/LIS, other drug coverage and no-drug-coverage strata",
+      "data_period": "2016 main analysis; 2006–2016 descriptive trends exclude 2014",
+      "finding": "Female versus male adjusted odds of any cost-related nonadherence: 1.66 (95% CI 1.31–2.10) under 65 and 1.21 (1.04–1.41) aged 65+. Weighted prevalence: 40.5% versus 28.5% and 15.7% versus 12.8%, respectively. For ages 65+, cost-reduction-strategy OR 1.04 (0.94–1.14) includes the null.",
+      "limitation": "Self-report, residual confounding and continuous-enrollment/community selection; no current policy effect. Gender identity unresolved. Outcome-response Ns 2,150/10,457 differ from cohort Ns; model N and sex-specific event counts not established. Supplements not extracted.",
+      "relevance": "Direct historical patient-sex affordability candidate in shared systems/functions; retain outside confirmed-cisgender primary synthesis pending eligibility.",
+      "extraction_level": "Main full-text methods/results/limitations and Tables 1–3; AI preliminary; supplements not reviewed"
+    },
+    {
+      "id": "L-R02",
+      "citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.",
+      "year": 2021,
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/",
+      "doi_or_pmid": "10.1001/jamanetworkopen.2021.0498; PMID 33656528",
+      "original_citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.",
+      "citation_metadata_status": "Verified against Europe PMC / MEDLINE",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "High-hospitalization-risk Medicare beneficiaries with five repeated CRN surveys",
+      "patient_sex_gender_role": "Survey asked sex; authors report woman/man as gender. Gender identity and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in transient, intermittent and persistent cost-related medication nonadherence",
+      "inference_boundary": "Selected observational cohort, not national prevalence or a randomized sex comparison. Adjusted persistent estimate includes null; this does not establish equivalence.",
+      "analytic_subject": "Patient care / access",
+      "review_status": "AI preliminary extraction; candidate pending human review and identity eligibility",
+      "identity_status": "Not reported; cisgender identity not established",
+      "scope_status": "Candidate — identity eligibility unresolved",
+      "primary_synthesis_eligible": false,
+      "extraction_source": "research/review_2026-09-21/drug_access/drug_access_candidates.json",
+      "design": "Observational secondary longitudinal cohort pooling care-model trial arms",
+      "population": "1,655 high-risk Chicago Medicare beneficiaries: 1,036 women and 619 men; 769 under 65 and 886 aged 65+; identity unresolved",
+      "payer": "Medicare-only and dual Medicare/Medicaid; specific Part D and Original Medicare/MA status not established",
+      "data_period": "2012–2018 enrollment/study period; 3-month baseline recall plus 12-month follow-up, 5 surveys",
+      "finding": "Persistent CRN: 162/1,036 women (15.6%) versus 68/619 men (11.0%), unadjusted P=.008; adjusted woman:man OR 1.36 (95% CI 0.95–1.95), P=.10. Transient CRN adjusted OR 0.81 (0.62–1.07), P=.15. Preserve both adjusted intervals including the null.",
+      "limitation": "Selected single-center cohort, 87.7% Black; deaths/incomplete follow-up excluded; some missing CRN treated as not reported. Gender identity unresolved; adjusted associations do not identify causal bias. Exact model N/reference-outcome coding require verification before pooling.",
+      "relevance": "Direct patient-sex longitudinal affordability candidate; distinguishes persistence from annual any-CRN. Not national prevalence or confirmed-cisgender primary evidence.",
+      "extraction_level": "Full-text methods/results/limitations, Figure 2 and Tables 1–2 via PMC XML; AI preliminary"
+    }
+  ],
+  "evidence_subjects": [
+    {
+      "id": "L-R01",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "Community-dwelling Medicare beneficiaries in survey-weighted 2016 MCBS analyses",
+      "patient_sex_gender_role": "Enrollment-record sex, female versus male; gender identity not reported and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in cost-related medication nonadherence and companion financial-burden measures, separately for <65 and >=65",
+      "inference_boundary": "Adjusted associations are not causal reimbursement effects; historical enrollment sex does not establish cisgender identity. Weighted prevalence does not supply unweighted event counts."
+    },
+    {
+      "id": "L-R02",
+      "subject_id": "patient_care",
+      "unit_of_analysis": "High-hospitalization-risk Medicare beneficiaries with five repeated CRN surveys",
+      "patient_sex_gender_role": "Survey asked sex; authors report woman/man as gender. Gender identity and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in transient, intermittent and persistent cost-related medication nonadherence",
+      "inference_boundary": "Selected observational cohort, not national prevalence or a randomized sex comparison. Adjusted persistent estimate includes null; this does not establish equivalence."
+    }
+  ],
+  "outside_active_register": [
+    {
+      "id": "L-X01",
+      "pmid": "15692281",
+      "status": "Unresolved historical lead",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "reason": "Abstract-only drug-use/expenditure sex comparison; full text, payer composition, spending denominator and identity eligibility unresolved. Do not infer wrong payer from title alone.",
+      "access_level": "Verified abstract only",
+      "finding": "Abstract reports average drug expenditures of $1,178 for women versus $1,009 for men (about 17% higher); not verified as OOP or reimbursement.",
+      "next_action": "Retrieve lawful full text and adjudicate separately extractable Medicare findings."
+    },
+    {
+      "id": "L-X02",
+      "pmid": "36255428",
+      "status": "Spending context outside active register",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "reason": "Accessed main report contains descriptive sex composition but no patient-sex outcome contrast.",
+      "access_level": "Main full text and table inspected; supplement not inspected",
+      "finding": "2008–2019 FFS A/B/D spending study; expenditure includes Medicare allowed amounts, other-payer payments and patient liabilities, not OOP alone.",
+      "next_action": "Retain outside direct sex-effect synthesis; reconcile abstract/body spending discrepancies before numerical reuse."
+    }
+  ],
+  "integration_notes": [
+    "Only L-R01 and L-R02 are proposed active-register candidates; neither is a primary included study.",
+    "L-X01 and L-X02 are bibliography-only leads/context outside active and scope-excluded registers; do not inflate formal excluded-study counts.",
+    "Evidence-subject codes concern patient care; no physician-gender effects or reproductive-anatomy categories inferred.",
+    "Preserve existing broad-search audit and the erroneous historical seed attribution separately; do not overwrite source records silently.",
+    "Raw EuropePMC metadata files are seed_metadata_europepmc.json and additional_metadata_europepmc.json in this directory; all listed authors retained.",
+    "No formal risk-of-bias assessment, certainty rating, author correspondence or independent human screening/extraction performed."
+  ]
+}

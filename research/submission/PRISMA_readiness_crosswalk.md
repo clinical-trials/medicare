@@ -1,6 +1,6 @@
 # PRISMA 2020 readiness crosswalk
 
-September 16, 2026. This is a project gap analysis, **not a completed PRISMA checklist or compliance certificate**. Numbering refers to PRISMA 2020 [M-001; PMID 33782057]. The official checklist and extensions must be consulted for full wording. Item labels below are abbreviated/paraphrased. No final manuscript page locations or screening counts are invented.
+Updated September 21, 2026. This is a project gap analysis, **not a completed PRISMA checklist or compliance certificate**. Numbering refers to PRISMA 2020 [M-001; PMID 33782057] and the attached local checklist is documented in [its appraisal](prisma_attachment_appraisal.md). The official checklist and extensions must be consulted for full wording. Item labels below are abbreviated/paraphrased. The page locations printed in the attachment belong to its source/example document; no final Medicare manuscript page locations or screening counts are invented.
 
 | Item | Current state | Evidence or artifact needed before claiming completion |
 |---|---|---|
@@ -9,10 +9,10 @@ September 16, 2026. This is a project gap analysis, **not a completed PRISMA che
 | 3: rationale | Clinical/policy framework exists | Compare prior reviews; document incremental contribution. |
 | 4: questions | Broad question and exploratory hypotheses exist | Freeze bounded questions, estimands, outcomes and streams in the dated protocol. |
 | 5: inclusion rules | Scope documented; identity uncertainty unresolved | Final rules, amendments and full-text decisions for every candidate. |
-| 6: information sources | Targeted retrieval recorded | Database/platform and other-source inventory with actual search dates. |
-| 7: search details | New draft only | Executed full strategies, limits, PRESS record, exports and update. |
+| 6: information sources | PubMed development searches executed September 21, 2026; targeted other-method retrieval recorded | Remaining database/platform searches, complete other-source inventory and search updates. |
+| 7: search details | Exact PubMed strings/translations, warnings, corrected heading and exports archived before PRESS | Independent PRESS review, correction of screening-vocabulary miss, database translations and final updated searches. |
 | 8: selection procedures | No completed duplicate human screening | Reviewer identities/roles, independence, reconciliation and automation logs. |
-| 9: extraction procedures | AI-assisted pilot extraction | Piloted form; independently verified outcomes and reconciliation records. |
+| 9: extraction procedures | AI-assisted pilot extraction expanded with source locators, denominators and null findings | Independently verified outcomes, human reviewer identities and reconciliation records. |
 | 10a: outcome definitions | Outcome families proposed | Time points, measures, hierarchy and rules for multiple results. |
 | 10b: other variables | Many fields already recorded | Complete payer, clinical need, identity measurement, policy vintage and missing-data definitions. |
 | 11: appraisal methods | No formal risk-of-bias assessment | Tool/version/design map and two-reviewer domain judgments. |
@@ -25,7 +25,7 @@ September 16, 2026. This is a project gap analysis, **not a completed PRISMA che
 | 13f: robustness | Not executed for review | Sensitivity-analysis definitions, code and results if possible. |
 | 14: missing-results bias | Not assessed | Protocol/outcome checks; justified small-study analyses or stated limitations. |
 | 15: certainty methods | Planned only | Outcome-specific GRADE approach where suitable; no paper-level GRADE score. |
-| 16a: selection results | 34 selected records, not search flow | Reconciled identification, deduplication, retrieval, selection and study counts. |
+| 16a: selection results | 38 selected register records; 58,686 unique PMIDs in current PubMed development queries; no completed human screening | Final search versions and all sources, DOI/title/report-family checks, retrieval/selection decisions and reconciled report/study counts. |
 | 16b: exclusions | Pilot scope-exclusion log | Full-text excluded-report list with one primary reason per report. |
 | 17: study descriptions | Pilot register available | Full-text verified characteristics and links between multiple reports/cohorts. |
 | 18: appraisal findings | Absent | Evidence-supported domain-level judgments for eligible results. |

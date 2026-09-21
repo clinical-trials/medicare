@@ -1,0 +1,23 @@
+{
+  "created_at_utc": "2026-09-21T17:13:15.455695+00:00",
+  "protocol": "Draft v0.1 dated 2026-09-16; execution before PRESS review",
+  "searcher": "Codex AI assistant",
+  "peer_review": "Not performed",
+  "queries": [
+    {
+      "id": "PM-CORE-20260921",
+      "purpose": "Unrestricted core from draft",
+      "query": "(\n  \"Medicare\"[Mesh]\n  OR medicare[tiab]\n  OR \"Medicare Advantage\"[tiab]\n  OR \"Medicare Part D\"[tiab]\n  OR \"Medicare Part B\"[tiab]\n  OR \"Medicare Part A\"[tiab]\n)\nAND\n(\n  \"Reimbursement Mechanisms\"[Mesh]\n  OR \"Insurance Coverage\"[Mesh]\n  OR \"Health Services Accessibility\"[Mesh]\n  OR \"Health Expenditures\"[Mesh]\n  OR \"Fees and Charges\"[Mesh]\n  OR \"Drug Formularies\"[Mesh]\n  OR reimburs*[tiab]\n  OR coverag*[tiab]\n  OR payment*[tiab]\n  OR \"relative value\"[tiab]\n  OR RVU[tiab] OR RVUs[tiab]\n  OR formular*[tiab]\n  OR \"prior authorization\"[tiab]\n  OR \"step therapy\"[tiab]\n  OR \"cost sharing\"[tiab]\n  OR \"out of pocket\"[tiab]\n  OR copay*[tiab] OR coinsurance[tiab] OR deductible*[tiab]\n  OR affordab*[tiab]\n  OR access*[tiab]\n  OR utilization[tiab] OR utilisation[tiab]\n  OR denial*[tiab] OR denied[tiab]\n  OR delay*[tiab]\n  OR \"unmet need\"[tiab]\n)"
+    },
+    {
+      "id": "PM-SUPP-20260921",
+      "purpose": "Sex/gender valuation/cost supplementary query from draft",
+      "query": "(\n  \"Sex Factors\"[Mesh]\n  OR sex[tiab] OR gender[tiab]\n  OR women[tiab] OR men[tiab]\n  OR female*[tiab] OR male*[tiab]\n)\nAND\n(\n  reimburs*[tiab] OR payment*[tiab]\n  OR \"relative value\"[tiab] OR RVU[tiab] OR RVUs[tiab]\n  OR \"physician fee schedule\"[tiab]\n  OR \"resource based relative value\"[tiab]\n  OR \"insurance coverage\"[tiab]\n  OR \"out of pocket\"[tiab]\n)"
+    },
+    {
+      "id": "PM-PRIORITY-20260921",
+      "purpose": "Title/abstract export priority subset; NOT an exclusion filter",
+      "query": "(((\n  \"Medicare\"[Mesh]\n  OR medicare[tiab]\n  OR \"Medicare Advantage\"[tiab]\n  OR \"Medicare Part D\"[tiab]\n  OR \"Medicare Part B\"[tiab]\n  OR \"Medicare Part A\"[tiab]\n)\nAND\n(\n  \"Reimbursement Mechanisms\"[Mesh]\n  OR \"Insurance Coverage\"[Mesh]\n  OR \"Health Services Accessibility\"[Mesh]\n  OR \"Health Expenditures\"[Mesh]\n  OR \"Fees and Charges\"[Mesh]\n  OR \"Drug Formularies\"[Mesh]\n  OR reimburs*[tiab]\n  OR coverag*[tiab]\n  OR payment*[tiab]\n  OR \"relative value\"[tiab]\n  OR RVU[tiab] OR RVUs[tiab]\n  OR formular*[tiab]\n  OR \"prior authorization\"[tiab]\n  OR \"step therapy\"[tiab]\n  OR \"cost sharing\"[tiab]\n  OR \"out of pocket\"[tiab]\n  OR copay*[tiab] OR coinsurance[tiab] OR deductible*[tiab]\n  OR affordab*[tiab]\n  OR access*[tiab]\n  OR utilization[tiab] OR utilisation[tiab]\n  OR denial*[tiab] OR denied[tiab]\n  OR delay*[tiab]\n  OR \"unmet need\"[tiab]\n)) AND (sex[tiab] OR gender[tiab] OR women[tiab] OR men[tiab] OR female*[tiab] OR male*[tiab])) OR ((sex[tiab] OR gender[tiab] OR women[tiab] OR men[tiab] OR female*[tiab] OR male*[tiab]) AND (\"relative value\"[tiab] OR RVU[tiab] OR RVUs[tiab] OR \"physician fee schedule\"[tiab]))"
+    }
+  ]
+}

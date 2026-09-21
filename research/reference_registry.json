@@ -1,13 +1,14 @@
 {
-  "updated_on": "2026-09-16",
+  "updated_on": "2026-09-21",
   "counts": {
-    "active_studies": 34,
+    "active_studies": 38,
     "excluded_studies": 8,
     "linked_corrections": 1,
-    "verified_scientific_metadata": 43,
+    "verified_scientific_metadata": 47,
     "policy_and_data_sources": 45,
     "clinical_guidance_sources": 4,
-    "methodology_sources": 8
+    "methodology_sources": 9,
+    "retrieval_references": 2
   },
   "scientific_references": [
     {
@@ -60,7 +61,7 @@
       "citation": "Penn M, Colley D, Koirala P, King L, Fitzgerald J. Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies. J Womens Health (Larchmt). 2025;34(5):665-676.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/39978776/",
       "status": "Candidate evidence / retained code-policy component",
-      "access_level": "Abstract plus accessible limitations excerpts",
+      "access_level": "Source-verified PubMed/publisher abstract; search-indexed publisher PDF limitation excerpt. Full article not retrieved.",
       "eligibility": "See workbook population-screening status",
       "analytic_subject": "Service / anatomy valuation or coverage",
       "unit_of_analysis": "Matched CPT-code pairs and fee-schedule years",
@@ -120,7 +121,7 @@
       "citation": "Hathaway JK, Schuster MS, Richards KA, Turk TMT. Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures. Urol Pract. 2024;11(4):654-660.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
       "status": "Candidate evidence / retained code-policy component",
-      "access_level": "Abstract plus authors’ detailed AUA comparison table",
+      "access_level": "Source-verified PubMed and journal abstract; same-author AUA News companion text/table accessed through search index. Peer-reviewed full text not retrieved.",
       "eligibility": "See workbook population-screening status",
       "analytic_subject": "Service / anatomy valuation or coverage",
       "unit_of_analysis": "Matched procedure-code pairs and work/time valuations",
@@ -170,7 +171,7 @@
       "citation": "Polan RM, Barber EL. Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time. Obstet Gynecol. 2021;138(6):878-883.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/34736273/",
       "status": "Candidate evidence / retained code-policy component",
-      "access_level": "Targeted full-text review",
+      "access_level": "Full author manuscript including Methods, Results, Discussion and Table 1 retrieved through public NCBI PMC EFetch XML. Free full text; Europe PMC does not mark an open-access license.",
       "eligibility": "See workbook population-screening status",
       "analytic_subject": "Service / anatomy valuation or coverage",
       "unit_of_analysis": "Matched procedures, NSQIP patient records and specialty compensation estimates",
@@ -2692,6 +2693,269 @@
       "related_reference_ids": []
     },
     {
+      "id": "L-R01",
+      "original_citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.",
+      "authors": [
+        {
+          "family": "Nekui",
+          "given": "Farrah",
+          "initials": "F"
+        },
+        {
+          "family": "Galbraith",
+          "given": "Alison A",
+          "initials": "AA"
+        },
+        {
+          "family": "Briesacher",
+          "given": "Becky A",
+          "initials": "BA"
+        },
+        {
+          "family": "Zhang",
+          "given": "Fang",
+          "initials": "F"
+        },
+        {
+          "family": "Soumerai",
+          "given": "Stephen B",
+          "initials": "SB"
+        },
+        {
+          "family": "Ross-Degnan",
+          "given": "Dennis",
+          "initials": "D"
+        },
+        {
+          "family": "Gurwitz",
+          "given": "Jerry H",
+          "initials": "JH"
+        },
+        {
+          "family": "Madden",
+          "given": "Jeanne M",
+          "initials": "JM"
+        }
+      ],
+      "title": "Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.",
+      "journal": "Medical care",
+      "year": 2021,
+      "volume": "59",
+      "issue": "1",
+      "pages": "13-21",
+      "doi": "10.1097/mlr.0000000000001458",
+      "pmid": "33298705",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33298705/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis."
+      ],
+      "journal_abbreviation": "Med Care",
+      "pmcid": "PMC7735208",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, et al. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/",
+      "status": "Patient-care candidate; identity eligibility unresolved",
+      "access_level": "Main full-text methods/results/limitations and Tables 1–3; AI preliminary; supplements not reviewed",
+      "eligibility": "Candidate: identity eligibility unresolved; human screening pending",
+      "analytic_subject": "Patient care / access",
+      "unit_of_analysis": "Community-dwelling Medicare beneficiaries in survey-weighted 2016 MCBS analyses",
+      "patient_sex_gender_role": "Enrollment-record sex, female versus male; gender identity not reported and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in cost-related medication nonadherence and companion financial-burden measures, separately for <65 and >=65",
+      "inference_boundary": "Adjusted associations are not causal reimbursement effects; historical enrollment sex does not establish cisgender identity. Weighted prevalence does not supply unweighted event counts.",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-R02",
+      "original_citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.",
+      "authors": [
+        {
+          "family": "De Avila",
+          "given": "Jorge L",
+          "initials": "JL"
+        },
+        {
+          "family": "Meltzer",
+          "given": "David O",
+          "initials": "DO"
+        },
+        {
+          "family": "Zhang",
+          "given": "James X",
+          "initials": "JX"
+        }
+      ],
+      "title": "Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.",
+      "journal": "JAMA network open",
+      "year": 2021,
+      "volume": "4",
+      "issue": "3",
+      "pages": "e210498",
+      "doi": "10.1001/jamanetworkopen.2021.0498",
+      "pmid": "33656528",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33656528/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=PMC7735208+OR+PMC7930921&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "AI preliminary patient-sex evidence candidate; gender identity unresolved; not included in confirmed-cisgender primary synthesis."
+      ],
+      "journal_abbreviation": "JAMA Netw Open",
+      "pmcid": "PMC7930921",
+      "record_type": "journal-article",
+      "source_type": "scientific",
+      "citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/",
+      "status": "Patient-care candidate; identity eligibility unresolved",
+      "access_level": "Full-text methods/results/limitations, Figure 2 and Tables 1–2 via PMC XML; AI preliminary",
+      "eligibility": "Candidate: identity eligibility unresolved; human screening pending",
+      "analytic_subject": "Patient care / access",
+      "unit_of_analysis": "High-hospitalization-risk Medicare beneficiaries with five repeated CRN surveys",
+      "patient_sex_gender_role": "Survey asked sex; authors report woman/man as gender. Gender identity and cisgender eligibility unresolved",
+      "physician_sex_gender_role": "Not measured as an analytic exposure",
+      "comparison_axis": "Patient sex differences in transient, intermittent and persistent cost-related medication nonadherence",
+      "inference_boundary": "Selected observational cohort, not national prevalence or a randomized sex comparison. Adjusted persistent estimate includes null; this does not establish equivalence.",
+      "linked_care_ids": [],
+      "related_reference_ids": []
+    },
+    {
+      "title": "Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans.",
+      "authors": [
+        {
+          "family": "Gyftopoulos",
+          "given": "Soterios",
+          "initials": "S"
+        },
+        {
+          "family": "Pelzl",
+          "given": "Casey E",
+          "initials": "CE"
+        },
+        {
+          "family": "Da Silva Cardoso",
+          "given": "Madalena",
+          "initials": "M"
+        },
+        {
+          "family": "Xie",
+          "given": "Juliana",
+          "initials": "J"
+        },
+        {
+          "family": "Kwon",
+          "given": "Simona C",
+          "initials": "SC"
+        },
+        {
+          "family": "Chang",
+          "given": "Connie Y",
+          "initials": "CY"
+        }
+      ],
+      "journal": "Skeletal radiology",
+      "journal_abbreviation": "Skeletal Radiol",
+      "year": 2024,
+      "volume": "53",
+      "issue": "11",
+      "pages": "2347-2355",
+      "doi": "10.1007/s00256-024-04643-1",
+      "pmid": "38459983",
+      "pmcid": null,
+      "first_publication_date": "2024-03-09",
+      "issue_date": "2024 Nov",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38459983/",
+      "metadata_status": "Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers",
+      "verified_on": "2026-09-21",
+      "id": "L-R03",
+      "record_type": "journal-article",
+      "original_citation": "Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans.",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A38459983+AND+SRC%3AMED&format=json&resultType=core",
+      "notes": [
+        "No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields. This is a bounded metadata check, not proof no notice exists.",
+        "Population identity unresolved; AI candidate extraction, not human eligibility adjudication."
+      ],
+      "source_type": "scientific",
+      "citation": "Gyftopoulos S, Pelzl CE, Da Silva Cardoso M, Xie J, Kwon SC, Chang CY. Bone Density Screening Rates Among Medicare Beneficiaries: An Analysis with a focus on Asian Americans. Skeletal Radiol. 2024;53(11):2347-2355.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38459983/",
+      "status": "Patient-care candidate; identity eligibility unresolved",
+      "access_level": "Abstract and publisher preview only",
+      "eligibility": "Candidate: identity eligibility unresolved; human screening pending",
+      "analytic_subject": "Patient care / access",
+      "unit_of_analysis": "Medicare beneficiary",
+      "patient_sex_gender_role": "Exact field/source and coding not reported in accessible abstract; claims study population; gender identity not reported",
+      "physician_sex_gender_role": "No physician-sex comparison",
+      "comparison_axis": "Unadjusted female/male contrast within Asian American beneficiaries; not all Medicare beneficiaries",
+      "inference_boundary": "Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved.",
+      "linked_care_ids": [
+        "G04",
+        "G05"
+      ],
+      "related_reference_ids": []
+    },
+    {
+      "title": "Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014.",
+      "authors": [
+        {
+          "family": "Gillespie",
+          "given": "Catherine W",
+          "initials": "CW"
+        },
+        {
+          "family": "Morin",
+          "given": "Pamela E",
+          "initials": "PE"
+        }
+      ],
+      "journal": "The American journal of medicine",
+      "journal_abbreviation": "Am J Med",
+      "year": 2017,
+      "volume": "130",
+      "issue": "3",
+      "pages": "306-316",
+      "doi": "10.1016/j.amjmed.2016.10.018",
+      "pmid": "27884649",
+      "pmcid": null,
+      "first_publication_date": "2016-11-21",
+      "issue_date": "2017 Mar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27884649/",
+      "metadata_status": "Verified against MEDLINE record in Europe PMC and publisher/Crossref identifiers",
+      "verified_on": "2026-09-21",
+      "id": "L-R04",
+      "record_type": "journal-article",
+      "original_citation": "Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014.",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A27884649+AND+SRC%3AMED&format=json&resultType=core",
+      "notes": [
+        "No linked correction or retraction found in checked MEDLINE/Europe PMC and Crossref fields; bounded metadata check, not proof of absence.",
+        "Population identity unresolved; AI candidate extraction, not human eligibility adjudication."
+      ],
+      "reviewed_fulltext_url": "https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol",
+      "source_type": "scientific",
+      "citation": "Gillespie CW, Morin PE. Trends and Disparities in Osteoporosis Screening Among Women in the United States, 2008-2014. Am J Med. 2017;130(3):306-316.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/27884649/",
+      "status": "Patient-care candidate; identity eligibility unresolved",
+      "access_level": "Full main article read as publisher-formatted open-access text hosted on ResearchGate; supplementary file not reviewed",
+      "eligibility": "Candidate: identity eligibility unresolved; human screening pending",
+      "analytic_subject": "Patient care / access",
+      "unit_of_analysis": "Woman/enrollee; most recent two-year observation window",
+      "patient_sex_gender_role": "Enrollee sex obtained from member files (Methods, Data Source,p307); original coding rules not detailed; gender identity not reported",
+      "physician_sex_gender_role": "No physician-sex comparison",
+      "comparison_axis": "Within women by age, payer, race/ethnicity and other characteristics; no female/male contrast",
+      "inference_boundary": "Shared bone system. Utilization does not identify denied claims or reimbursement causation; identity remains unresolved.",
+      "linked_care_ids": [
+        "G04"
+      ],
+      "related_reference_ids": []
+    },
+    {
       "id": "L-G01",
       "original_citation": "Proctor K et al. Identifying the Transgender Population in the Medicare Program. Transgender Health. 2016;1:250–265.",
       "authors": [
@@ -3848,6 +4112,199 @@
       "citation": "Lewin S, Booth A, Glenton C, Munthe-Kaas H, Rashidian A, Wainwright M, et al. Applying GRADE-CERQual to qualitative evidence synthesis findings: introduction to the series. Implement Sci. 2018;13(Suppl 1):2.",
       "source_url": "https://pubmed.ncbi.nlm.nih.gov/29384079/",
       "status": "Certainty-assessment methods"
+    },
+    {
+      "id": "M-009",
+      "authors": [
+        {
+          "family": "Calderon Martinez",
+          "given": "Ernesto",
+          "initials": "E"
+        },
+        {
+          "family": "Ghattas Hasbun",
+          "given": "Patricia E",
+          "initials": "PE"
+        },
+        {
+          "family": "Salolin Vargas",
+          "given": "Vanessa P",
+          "initials": "VP"
+        },
+        {
+          "family": "García-González",
+          "given": "Oxiris Y",
+          "initials": "OY"
+        },
+        {
+          "family": "Fermin Madera",
+          "given": "Mariela D",
+          "initials": "MD"
+        },
+        {
+          "family": "Rueda Capistrán",
+          "given": "Diego E",
+          "initials": "DE"
+        },
+        {
+          "family": "Campos Carmona",
+          "given": "Thomas",
+          "initials": "T"
+        },
+        {
+          "family": "Sanchez Cruz",
+          "given": "Camila",
+          "initials": "C"
+        },
+        {
+          "family": "Teran Hooper",
+          "given": "Camila",
+          "initials": "C"
+        }
+      ],
+      "title": "A comprehensive guide to conduct a systematic review and meta-analysis in medical research.",
+      "journal": "Medicine (Baltimore)",
+      "journal_abbreviation": "Medicine (Baltimore)",
+      "year": 2025,
+      "volume": "104",
+      "issue": "33",
+      "pages": "e41868",
+      "doi": "10.1097/MD.0000000000041868",
+      "pmid": "40826741",
+      "pmcid": "PMC12366998",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40826741/",
+      "metadata_status": "Verified against PubMed and the attached full-text PDF",
+      "verified_on": "2026-09-18",
+      "verification_source": "https://pubmed.ncbi.nlm.nih.gov/40826741/",
+      "role": "Methodological narrative guidance; secondary source",
+      "access_level": "Attached full text visually and textually reviewed; PubMed metadata and abstract reviewed",
+      "notes": [
+        "This is a narrative methodological guide, not a protocol, completed systematic review, reporting standard, risk-of-bias instrument, or Medicare evidence study.",
+        "Use for practical workflow reminders only; PRISMA 2020, PRISMA-P, PRISMA-S, PRESS, design-specific risk-of-bias tools and GRADE/CERQual remain the governing methods sources for this project."
+      ],
+      "source_type": "methodology",
+      "citation": "Calderon Martinez E, Ghattas Hasbun PE, Salolin Vargas VP, García-González OY, Fermin Madera MD, Rueda Capistrán DE, et al. A comprehensive guide to conduct a systematic review and meta-analysis in medical research. Medicine (Baltimore). 2025;104(33):e41868.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/40826741/",
+      "status": "Methodological narrative guidance; secondary source"
+    }
+  ],
+  "retrieval_references": [
+    {
+      "id": "L-X01",
+      "original_citation": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y. Gender differences in drug use and expenditures in a privately insured population of older adults. J Womens Health (Larchmt). 2005;14(1):73-81.",
+      "authors": [
+        {
+          "family": "Correa-de-Araujo",
+          "given": "Rosaly",
+          "initials": "R"
+        },
+        {
+          "family": "Miller",
+          "given": "G Edward",
+          "initials": "GE"
+        },
+        {
+          "family": "Banthin",
+          "given": "Jessica S",
+          "initials": "JS"
+        },
+        {
+          "family": "Trinh",
+          "given": "Yen",
+          "initials": "Y"
+        }
+      ],
+      "title": "Gender differences in drug use and expenditures in a privately insured population of older adults.",
+      "journal": "Journal of women's health (2002)",
+      "year": 2005,
+      "volume": "14",
+      "issue": "1",
+      "pages": "73-81",
+      "doi": "10.1089/jwh.2005.14.73",
+      "pmid": "15692281",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15692281/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "Historical retrieval lead outside active evidence register; full text, payer composition and identity eligibility remain unresolved.",
+        "Verified first author is Rosaly Correa-de-Araujo. Earlier Wilson attribution in a seed record is incorrect; preserve that record separately as an audit trail."
+      ],
+      "journal_abbreviation": "J Womens Health (Larchmt)",
+      "pmcid": "",
+      "record_type": "journal-article",
+      "status": "Unresolved historical lead",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "reason": "Abstract-only drug-use/expenditure sex comparison; full text, payer composition, spending denominator and identity eligibility unresolved. Do not infer wrong payer from title alone.",
+      "access_level": "Verified abstract only",
+      "finding": "Abstract reports average drug expenditures of $1,178 for women versus $1,009 for men (about 17% higher); not verified as OOP or reimbursement.",
+      "next_action": "Retrieve lawful full text and adjudicate separately extractable Medicare findings.",
+      "source_type": "retrieval_reference",
+      "citation": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y. Gender differences in drug use and expenditures in a privately insured population of older adults. J Womens Health (Larchmt). 2005;14(1):73-81.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/15692281/",
+      "linked_care_ids": []
+    },
+    {
+      "id": "L-X02",
+      "original_citation": "Dusetzina SB, Huskamp HA, Qin X, Keating NL. Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019. JAMA. 2022;328(15):1515-1522.",
+      "authors": [
+        {
+          "family": "Dusetzina",
+          "given": "Stacie B",
+          "initials": "SB"
+        },
+        {
+          "family": "Huskamp",
+          "given": "Haiden A",
+          "initials": "HA"
+        },
+        {
+          "family": "Qin",
+          "given": "Xuanzi",
+          "initials": "X"
+        },
+        {
+          "family": "Keating",
+          "given": "Nancy L",
+          "initials": "NL"
+        }
+      ],
+      "title": "Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019.",
+      "journal": "JAMA",
+      "year": 2022,
+      "volume": "328",
+      "issue": "15",
+      "pages": "1515-1522",
+      "doi": "10.1001/jama.2022.17825",
+      "pmid": "36255428",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36255428/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID:15692281%20OR%20EXT_ID:36255428&resultType=core&format=json",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC / MEDLINE",
+      "notes": [
+        "Metadata verification is separate from full-text review and study eligibility.",
+        "No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence.",
+        "Spending context outside active evidence register; main report does not estimate a patient-sex effect.",
+        "Linked PMID 36255438 is Comment in, not a correction.",
+        "Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json."
+      ],
+      "journal_abbreviation": "JAMA",
+      "pmcid": "PMC9579917",
+      "record_type": "journal-article",
+      "status": "Spending context outside active register",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "reason": "Accessed main report contains descriptive sex composition but no patient-sex outcome contrast.",
+      "access_level": "Main full text and table inspected; supplement not inspected",
+      "finding": "2008–2019 FFS A/B/D spending study; expenditure includes Medicare allowed amounts, other-payer payments and patient liabilities, not OOP alone.",
+      "next_action": "Retain outside direct sex-effect synthesis; reconcile abstract/body spending discrepancies before numerical reuse.",
+      "source_type": "retrieval_reference",
+      "citation": "Dusetzina SB, Huskamp HA, Qin X, Keating NL. Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019. JAMA. 2022;328(15):1515-1522.",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36255428/",
+      "linked_care_ids": []
     }
   ],
   "policy_sources": [

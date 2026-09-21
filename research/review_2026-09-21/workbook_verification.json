@@ -1,0 +1,45 @@
+{
+  "verified_on": "2026-09-21",
+  "worksheets": [
+    "Review progress",
+    "Study extraction",
+    "Effect estimates",
+    "Screening calibration",
+    "Abstracts",
+    "Search log"
+  ],
+  "identified": 58686,
+  "metadata": 58686,
+  "new_candidates": 4,
+  "source_rechecks": 3,
+  "outside_active_references": 2,
+  "calibration_records": 50,
+  "human_decisions_entered": 0,
+  "paired_reviewer_formula_tests": "passed; one reviewer cannot resolve; duplicate names flagged; conflicting decisions require adjudication; exclusions require reason",
+  "formula_error_inspection": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "58fq9z",
+      "target": {
+        "id": "wb/jyepw3",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "output": "outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_review_working_tables_2026-09-21.xlsx"
+}

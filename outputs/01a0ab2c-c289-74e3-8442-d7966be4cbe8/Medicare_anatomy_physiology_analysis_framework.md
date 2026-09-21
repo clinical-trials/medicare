@@ -29,7 +29,7 @@ Added September 16, 2026 at the investigator’s request. Patient sex/gender and
 
 | Analytic subject | What the category contains | Active records |
 |---|---|---:|
-| Patient care / access | Patient treatment, outcomes, spending or access, including population-specific evidence and qualitative accounts. This group does not imply a male–female comparison. | 18 |
+| Patient care / access | Patient treatment, outcomes, spending or access, including population-specific evidence and qualitative accounts. This group does not imply a male–female comparison. | 22 |
 | Service / anatomy valuation or coverage | Procedure, service or insurer-policy comparisons. Anatomical categories and specialty-level valuation are distinct from measured patient or physician gender. | 10 |
 | Physician sex / gender | Physician sex or gender is the primary comparison in provider payment or service analyses. Results do not directly establish patient-sex disparities. | 3 |
 | General patient sex / gender background | Clinical reviews or commentary addressing sex-related biology and gender-related social pathways, without an original Medicare reimbursement comparison. | 3 |

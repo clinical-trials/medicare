@@ -1,0 +1,14 @@
+{
+  "requested_at_utc": "2026-09-21T17:14:19.208364+00:00",
+  "completed_at_utc": "2026-09-21T17:14:20.468240+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=MedicareEvidenceReview&term=%28%0A++%22Sex+Factors%22%5BMesh%5D%0A++OR+sex%5Btiab%5D+OR+gender%5Btiab%5D%0A++OR+women%5Btiab%5D+OR+men%5Btiab%5D%0A++OR+female%2A%5Btiab%5D+OR+male%2A%5Btiab%5D%0A%29%0AAND%0A%28%0A++reimburs%2A%5Btiab%5D+OR+payment%2A%5Btiab%5D%0A++OR+%22relative+value%22%5Btiab%5D+OR+RVU%5Btiab%5D+OR+RVUs%5Btiab%5D%0A++OR+%22physician+fee+schedule%22%5Btiab%5D%0A++OR+%22resource+based+relative+value%22%5Btiab%5D%0A++OR+%22insurance+coverage%22%5Btiab%5D%0A++OR+%22out+of+pocket%22%5Btiab%5D%0A%29&retmode=json&retmax=9999",
+  "params": {
+    "db": "pubmed",
+    "tool": "MedicareEvidenceReview",
+    "term": "(\n  \"Sex Factors\"[Mesh]\n  OR sex[tiab] OR gender[tiab]\n  OR women[tiab] OR men[tiab]\n  OR female*[tiab] OR male*[tiab]\n)\nAND\n(\n  reimburs*[tiab] OR payment*[tiab]\n  OR \"relative value\"[tiab] OR RVU[tiab] OR RVUs[tiab]\n  OR \"physician fee schedule\"[tiab]\n  OR \"resource based relative value\"[tiab]\n  OR \"insurance coverage\"[tiab]\n  OR \"out of pocket\"[tiab]\n)",
+    "retmode": "json",
+    "retmax": 9999
+  },
+  "sha256": "29037c8b84bddeaf0a254ba5f34bd791e729213c3d811142ef129b18bf11d3e8",
+  "bytes": 110694
+}

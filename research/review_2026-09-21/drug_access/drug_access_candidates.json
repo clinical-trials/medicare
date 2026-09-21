@@ -1,0 +1,636 @@
+{
+  "review_date": "2026-09-21",
+  "scope_file": "REVIEW_SCOPE.md, read2026-09-21",
+  "status": "AI preliminary targeted other-method evidence retrieval; not independent dual review, not completed systematic screening",
+  "temporary_ids": "DA IDs are local retrieval IDs. Parent assigned L-R01 to33298705 and L-R02 to33656528; this folder does not modify canonical registers.",
+  "bound": "2specified records plus2additional original Medicare studies",
+  "records": [
+    {
+      "candidate_id": "DA-20260921-01",
+      "canonical_study_id": null,
+      "pmid": "15692281",
+      "pmcid": null,
+      "doi": "10.1089/jwh.2005.14.73",
+      "title": "Gender differences in drug use and expenditures in a privately insured population of older adults.",
+      "authors": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y.",
+      "citation": "Correa-de-Araujo R, Miller GE, Banthin JS, Trinh Y. Gender differences in drug use and expenditures in a privately insured population of older adults. J Womens Health (Larchmt). 2005;14(1):73-81. doi:10.1089/jwh.2005.14.73. PMID:15692281.",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/15692281/",
+        "doi": "https://doi.org/10.1089/jwh.2005.14.73"
+      },
+      "metadata_verification": {
+        "source": "Europe PMC CORE record, source MED",
+        "verified_on": "2026-09-21",
+        "verified_fields": [
+          "PMID",
+          "DOI",
+          "title",
+          "authors",
+          "journal",
+          "year",
+          "volume",
+          "issue",
+          "pages"
+        ],
+        "linked_notices": {},
+        "correction_status": "No linked erratum/corrigendum/retraction returned in retrieved MED record; absence of a link is not proof none exists."
+      },
+      "screening_type": "Single AI preliminary screening and extraction, not independent human review",
+      "analytic_subject": "Patient care/access",
+      "unit": "Patient",
+      "physician_sex_comparison": false,
+      "clinical_basis_proposed": "Shared systems/functions; indication-heterogeneous prescription access. No sex-specific organ assignment inferred from drug use.",
+      "identity_eligibility": "Unresolved: male/female or women/men reporting does not establish cisgender identity. Not eligible for an explicitly confirmed-cisgender primary estimate until resolved.",
+      "formal_risk_of_bias": "Not performed",
+      "certainty_assessment": "Not performed",
+      "canonical_register_updated": false,
+      "retrieval_route": "Parent-specified PMID; targeted other-method verification",
+      "decision": "Unresolved candidate / historical context pending full text",
+      "decision_reason": "Actual women/men drug expenditure comparison, but abstract does not establish separately extractable Medicare population, payer definition, sample size, study years, identity eligibility, or clinical-need adjustment. Do not exclude as purely private insurance on title alone.",
+      "access_level": "Verified MED abstract only; DOI access failed and targeted title/DOI searches found no accessible full text in this run.",
+      "design": "MEPS Household Component observational prescription-purchase analysis; detailed design unresolved",
+      "population": {
+        "country": "United States",
+        "age": "65 years and older",
+        "payer": "Abstract describes Medicare and privately insured older adults; title describes privately insured population. Exact dual coverage versus mixed-payer composition requires full text.",
+        "n": null,
+        "years": null,
+        "identity_measurement": "Not reported in abstract"
+      },
+      "outcomes": [
+        {
+          "outcome": "Average drug expenditures",
+          "women_usd": 1178,
+          "men_usd": 1009,
+          "reported_relative_difference_percent": 17,
+          "ci": null,
+          "time_unit": "Annual expenditure implied by adjacent aggregate statement; per-person denominator and price year require full text",
+          "spending_basis": "Not verified as patient out-of-pocket; must not label as OOP, reimbursement rate, or denial",
+          "locator": "MED abstract, first expenditure results"
+        },
+        {
+          "outcome": "Average annual aggregate prescribed-medicine expenditure",
+          "women_usd_billions": 6.93,
+          "men_usd_billions": 5.77,
+          "women_population_percent": 50.7,
+          "locator": "MED abstract"
+        }
+      ],
+      "null_results": "Not available from abstract; no assumption of absence",
+      "limitations": [
+        "Full text not retrieved",
+        "Unknown payer subgroup and sample denominator",
+        "Gross use/spending differences do not establish unmet need or reimbursement discrimination",
+        "Published 2005, before Part D implementation; cannot apply as current policy effect"
+      ],
+      "next_action": "Retrieve lawful full text; verify Medicare subgroup, expenditure definition, survey years, covariates and identity measurement before primary inclusion."
+    },
+    {
+      "candidate_id": "DA-20260921-02",
+      "canonical_study_id": null,
+      "pmid": "36255428",
+      "pmcid": "PMC9579917",
+      "doi": "10.1001/jama.2022.17825",
+      "title": "Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019.",
+      "authors": "Dusetzina SB, Huskamp HA, Qin X, Keating NL.",
+      "citation": "Dusetzina SB, Huskamp HA, Qin X, Keating NL. Prescription Drug Spending in Fee-for-Service Medicare, 2008-2019. JAMA. 2022;328(15):1515-1522. doi:10.1001/jama.2022.17825. PMID:36255428.",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/36255428/",
+        "doi": "https://doi.org/10.1001/jama.2022.17825",
+        "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9579917/"
+      },
+      "metadata_verification": {
+        "source": "Europe PMC CORE record, source MED",
+        "verified_on": "2026-09-21",
+        "verified_fields": [
+          "PMID",
+          "DOI",
+          "title",
+          "authors",
+          "journal",
+          "year",
+          "volume",
+          "issue",
+          "pages"
+        ],
+        "linked_notices": {
+          "commentCorrection": [
+            {
+              "source": "MED",
+              "id": "36255438",
+              "reference": "JAMA. 2022 Oct 18;328(15):1502-1503. doi: 10.1001/jama.2022.18624",
+              "type": "Comment in",
+              "orderIn": 1
+            }
+          ]
+        },
+        "correction_status": "No linked erratum/corrigendum/retraction returned in retrieved MED record; absence of a link is not proof none exists."
+      },
+      "screening_type": "Single AI preliminary screening and extraction, not independent human review",
+      "analytic_subject": "Patient care/access",
+      "unit": "Beneficiary-year",
+      "physician_sex_comparison": false,
+      "clinical_basis_proposed": "Shared systems/functions; indication-heterogeneous prescription access. No sex-specific organ assignment inferred from drug use.",
+      "identity_eligibility": "Unresolved: male/female or women/men reporting does not establish cisgender identity. Not eligible for an explicitly confirmed-cisgender primary estimate until resolved.",
+      "formal_risk_of_bias": "Not performed",
+      "certainty_assessment": "Not performed",
+      "canonical_register_updated": false,
+      "retrieval_route": "Parent-specified PMID; targeted other-method verification",
+      "decision": "Context only; exclude from direct patient-sex effect synthesis",
+      "decision_reason": "Main report presents spending trends by year and descriptive sex composition, not sex-specific affordability/access effects. Supplement tables were identified by title but not reviewed; decision pertains to accessed main report.",
+      "access_level": "PMC main text, methods, results, table and limitations inspected; supplements not inspected",
+      "design": "Descriptive serial cross-sectional analysis of a 20% random FFS Medicare sample",
+      "population": {
+        "country": "United States",
+        "years": "2008–2019",
+        "payer": "Continuous within-year Medicare A/B/D, no Medicare Advantage; allows eligible entrants and exits by death",
+        "n_2008": 3201284,
+        "n_2019": 4502718,
+        "age_2019_mean": 71.7,
+        "age_2019_sd": 12.0,
+        "female_percent_2019": 57.7,
+        "entitlement": "Includes younger beneficiaries; disability share 30.0% in 2008 and 23.4% in 2019",
+        "identity_measurement": "Documented administrative sex; no gender identity ascertainment identified"
+      },
+      "outcomes": [
+        {
+          "outcome": "Reported share of total annual per-capita spending attributed to Part B and Part D drugs",
+          "percent_2008": 24.0,
+          "percent_2019": 27.2,
+          "ci": null,
+          "locator": "Abstract Results and Conclusions; Results/Figure 3",
+          "status": "Reported headline, not independently reconciled against component totals",
+          "sex_contrast": null
+        }
+      ],
+      "spending_definition": "2019 USD; includes Medicare allowed amounts, coordination-of-benefits payments and patient liabilities. Part D net estimated using mean annual rebates, not product-level rebates. Excludes drug administration fees and does not isolate drugs included in bundled/inpatient payments.",
+      "source_discrepancies": [
+        {
+          "locator": "Abstract Results versus main Results first spending paragraph",
+          "issue": "Abstract reports total per-capita spending $16,345 (2008) and $20,117 (2019); body reports $16,062 and $18,940. Do not use totals without checking final publisher version/supplement/author clarification."
+        },
+        {
+          "locator": "Results component values and reported 2019 drug share",
+          "issue": "Reported Part B drugs $1,641 plus Part D net $3,477 divided by body total $18,940 is about 27.0%, not reported 27.2%. This is a source reconciliation issue; do not silently correct published values."
+        }
+      ],
+      "linked_comment": {
+        "pmid": "36255438",
+        "type": "Comment in",
+        "doi": "10.1001/jama.2022.18624",
+        "note": "A commentary link is not an erratum or independent primary study; not imported."
+      },
+      "limitations": [
+        "No patient-sex effect estimate in accessed main report",
+        "Composition changes over time; excludes Medicare Advantage",
+        "Missing embedded inpatient/bundled drug costs and administration fees from drug component",
+        "Descriptive spending does not measure affordability, unmet need or policy effects",
+        "Historical 2008–2019 period; no inference about current caps or formularies"
+      ],
+      "next_action": "Retain as spending/denominator context; reconcile numeric inconsistencies before quoting totals; do not count descriptive sex composition as a sex-effect study."
+    },
+    {
+      "candidate_id": "DA-20260921-03",
+      "canonical_study_id": "L-R01",
+      "pmid": "33298705",
+      "pmcid": "PMC7735208",
+      "doi": "10.1097/mlr.0000000000001458",
+      "title": "Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.",
+      "authors": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM.",
+      "citation": "Nekui F, Galbraith AA, Briesacher BA, Zhang F, Soumerai SB, Ross-Degnan D, Gurwitz JH, Madden JM. Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries. Med Care. 2021;59(1):13-21. doi:10.1097/mlr.0000000000001458. PMID:33298705.",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33298705/",
+        "doi": "https://doi.org/10.1097/mlr.0000000000001458",
+        "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/"
+      },
+      "metadata_verification": {
+        "source": "Europe PMC CORE record, source MED",
+        "verified_on": "2026-09-21",
+        "verified_fields": [
+          "PMID",
+          "DOI",
+          "title",
+          "authors",
+          "journal",
+          "year",
+          "volume",
+          "issue",
+          "pages"
+        ],
+        "linked_notices": {},
+        "correction_status": "No linked erratum/corrigendum/retraction returned in retrieved MED record; absence of a link is not proof none exists."
+      },
+      "screening_type": "Single AI preliminary screening and extraction, not independent human review",
+      "analytic_subject": "Patient care/access",
+      "unit": "Patient",
+      "physician_sex_comparison": false,
+      "clinical_basis_proposed": "Shared systems/functions; indication-heterogeneous prescription access. No sex-specific organ assignment inferred from drug use.",
+      "identity_eligibility": "Unresolved: male/female or women/men reporting does not establish cisgender identity. Not eligible for an explicitly confirmed-cisgender primary estimate until resolved.",
+      "formal_risk_of_bias": "Not performed",
+      "certainty_assessment": "Not performed",
+      "canonical_register_updated": false,
+      "retrieval_route": "Targeted web query Medicare \"cost-related\" nonadherence women men sex differences study; other-method retrieval, not formal PubMed database search",
+      "decision": "Direct patient-sex access candidate; identity eligibility unresolved",
+      "decision_reason": "Original Medicare analysis reports actual female-versus-male medication affordability estimates, including younger beneficiaries and a null companion outcome. Gender identity not ascertained by enrollment sex.",
+      "access_level": "PMC main text, Tables 1–3, methods, results, discussion and funding inspected; supplemental sensitivity files not inspected",
+      "design": "Survey-weighted cross-sectional 2016 MCBS analysis with separate historical descriptive trends, not a causal policy experiment",
+      "population": {
+        "country": "United States, national community-dwelling Medicare sample",
+        "primary_year": 2016,
+        "secondary_years": "2006–2016, excluding unreleased 2014; earlier 2004/2005 not used for trend series due measurement issues",
+        "n_total": 12625,
+        "n_under65": 2155,
+        "n_65plus": 10470,
+        "n_under65_female": 1050,
+        "n_under65_male": 1105,
+        "n_65plus_female": 5885,
+        "n_65plus_male": 4585,
+        "represented_population": "Approximately 56 million community-dwelling beneficiaries using MCBS survey weights",
+        "payer": "Traditional Medicare and Medicare Advantage; drug coverage categories include Part D with LIS, MA with Part D no LIS, traditional Medicare with Part D no LIS, other non-Part D drug coverage, and none",
+        "eligibility": "Continuous 2016 enrollment and at least one response in relevant interview module; long-term-care residents excluded",
+        "identity_measurement": "Age and sex from enrollment data; no gender identity measurement reported",
+        "sex_measurement_verbatim": "Age and sex derive from enrollment data.",
+        "age_strata": "<65; >=65, with descriptive older categories65–74,75–84,>=85"
+      },
+      "outcome_definitions": {
+        "any_crn": "Any prior-12-month nonfill/delayed fill for cost or dose skipping/reduction to extend supply; composite from five survey questions including two routes to nonfill ascertainment",
+        "spent_less": "Prior-12-month reduction in spending on food/heat/other basic necessities to afford medicines",
+        "cost_reduction_strategy": "Any request for generic, price shopping, or discussion with doctor about cheaper substitution/stopping to save money; not intrinsically harmful nonadherence"
+      },
+      "denominator_notes": {
+        "crn_respondents_under65": 2150,
+        "crn_respondents_65plus": 10457,
+        "source": "Table1b; total and sex-specific cohort Ns fromTable1a",
+        "sex_specific_event_counts": "Not reported; weighted percentages must not be multiplied by unweighted Ns to fabricate counts",
+        "regression_complete_case_n": "Not explicitly identified in inspected main report; do not equate all cohort participants with model N"
+      },
+      "outcomes": [
+        {
+          "outcome": "any_crn",
+          "age": "<65",
+          "unadjusted_survey_weighted_prevalence_percent": {
+            "male": 28.5,
+            "male_95ci": [
+              25.2,
+              31.9
+            ],
+            "female": 40.5,
+            "female_95ci": [
+              36.7,
+              44.3
+            ]
+          },
+          "adjusted_female_vs_male_odds_ratio": 1.66,
+          "adjusted_95ci": [
+            1.31,
+            2.1
+          ],
+          "prevalence_locator": "Table2, sex rows",
+          "estimate_locator": "Table3, female row; male reference1.00",
+          "unadjusted_difference_pp_derived": 12.0,
+          "derived_formula": "female weighted prevalence minus male weighted prevalence; no derived CI"
+        },
+        {
+          "outcome": "any_crn",
+          "age": ">=65",
+          "unadjusted_survey_weighted_prevalence_percent": {
+            "male": 12.8,
+            "male_95ci": [
+              11.4,
+              14.1
+            ],
+            "female": 15.7,
+            "female_95ci": [
+              14.6,
+              16.8
+            ]
+          },
+          "adjusted_female_vs_male_odds_ratio": 1.21,
+          "adjusted_95ci": [
+            1.04,
+            1.41
+          ],
+          "prevalence_locator": "Table2, sex rows",
+          "estimate_locator": "Table3, female row; male reference1.00",
+          "unadjusted_difference_pp_derived": 2.9,
+          "derived_formula": "female weighted prevalence minus male weighted prevalence; no derived CI"
+        },
+        {
+          "outcome": "spent_less",
+          "age": "<65",
+          "unadjusted_survey_weighted_prevalence_percent": {
+            "male": 15.3,
+            "male_95ci": [
+              12.2,
+              18.4
+            ],
+            "female": 23.4,
+            "female_95ci": [
+              19.6,
+              27.2
+            ]
+          },
+          "adjusted_female_vs_male_odds_ratio": 1.56,
+          "adjusted_95ci": [
+            1.1,
+            2.23
+          ],
+          "prevalence_locator": "Table2, sex rows",
+          "estimate_locator": "Table3, female row; male reference1.00",
+          "unadjusted_difference_pp_derived": 8.1,
+          "derived_formula": "female weighted prevalence minus male weighted prevalence; no derived CI"
+        },
+        {
+          "outcome": "spent_less",
+          "age": ">=65",
+          "unadjusted_survey_weighted_prevalence_percent": {
+            "male": 3.5,
+            "male_95ci": [
+              2.8,
+              4.1
+            ],
+            "female": 5.6,
+            "female_95ci": [
+              4.9,
+              6.4
+            ]
+          },
+          "adjusted_female_vs_male_odds_ratio": 1.3,
+          "adjusted_95ci": [
+            1.02,
+            1.64
+          ],
+          "prevalence_locator": "Table2, sex rows",
+          "estimate_locator": "Table3, female row; male reference1.00",
+          "unadjusted_difference_pp_derived": 2.1,
+          "derived_formula": "female weighted prevalence minus male weighted prevalence; no derived CI"
+        },
+        {
+          "outcome": "cost_reduction_strategy",
+          "age": "<65",
+          "unadjusted_survey_weighted_prevalence_percent": {
+            "male": 43.0,
+            "male_95ci": [
+              39.2,
+              46.9
+            ],
+            "female": 52.3,
+            "female_95ci": [
+              47.4,
+              57.1
+            ]
+          },
+          "adjusted_female_vs_male_odds_ratio": 1.42,
+          "adjusted_95ci": [
+            1.12,
+            1.79
+          ],
+          "prevalence_locator": "Table2, sex rows",
+          "estimate_locator": "Table3, female row; male reference1.00",
+          "unadjusted_difference_pp_derived": 9.3,
+          "derived_formula": "female weighted prevalence minus male weighted prevalence; no derived CI"
+        },
+        {
+          "outcome": "cost_reduction_strategy",
+          "age": ">=65",
+          "unadjusted_survey_weighted_prevalence_percent": {
+            "male": 43.7,
+            "male_95ci": [
+              41.5,
+              45.8
+            ],
+            "female": 44.3,
+            "female_95ci": [
+              42.2,
+              46.3
+            ]
+          },
+          "adjusted_female_vs_male_odds_ratio": 1.04,
+          "adjusted_95ci": [
+            0.94,
+            1.14
+          ],
+          "prevalence_locator": "Table2, sex rows",
+          "estimate_locator": "Table3, female row; male reference1.00",
+          "unadjusted_difference_pp_derived": 0.6,
+          "derived_formula": "female weighted prevalence minus male weighted prevalence; no derived CI"
+        }
+      ],
+      "adjustment_variables": [
+        "age",
+        "sex",
+        "household income",
+        "education",
+        "race",
+        "Hispanic ethnicity",
+        "general health status",
+        "ADL limitation count",
+        "chronic-condition count",
+        "hierarchical drug coverage category"
+      ],
+      "model": "Survey-weighted logistic regression separately for <65 and >=65; ORs are associations, not risks or causal effects",
+      "need_adjustment": "Self-reported general health, functional limitations and chronic-condition count; no drug/indication-level assessment of appropriateness",
+      "null_results": [
+        "Among >=65, female-vs-male adjusted OR for any cost-reduction strategy1.04 (95%CI0.94–1.14); do not claim a difference for that outcome."
+      ],
+      "limitations": [
+        "Cross-sectional residual confounding; income/coverage may also lie on pathways of disparity",
+        "12-month recall and social-desirability bias",
+        "Community dwelling/continuous-enrollment selection",
+        "Enrollment sex cannot establish gender identity",
+        "Coverage-omitted sensitivity models existed but sex-specific sensitivity values not extracted; do not assert robustness for the sex coefficient",
+        "2016 results precede later Part D reforms and do not measure current denial/coverage",
+        "No formal risk-of-bias rating completed"
+      ],
+      "funding": "National Institute on Aging R01AG028745, R01AG022362, R21AG060401; Northeastern University",
+      "conflicts": "Authors reported no potential conflicts",
+      "next_action": "Human eligibility/full-text verification, identity clarification if feasible, supplement extraction and design-appropriate appraisal."
+    },
+    {
+      "candidate_id": "DA-20260921-04",
+      "canonical_study_id": "L-R02",
+      "pmid": "33656528",
+      "pmcid": "PMC7930921",
+      "doi": "10.1001/jamanetworkopen.2021.0498",
+      "title": "Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.",
+      "authors": "De Avila JL, Meltzer DO, Zhang JX.",
+      "citation": "De Avila JL, Meltzer DO, Zhang JX. Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization. JAMA Netw Open. 2021;4(3):e210498. doi:10.1001/jamanetworkopen.2021.0498. PMID:33656528.",
+      "urls": {
+        "pubmed": "https://pubmed.ncbi.nlm.nih.gov/33656528/",
+        "doi": "https://doi.org/10.1001/jamanetworkopen.2021.0498",
+        "pmc": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/"
+      },
+      "metadata_verification": {
+        "source": "Europe PMC CORE record, source MED",
+        "verified_on": "2026-09-21",
+        "verified_fields": [
+          "PMID",
+          "DOI",
+          "title",
+          "authors",
+          "journal",
+          "year",
+          "volume",
+          "issue",
+          "pages"
+        ],
+        "linked_notices": {},
+        "correction_status": "No linked erratum/corrigendum/retraction returned in retrieved MED record; absence of a link is not proof none exists."
+      },
+      "screening_type": "Single AI preliminary screening and extraction, not independent human review",
+      "analytic_subject": "Patient care/access",
+      "unit": "Patient",
+      "physician_sex_comparison": false,
+      "clinical_basis_proposed": "Shared systems/functions; indication-heterogeneous prescription access. No sex-specific organ assignment inferred from drug use.",
+      "identity_eligibility": "Unresolved: male/female or women/men reporting does not establish cisgender identity. Not eligible for an explicitly confirmed-cisgender primary estimate until resolved.",
+      "formal_risk_of_bias": "Not performed",
+      "certainty_assessment": "Not performed",
+      "canonical_register_updated": false,
+      "retrieval_route": "Same targeted web query as DA-20260921-03; other-method retrieval",
+      "decision": "Direct patient-sex access candidate; identity eligibility unresolved",
+      "decision_reason": "Original Medicare cohort with sex-reported longitudinal CRN comparisons and important adjusted null uncertainty. Authors call measure gender, but explicitly state survey asked sex; cisgender status unverified.",
+      "access_level": "Full PMC XML main methods/results/tables/discussion/limitations and PMC disclosures inspected",
+      "design": "Observational secondary cohort analysis pooling both arms of a care-model RCT; sex comparison itself is not randomized",
+      "population": {
+        "country": "United States; University of Chicago urban academic center",
+        "recruitment_and_study_dates": "2012-11-06 to2018-01-30",
+        "n": 1655,
+        "women_n": 1036,
+        "men_n": 619,
+        "under65_n": 769,
+        "age65plus_n": 886,
+        "age_mean": 62.4,
+        "age_sd": 15.9,
+        "black_n": 1452,
+        "black_percent": 87.7,
+        "payer": "Medicare, stratified Medicare-only vs dual Medicare/Medicaid; Original Medicare/MA and actual Part D enrollment not resolved in this report",
+        "dual_n": 795,
+        "dual_n_source": "Derived490 under65 +305 age65plus from Results",
+        "eligibility": "At least one hospitalization in previous year or emergency-department care at enrollment",
+        "exclusions": {
+          "no_baseline": 54,
+          "withdrew": 7,
+          "incomplete_all_four_followup_surveys": 61,
+          "died_within12months": 223
+        },
+        "identity_measurement": "Survey asked sex; authors used term gender in analyses. No cisgender/transgender ascertainment established.",
+        "followup": "12 months prospectively plus baseline3-month recall:15-month behavior window across5surveys"
+      },
+      "outcome_definitions": {
+        "crn": "Any prior-three-month cost-related nonfill/refill, delayed fill, skipped dose or reduced dose",
+        "persistent": "CRN in>=3of5surveys",
+        "intermittent": "CRN in2surveys",
+        "transient": "CRN in1survey",
+        "any": "CRN in>=1survey"
+      },
+      "outcomes": [
+        {
+          "outcome": "Persistent CRN",
+          "women_events": 162,
+          "women_denominator": 1036,
+          "women_percent": 15.6,
+          "men_events": 68,
+          "men_denominator": 619,
+          "men_percent": 11.0,
+          "unadjusted_p": 0.008,
+          "unadjusted_ci": null,
+          "unadjusted_locator": "Results/Figure2;Table1 sex rows sum across age strata",
+          "adjusted_woman_vs_man_odds_ratio": 1.36,
+          "adjusted_95ci": [
+            0.95,
+            1.95
+          ],
+          "adjusted_p": 0.1,
+          "adjusted_locator": "Table2 female row",
+          "interpretation": "Point estimate higher in women but CI includes1; neither adjusted statistically significant association nor equivalence established."
+        },
+        {
+          "outcome": "Transient CRN",
+          "women_events": 227,
+          "women_denominator": 1036,
+          "women_percent": 21.9,
+          "men_events": 160,
+          "men_denominator": 619,
+          "men_percent": 25.9,
+          "adjusted_woman_vs_man_odds_ratio": 0.81,
+          "adjusted_95ci": [
+            0.62,
+            1.07
+          ],
+          "adjusted_p": 0.15,
+          "locator": "Figure2 andTable2",
+          "interpretation": "Point estimate lower in women; CI includes1. Retain this reversed/null companion result."
+        },
+        {
+          "outcome": "Intermittent CRN",
+          "women_events": 123,
+          "women_denominator": 1036,
+          "women_percent": 11.9,
+          "men_events": 70,
+          "men_denominator": 619,
+          "men_percent": 11.3,
+          "unadjusted_p": 0.73,
+          "locator": "Results/Figure2"
+        },
+        {
+          "outcome": "Persistent CRN age<65",
+          "women_events": 95,
+          "women_denominator": 450,
+          "women_percent": 21.1,
+          "men_events": 53,
+          "men_denominator": 319,
+          "men_percent": 16.6,
+          "locator": "Table1 sex rows; denominators derived by summing all four CRN categories",
+          "ci": null,
+          "p": null
+        },
+        {
+          "outcome": "Persistent CRN age>=65",
+          "women_events": 67,
+          "women_denominator": 586,
+          "women_percent": 11.4,
+          "men_events": 15,
+          "men_denominator": 300,
+          "men_percent": 5.0,
+          "locator": "Table1 sex rows; denominators derived by summing all four CRN categories",
+          "ci": null,
+          "p": null
+        }
+      ],
+      "adjustment_variables": [
+        "age",
+        "reported gender",
+        "race/ethnicity",
+        "education",
+        "health literacy",
+        "income",
+        "Medicare-only vs dual insurance",
+        "self-reported health",
+        "cancer",
+        "cardiovascular disease",
+        "depression",
+        "diabetes",
+        "kidney disease",
+        "past-year hospitalization count",
+        "care-model trial arm"
+      ],
+      "model_notes": [
+        "Separate multiple logistic regressions for transient and persistent CRN. Exact model analysis N and outcome-reference coding not explicit in inspected main report; verify before pooling.",
+        "Table1 P values compare demographic distributions across age strata regardless of CRN, not within-age female/male CRN comparisons."
+      ],
+      "missing_data": "Follow-up survey response93%; intermittent unanswered CRN treated as not reporting CRN;2.9% of responses had do-not-know/refusal for>=1CRN item. Selection excludes deaths and incomplete follow-up.",
+      "limitations": [
+        "Single urban center, selected hospitalization-risk cohort, predominantly Black; not national prevalence",
+        "Survivor/complete-survey selection; self-reported recall and stigma",
+        "Missing responses treated as no reported CRN may undercount",
+        "Pooling trial arms does not randomize sex; adjusted sex association is observational",
+        "Income/health adjustment may condition on mechanisms as well as confounders; no causal mediation demonstrated",
+        "Outcome frequency definitions cannot be pooled directly with 12-month any-CRN measures",
+        "Authors historical national-comparison prevalence uses a different interval/sample; do not generalize their366%higher statement"
+      ],
+      "funding": "NIH/NIA5T35AG029795-12; Chicago Center for Diabetes Translation ResearchP30DK092949; NIH5R21AG053749",
+      "conflicts": "Meltzer reported compensation from CVS Consultant outside submitted work; no other disclosures",
+      "next_action": "Human verification/identity eligibility, model comparator and missing-data clarification, appraisal; preserve adjusted null alongside unadjusted disparity."
+    }
+  ]
+}

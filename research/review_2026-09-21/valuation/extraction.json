@@ -1,0 +1,115 @@
+{
+  "review_date": "2026-09-21",
+  "scope": "Targeted verification of existing L-P01, L-P02 and L-P03; not a new systematic search, completed systematic review or formal risk-of-bias assessment.",
+  "canonical_registers_edited": false,
+  "metadata_file": "verified_metadata.json",
+  "common_interpretation": {
+    "evidence_subject": "service_anatomy_valuation",
+    "patient_access_measured": false,
+    "physician_sex_gender_comparison": false,
+    "patient_gender_identity_established": false,
+    "scope_decision": "Retain in service/anatomy valuation stream. Do not count as confirmed cisgender patient outcome studies or extrapolate selected codes to all Medicare services.",
+    "clinical_basis": "Code pairs span reproductive anatomy and shared or mixed/site-dependent urinary, pelvic-floor and oncologic services. Code labels are not patient gender identity. No new care-item classifications are added by this file.",
+    "correction_search": "No linked comment/correction relationships returned by the checked PubMed and Europe PMC records on 2026-09-21; this is not a guarantee that no correction exists."
+  },
+  "studies": [
+    {
+      "id": "L-P01",
+      "title": "Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies",
+      "authors": ["Madeline Penn", "Donessa Colley", "Pratistha Koirala", "Louise King", "Jocelyn Fitzgerald"],
+      "citation": "J Womens Health (Larchmt). 2025;34(5):665-676.",
+      "pmid": "39978776",
+      "doi": "10.1089/jwh.2024.0984",
+      "access_level": "Source-verified PubMed/publisher abstract; search-indexed publisher PDF limitation excerpt. Full article not retrieved.",
+      "sources": [
+        {"url": "https://pubmed.ncbi.nlm.nih.gov/39978776/", "locator": "Abstract: Methods and Results"},
+        {"url": "https://journals.sagepub.com/doi/abs/10.1089/jwh.2024.0984", "locator": "Abstract: Methods and Results"},
+        {"url": "https://journals.sagepub.com/doi/pdf/10.1089/jwh.2024.0984?cf-mal-redirected=true&download=true", "locator": "Search-indexed p. 675, Limitations; confirms consideration of RVUs and Medicare reimbursements, but complete PDF not retrieved"}
+      ],
+      "payer_year": {
+        "payer": "US Medicare reimbursement/code valuation; specific source file, locality and conversion settings require full-text verification",
+        "cross_section_year": 2023,
+        "rvu_trend_years": [2003, 2023],
+        "historical_comparison_years": [1997, 2015, 2023]
+      },
+      "unit": "Selected CPT codes/pairs, not patients or physicians",
+      "sample": {"cpt_codes": 110, "pairs": 55, "historical_subset_reported": "22 CPT codes in the abstract; do not relabel as 22 pairs without the full methods"},
+      "comparator": {"construction": "Anatomically similar sex-specific codes verified by gynecologists and urologists", "locator": "Abstract: Methods", "time_complexity_adjustment": "Abstract does not report measured operative-time adjustment, global-period matching or multivariable complexity adjustment; their presence or absence cannot be established without full text"},
+      "results": [
+        {"outcome": "work RVU, female lower", "count": 41, "denominator": 55, "reported_percent": 75, "locator": "Abstract: Results"},
+        {"outcome": "mean work RVU, male higher", "relative_difference_percent": 30, "uncertainty": "No numerical confidence interval or exact P value in abstract", "locator": "Abstract: Results"},
+        {"outcome": "facility-setting physician reimbursement, male higher", "count": 35, "denominator": 55, "reported_percent": 64, "mean_relative_difference_percent": 25.6, "mean_absolute_difference_usd": 75.73, "locator": "Abstract: Results"},
+        {"outcome": "nonfacility-setting physician reimbursement, male higher", "mean_relative_difference_percent": 20, "uncertainty": "No numerical confidence interval or exact P value in abstract", "locator": "Abstract: Results"},
+        {"outcome": "change in disparity, 2003-2023", "finding": "No statistically significant improvement reported; male RVU advantage reported as 31-34% over the period", "locator": "Abstract: Results", "note": "Retain the reported 30% cross-sectional and 31-34% longitudinal numbers separately; different denominators/subsets cannot be reconciled from the abstract"}
+      ],
+      "reviewer_concerns_not_formal_risk_of_bias": ["Selected anatomical analogues do not establish equal total work, intensity or global-period obligations.", "Unverified time/complexity handling and inaccessible detailed uncertainty limit causal interpretation.", "Facility/nonfacility rates are physician fee-schedule settings, not hospital facility payments, patient out-of-pocket spending or observed access."],
+      "proposed_status": "Retain; abstract verified and metadata matched. Full-text methods, pair list, valuation inputs and uncertainty remain pending."
+    },
+    {
+      "id": "L-P02",
+      "title": "Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures",
+      "authors": ["Jon K Hathaway", "Mitchell S Schuster", "Kyle A Richards", "Thomas M T Turk"],
+      "citation": "Urol Pract. 2024;11(4):654-660.",
+      "pmid": "38758183",
+      "doi": "10.1097/UPJ.0000000000000612",
+      "access_level": "Source-verified PubMed and journal abstract; same-author AUA News companion text/table accessed through search index. Peer-reviewed full text not retrieved.",
+      "sources": [
+        {"url": "https://pubmed.ncbi.nlm.nih.gov/38758183/", "locator": "Abstract: Methods, Results, Conclusions"},
+        {"url": "https://www.auajournals.org/doi/10.1097/UPJ.0000000000000612", "locator": "Abstract: Methods and Results"},
+        {"url": "https://auanews.net/issues/articles/2024/july-extra-2024/upj-insight-comparison-of-work-relative-value-units-assigned-to-urological-and-gynecological-surgical-procedures", "locator": "17 July 2024; What We Found, Table, Limitations"}
+      ],
+      "payer_year": {"system": "US CPT/RUC work-RVU valuation; no observed payer reimbursement or claims cohort", "valuation_data_year": null, "valuation_data_year_status": "Not stated in accessed abstract/companion; do not substitute publication year 2024"},
+      "unit": "Selected analogous CPT pairs",
+      "sample": {"journal_abstract_pairs": 10, "female_higher_pairs": 7, "male_higher_pairs": 3},
+      "comparator": {"construction": "AUA and ACOG representatives independently screened the procedural code set for opposite-sex analogues; compared RUC valuation conditions", "criteria": ["global period", "intraservice time", "total time", "hospital days", "postoperative office visits", "date of RUC review"], "reported_matching": "Similar surgical approaches, global periods and valuation methodologies", "locator": "Abstract: Methods and Conclusions", "time_complexity_adjustment": "Work RVU per minute of intraservice and total time, with selection for comparable valuation conditions; not a reported patient-level multivariable adjustment"},
+      "results": [
+        {"outcome": "female-higher pair differences in work RVU", "count": 7, "range": [0.29, 6.47], "range_type": "Across selected code pairs, not a confidence interval", "locator": "Abstract: Results"},
+        {"outcome": "male-higher pair differences in work RVU", "count": 3, "range": [1.23, 2.34], "range_type": "Across selected code pairs, not a confidence interval", "locator": "Abstract: Results"},
+        {"outcome": "overall work RVU difference", "finding": "No statistically significant difference reported", "locator": "Abstract: Results"},
+        {"outcome": "work RVU per minute of intraservice time and total time", "finding": "Neither comparison statistically significant", "locator": "Abstract: Results"}
+      ],
+      "uncertainty": "Methods say mean differences and 95% confidence intervals were used; numerical intervals, exact P values and precision are absent from the accessed abstract. A null test is not proof of equivalence.",
+      "source_discrepancy": {"journal": "10 pairs: 7 female higher, 3 male higher", "companion": "9 pairs: 6 female higher, 3 male higher", "companion_table": "19 unique CPT rows; female lesion code 56501 is displayed between two male lesion codes 54057 and 54050", "handling": "Use journal counts as the primary report; flag discrepancy and seek peer-reviewed full text. Do not treat the companion as another study or infer a definitive explanation."},
+      "reviewer_concerns_not_formal_risk_of_bias": ["Strict comparator selection improves work comparability but restricts inference to this small code set.", "Selection by specialty representatives and procedural exclusions need transparent full-text appraisal; this does not establish biased conduct.", "No numerical intervals are available to assess whether clinically important differences remain compatible with the data.", "The authors' criticism of earlier comparisons is interpretation, not an independent adjudication of those studies."],
+      "proposed_status": "Retain explicitly as null/opposing evidence; full-text uncertainty, valuation year and pair-count discrepancy pending."
+    },
+    {
+      "id": "L-P03",
+      "title": "Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time",
+      "authors": ["Rosa M Polan", "Emma L Barber"],
+      "citation": "Obstet Gynecol. 2021;138(6):878-883.",
+      "pmid": "34736273",
+      "pmcid": "PMC8602770",
+      "doi": "10.1097/AOG.0000000000004599",
+      "access_level": "Full author manuscript including Methods, Results, Discussion and Table 1 retrieved through public NCBI PMC EFetch XML. Free full text; Europe PMC does not mark an open-access license.",
+      "sources": [
+        {"url": "https://pubmed.ncbi.nlm.nih.gov/34736273/", "locator": "Abstract"},
+        {"url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8602770/", "locator": "Methods #S6; Results #S7; Discussion #S8; Table 1 #T1"},
+        {"url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=pmc&id=8602770", "locator": "article/body/sec[@id='S6' or @id='S7' or @id='S8']; table-wrap[@id='T1']"}
+      ],
+      "payer_year": {"operative_time_data": "ACS NSQIP 2015-2018; not a Medicare-only claims cohort; payer and entitlement strata not reported", "rvu_years": [1997, 2015], "compensation_rates": "SullivanCotter 2018 specialty median dollars/RVU versus McGraw-Hill 1994 specialty compensation; not Medicare fee-schedule conversion factors"},
+      "unit": "Procedure codes with observed registry operative times; modeled specialty compensation",
+      "sample": {"total_cases": 12120, "male_specific_cases": 6217, "female_specific_cases": 5903, "pairs": 12, "male_cpt_codes": 13, "female_cpt_codes": 12, "case_count_per_code_range": [2, 3184]},
+      "comparator": {"construction": "12 of 24 pairs in earlier research, selected for anatomic/technical similarity and availability in NSQIP; minor procedures absent. Simple and complex scrotoplasty pooled against perineoplasty.", "exclusion": "Cases with other or concurrent CPT codes excluded", "time_measure": "Observed median intraoperative time per CPT; perioperative and anesthesia time excluded", "normalization": "RVU divided by CPT median operative minutes times 60; then multiplied by specialty dollars/RVU to model compensation/hour", "aggregation": "Overall comparisons weighted by case volume", "complexity": "Technical/anatomic matching; no reported multivariable case-mix/complexity adjustment", "locator": "Methods #S6, paragraphs 2-4"},
+      "results": [
+        {"outcome": "median assigned RVU", "female": 7.5, "female_iqr": [7.5, 23.4], "male": 25.2, "male_iqr": [21.4, 25.2], "p": "<0.001", "locator": "Results #S7, paragraph 2"},
+        {"outcome": "median operative minutes", "female": 57, "female_iqr": [25, 125], "male": 136, "male_iqr": [98, 186], "male_minus_female_minutes": 79, "p": "<0.001", "locator": "Results #S7, paragraph 3"},
+        {"outcome": "median RVU per operative hour", "female": 10.6, "female_iqr": [7.2, 16.2], "male": 9.7, "male_iqr": [7.4, 12.8], "p": "<0.001", "direction": "Female higher", "locator": "Results #S7, paragraph 4"},
+        {"outcome": "modeled median USD per operative hour", "female": 555, "female_iqr": [377, 843], "male": 599, "male_iqr": [457, 790], "p": "<0.001", "direction": "Male higher", "locator": "Results #S7, paragraph 4", "interpretation": "Specialty compensation model, not observed Medicare reimbursement"},
+        {"outcome": "male-higher assigned-RVU pairs", "count": 6, "denominator": 12, "percent": 50, "historical_percent_1997": 75, "locator": "Discussion #S8, paragraph 1"},
+        {"outcome": "reported per-procedure RVU change, 1997-2015", "female_percent": 26, "male_percent": 13, "locator": "Results #S7, paragraph 5"},
+        {"outcome": "specialty compensation USD per RVU, historical to contemporary", "obgyn": [44.5, 52.02], "urology": [67.3, 61.65], "obgyn_reported_change_percent": 14, "urology_reported_change_percent": -8, "locator": "Methods #S6 paragraph 3; Results #S7 paragraph 5", "arithmetic_caution": "Authors report 14% for OBGYN; conventional baseline-relative change from 44.50 to 52.02 is about 16.9%. Preserve the raw rates and flag rather than silently endorsing the percentage."}
+      ],
+      "uncertainty": "IQRs are distribution summaries, not confidence intervals. No confidence interval for the between-group difference is reported in the extracted results.",
+      "author_reported_limitations": ["Concurrent/other CPT exclusions omit routinely combined operations.", "Voluntary NSQIP major-surgery sample may not generalize to all US patients.", "Only half the earlier 24 pairs were available; several selected procedures are oncologic.", "Global-period fees and perioperative work not accounted for."],
+      "reviewer_concerns_not_formal_risk_of_bias": ["Code-specific case counts range from 2 to 3184; sparse procedures have unstable time summaries and aggregate results reflect case mix.", "Time normalization alone does not standardize intensity, risk, full episode work or patient complexity.", "Different specialty compensation multipliers mechanically affect the modeled dollar comparison; physician sex/gender is not analyzed.", "Patient gender identity and Medicare age/entitlement strata are not established.", "Some published table arithmetic differs from the stated formula; exact source cells and a separate arithmetic check are retained in L-P03_table1.json."],
+      "proposed_status": "Retain; full-text extraction advanced in this session. Classify as service valuation with registry time data and modeled specialty compensation, not cisgender patient disparity or physician-gender outcome evidence."
+    }
+  ],
+  "synthesis": {
+    "pooling": "Do not pool the three headline contrasts: pair definitions, time denominators, year and compensation constructs differ.",
+    "supported": "Results vary with the selected codes and metric. L-P02 is null; L-P03 favors female-specific procedures on RVU/hour while favoring male-specific procedures on modeled specialty compensation/hour. L-P01's broader anatomical comparison reports male-higher valuation.",
+    "not_supported": "No causal attribution, access effect, national patient spending disparity, physician-gender payment effect or universal valuation pattern is established by these three studies.",
+    "next_checks": ["Obtain L-P01 and L-P02 peer-reviewed full texts without bypassing access controls.", "Audit pair-level comparability and overlap before any quantitative synthesis.", "Resolve L-P02 count discrepancy and obtain numerical confidence intervals.", "Clarify L-P01 historical subset, time adjustment and exact Medicare pricing inputs.", "Preserve L-P03 raw rates and verify percentage/table arithmetic before reuse."]
+  }
+}

@@ -83,6 +83,21 @@
     },
     "G12": {
       "comparison": "Sperm versus oocyte preservation for infertility or prevention of treatment-related infertility, including cancer care."
+    },
+    "G04": {
+      "study_ids": [
+        "L-G04",
+        "L-G05",
+        "L-R03",
+        "L-R04"
+      ]
+    },
+    "G05": {
+      "study_ids": [
+        "L-G04",
+        "L-G05",
+        "L-R03"
+      ]
     }
   },
   "analysis_subject_rule": "Code patient sex/gender and physician sex/gender separately for every study, with the unit of analysis and comparison axis. Keep patient care/access, service/anatomy valuation or coverage, physician sex/gender and general patient background distinct. These categories do not replace clinical-basis classification or eligibility screening.",
