@@ -38,3 +38,6 @@ Three clarity recommendations were sent to the manuscript author and confirmed i
 3. L-T01's exclusion of low-income subsidy beneficiaries is stated.
 
 No remaining material discrepancy was identified in this bounded intervention-section check. This audit did not reappraise all other manuscript evidence or resolve the published-source inconsistencies already recorded in `intervention_search_log.md`. No manuscript or canonical JSON was edited by this task.
+# Standalone eligibility figure
+
+The [inclusion and exclusion figure](../../../outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/eligibility_figure/) adds PDF, editable SVG, 300-dpi PNG and a publication caption for future use. It distinguishes adopted scope from proposed operational screening, unresolved eligibility from exclusions, and patient evidence from service valuation and context. It introduces no study counts or scope amendment. Regenerate with `build_eligibility_figure.py` using the bundled Python runtime; this builder uses ReportLab and Poppler. Source/output hashes are in `eligibility_figure_manifest.json`.

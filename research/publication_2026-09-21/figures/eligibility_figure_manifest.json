@@ -1,0 +1,24 @@
+{
+  "prepared_on": "2026-09-21",
+  "status": "Publication figure draft; not a final eligibility decision or completed PRISMA flow",
+  "dimensions_inches": [
+    7.2,
+    10.3
+  ],
+  "png_dpi": 300,
+  "svg_text_editable": true,
+  "pdf_vector_with_embedded_fonts": true,
+  "scope_amendment_made": false,
+  "new_evidence_added": false,
+  "selection_counts_displayed": false,
+  "source_sha256": {
+    "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+    "research/submission/Medicare_systematic_review_protocol.md": "7d9da2ab7ddfc742962a9dc17010a3e27fbfabdddb84ae604e259eec5ca10e30"
+  },
+  "outputs": {
+    "outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/eligibility_figure/Medicare_inclusion_exclusion_criteria_2026-09-21.svg": "b251c6c342ceab785d0652272d848b8354f1427e2c4d9f2e44bd31f26b64f31d",
+    "outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/eligibility_figure/Medicare_inclusion_exclusion_criteria_2026-09-21.pdf": "cfdf99e5abc1535cc12ffec68c7e0fe0d34b886f121f067b867356d8004944c6",
+    "outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/eligibility_figure/Medicare_inclusion_exclusion_criteria_2026-09-21.png": "d28ecc92aa50f011d56df511c72fa2a3b8d35615492eb71b3e0490b6034fd83a"
+  },
+  "verification": "All text lies within the page and associated panels; visual PDF/PNG inspection also required."
+}

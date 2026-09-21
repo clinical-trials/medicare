@@ -1,0 +1,64 @@
+{
+  "review_date": "2026-09-21",
+  "reviewer": "AI subagent /root/repository_contents_check",
+  "review_type": "Visual inspection and consistency check against adopted scope and draft protocol; not human eligibility adjudication or scientific peer review.",
+  "image": "outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/eligibility_figure/Medicare_inclusion_exclusion_criteria_2026-09-21.png",
+  "png_sha256": "d28ecc92aa50f011d56df511c72fa2a3b8d35615492eb71b3e0490b6034fd83a",
+  "dimensions_px": [
+    2160,
+    3090
+  ],
+  "inspection_method": "Complete PNG viewed using view_image(detail=original); caption.md read in full.",
+  "caption": "outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/eligibility_figure/caption.md",
+  "caption_sha256": "2ea6823b442089ab2ffc48f5ef61880d434c2b9fbaf573fafebe32fb9ecd72bb",
+  "source_basis": [
+    "REVIEW_SCOPE.md",
+    "research/submission/Medicare_systematic_review_protocol.md sections 2, 3 and 6",
+    "research/publication_2026-09-21/figures/criteria_figure_review.md"
+  ],
+  "status": "pass",
+  "material_issues": [],
+  "checks": [
+    {
+      "item": "Typography and layout",
+      "result": "Readable at original resolution; no observed overlap, clipping, missing glyphs or crowded text collisions, including the context panel."
+    },
+    {
+      "item": "Adopted versus proposed status",
+      "result": "Date/status line and panel labels distinguish adopted scope from proposed empirical screening criteria; final eligibility is explicitly pending."
+    },
+    {
+      "item": "Identity not reported",
+      "result": "Separate awaiting-information panel states no automatic exclusion and prohibits inferring cisgender identity."
+    },
+    {
+      "item": "Scope exclusions and mixed reports",
+      "result": "Exclusions match adopted population/indication scope. Figure and caption preserve separately extractable eligible findings and avoid blanket exclusion of all results in mixed reports."
+    },
+    {
+      "item": "Service/code and patient identity",
+      "result": "Identity-assessment exemption is qualified as code-only findings; caption states that any patient-level component is assessed separately."
+    },
+    {
+      "item": "Evidence streams",
+      "result": "Empirical service valuation is distinct from patient evidence. Descriptive policy/code sources, clinical and other-payer evidence, physician-gender research and general implementation context are separated. Intervention context is qualified by absence of the required equity or need question."
+    },
+    {
+      "item": "Clinical need and comparators",
+      "result": "Opposite-sex comparators are not mandatory and clinical need is assessed independently of coverage. Shared, reproductive-anatomy, reproductive-physiology and mixed/site-dependent categories remain distinct."
+    },
+    {
+      "item": "Completion/count claims",
+      "result": "No selection counts, final eligibility decisions, new scope amendment or completed PRISMA review is asserted."
+    },
+    {
+      "item": "Caption",
+      "result": "Caption is consistent with the figure and source criteria; it identifies research-scope decisions and pending reconciliation before publication."
+    }
+  ],
+  "limits": [
+    "Link destinations were not tested by this figure inspection.",
+    "No publication submission, protocol finalization or study eligibility determination is implied.",
+    "Small journal-column readability was not tested; the supplied export is a full-page figure."
+  ]
+}
