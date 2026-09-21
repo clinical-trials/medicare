@@ -1,0 +1,143 @@
+# Sex related differences in Medicare care and health IT opportunities
+
+Evidence synthesis and methods for a systematic review in progress
+
+September 21 2026
+
+## Abstract
+
+**Objectives:** To examine sex-related differences in Medicare coverage, service valuation, patient costs and access, and identify questions that researchers and health IT developers can test.
+
+**Methods:** This synthesis combines a selected register with PubMed development searches and a separate policy and implementation assessment. Searches identified 59,147 unique records after exact-PMID deduplication. Independent human screening, full eligibility adjudication and formal appraisal remain incomplete. Patient sex, physician gender, clinical anatomy, payment and utilization were analyzed as distinct concepts.
+
+**Results:** The working register contains 38 candidate or contextual records, not 38 systematically included studies. Selected Medicare studies associate female sex with cost-related nonadherence, but estimates vary by outcome and population. Procedure-valuation findings depend on matching and payment measures. Bone-care studies identify delivery gaps affecting women and men. Intervention evidence supports testing some outreach and affordability approaches, while null benefit-tool findings challenge assumptions that information alone improves access. Six opportunity domains are proposed without profitability rankings.
+
+**Conclusions:** Health IT opportunities should be selected by demonstrable patient need, intervention benefit, equitable reach and feasible implementation. Coverage gaps or payment differences alone do not establish bias, product effectiveness or commercial viability. This manuscript requires completion of the systematic-review procedures before submission as a completed review.
+
+## Key takeaways
+
+- Medicare coverage, clinician payment, patient cost and receipt of appropriate care are different outcomes; a product must identify which mechanism it can change.
+- Evidence about an intervention's average benefit does not establish that it reduces a sex-related inequity. Equity effects require explicit comparisons and adequate measurement.
+- Medication affordability, bone-care coordination, authorization workflows, valuation research, lymphedema fulfillment and kidney-care coordination warrant different kinds of validation before investment or deployment.
+
+## Introduction
+
+Differences in health care for women and men can arise from clinical need, reproductive anatomy or physiology, social circumstances, professional practice, and financing. The Lancet review by Mauvais-Jarvis and colleagues provides an organizing account of these biological and social pathways, but it is not an analysis of Medicare reimbursement. Its framework supports a broad inquiry beyond reproductive medicine, including cardiovascular, renal, respiratory, metabolic, musculoskeletal and mental health. Each underlying empirical claim requires separate assessment. [L-B01; L-B01-E1]
+
+Medicare offers a national financing benchmark for care in later life and for younger people with qualifying disabilities or conditions. It does not finance most US health care, and spending is not a measure of clinical need. Cross-sectional age-specific expenditure data cannot establish a lifetime share of care. This review therefore distinguishes utilization, financial expenditure and unmet need, while retaining younger beneficiaries and entitlement categories. Original Medicare, Medicare Advantage and Part D can expose otherwise similar patients to different benefit arrangements and delivery systems. [P-041; P-042; P-043]
+
+For researchers and developers, the practical question is not simply whether reimbursement differs. It is whether an identifiable financing or delivery mechanism prevents beneficial care, whether an intervention can change that mechanism, and whether improvement reaches patients equitably. A software company can streamline a transaction without improving health; an intervention can improve average access while widening disparities. Conversely, a clinically worthwhile service need not have a higher-paying counterpart for another sex.
+
+This manuscript develops an evidence-based research agenda from the available register and newly retrieved implementation studies. It makes the remaining systematic-review work explicit. It neither estimates the national prevalence of reimbursement bias nor identifies a proven commercial market. The opportunity assessment is an interpretation of selected evidence, developed after that evidence was inspected.
+
+## Methods
+
+### Design and review questions
+
+The intended study is a systematic review of empirical Medicare coverage, service valuation, patient spending and access outcomes, with a separately identified translational assessment. The current report is a preliminary evidence synthesis from a systematic review in progress. PRISMA 2020, PRISMA-S and PRISMA-Equity guide the planned reporting; PRESS informs independent search review. These are reporting and methodological frameworks, not certificates of study quality or acceptance by a journal. [M-001; M-004; M-005; M-006]
+
+Three questions organize the empirical review. First, among patients with comparable clinical need, how do coverage, costs and receipt of appropriate care differ by recorded sex or gender? Second, how are sex-associated services, including shared-system and reproductive care, valued relative to defensible clinical and resource comparators? Third, what evidence links a financing or administrative mechanism to a care gap? A fourth, explicitly separate question asks which interventions might address an established gap and what validation would be required. Physician-gender payment studies provide context and are not pooled with patient comparisons.
+
+### Population and clinical classification
+
+The investigator's existing scope concerns cisgender women and men and excludes transgender-focused patient studies and gender-affirming-care indications. Administrative male/female coding does not establish gender identity. Under the current rule, studies with unreported identity remain provisional candidates, outside confirmed-cisgender primary estimates. No individual is classified through anatomy, diagnosis or medicine use. Mixed-payer or mixed-population studies require separately extractable eligible results; their presence alone does not establish Medicare-specific effectiveness.
+
+Care is classified as shared systems or functions, female reproductive anatomy, male reproductive anatomy, female reproductive physiology, male reproductive physiology, or mixed/site-dependent services. Bone, breast, lymphatic and renal care can concern shared systems even when disease burden or eligibility differs by sex. Menopause is a physiological context; a hormone name alone does not establish the anatomical category. Sex-defined policy eligibility is recorded separately from anatomy and clinical need. Bundled or site-dependent procedures require component-level review.
+
+Clinical need is defined independently of reimbursement rules. Otherwise, people denied a benefit could disappear from the denominator used to assess inequity. Lower utilization is not automatically undertreatment; higher utilization is not automatically better care. Appropriate comparisons require indication, contraindications, patient preferences, alternatives, follow-up and outcomes.
+
+### Searches and record management
+
+PubMed development searches were executed through NCBI E-utilities on September 21, 2026, before independent PRESS review. The corrected Medicare/payment/access core returned 43,904 records and the supplementary sex/gender valuation/cost query returned 16,866. Removal of 2,084 overlapping PMID hits produced 58,686 unique records. The initial core used an unrecognized formulary MeSH heading; correction to Formularies as Topic added 60 records and removed none. Original queries and exports were preserved.
+
+Two later, targeted development extensions addressed a missed bone-testing source and the new health IT purpose. They returned 494 bone-care records and 262 prescription-information records. Of these 756 records, 295 overlapped the baseline and 461 were additional, yielding 59,147 unique PMIDs. The previously missed bone-testing paper was retrieved by the extension. This diagnostic repair does not establish comprehensive recall. No language, age, design or full-text availability filters were imposed. Technical date partitions reconciled ESearch output limits against unrestricted counts.
+
+Raw responses, submitted queries, translations, warnings, timestamps, checksums and PMID memberships are archived. All combined records have bibliographic metadata; 47,152 contain abstracts and 11,995 do not. Exact-PMID deduplication is complete for these queries. Computational checks flagged 17 shared-DOI groups and 303 normalized-title groups for inspection; these potentially overlapping categories were not automatically merged. Distinct reports, corrections and overlapping cohorts must be adjudicated separately.
+
+A transparent keyword queue orders records for review and retains every record. It is not a validated classifier or an exclusion rule. The prior 50-record calibration set remains available with blank human decision fields. The 38-record working register was assembled through earlier selected retrieval and cannot be treated as the output of screening the 59,147-record corpus. Targeted intervention retrieval and policy searches are separate source routes requiring reconciliation. Searches of the other planned databases and independent PRESS review remain pending.
+
+### Selection extraction and appraisal
+
+Two human reviewers are planned to independently screen records, reconcile disagreements and document reasons for full-text exclusion. They will independently extract critical outcome data and make design-specific appraisal judgments before reconciliation. No such completed dual review is claimed. Original studies, companion reports, background reviews, clinical efficacy evidence and physician-gender context will retain distinct roles. Citations from a review will not become included studies merely because they were cited. Scientific metadata are verified separately from access, eligibility and appraisal, with numeric PMIDs retained whenever available.
+
+Extraction records include study/report identifiers, design, payer, entitlement, period, population, sex/gender measurement, clinical need, exposure, comparator, outcome, denominator, missingness, effect estimate, uncertainty, adjustment variables, funding and source location. Full-text availability varies and is disclosed. Newly reviewed interventions are assessed as implementation context unless they meet the primary Medicare-equity criteria. Reports sharing a trial are linked to prevent double counting.
+
+Planned appraisal uses design- and result-appropriate instruments, including RoB 2 for randomized intervention effects and the revised JBI instrument for analytical cross-sectional associations. Exact versions and interpretation rules will be documented and piloted before appraisal. Observational disparities require attention to selection, clinical-need measurement, confounding and possible mediation; other designs require appropriate instruments. Policy and code comparisons require checks of authority, currency, matching, resource definitions and reproducibility. Provisional AI extraction notes do not constitute independent human appraisal or a numeric quality score. [M-010; M-011]
+
+### Synthesis and opportunity assessment
+
+Coverage, allowed payments, work RVUs, total RVUs, physician receipts, patient spending and realized access are synthesized separately. Historical observations are aligned to their policy period. Within-condition patient contrasts are separated from cross-procedure comparisons and assessments within a sex-linked indication. Null, contradictory and imprecise findings receive the same interpretive attention as favorable results. No meta-analysis is performed because compatible, independently adjudicated outcome groups have not been established. SWiM will inform suitable non-meta-analytic intervention syntheses; GRADE or CERQual will be applied only to appropriate outcome-specific bodies of evidence, not to individual papers as a score. [M-002; M-007; M-008]
+
+The translational assessment separates evidence of a problem, evidence that an intervention helps, and evidence that implementation or purchasing is feasible. For each domain it records the intended patient, clinical mechanism, workflow, prospective user and buyer, data needs, policy status, alternatives, measurable benefit, harms and validation design. Proposed buyers and business models are hypotheses. No market-size estimate, revenue forecast, composite opportunity score or profitability rank is asserted. Findings about a mandated API do not establish payment for software. These assessment rules were developed after the exploratory register and the investigator's entrepreneurship request; they are not prospectively registered analyses.
+
+## Results
+
+### Evidence available and its boundaries
+
+The active register comprises 38 candidate or contextual records spanning patient care, service valuation, physician gender and broad clinical frameworks. Clinical efficacy or other-payer studies within that register support background reasoning; they do not become eligible Medicare-equity studies through inclusion in the register. Eight earlier scope-excluded records and the Lancet correction remain in the audit trail. No final included-study count or completed PRISMA selection flow is available. Table 1 summarizes selected examples and their inference limits. Figure 1 presents the actual retrieval state and keeps selected evidence separate from the unscreened corpus.
+
+### Medication affordability and formulation-specific access
+
+In the 2016 Medicare Current Beneficiary Survey, the adjusted female-to-male odds ratio for any cost-related medication nonadherence was 1.66 (95% CI, 1.31-2.10) below age 65 and 1.21 (1.04-1.41) at age 65 or older. Reported prevalence was 40.5% versus 28.5% in the younger stratum and 15.7% versus 12.8% in the older stratum. A selected Chicago cohort instead produced an imprecise adjusted persistent-nonadherence odds ratio of 1.36 (0.95-1.95), while its transient-nonadherence estimate was 0.81 (0.62-1.07). Annual occurrence and longitudinal persistence are different outcomes. Neither study establishes current coverage discrimination or a causal software solution. [L-R01; L-R02]
+
+Vaginal-estrogen prescribing data demonstrate Medicare Part D use and spending for selected products, contradicting a blanket claim that Medicare never reimburses estradiol. Spending per treated beneficiary is not the patient's out-of-pocket burden. Clinical studies also caution against assuming interchangeable effects across hormonal formulations, outcomes and populations. A trial of a particular vaginal estradiol regimen found no greater improvement in its principal symptom outcome than dual placebo, while a broader review found possible benefits for selected symptoms with generally limited certainty. These clinical results require proposed decision support to preserve indication and formulation differences; they do not establish the effectiveness of software. [L-D01; L-D03; L-D04]
+
+A separate exploratory CMS formulary analysis in this project found at least one matched generic oral estradiol and vaginal-cream option in all 5,499 analyzed public plan segments in the August 2026 release. This is an original descriptive companion analysis, not a pooled review result. Its denominator is plan segments, not enrollment, and a listing does not establish suitability, affordability or a paid claim. Erectile-dysfunction-use exclusions are indication-specific; sildenafil used for another covered indication is not evidence of universal Viagra coverage. The original motivating comparison therefore needs replacement with precise questions about formulation, indication, benefit rules and patient costs. [P-002; P-003; P-026; P-034; P-037; P-038]
+
+### Service valuation depends on the comparison
+
+A study of 55 selected procedure pairs reported higher work RVUs for male-associated services on average, but another comparison reported no statistically significant aggregate difference in work RVUs or RVUs per minute. The latter's journal abstract and companion summary disagree on pair counts, and that discrepancy remains unresolved. A time-based analysis found higher median work RVUs per hour for female-specific procedure labels but lower modeled dollars per hour when specialty compensation multipliers were applied. The multipliers were not Medicare conversion factors. [L-P01; L-P02; L-P03]
+
+These findings are not interchangeable estimates of a single national effect. Pair selection, global periods, postoperative work, valuation year, surgeon work, setting and specialty compensation can change the estimand. A null comparison does not establish equivalence. A difference in RVUs does not establish patient denial, and clinician payment totals do not establish unequal rates for identical work. Procedure-valuation research is therefore an opportunity to improve comparability and measurement before making claims about correction of bias.
+
+### Bone care and shared systems
+
+Historical Medicare evidence reports substantially lower DXA use in men than women. In a newer Asian American Medicare subgroup, crude DXA receipt was 19.8% for women and 5.0% for men, but study-entry age cutoffs differed: women were at least 65 and men at least 70. The adjusted result described in the abstract concerned race, not a sex effect. A separate women-only Medicare Advantage cohort reported two-year bone-measurement rates of 26.8% at ages 65-79 and 12.9% at age 80 or older. It cannot estimate a male-female disparity. These findings concern shared bone physiology, differing need and care delivery; they do not prove that Medicare coverage caused the gaps. [L-G04; L-R03; L-R04]
+
+An outreach evaluation among men with a fragility fracture reported BMD testing of 10.7% versus 4.9% and osteoporosis-treatment initiation of 4.0% versus 2.5%. The analysis retained 7,842 of 10,934 randomized participants, excluding 28.3% after assignment. This weakens inference from randomization. The intervention combined patient and physician communication rather than isolating a software component. Improved testing or initiation is a process benefit; the study does not establish a reduction in fractures or a sex-gap-closing effect. It offers a concrete pathway for a prospective coordination trial, with eligibility, completion and downstream clinical outcomes measured separately. [L-G05]
+
+### Physician gender and other contextual streams
+
+Studies of ophthalmologists, cardiologists and surgeons describe differences in annual Medicare receipts by physician gender. Their units are clinicians or services, not patient-sex access. The surgeon study also found an unadjusted colorectal payment-per-service comparison that was not statistically significant. These results belong in a distinct workforce and practice-pattern stream and should not be used to claim that women patients receive less covered care. [L-C01; L-C02; L-C03]
+
+Lymphedema cost and insurer-policy studies, and qualitative kidney-care interviews, identify additional questions about fulfillment and coordination. Their Medicare directness and policy timing are limited. Historical lymphedema findings predate the 2024 Medicare compression-treatment-item benefit. Kidney-care interviews describe clinician perceptions rather than measured patient or Medicare outcomes. These domains require contemporary needs assessment before claims about product benefit. [L-A01; L-A02; L-Q01]
+
+### Evidence that proposed interventions help
+
+A randomized invitation to a bundled COPD affordability and medication-management program involved 19,113 Medicare Advantage beneficiaries; low-income subsidy beneficiaries were excluded. The intention-to-treat effect on proportion of days covered was 3.8 percentage points (95% CI, 3.1-4.5). This refill-based measure is not inhaler use or clinical control. Estimates for COPD exacerbations and total spending were imprecise and did not demonstrate improvement. The bundled program does not isolate the contribution of information technology. [L-T01]
+
+A Medicare Advantage real-time benefit-tool implementation study found no significant overall change in patient prescription spending: the difference-in-differences estimate was +1.2% (95% CI, -0.7 to 3.0). Monthly fill and total prescription spending estimates were also compatible with no change. In a separate, post hoc cluster-trial analysis, the Medicare-order fill difference was +0.5 percentage points (-2.4 to 3.4) overall. Its highest-cost drug-class subgroup showed +10.5 points (1.9-19.2), but the subgroup was exploratory and its Medicare denominator was not reported. The analysis shares a trial with an earlier cost-estimate report; these are not independent trials. [L-T02; L-T03; L-T03-P1]
+
+No reviewed intervention establishes closure of a patient-sex disparity. These findings motivate testing a targeted, supported workflow against existing tools, with appropriate clinical outcomes and prespecified equity analyses. They do not justify assuming that price visibility alone creates benefit.
+
+### Translating the evidence into testable opportunities
+
+The intervention evidence and current policy assessment are reported in the accompanying opportunity records and Table 2. Medication-affordability and post-fracture coordination have concrete intervention precedents within the selected literature. They warrant prospective testing of specified workflows, rather than claims that a new digital product has already been validated. Authorization, equipment fulfillment, kidney-care coordination and valuation research have different evidence gaps and should not inherit the effectiveness of an intervention in another domain.
+
+A useful product hypothesis must name the clinical action, the impediment it addresses and the outcome that would improve. A benefit tool might change prescribing cost; a coordination service might improve appropriate testing; a research platform might reveal coding or matching errors. Faster processing, more covered claims or more billed services can be useful operational measures, but none alone establishes clinical benefit. Commercial assessment must separately verify who bears the problem, who can purchase a solution and whether value persists after implementation costs and existing alternatives are considered.
+
+Current policy creates implementation opportunities without establishing product effectiveness. CMS-0057-F finalized non-drug prior-authorization requirements for specified payers, including Medicare Advantage, with operational provisions generally beginning in 2026 and API requirements generally beginning in 2027. The April 2026 CMS-0062-P drug expansion remains proposed as of this assessment. [P-046; P-048] Part D’s 2026 $2,100 out-of-pocket threshold applies to covered drugs; it is distinct from premiums, noncovered purchases and monthly cash flow. The Medicare Prescription Payment Plan spreads payments across the year without reducing total drug costs. [P-051; P-052] Likewise, coverage of clinical services or equipment does not establish separate payment for software; lymphedema furnishing-related education is bundled in supplier payment. [P-054] Product evaluation should therefore measure appropriate care and patient burden, while separately testing purchasing demand and implementation cost.
+
+## Discussion
+
+### Implications for researchers and developers
+
+The strongest conclusion is methodological and practical: opportunities should be selected around a demonstrated mechanism of unmet clinical need. A broad allegation of gender bias is an inadequate product specification. It can obscure problems affecting men, confuse reproductive anatomy with shared disease, and encourage interventions that improve billing without improving care. Conversely, the absence of a matched male-female price difference does not rule out an inequity in diagnosis, referral, affordability or follow-through.
+
+Within the selected evidence, medication-affordability workflows and post-fracture coordination are defensible candidates for pilot design because intervention precedents exist and measurable pathways can be specified. This is an inference about research readiness, not a ranking of expected health benefit, investment return or national market size. The intervention, data source, staffing, setting and patient population must resemble the proposed deployment closely enough to support transfer. A positive average result in Medicare Advantage may not generalize to Original Medicare or to beneficiaries excluded from the study.
+
+The opportunity framework in Figure 2 requires evidence about need, mechanism, intervention, benefit and equity, and implementation. A project should define a patient-relevant primary outcome, a clinically appropriate denominator and potential harms before selecting a technology. Developers should test against usual care and credible existing services. Equity analysis should estimate differences in absolute benefit and reach across relevant populations, with interaction estimates where justified. Separate within-group significance tests do not establish a between-group difference. Digital access, language, disability and caregiver involvement may affect reach and should be measured rather than assumed.
+
+Commercial validation is distinct work. A coverage code may pay for clinical labor or equipment without paying for software. An API requirement may enable interoperability without creating a purchaser or a viable margin. Proposed business models therefore need documented procurement interviews, implementation costing, data-access agreements and comparative value assessment. None has been completed in this project. Patient outcomes and equity should remain explicit success criteria even when an institution's initial purchasing rationale is administrative efficiency.
+
+### Limitations and completion requirements
+
+The selected register and targeted intervention retrieval are not a systematically screened sample of all relevant evidence. One database's development searches, even with broad coverage and retained exports, cannot establish completeness. Keyword ordering can misclassify relevance; every tier is retained. Full-text access varies, cohort overlap remains incompletely adjudicated, and formal independent appraisal is unfinished. The present scope also leaves identity-unreported patient studies outside confirmed-cisgender primary estimates. That limitation cannot be resolved by relabeling recorded sex.
+
+Heterogeneous outcomes, policy periods and comparison groups preclude a pooled estimate here. Historical use or spending may not describe current benefit design. Adjusting for income, service mix or utilization can remove part of an inequity pathway as well as reduce confounding; a defensible causal question must precede covariate selection. Selected intervention studies may improve process measures without demonstrating better health or reduced inequity. The opportunity domains are hypotheses derived after evidence inspection and have not undergone comparative commercial validation.
+
+Before submission as a completed systematic review, the investigators must finalize the protocol amendments, complete independent search review and remaining source searches, adjudicate reports and eligibility, verify extraction, perform design-specific appraisal, and reconcile the selection flow. Outcome-specific certainty assessments should follow the actual evidence rather than a predetermined narrative. Authorship, funding, conflicts, contributions and final approval must be supplied by the responsible investigators. PRISMA reporting and polished presentation cannot substitute for these steps.
+
+## Conclusion
+
+Medicare equity research can support useful health IT development when it connects clinically justified need to a specific financing or delivery mechanism and a testable intervention. The current evidence supports carefully designed studies of affordability, coordination and administrative processes, while preserving uncertainty and opposing findings. It does not yet establish a completed systematic review, a universal sex-based reimbursement penalty, or a ranked set of profitable ventures.

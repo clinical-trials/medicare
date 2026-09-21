@@ -1,0 +1,691 @@
+{
+  "version": "1.0",
+  "created_on": "2026-09-21",
+  "as_of": "2026-09-21",
+  "status": "Evidence-linked research and product hypotheses for a manuscript discussion; not findings of a completed systematic review or validated business opportunities",
+  "scope_source": "REVIEW_SCOPE.md",
+  "selection": "Six purposively selected, unranked domains grounded in the current register and separately reviewed intervention-context studies. This is not a census of unmet need or a systematic market scan.",
+  "ranking": null,
+  "market_validation_performed": false,
+  "investment_recommendation": false,
+  "clinical_inventory_modified": false,
+  "shared_guardrails": [
+    "Patient benefit and clinical appropriateness precede revenue or administrative throughput.",
+    "No proposed application has demonstrated efficacy merely because an underlying service is covered.",
+    "Unknown gender identity remains unknown; patient and physician sex/gender evidence are not interchangeable.",
+    "Use indication-specific and age/entitlement strata; retain under-65 beneficiaries and do not pool unrelated clinical outcomes.",
+    "No TAM, revenue, profit, reimbursement or adoption assumptions are verified here.",
+    "Trial extensions/post hoc analyses are linked to the parent study and are not independent trials.",
+    "GRADE or formal risk-of-bias ratings are not assigned by this opportunity assessment."
+  ],
+  "evidence_provenance": "Existing study identities and findings were read from research/scoped_evidence.json and research/bibliography_metadata.json. L-P01–L-P03 have separate 2026-09-21 extraction notes. L-T01–L-T03 are proposed stable IDs from the parallel intervention-context extraction; their status is contextual, not a completed eligibility determination.",
+  "policy_sources_file": "opportunity_policy_sources.json",
+  "domains": [
+    {
+      "id": "O-01",
+      "domain": "Prescription affordability and benefit navigation",
+      "problem": "Patients may be unable to obtain a clinician-selected medication because its actual out-of-pocket cost, coverage requirements or feasible alternatives are unclear at prescribing. Displaying a price alone may not resolve that barrier.",
+      "patient_and_indication": "Part D beneficiaries with a documented medication need and a reported affordability barrier; evaluate COPD maintenance therapy and GSM prescriptions separately. Retain younger disabled beneficiaries and older age strata. A medication's indication, formulation, route and safety profile determine whether an alternative is suitable.",
+      "existing_inventory_ids": [
+        "D01",
+        "D02",
+        "D03",
+        "D04",
+        "D05",
+        "D06",
+        "D07",
+        "D08",
+        "D12"
+      ],
+      "clinical_basis": "GSM involving vaginal anatomy and menopausal physiology remain distinct from shared respiratory-system COPD. Hormone prescriptions are not interchangeable by name or price.",
+      "evidence": [
+        {
+          "study_id": "L-D01",
+          "pmid": "38527966",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38527966/",
+          "role": "Historical Medicare descriptive signal",
+          "summary": "Vaginal-estrogen spending per treated beneficiary increased between 2016 and 2020.",
+          "limits": "Spending is not beneficiary out-of-pocket cost; claims trends do not show cost-caused nonuse or current inequity.",
+          "title": "Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries.",
+          "doi": "10.1097/spv.0000000000001504",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-D03",
+          "pmid": "29554173",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/29554173/",
+          "role": "Clinical counterevidence",
+          "summary": "A 12-week trial found no superior most-bothersome-symptom reduction with the studied vaginal estradiol tablet or moisturizer versus dual placebo.",
+          "limits": "Do not assume that increasing dispensing of any product creates patient benefit.",
+          "title": "Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial.",
+          "doi": "10.1001/jamainternmed.2018.0116",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-D04",
+          "pmid": "39250810",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39250810/",
+          "role": "Clinical background review",
+          "summary": "Some GSM treatments may improve selected symptoms; certainty and long-term evidence were limited.",
+          "limits": "A review is not independent primary reimbursement evidence; choose the clinically appropriate alternative with the patient and clinician.",
+          "title": "Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause : A Systematic Review.",
+          "doi": "10.7326/annals-24-00610",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-T01",
+          "pmid": "39073823",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39073823/",
+          "role": "Randomized invitation to a bundled affordability/adherence program",
+          "summary": "Humana MA COPD program: intention-to-treat proportion of days covered improved 3.8 percentage points (95% CI 3.1–4.5); instrumented program effect was 15.5 points (12.8–18.1).",
+          "limits": "Invitation, uptake and program effects differ; the bundled intervention does not isolate software or prove sex-gap closure. Exacerbation and total-spending estimates were not statistically significant.",
+          "title": "Reduced Cost Sharing and Medication Management Services for COPD: A Randomized Clinical Trial.",
+          "doi": "10.1001/jamainternmed.2024.3499",
+          "metadata_provenance": "Parallel 2026-09-21 intervention-context extraction; Europe PMC source record read directly."
+        },
+        {
+          "study_id": "L-T02",
+          "pmid": "40608336",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/40608336/",
+          "role": "Null implementation evidence",
+          "summary": "MA real-time prescription benefit implementation difference-in-differences: out-of-pocket costs +1.2% (95% CI −0.7 to 3.0), total costs +0.5% (−0.2 to 1.2), monthly fills +0.01 (−0.01 to 0.02).",
+          "limits": "No statistically significant overall effect; observational implementation does not show every targeted use is ineffective.",
+          "title": "Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool.",
+          "doi": "10.1001/jamanetworkopen.2025.19038",
+          "metadata_provenance": "Parallel 2026-09-21 intervention-context extraction; Europe PMC source record read directly."
+        },
+        {
+          "study_id": "L-T03",
+          "pmid": "42599729",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/42599729/",
+          "role": "Exploratory post hoc cluster-trial analysis",
+          "summary": "Mixed-payer overall fills +1.2 percentage points (95% CI -1.3 to 3.7); highest-cost quartile +14.5 points (8.4-20.6). Medicare overall +0.5 points (-2.4 to 3.4), with 55% filled in both groups; Medicare high-cost subgroup +10.5 points (1.9-19.2), exploratory.",
+          "limits": "Post hoc subgroup analysis; only 2.8% of all orders met availability/observation criteria. Medicare high-cost subgroup denominator was not provided in the supplement table. Not proof of sex-gap closure or market size; same NCT04940988 trial as parent PMID 36094537, not independent.",
+          "title": "Real-Time Prescription Benefit Tool Availability and Prescription Medication Fill Rates: A Post Hoc Analysis of a Cluster Randomized Clinical Trial.",
+          "doi": "10.1001/jamahealthforum.2026.2739",
+          "metadata_provenance": "Parallel 2026-09-21 intervention-context extraction; Europe PMC source record read directly.",
+          "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/",
+          "locator": "Main Table 1 and Supplement 2 eTable 6 (supplement PDF page 7), checked by parallel extraction agent.",
+          "linked_parent_report": {
+            "pmid": "36094537",
+            "doi": "10.1001/jamainternmed.2022.3946",
+            "title": "Effects of Real-time Prescription Benefit Recommendations on Patient Out-of-Pocket Costs: A Cluster Randomized Clinical Trial.",
+            "url": "https://pubmed.ncbi.nlm.nih.gov/36094537/",
+            "trial_id": "NCT04940988",
+            "relationship": "Parent cluster trial; do not double count as independent of the post hoc report."
+          }
+        }
+      ],
+      "proposed_intervention": {
+        "type": "Clinician/pharmacist-supported navigation, with an embedded benefit-information module",
+        "workflow": [
+          "Confirm the treatment goal and patient preference before seeking alternatives.",
+          "Retrieve patient-specific benefit and cost information; present total annual exposure and cash-flow estimates separately.",
+          "Route a clinically acceptable lower-cost alternative, coverage-exception request or assistance referral to a qualified clinician/pharmacist.",
+          "Track prescription receipt, patient-reported affordability and symptom/control outcomes; provide telephone assistance when digital access fails."
+        ],
+        "novelty_claim": "None. Compare against existing plan RTBTs, pharmacy services and EHR functions; the proposed added value is closed-loop resolution and evaluation."
+      },
+      "patient_benefit_outcomes": [
+        "Primary: clinically appropriate prescription initiation/continuation and patient-reported unmet medication need.",
+        "Separate actual patient out-of-pocket spending, financial strain and monthly payment burden from plan/total spending.",
+        "Disease-specific symptom/control outcomes and adverse events; evaluate discontinuation of inappropriate treatment as a possible appropriate outcome."
+      ],
+      "users": [
+        "Patients and caregivers with permission",
+        "Pharmacists",
+        "Prescribers and medication-access staff"
+      ],
+      "potential_buyers": [
+        "Health systems",
+        "Part D/MA plan care-management teams",
+        "Pharmacy organizations"
+      ],
+      "data_and_workflow_needs": [
+        "Current enrollment, formulary, strength/route/NDC or RxNorm, pharmacy network and patient-specific benefit data.",
+        "Consented link of orders to fills, out-of-pocket amounts, exceptions and patient-reported reasons for nonuse; include cash purchases when feasible.",
+        "Versioned RTBT/e-prescribing integration, reliable handoff ownership, accessible communication, privacy and audit logs."
+      ],
+      "policy_source_ids": [
+        "P-049",
+        "P-050",
+        "P-051",
+        "P-052",
+        "P-056",
+        "P-057"
+      ],
+      "policy_boundary": "NCPDP RTPB v13 requirements and existing beneficiary tools create technical context. The 2026 $2,100 covered-Part-D threshold does not cap all costs; the Prescription Payment Plan changes timing, not price.",
+      "reimbursement_and_business_model": {
+        "status": "UNVERIFIED",
+        "direct_medicare_software_payment": "Not established",
+        "candidate_model": "Service contract or software subscription to a care organization; any eligible clinical-service billing must be independently verified for the actual service, staff and setting.",
+        "unvalidated": [
+          "Willingness to pay",
+          "Incremental value beyond existing tools",
+          "Integration and support cost",
+          "Patient benefit after 2025–2026 Part D redesign",
+          "Sustainable margins and procurement feasibility"
+        ]
+      },
+      "validation_study": {
+        "design": "Prospectively registered pragmatic cluster trial comparing existing RTBT/usual navigation with RTBT plus staffed closed-loop navigation; specify any cost-sharing assistance as a separate component.",
+        "analysis": "Primary intention-to-treat analysis, with uptake measured separately. Prespecify clinically high-cost strata without relying on a post hoc subgroup; report attrition and missing cash purchases. Stratify recorded sex, indication, age, disability entitlement, dual/LIS status and digital access without claiming identity from recorded sex.",
+        "success_rule": "Improved clinically appropriate access and patient experience without worse clinical control or avoidable adverse events; monetary savings alone are insufficient."
+      },
+      "alternatives_and_risks": [
+        "Existing plan tools, pharmacy counseling and human navigation may achieve the same result at lower cost.",
+        "Outdated estimates or non-equivalent substitutions may harm patients; preserve prescriber review and reasons alternatives are unsuitable.",
+        "Referral or compensation incentives may bias choices; disclosure and an independent clinical comparator are needed.",
+        "Claims adherence is not symptom improvement; installment enrollment alone cannot be called a cost reduction."
+      ],
+      "evidence_gap": "No verified evidence that this proposed product closes a national patient-sex access gap. Incremental effectiveness after Part D redesign and cost-effectiveness remain unknown.",
+      "why_not_rank_or_claim_profitability": "Positive bundled-program evidence, null average RTBT evidence and a narrow post hoc subgroup do not identify a commercially superior implementation or an addressable market."
+    },
+    {
+      "id": "O-02",
+      "domain": "Post-fracture bone-health follow-up",
+      "problem": "Some patients with a fragility fracture do not receive timely evaluation or an appropriate secondary-prevention plan. A referral can be lost between acute care, primary care and specialty care.",
+      "patient_and_indication": "Women and men with a clinician-confirmed fragility fracture and an unresolved bone-health follow-up need. Separate post-fracture evaluation from primary screening of asymptomatic men and from repeat testing already completed.",
+      "existing_inventory_ids": [
+        "G04",
+        "G05"
+      ],
+      "clinical_basis": "Shared skeletal system; sex-specific risk and eligibility categories are separate from anatomy.",
+      "evidence": [
+        {
+          "study_id": "L-G05",
+          "pmid": "33273290",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/33273290/",
+          "role": "Direct randomized outreach evidence in men",
+          "summary": "BMD testing was 10.7% with outreach versus 4.9% without; 7,842 of 10,934 randomized patients were analyzed.",
+          "limits": "Single MA insurer, men only, substantial post-randomization exclusions and process outcomes. Does not demonstrate fewer fractures or an effect in women.",
+          "title": "Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians.",
+          "doi": "10.1097/mlr.0000000000001459",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-G04",
+          "pmid": "18302495",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/18302495/",
+          "role": "Historical utilization context",
+          "summary": "Medicare DXA use differed between women and men in 1999–2005.",
+          "limits": "Historical use is not a need-adjusted current estimate or proof that every sex difference is inappropriate.",
+          "title": "Longitudinal trends in use of bone mass measurement among older americans, 1999-2005.",
+          "doi": "10.1359/jbmr.080232",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        }
+      ],
+      "proposed_intervention": {
+        "type": "Fracture-event registry plus human follow-up",
+        "workflow": [
+          "Detect a potential fracture from discharge/claims data, then verify low-trauma history and eligibility clinically.",
+          "Assign an accountable clinician; reconcile prior DXA, medication history, contraindications and patient preferences.",
+          "Arrange assessment and communicate a prevention plan, including reasons for deferral or declined treatment.",
+          "Track completion across settings and contact patients through accessible channels."
+        ],
+        "novelty_claim": "None. Test the incremental value over an existing fracture-liaison service, registry or nurse outreach."
+      },
+      "patient_benefit_outcomes": [
+        "Primary: completed clinically appropriate post-fracture evaluation and documented shared treatment decision within a prespecified interval.",
+        "Longer-term: recurrent fragility fractures, function and patient-reported burden; capture harms and treatment discontinuation.",
+        "Report BMD testing and drug initiation as intermediate outcomes, not equivalent to fracture prevention."
+      ],
+      "users": [
+        "Fracture-liaison nurses",
+        "Orthopedic and primary-care teams",
+        "Patients/caregivers"
+      ],
+      "potential_buyers": [
+        "Hospitals and integrated systems",
+        "MA plans",
+        "Accountable care organizations"
+      ],
+      "data_and_workflow_needs": [
+        "Admission/discharge notifications, fracture site/trauma confirmation, prior DXA and treatment history.",
+        "Renal function and clinical contraindications as reviewed by clinicians, appointment completion and pharmacy data.",
+        "Transport/contact preferences, ownership of unresolved follow-up and linkage across payer transitions."
+      ],
+      "policy_source_ids": [
+        "P-012",
+        "P-053",
+        "P-056",
+        "P-057"
+      ],
+      "policy_boundary": "Part B bone measurement uses specified criteria and frequency rules. USPSTF's insufficient evidence for screening men concerns adults without known osteoporosis or fragility-fracture history; it must not be used to block post-fracture evaluation.",
+      "reimbursement_and_business_model": {
+        "status": "UNVERIFIED",
+        "direct_medicare_software_payment": "Not established",
+        "candidate_model": "Organization-funded fracture-liaison workflow or research contract; covered testing does not finance the software.",
+        "unvalidated": [
+          "Incremental staffing cost",
+          "Workflow adoption",
+          "Attribution of avoided fractures",
+          "Purchaser budget and willingness to pay"
+        ]
+      },
+      "validation_study": {
+        "design": "Multisite pragmatic cluster trial of closed-loop follow-up versus existing discharge/referral processes, enrolling both sexes with clinically comparable qualifying fractures.",
+        "analysis": "Preserve all randomized patients in the principal analysis; report deaths, loss to follow-up and competing risks. Prespecify age/entitlement strata, baseline risk and sex interaction; do not power the trial only for testing uptake.",
+        "success_rule": "Meaningful access/process improvement without unnecessary testing, followed by adequately powered assessment of fractures and function."
+      },
+      "alternatives_and_risks": [
+        "A staffed fracture-liaison service without new software may be sufficient.",
+        "Claims alone can misclassify traumatic versus fragility fracture or miss prior testing.",
+        "More testing can add burden without improving care; avoid automatic treatment or ignoring contraindications.",
+        "Alerts may shift burden to primary care without assigning resources."
+      ],
+      "evidence_gap": "Digital incremental benefit, contemporary multi-payer effectiveness, fracture reduction and sex-specific benefit remain unestablished.",
+      "why_not_rank_or_claim_profitability": "One process-focused outreach trial cannot establish current clinical return, national need or vendor economics."
+    },
+    {
+      "id": "O-03",
+      "domain": "Prior-authorization workflow for clinically indicated non-drug care",
+      "problem": "Incomplete documentation, unclear requirements and untracked responses can interrupt a clinically indicated service. Current interoperability requirements create a testable workflow opportunity, but do not prove that a particular tool improves care.",
+      "patient_and_indication": "Patients with a clinician-selected non-drug service requiring authorization, initially scoped to a defined service such as lymphedema equipment or reconstructive care. Clinical eligibility must be determined before considering payer approval.",
+      "existing_inventory_ids": [
+        "A02",
+        "P03",
+        "P10",
+        "P12"
+      ],
+      "clinical_basis": "Service-specific/shared or mixed anatomy; do not label all authorization requests as female-specific or infer physician gender.",
+      "evidence": [
+        {
+          "study_id": "L-A02",
+          "pmid": "37285151",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+          "role": "Policy-level authorization context",
+          "summary": "A March 2022 review documented heterogeneous insurer coverage/authorization for lymphedema treatments.",
+          "limits": "Not a Medicare-specific current denial-rate study, not a workflow intervention, and predates the 2024 compression-item benefit.",
+          "title": "Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States.",
+          "doi": "10.1001/jamasurg.2023.2017",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-Q01",
+          "pmid": "35257055",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35257055/",
+          "role": "Qualitative access-mechanism context only",
+          "summary": "Nephrologists described financial, logistical and social access barriers.",
+          "limits": "Does not measure authorization delays or establish the proposed workflow's effectiveness.",
+          "title": "Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis.",
+          "doi": "10.1016/j.ekir.2021.10.022",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        }
+      ],
+      "proposed_intervention": {
+        "type": "Traceable requirements discovery, documentation preparation and response tracking",
+        "workflow": [
+          "Identify the patient's payer/product and dated requirement for the exact service.",
+          "Present required evidence and retrieve verified clinical facts with source links; route gaps to responsible staff.",
+          "Submit through the applicable integration after authorized review and record status, denial reason and follow-up.",
+          "Use manual fallback when APIs fail; escalate clinically urgent cases to human staff."
+        ],
+        "novelty_claim": "None. Existing payer portals, EHR modules and clearinghouses are active alternatives; the test is end-to-end clinical/workflow performance."
+      },
+      "patient_benefit_outcomes": [
+        "Primary: time from clinical decision to appropriate care, including abandoned/unsubmitted requests.",
+        "Patient-reported delay and burden, missed/foregone clinically indicated treatment, and adverse events from delay.",
+        "Secondary: staff time, incomplete requests, inappropriate approvals and erroneous denials; higher approval rate alone is not clinical success."
+      ],
+      "users": [
+        "Clinical authorization staff",
+        "Ordering clinicians",
+        "Patients/caregivers tracking status"
+      ],
+      "potential_buyers": [
+        "Health systems and practices",
+        "Payers",
+        "Existing EHR or transaction-service organizations"
+      ],
+      "data_and_workflow_needs": [
+        "Payer endpoint/authentication and applicable API capability; coverage requirement provenance and version.",
+        "Patient-specific order, diagnosis, prior treatment and required attachments with minimal necessary data.",
+        "Timestamped complete/incomplete states, request/appeal distinction, human review and manual fallback.",
+        "For sex-equity analysis, clinically eligible denominators including nonusers; public payer-level metrics alone are inadequate."
+      ],
+      "policy_source_ids": [
+        "P-046",
+        "P-047",
+        "P-048",
+        "P-050",
+        "P-059",
+        "P-056",
+        "P-057"
+      ],
+      "policy_boundary": "CMS-0057-F generally has 2026 operational and 2027 API dates for impacted payers, including MA, and excludes drugs. The 2026 CMS-0062-P drug expansion remains a proposal in this assessment. Original Medicare pathways and Part D pharmacy NCPDP workflows are separate.",
+      "reimbursement_and_business_model": {
+        "status": "UNVERIFIED",
+        "direct_medicare_software_payment": "Not established by interoperability rules",
+        "candidate_model": "Organization-paid workflow/integration service; no assumed per-authorization Medicare billing entitlement.",
+        "unvalidated": [
+          "Buyer-specific addressable workload",
+          "Compatibility with incumbent systems",
+          "Contract value",
+          "Implementation/maintenance cost",
+          "Clinical rather than administrative benefit"
+        ]
+      },
+      "validation_study": {
+        "design": "Prospective controlled rollout or cluster trial across defined services, with parallel clinically eligible patient ascertainment and audit of requests requiring manual handling.",
+        "analysis": "Prespecify clinically meaningful delay thresholds, urgency, eligible population and policy versions. Compare rates by recorded patient sex after appropriate clinical-need stratification; do not infer causation from raw denial rates.",
+        "success_rule": "Reduced clinically important delay and burden with no increase in incorrect submissions, inappropriate treatment or exclusion of difficult cases."
+      },
+      "alternatives_and_risks": [
+        "Existing payer/EHR/clearinghouse integration or better staffing may outperform a new product.",
+        "An API-ready payer does not guarantee instantaneous decisions or complete interoperable data.",
+        "Automated text may fabricate facts or reproduce erroneous chart data; require source verification.",
+        "Optimizing approvals or claim revenue can conflict with clinical appropriateness; preserve independent review."
+      ],
+      "evidence_gap": "No extracted study establishes this proposed product's patient benefit, cost-effectiveness or sex-gap closure. National administrative metrics do not supply a patient-level causal test.",
+      "why_not_rank_or_claim_profitability": "Regulatory deadlines indicate requirements, not purchasing demand, price tolerance, defensible differentiation or profitability."
+    },
+    {
+      "id": "O-04",
+      "domain": "Procedure-valuation research and audit infrastructure",
+      "problem": "Studies reach different conclusions when they compare broad anatomical analogues, tightly matched procedures, operative-time-normalized RVUs or specialty compensation. The resource basis of selected payment comparisons remains uncertain.",
+      "patient_and_indication": "Researchers evaluating clinically indicated procedures and the patients potentially affected by resource allocation; begin with verified procedure components and indication-specific cohorts rather than an all-service disparity score.",
+      "existing_inventory_ids": [
+        "P01",
+        "P02",
+        "P03",
+        "P13",
+        "P14"
+      ],
+      "clinical_basis": "Anatomy, shared functions, procedure approach and clinical purpose must be classified separately. Specialty is not physician sex and an RVU is not patient access.",
+      "evidence": [
+        {
+          "study_id": "L-P01",
+          "pmid": "39978776",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/39978776/",
+          "role": "Broader anatomical comparison",
+          "summary": "Reported 30% higher male work RVUs across 55 pairs in 2023.",
+          "limits": "Selected pairs and incomplete verified full-text methods; not an all-procedure causal estimate.",
+          "title": "Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies.",
+          "doi": "10.1089/jwh.2024.0984",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-P02",
+          "pmid": "38758183",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
+          "role": "Null evidence with closer valuation matching",
+          "summary": "No statistically significant differences across 10 journal-reported pairs or time-normalized comparisons.",
+          "limits": "Small selected set; journal 10 pairs versus companion 9 remains unresolved; null is not equivalence.",
+          "title": "Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures.",
+          "doi": "10.1097/upj.0000000000000612",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-P03",
+          "pmid": "34736273",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34736273/",
+          "role": "Metric-dependent counterevidence",
+          "summary": "Female RVU/hour 10.6 versus male 9.7, but modeled specialty compensation/hour $555 versus $599.",
+          "limits": "Compensation surveys are not Medicare conversion factors; perioperative/global work is omitted and printed arithmetic discrepancies are flagged.",
+          "title": "Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time.",
+          "doi": "10.1097/aog.0000000000004599",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-P04",
+          "pmid": "34237766",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/34237766/",
+          "role": "Resource-measurement context",
+          "summary": "Observed versus reported operative time and specialty were related to RVUs/hour.",
+          "limits": "Specialty/time-definition comparisons do not isolate patient-sex or physician-sex causal effects.",
+          "title": "Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement.",
+          "doi": "10.1097/aog.0000000000004467",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        }
+      ],
+      "proposed_intervention": {
+        "type": "Reproducible research dataset and transparent comparator audit",
+        "workflow": [
+          "Version CMS valuation files and classify code components, clinical purpose, approach, global period and site.",
+          "Prespecify alternative defensible matched sets with blinded multidisciplinary review.",
+          "Measure full episode work, not only operating-room minutes, and distinguish work/expense/malpractice RVUs from payment.",
+          "Link a separately governed patient-access cohort when studying downstream care; publish null and sensitivity results."
+        ],
+        "novelty_claim": "Research infrastructure proposal, not a claim of a unique product or a proven payment inequity detector."
+      },
+      "patient_benefit_outcomes": [
+        "Near-term research outcomes: reproducibility, comparator agreement, completeness of full-episode resource measures and uncertainty.",
+        "Downstream patient outcomes would require separate evaluation of appropriate access, function and burden after a policy or workflow change.",
+        "Do not equate higher reimbursement with improved patient outcomes."
+      ],
+      "users": [
+        "Health-services researchers",
+        "Clinical coding/resource experts",
+        "Patient advisory panels"
+      ],
+      "potential_buyers": [
+        "Research funders and academic consortia",
+        "Specialty organizations",
+        "Payers or policy evaluators"
+      ],
+      "data_and_workflow_needs": [
+        "Effective-date CMS files, CPT licensing/definitions, setting, modifiers, geographic indices and global periods.",
+        "For 2026 payment modeling, QP/non-QP conversion-factor status when applicable, rather than a universal conversion factor.",
+        "Prospective operative, perioperative and postoperative work/time measurement; case complexity and indication.",
+        "Version control, provenance, reproducible analysis, independent replication and conflict-of-interest governance."
+      ],
+      "policy_source_ids": [
+        "P-035"
+      ],
+      "policy_boundary": "CMS RVU files are inputs for research, not coverage determinations. The July 2026 landing page identifies separate QP/non-QP files; every payment model requires source-version and eligibility checks.",
+      "reimbursement_and_business_model": {
+        "status": "UNVERIFIED",
+        "direct_medicare_software_payment": "Not established",
+        "candidate_model": "Grant-funded consortium or research/data-service contract; any licensing depends on source rights and actual purchaser needs.",
+        "unvalidated": [
+          "Demand for independent audit",
+          "Data-access feasibility",
+          "Study cost",
+          "Licensing rights",
+          "Value beyond existing research tools"
+        ]
+      },
+      "validation_study": {
+        "design": "Registered multicenter measurement study with independently adjudicated comparators, full-episode work sampling and external replication; only subsequently evaluate downstream policy changes using a justified causal design.",
+        "analysis": "Separate code-level from patient-level estimands; report null pairs, unmatched indications, alternative matching rules and uncertainty. Avoid counting related historical analyses as independent replications.",
+        "success_rule": "Reliable measurements and conclusions robust to reasonable comparator choices; a direction-neutral result is valid."
+      },
+      "alternatives_and_risks": [
+        "An open academic dataset and analysis scripts may be preferable to commercial software.",
+        "Selected comparisons, surgeon time reporting and financial conflicts can shape conclusions.",
+        "Payment maximization or upcoding is not the research objective.",
+        "Unavailable licensed definitions or patient data may prevent comprehensive analysis."
+      ],
+      "evidence_gap": "The three headline contrasts are not directly poolable; contemporary full-resource measurements and causal downstream access effects are missing.",
+      "why_not_rank_or_claim_profitability": "This is primarily a research question with indirect patient benefit; scientific disagreement does not establish a software market or financial return."
+    },
+    {
+      "id": "O-05",
+      "domain": "Lymphedema compression-item access and fulfillment",
+      "problem": "Coverage may not translate into timely receipt of a properly fitted, usable compression item. Orders, supplier availability, measurements, cost sharing and replacement needs may require coordination.",
+      "patient_and_indication": "Patients with diagnosed lymphedema and a clinician order for an appropriate compression item, including cancer survivors; do not restrict the service to women or assume every swelling condition qualifies.",
+      "existing_inventory_ids": [
+        "A01"
+      ],
+      "clinical_basis": "Shared lymphatic system. Breast-cancer survivorship is one clinical context, not a sex-exclusive anatomy or coverage category.",
+      "evidence": [
+        {
+          "study_id": "L-A01",
+          "pmid": "31446591",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/31446591/",
+          "role": "Historical patient-cost signal",
+          "summary": "Breast-cancer survivors with lymphedema reported higher monthly direct costs than survivors without it.",
+          "limits": "Mixed insurance, self-report and socioeconomic selection; predates the current Medicare compression-item benefit.",
+          "title": "Drivers of cost differences between US breast cancer survivors with or without lymphedema.",
+          "doi": "10.1007/s11764-019-00799-1",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        },
+        {
+          "study_id": "L-A02",
+          "pmid": "37285151",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+          "role": "Historical coverage context",
+          "summary": "Insurer policies varied across lymphedema treatments in 2022.",
+          "limits": "Not an audit of post-2024 Medicare garment access; pumps, garments and surgery must be kept distinct.",
+          "title": "Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States.",
+          "doi": "10.1001/jamasurg.2023.2017",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        }
+      ],
+      "proposed_intervention": {
+        "type": "Clinician-to-supplier fulfillment and patient-use follow-up",
+        "workflow": [
+          "Confirm the diagnosis/order and patient preferences; match with an enrolled supplier.",
+          "Coordinate fitting, documented item type and expected cost sharing before fulfillment.",
+          "Confirm receipt, fit and ability to use the item; route problems to the treating team.",
+          "Track clinically justified replacement without automatically treating frequency limits as a target."
+        ],
+        "novelty_claim": "None. Evaluate gaps in existing therapist/supplier workflows before building a separate application."
+      },
+      "patient_benefit_outcomes": [
+        "Primary: time to receipt of the prescribed, correctly fitted item and ability to use it.",
+        "Patient-reported function, swelling-related symptoms, out-of-pocket burden and treatment burden.",
+        "Skin problems, unsuitable compression, returns and avoidable replacement; longer-term infection outcomes only in a sufficiently powered study."
+      ],
+      "users": [
+        "Patients/caregivers",
+        "Lymphedema therapists",
+        "Ordering clinicians",
+        "DMEPOS supplier staff"
+      ],
+      "potential_buyers": [
+        "Cancer-survivorship programs",
+        "Integrated care systems",
+        "Enrolled suppliers or payer care-management programs"
+      ],
+      "data_and_workflow_needs": [
+        "Diagnosis/order, item and body-part details, clinician-reviewed fitting needs and supplier enrollment/network data.",
+        "Patient consent, cost-sharing information, delivery receipt, fitting/problem resolution and replacement history.",
+        "Clear separation from pump authorization and surgery pathways; language and accessibility support."
+      ],
+      "policy_source_ids": [
+        "P-021",
+        "P-054",
+        "P-056",
+        "P-057"
+      ],
+      "policy_boundary": "The current Part B benefit covers qualifying garments/wraps/bandaging, with general deductible/coinsurance requirements. Supplier furnishing-related education is bundled; coverage does not create separate payment for this software.",
+      "reimbursement_and_business_model": {
+        "status": "UNVERIFIED",
+        "direct_medicare_software_payment": "Not established; do not separately bill supplier-bundled training as a software service",
+        "candidate_model": "Contract paid from an organization or supplier operating budget, subject to independently reviewed incentives and applicable payment rules.",
+        "unvalidated": [
+          "Current post-benefit unmet need",
+          "Incremental benefit over supplier services",
+          "Supplier participation",
+          "Procurement and implementation cost",
+          "Patient affordability"
+        ]
+      },
+      "validation_study": {
+        "design": "Prospective post-2024 access audit followed by a controlled or randomized fulfillment intervention across diverse suppliers and clinical sites.",
+        "analysis": "Include people with orders who never receive items; separate primary from secondary lymphedema, affected site, clinical severity and plan type. Evaluate sex differences within comparable need; do not extrapolate from breast-cancer-only samples.",
+        "success_rule": "Improved appropriate item receipt/use and function without higher inappropriate ordering, patient costs or skin injury."
+      },
+      "alternatives_and_risks": [
+        "Therapist/supplier case management may resolve most failures without new software.",
+        "An inappropriate automated garment choice can harm patients; retain qualified assessment.",
+        "Financial incentives could drive unnecessary items or replacements.",
+        "Historical noncoverage evidence may overstate the problem after the benefit change."
+      ],
+      "evidence_gap": "Current national fulfillment, fit and cost-sharing barriers after the benefit expansion have not been established by the cited studies.",
+      "why_not_rank_or_claim_profitability": "Covered equipment and historical cost burden do not establish unmet software demand, margins or patient benefit from a new vendor."
+    },
+    {
+      "id": "O-06",
+      "domain": "Kidney-care education and practical support coordination",
+      "problem": "Caregiving demands, transport, finances and information needs may impede access to kidney care. The available qualitative evidence identifies hypotheses; it does not measure current Medicare barrier prevalence.",
+      "patient_and_indication": "Patients with advanced CKD preparing for care decisions, initially clinician-confirmed stage 4 CKD referred for education. Include younger Medicare beneficiaries where eligible; dialysis/transplant pathways require their own eligibility and clinical plans.",
+      "existing_inventory_ids": [],
+      "clinical_basis": "Shared renal system. Patient sex/gender may affect barriers, but interviewed clinicians' gender is not the analytic exposure.",
+      "evidence": [
+        {
+          "study_id": "L-Q01",
+          "pmid": "35257055",
+          "source_url": "https://pubmed.ncbi.nlm.nih.gov/35257055/",
+          "role": "Qualitative mechanism evidence",
+          "summary": "Interviews with 51 nephrologists across 22 countries, including seven US respondents, described support, transport, finance and caregiving barriers; men's roles and reluctance to relinquish control were also discussed.",
+          "limits": "Clinician perceptions, no patient cohort and no Medicare-specific effect estimate; opposing experiences and national transferability require assessment.",
+          "title": "Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis.",
+          "doi": "10.1016/j.ekir.2021.10.022",
+          "metadata_provenance": "Existing verified bibliography metadata; findings checked against scoped register and targeted extraction where available."
+        }
+      ],
+      "proposed_intervention": {
+        "type": "Human-led education/referral coordination with a patient-facing task and preference record",
+        "workflow": [
+          "Obtain patient-reported barriers and goals without assuming them from sex.",
+          "Reconcile education referral and schedule appropriate sessions; provide accessible reminders and a human contact.",
+          "With permission, coordinate caregiver involvement and verified local practical support.",
+          "Document informed decisions and unresolved barriers rather than optimizing uptake of a particular dialysis modality."
+        ],
+        "novelty_claim": "None. Test existing nephrology education and social-work services before adding technology."
+      },
+      "patient_benefit_outcomes": [
+        "Primary: patient understanding, preference-concordant decisions and completion of clinically appropriate education.",
+        "Missed visits attributable to practical barriers, patient/caregiver burden and quality of life.",
+        "Unplanned dialysis starts or hospital use are longer-term outcomes requiring adequate design and follow-up, not assumed benefits."
+      ],
+      "users": [
+        "Patients/caregivers",
+        "Nephrology nurses and educators",
+        "Social workers",
+        "Care coordinators"
+      ],
+      "potential_buyers": [
+        "Nephrology organizations",
+        "Integrated kidney-care programs",
+        "Payer care-management teams"
+      ],
+      "data_and_workflow_needs": [
+        "Clinician-confirmed stage/indication and referral, education attendance and patient-reported goals.",
+        "Accessible communication preferences, caregiver permission and verified support-service eligibility/capacity.",
+        "Cross-setting care-plan exchange with limited data collection and clear referral ownership."
+      ],
+      "policy_source_ids": [
+        "P-055",
+        "P-056",
+        "P-057"
+      ],
+      "policy_boundary": "Part B kidney-disease education covers up to six eligible stage-4 sessions with referral/provider conditions and cost sharing. This is not universal coverage for navigation, transport or a standalone application.",
+      "reimbursement_and_business_model": {
+        "status": "UNVERIFIED",
+        "direct_medicare_software_payment": "Not established",
+        "candidate_model": "Organization-funded coordination service; any clinical education billing must independently meet eligibility, provider and service rules.",
+        "unvalidated": [
+          "Patient-identified need in US Medicare",
+          "Incremental value beyond education/social work",
+          "Staffing resources",
+          "Buyer budget",
+          "Sustainable service cost"
+        ]
+      },
+      "validation_study": {
+        "design": "Begin with US Medicare patient/caregiver interviews and an access audit, then co-design and pilot a controlled coordination intervention before a definitive pragmatic trial.",
+        "analysis": "Include people declining services and report negative/contradictory accounts. Prespecify sex, age/entitlement, rural access and socioeconomic strata; do not infer identity from renal diagnosis or sex fields.",
+        "success_rule": "Improved understanding and preference-concordant care with reduced burden; modality uptake or billing volume alone is not success."
+      },
+      "alternatives_and_risks": [
+        "Additional social-work/education capacity may matter more than software.",
+        "Digital exclusion and unwanted caregiver access can worsen burdens.",
+        "Automation may steer a costly or inappropriate treatment pathway rather than honoring preferences.",
+        "Community transport/support may not be available or funded despite a referral."
+      ],
+      "evidence_gap": "No directly evaluated Medicare technology intervention or verified patient-sex benefit in the cited record. Patient and caregiver evidence is required before product selection.",
+      "why_not_rank_or_claim_profitability": "An international qualitative mechanism study cannot establish national demand, achievable clinical effect, payer savings or commercial viability."
+    }
+  ],
+  "common_validation_gates": [
+    "Verify the unmet clinical need using current patients and include people who never enter or complete the workflow.",
+    "Compare with existing services/tools before attributing benefit to a new application.",
+    "Prospectively define outcomes, analysis, harms and stopping criteria; assess implementation burden and equitable access.",
+    "Validate actual data access, interoperability and product-function regulatory requirements before deployment.",
+    "Only after clinical/workflow evidence, assess purchaser commitments, integration/support costs, reimbursement applicability and sustainability without presuming profitability."
+  ]
+}

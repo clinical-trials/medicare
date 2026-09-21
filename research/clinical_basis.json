@@ -4,59 +4,459 @@
   "unit": "One selected care-item/indication row; not patients, unique procedures or national coverage rates",
   "rule": "Classify the service and indication, not the drug name or assumed patient identity. Keep anatomy, reproductive physiology, sex-defined eligibility and disease burden distinct. Mixed or underspecified rows require component-level extraction.",
   "groups": [
-    {"id":"shared","label":"Shared body systems / functions","definition":"Anatomy or function present in both sexes; eligibility and burden may still differ.","approach":"Compare women and men with comparable clinical need, including unmet care, within the same condition and service. Assess clinical eligibility independently of reimbursement rules."},
-    {"id":"female_anatomy","label":"Female reproductive anatomy","definition":"The recorded service directly targets a specified female reproductive organ or tissue.","approach":"Assess organ-specific clinical need and benefit. Compare other services only when purpose, complexity and resources are defensibly comparable."},
-    {"id":"male_anatomy","label":"Male reproductive anatomy","definition":"The recorded service directly targets a specified male reproductive organ or function.","approach":"Assess organ-specific clinical need and benefit. Compare other services only when purpose, complexity and resources are defensibly comparable."},
-    {"id":"female_physiology","label":"Female reproductive physiology","definition":"The indication concerns menopause, ovulation or related reproductive physiology, including systemic treatment.","approach":"Compare access among clinically eligible patients and alternative treatments. Analyze reproductive physiology separately from organ-specific procedures."},
-    {"id":"male_physiology","label":"Male reproductive physiology","definition":"The recorded indication concerns male reproductive endocrine function; the hormone itself is not exclusive to men.","approach":"Compare access for documented indications, accounting for diagnostic thresholds, benefit, alternatives, monitoring and treatment risks."},
-    {"id":"mixed","label":"Mixed or site-dependent","definition":"A bundled row includes distinct anatomical components, adapted techniques or an unresolved treatment site.","approach":"Separate diagnosis, organ/site and procedure components before estimating sex comparisons. Do not assign the entire row to one sex."}
+    {
+      "id": "shared",
+      "label": "Shared body systems / functions",
+      "definition": "Anatomy or function present in both sexes; eligibility and burden may still differ.",
+      "approach": "Compare women and men with comparable clinical need, including unmet care, within the same condition and service. Assess clinical eligibility independently of reimbursement rules."
+    },
+    {
+      "id": "female_anatomy",
+      "label": "Female reproductive anatomy",
+      "definition": "The recorded service directly targets a specified female reproductive organ or tissue.",
+      "approach": "Assess organ-specific clinical need and benefit. Compare other services only when purpose, complexity and resources are defensibly comparable."
+    },
+    {
+      "id": "male_anatomy",
+      "label": "Male reproductive anatomy",
+      "definition": "The recorded service directly targets a specified male reproductive organ or function.",
+      "approach": "Assess organ-specific clinical need and benefit. Compare other services only when purpose, complexity and resources are defensibly comparable."
+    },
+    {
+      "id": "female_physiology",
+      "label": "Female reproductive physiology",
+      "definition": "The indication concerns menopause, ovulation or related reproductive physiology, including systemic treatment.",
+      "approach": "Compare access among clinically eligible patients and alternative treatments. Analyze reproductive physiology separately from organ-specific procedures."
+    },
+    {
+      "id": "male_physiology",
+      "label": "Male reproductive physiology",
+      "definition": "The recorded indication concerns male reproductive endocrine function; the hormone itself is not exclusive to men.",
+      "approach": "Compare access for documented indications, accounting for diagnostic thresholds, benefit, alternatives, monitoring and treatment risks."
+    },
+    {
+      "id": "mixed",
+      "label": "Mixed or site-dependent",
+      "definition": "A bundled row includes distinct anatomical components, adapted techniques or an unresolved treatment site.",
+      "approach": "Separate diagnosis, organ/site and procedure components before estimating sex comparisons. Do not assign the entire row to one sex."
+    }
   ],
   "sources": [
-    {"id":"C-001","organization":"National Cancer Institute","title":"Male Breast Cancer","url":"https://www.cancer.gov/types/breast/male-breast-cancer","accessed_on":"2026-09-16","role":"Clinical classification guidance; breast tissue is present in both sexes."},
-    {"id":"C-002","organization":"Eunice Kennedy Shriver National Institute of Child Health and Human Development","title":"About Endometriosis","url":"https://www.nichd.nih.gov/health/topics/endometri/conditioninfo","accessed_on":"2026-09-16","role":"Clinical classification guidance; endometriosis can involve reproductive and other anatomical sites."},
-    {"id":"C-003","organization":"National Institute of Diabetes and Digestive and Kidney Diseases","title":"Treatments for Bladder Control Problems (Urinary Incontinence)","url":"https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/treatment","accessed_on":"2026-09-16","role":"Clinical classification guidance; pelvic-floor therapy can apply to women and men."},
-    {"id":"C-004","organization":"National Institute of Arthritis and Musculoskeletal and Skin Diseases","title":"Osteoporosis in Men","url":"https://www.niams.nih.gov/health-topics/osteoporosis-men","accessed_on":"2026-09-16","role":"Clinical classification guidance; osteoporosis is not limited to women."}
+    {
+      "id": "C-001",
+      "organization": "National Cancer Institute",
+      "title": "Male Breast Cancer",
+      "url": "https://www.cancer.gov/types/breast/male-breast-cancer",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; breast tissue is present in both sexes."
+    },
+    {
+      "id": "C-002",
+      "organization": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "title": "About Endometriosis",
+      "url": "https://www.nichd.nih.gov/health/topics/endometri/conditioninfo",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; endometriosis can involve reproductive and other anatomical sites."
+    },
+    {
+      "id": "C-003",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "title": "Treatments for Bladder Control Problems (Urinary Incontinence)",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/treatment",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; pelvic-floor therapy can apply to women and men."
+    },
+    {
+      "id": "C-004",
+      "organization": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "title": "Osteoporosis in Men",
+      "url": "https://www.niams.nih.gov/health-topics/osteoporosis-men",
+      "accessed_on": "2026-09-16",
+      "role": "Clinical classification guidance; osteoporosis is not limited to women."
+    }
   ],
   "items": [
-    {"id":"D01","group":"female_physiology","sex_feature":"Menopause indication; systemic hormone treatment","notes":"Classified by menopausal indication, not estradiol as a molecule. Other indications require separate rows."},
-    {"id":"D02","group":"female_physiology","sex_feature":"Menopause indication; systemic hormone treatment","notes":"Route and formulary restrictions remain separate from the physiology classification."},
-    {"id":"D03","group":"female_anatomy","sex_feature":"Vaginal tissue; menopausal indication","notes":"Local vaginal treatment is distinguished from systemic treatment of menopausal vasomotor symptoms."},
-    {"id":"D04","group":"female_physiology","sex_feature":"Menopause plus a uterine/endometrial requirement","notes":"Primary purpose is systemic menopausal treatment; progestogen provides endometrial protection. Preserve the uterus requirement as an additional anatomical feature."},
-    {"id":"D05","group":"female_physiology","sex_feature":"Menopausal vasomotor indication","notes":"Nonhormonal mechanism does not make the menopausal indication a general shared condition."},
-    {"id":"D06","group":"female_physiology","sex_feature":"Menopausal vasomotor indication","notes":"Classify this dose and indication separately from paroxetine used for other conditions."},
-    {"id":"D07","group":"female_anatomy","sex_feature":"Vulvovaginal tissue; menopausal indication","notes":"Oral administration does not change the anatomical target of this recorded indication."},
-    {"id":"D08","group":"female_anatomy","sex_feature":"Vaginal tissue; menopausal indication","notes":"Local treatment of menopausal vulvovaginal symptoms; do not classify all uses of the molecule together."},
-    {"id":"D09","group":"male_anatomy","sex_feature":"Penile erectile function","notes":"This row concerns erectile dysfunction. Sildenafil for pulmonary vascular disease would need a separate shared-system row and coverage assessment."},
-    {"id":"D10","group":"shared","sex_feature":"Sexual desire is shared; recorded drug indication is for women","approach":"Assess access for women meeting the clinical indication, alternatives and consistency of sexual-health benefit rules. Do not require an off-label male comparator.","notes":"A women-specific labeled population is not an exclusive anatomical structure. Preserve formulation and label-year limits."},
-    {"id":"D11","group":"shared","sex_feature":"Sexual desire is shared; recorded drug indication is for women","approach":"Assess access for women meeting the clinical indication, alternatives and consistency of sexual-health benefit rules. Do not require an off-label male comparator.","notes":"Separate sex-defined drug eligibility from anatomy, clinical benefit and the sexual-dysfunction benefit exclusion."},
-    {"id":"D12","group":"male_physiology","sex_feature":"Documented male hypogonadism indication","notes":"Testosterone and endocrine pathways are not exclusive to men. Classification applies only to this recorded indication."},
-    {"id":"P01","group":"mixed","sex_feature":"Shared incontinence indication; male/female surgical components","notes":"Sex-adapted sling procedures are bundled. Compare their individual codes and clinical resources; a shared symptom does not make operations identical."},
-    {"id":"P02","group":"mixed","sex_feature":"Shared incontinence pathway; male/female surgical components","notes":"Separate sling revision/removal codes, technique and complexity before comparing payment."},
-    {"id":"P03","group":"shared","sex_feature":"Breast anatomy is shared; indication is postmastectomy reconstruction","notes":"Do not equate a predominantly female literature sample with exclusively female anatomy.","source_ids":["C-001"]},
-    {"id":"P04","group":"shared","sex_feature":"Breast anatomy is shared; postmastectomy indication","notes":"Record the population actually studied and the benefit rule separately from organ classification.","source_ids":["C-001"]},
-    {"id":"P05","group":"shared","sex_feature":"Breast anatomy is shared; cosmetic indication","notes":"The distinction from medically necessary reconstruction is purpose and benefit eligibility, not sex alone.","source_ids":["C-001"]},
-    {"id":"P06","group":"shared","sex_feature":"Shared breast tissue; gynecomastia indication concerns men","notes":"A male-associated diagnosis does not make breast tissue male-exclusive.","source_ids":["C-001"]},
-    {"id":"P07","group":"shared","sex_feature":"Shared breast tissue; symptom-defined indication","notes":"Preserve symptom burden, clinical indication and actual patient population rather than assuming a women-only service.","source_ids":["C-001"]},
-    {"id":"P08","group":"shared","sex_feature":"Pelvic-floor and continence function in both sexes","notes":"Compare eligibility and response within matched indications; exercises may be adapted to anatomy.","source_ids":["C-003"]},
-    {"id":"P09","group":"shared","sex_feature":"Pelvic-floor and continence function in both sexes","notes":"Home versus clinician-delivered treatment is a benefit-setting distinction.","source_ids":["C-003"]},
-    {"id":"P10","group":"shared","sex_feature":"Shared bladder and neural function","notes":"Underlying disease and eligible symptoms, rather than sex alone, define the comparison.","source_ids":["C-003"]},
-    {"id":"P11","group":"shared","sex_feature":"Pelvic-floor and continence function in both sexes","notes":"Preserve the device and modality distinction from implanted nerve stimulation.","source_ids":["C-003"]},
-    {"id":"P12","group":"mixed","sex_feature":"Shared pelvic pain plus vulvar-specific diagnoses","notes":"This umbrella combines vulvodynia and other pelvic dysfunction. Extract diagnosis-specific eligibility and outcomes before assigning a single anatomy group."},
-    {"id":"P13","group":"mixed","sex_feature":"Endometriosis; operative anatomy depends on lesion site","notes":"Reproductive-tissue-related disease can affect bowel, bladder and other sites. Specify the operation and site; do not assume all surgery is confined to a reproductive organ.","source_ids":["C-002"]},
-    {"id":"P14","group":"mixed","sex_feature":"Pelvic-organ prolapse; exact repair anatomy unresolved","notes":"Provisional classification pending organ/site and procedure codes. Confirmed vaginal or uterine-support repairs can be classified as female reproductive anatomy."},
-    {"id":"G04","group":"shared","sex_feature":"Shared bone anatomy; women-specific estrogen-deficiency pathway","notes":"A sex-specific eligibility route is a policy feature, not an anatomical restriction. Retain it when comparing with G05.","source_ids":["C-004"]},
-    {"id":"G05","group":"shared","sex_feature":"Shared bone anatomy; additional qualifying risk groups","notes":"Compare testing access among clinically eligible beneficiaries, not unadjusted counts alone.","source_ids":["C-004"]},
-    {"id":"G06","group":"shared","sex_feature":"Shared breast tissue; recorded screening policy concerns women","notes":"Keep screening eligibility distinct from diagnostic imaging and from the existence of breast tissue in men.","source_ids":["C-001"]},
-    {"id":"G07","group":"male_anatomy","sex_feature":"Prostate-dependent screening","notes":"PSA and digital rectal screening differ in method and cost sharing; no female prostate-screening counterpart is required."},
-    {"id":"G08","group":"female_anatomy","sex_feature":"Uterine device placement for pregnancy prevention","notes":"Separate anatomical suitability from the preventive versus therapeutic indication."},
-    {"id":"G09","group":"female_anatomy","sex_feature":"Cervix/vagina and screening indication","notes":"Record organ presence, age and risk; a patient sex label alone does not establish clinical eligibility."},
-    {"id":"G10","group":"female_anatomy","sex_feature":"Uterus/endometrium; treatment indication","notes":"Compare with the same device used for pregnancy prevention only after distinguishing medical purpose."},
-    {"id":"G11","group":"mixed","sex_feature":"Male- and female-factor infertility components","notes":"Separate cause, diagnostic service and treatment before cross-sex comparison."},
-    {"id":"G12","group":"mixed","sex_feature":"Sperm, oocyte and embryo-related components","notes":"Do not combine gamete collection, assisted reproduction and storage into an assumed identical service."},
-    {"id":"G13","group":"mixed","sex_feature":"Vasectomy and tubal sterilization components","notes":"A shared preventive purpose does not establish identical operative work or resources."},
-    {"id":"G14","group":"female_physiology","sex_feature":"Ovulation/pregnancy prevention or menstrual treatment","notes":"Separate each product and preventive or therapeutic indication; physiology and benefit purpose are distinct."},
-    {"id":"G15","group":"mixed","sex_feature":"Fertility treatment can involve different reproductive functions","notes":"Identify the drug and male- or female-factor indication before anatomy-specific synthesis."},
-    {"id":"A01","group":"shared","sex_feature":"Shared lymphatic system; includes breast-cancer sequelae","notes":"A breast-cancer-survivor sample does not make lymphedema a female-exclusive condition. Preserve etiology and patient population."},
-    {"id":"A02","group":"shared","sex_feature":"Shared lymphatic system","notes":"Compare access by indication, clinical severity and device requirements; analyze sex-related burden separately."}
-  ]
+    {
+      "id": "D01",
+      "group": "female_physiology",
+      "sex_feature": "Menopause indication; systemic hormone treatment",
+      "notes": "Classified by menopausal indication, not estradiol as a molecule. Other indications require separate rows."
+    },
+    {
+      "id": "D02",
+      "group": "female_physiology",
+      "sex_feature": "Menopause indication; systemic hormone treatment",
+      "notes": "Route and formulary restrictions remain separate from the physiology classification."
+    },
+    {
+      "id": "D03",
+      "group": "female_anatomy",
+      "sex_feature": "Vaginal tissue; menopausal indication",
+      "notes": "Local vaginal treatment is distinguished from systemic treatment of menopausal vasomotor symptoms."
+    },
+    {
+      "id": "D04",
+      "group": "female_physiology",
+      "sex_feature": "Menopause plus a uterine/endometrial requirement",
+      "notes": "Primary purpose is systemic menopausal treatment; progestogen provides endometrial protection. Preserve the uterus requirement as an additional anatomical feature."
+    },
+    {
+      "id": "D05",
+      "group": "female_physiology",
+      "sex_feature": "Menopausal vasomotor indication",
+      "notes": "Nonhormonal mechanism does not make the menopausal indication a general shared condition."
+    },
+    {
+      "id": "D06",
+      "group": "female_physiology",
+      "sex_feature": "Menopausal vasomotor indication",
+      "notes": "Classify this dose and indication separately from paroxetine used for other conditions."
+    },
+    {
+      "id": "D07",
+      "group": "female_anatomy",
+      "sex_feature": "Vulvovaginal tissue; menopausal indication",
+      "notes": "Oral administration does not change the anatomical target of this recorded indication."
+    },
+    {
+      "id": "D08",
+      "group": "female_anatomy",
+      "sex_feature": "Vaginal tissue; menopausal indication",
+      "notes": "Local treatment of menopausal vulvovaginal symptoms; do not classify all uses of the molecule together."
+    },
+    {
+      "id": "D09",
+      "group": "male_anatomy",
+      "sex_feature": "Penile erectile function",
+      "notes": "This row concerns erectile dysfunction. Sildenafil for pulmonary vascular disease would need a separate shared-system row and coverage assessment."
+    },
+    {
+      "id": "D10",
+      "group": "shared",
+      "sex_feature": "Sexual desire is shared; recorded drug indication is for women",
+      "approach": "Assess access for women meeting the clinical indication, alternatives and consistency of sexual-health benefit rules. Do not require an off-label male comparator.",
+      "notes": "A women-specific labeled population is not an exclusive anatomical structure. Preserve formulation and label-year limits."
+    },
+    {
+      "id": "D11",
+      "group": "shared",
+      "sex_feature": "Sexual desire is shared; recorded drug indication is for women",
+      "approach": "Assess access for women meeting the clinical indication, alternatives and consistency of sexual-health benefit rules. Do not require an off-label male comparator.",
+      "notes": "Separate sex-defined drug eligibility from anatomy, clinical benefit and the sexual-dysfunction benefit exclusion."
+    },
+    {
+      "id": "D12",
+      "group": "male_physiology",
+      "sex_feature": "Documented male hypogonadism indication",
+      "notes": "Testosterone and endocrine pathways are not exclusive to men. Classification applies only to this recorded indication."
+    },
+    {
+      "id": "P01",
+      "group": "mixed",
+      "sex_feature": "Shared incontinence indication; male/female surgical components",
+      "notes": "Sex-adapted sling procedures are bundled. Compare their individual codes and clinical resources; a shared symptom does not make operations identical."
+    },
+    {
+      "id": "P02",
+      "group": "mixed",
+      "sex_feature": "Shared incontinence pathway; male/female surgical components",
+      "notes": "Separate sling revision/removal codes, technique and complexity before comparing payment."
+    },
+    {
+      "id": "P03",
+      "group": "shared",
+      "sex_feature": "Breast anatomy is shared; indication is postmastectomy reconstruction",
+      "notes": "Do not equate a predominantly female literature sample with exclusively female anatomy.",
+      "source_ids": [
+        "C-001"
+      ]
+    },
+    {
+      "id": "P04",
+      "group": "shared",
+      "sex_feature": "Breast anatomy is shared; postmastectomy indication",
+      "notes": "Record the population actually studied and the benefit rule separately from organ classification.",
+      "source_ids": [
+        "C-001"
+      ]
+    },
+    {
+      "id": "P05",
+      "group": "shared",
+      "sex_feature": "Breast anatomy is shared; cosmetic indication",
+      "notes": "The distinction from medically necessary reconstruction is purpose and benefit eligibility, not sex alone.",
+      "source_ids": [
+        "C-001"
+      ]
+    },
+    {
+      "id": "P06",
+      "group": "shared",
+      "sex_feature": "Shared breast tissue; gynecomastia indication concerns men",
+      "notes": "A male-associated diagnosis does not make breast tissue male-exclusive.",
+      "source_ids": [
+        "C-001"
+      ]
+    },
+    {
+      "id": "P07",
+      "group": "shared",
+      "sex_feature": "Shared breast tissue; symptom-defined indication",
+      "notes": "Preserve symptom burden, clinical indication and actual patient population rather than assuming a women-only service.",
+      "source_ids": [
+        "C-001"
+      ]
+    },
+    {
+      "id": "P08",
+      "group": "shared",
+      "sex_feature": "Pelvic-floor and continence function in both sexes",
+      "notes": "Compare eligibility and response within matched indications; exercises may be adapted to anatomy.",
+      "source_ids": [
+        "C-003"
+      ]
+    },
+    {
+      "id": "P09",
+      "group": "shared",
+      "sex_feature": "Pelvic-floor and continence function in both sexes",
+      "notes": "Home versus clinician-delivered treatment is a benefit-setting distinction.",
+      "source_ids": [
+        "C-003"
+      ]
+    },
+    {
+      "id": "P10",
+      "group": "shared",
+      "sex_feature": "Shared bladder and neural function",
+      "notes": "Underlying disease and eligible symptoms, rather than sex alone, define the comparison.",
+      "source_ids": [
+        "C-003"
+      ]
+    },
+    {
+      "id": "P11",
+      "group": "shared",
+      "sex_feature": "Pelvic-floor and continence function in both sexes",
+      "notes": "Preserve the device and modality distinction from implanted nerve stimulation.",
+      "source_ids": [
+        "C-003"
+      ]
+    },
+    {
+      "id": "P12",
+      "group": "mixed",
+      "sex_feature": "Shared pelvic pain plus vulvar-specific diagnoses",
+      "notes": "This umbrella combines vulvodynia and other pelvic dysfunction. Extract diagnosis-specific eligibility and outcomes before assigning a single anatomy group."
+    },
+    {
+      "id": "P13",
+      "group": "mixed",
+      "sex_feature": "Endometriosis; operative anatomy depends on lesion site",
+      "notes": "Reproductive-tissue-related disease can affect bowel, bladder and other sites. Specify the operation and site; do not assume all surgery is confined to a reproductive organ.",
+      "source_ids": [
+        "C-002"
+      ]
+    },
+    {
+      "id": "P14",
+      "group": "mixed",
+      "sex_feature": "Pelvic-organ prolapse; exact repair anatomy unresolved",
+      "notes": "Provisional classification pending organ/site and procedure codes. Confirmed vaginal or uterine-support repairs can be classified as female reproductive anatomy."
+    },
+    {
+      "id": "G04",
+      "group": "shared",
+      "sex_feature": "Shared bone anatomy; women-specific estrogen-deficiency pathway",
+      "notes": "A sex-specific eligibility route is a policy feature, not an anatomical restriction. Retain it when comparing with G05.",
+      "source_ids": [
+        "C-004"
+      ]
+    },
+    {
+      "id": "G05",
+      "group": "shared",
+      "sex_feature": "Shared bone anatomy; additional qualifying risk groups",
+      "notes": "Compare testing access among clinically eligible beneficiaries, not unadjusted counts alone.",
+      "source_ids": [
+        "C-004"
+      ]
+    },
+    {
+      "id": "G06",
+      "group": "shared",
+      "sex_feature": "Shared breast tissue; recorded screening policy concerns women",
+      "notes": "Keep screening eligibility distinct from diagnostic imaging and from the existence of breast tissue in men.",
+      "source_ids": [
+        "C-001"
+      ]
+    },
+    {
+      "id": "G07",
+      "group": "male_anatomy",
+      "sex_feature": "Prostate-dependent screening",
+      "notes": "PSA and digital rectal screening differ in method and cost sharing; no female prostate-screening counterpart is required."
+    },
+    {
+      "id": "G08",
+      "group": "female_anatomy",
+      "sex_feature": "Uterine device placement for pregnancy prevention",
+      "notes": "Separate anatomical suitability from the preventive versus therapeutic indication."
+    },
+    {
+      "id": "G09",
+      "group": "female_anatomy",
+      "sex_feature": "Cervix/vagina and screening indication",
+      "notes": "Record organ presence, age and risk; a patient sex label alone does not establish clinical eligibility."
+    },
+    {
+      "id": "G10",
+      "group": "female_anatomy",
+      "sex_feature": "Uterus/endometrium; treatment indication",
+      "notes": "Compare with the same device used for pregnancy prevention only after distinguishing medical purpose."
+    },
+    {
+      "id": "G11",
+      "group": "mixed",
+      "sex_feature": "Male- and female-factor infertility components",
+      "notes": "Separate cause, diagnostic service and treatment before cross-sex comparison."
+    },
+    {
+      "id": "G12",
+      "group": "mixed",
+      "sex_feature": "Sperm, oocyte and embryo-related components",
+      "notes": "Do not combine gamete collection, assisted reproduction and storage into an assumed identical service."
+    },
+    {
+      "id": "G13",
+      "group": "mixed",
+      "sex_feature": "Vasectomy and tubal sterilization components",
+      "notes": "A shared preventive purpose does not establish identical operative work or resources."
+    },
+    {
+      "id": "G14",
+      "group": "female_physiology",
+      "sex_feature": "Ovulation/pregnancy prevention or menstrual treatment",
+      "notes": "Separate each product and preventive or therapeutic indication; physiology and benefit purpose are distinct."
+    },
+    {
+      "id": "G15",
+      "group": "mixed",
+      "sex_feature": "Fertility treatment can involve different reproductive functions",
+      "notes": "Identify the drug and male- or female-factor indication before anatomy-specific synthesis."
+    },
+    {
+      "id": "A01",
+      "group": "shared",
+      "sex_feature": "Shared lymphatic system; includes breast-cancer sequelae",
+      "notes": "A breast-cancer-survivor sample does not make lymphedema a female-exclusive condition. Preserve etiology and patient population."
+    },
+    {
+      "id": "A02",
+      "group": "shared",
+      "sex_feature": "Shared lymphatic system",
+      "notes": "Compare access by indication, clinical severity and device requirements; analyze sex-related burden separately."
+    }
+  ],
+  "translational_indications": [
+    {
+      "id": "TI-01",
+      "opportunity_id": "O-01",
+      "indication": "COPD maintenance medication affordability",
+      "group_id": "shared",
+      "anatomy_or_function": "Respiratory system",
+      "eligibility_or_burden": "Documented COPD and clinically indicated maintenance therapy; not sex-exclusive",
+      "source_ids": [
+        "L-T01"
+      ]
+    },
+    {
+      "id": "TI-02",
+      "opportunity_id": "O-01",
+      "indication": "Local vaginal treatment for genitourinary symptoms of menopause",
+      "group_id": "female_anatomy",
+      "anatomy_or_function": "Vaginal reproductive tissue; menopausal physiological context",
+      "eligibility_or_burden": "Clinical indication and treatment choice are separate from plan formulary status",
+      "source_ids": [
+        "L-D01",
+        "L-D03",
+        "L-D04"
+      ]
+    },
+    {
+      "id": "TI-03",
+      "opportunity_id": "O-01",
+      "indication": "Systemic menopausal symptom treatment navigation",
+      "group_id": "female_physiology",
+      "anatomy_or_function": "Reproductive physiological context with systemic drug effects",
+      "eligibility_or_burden": "Formulation and individual benefit-risk assessment required; not interchangeable with COPD or local vaginal therapy",
+      "source_ids": [
+        "L-B01"
+      ]
+    },
+    {
+      "id": "TI-04",
+      "opportunity_id": "O-02",
+      "indication": "Post-fracture bone-care follow-up",
+      "group_id": "shared",
+      "anatomy_or_function": "Skeletal system",
+      "eligibility_or_burden": "Qualifying fracture and clinical assessment; screening eligibility is not the same as secondary prevention",
+      "source_ids": [
+        "L-G05",
+        "P-012",
+        "P-053"
+      ]
+    },
+    {
+      "id": "TI-05",
+      "opportunity_id": "O-03",
+      "indication": "Non-drug prior-authorization workflow",
+      "group_id": "mixed",
+      "anatomy_or_function": "Varies by the underlying clinically indicated service",
+      "eligibility_or_burden": "Split service and indication before comparing patient groups; payer eligibility is separate",
+      "source_ids": [
+        "P-046",
+        "P-047"
+      ]
+    },
+    {
+      "id": "TI-06",
+      "opportunity_id": "O-04",
+      "indication": "Procedure-valuation measurement",
+      "group_id": "mixed",
+      "anatomy_or_function": "Varies by code, organ, episode and service",
+      "eligibility_or_burden": "Clinical comparability and work/resource requirements need independent adjudication",
+      "source_ids": [
+        "L-P01",
+        "L-P02",
+        "L-P03"
+      ]
+    },
+    {
+      "id": "TI-07",
+      "opportunity_id": "O-05",
+      "indication": "Lymphedema compression-item fulfillment",
+      "group_id": "shared",
+      "anatomy_or_function": "Lymphatic system; affected site varies",
+      "eligibility_or_burden": "Need is not restricted to breast-cancer survivors or one sex",
+      "source_ids": [
+        "P-021",
+        "P-054",
+        "L-A01"
+      ]
+    },
+    {
+      "id": "TI-08",
+      "opportunity_id": "O-06",
+      "indication": "Kidney education and care coordination",
+      "group_id": "shared",
+      "anatomy_or_function": "Renal function",
+      "eligibility_or_burden": "Stage and clinical need are separate from six-session Medicare education eligibility",
+      "source_ids": [
+        "P-055",
+        "L-Q01"
+      ]
+    }
+  ],
+  "translational_classification_note": "Separate opportunity indications; not additional rows in the 40-item coverage inventory. Classification does not establish patient identity or coverage."
 }

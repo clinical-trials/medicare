@@ -1,0 +1,2986 @@
+[
+  {
+    "type": "same DOI",
+    "key": "10.1097/01.jam.0000021173.43550.a9",
+    "pmids": [
+      "12807565",
+      "12807643"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1097/01.jam.0000043421.46230.0e",
+    "pmids": [
+      "12807594",
+      "14984607"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1118/1.1630968",
+    "pmids": [
+      "14761013",
+      "14761014"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1016/s0020-7292(06)60037-4",
+    "pmids": [
+      "17161161",
+      "29644660"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1008500",
+    "pmids": [
+      "20961255",
+      "20973149"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1013967",
+    "pmids": [
+      "21306258",
+      "21306259"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1107047",
+    "pmids": [
+      "21879917",
+      "21879918"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1114006",
+    "pmids": [
+      "22335752",
+      "22335753",
+      "22335754",
+      "22335755"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1202765",
+    "pmids": [
+      "22571214",
+      "22571215"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1212355",
+    "pmids": [
+      "23252543",
+      "23252545"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1311059",
+    "pmids": [
+      "24106954",
+      "24106955"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1507320",
+    "pmids": [
+      "26287859",
+      "26287860"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.4140/tcp.n.2016.358",
+    "pmids": [
+      "27412311",
+      "28655370"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1056/nejmc1811049",
+    "pmids": [
+      "30380389",
+      "30382701"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.3917/spub.200.0053",
+    "pmids": [
+      "32374095",
+      "35724072"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.1136/bmjdrc-2021-002205",
+    "pmids": [
+      "34187842",
+      "34933874"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same DOI",
+    "key": "10.34067/kid.0000000696",
+    "pmids": [
+      "39814407",
+      "40273325"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "therelationshipbetweenhospitalperdiembillinganddrgreimbursementforurbantraumapatients",
+    "pmids": [
+      "8522910",
+      "8613711"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "variationsincataractextractionratesinmedicareprepaidandfeeforservicesettings",
+    "pmids": [
+      "9178788",
+      "9548578"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "femaleandmaleperceptionsoffemalephysicalattractivenessinfrontviewandprofile",
+    "pmids": [
+      "11417788",
+      "11802880"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "adecadeofresearchondisparitiesinmedicareutilizationlessonsforthehealthandhealthcareofvulnerablemen",
+    "pmids": [
+      "12721137",
+      "18687605"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "incidenceandcostsofacutemedicalconditionsinlongstayincontinentnursinghomeresidents",
+    "pmids": [
+      "12807565",
+      "12807643"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "unfilledprescriptionsofmedicarebeneficiariesprevalencereasonsandtypesofmedicinesprescribed",
+    "pmids": [
+      "18693779",
+      "32715958"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "reimbursementpolicyandandrogendeprivationtherapyforprostatecancer",
+    "pmids": [
+      "21047226",
+      "21306258",
+      "21306259"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "patientoutofpocketpaymentsfororaloncolyticsresultsfroma2009usclaimsdataanalysis",
+    "pmids": [
+      "22693982",
+      "22942827"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theeffectofthecontroversialuspreventiveservicestaskforcerecommendationsontheuseofscreeningmammography",
+    "pmids": [
+      "23290669",
+      "27814825"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "physicianindustrycollaborationorganizationalconsiderationsforthefutureofinnovationandgrowthindermatology",
+    "pmids": [
+      "28492008",
+      "29234722"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "incorporatingrecognitionandmanagementofperinataldepressionintopediatricpractice",
+    "pmids": [
+      "30559118",
+      "30559120"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcareutilizationpriortoovariancancerdiagnosisinpubliclyinsuredindividualsinnewyorkstate",
+    "pmids": [
+      "35413730",
+      "38881990"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "pancreastransplantoutcomesinpatientswithhumanimmunodeficiencyvirusinfection",
+    "pmids": [
+      "39615631",
+      "40579322"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "nucleusaccumbensdopamineencodesthetraceperiodduringappetitivepavlovianconditioning",
+    "pmids": [
+      "40235964",
+      "40425363"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "regionaldisparitiesinthesocialdeterminantsofstrokeseverity",
+    "pmids": [
+      "40385434",
+      "40678207"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "algorithmstoimprovefairnessinmedicareriskadjustment",
+    "pmids": [
+      "40880105",
+      "39974004"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarecoverageforchronicrenaldiseasepolicyimplications",
+    "pmids": [
+      "367910",
+      "11643484"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "reasonablecharge",
+    "pmids": [
+      "1098298",
+      "4577670"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarepartb",
+    "pmids": [
+      "1101550",
+      "4927224"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarereimbursement",
+    "pmids": [
+      "1108289",
+      "5333972",
+      "6384165",
+      "10298042",
+      "10298825",
+      "21465705"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theunfinishedbusinessofphysicianpaymentreform",
+    "pmids": [
+      "1304731",
+      "1528223",
+      "1528224"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hospicevaluesaccesstoservicesandthemedicarehospicebenefit",
+    "pmids": [
+      "1345213",
+      "8312078"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theamericanhealthcaresystemmedicare",
+    "pmids": [
+      "1406878",
+      "8497297",
+      "8497298",
+      "9935359"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theresourcebasedrelativevaluescale",
+    "pmids": [
+      "1453530",
+      "2649695"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "msmsreimbursementroundup",
+    "pmids": [
+      "1528135",
+      "1614335"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thenewmedicarephysicianpaymentsystem",
+    "pmids": [
+      "1560658",
+      "2046558"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "concurrentcare",
+    "pmids": [
+      "1640217",
+      "1919491"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "physicianpaymentreform",
+    "pmids": [
+      "1753187",
+      "2648639",
+      "8350900",
+      "8350901",
+      "8350903",
+      "10106313",
+      "10108663",
+      "10114026"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "resourcebasedrelativevaluescaleanewpaymentsystemforpractitionersundermedicare",
+    "pmids": [
+      "1814995",
+      "2196308"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "resourcebasedrelativevaluescale",
+    "pmids": [
+      "1857432",
+      "1921653"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "actuarialstatusofthehiandsmitrustfunds",
+    "pmids": [
+      "1882319",
+      "3137667",
+      "3529464",
+      "3895530",
+      "6377534"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "fromthehealthcarefinancingadministration",
+    "pmids": [
+      "1942412",
+      "2008017",
+      "2056612",
+      "3131554",
+      "8596243"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "recombinanterythropoietinandmedicarepayment",
+    "pmids": [
+      "1942420",
+      "2056627"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "economics",
+    "pmids": [
+      "2041117",
+      "8182839"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandmaac",
+    "pmids": [
+      "2133979",
+      "2237579",
+      "2405503"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "physicianpaymentreformanideawhosetimehascome",
+    "pmids": [
+      "2185598",
+      "3050173",
+      "10106770"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "costandsurvivalresultsofcriticalcareregionalizationformedicarepatients",
+    "pmids": [
+      "2188793",
+      "2500298"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "physicianreimbursementupdate",
+    "pmids": [
+      "2215781",
+      "10106661",
+      "10303521"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "actuarialstatusoftheoasiandditrustfunds",
+    "pmids": [
+      "2503898",
+      "3137670"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "specialtydifferentialsaretheyneededinaphysicianpaymentsystem",
+    "pmids": [
+      "2677217",
+      "10303294"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "perspectivesonphysicianpaymentreform",
+    "pmids": [
+      "2691382",
+      "10302343"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "drgs",
+    "pmids": [
+      "2954930",
+      "6415504"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thefutureofmedicare",
+    "pmids": [
+      "3081809",
+      "3526157",
+      "9066226"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "nationalmedicalcarespending",
+    "pmids": [
+      "3119447",
+      "3934056",
+      "6440844"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theimpactofmedicaresprospectivepaymentsystemonwisconsinnursinghomes",
+    "pmids": [
+      "3302318",
+      "3546757"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "criticalappraisalofthedrgsystemproblemareasfordrgreimbursementintheusa",
+    "pmids": [
+      "3929757",
+      "10311188"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "preventionofdissipationofhealthservicesresources",
+    "pmids": [
+      "4561403",
+      "4935168"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "coverageofdentistsservicesundermedicare",
+    "pmids": [
+      "4866249",
+      "4873782",
+      "4907026",
+      "5335886",
+      "5336592",
+      "5340094"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "presidentialaddress",
+    "pmids": [
+      "4981628",
+      "9454868"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandutilizationreview",
+    "pmids": [
+      "5327613",
+      "5907608",
+      "5951981"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicare",
+    "pmids": [
+      "6344296",
+      "11259729",
+      "17390437"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarechanges",
+    "pmids": [
+      "6344537",
+      "18557083"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareissues",
+    "pmids": [
+      "6389195",
+      "7815903"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "drgshistoryandoverview",
+    "pmids": [
+      "6412181",
+      "6429633"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hospitalreimbursementundermedicare",
+    "pmids": [
+      "6425720",
+      "10315576"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "economicapproachtobreastcancerscreeninginbelgium",
+    "pmids": [
+      "7481252",
+      "11680188"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarepatientscareinjeopardy",
+    "pmids": [
+      "8297486",
+      "8397702"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "proposedmedicarechangesnotfavorableforindividualswithdiabetes",
+    "pmids": [
+      "8325455",
+      "8375261"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "geographicvariationsinpaymentstophysicians",
+    "pmids": [
+      "8341355",
+      "8341356",
+      "8341357",
+      "8341358"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "homeoxygentherapy",
+    "pmids": [
+      "8637306",
+      "9329875"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thepaceevaluationtworesponses",
+    "pmids": [
+      "8932401",
+      "8932402"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theascpresidentphysiciansectionresultsofsurveyspertainingtograduatedresponsibilityforresidentsinanatomicpathologyamericansocietyofcytopathology",
+    "pmids": [
+      "9169657",
+      "9169658"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "developingacomplianceprogramtoidentifyandpreventinaccurateorimpropermedicarebillingpractices",
+    "pmids": [
+      "9337572",
+      "9448467"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "cataractextractionratesandinsurancestatus",
+    "pmids": [
+      "9363959",
+      "9363960"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whynotthebestforthechronicallyill",
+    "pmids": [
+      "9644396",
+      "12856665"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "oncologylegislativeupdate",
+    "pmids": [
+      "10028518",
+      "11195420"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramcarrierbonusesforincreasingphysiciansparticipationorpaymentshcfanotice",
+    "pmids": [
+      "10106544",
+      "10302826"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "predictinghospitalaccountingcosts",
+    "pmids": [
+      "10106628",
+      "10313352"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramchangestotheinpatienthospitalprospectivepaymentsystemandfiscalyear1991rateshcfacorrection",
+    "pmids": [
+      "10107028",
+      "10107912"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "agebasedrationingandtechnologicaldevelopment",
+    "pmids": [
+      "10107250",
+      "11650406"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramquarterlylistingofprogramissuancesandcoveragedecisionshcfageneralnotice",
+    "pmids": [
+      "10109421",
+      "10112222",
+      "10115700",
+      "10116399",
+      "10117939",
+      "10119141"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramscheduleoflimitsforskillednursingfacilityinpatientroutineservicecostshcfafinalnoticewithcommentperiod",
+    "pmids": [
+      "10110535",
+      "10121915",
+      "10133074"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "acapitalplan",
+    "pmids": [
+      "10110622",
+      "10110624"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "specialreportproposedmedicarefeeschedulerevealsrescaledrvusnew26conversionfactor",
+    "pmids": [
+      "10111923",
+      "10112056"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "civilianhealthandmedicalprogramoftheuniformedserviceschampusreimbursementofindividualhealthprovidersdepartmentofdefensefinalrule",
+    "pmids": [
+      "10113847",
+      "10114374"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "prospectivepaymentformedicarehospitalcapitalimplicationsoftheresearch",
+    "pmids": [
+      "10117119",
+      "25372157"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandmedicaidprogramsquarterlylistingofprogramissuancesandcoveragedecisionshcfageneralnotice",
+    "pmids": [
+      "10121917",
+      "10123371"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicaresprospectivepaymentsystemacriticalappraisal",
+    "pmids": [
+      "10128704",
+      "25372306"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "clintonsreformplananrxforchange",
+    "pmids": [
+      "10129999",
+      "10130294"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandmedicaidstatisticalsupplement",
+    "pmids": [
+      "10131705",
+      "10142570"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thepatienthasnotbeeninformedaproposalforaphysicianconflictofinterestdisclosurelaw",
+    "pmids": [
+      "10134665",
+      "11659864"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "specialreporthcfahikesconversionfactorto31001adopts77otherpaypoliciesforrvsera",
+    "pmids": [
+      "10170877",
+      "10170878",
+      "10170880"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarepaymentsforassistantsatsurgery",
+    "pmids": [
+      "10171021",
+      "10171359"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "ataglancethemedicareprogram",
+    "pmids": [
+      "10176800",
+      "10622816"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramchangestothehospitalinpatientprospectivepaymentsystemsandfiscalyear1998ratescorrectionshcfafinalrulewithcommentperiodcorrectionnotice",
+    "pmids": [
+      "10177292",
+      "10177510"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "accuratetimelycompletionofthemdsiscriticaltosuccessunderpps",
+    "pmids": [
+      "10177817",
+      "10344997"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "interimpaymentsystemandriskmanagement",
+    "pmids": [
+      "10178035",
+      "10538891"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarepastpresentandfuture",
+    "pmids": [
+      "10179065",
+      "10309631"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "outcomebasedqualityimprovementinhomehealthcaretheoasisindicators",
+    "pmids": [
+      "10179277",
+      "10344983"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thegoodthebadandtheuglysubacuteindustryreactstoprospectivepaymentrule",
+    "pmids": [
+      "10179897",
+      "10344996"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "effectsofsupplementalcoverageonuseofservicesbymedicareenrollees",
+    "pmids": [
+      "10180002",
+      "10345398"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "privacyactof1974reportofnewsystemhcfanoticeofnewsystemofrecords",
+    "pmids": [
+      "10181712",
+      "10313687"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "24hourtrackingcorrectscoringofactivitiesofdailylivingcriticaltoproperppspayments",
+    "pmids": [
+      "10181734",
+      "10344999"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramupdateofratesettingmethodologypaymentratespaymentpoliciesandthelistofcoveredproceduresforambulatorysurgicalcenterseffectiveoctober11998extensionofcommentperiodhcfanoticeofextensionofcommentperiodforproposedrule",
+    "pmids": [
+      "10182575",
+      "10187402"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thewhitecoatsyndrome",
+    "pmids": [
+      "10185110",
+      "10187172"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcarefinancingadministrationmedicareprogramscheduleoftargetreimbursementratesforinstitutionsfurnishinghomedialysissuppliesequipmentandsupportservicesfinalnotice",
+    "pmids": [
+      "10297596",
+      "10297691"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandmedicaidprogramslessthaneffectivedrugshealthcarefinancingadministrationnoticeoflegislationaffectingimplementationandenforcementofinterimfinalrule",
+    "pmids": [
+      "10298360",
+      "10298508"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogrampremiumratefortheuninsuredagedhhsgeneralnotice",
+    "pmids": [
+      "10299186",
+      "10299244"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogrammonthlyactuarialratesandmonthlypremiumratehhsgeneralnotice",
+    "pmids": [
+      "10299245",
+      "10324849"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "appealrightsforhomehealthagenciescoveragedenials",
+    "pmids": [
+      "10299344",
+      "10299371"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "quarterlyhealthlawcaseupdatereimbursement",
+    "pmids": [
+      "10301452",
+      "10302004",
+      "10302284"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "prospectivepaymentblessingorcurse",
+    "pmids": [
+      "10301489",
+      "10302271"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramhospicecaphcfanotice",
+    "pmids": [
+      "10301833",
+      "10302827",
+      "10303882"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcaredeliverysystemsinreview",
+    "pmids": [
+      "10303247",
+      "10312405"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hcfaprogramstatistics",
+    "pmids": [
+      "10309466",
+      "10309474",
+      "10309600",
+      "10309855"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "implementingthemedicareprospectivepricingsystem",
+    "pmids": [
+      "10315379",
+      "10315415"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "profileofmedicarebeneficiarieswithaidsapplicationofanaidscasefindingalgorithm",
+    "pmids": [
+      "10345411",
+      "25372612"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "areimbursementconundrum",
+    "pmids": [
+      "10346611",
+      "15856825"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "coordinationofbenefits",
+    "pmids": [
+      "10351383",
+      "14992217"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whenmoneyisthemissionthehighcostsofinvestorownedcare",
+    "pmids": [
+      "10432332",
+      "10610446",
+      "10610450"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "bythenumbersmedicareandmedicaid",
+    "pmids": [
+      "10538772",
+      "11808389"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "reimbursementforacutecarenursepractitionerservices",
+    "pmids": [
+      "10631391",
+      "10888156"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "discussionofpapersbykarenscottcollinsandjanblustein",
+    "pmids": [
+      "10736557",
+      "10736558"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicaresmentalhealthcoverage",
+    "pmids": [
+      "10913465",
+      "10913466"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "mntessentialtoplansforaddingprescriptiondrugbenefittomedicare",
+    "pmids": [
+      "10916511",
+      "10955040"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theprivatedutymarketoperationalandstaffingconsiderations",
+    "pmids": [
+      "11075057",
+      "12858093"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "areviewofdataonthehealthsectoroftheunitedstates",
+    "pmids": [
+      "11109186",
+      "11271647"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "appropriatenessofcoronaryangiographyaftermyocardialinfarctionamongmedicarebeneficiaries",
+    "pmids": [
+      "11236791",
+      "11236792",
+      "11236793"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "universalcoverageintheunitedstateslessonsfromexperienceofthe20thcentury",
+    "pmids": [
+      "11368202",
+      "11922050"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "accessisbetterforracialethnicelderlyinmedicarehmosbutdisparitiespersist",
+    "pmids": [
+      "11474977",
+      "11676455"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "racialandethnicdifferencesinhospitalizationratesamongagedmedicarebeneficiaries1998",
+    "pmids": [
+      "11481748",
+      "25372248"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thehealthandlongtermcarepolicychallengesofalzheimersdisease",
+    "pmids": [
+      "11513489",
+      "27819503"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "doesinvestorownershipofnursinghomescompromisethequalityofcare",
+    "pmids": [
+      "11527781",
+      "12067034"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "overviewofthemedicareandmedicaidprograms",
+    "pmids": [
+      "11706430",
+      "12820295",
+      "12847762",
+      "15630768",
+      "17366751",
+      "17373028"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramprospectivepaymentsystemandconsolidatedbillingforskillednursingfacilitiesupdatefinalrule",
+    "pmids": [
+      "11727748",
+      "12901392"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarereform",
+    "pmids": [
+      "11742059",
+      "11780186"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thehealthofhomehealthcare",
+    "pmids": [
+      "12046490",
+      "14652410"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "abortion",
+    "pmids": [
+      "12285802",
+      "12286571",
+      "12317961",
+      "12344859"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "overview",
+    "pmids": [
+      "12285804",
+      "12317963",
+      "12344861",
+      "25372462",
+      "25372978"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandmedicaidprogramsfiresafetyrequirementsforcertainhealthcarefacilitiesfinalrule",
+    "pmids": [
+      "12523353",
+      "27192728"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "bythenumbersmedicaremedicaid",
+    "pmids": [
+      "12528224",
+      "14723066",
+      "19227402"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramprospectivepaymentsystemforlongtermcarehospitalsannualpaymentrateupdatesandpolicychangesfinalrule",
+    "pmids": [
+      "12793455",
+      "15132146"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "tubefeedingversushandfeedingnursinghomeresidentswithadvanceddementiaacostcomparison",
+    "pmids": [
+      "12807594",
+      "14984607"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "positionoftheamericandieteticassociationchildandadolescentfoodandnutritionprograms",
+    "pmids": [
+      "12830031",
+      "16986233"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "implicationsofregionaldifferencesinspending",
+    "pmids": [
+      "14734340",
+      "14734341",
+      "14734342",
+      "14734343",
+      "14734344",
+      "14734345",
+      "14734346"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "astudyofreliabilityandburdenofhomehealthassessmentusingoasis",
+    "pmids": [
+      "14998281",
+      "29016255"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "applicationoftheresourcebasedrelativevaluescalesystemtopediatrics",
+    "pmids": [
+      "15121969",
+      "19047262",
+      "24864168"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "discountsandwaivingpatientcopaymentsanddeductibles",
+    "pmids": [
+      "15218751",
+      "25318191"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "springupdate",
+    "pmids": [
+      "15259798",
+      "24984407"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarecoveragefortechnologicalinnovations",
+    "pmids": [
+      "15306678",
+      "15309749"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "increaseinutilizationofpercutaneousrenalarteryinterventionsbymedicarebeneficiaries19962000",
+    "pmids": [
+      "15333335",
+      "16217340"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whatsinwhatsoutstakeholdersviewsabouttheboundariesofmedicare",
+    "pmids": [
+      "15540401",
+      "18268820"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcarereform101",
+    "pmids": [
+      "15624241",
+      "25000654"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whatiftechnologyneverstopsimprovingmedicaresfutureundercontinuouscostincreases",
+    "pmids": [
+      "15693440",
+      "16211762"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "perspectivesemployerpartdsubsidymayslightlyslowretireecoveragedecline",
+    "pmids": [
+      "15771307",
+      "17066526"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "assessingtheimpactofcoveragegapsinthemedicarepartddrugbenefit",
+    "pmids": [
+      "15840626",
+      "18441611"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "implantablecardioverterdefibrillators",
+    "pmids": [
+      "15888706",
+      "15892195"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "payforperformance",
+    "pmids": [
+      "15916238",
+      "15960184",
+      "17132999"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareandcosteffectivenessanalysis",
+    "pmids": [
+      "16207857",
+      "16411304"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "readersresponsestothewebcastvideoeditorialsentitledtheamericanhealthcaresystemin2005parts3and4",
+    "pmids": [
+      "16385724",
+      "16385725"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "anoverviewofmedicarereimbursementregulationsforadvancedpracticenurses",
+    "pmids": [
+      "16676748",
+      "17286156"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whoshouldbepayingforvitamindanaloguesmedicareorthepatients",
+    "pmids": [
+      "16859205",
+      "16912996"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "readersresponsesandauthorsreplytoemancipatingthedoctors",
+    "pmids": [
+      "16941770",
+      "17048341",
+      "17048344"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "comparingpatientaccesstopharmaceuticalsintheukandus",
+    "pmids": [
+      "17132032",
+      "17249843"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarerequirementforresearchparticipation",
+    "pmids": [
+      "17190890",
+      "17190891"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "useofphysiciansservicesformedicarebeneficiaries",
+    "pmids": [
+      "17687141",
+      "17691130",
+      "17691131"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thefamilywellnesswarriorsinitiative",
+    "pmids": [
+      "17929601",
+      "18323373"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "itsabouttime",
+    "pmids": [
+      "17970503",
+      "18038747"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theburdenanddeterminantsofneckpaininwhiplashassociateddisordersaftertrafficcollisionsresultsoftheboneandjointdecade20002010taskforceonneckpainanditsassociateddisorders",
+    "pmids": [
+      "18204401",
+      "19251076"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "preventingrehospitalizationthrougheffectivehomehealthnursingcare",
+    "pmids": [
+      "18301108",
+      "19092599"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medpacexaminingmedicarehospicebenefitreimbursementsystem",
+    "pmids": [
+      "18309819",
+      "19391559"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "pharmaceuticalsandmedicaldevicesmedicarepartdendofyearissuebrief",
+    "pmids": [
+      "18345558",
+      "19301435",
+      "20213917",
+      "21374839"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "calltoactiononuseandreimbursementforhomebloodpressuremonitoringajointscientificstatementfromtheamericanheartassociationamericansocietyofhypertensionandpreventivecardiovascularnursesassociation",
+    "pmids": [
+      "18497370",
+      "18596492"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "calltoactiononuseandreimbursementforhomebloodpressuremonitoringexecutivesummaryajointscientificstatementfromtheamericanheartassociationamericansocietyofhypertensionandpreventivecardiovascularnursesassociation",
+    "pmids": [
+      "18497371",
+      "18550937",
+      "20409902"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "payforperformanceanursingperspective",
+    "pmids": [
+      "18792493",
+      "19090065"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "pharmaceuticalsandmedicaldevicescostsavings",
+    "pmids": [
+      "19297717",
+      "28252884"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "rehospitalizationsamongpatientsinthemedicarefeeforserviceprogram",
+    "pmids": [
+      "19339721",
+      "19605841",
+      "19610165",
+      "19610166"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "independentlyownedpharmacyclosuresinruralamerica",
+    "pmids": [
+      "19688903",
+      "22830100"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "limitedenglishproficiencyisabarriertoreceiptofadviceaboutphysicalactivityanddietamonghispanicswithchronicdiseasesintheunitedstates",
+    "pmids": [
+      "19782177",
+      "20399300"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "areyoureadyforbundledpayments",
+    "pmids": [
+      "20112756",
+      "20349806"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "afraxmodelfortheassessmentoffractureprobabilityinbelgium",
+    "pmids": [
+      "20143744",
+      "20352409"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "universalaccessibilityofmedicare",
+    "pmids": [
+      "20313363",
+      "20313364"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicationtherapymanagement10yearsofexperienceinalargeintegratedhealthcaresystem",
+    "pmids": [
+      "20331323",
+      "32857651"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theindependentpaymentadvisoryboard",
+    "pmids": [
+      "20505171",
+      "21785484",
+      "24136648"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "themidwivesactthepaymentofmedicalmensummonedtoassistmidwives",
+    "pmids": [
+      "20763497",
+      "20763526"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "geographicdifferencesinmedicarespending",
+    "pmids": [
+      "20961255",
+      "20973149"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "bundledpaymentforesrdincludingesasinmedicaresdialysispackage",
+    "pmids": [
+      "21323538",
+      "21707012"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "accesstohealthinsuranceissuebrief",
+    "pmids": [
+      "21370539",
+      "23297474"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "reformingmedicaretowardamodifiedryanplan",
+    "pmids": [
+      "21524207",
+      "21879917",
+      "21879918"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarephysicianpaymentrulesfor2011aprimerfortheneurointerventionalist",
+    "pmids": [
+      "21670102",
+      "21990479"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "racialvariationinthecosteffectivenessofchemotherapyforprostatecancer",
+    "pmids": [
+      "21711065",
+      "21886506"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "patientandplancharacteristicsaffectingabandonmentoforaloncolyticprescriptions",
+    "pmids": [
+      "21711076",
+      "21886519"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hospitalnursingworkforcecostswagesoccupationalmixandresourceutilization",
+    "pmids": [
+      "21799362",
+      "26426130"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogrammedicaresharedsavingsprogramaccountablecareorganizationsfinalrule",
+    "pmids": [
+      "22046633",
+      "26065102"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hospitalcareandmedicalutilizationafterdischarge",
+    "pmids": [
+      "22084339",
+      "22084340",
+      "22084341",
+      "22084342",
+      "22084343",
+      "22084344",
+      "22084345"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "perceptionsandutilizationofprimaryhealthcareservicesiniraqfindingsfromanationalhouseholdsurvey",
+    "pmids": [
+      "22176866",
+      "22555121"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "newpathwaystomedicarecoverageforinnovativepetradiopharmaceuticalsreportofamedicalimagingtechnologyalliancemitaworkshop",
+    "pmids": [
+      "22178626",
+      "22192574"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whytheunitedstatescenterformedicareandmedicaidservicescmsshouldnotextendreimbursementindicationsforcarotidarteryangioplastystenting",
+    "pmids": [
+      "22226698",
+      "22330629",
+      "22574286"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarehealthsupportpilotprogram",
+    "pmids": [
+      "22335752",
+      "22335753",
+      "22335754",
+      "22335755"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "evaluationforcoronaryarterydiseaseandmedicarespending",
+    "pmids": [
+      "22396506",
+      "22396507"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "pharmaceuticalsandmedicaldevicesmedicarepartd",
+    "pmids": [
+      "22403844",
+      "24482890",
+      "29361658",
+      "30695850"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "regionalvariationinmedicarepartddrugspending",
+    "pmids": [
+      "22571214",
+      "22571215"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "participatinginthemedicareerxincentiveprogram",
+    "pmids": [
+      "22590788",
+      "22973741"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "visitdurationforoutpatientphysicianofficevisitsamongpatientswithcancer",
+    "pmids": [
+      "22693981",
+      "22942822"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "guidelinebasedpeertopeerconsultationoptimizespegfilgrastimusewithnoadverseclinicalconsequences",
+    "pmids": [
+      "22694110",
+      "22942828"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "impactofpaymentreformonchemotherapyattheendoflife",
+    "pmids": [
+      "22694115",
+      "22942834"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "bigthingscomeinbundledpackagesimplicationsofbundledpaymentsystemsinhealthcarereimbursementreform",
+    "pmids": [
+      "23092934",
+      "31479298"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "insuranceandracerelateddisparitiesdecreaseinelderlytraumapatients",
+    "pmids": [
+      "23147178",
+      "23887575"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "statementregardingthepreandpostmarketassessmentofdurableimplantableventricularassistdevicesintheunitedstatesexecutivesummary",
+    "pmids": [
+      "23149496",
+      "23153480"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "statementregardingthepreandpostmarketassessmentofdurableimplantableventricularassistdevicesintheunitedstates",
+    "pmids": [
+      "23149497",
+      "23153481",
+      "23206981"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hospitalnursingand30dayreadmissionsamongmedicarepatientswithheartfailureacutemyocardialinfarctionandpneumonia",
+    "pmids": [
+      "23151591",
+      "24022077"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "bendingthehealthcarecostcurve",
+    "pmids": [
+      "23252543",
+      "23252545"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "growthofambulatorysurgicalcenterssurgeryvolumeandsavingstomedicare",
+    "pmids": [
+      "23287938",
+      "23820999"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "towardpopulationmanagementinanintegratedcaremodel",
+    "pmids": [
+      "23539229",
+      "24496184"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "canadahealthsystemreview",
+    "pmids": [
+      "23628429",
+      "33527903"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "themedicalimagingtechnologyallianceconferenceonresearchendpointsappropriateformedicarecoverageofnewpetradiopharmaceuticals",
+    "pmids": [
+      "23907756",
+      "23916799"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "mortalitytrendsincriticalaccesshospitals",
+    "pmids": [
+      "23917295",
+      "23917296"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "observationcare",
+    "pmids": [
+      "24106954",
+      "24106955"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "preventableacutecarespendingformedicarepatients",
+    "pmids": [
+      "24219955",
+      "24219956"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thehospicehumanecareforthedying",
+    "pmids": [
+      "24306758",
+      "24307196"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "discussion",
+    "pmids": [
+      "25239362",
+      "27016966"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "makingsenseofthemedicarephysicianpaymentdatareleaseuseslimitationsandpotential",
+    "pmids": [
+      "25470832",
+      "25508459"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "betteraccesstomentalhealthcareandthefailureofthemedicareprincipleofuniversality",
+    "pmids": [
+      "25716601",
+      "25832148"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "longtermcarefundingoflongtermcare",
+    "pmids": [
+      "25775719",
+      "27116783",
+      "28252274",
+      "29360305",
+      "30681805"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicaresstepbackfromglobalpaymentsunbundlingpostoperativecare",
+    "pmids": [
+      "25853742",
+      "25946303"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "notavailable",
+    "pmids": [
+      "25874463",
+      "27479257",
+      "30582746",
+      "35724072",
+      "36577680",
+      "40402749"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "incentivesforsmokingcessation",
+    "pmids": [
+      "25983287",
+      "31313293"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "patternsofhealthinsurancecoveragearoundthetimeofpregnancyamongwomenwithliveborninfantspregnancyriskassessmentmonitoringsystem29states2009",
+    "pmids": [
+      "26086743",
+      "26959274"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "cmsreimbursementreform",
+    "pmids": [
+      "26163008",
+      "26179821"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "performanceinyear1ofpioneeraccountablecareorganizations",
+    "pmids": [
+      "26287859",
+      "26287860"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "anassessmentmodelforevaluatingoutcomesinfederallyqualifiedhealthcentersdentaldepartmentsresultsofa5yearstudy",
+    "pmids": [
+      "26304949",
+      "27458315"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "vaccinehesitancycausesconsequencesandacalltoaction",
+    "pmids": [
+      "26337116",
+      "26615171"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "preventinghospitalreadmissionsandlimitingthecomplicationsassociatedwithtotaljointarthroplasty",
+    "pmids": [
+      "26498587",
+      "27049191"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "choosingwiselyrecommendationsusingadministrativeclaimsdata",
+    "pmids": [
+      "27043111",
+      "27043112",
+      "27043113"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "vascularspecialistresponsetomedicareevidencedevelopmentcoverageadvisorycommitteemedcacpanelonperipheralarterydiseaseofthelowerextremities",
+    "pmids": [
+      "27062192",
+      "27063017",
+      "27075208"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "businessofhealthbusinessofhealthinsurance",
+    "pmids": [
+      "27116765",
+      "28248463",
+      "29359895",
+      "30681303"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "businessofhealthbusinessofhealthcare",
+    "pmids": [
+      "27116766",
+      "28248462",
+      "30681304"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcarereformadministrativerulemaking",
+    "pmids": [
+      "27116775",
+      "28248472"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcarereformdeliveryreform",
+    "pmids": [
+      "27116776",
+      "29360298",
+      "30681785"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcarereformpaymentreform",
+    "pmids": [
+      "27116778",
+      "29360300",
+      "30681795"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "managedcare",
+    "pmids": [
+      "27116780",
+      "29360302"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "pharmaceuticalsandmedicaldevicesbusinesspractices",
+    "pmids": [
+      "27116796",
+      "29361660"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "nonreimbursementforpreventablehealthcareacquiredconditions",
+    "pmids": [
+      "27362689",
+      "27362690"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "antibioticstewardshipinlongtermcareacalltoaction",
+    "pmids": [
+      "27412311",
+      "28655370"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "sloveniahealthsystemreview",
+    "pmids": [
+      "27467813",
+      "34994690"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "estimatinglongitudinalrisksandbenefitsfromcardiovascularpreventivetherapiesamongmedicarepatientsthemillionheartslongitudinalascvdriskassessmenttoolaspecialreportfromtheamericanheartassociationandamericancollegeofcardiology",
+    "pmids": [
+      "27815375",
+      "27825770"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "2016annualreportofthesocietyofthoracicsurgeonsamericancollegeofcardiologytranscathetervalvetherapyregistry",
+    "pmids": [
+      "27955994",
+      "27956264"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthcarefacilities",
+    "pmids": [
+      "28248465",
+      "29359902"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "longtermcareendoflifeissues",
+    "pmids": [
+      "28252273",
+      "29360304"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "physicianchargesandmedicarepayments",
+    "pmids": [
+      "28464137",
+      "28464139"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "ananalysisofmedicarereimbursementtoophthalmologistsyears2012to2013",
+    "pmids": [
+      "28784553",
+      "29277399"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "redownstreamimagingutilizationafteremergencydepartmentultrasoundinterpretedbyradiologistsversusnonradiologistsamedicareclaimsbasedstudy",
+    "pmids": [
+      "28982525",
+      "29275914"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "reredownstreamimagingutilizationafteremergencydepartmentultrasoundinterpretedbyradiologistsversusnonradiologistsamedicareclaimsbasedstudy",
+    "pmids": [
+      "28982526",
+      "29275913"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "therelationshipofobesitytohospiceuseandexpenditures",
+    "pmids": [
+      "29049767",
+      "29049768"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareprogramhospitaloutpatientprospectivepaymentandambulatorysurgicalcenterpaymentsystemsandqualityreportingprogramsfinalrulewithcommentperiod",
+    "pmids": [
+      "29231672",
+      "29240321"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "outcomesafteradjustablegastricbanding",
+    "pmids": [
+      "29282457",
+      "29282465"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "macraandthequalitypaymentprogramhowdoesitrelatetoorthopaedicnursing",
+    "pmids": [
+      "29369128",
+      "29369129"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theethicsofbundledpaymentsintotaljointreplacementcherrypickingandlemondropping",
+    "pmids": [
+      "29565798",
+      "29726671"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "financialrelationshipsbetweenneurologistsandindustrythe2015openpaymentsdatabase",
+    "pmids": [
+      "29728521",
+      "31110144"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "recommendationsfromtheinternationalevidencebasedguidelinefortheassessmentandmanagementofpolycysticovarysyndrome",
+    "pmids": [
+      "30033227",
+      "30052961"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "influenceofagesexandgenerationonphysicianpaymentsandclinicalactivityinontariocanadaanageperiodcohortanalysis",
+    "pmids": [
+      "30236775",
+      "31004590"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicaresbundledpaymentsinitiativeformedicalconditions",
+    "pmids": [
+      "30380389",
+      "30382701"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "mostfrequentlybilleddrgsrankedby2014medicarepatientdischarges",
+    "pmids": [
+      "30398782",
+      "30716270"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "managingtheeconomicchallengesinthetreatmentofheartfailure",
+    "pmids": [
+      "30565564",
+      "34953483"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "potentialunintendedeffectsofmedicaresbundledpaymentsforcareimprovementprogram",
+    "pmids": [
+      "30620365",
+      "30620366"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicareforall",
+    "pmids": [
+      "31033020",
+      "31568025",
+      "38511685"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "responsetocommentonpatternsofpostoperativevisitsamongmedicarefeeforservicebeneficiaries",
+    "pmids": [
+      "31033492",
+      "31567346"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "commentonpatternsofpostoperativevisitsamongmedicarefeeforservicebeneficiaries",
+    "pmids": [
+      "31232788",
+      "31726646"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "considerationsinanalysisofmedicaregraduatemedicaleducationpaymentpolicies",
+    "pmids": [
+      "32119047",
+      "32119048"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "enteralandparenteralorderwritingsurveyacollaborativeevaluationbetweentheacademyofnutritionanddieteticsdietitiansinnutritionsupportdieteticspracticegroupandtheamericansocietyforparenteralandenteralnutritionaspendieteticspracticesection",
+    "pmids": [
+      "32215972",
+      "32224019"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "trifocalintraocularlensesversusbifocalintraocularlensesaftercataractextractionamongparticipantswithpresbyopia",
+    "pmids": [
+      "32584432",
+      "36705482"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "standardizingdefinitionsandreportingguidelinesfortheinfertilitycoreoutcomesetaninternationalconsensusdevelopmentstudy",
+    "pmids": [
+      "33252643",
+      "33272619"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "top10prioritiesforfutureinfertilityresearchaninternationalconsensusdevelopmentstudy",
+    "pmids": [
+      "33252677",
+      "33272617"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "innovationsingeriatricoralhealthcare",
+    "pmids": [
+      "33641760",
+      "37045537"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "healthinsuranceanddiabetes",
+    "pmids": [
+      "33651532",
+      "38117923"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "effectoftheaffordablecareactondiabetescareatmajorhealthcentersnewlydetecteddiabetesanddiabetesmedicationmanagement",
+    "pmids": [
+      "34187842",
+      "34933874"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "washingtoncommitteeforneurologicalsurgerytheevolutionofneurosurgerysinvolvementinpublicpolicy",
+    "pmids": [
+      "34355751",
+      "34359045"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarereimbursementforcommongeneralsurgeryprocedureshasdeclinedoverthelastdecade",
+    "pmids": [
+      "34736640",
+      "35184815"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "whynothomeastudyoftheimpactofanefforttoreducepostacuteexpenditures",
+    "pmids": [
+      "34846317",
+      "34846318"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "sleepapneasyndromesasclinicalpracticeguidelines2020",
+    "pmids": [
+      "34986992",
+      "38469064"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "granisetronextendedreleasesubcutaneousinjectionversuspalonosetroninfusionforcinvpreventioncostcomparisonofunscheduledhydration",
+    "pmids": [
+      "35261710",
+      "35261717"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "impactofcertificateofneedonlumbardiscectomyreimbursementandutilization",
+    "pmids": [
+      "35377304",
+      "36594976"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "apotentialpathtouniversalcoveragewithmedicareadvantageforall",
+    "pmids": [
+      "35471520",
+      "35471521",
+      "35471522"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "lifeyearslostassociatedwithmentalillnessacohortstudyofbeneficiariesofasouthafricanmedicalinsurancescheme",
+    "pmids": [
+      "36711937",
+      "37544483"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "challengesformedicareanduniversalhealthcareinaustraliasince2000",
+    "pmids": [
+      "36739106",
+      "38366282"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "supervisedexercisetrainingforchronicheartfailurewithpreservedejectionfractionascientificstatementfromtheamericanheartassociationandamericancollegeofcardiology",
+    "pmids": [
+      "36943925",
+      "36958952"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "useandcostofskinbiopsyproceduresinthemedicarepartbfeeforservicepopulation2017to2020",
+    "pmids": [
+      "36993436",
+      "37085668"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "surrogacyandthelawintheuk",
+    "pmids": [
+      "37076444",
+      "37227980"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "genderdisparitiesinmedicalindustrypayments",
+    "pmids": [
+      "37223887",
+      "37223913"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "electronicconnectivitybetweenhospitalpairsimpactonemergencydepartmentrelatedutilization",
+    "pmids": [
+      "37846192",
+      "41252584"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "medicarephysicianfeeschedule",
+    "pmids": [
+      "37988092",
+      "37988093",
+      "37988094",
+      "37988095",
+      "37988096"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "risingpricesandlowermedicarereimbursementratescreateoutrageamongclinicians",
+    "pmids": [
+      "38517411",
+      "38517413"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "acceptabilityfeasibilityandappropriatenessofintensifiedhealtheducationsmsphonetracingandtransportreimbursementforuptakeofvoluntarymedicalmalecircumcisioninasexuallytransmittedinfectionsclinicinmalawiamixedmethodsstudy",
+    "pmids": [
+      "38633812",
+      "39854431"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "surgicaldelayassociatedmortalityriskvariesbysubtypeinlocoregionalbreastcancerpatientsinseermedicare",
+    "pmids": [
+      "38659868",
+      "39736650"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "thetelehealthshareddecisionmakingcoachingandnavigationinprimarycaretelescopeinterventionastudyprotocolfordeliveringshareddecisionmakingforlungcancerscreeningbypatientnavigators",
+    "pmids": [
+      "38746205",
+      "39425032"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "unitedstatesproviderexperienceswithtelemedicineforhepatitisctreatmentanationwidesurvey",
+    "pmids": [
+      "38798476",
+      "39351776"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "aqualitativestudyofpeoplewithalzheimersdiseaseinamemoryclinicconsideringlecanemabtreatment",
+    "pmids": [
+      "39371133",
+      "40207637"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "investigatingtheimpactofsocialdeterminantsofhealthondiagnosticdelaysandaccesstoantifibrotictreatmentinidiopathicpulmonaryfibrosis",
+    "pmids": [
+      "39606330",
+      "40502238"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "implementingprecisionmedicinefordilatedcardiomyopathyinsightsfromthedcmconsortium",
+    "pmids": [
+      "39649582",
+      "40528765"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "evidencebasedguidelineprematureovarianinsufficiency",
+    "pmids": [
+      "39652037",
+      "39660328"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "sociodemographicpredictorsofacutecornealhydropsinpatientswithunstablekeratoconus",
+    "pmids": [
+      "39974065",
+      "40465589"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "navigatinghealthinsuranceselectionforinvitrofertilizationivfbenefitsastudyprotocol",
+    "pmids": [
+      "40196280",
+      "40602660"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "communitybaseddoulasandmedicaidexpansionaresourcebasedapproachtosupportthewellbeingoflowincomepostpartumwomen",
+    "pmids": [
+      "40235489",
+      "40652181"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hrsaccscientificstatementguidingprinciplesonsamedaydischargeforintracardiaccatheterablationprocedures",
+    "pmids": [
+      "40272321",
+      "40272340"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "incidencepersistenceandsteadystateprevalenceincodingintensityforhealthplanpayment",
+    "pmids": [
+      "40321285",
+      "41204802"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "theimpactofemergingtherapiesanddecliningphysicianreimbursementondupuytrendiseasetreatmenta21yearreview",
+    "pmids": [
+      "40372337",
+      "42621427"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "costresearchandeducationprovidersperspectivesonmakingneurofeedbackmoreaccessible",
+    "pmids": [
+      "40386379",
+      "41148522"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hearingaidadoptionratesperceptionsattitudesandinfluencingfactorsofprospectivehearingaidusers",
+    "pmids": [
+      "40425271",
+      "40913255"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "arealworldevaluationoflongitudinalhealthcareexpensesinahealthsystemregistryoftype2diabetesmellitusandcardiovasculardiseaseenabledbythe21stcenturycuresact",
+    "pmids": [
+      "40492070",
+      "41767452"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "hrsaccscientificstatementguidingprinciplesontheperformanceofintracardiacablationproceduresinambulatorysurgicalcenters",
+    "pmids": [
+      "41283865",
+      "41283871"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "eprescribing",
+    "pmids": [
+      "18409239",
+      "18754257"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "longtermcarefacilityqualityandsafetyissuebrief",
+    "pmids": [
+      "20217926",
+      "21374846"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  },
+  {
+    "type": "same normalized title",
+    "key": "interventionstoimprovetheappropriateuseofpolypharmacyforolderpeople",
+    "pmids": [
+      "22592727",
+      "25288041",
+      "30175841"
+    ],
+    "status": "Candidate report relationship; not automatically merged"
+  }
+]

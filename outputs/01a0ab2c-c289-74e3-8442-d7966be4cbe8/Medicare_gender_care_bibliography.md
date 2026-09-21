@@ -396,7 +396,7 @@ Pasquale MK, Sheer RL, Yehoshua A, McFadden A, Chines A, Caloyeras J. Evaluation
 
 [DOI](https://doi.org/10.1097/mlr.0000000000001459) · [PMID 33273290](https://pubmed.ncbi.nlm.nih.gov/33273290/) · [Reviewed source](https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/)
 
-**Role:** Candidate evidence / retained code-policy component. **Access:** Full-text sections.
+**Role:** Candidate evidence / retained code-policy component. **Access:** Full main-text XML and tables reviewed on 2026-09-21; figure images and supplementary appendix not independently inspected.
 
 **Citation metadata:** Verified against Europe PMC / MEDLINE; checked 2026-09-16.
 
@@ -864,6 +864,76 @@ Metadata note: Linked PMID 36255438 is Comment in, not a correction.
 
 Metadata note: Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json.
 
+## Translational intervention context and linked reports
+
+### L-T01
+
+Agarwal SD, Metzler E, Chernew M, Thomas E, Press VG, Boudreau E, et al. Reduced Cost Sharing and Medication Management Services for COPD: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(10):1186-1194.
+
+[DOI](https://doi.org/10.1001/jamainternmed.2024.3499) · [PMID 39073823](https://pubmed.ncbi.nlm.nih.gov/39073823/) · [Reviewed full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC11287444/)
+
+**Role:** Translational intervention context; outside primary patient-sex synthesis. **Access:** Full publisher main text/tables reviewed; XML failed twice; supplements/protocol not independently reviewed. Historical VBID discussion is not a current-policy verification..
+
+**Citation metadata:** Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent; checked 2026-09-21.
+
+**Analytic subject:** Intervention effectiveness and implementation context. **Unit:** Six simple-randomization instances pooled; adjusted sex, age, region, baseline outcome, randomization month/year; follow-up duration weights. Race analysis includes interactions; overall analysis omits race. LATE applies to invitation-induced enrollees and assumes invitation affects outcomes only through enrollment. Multiplicity addressed for secondary outcomes with Benjamini-Hochberg..
+
+Patient sex/gender: Sex covariate only; no sex-stratified intervention effects or sex interaction reported in reviewed main text/tables.. Physician sex/gender: No physician-gender effect tested.
+
+Comparison: Intervention/implementation versus comparator; not female-versus-male treatment effect. Inference boundary: No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap.
+
+Metadata note: Europe PMC firstPublicationDate represents the October issue; publisher explicitly dates online publication July 29, 2024. XML retrieval failed twice with HTTP 500; publisher web text was accessible.
+
+### L-T02
+
+Zink A, Wehrly D, Bozzi D, Sutherland A, Boudreau E, McWilliams JM, et al. Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool. JAMA Netw Open. 2025;8(7):e2519038.
+
+[DOI](https://doi.org/10.1001/jamanetworkopen.2025.19038) · [PMID 40608336](https://pubmed.ncbi.nlm.nih.gov/40608336/) · [Reviewed full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/)
+
+**Role:** Translational intervention context; outside primary patient-sex synthesis. **Access:** Full main text and tables reviewed from XML; supplementary estimates not independently extracted..
+
+**Citation metadata:** Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent; checked 2026-09-21.
+
+**Analytic subject:** Intervention effectiveness and implementation context. **Unit:** Practice tax-ID and time fixed effects; HMO-by-HRR-by-year effects plus age, gender, race, low-income subsidy, dual status and HMO; SE clustered by practice. Treated practice definition >=50% clinicians linked to vendor data; alternative10%/90% definitions and event-study checks. Log-spending models summarized as percentage changes in the article body..
+
+Patient sex/gender: Enrollment gender is an adjustment covariate; no sex/gender intervention contrast reported in reviewed material.. Physician sex/gender: No physician-gender effect tested.
+
+Comparison: Intervention/implementation versus comparator; not female-versus-male treatment effect. Inference boundary: No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap.
+
+Metadata note: Europe PMC firstPublicationDate July 1 is the issue date; article XML explicitly dates online publication July 3, 2025.
+
+### L-T03
+
+Ying R, Padmanabhan P, Szerencsy A, Mehrotra A, Horwitz LI, Desai SM. Real-Time Prescription Benefit Tool Availability and Prescription Medication Fill Rates: A Post Hoc Analysis of a Cluster Randomized Clinical Trial. JAMA Health Forum. 2026;7(8):e262739.
+
+[DOI](https://doi.org/10.1001/jamahealthforum.2026.2739) · [PMID 42599729](https://pubmed.ncbi.nlm.nih.gov/42599729/) · [Reviewed full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/)
+
+**Role:** Translational intervention context; outside primary patient-sex synthesis. **Access:** Full main text and tables reviewed; Supplement2 selectively reviewed. Original protocol and full2022 parent report not reviewed in this bounded task. Do not call full formal risk-of-bias review complete..
+
+**Citation metadata:** Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent; checked 2026-09-21.
+
+**Analytic subject:** Intervention effectiveness and implementation context. **Unit:** Logistic regression adjusted age, EHR sex, insurance, specialty and drug class; robust SE clustered by practice, sensitivity two-way practice/patient clustering. Dispense matching on patient/medication/prescriber and +/-28-day date window; alternate algorithms and less-restrictive inclusion sensitivity checks..
+
+Patient sex/gender: Sex adjustment only; no sex-stratified intervention effect or intervention-by-sex test in main text or reviewed supplement tables.. Physician sex/gender: No physician-gender effect tested.
+
+Comparison: Intervention/implementation versus comparator; not female-versus-male treatment effect. Inference boundary: No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap.
+
+Metadata note: Date discrepancy preserved: MEDLINE-derived firstPublicationDate is August 7, 2026; article XML Published field and pub-date say August 14, 2026. Year, volume, issue, DOI, title and PMID agree; no date silently substituted.
+
+### L-T03-P1
+
+Desai SM, Chen AZ, Wang J, Chung WY, Stadelman J, Mahoney C, et al. Effects of Real-time Prescription Benefit Recommendations on Patient Out-of-Pocket Costs: A Cluster Randomized Clinical Trial. JAMA Intern Med. 2022;182(11):1129-1137.
+
+[DOI](https://doi.org/10.1001/jamainternmed.2022.3946) · [PMID 36094537](https://pubmed.ncbi.nlm.nih.gov/36094537/) · [Reviewed full text](https://pmc.ncbi.nlm.nih.gov/articles/PMC9468947/)
+
+**Role:** Linked parent report of L-T03; not an independent trial. **Access:** Verified metadata and abstract only.
+
+**Citation metadata:** Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent; checked 2026-09-21.
+
+Linked reference: [L-T03](#l-t03) (Earlier report of the same trial).
+
+Metadata note: MEDLINE publication-type labels include Comment, but the verified title/abstract describe the original cluster randomized trial. Design classification follows the article; linked Comment in records are not separate corrections or trials.
+
 ## Methodology and reporting guidance
 
 ### M-001
@@ -966,6 +1036,48 @@ Metadata note: This is a narrative methodological guide, not a protocol, complet
 
 Metadata note: Use for practical workflow reminders only; PRISMA 2020, PRISMA-P, PRISMA-S, PRESS, design-specific risk-of-bias tools and GRADE/CERQual remain the governing methods sources for this project.
 
+### M-010
+
+Sterne JAC, Savović J, Page MJ, Elbers RG, Blencowe NS, Boutron I, et al. RoB 2: a revised tool for assessing risk of bias in randomised trials. BMJ. 2019;366:l4898.
+
+[DOI](https://doi.org/10.1136/bmj.l4898) · [PMID 31462531](https://pubmed.ncbi.nlm.nih.gov/31462531/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/31462531/)
+
+**Role:** Primary methodological source for a risk-of-bias instrument; not Medicare evidence.. **Access:** PubMed/MEDLINE metadata and official RoB 2/Cochrane tool guidance landing pages reviewed; full detailed guidance manual not assessed in this task..
+
+**Citation metadata:** Verified against PubMed and the MEDLINE record in Europe PMC, with official tool-developer sources checked.; checked 2026-09-21.
+
+Metadata note: Cite the primary BMJ article for planned RoB 2 appraisal, alongside the exact design-specific manual when the protocol version is frozen.
+
+Metadata note: Instrument availability and bibliographic verification do not mean formal appraisal has occurred.
+
+Metadata note: Select the variant by trial design and the result/estimand being assessed. A sex association from an RCT-derived cohort is not automatically a randomized intervention effect.
+
+Metadata note: Complete author list follows PubMed/MEDLINE: 28 authors, including Jonathan R Emberson; the tool-site suggested citation currently omits him.
+
+Metadata note: The MEDLINE Comment on link to PMID 22008217 concerns the earlier 2011 risk-of-bias article; it is not an erratum or a second RoB 2 study. No linked erratum/retraction was returned in this bounded metadata check.
+
+### M-011
+
+Barker TH, Hasanoff S, Aromataris E, Stone JC, Leonardi-Bee J, Sears K, et al. The revised JBI critical appraisal tool for the assessment of risk of bias for analytical cross-sectional studies. JBI Evid Synth. 2026;24(3):401-408.
+
+[DOI](https://doi.org/10.11124/jbies-24-00523) · [PMID 40521701](https://pubmed.ncbi.nlm.nih.gov/40521701/) · [Reviewed source](https://pubmed.ncbi.nlm.nih.gov/40521701/)
+
+**Role:** Primary methodological source for a risk-of-bias instrument; not Medicare evidence.. **Access:** PubMed/MEDLINE metadata; current official JBI tool page; official JBI-hosted publication text inspected, including tool-development/application sections and Table 1 context. Current linked DOCX identified but its contents were not reviewed..
+
+**Citation metadata:** Verified against PubMed and the MEDLINE record in Europe PMC, with official tool-developer sources checked.; checked 2026-09-21.
+
+Metadata note: Use 2026;24(3):401-408 for the issue citation; preserve first online publication date 2025-05-10 separately. Copyright 2025 does not change the issue year.
+
+Metadata note: Current tool is revised; do not silently cite or apply the older 2017 analytical cross-sectional checklist as though it were this version.
+
+Metadata note: The manuscript may name the instrument as planned; no formal JBI appraisal or implemented version is claimed. Reviewers must read and freeze the exact manual/template and pilot interpretation before use.
+
+Metadata note: This instrument concerns analytical cross-sectional exposure/outcome associations. It is not a universal tool for cohort studies, prevalence-only descriptions, randomized effects, fee-schedule inventories or policy documents.
+
+Metadata note: The paper distinguishes study-, outcome- and result-level judgments; preserve those levels instead of reducing appraisal to a numeric paper score.
+
+Metadata note: No linked erratum/retraction was returned by the bounded MEDLINE/Europe PMC metadata check; this is not proof of absence.
+
 ## Clinical guidance for anatomy and physiology classification
 
 These sources support clinical classification, not Medicare coverage decisions. C-IDs are guidance records and are not counted as scientific studies.
@@ -1064,9 +1176,11 @@ Linked records: P12. Carried from research sources; not reverified during biblio
 
 ### P-012
 
-Bone mass measurement: estrogen-deficient risk category. [Source](https://www.medicare.gov/coverage/bone-mass-measurements).
+Bone mass measurements. [Source](https://www.medicare.gov/coverage/bone-mass-measurements).
 
-Linked records: G04, G05. Carried from research sources; not reverified during bibliography backfill.
+Linked records: G04, G05, Translational opportunity assessment. Recorded source access: 2026-09-21. Existing source ID retained; current coverage page rechecked.
+
+Context and measurement: Part B covers bone mass measurement under listed qualifying conditions, generally every 24 months or more often when medically necessary. Conditions include clinician-determined estrogen deficiency with osteoporosis risk, specified imaging findings, steroid treatment, primary hyperparathyroidism and monitoring osteoporosis treatment. The test has no patient charge when coverage conditions are met and the provider accepts assignment. Neither male sex nor female sex alone establishes all clinical and coverage criteria; coverage conditions do not define every case of clinical need.
 
 ### P-013
 
@@ -1118,9 +1232,11 @@ Linked records: G15. Carried from research sources; not reverified during biblio
 
 ### P-021
 
-Lymphedema compression garments, wraps and bandaging supplies. [Source](https://www.medicare.gov/coverage/lymphedema-compression-treatment-items).
+Lymphedema compression treatment items. [Source](https://www.medicare.gov/coverage/lymphedema-compression-treatment-items).
 
-Linked records: A01. Carried from research sources; not reverified during bibliography backfill.
+Linked records: A01, Translational opportunity assessment. Recorded source access: 2026-09-21. Existing source ID retained; current coverage page rechecked.
+
+Context and measurement: Part B covers qualifying compression treatment items for diagnosed lymphedema when ordered by a clinician. After the Part B deductible, generally 20% of the Medicare-approved amount is owed. Cost sharing and supplier fulfillment can remain after benefit coverage. Earlier pre-2024 studies cannot establish current Medicare noncoverage.
 
 ### P-022
 
@@ -1202,9 +1318,11 @@ Linked records: Drug formularies. Version/date: 2026-08-25. Recorded source acce
 
 ### P-035
 
-CMS RVU26C physician relative value files. [Source](https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c).
+RVU26C. [Source](https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c).
 
-Linked records: Procedure values. Version/date: 2026-06-30. Recorded source access: 2026-09-16. Carried from research sources; not reverified during bibliography backfill.
+Linked records: Procedure values, Translational opportunity assessment. Version/date: 2026-06-30. Recorded source access: 2026-09-21. Existing source ID retained; 2026 file landing page rechecked; file not reanalyzed for this opportunity assessment.
+
+Context and measurement: The landing page identifies RVU26C as the July 2026 physician fee schedule release, updated June 30, 2026. CMS notes that a differential conversion factor applies for qualifying APM participants from January 1, 2026; QP and non-QP files have different contents. Landing-page verification is not validation of code-level values; payment reconstruction must use the appropriate effective file, setting, modifiers and geography.
 
 ### P-036
 
@@ -1277,3 +1395,107 @@ NLM VSAC indexed CPT 51597 descriptor, version 2021. [Source](https://vsac.nlm.n
 Linked records: Procedure values. Version/date: 2021. Recorded source access: 2026-09-16. Verified against the indexed NLM VSAC code entry on 2026-09-16.
 
 Context and measurement: The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values.
+
+### P-046
+
+CMS Interoperability and Prior Authorization Final Rule CMS-0057-F. [Source](https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f).
+
+Linked records: Translational opportunity assessment. Version/date: 2024-01-17. Recorded source access: 2026-09-21. Final rule summary; requirements have distinct implementation dates.
+
+Context and measurement: Applies to Medicare Advantage and specified Medicaid, CHIP and federally facilitated Exchange payers; Original Medicare is not an impacted payer under this rule. Prior Authorization API and related API changes generally require compliance beginning 2027-01-01; exact dates vary by payer type. Operational provisions generally begin 2026-01-01. Decision timeframes for covered non-drug requests are 72 hours expedited and seven calendar days standard for impacted payers subject to those provisions; QHP issuers on the FFEs are excluded from these finalized timeframe provisions. Denial reasons and public prior-authorization metrics are required. Finalized 2024 prior-authorization provisions exclude drugs. FHIR R4.0.1 is a required standard; named Da Vinci guides are recommended under this rule, not universally required by it. Interoperability and timeliness duties do not guarantee instantaneous approval, eliminate medical review, prove sex disparity, or establish reimbursement for software.
+
+### P-047
+
+Prior Authorization API. [Source](https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current CMS implementation FAQ checked at assessment cutoff.
+
+Context and measurement: CMS reiterates seven-calendar-day standard and 72-hour expedited maximum timeframes for applicable non-drug requests, with payer-specific regulatory exceptions/extensions. Some API requests still require clinical review; real-time approval is not guaranteed. Public aggregate metrics are not a patient-level sex-stratified dataset. Consult payer-specific legal provisions and actual request records before labeling a request overdue; public aggregate metrics cannot identify patient-sex effects.
+
+### P-048
+
+2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule. [Source](https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule).
+
+Linked records: Translational opportunity assessment. Version/date: 2026-04-10. Recorded source access: 2026-09-21. PROPOSED (CMS-0062-P); not treated as finalized as of 2026-09-21.
+
+Context and measurement: Proposes adding medical-benefit drugs to Prior Authorization APIs beginning 2027-10-01. Proposes additional NCPDP requirements for pharmacy-benefit drugs for specified non-Part-D payers, aligning with existing Medicare Part D requirements. Proposes making additional implementation guides mandatory, extending drug data availability and updating reporting. An effective date or proposed compliance date is conditional on finalization; this source does not establish a present drug-FHIR obligation. Do not conflate pharmacy-benefit NCPDP transactions with proposed medical-benefit FHIR transactions, or sell unfinalized requirements as legal mandates.
+
+### P-049
+
+E-Prescribing Standards and Requirements. [Source](https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current CMS standards page rechecked; June 17, 2024 final rule CMS-4205-F2 summarized.
+
+Context and measurement: Part D sponsors have been required to implement beneficiary real-time benefit tools since 2023-01-01. NCPDP Real-Time Prescription Benefit version 13 is required for prescriber RTBTs supported by Part D sponsors beginning 2027-01-01. NCPDP Formulary and Benefit version 60 begins 2027-01-01; NCPDP SCRIPT 2023011 becomes required beginning 2028-01-01 after transition. Prescription-related electronic transactions include medication history and electronic prior authorization. These are standards/plan support requirements, not demonstrated clinical benefit, universal clinician use, or a reimbursement code for an independent application.
+
+### P-050
+
+HTI-4 Overview and Key Dates for Certification Program. [Source](https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Final-rule certification overview, published as part of FY2026 IPPS rule.
+
+Context and measurement: HTI-4 includes an RTPB certification criterion based on NCPDP RTPB version 13 and three new electronic prior-authorization certification criteria. The overview identifies a 2028 RTPB/Base EHR milestone, distinct from the 2027 Part D sponsor standard requirement. Certification criteria and payer mandates are different. Product-specific certification applicability and the latest provider reporting measures need separate confirmation; no claim that every standalone application must certify or is paid for certification.
+
+### P-051
+
+Final CY 2026 Part D Redesign Program Instructions. [Source](https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions).
+
+Linked records: Translational opportunity assessment. Version/date: 2025-04-07. Recorded source access: 2026-09-21. Final guidance for calendar year 2026, rechecked 2026-09-21.
+
+Context and measurement: The annual out-of-pocket threshold for covered Part D drugs is $2,100 in 2026. The benefit redesign changes enrollee, plan, manufacturer and Medicare liability; it is not a universal cap on all health spending. Distinguish covered-drug true out-of-pocket accounting, premiums, noncovered purchases, monthly cash flow and annual spending. Do not apply the 2026 amount to other years.
+
+### P-052
+
+Will this payment option help me?. [Source](https://www.medicare.gov/prescription-payment-plan/will-this-help-me).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current beneficiary guidance checked 2026-09-21.
+
+Context and measurement: The Medicare Prescription Payment Plan spreads Part D out-of-pocket costs over the calendar year; it does not lower drug costs. Monthly bills can change as prescriptions are filled and the number of remaining months falls. The 2026 covered-drug out-of-pocket maximum applies whether or not an enrollee uses the payment plan. A cash-flow tool must not advertise cost reduction merely from installment enrollment or substitute enrollment for affordability assistance.
+
+### P-053
+
+Osteoporosis to Prevent Fractures: Screening. [Source](https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening).
+
+Linked records: Translational opportunity assessment. Version/date: 2025-01-14. Recorded source access: 2026-09-21. Final clinical recommendation; not Medicare coverage policy.
+
+Context and measurement: Recommends screening women aged 65 or older and postmenopausal women under 65 at increased fracture risk. Finds insufficient evidence to determine benefits and harms of screening men. Recommendation applies to adults without known osteoporosis or a history of fragility fracture; it does not answer post-fracture evaluation. Do not turn the screening I statement for men into a recommendation against post-fracture care. Clinical indication and insurance eligibility must be evaluated separately.
+
+### P-054
+
+Lymphedema Compression Treatment Items. [Source](https://www.cms.gov/medicare/payment/fee-schedules/durable-medical-equipment-prosthetic-devices-prosthetics-orthotics-supplies/lymphedema-compression-treatment-items).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current benefit/payment implementation page checked 2026-09-21.
+
+Context and measurement: Benefit includes medically necessary standard/custom gradient garments, wraps, bandaging and specified accessories for affected body parts. CMS pays enrolled DMEPOS suppliers for furnishing covered items. Daytime limit: three garments per affected body part every six months; nighttime: two per affected part every two years, with specified replacement exceptions. Furnishing-related services, including garment donning/doffing education, are bundled in supplier payment; CMS states that this education is not separately payable under the physician fee schedule. Item coverage is not software reimbursement and does not establish realized access. Garments, pumps and surgery have different coverage pathways.
+
+### P-055
+
+Kidney disease education. [Source](https://www.medicare.gov/coverage/kidney-disease-education).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current beneficiary coverage page checked 2026-09-21.
+
+Context and measurement: Part B covers up to six education sessions for eligible people with stage 4 chronic kidney disease referred by a doctor or qualified provider. Specified eligible providers furnish the service; Part B deductible and generally 20% coinsurance apply. Education covers treatment options and relevant health and social concerns. Does not establish coverage for a standalone navigation application, all CKD stages, all transport, unlimited sessions or all proposed users.
+
+### P-056
+
+Clinical Decision Support Software: Guidance for Industry and Food and Drug Administration Staff. [Source](https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software).
+
+Linked records: Translational opportunity assessment. Version/date: 2026-01-29. Recorded source access: 2026-09-21. Final guidance, reissued January 29 after January 6, 2026 update.
+
+Context and measurement: FDA explains statutory criteria excluding some CDS functions from the device definition. Some CDS functions, including certain patient/caregiver functions, remain devices subject to applicable FDA policies. Assessment depends on actual software functions and intended use. None of the proposed opportunities is declared FDA-cleared, exempt, non-device or compliant. Evaluate concrete functions before clinical deployment; guidance is not a product authorization.
+
+### P-057
+
+Clinical Decision Support Software Frequently Asked Questions (FAQs). [Source](https://www.fda.gov/medical-devices/software-medical-device-samd/clinical-decision-support-software-frequently-asked-questions-faqs).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current FDA FAQ checked 2026-09-21.
+
+Context and measurement: FDA advises function-by-function evaluation using relevant digital-health guidance rather than treating all decision support alike. Simple documentation/communication functions and recommendations affecting medical decisions can have different regulatory treatment. Administrative workflow support does not establish that added diagnostic or treatment-selection functions have the same regulatory status.
+
+### P-059
+
+General. [Source](https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/general).
+
+Linked records: Translational opportunity assessment. Recorded source access: 2026-09-21. Current interoperability FAQ checked 2026-09-21.
+
+Context and measurement: The finalized 2024 rule excludes drug prior-authorization requirements because drug standards and processes differ. CMS identifies CMS-0062-P as a proposal to extend requirements to drugs. Original Medicare has a separate prior-authorization/API context; it must not be represented as an impacted payer under CMS-0057-F. An Original Medicare implementation or pilot is not the same as the MA/other impacted payer rule.

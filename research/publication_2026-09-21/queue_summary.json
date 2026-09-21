@@ -1,0 +1,29 @@
+{
+  "date": "2026-09-21",
+  "records": 59147,
+  "rules": {
+    "medicare": "\\bmedicare\\b",
+    "sex_or_gender": "\\b(sex|gender|female\\w*|male\\w*|women|woman|men|man)\\b",
+    "patient_costs": "out.of.pocket|cost.related|cost.sharing|affordab|copay|co.pay|coinsurance|nonadher",
+    "service_valuation": "relative value|\\brvus?\\b|fee schedule|reimburse|\\bpayment",
+    "bone_care": "osteopor|fragility fracture|bone mass|bone mineral|\\bdxa\\b|\\bdexa\\b",
+    "health_it": "decision support|electronic prescrib|e.prescrib|real.time benefit|price transparency|cost transparency|portal|interoperab|prior authoriz",
+    "transgender_focus_signal": "transgender|gender.affirm|gender.diverse|gender dysphor"
+  },
+  "queue_counts": {
+    "A Medicare sex and cost or valuation signals": 1901,
+    "B Medicare bone or health IT signals": 1324,
+    "C Sex and valuation signals without Medicare text": 8656,
+    "D No abstract requires retrieval judgment": 11928,
+    "E All other retrieved records retained": 35338
+  },
+  "abstracts": 47152,
+  "no_abstracts": 11995,
+  "same_doi_groups": 17,
+  "same_title_groups": 303,
+  "human_screened": 0,
+  "records_excluded": 0,
+  "auto_merged": 0,
+  "scope_decisions": 0,
+  "limitations": "Keyword ordering has not been validated for sensitivity or fairness; demographic mentions can be incidental. No queue tier is an exclusion. Transgender keyword flags do not themselves establish focus or participant identity. Same DOI/title may be distinct reports or notices; human adjudication is required."
+}

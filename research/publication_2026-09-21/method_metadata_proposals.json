@@ -1,0 +1,310 @@
+{
+  "created_on": "2026-09-21",
+  "status": "Primary methods reference proposals only; no formal appraisal completed",
+  "canonical_register_target": "research/methodology_references.json",
+  "canonical_max_id_at_check": "M-009",
+  "proposed_ids": [
+    "M-010",
+    "M-011"
+  ],
+  "source_query": "(EXT_ID:31462531 OR EXT_ID:40521701) AND SRC:MED",
+  "source_query_url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=%28EXT_ID%3A31462531+OR+EXT_ID%3A40521701%29+AND+SRC%3AMED&format=json&resultType=core",
+  "metadata_results_found": 2,
+  "normalized_source_snapshot_sha256": "7322a69a1590fffd678aaefe8820029be0a3a65e4e6924c7950b55f16d9f9c9e",
+  "snapshot_hash_note": "Hash refers to pretty-printed JSON response snapshot in temporary storage, not an asserted hash of original HTTP response bytes.",
+  "records": [
+    {
+      "id": "M-010",
+      "authors": [
+        {
+          "family": "Sterne",
+          "given": "Jonathan A C",
+          "initials": "JAC"
+        },
+        {
+          "family": "Savović",
+          "given": "Jelena",
+          "initials": "J"
+        },
+        {
+          "family": "Page",
+          "given": "Matthew J",
+          "initials": "MJ"
+        },
+        {
+          "family": "Elbers",
+          "given": "Roy G",
+          "initials": "RG"
+        },
+        {
+          "family": "Blencowe",
+          "given": "Natalie S",
+          "initials": "NS"
+        },
+        {
+          "family": "Boutron",
+          "given": "Isabelle",
+          "initials": "I"
+        },
+        {
+          "family": "Cates",
+          "given": "Christopher J",
+          "initials": "CJ"
+        },
+        {
+          "family": "Cheng",
+          "given": "Hung-Yuan",
+          "initials": "HY"
+        },
+        {
+          "family": "Corbett",
+          "given": "Mark S",
+          "initials": "MS"
+        },
+        {
+          "family": "Eldridge",
+          "given": "Sandra M",
+          "initials": "SM"
+        },
+        {
+          "family": "Emberson",
+          "given": "Jonathan R",
+          "initials": "JR"
+        },
+        {
+          "family": "Hernán",
+          "given": "Miguel A",
+          "initials": "MA"
+        },
+        {
+          "family": "Hopewell",
+          "given": "Sally",
+          "initials": "S"
+        },
+        {
+          "family": "Hróbjartsson",
+          "given": "Asbjørn",
+          "initials": "A"
+        },
+        {
+          "family": "Junqueira",
+          "given": "Daniela R",
+          "initials": "DR"
+        },
+        {
+          "family": "Jüni",
+          "given": "Peter",
+          "initials": "P"
+        },
+        {
+          "family": "Kirkham",
+          "given": "Jamie J",
+          "initials": "JJ"
+        },
+        {
+          "family": "Lasserson",
+          "given": "Toby",
+          "initials": "T"
+        },
+        {
+          "family": "Li",
+          "given": "Tianjing",
+          "initials": "T"
+        },
+        {
+          "family": "McAleenan",
+          "given": "Alexandra",
+          "initials": "A"
+        },
+        {
+          "family": "Reeves",
+          "given": "Barnaby C",
+          "initials": "BC"
+        },
+        {
+          "family": "Shepperd",
+          "given": "Sasha",
+          "initials": "S"
+        },
+        {
+          "family": "Shrier",
+          "given": "Ian",
+          "initials": "I"
+        },
+        {
+          "family": "Stewart",
+          "given": "Lesley A",
+          "initials": "LA"
+        },
+        {
+          "family": "Tilling",
+          "given": "Kate",
+          "initials": "K"
+        },
+        {
+          "family": "White",
+          "given": "Ian R",
+          "initials": "IR"
+        },
+        {
+          "family": "Whiting",
+          "given": "Penny F",
+          "initials": "PF"
+        },
+        {
+          "family": "Higgins",
+          "given": "Julian P T",
+          "initials": "JPT"
+        }
+      ],
+      "title": "RoB 2: a revised tool for assessing risk of bias in randomised trials.",
+      "journal": "BMJ (Clinical research ed.)",
+      "journal_abbreviation": "BMJ",
+      "year": 2019,
+      "volume": "366",
+      "issue": null,
+      "pages": "l4898",
+      "doi": "10.1136/bmj.l4898",
+      "pmid": "31462531",
+      "pmcid": null,
+      "first_publication_date": "2019-08-28",
+      "issue_date": "2019 Aug",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31462531/",
+      "metadata_status": "Verified against PubMed and the MEDLINE record in Europe PMC, with official tool-developer sources checked.",
+      "verified_on": "2026-09-21",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31462531+AND+SRC%3AMED&format=json&resultType=core",
+      "record_type": "journal-article",
+      "role": "Primary methodological source for a risk-of-bias instrument; not Medicare evidence.",
+      "appraisal_performed": false,
+      "publication_status": "Reference proposal; not yet imported to canonical methodology register by this agent.",
+      "access_level": "PubMed/MEDLINE metadata and official RoB 2/Cochrane tool guidance landing pages reviewed; full detailed guidance manual not assessed in this task.",
+      "verification_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/31462531/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A31462531+AND+SRC%3AMED&format=json&resultType=core",
+        "https://www.riskofbias.info/welcome/rob-2-0-tool",
+        "https://www.riskofbias.info/welcome/rob-2-0-tool/current-version-of-rob-2",
+        "https://www.riskofbias.info/welcome/rob-2-0-tool/rob-2-for-cluster-randomized-trials",
+        "https://methods.cochrane.org/bias/resources/rob-2-revised-cochrane-risk-bias-tool-randomized-trials"
+      ],
+      "tool_versions_available_as_checked": {
+        "individually_randomized_parallel_group": "22 August 2019",
+        "cluster_randomized": "18 March 2021 revision of 10 November 2020",
+        "crossover": "18 March 2021 revision of 8 December 2020"
+      },
+      "tool_version_used_in_project": null,
+      "notes": [
+        "Cite the primary BMJ article for planned RoB 2 appraisal, alongside the exact design-specific manual when the protocol version is frozen.",
+        "Instrument availability and bibliographic verification do not mean formal appraisal has occurred.",
+        "Select the variant by trial design and the result/estimand being assessed. A sex association from an RCT-derived cohort is not automatically a randomized intervention effect.",
+        "Complete author list follows PubMed/MEDLINE: 28 authors, including Jonathan R Emberson; the tool-site suggested citation currently omits him.",
+        "The MEDLINE Comment on link to PMID 22008217 concerns the earlier 2011 risk-of-bias article; it is not an erratum or a second RoB 2 study. No linked erratum/retraction was returned in this bounded metadata check."
+      ]
+    },
+    {
+      "id": "M-011",
+      "authors": [
+        {
+          "family": "Barker",
+          "given": "Timothy H",
+          "initials": "TH"
+        },
+        {
+          "family": "Hasanoff",
+          "given": "Sabira",
+          "initials": "S"
+        },
+        {
+          "family": "Aromataris",
+          "given": "Edoardo",
+          "initials": "E"
+        },
+        {
+          "family": "Stone",
+          "given": "Jennifer C",
+          "initials": "JC"
+        },
+        {
+          "family": "Leonardi-Bee",
+          "given": "Jo",
+          "initials": "J"
+        },
+        {
+          "family": "Sears",
+          "given": "Kim",
+          "initials": "K"
+        },
+        {
+          "family": "Klugar",
+          "given": "Miloslav",
+          "initials": "M"
+        },
+        {
+          "family": "Tufanaru",
+          "given": "Catalin",
+          "initials": "C"
+        },
+        {
+          "family": "Moola",
+          "given": "Sandeep",
+          "initials": "S"
+        },
+        {
+          "family": "Liu",
+          "given": "Xian-Liang",
+          "initials": "XL"
+        },
+        {
+          "family": "Munn",
+          "given": "Zachary",
+          "initials": "Z"
+        }
+      ],
+      "title": "The revised JBI critical appraisal tool for the assessment of risk of bias for analytical cross-sectional studies.",
+      "journal": "JBI evidence synthesis",
+      "journal_abbreviation": "JBI Evid Synth",
+      "year": 2026,
+      "volume": "24",
+      "issue": "3",
+      "pages": "401-408",
+      "doi": "10.11124/jbies-24-00523",
+      "pmid": "40521701",
+      "pmcid": null,
+      "first_publication_date": "2025-05-10",
+      "issue_date": "2026 Mar",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40521701/",
+      "metadata_status": "Verified against PubMed and the MEDLINE record in Europe PMC, with official tool-developer sources checked.",
+      "verified_on": "2026-09-21",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40521701+AND+SRC%3AMED&format=json&resultType=core",
+      "record_type": "journal-article",
+      "role": "Primary methodological source for a risk-of-bias instrument; not Medicare evidence.",
+      "appraisal_performed": false,
+      "publication_status": "Reference proposal; not yet imported to canonical methodology register by this agent.",
+      "access_level": "PubMed/MEDLINE metadata; current official JBI tool page; official JBI-hosted publication text inspected, including tool-development/application sections and Table 1 context. Current linked DOCX identified but its contents were not reviewed.",
+      "verification_urls": [
+        "https://pubmed.ncbi.nlm.nih.gov/40521701/",
+        "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40521701+AND+SRC%3AMED&format=json&resultType=core",
+        "https://jbi.global/critical-appraisal-tools",
+        "https://jbi.global/sites/default/files/2026-03/the_revised_jbi_critical_appraisal_tool_for_the.2.pdf",
+        "https://jbi.global/news/rethinking-risk-bias-cross-sectional-studies"
+      ],
+      "official_tool_url": "https://jbi.global/sites/default/files/2026-05/Assessment%20of%20Risk%20of%20Bias%20for%20Analytical%20Cross-sectional%20Studies%202026.docx",
+      "tool_version_available_as_checked": "Revised analytical cross-sectional instrument labeled 2026 on the current JBI page/download; publication in March 2026 issue.",
+      "tool_version_used_in_project": null,
+      "notes": [
+        "Use 2026;24(3):401-408 for the issue citation; preserve first online publication date 2025-05-10 separately. Copyright 2025 does not change the issue year.",
+        "Current tool is revised; do not silently cite or apply the older 2017 analytical cross-sectional checklist as though it were this version.",
+        "The manuscript may name the instrument as planned; no formal JBI appraisal or implemented version is claimed. Reviewers must read and freeze the exact manual/template and pilot interpretation before use.",
+        "This instrument concerns analytical cross-sectional exposure/outcome associations. It is not a universal tool for cohort studies, prevalence-only descriptions, randomized effects, fee-schedule inventories or policy documents.",
+        "The paper distinguishes study-, outcome- and result-level judgments; preserve those levels instead of reducing appraisal to a numeric paper score.",
+        "No linked erratum/retraction was returned by the bounded MEDLINE/Europe PMC metadata check; this is not proof of absence."
+      ]
+    }
+  ],
+  "manuscript_wording_proposal": "Formal risk-of-bias appraisal remains planned. Reviewers will select design- and result-appropriate instruments, including RoB 2 for randomized intervention effects [M-010] and the revised JBI instrument for analytical cross-sectional associations [M-011]. Exact versions and interpretation rules will be documented and piloted before appraisal; these citations do not indicate that either instrument has already been applied.",
+  "boundary_notes": [
+    "These two references do not cover every included design. Cohort, qualitative, quasi-experimental, service-valuation and policy assessments still need their appropriate methods.",
+    "The current protocol specifies two independent human reviewers; this task does not amend that plan or suggest that AI agents fulfill it.",
+    "M-009 may remain general secondary workflow context, but should not stand in for primary instrument citations.",
+    "No canonical register, manuscript, protocol or eligibility decisions were edited."
+  ]
+}

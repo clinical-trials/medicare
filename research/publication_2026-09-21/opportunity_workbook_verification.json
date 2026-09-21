@@ -1,0 +1,594 @@
+{
+  "built_on": "2026-09-21",
+  "output": "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_health_IT_opportunity_assessment_2026-09-21.xlsx",
+  "authoring": "@oai/artifact-tool; native OOXML hyperlink relationships added by explicitly authorized compatibility helper",
+  "source_sha256": {
+    "research/publication_2026-09-21/opportunity_policy_sources.json": "35b834db1cdab051283e4f2123dbb248eeea7d6ecf04aad79ca50db9ed3f116c",
+    "research/publication_2026-09-21/readiness.json": "fcf3a6a47d5c77cd160f16d00ba28d1b0de3cea1cabc4bc29bf971a8d1167106",
+    "research/publication_2026-09-21/intervention_evidence.json": "9b83aa0e794d6edc2bee5473c0a6c6116d29677032399073e8d6574d4e29bee6",
+    "research/publication_2026-09-21/opportunities.json": "dfb575b728606e3c3e3d0e8a6851c9954ed18109f03d2a583140a4e0dbfceb30",
+    "research/publication_2026-09-21/evidence_roles.json": "551fa71d5787b6d2882063b11712b99f97de631c5351ff67ff75436f79e61bcc",
+    "research/bibliography_metadata.json": "d5788105680d721a96fb47f4a19d2dd4222aa98925155555788a481cff9d590a",
+    "research/methodology_references.json": "2ff63f23b803ea78f0d9958757877d8634b7c9507e23e63d59e9733f31f15be1"
+  },
+  "counts": {
+    "domains": 6,
+    "policies": 16,
+    "detailed_intervention_reports": 4,
+    "linked_parent_reports": 1,
+    "intervention_outcome_rows": 20,
+    "scientific_metadata": 53,
+    "methodology_references": 11,
+    "active_register": 38,
+    "search_pmids": 59147,
+    "human_screened": 0
+  },
+  "sheets": [
+    {
+      "name": "Opportunities",
+      "range": "A1:G12",
+      "rows": 6,
+      "columns": 7
+    },
+    {
+      "name": "Opportunity details",
+      "range": "A1:D12",
+      "rows": 200,
+      "columns": 4
+    },
+    {
+      "name": "Evidence links",
+      "range": "A1:F12",
+      "rows": 17,
+      "columns": 6
+    },
+    {
+      "name": "Intervention outcomes",
+      "range": "A1:H12",
+      "rows": 20,
+      "columns": 8
+    },
+    {
+      "name": "Intervention notes",
+      "range": "A1:D12",
+      "rows": 225,
+      "columns": 4
+    },
+    {
+      "name": "Policy sources",
+      "range": "A1:D12",
+      "rows": 160,
+      "columns": 4
+    },
+    {
+      "name": "Readiness",
+      "range": "A1:D12",
+      "rows": 79,
+      "columns": 4
+    }
+  ],
+  "native_hyperlink_count": 85,
+  "hyperlink_formula_count": 0,
+  "hyperlinks": [
+    {
+      "sheet": "Evidence links",
+      "cell": "E7",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38527966/",
+      "label": "38527966"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F7",
+      "url": "https://doi.org/10.1097/spv.0000000000001504",
+      "label": "10.1097/spv.0000000000001504"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E8",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29554173/",
+      "label": "29554173"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F8",
+      "url": "https://doi.org/10.1001/jamainternmed.2018.0116",
+      "label": "10.1001/jamainternmed.2018.0116"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39250810/",
+      "label": "39250810"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F9",
+      "url": "https://doi.org/10.7326/annals-24-00610",
+      "label": "10.7326/annals-24-00610"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E10",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39073823/",
+      "label": "39073823"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F10",
+      "url": "https://doi.org/10.1001/jamainternmed.2024.3499",
+      "label": "10.1001/jamainternmed.2024.3499"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E11",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40608336/",
+      "label": "40608336"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F11",
+      "url": "https://doi.org/10.1001/jamanetworkopen.2025.19038",
+      "label": "10.1001/jamanetworkopen.2025.19038"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E12",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42599729/",
+      "label": "42599729"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F12",
+      "url": "https://doi.org/10.1001/jamahealthforum.2026.2739",
+      "label": "10.1001/jamahealthforum.2026.2739"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E13",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33273290/",
+      "label": "33273290"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F13",
+      "url": "https://doi.org/10.1097/mlr.0000000000001459",
+      "label": "10.1097/mlr.0000000000001459"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E14",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18302495/",
+      "label": "18302495"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F14",
+      "url": "https://doi.org/10.1359/jbmr.080232",
+      "label": "10.1359/jbmr.080232"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E15",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+      "label": "37285151"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F15",
+      "url": "https://doi.org/10.1001/jamasurg.2023.2017",
+      "label": "10.1001/jamasurg.2023.2017"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E16",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35257055/",
+      "label": "35257055"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F16",
+      "url": "https://doi.org/10.1016/j.ekir.2021.10.022",
+      "label": "10.1016/j.ekir.2021.10.022"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E17",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39978776/",
+      "label": "39978776"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F17",
+      "url": "https://doi.org/10.1089/jwh.2024.0984",
+      "label": "10.1089/jwh.2024.0984"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E18",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
+      "label": "38758183"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F18",
+      "url": "https://doi.org/10.1097/upj.0000000000000612",
+      "label": "10.1097/upj.0000000000000612"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E19",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34736273/",
+      "label": "34736273"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F19",
+      "url": "https://doi.org/10.1097/aog.0000000000004599",
+      "label": "10.1097/aog.0000000000004599"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E20",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34237766/",
+      "label": "34237766"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F20",
+      "url": "https://doi.org/10.1097/aog.0000000000004467",
+      "label": "10.1097/aog.0000000000004467"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E21",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31446591/",
+      "label": "31446591"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F21",
+      "url": "https://doi.org/10.1007/s11764-019-00799-1",
+      "label": "10.1007/s11764-019-00799-1"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E22",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+      "label": "37285151"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F22",
+      "url": "https://doi.org/10.1001/jamasurg.2023.2017",
+      "label": "10.1001/jamasurg.2023.2017"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "E23",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35257055/",
+      "label": "35257055"
+    },
+    {
+      "sheet": "Evidence links",
+      "cell": "F23",
+      "url": "https://doi.org/10.1016/j.ekir.2021.10.022",
+      "label": "10.1016/j.ekir.2021.10.022"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D7",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/",
+      "label": "Full text"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D9",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33273290/",
+      "label": "33273290"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D10",
+      "url": "https://doi.org/10.1097/mlr.0000000000001459",
+      "label": "10.1097/mlr.0000000000001459"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D55",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/",
+      "label": "Open source"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D56",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821705",
+      "label": "Full text"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D58",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39073823/",
+      "label": "39073823"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D59",
+      "url": "https://doi.org/10.1001/jamainternmed.2024.3499",
+      "label": "10.1001/jamainternmed.2024.3499"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D107",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821705",
+      "label": "Open source"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D108",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/",
+      "label": "Full text"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D110",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40608336/",
+      "label": "40608336"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D111",
+      "url": "https://doi.org/10.1001/jamanetworkopen.2025.19038",
+      "label": "10.1001/jamanetworkopen.2025.19038"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D158",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/",
+      "label": "Open source"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D159",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/",
+      "label": "Full text"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D161",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42599729/",
+      "label": "42599729"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D162",
+      "url": "https://doi.org/10.1001/jamahealthforum.2026.2739",
+      "label": "10.1001/jamahealthforum.2026.2739"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D220",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/",
+      "label": "Open source"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D221",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36094537/",
+      "label": "PubMed"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D222",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36094537/",
+      "label": "36094537"
+    },
+    {
+      "sheet": "Intervention notes",
+      "cell": "D223",
+      "url": "https://doi.org/10.1001/jamainternmed.2022.3946",
+      "label": "10.1001/jamainternmed.2022.3946"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D7",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D18",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D19",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D28",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D29",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D39",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D40",
+      "url": "https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D50",
+      "url": "https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D51",
+      "url": "https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D59",
+      "url": "https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D60",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D68",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D69",
+      "url": "https://www.medicare.gov/prescription-payment-plan/will-this-help-me",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D78",
+      "url": "https://www.medicare.gov/prescription-payment-plan/will-this-help-me",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D79",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D88",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D89",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/durable-medical-equipment-prosthetic-devices-prosthetics-orthotics-supplies/lymphedema-compression-treatment-items",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D99",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/durable-medical-equipment-prosthetic-devices-prosthetics-orthotics-supplies/lymphedema-compression-treatment-items",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D100",
+      "url": "https://www.medicare.gov/coverage/kidney-disease-education",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D109",
+      "url": "https://www.medicare.gov/coverage/kidney-disease-education",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D110",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D119",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D120",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/clinical-decision-support-software-frequently-asked-questions-faqs",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D128",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/clinical-decision-support-software-frequently-asked-questions-faqs",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D129",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/general",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D138",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/general",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D139",
+      "url": "https://www.medicare.gov/coverage/bone-mass-measurements",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D148",
+      "url": "https://www.medicare.gov/coverage/bone-mass-measurements",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D149",
+      "url": "https://www.medicare.gov/coverage/lymphedema-compression-treatment-items",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D157",
+      "url": "https://www.medicare.gov/coverage/lymphedema-compression-treatment-items",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D158",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c",
+      "label": "Official source"
+    },
+    {
+      "sheet": "Policy sources",
+      "cell": "D166",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c",
+      "label": "Official source"
+    }
+  ],
+  "previews": [
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/opportunities.png",
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/opportunity_details.png",
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/evidence_links.png",
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/intervention_outcomes.png",
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/intervention_notes.png",
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/policy_sources.png",
+    "/Users/lgm/Documents/ChatGPT/Medicare/outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/opportunity_workbook_previews/readiness.png"
+  ],
+  "formula_error_inspection": "{\"kind\":\"notice\",\"message\":\"Cell search matched 0 entries.\"}"
+}

@@ -1,0 +1,88 @@
+{
+  "verified_on": "2026-09-21",
+  "verification_type": "Artifact and source consistency, not completed scientific review",
+  "pdf_pages": 27,
+  "main_words": 3426,
+  "abstract_words": 199,
+  "main_tables": 2,
+  "main_figures": 2,
+  "printed_references": 59,
+  "canonical_references": 126,
+  "scientific_metadata": 53,
+  "methodology_metadata": 11,
+  "numeric_verified_pmids": 64,
+  "queue_records": 59147,
+  "with_abstract": 47152,
+  "without_abstract": 11995,
+  "human_review_states": {
+    "Awaiting independent human screening": 59147
+  },
+  "extension_payloads_hash_verified": [
+    "research/publication_2026-09-21/search_extensions/raw/additional_metadata_000200.xml.gz",
+    "research/publication_2026-09-21/search_extensions/raw/PM-RXIT-20260921-E1.json",
+    "research/publication_2026-09-21/search_extensions/raw/additional_metadata_000000.xml.gz",
+    "research/publication_2026-09-21/search_extensions/raw/additional_metadata_000400.xml.gz",
+    "research/publication_2026-09-21/search_extensions/raw/PM-BONE-20260921-E1.json"
+  ],
+  "literal_docx_queries_verified": true,
+  "pdf_wildcards_verified": true,
+  "docx_sha256": "ae199346e3196e8945dd18c74262657da1a8eec651871251348e4e60020a4427",
+  "rendered_pdf_sha256": "55c383bff06b9d536cfb82d74315d6f4bfb9b723f2d27f8d1f93eabf5907b830",
+  "workbooks": {
+    "Medicare_health_IT_opportunity_assessment_2026-09-21.xlsx": {
+      "sha256": "3c8c217cc780fbe20a51c1310503ba94b2e5dfb93834b710aa95b05d21ac8b17",
+      "native_hyperlinks": 85,
+      "formulas": 0,
+      "error_cells": 0
+    },
+    "Medicare_gender_care_evidence_register_2026-09-16.xlsx": {
+      "sha256": "8043d4bc0f736237e135eb21c0de947466baa01b0b1b55621f2e50fbfada2df5",
+      "native_hyperlinks": 155,
+      "formulas": 278,
+      "error_cells": 0
+    }
+  },
+  "page_png_sha256": {
+    "1": "0309fa9e3e498d0441c69318136e875bf09b9b17abcc10a1d0c18849a593c41c",
+    "2": "d0dec6ef2e8852868a6aa5b819283580da654032c31d9470f0f99473a804aa31",
+    "3": "9ca582b18ebfe23f704b39d5e0510ce1732755c14f490d6f24e10dfed6fd1d3b",
+    "4": "9cfe4451688aa6f762184b855e4c9d9175180845643ae3b1554c9132d36269eb",
+    "5": "9e7df1ace3bd7e6330dafe3267c1f1fc47df60d5580d76c8e4ba65170628c37f",
+    "6": "dd5cdb9060239664dcd04d8498f0715fb4be1156c7dabff1338962c3abfd6d15",
+    "7": "251482972957b767586b158654581c52328d91d467ab4e2ef2241aff4a50d0be",
+    "8": "2a11f702107ee95fbee328fd8121fe6cff34a952886e84e6f90b0cce316eac65",
+    "9": "17103ec59233234781a4b9a387c71fbd8feb48ba181fb983215f1d2945133f56",
+    "10": "057d339d18a12766729f73e2310d0eaff28bbbe712329d70555a67424a1d9f34",
+    "11": "60d54c88dc54f12adaff27fd69ab1b1fb4b01a77542ac99277c9a7e099350213",
+    "12": "dab9368f25f0c6801c99db51d50d5471e37f905c4dbbc0a10154c0637861c78d",
+    "13": "cf8db6e80ae674ee885616c87a25744093d66775b57fc08581d3f9f45ee82402",
+    "14": "9cd9b2cd209b8d8729be0f8e8f743db76b7446e2750ccf23ca8f4468501ef9b9",
+    "15": "1311490b48932615333a3fb2253bac2d00f45305da9b9f6b4b34c068036ac22c",
+    "16": "9d95ce50e2992039405f2d017b005e1b42ebb0ddfd010c321cc1b3bd6769d6a3",
+    "17": "4dadcb4be4e0e44d56b6617f127b949a3805cc924b65366169958439f5def308",
+    "18": "a7d55b9ec72bbfad1650584fdc17b7ca99f905e27d3e3f4ec0538589a30044c7",
+    "19": "6d5caecb437bdd85654f16436e1dbb57879beabd547b7aaf541aa14d107dd0a7",
+    "20": "168f76bf5ff5c7ef6587c23cdb71b97d57443b2b1a46dee4c58a7a4619bd8b07",
+    "21": "3fd41236655181ce51aa5bd3c1085a9eec663727225b936428d9c54681231d1f",
+    "22": "81ba2eef06cdfd4c11905ac3a2b39a5f6254fea65eb53679aa50cbaa4d1e1c34",
+    "23": "ed69ce0c68c99e1614358dc78675821f2e5281cc547a6829ca5d201b59e2f2df",
+    "24": "ce6f9b5858948ca5b368ae97bf9b425198f9f17cc9bedc25551931f4ced951b9",
+    "25": "b6e35623150eaa722a0891062ea9080d282705ed12bb7341a4582317f7c82f56",
+    "26": "4c4007cc82b2401e0b921ab8ace9f6f0b3f821fc534d8c3c3d452ef7a442f69f",
+    "27": "534509825b994b669bc6d30f500cdf50a6a2aacec5ee50ab3199ede453828218"
+  },
+  "visual_review_logs": [
+    "visual_qa_pages_2_8.json",
+    "visual_qa_pages_13_27.json"
+  ],
+  "root_visual_review_pages": [
+    1,
+    9,
+    10,
+    11,
+    12,
+    26
+  ],
+  "final_visual_correction": "Root rechecked page 26 after removing empty policy-organization punctuation; all other previously reviewed pages remain unchanged after that correction.",
+  "scientific_limitations": "No completed independent human screening, eligibility adjudication, formal appraisal or certainty assessment. Clinical and commercial hypotheses remain unvalidated."
+}

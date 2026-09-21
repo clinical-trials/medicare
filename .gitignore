@@ -10,3 +10,11 @@ research/workbook/*.png
 
 # Research workbook previews (derived visual QA)
 research/review_*/previews/
+research/publication_*/rendered/
+research/publication_*/previews/
+# Full-text local reading caches with noncommercial or derivative-use restrictions.
+research/publication_*/intervention_sources/33273290_fulltext.*
+research/publication_*/intervention_sources/40608336_fulltext.*
+research/publication_*/intervention_sources/*_fulltext.txt
+research/publication_*/intervention_sources/*-s002.txt
+outputs/*/opportunity_workbook_previews/

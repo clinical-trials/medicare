@@ -2835,7 +2835,347 @@
         "Population identity unresolved; AI candidate extraction, not human eligibility adjudication."
       ],
       "reviewed_fulltext_url": "https://www.researchgate.net/publication/310667253_Trends_and_disparities_in_osteoporosis_screening_among_women_in_the_United_States_2008-2014_Declines_in_utilization_among_women_50_to_64_years_old_and_persistent_underutilization_among_women_65_and_ol"
+    },
+    {
+      "id": "L-T01",
+      "id_status": "Proposed context ID; parent report suffix is provisional",
+      "original_citation": "Agarwal SD, Metzler E, Chernew M, Thomas E, Press VG, Boudreau E, Powers BW, McWilliams JM. Reduced Cost Sharing and Medication Management Services for COPD: A Randomized Clinical Trial. JAMA Intern Med. 2024;184(10):1186-1194.",
+      "authors": [
+        {
+          "family": "Agarwal",
+          "given": "Sumit D",
+          "initials": "SD"
+        },
+        {
+          "family": "Metzler",
+          "given": "Elizabeth",
+          "initials": "E"
+        },
+        {
+          "family": "Chernew",
+          "given": "Michael",
+          "initials": "M"
+        },
+        {
+          "family": "Thomas",
+          "given": "Emily",
+          "initials": "E"
+        },
+        {
+          "family": "Press",
+          "given": "Valerie G",
+          "initials": "VG"
+        },
+        {
+          "family": "Boudreau",
+          "given": "Emily",
+          "initials": "E"
+        },
+        {
+          "family": "Powers",
+          "given": "Brian W",
+          "initials": "BW"
+        },
+        {
+          "family": "McWilliams",
+          "given": "J Michael",
+          "initials": "JM"
+        }
+      ],
+      "title": "Reduced Cost Sharing and Medication Management Services for COPD: A Randomized Clinical Trial",
+      "journal": "JAMA internal medicine",
+      "journal_abbreviation": "JAMA Intern Med",
+      "year": 2024,
+      "volume": "184",
+      "issue": "10",
+      "pages": "1186-1194",
+      "doi": "10.1001/jamainternmed.2024.3499",
+      "pmid": "39073823",
+      "pmcid": "PMC11287444",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39073823/",
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11287444/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39073823+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent",
+      "indexed_first_publication_date": "2024-10-01",
+      "issue_date": "2024 Oct",
+      "publication_types_as_indexed": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "linked_notices": [],
+      "correction_check": "No correction/retraction link returned in the retrieved MEDLINE commentCorrectionList; this bounded check does not establish that no notice exists. Linked comments, if present, are not corrections.",
+      "review_status": "Provisional AI extraction; independent human screening/eligibility/risk-of-bias review pending",
+      "role": "Translational intervention context; does not test a patient-sex disparity",
+      "notes": [
+        "Europe PMC firstPublicationDate represents the October issue; publisher explicitly dates online publication July 29, 2024. XML retrieval failed twice with HTTP 500; publisher web text was accessible."
+      ],
+      "online_publication_date": "2024-07-29",
+      "reviewed_fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11287444/",
+      "access_level": "Publisher full main text, tables 1-3 and disclosures reviewed; supplements not reviewed",
+      "date_notes": "Publisher online publication July 29, 2024; issue October 2024. Europe PMC firstPublicationDate 2024-10-01 is the issue date.",
+      "record_type": "journal-article"
+    },
+    {
+      "id": "L-T02",
+      "id_status": "Proposed context ID; parent report suffix is provisional",
+      "original_citation": "Zink A, Wehrly D, Bozzi D, Sutherland A, Boudreau E, McWilliams JM, Chernew M. Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool. JAMA Netw Open. 2025;8(7):e2519038.",
+      "authors": [
+        {
+          "family": "Zink",
+          "given": "Anna",
+          "initials": "A"
+        },
+        {
+          "family": "Wehrly",
+          "given": "David",
+          "initials": "D"
+        },
+        {
+          "family": "Bozzi",
+          "given": "Debra",
+          "initials": "D"
+        },
+        {
+          "family": "Sutherland",
+          "given": "Amanda",
+          "initials": "A"
+        },
+        {
+          "family": "Boudreau",
+          "given": "Emily",
+          "initials": "E"
+        },
+        {
+          "family": "McWilliams",
+          "given": "J Michael",
+          "initials": "JM"
+        },
+        {
+          "family": "Chernew",
+          "given": "Michael",
+          "initials": "M"
+        }
+      ],
+      "title": "Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool",
+      "journal": "JAMA network open",
+      "journal_abbreviation": "JAMA Netw Open",
+      "year": 2025,
+      "volume": "8",
+      "issue": "7",
+      "pages": "e2519038",
+      "doi": "10.1001/jamanetworkopen.2025.19038",
+      "pmid": "40608336",
+      "pmcid": "PMC12232181",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40608336/",
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40608336+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent",
+      "indexed_first_publication_date": "2025-07-01",
+      "issue_date": "2025 Jul",
+      "publication_types_as_indexed": [
+        "Research Support, Non-U.S. Gov't",
+        "research-article",
+        "Journal Article"
+      ],
+      "linked_notices": [],
+      "correction_check": "No correction/retraction link returned in the retrieved MEDLINE commentCorrectionList; this bounded check does not establish that no notice exists. Linked comments, if present, are not corrections.",
+      "review_status": "Provisional AI extraction; independent human screening/eligibility/risk-of-bias review pending",
+      "role": "Translational intervention context; does not test a patient-sex disparity",
+      "notes": [
+        "Europe PMC firstPublicationDate July 1 is the issue date; article XML explicitly dates online publication July 3, 2025."
+      ],
+      "online_publication_date": "2025-07-03",
+      "access_level": "Full main text and tables reviewed in Europe PMC XML; supplements not reviewed",
+      "date_notes": "Article XML online publication July 3, 2025; issue July 2025. Europe PMC firstPublicationDate 2025-07-01 is the issue date.",
+      "record_type": "journal-article",
+      "reviewed_fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/"
+    },
+    {
+      "id": "L-T03",
+      "id_status": "Proposed context ID; parent report suffix is provisional",
+      "original_citation": "Ying R, Padmanabhan P, Szerencsy A, Mehrotra A, Horwitz LI, Desai SM. Real-Time Prescription Benefit Tool Availability and Prescription Medication Fill Rates: A Post Hoc Analysis of a Cluster Randomized Clinical Trial. JAMA Health Forum. 2026;7(8):e262739.",
+      "authors": [
+        {
+          "family": "Ying",
+          "given": "Roger",
+          "initials": "R"
+        },
+        {
+          "family": "Padmanabhan",
+          "given": "Prianca",
+          "initials": "P"
+        },
+        {
+          "family": "Szerencsy",
+          "given": "Adam",
+          "initials": "A"
+        },
+        {
+          "family": "Mehrotra",
+          "given": "Ateev",
+          "initials": "A"
+        },
+        {
+          "family": "Horwitz",
+          "given": "Leora I",
+          "initials": "LI"
+        },
+        {
+          "family": "Desai",
+          "given": "Sunita M",
+          "initials": "SM"
+        }
+      ],
+      "title": "Real-Time Prescription Benefit Tool Availability and Prescription Medication Fill Rates: A Post Hoc Analysis of a Cluster Randomized Clinical Trial",
+      "journal": "JAMA health forum",
+      "journal_abbreviation": "JAMA Health Forum",
+      "year": 2026,
+      "volume": "7",
+      "issue": "8",
+      "pages": "e262739",
+      "doi": "10.1001/jamahealthforum.2026.2739",
+      "pmid": "42599729",
+      "pmcid": "PMC13476843",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42599729/",
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42599729+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent",
+      "indexed_first_publication_date": "2026-08-07",
+      "issue_date": "2026 Aug",
+      "publication_types_as_indexed": [
+        "research-article",
+        "Randomized Controlled Trial",
+        "Journal Article"
+      ],
+      "linked_notices": [],
+      "correction_check": "No correction/retraction link returned in the retrieved MEDLINE commentCorrectionList; this bounded check does not establish that no notice exists. Linked comments, if present, are not corrections.",
+      "review_status": "Provisional AI extraction; independent human screening/eligibility/risk-of-bias review pending",
+      "role": "Translational intervention context; does not test a patient-sex disparity",
+      "notes": [
+        "Date discrepancy preserved: MEDLINE-derived firstPublicationDate is August 7, 2026; article XML Published field and pub-date say August 14, 2026. Year, volume, issue, DOI, title and PMID agree; no date silently substituted."
+      ],
+      "article_reported_publication_date": "2026-08-14",
+      "access_level": "Full main text and tables reviewed in Europe PMC XML; Supplement 2 selectively reviewed, eTable 6 visually verified; protocol not reviewed",
+      "date_notes": "Unresolved source discrepancy: article XML Published field and pub-date August 14, 2026; Europe PMC MEDLINE firstPublicationDate August 7, 2026. Issue August 2026; no exact publication day silently chosen.",
+      "record_type": "journal-article",
+      "reviewed_fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/"
+    },
+    {
+      "id": "L-T03-P1",
+      "id_status": "Proposed context ID; parent report suffix is provisional",
+      "original_citation": "Desai SM, Chen AZ, Wang J, Chung WY, Stadelman J, Mahoney C, Szerencsy A, Anzisi L, Mehrotra A, Horwitz LI. Effects of Real-time Prescription Benefit Recommendations on Patient Out-of-Pocket Costs: A Cluster Randomized Clinical Trial. JAMA Intern Med. 2022;182(11):1129-1137.",
+      "authors": [
+        {
+          "family": "Desai",
+          "given": "Sunita M",
+          "initials": "SM"
+        },
+        {
+          "family": "Chen",
+          "given": "Alan Z",
+          "initials": "AZ"
+        },
+        {
+          "family": "Wang",
+          "given": "Jiejie",
+          "initials": "J"
+        },
+        {
+          "family": "Chung",
+          "given": "Wei-Yi",
+          "initials": "WY"
+        },
+        {
+          "family": "Stadelman",
+          "given": "Jay",
+          "initials": "J"
+        },
+        {
+          "family": "Mahoney",
+          "given": "Chris",
+          "initials": "C"
+        },
+        {
+          "family": "Szerencsy",
+          "given": "Adam",
+          "initials": "A"
+        },
+        {
+          "family": "Anzisi",
+          "given": "Lisa",
+          "initials": "L"
+        },
+        {
+          "family": "Mehrotra",
+          "given": "Ateev",
+          "initials": "A"
+        },
+        {
+          "family": "Horwitz",
+          "given": "Leora I",
+          "initials": "LI"
+        }
+      ],
+      "title": "Effects of Real-time Prescription Benefit Recommendations on Patient Out-of-Pocket Costs: A Cluster Randomized Clinical Trial",
+      "journal": "JAMA internal medicine",
+      "journal_abbreviation": "JAMA Intern Med",
+      "year": 2022,
+      "volume": "182",
+      "issue": "11",
+      "pages": "1129-1137",
+      "doi": "10.1001/jamainternmed.2022.3946",
+      "pmid": "36094537",
+      "pmcid": "PMC9468947",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36094537/",
+      "fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468947/",
+      "verification_source": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36094537+AND+SRC%3AMED&format=json&resultType=core",
+      "verified_on": "2026-09-21",
+      "metadata_status": "Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent",
+      "indexed_first_publication_date": "2022-11-01",
+      "issue_date": "2022 Nov",
+      "publication_types_as_indexed": [
+        "Comment",
+        "Research Support, U.S. Gov't, P.H.S.",
+        "research-article",
+        "Journal Article"
+      ],
+      "linked_notices": [
+        {
+          "source": "MED",
+          "id": "36094566",
+          "reference": "JAMA Intern Med. 2022 Nov 1;182(11):1137-1138. doi: 10.1001/jamainternmed.2022.3962.",
+          "type": "Comment in",
+          "orderIn": 1
+        },
+        {
+          "source": "MED",
+          "id": "37115192",
+          "reference": "J Urol. 2023 Jul;210(1):208-210. doi: 10.1097/JU.0000000000003473.",
+          "type": "Comment in",
+          "orderIn": 2
+        }
+      ],
+      "correction_check": "No correction/retraction link returned in the retrieved MEDLINE commentCorrectionList; this bounded check does not establish that no notice exists. Linked comments, if present, are not corrections.",
+      "review_status": "Provisional AI extraction; independent human screening/eligibility/risk-of-bias review pending",
+      "role": "Linked parent report of the same trial, not an independent trial",
+      "notes": [
+        "MEDLINE publication-type labels include Comment, but the verified title/abstract describe the original cluster randomized trial. Design classification follows the article; linked Comment in records are not separate corrections or trials."
+      ],
+      "access_level": "Verified metadata and abstract only in this supplemental extraction",
+      "linked_trial_id": "NCT04940988",
+      "linked_report_id": "L-T03",
+      "date_notes": "Issue November 2022. Europe PMC firstPublicationDate 2022-11-01; separate online date not independently verified in this bounded extraction.",
+      "record_type": "journal-article",
+      "reviewed_fulltext_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9468947/",
+      "related_record_id": "L-T03",
+      "relationship": "Earlier report of the same trial; not an independent study"
     }
   ],
-  "provenance_note": "Public Europe PMC CORE API records from source MED (MEDLINE/PubMed). Metadata verification checks record identity and citation fields only; it does not constitute full-text screening or validation of extracted study findings. Original register citations preserved."
+  "provenance_note": "Public Europe PMC CORE API records from source MED (MEDLINE/PubMed). Metadata verification checks record identity and citation fields only; it does not constitute full-text screening or validation of extracted study findings. Original register citations preserved.",
+  "updated_on": "2026-09-21"
 }

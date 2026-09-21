@@ -1,0 +1,149 @@
+{
+  "reviewed_on": "2026-09-21",
+  "reviewer": "AI visual QA agent",
+  "review_kind": "DOCX/PDF rendered-page QA plus bounded intervention-text consistency check; not independent human scientific review",
+  "pages_actually_inspected": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "scope": "Every supplied rendered page2–8 inspected at original resolution; pages outside this range reviewed by other agents",
+  "overall_status": "Pass with one optional minor typography observation",
+  "blocking_issues": [],
+  "pages": [
+    {
+      "page": 2,
+      "path": "research/publication_2026-09-21/rendered/page-2.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "d0dec6ef2e8852868a6aa5b819283580da654032c31d9470f0f99473a804aa31",
+      "file_modified_utc": "2026-09-21T18:25:50.849937+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": []
+    },
+    {
+      "page": 3,
+      "path": "research/publication_2026-09-21/rendered/page-3.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "9ca582b18ebfe23f704b39d5e0510ce1732755c14f490d6f24e10dfed6fd1d3b",
+      "file_modified_utc": "2026-09-21T18:25:51.345865+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": []
+    },
+    {
+      "page": 4,
+      "path": "research/publication_2026-09-21/rendered/page-4.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "9cfe4451688aa6f762184b855e4c9d9175180845643ae3b1554c9132d36269eb",
+      "file_modified_utc": "2026-09-21T18:25:51.727135+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": []
+    },
+    {
+      "page": 5,
+      "path": "research/publication_2026-09-21/rendered/page-5.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "9e7df1ace3bd7e6330dafe3267c1f1fc47df60d5580d76c8e4ba65170628c37f",
+      "file_modified_utc": "2026-09-21T18:25:50.516176+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": []
+    },
+    {
+      "page": 6,
+      "path": "research/publication_2026-09-21/rendered/page-6.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "dd5cdb9060239664dcd04d8498f0715fb4be1156c7dabff1338962c3abfd6d15",
+      "file_modified_utc": "2026-09-21T18:25:51.022794+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": [
+        {
+          "severity": "Minor, optional",
+          "description": "Citation [L-T01] wraps after L-, leaving T01] on a separate line. Keeping stable citation tokens unbroken would improve typography; token remains complete and legible."
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "path": "research/publication_2026-09-21/rendered/page-7.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "251482972957b767586b158654581c52328d91d467ab4e2ef2241aff4a50d0be",
+      "file_modified_utc": "2026-09-21T18:25:51.477061+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": []
+    },
+    {
+      "page": 8,
+      "path": "research/publication_2026-09-21/rendered/page-8.png",
+      "image_dimensions_px": [
+        1547,
+        2002
+      ],
+      "sha256": "2a11f702107ee95fbee328fd8121fe6cff34a952886e84e6f90b0cce316eac65",
+      "file_modified_utc": "2026-09-21T18:25:51.681949+00:00",
+      "viewed_with": "view_image(detail=\"original\"), entire rendered page",
+      "typography": "Readable and consistent",
+      "overlap_or_clipping": false,
+      "missing_characters_observed": false,
+      "pagination": "Acceptable continuation/end-of-main-text layout",
+      "findings": []
+    }
+  ],
+  "intervention_paragraph_check": {
+    "status": "Matches verified extraction",
+    "rendered_location": "Pages5–6",
+    "source": "research/publication_2026-09-21/intervention_evidence.json",
+    "checks": [
+      "L-G05: BMD10.7%vs4.9%; treatment4.0%vs2.5%;7,842 analyzed of10,934 randomized;28.3%post-assignment exclusions; no fracture or sex-gap benefit claimed.",
+      "L-T01:19,113 MA beneficiaries;LIS exclusion stated;ITT PDC+3.8pp(95%CI3.1–4.5); no exacerbation/total-spending improvement claimed; bundle not software-only.",
+      "L-T02:patient prescription spending+1.2%(95%CI−0.7to3.0),null; total prescription spending correctly distinguished from total medical spending.",
+      "L-T03:Medicare fill effect+0.5pp(−2.4to3.4),null; high-cost+10.5pp(1.9–19.2),explicitly exploratory and subgroup denominator unavailable.",
+      "L-T03 and L-T03-P1 correctly linked as the same trial; no sex-disparity closure asserted."
+    ]
+  },
+  "artifact_edits": false
+}

@@ -464,7 +464,108 @@
         "sex_feature": "Shared lymphatic system",
         "notes": "Compare access by indication, clinical severity and device requirements; analyze sex-related burden separately."
       }
-    ]
+    ],
+    "translational_indications": [
+      {
+        "id": "TI-01",
+        "opportunity_id": "O-01",
+        "indication": "COPD maintenance medication affordability",
+        "group_id": "shared",
+        "anatomy_or_function": "Respiratory system",
+        "eligibility_or_burden": "Documented COPD and clinically indicated maintenance therapy; not sex-exclusive",
+        "source_ids": [
+          "L-T01"
+        ]
+      },
+      {
+        "id": "TI-02",
+        "opportunity_id": "O-01",
+        "indication": "Local vaginal treatment for genitourinary symptoms of menopause",
+        "group_id": "female_anatomy",
+        "anatomy_or_function": "Vaginal reproductive tissue; menopausal physiological context",
+        "eligibility_or_burden": "Clinical indication and treatment choice are separate from plan formulary status",
+        "source_ids": [
+          "L-D01",
+          "L-D03",
+          "L-D04"
+        ]
+      },
+      {
+        "id": "TI-03",
+        "opportunity_id": "O-01",
+        "indication": "Systemic menopausal symptom treatment navigation",
+        "group_id": "female_physiology",
+        "anatomy_or_function": "Reproductive physiological context with systemic drug effects",
+        "eligibility_or_burden": "Formulation and individual benefit-risk assessment required; not interchangeable with COPD or local vaginal therapy",
+        "source_ids": [
+          "L-B01"
+        ]
+      },
+      {
+        "id": "TI-04",
+        "opportunity_id": "O-02",
+        "indication": "Post-fracture bone-care follow-up",
+        "group_id": "shared",
+        "anatomy_or_function": "Skeletal system",
+        "eligibility_or_burden": "Qualifying fracture and clinical assessment; screening eligibility is not the same as secondary prevention",
+        "source_ids": [
+          "L-G05",
+          "P-012",
+          "P-053"
+        ]
+      },
+      {
+        "id": "TI-05",
+        "opportunity_id": "O-03",
+        "indication": "Non-drug prior-authorization workflow",
+        "group_id": "mixed",
+        "anatomy_or_function": "Varies by the underlying clinically indicated service",
+        "eligibility_or_burden": "Split service and indication before comparing patient groups; payer eligibility is separate",
+        "source_ids": [
+          "P-046",
+          "P-047"
+        ]
+      },
+      {
+        "id": "TI-06",
+        "opportunity_id": "O-04",
+        "indication": "Procedure-valuation measurement",
+        "group_id": "mixed",
+        "anatomy_or_function": "Varies by code, organ, episode and service",
+        "eligibility_or_burden": "Clinical comparability and work/resource requirements need independent adjudication",
+        "source_ids": [
+          "L-P01",
+          "L-P02",
+          "L-P03"
+        ]
+      },
+      {
+        "id": "TI-07",
+        "opportunity_id": "O-05",
+        "indication": "Lymphedema compression-item fulfillment",
+        "group_id": "shared",
+        "anatomy_or_function": "Lymphatic system; affected site varies",
+        "eligibility_or_burden": "Need is not restricted to breast-cancer survivors or one sex",
+        "source_ids": [
+          "P-021",
+          "P-054",
+          "L-A01"
+        ]
+      },
+      {
+        "id": "TI-08",
+        "opportunity_id": "O-06",
+        "indication": "Kidney education and care coordination",
+        "group_id": "shared",
+        "anatomy_or_function": "Renal function",
+        "eligibility_or_burden": "Stage and clinical need are separate from six-session Medicare education eligibility",
+        "source_ids": [
+          "P-055",
+          "L-Q01"
+        ]
+      }
+    ],
+    "translational_classification_note": "Separate opportunity indications; not additional rows in the 40-item coverage inventory. Classification does not establish patient identity or coverage."
   },
   "evidenceSubjects": {
     "version": "1",
@@ -2468,15 +2569,18 @@
       "citation": "Pasquale MK, et al. Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians. Med Care. 2021;59(2):148-154.",
       "year": 2021,
       "design": "Randomized outreach intervention; claims follow-up",
-      "population": "10,934 men initially assigned; 7,842 analyzed at 12 months",
+      "population": "10,934 men randomized; 7,842 analyzed (3,977 intervention; 3,865 control) after 3,092 post-assignment exclusions",
       "payer": "Humana Medicare Advantage prescription-drug plans",
       "data_period": "Identification May 2016–May 2017; 12-month follow-up",
       "finding": "BMD testing was 10.7% with outreach versus 4.9% without; osteoporosis treatment initiation was 4.0% versus 2.5%.",
-      "limitation": "Single insurer, post-randomization exclusions and selected untreated fracture patients; no direct sex comparison.",
+      "limitation": "Single MA insurer; 28.3% excluded after assignment, including deaths/disenrollment. Selected untreated fracture patients; bundled communication intervention, no software-only effect or direct sex comparison. Process outcomes do not prove fracture reduction. Identity not established.",
       "relevance": "Shows delivery interventions can improve covered care for men.",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/",
       "doi_or_pmid": "10.1097/mlr.0000000000001459; PMID 33273290",
-      "extraction_level": "Full-text sections",
+      "extraction_level": "Full main-text XML and tables reviewed on 2026-09-21; figure images and supplementary appendix not independently inspected",
+      "last_reviewed_on": "2026-09-21",
+      "extraction_source": "research/publication_2026-09-21/intervention_evidence.json",
+      "screening_notes": "Provisional AI full-text update. Randomized N differs from analyzed N; no independent human appraisal or final identity eligibility decision.",
       "original_citation": "Pasquale MK et al. Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians. Med Care. 2021;59:148–154.",
       "citation_metadata_status": "Verified against Europe PMC / MEDLINE",
       "subject_id": "patient_care",

@@ -1,0 +1,78 @@
+{
+  "retrieved_on": "2026-09-21",
+  "requests": [
+    {
+      "pmid": "33273290",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A33273290+AND+SRC%3AMED&format=json&resultType=core",
+      "file": "33273290_europepmc.json",
+      "status": "saved"
+    },
+    {
+      "pmid": "33273290",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC7899217/fullTextXML",
+      "file": "33273290_fulltext.xml",
+      "status": "saved"
+    },
+    {
+      "pmid": "39073823",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A39073823+AND+SRC%3AMED&format=json&resultType=core",
+      "file": "39073823_europepmc.json",
+      "status": "saved"
+    },
+    {
+      "pmid": "39073823",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11287444/fullTextXML",
+      "status": "HTTP Error 500: "
+    },
+    {
+      "pmid": "40608336",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A40608336+AND+SRC%3AMED&format=json&resultType=core",
+      "file": "40608336_europepmc.json",
+      "status": "saved"
+    },
+    {
+      "pmid": "40608336",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12232181/fullTextXML",
+      "file": "40608336_fulltext.xml",
+      "status": "saved"
+    },
+    {
+      "pmid": "42599729",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A42599729+AND+SRC%3AMED&format=json&resultType=core",
+      "file": "42599729_europepmc.json",
+      "status": "saved"
+    },
+    {
+      "pmid": "42599729",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13476843/fullTextXML",
+      "file": "42599729_fulltext.xml",
+      "status": "saved"
+    },
+    {
+      "pmid": "36094537",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/search?query=EXT_ID%3A36094537+AND+SRC%3AMED&format=json&resultType=core",
+      "file": "36094537_europepmc.json",
+      "status": "saved"
+    },
+    {
+      "pmid": "39073823",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC11287444/fullTextXML",
+      "status": "Second attempt HTTP500; publisher fulltext used"
+    },
+    {
+      "pmid": "39073823",
+      "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821705",
+      "status": "Full main-text web view read; source not downloaded locally; extracted results and locators retained"
+    },
+    {
+      "pmid": "42599729",
+      "url": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC13476843/supplementaryFiles",
+      "file": "42599729_supplementary_files.zip",
+      "status": "HTTP200; ZIP saved; Supplement2 PDF extracted, eTable6 visually inspected"
+    }
+  ],
+  "limitations": [
+    "PMC browser/web views returned recaptcha for some articles; EuropePMC public XML used when available.",
+    "No author contact or access-control circumvention; access failures remain documented."
+  ]
+}

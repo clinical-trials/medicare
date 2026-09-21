@@ -1,0 +1,40 @@
+{
+  "generated_on": "2026-09-21",
+  "generator": "Matplotlib 3.11.2",
+  "dimensions_inches": [
+    7,
+    7.6
+  ],
+  "png_dpi": 300,
+  "counts": {
+    "baseline_core_hits": 43904,
+    "baseline_supplemental_hits": 16866,
+    "baseline_raw_hits": 60770,
+    "baseline_exact_PMID_duplicates": 2084,
+    "baseline_unique": 58686,
+    "extension_hits": 756,
+    "extension_baseline_overlap": 295,
+    "extension_new": 461,
+    "combined_unique": 59147,
+    "abstract_available": 47152,
+    "abstract_unavailable": 11995,
+    "separately_selected_register": 38
+  },
+  "source_files": [
+    "research/review_2026-09-21/search_summary.json",
+    "research/publication_2026-09-21/search_extensions/manifest.json",
+    "research/publication_2026-09-21/queue_summary.json",
+    "research/publication_2026-09-21/manuscript.md"
+  ],
+  "outputs": [
+    "figure1_retrieval_status.svg",
+    "figure1_retrieval_status.png",
+    "figure2_validation_pathway.svg",
+    "figure2_validation_pathway.png"
+  ],
+  "interpretation": [
+    "Figure1 is actual retrieval status, not a completed PRISMA selection flow.",
+    "38 selected records are a separate route, not screening output.",
+    "Figure2 is a proposed five-stage validation framework, not a claim of validated products."
+  ]
+}

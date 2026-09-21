@@ -1,0 +1,333 @@
+{
+  "version": "1.0",
+  "as_of": "2026-09-21",
+  "status": "Verified policy/standards context for research opportunities; not legal clearance or software reimbursement verification",
+  "id_allocation": "P-046–P-060 reserved by parent for this work; P-058 and P-060 unused. Existing exact-URL IDs P-012/P-021/P-035 preserved. No canonical policy registry edited.",
+  "date_rule": "A null document date means the page did not supply a definite publication date used here; retrieval date is not an effective date. Historic final rules were rechecked against current official implementation pages and 2026 proposal material.",
+  "sources": [
+    {
+      "id": "P-046",
+      "title": "CMS Interoperability and Prior Authorization Final Rule CMS-0057-F",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f",
+      "document_date": "2024-01-17",
+      "status": "Final rule summary; requirements have distinct implementation dates",
+      "locator": "Prior Authorization API; Improving Prior Authorization Processes; Required Standards and Recommended Implementation Guides",
+      "verified_facts": [
+        "Applies to Medicare Advantage and specified Medicaid, CHIP and federally facilitated Exchange payers; Original Medicare is not an impacted payer under this rule.",
+        "Prior Authorization API and related API changes generally require compliance beginning 2027-01-01; exact dates vary by payer type.",
+        "Operational provisions generally begin 2026-01-01. Decision timeframes for covered non-drug requests are 72 hours expedited and seven calendar days standard for impacted payers subject to those provisions; QHP issuers on the FFEs are excluded from these finalized timeframe provisions.",
+        "Denial reasons and public prior-authorization metrics are required. Finalized 2024 prior-authorization provisions exclude drugs.",
+        "FHIR R4.0.1 is a required standard; named Da Vinci guides are recommended under this rule, not universally required by it."
+      ],
+      "limits": "Interoperability and timeliness duties do not guarantee instantaneous approval, eliminate medical review, prove sex disparity, or establish reimbursement for software.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-047",
+      "title": "Prior Authorization API",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api",
+      "document_date": null,
+      "status": "Current CMS implementation FAQ checked at assessment cutoff",
+      "locator": "Decision timeframes table and extensions; public metrics; real-time decision FAQ",
+      "verified_facts": [
+        "CMS reiterates seven-calendar-day standard and 72-hour expedited maximum timeframes for applicable non-drug requests, with payer-specific regulatory exceptions/extensions.",
+        "Some API requests still require clinical review; real-time approval is not guaranteed.",
+        "Public aggregate metrics are not a patient-level sex-stratified dataset."
+      ],
+      "limits": "Consult payer-specific legal provisions and actual request records before labeling a request overdue; public aggregate metrics cannot identify patient-sex effects.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-048",
+      "title": "2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule",
+      "document_date": "2026-04-10",
+      "status": "PROPOSED (CMS-0062-P); not treated as finalized as of 2026-09-21",
+      "locator": "Electronic Prior Authorization for Drugs; Updates to Standards and IGs; Updates to Patient Access, Provider Access, and Payer-to-Payer APIs",
+      "verified_facts": [
+        "Proposes adding medical-benefit drugs to Prior Authorization APIs beginning 2027-10-01.",
+        "Proposes additional NCPDP requirements for pharmacy-benefit drugs for specified non-Part-D payers, aligning with existing Medicare Part D requirements.",
+        "Proposes making additional implementation guides mandatory, extending drug data availability and updating reporting.",
+        "An effective date or proposed compliance date is conditional on finalization; this source does not establish a present drug-FHIR obligation."
+      ],
+      "limits": "Do not conflate pharmacy-benefit NCPDP transactions with proposed medical-benefit FHIR transactions, or sell unfinalized requirements as legal mandates.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-049",
+      "title": "E-Prescribing Standards and Requirements",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions",
+      "document_date": null,
+      "page_last_modified": "2024-09-10",
+      "status": "Current CMS standards page rechecked; June 17, 2024 final rule CMS-4205-F2 summarized",
+      "locator": "January 19, 2021 and June 17, 2024 rule bullets",
+      "verified_facts": [
+        "Part D sponsors have been required to implement beneficiary real-time benefit tools since 2023-01-01.",
+        "NCPDP Real-Time Prescription Benefit version 13 is required for prescriber RTBTs supported by Part D sponsors beginning 2027-01-01.",
+        "NCPDP Formulary and Benefit version 60 begins 2027-01-01; NCPDP SCRIPT 2023011 becomes required beginning 2028-01-01 after transition.",
+        "Prescription-related electronic transactions include medication history and electronic prior authorization."
+      ],
+      "limits": "These are standards/plan support requirements, not demonstrated clinical benefit, universal clinician use, or a reimbursement code for an independent application.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-050",
+      "title": "HTI-4 Overview and Key Dates for Certification Program",
+      "organization": "Office of the National Coordinator for Health Information Technology",
+      "url": "https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/",
+      "document_date": null,
+      "status": "Final-rule certification overview, published as part of FY2026 IPPS rule",
+      "locator": "Real-Time Prescription Benefit; Electronic Prior Authorization; Base EHR Definition Update",
+      "verified_facts": [
+        "HTI-4 includes an RTPB certification criterion based on NCPDP RTPB version 13 and three new electronic prior-authorization certification criteria.",
+        "The overview identifies a 2028 RTPB/Base EHR milestone, distinct from the 2027 Part D sponsor standard requirement."
+      ],
+      "limits": "Certification criteria and payer mandates are different. Product-specific certification applicability and the latest provider reporting measures need separate confirmation; no claim that every standalone application must certify or is paid for certification.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study.",
+      "page_last_modified": "2025-12-10",
+      "effective_date": "2025-10-01"
+    },
+    {
+      "id": "P-051",
+      "title": "Final CY 2026 Part D Redesign Program Instructions",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions",
+      "document_date": "2025-04-07",
+      "status": "Final guidance for calendar year 2026, rechecked 2026-09-21",
+      "locator": "Changes to the Part D Benefit for CY 2026",
+      "verified_facts": [
+        "The annual out-of-pocket threshold for covered Part D drugs is $2,100 in 2026.",
+        "The benefit redesign changes enrollee, plan, manufacturer and Medicare liability; it is not a universal cap on all health spending."
+      ],
+      "limits": "Distinguish covered-drug true out-of-pocket accounting, premiums, noncovered purchases, monthly cash flow and annual spending. Do not apply the 2026 amount to other years.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-052",
+      "title": "Will this payment option help me?",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/prescription-payment-plan/will-this-help-me",
+      "document_date": null,
+      "status": "Current beneficiary guidance checked 2026-09-21",
+      "locator": "Medicare Prescription Payment Plan explanations and 2026 cost examples",
+      "verified_facts": [
+        "The Medicare Prescription Payment Plan spreads Part D out-of-pocket costs over the calendar year; it does not lower drug costs.",
+        "Monthly bills can change as prescriptions are filled and the number of remaining months falls.",
+        "The 2026 covered-drug out-of-pocket maximum applies whether or not an enrollee uses the payment plan."
+      ],
+      "limits": "A cash-flow tool must not advertise cost reduction merely from installment enrollment or substitute enrollment for affordability assistance.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-053",
+      "title": "Osteoporosis to Prevent Fractures: Screening",
+      "organization": "US Preventive Services Task Force",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening",
+      "document_date": "2025-01-14",
+      "status": "Final clinical recommendation; not Medicare coverage policy",
+      "locator": "Recommendation Summary; Clinician Summary: To whom does this recommendation apply?",
+      "verified_facts": [
+        "Recommends screening women aged 65 or older and postmenopausal women under 65 at increased fracture risk.",
+        "Finds insufficient evidence to determine benefits and harms of screening men.",
+        "Recommendation applies to adults without known osteoporosis or a history of fragility fracture; it does not answer post-fracture evaluation."
+      ],
+      "limits": "Do not turn the screening I statement for men into a recommendation against post-fracture care. Clinical indication and insurance eligibility must be evaluated separately.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-054",
+      "title": "Lymphedema Compression Treatment Items",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/durable-medical-equipment-prosthetic-devices-prosthetics-orthotics-supplies/lymphedema-compression-treatment-items",
+      "document_date": null,
+      "status": "Current benefit/payment implementation page checked 2026-09-21",
+      "locator": "Eligible items; replacement limits; supplier enrollment; education payment FAQ",
+      "verified_facts": [
+        "Benefit includes medically necessary standard/custom gradient garments, wraps, bandaging and specified accessories for affected body parts.",
+        "CMS pays enrolled DMEPOS suppliers for furnishing covered items.",
+        "Daytime limit: three garments per affected body part every six months; nighttime: two per affected part every two years, with specified replacement exceptions.",
+        "Furnishing-related services, including garment donning/doffing education, are bundled in supplier payment; CMS states that this education is not separately payable under the physician fee schedule."
+      ],
+      "limits": "Item coverage is not software reimbursement and does not establish realized access. Garments, pumps and surgery have different coverage pathways.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-055",
+      "title": "Kidney disease education",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/coverage/kidney-disease-education",
+      "document_date": null,
+      "status": "Current beneficiary coverage page checked 2026-09-21",
+      "locator": "Who's eligible; Provider requirements; Costs; How often",
+      "verified_facts": [
+        "Part B covers up to six education sessions for eligible people with stage 4 chronic kidney disease referred by a doctor or qualified provider.",
+        "Specified eligible providers furnish the service; Part B deductible and generally 20% coinsurance apply.",
+        "Education covers treatment options and relevant health and social concerns."
+      ],
+      "limits": "Does not establish coverage for a standalone navigation application, all CKD stages, all transport, unlimited sessions or all proposed users.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-056",
+      "title": "Clinical Decision Support Software: Guidance for Industry and Food and Drug Administration Staff",
+      "organization": "Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software",
+      "document_date": "2026-01-29",
+      "status": "Final guidance, reissued January 29 after January 6, 2026 update",
+      "locator": "Guidance overview; linked final document cover and revision history",
+      "verified_facts": [
+        "FDA explains statutory criteria excluding some CDS functions from the device definition.",
+        "Some CDS functions, including certain patient/caregiver functions, remain devices subject to applicable FDA policies.",
+        "Assessment depends on actual software functions and intended use."
+      ],
+      "limits": "None of the proposed opportunities is declared FDA-cleared, exempt, non-device or compliant. Evaluate concrete functions before clinical deployment; guidance is not a product authorization.",
+      "date_verification_url": "https://www.fda.gov/medical-devices/medical-devices-news-and-events/town-hall-clinical-decision-support-software-final-guidance-03112026",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-057",
+      "title": "Clinical Decision Support Software Frequently Asked Questions (FAQs)",
+      "organization": "Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/clinical-decision-support-software-frequently-asked-questions-faqs",
+      "document_date": null,
+      "status": "Current FDA FAQ checked 2026-09-21",
+      "locator": "FDA's CDS Guidance; Digital Health Policy Navigator; questions 1–3",
+      "verified_facts": [
+        "FDA advises function-by-function evaluation using relevant digital-health guidance rather than treating all decision support alike.",
+        "Simple documentation/communication functions and recommendations affecting medical decisions can have different regulatory treatment."
+      ],
+      "limits": "Administrative workflow support does not establish that added diagnostic or treatment-selection functions have the same regulatory status.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-059",
+      "title": "General",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/general",
+      "document_date": null,
+      "status": "Current interoperability FAQ checked 2026-09-21",
+      "locator": "Why are drugs excluded?; Medicare fee-for-service Prior Authorization API",
+      "verified_facts": [
+        "The finalized 2024 rule excludes drug prior-authorization requirements because drug standards and processes differ.",
+        "CMS identifies CMS-0062-P as a proposal to extend requirements to drugs.",
+        "Original Medicare has a separate prior-authorization/API context; it must not be represented as an impacted payer under CMS-0057-F."
+      ],
+      "limits": "An Original Medicare implementation or pilot is not the same as the MA/other impacted payer rule.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-012",
+      "title": "Bone mass measurements",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/coverage/bone-mass-measurements",
+      "document_date": null,
+      "status": "Existing source ID retained; current coverage page rechecked",
+      "locator": "Who's eligible; Costs; How often",
+      "verified_facts": [
+        "Part B covers bone mass measurement under listed qualifying conditions, generally every 24 months or more often when medically necessary.",
+        "Conditions include clinician-determined estrogen deficiency with osteoporosis risk, specified imaging findings, steroid treatment, primary hyperparathyroidism and monitoring osteoporosis treatment.",
+        "The test has no patient charge when coverage conditions are met and the provider accepts assignment."
+      ],
+      "limits": "Neither male sex nor female sex alone establishes all clinical and coverage criteria; coverage conditions do not define every case of clinical need.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-021",
+      "title": "Lymphedema compression treatment items",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/coverage/lymphedema-compression-treatment-items",
+      "document_date": null,
+      "status": "Existing source ID retained; current coverage page rechecked",
+      "locator": "Coverage details; Who's eligible; Costs",
+      "verified_facts": [
+        "Part B covers qualifying compression treatment items for diagnosed lymphedema when ordered by a clinician.",
+        "After the Part B deductible, generally 20% of the Medicare-approved amount is owed."
+      ],
+      "limits": "Cost sharing and supplier fulfillment can remain after benefit coverage. Earlier pre-2024 studies cannot establish current Medicare noncoverage.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    },
+    {
+      "id": "P-035",
+      "title": "RVU26C",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c",
+      "document_date": "2026-06-30",
+      "status": "Existing source ID retained; 2026 file landing page rechecked; file not reanalyzed for this opportunity assessment",
+      "locator": "Description: Physician Fee Schedule - July 2026 release; QP/non-QP explanation; RVU26C download updated 06/30/2026",
+      "verified_facts": [
+        "The landing page identifies RVU26C as the July 2026 physician fee schedule release, updated June 30, 2026.",
+        "CMS notes that a differential conversion factor applies for qualifying APM participants from January 1, 2026; QP and non-QP files have different contents."
+      ],
+      "limits": "Landing-page verification is not validation of code-level values; payment reconstruction must use the appropriate effective file, setting, modifiers and geography.",
+      "retrieved_on": "2026-09-21",
+      "access_level": "Official public HTML checked (some linked document dates separately corroborated)",
+      "pmid": null,
+      "doi": null,
+      "identifier_note": "Government/policy or clinical-guidance web source; not treated as a newly included scientific study."
+    }
+  ]
+}

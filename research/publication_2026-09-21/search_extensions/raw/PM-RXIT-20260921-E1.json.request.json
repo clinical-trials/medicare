@@ -1,0 +1,17 @@
+{
+  "requested_at_utc": "2026-09-21T17:55:55.639752+00:00",
+  "completed_at_utc": "2026-09-21T17:55:56.013480+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=MedicareEvidenceReview&term=%28%22Medicare%22%5BMesh%5D+OR+medicare%5Btiab%5D%29+AND+%28%22real+time+benefit%22%5Btiab%5D+OR+%22real-time+benefit%22%5Btiab%5D+OR+%22prescription+benefit%22%5Btiab%5D+OR+%22electronic+prescribing%22%5Btiab%5D+OR+%22e-prescribing%22%5Btiab%5D+OR+%28%28drug%2A%5Btiab%5D+OR+medicat%2A%5Btiab%5D+OR+prescrib%2A%5Btiab%5D%29+AND+%28%22decision+support%22%5Btiab%5D+OR+%22price+transparency%22%5Btiab%5D+OR+%22cost+transparency%22%5Btiab%5D+OR+%22cost+information%22%5Btiab%5D%29%29%29&retmode=json&retmax=9999",
+  "method": "GET",
+  "params": {
+    "db": "pubmed",
+    "tool": "MedicareEvidenceReview",
+    "term": "(\"Medicare\"[Mesh] OR medicare[tiab]) AND (\"real time benefit\"[tiab] OR \"real-time benefit\"[tiab] OR \"prescription benefit\"[tiab] OR \"electronic prescribing\"[tiab] OR \"e-prescribing\"[tiab] OR ((drug*[tiab] OR medicat*[tiab] OR prescrib*[tiab]) AND (\"decision support\"[tiab] OR \"price transparency\"[tiab] OR \"cost transparency\"[tiab] OR \"cost information\"[tiab])))",
+    "retmode": "json",
+    "retmax": 9999
+  },
+  "sha256": "02bdd8110e4f8f5f7ba3dee93fd8580e1e57f38375a45bf584d2ca22e8a28821",
+  "bytes": 3574,
+  "storage": "original bytes",
+  "stored_sha256": "02bdd8110e4f8f5f7ba3dee93fd8580e1e57f38375a45bf584d2ca22e8a28821"
+}

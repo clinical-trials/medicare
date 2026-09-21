@@ -303,6 +303,6 @@ Use the Lancet review to organize searches in cardiovascular and cerebrovascular
 
 ## Citation and audit trail
 
-Study IDs and numeric PMIDs above resolve to the active register and its [living bibliography](./Medicare_gender_care_bibliography.md). No cited primary references from background reviews were automatically added. The current verified scientific metadata contain 49 records, including 38 active candidates/context records, eight scope-excluded papers, one correction and two separately logged retrieval references. Excluded studies and outside-register references do not supply the substantive synthesis.
+Study IDs and numeric PMIDs above resolve to the active register and its [living bibliography](./Medicare_gender_care_bibliography.md). No cited primary references from background reviews were automatically added. The current verified scientific metadata contain 53 records, including 38 active candidates/context records, eight scope-excluded papers, one correction, two separately logged retrieval references and 4 separate translational reports. Excluded studies and outside-register references do not supply the substantive synthesis.
 
 The workbook retains the underlying records, a new Hypotheses tab, the dashboard pattern summary, and derived formulation states beside the existing Drug formularies inputs. The active population scope, patient/physician distinction and clinical anatomy/physiology classifications remain in force.

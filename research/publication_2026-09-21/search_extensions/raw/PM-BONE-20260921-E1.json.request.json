@@ -1,0 +1,17 @@
+{
+  "requested_at_utc": "2026-09-21T17:55:54.340298+00:00",
+  "completed_at_utc": "2026-09-21T17:55:55.258147+00:00",
+  "url": "https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&tool=MedicareEvidenceReview&term=%28%22Medicare%22%5BMesh%5D+OR+medicare%5Btiab%5D%29+AND+%28%22Osteoporosis%22%5BMesh%5D+OR+%22Bone+Density%22%5BMesh%5D+OR+%22Densitometry%22%5BMesh%5D+OR+osteoporos%2A%5Btiab%5D+OR+%22bone+mass+measurement%22%5Btiab%5D+OR+%22bone+mineral+density%22%5Btiab%5D+OR+DXA%5Btiab%5D+OR+DEXA%5Btiab%5D%29&retmode=json&retmax=9999",
+  "method": "GET",
+  "params": {
+    "db": "pubmed",
+    "tool": "MedicareEvidenceReview",
+    "term": "(\"Medicare\"[Mesh] OR medicare[tiab]) AND (\"Osteoporosis\"[Mesh] OR \"Bone Density\"[Mesh] OR \"Densitometry\"[Mesh] OR osteoporos*[tiab] OR \"bone mass measurement\"[tiab] OR \"bone mineral density\"[tiab] OR DXA[tiab] OR DEXA[tiab])",
+    "retmode": "json",
+    "retmax": 9999
+  },
+  "sha256": "ac13b0fc2382b360b784809a182ff43af3e04471c5172a105a8655d1d4946b79",
+  "bytes": 5916,
+  "storage": "original bytes",
+  "stored_sha256": "ac13b0fc2382b360b784809a182ff43af3e04471c5172a105a8655d1d4946b79"
+}

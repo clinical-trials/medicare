@@ -1,0 +1,30 @@
+{
+  "table1": {
+    "title": "Table 1 Selected evidence and limits of inference",
+    "headers": ["Evidence and unit", "Selected result", "What the result cannot establish"],
+    "rows": [
+      ["L-R01\n2016 Medicare survey\nPatient sex association", "Female versus male adjusted odds of any cost-related nonadherence: under 65, 1.66 (95% CI 1.31–2.10); 65 or older, 1.21 (1.04–1.41).", "Cross-sectional self-report; residual confounding and eligibility uncertainty. Not a current policy effect or causal bias estimate."],
+      ["L-R02\nSelected Chicago cohort\nPatient sex association", "Adjusted persistent nonadherence OR 1.36 (0.95–1.95); transient nonadherence OR 0.81 (0.62–1.07), women versus men.", "Both intervals include the null. Selected population; longitudinal outcomes differ from annual occurrence."],
+      ["L-P01 and L-P02\nSelected procedure pairs", "L-P01: 55 pairs; male-associated work RVUs averaged 30% higher. L-P02: no significant aggregate work-RVU or RVU-per-minute difference.", "Different matches and estimands. L-P02 abstract/companion pair counts conflict. Null is not equivalence; valuation is not patient access."],
+      ["L-P03\nTime-based procedure model", "Female versus male procedure labels: median work RVUs/hour 10.6 versus 9.7; modeled specialty compensation $555 versus $599/hour.", "Compensation multipliers are not Medicare conversion factors. Procedure/payer comparability and full-episode work remain concerns."],
+      ["L-G05\nMale fracture outreach\n7,842 analyzed", "BMD testing 10.7% versus 4.9%; adjusted OR 2.13 (1.74–2.62). Treatment initiation 4.0% versus 2.5%; adjusted OR 1.59 (1.19–2.12).", "28.3% excluded after randomization. Bundled outreach; no fracture reduction, isolated software effect or sex-gap closure established."],
+      ["L-T01\nMA COPD invitation trial\n19,113 randomized", "Intention-to-treat proportion of days covered: +3.8 percentage points (3.1–4.5). Exacerbation and total-spending estimates did not establish benefit.", "Refills are not inhaler use or clinical control. Low-income subsidy beneficiaries excluded. Intervention bundled cost sharing and management."],
+      ["L-T02\nMA benefit-tool implementation", "Difference-in-differences patient prescription spending: +1.2% (−0.7 to 3.0). Total prescription spending and monthly fills also compatible with no change.", "Nonrandom implementation; no demonstrated average improvement. No intervention-by-sex effect or equity benefit established."],
+      ["L-T03\nPost hoc cluster-trial report\nMedicare orders", "Overall fill difference +0.5 percentage points (−2.4 to 3.4). Highest-cost drug-class subgroup +10.5 points (1.9–19.2).", "Subgroup exploratory; its Medicare denominator unreported. L-T03-P1 is the same trial. Selected eligible orders; no equity-gap closure."]
+    ],
+    "note": "Examples from selected retrieval, not a complete included-study table or pooled analysis. Confidence intervals are 95%. MA, Medicare Advantage; OR, odds ratio; BMD, bone mineral density; RVU, relative value unit. Patient identity eligibility and formal independent appraisal remain unresolved. All numeric findings are provisional extractions with source locations retained in the working register and intervention evidence file."
+  },
+  "table2": {
+    "title": "Table 2 Unranked opportunities and the next useful study",
+    "headers": ["Domain", "Patient benefit or research contribution to test", "Next validation and evidence boundary"],
+    "rows": [
+      ["O-01\nMedication affordability", "Resolve clinically appropriate prescriptions through benefit information plus pharmacist or clinician support; measure unmet medication need and disease-specific outcomes.", "Pragmatic trial against existing tools and navigation. Bundled program benefit coexists with null average benefit-tool results. [L-T01; L-T02; L-T03]"],
+      ["O-02\nPost-fracture follow-up", "Complete appropriate bone assessment and treatment after a qualifying fracture, with accessible human follow-up.", "Multisite trial; separate process improvement from later fracture outcomes. Existing male-only outreach has substantial post-assignment exclusions. [L-G05]"],
+      ["O-03\nNon-drug authorization", "Reduce avoidable delay and patient burden for clinically indicated services; preserve clinical review and alternatives.", "Controlled rollout with all clinically eligible patients in the denominator. Final API rules enable workflows; they do not establish a sex disparity or product benefit. [P-046; P-047]"],
+      ["O-04\nProcedure valuation research", "Improve resource measurement, clinically defensible matching and reproducibility of code comparisons.", "Independent full-episode work measurement and replication before policy-effect claims. Opposing findings require explanation. [L-P01; L-P02; L-P03]"],
+      ["O-05\nLymphedema fulfillment", "Improve timely fitting, delivery and usable compression treatment; measure function and patient burden.", "Post-2024 needs audit, then controlled fulfillment intervention. Historical costs precede the current Medicare benefit. [L-A01; L-A02; P-054]"],
+      ["O-06\nKidney education and support", "Improve understanding, practical support and informed treatment choices at relevant kidney-disease stages.", "US Medicare patient/caregiver needs assessment, followed by a controlled pilot. Existing clinician interviews are contextual, not measured Medicare outcomes. [L-Q01; P-055]"]
+    ],
+    "note": "Domains are organized by clinical and implementation problem, not ranked by profitability, market size or expected health gain. Direct Medicare payment for the proposed software, purchasing demand, incremental cost-effectiveness and equitable reach are unverified. Detailed data requirements, prospective users/buyers and study designs are provided in Supplement B and the opportunity workbook."
+  }
+}

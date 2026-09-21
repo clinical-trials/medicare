@@ -1,0 +1,18 @@
+{
+  "created_at_utc": "2026-09-21T17:55:54.337425+00:00",
+  "searcher": "Codex AI assistant",
+  "status": "Pre-PRESS targeted development searches, not a completed formal search",
+  "eligibility_filters": "No age,language,sex,study-design or full-text filters",
+  "queries": [
+    {
+      "id": "PM-BONE-20260921-E1",
+      "purpose": "Targeted bone-testing extension after diagnostic miss PMID18302495; post hoc development amendment",
+      "query": "(\"Medicare\"[Mesh] OR medicare[tiab]) AND (\"Osteoporosis\"[Mesh] OR \"Bone Density\"[Mesh] OR \"Densitometry\"[Mesh] OR osteoporos*[tiab] OR \"bone mass measurement\"[tiab] OR \"bone mineral density\"[tiab] OR DXA[tiab] OR DEXA[tiab])"
+    },
+    {
+      "id": "PM-RXIT-20260921-E1",
+      "purpose": "Targeted health-IT translation extension following new entrepreneurship purpose; not a comprehensive technology review",
+      "query": "(\"Medicare\"[Mesh] OR medicare[tiab]) AND (\"real time benefit\"[tiab] OR \"real-time benefit\"[tiab] OR \"prescription benefit\"[tiab] OR \"electronic prescribing\"[tiab] OR \"e-prescribing\"[tiab] OR ((drug*[tiab] OR medicat*[tiab] OR prescrib*[tiab]) AND (\"decision support\"[tiab] OR \"price transparency\"[tiab] OR \"cost transparency\"[tiab] OR \"cost information\"[tiab])))"
+    }
+  ]
+}

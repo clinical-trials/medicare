@@ -20,6 +20,14 @@
       "extraction_source": "research/review_2026-09-21/valuation/extraction.json",
       "screening_notes": "Retain; full-text extraction advanced in this session. Classify as service valuation with registry time data and modeled specialty compensation, not cisgender patient disparity or physician-gender outcome evidence.",
       "limitation": "Specialty compensation multipliers are not Medicare conversion factors; global/perioperative work omitted. Published arithmetic discrepancies flagged in extraction notes. NSQIP is not a Medicare-only cohort."
+    },
+    "L-G05": {
+      "extraction_level": "Full main-text XML and tables reviewed on 2026-09-21; figure images and supplementary appendix not independently inspected",
+      "last_reviewed_on": "2026-09-21",
+      "extraction_source": "research/publication_2026-09-21/intervention_evidence.json",
+      "population": "10,934 men randomized; 7,842 analyzed (3,977 intervention; 3,865 control) after 3,092 post-assignment exclusions",
+      "limitation": "Single MA insurer; 28.3% excluded after assignment, including deaths/disenrollment. Selected untreated fracture patients; bundled communication intervention, no software-only effect or direct sex comparison. Process outcomes do not prove fracture reduction. Identity not established.",
+      "screening_notes": "Provisional AI full-text update. Randomized N differs from analyzed N; no independent human appraisal or final identity eligibility decision."
     }
   }
 }

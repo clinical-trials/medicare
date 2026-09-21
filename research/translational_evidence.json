@@ -1,0 +1,74 @@
+{
+  "updated_on": "2026-09-21",
+  "status": "Separate contextual stream for proposed interventions; no primary-sex study added",
+  "detailed_new_reports": 3,
+  "linked_parent_reports": 1,
+  "independent_new_study_families": 3,
+  "records": [
+    {
+      "id": "L-T01",
+      "pmid": "39073823",
+      "status": "Translational intervention context; outside primary patient-sex synthesis",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "analytic_subject": "Intervention effectiveness and implementation context",
+      "unit_of_analysis": "Six simple-randomization instances pooled; adjusted sex, age, region, baseline outcome, randomization month/year; follow-up duration weights. Race analysis includes interactions; overall analysis omits race. LATE applies to invitation-induced enrollees and assumes invitation affects outcomes only through enrollment. Multiplicity addressed for secondary outcomes with Benjamini-Hochberg.",
+      "patient_sex_gender_role": "Sex covariate only; no sex-stratified intervention effects or sex interaction reported in reviewed main text/tables.",
+      "physician_sex_gender_role": "No physician-gender effect tested",
+      "comparison_axis": "Intervention/implementation versus comparator; not female-versus-male treatment effect",
+      "inference_boundary": "No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap.",
+      "access_level": "Full publisher main text/tables reviewed; XML failed twice; supplements/protocol not independently reviewed. Historical VBID discussion is not a current-policy verification.",
+      "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821705",
+      "source_file": "research/publication_2026-09-21/intervention_evidence.json",
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-T02",
+      "pmid": "40608336",
+      "status": "Translational intervention context; outside primary patient-sex synthesis",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "analytic_subject": "Intervention effectiveness and implementation context",
+      "unit_of_analysis": "Practice tax-ID and time fixed effects; HMO-by-HRR-by-year effects plus age, gender, race, low-income subsidy, dual status and HMO; SE clustered by practice. Treated practice definition >=50% clinicians linked to vendor data; alternative10%/90% definitions and event-study checks. Log-spending models summarized as percentage changes in the article body.",
+      "patient_sex_gender_role": "Enrollment gender is an adjustment covariate; no sex/gender intervention contrast reported in reviewed material.",
+      "physician_sex_gender_role": "No physician-gender effect tested",
+      "comparison_axis": "Intervention/implementation versus comparator; not female-versus-male treatment effect",
+      "inference_boundary": "No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap.",
+      "access_level": "Full main text and tables reviewed from XML; supplementary estimates not independently extracted.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/",
+      "source_file": "research/publication_2026-09-21/intervention_evidence.json",
+      "related_reference_ids": []
+    },
+    {
+      "id": "L-T03",
+      "pmid": "42599729",
+      "status": "Translational intervention context; outside primary patient-sex synthesis",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "analytic_subject": "Intervention effectiveness and implementation context",
+      "unit_of_analysis": "Logistic regression adjusted age, EHR sex, insurance, specialty and drug class; robust SE clustered by practice, sensitivity two-way practice/patient clustering. Dispense matching on patient/medication/prescriber and +/-28-day date window; alternate algorithms and less-restrictive inclusion sensitivity checks.",
+      "patient_sex_gender_role": "Sex adjustment only; no sex-stratified intervention effect or intervention-by-sex test in main text or reviewed supplement tables.",
+      "physician_sex_gender_role": "No physician-gender effect tested",
+      "comparison_axis": "Intervention/implementation versus comparator; not female-versus-male treatment effect",
+      "inference_boundary": "No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap.",
+      "access_level": "Full main text and tables reviewed; Supplement2 selectively reviewed. Original protocol and full2022 parent report not reviewed in this bounded task. Do not call full formal risk-of-bias review complete.",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/",
+      "source_file": "research/publication_2026-09-21/intervention_evidence.json",
+      "related_reference_ids": [
+        "L-T03-P1"
+      ]
+    },
+    {
+      "id": "L-T03-P1",
+      "pmid": "36094537",
+      "status": "Linked parent report of L-T03; not an independent trial",
+      "active_register": false,
+      "primary_synthesis_eligible": false,
+      "access_level": "Verified metadata and abstract only",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/36094537/",
+      "related_record_id": "L-T03",
+      "relationship": "Earlier report of the same trial",
+      "inference_boundary": "Order-price estimates are not realized patient spending; do not upgrade abstract-only verification to full-text extraction."
+    }
+  ]
+}

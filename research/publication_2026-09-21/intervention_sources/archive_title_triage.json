@@ -1,0 +1,146 @@
+{
+  "date": "2026-09-21",
+  "route": "Targeted title-regex triage of existing archive; not new PubMed search or screening decisions",
+  "archive_count": 58686,
+  "patterns": [
+    "real.time.*(benefit|prescrip|price|cost)",
+    "(medication|drug).*(cost|afford).*(trial|intervention)",
+    "(trial|intervention).*(medication|drug).*(cost|afford)",
+    "osteopor.*(random|trial|intervention|outreach)"
+  ],
+  "selected_PMID_archive_membership": {
+    "36094537": false,
+    "42599729": false,
+    "33273290": true,
+    "39073823": true,
+    "40608336": true
+  },
+  "hits": [
+    {
+      "pmid": "33273290",
+      "title": "Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians.",
+      "patterns": [
+        "osteopor.*(random|trial|intervention|outreach)"
+      ]
+    },
+    {
+      "pmid": "40608336",
+      "title": "Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool.",
+      "patterns": [
+        "real.time.*(benefit|prescrip|price|cost)"
+      ]
+    },
+    {
+      "pmid": "17608876",
+      "title": "The new Medicare Part D prescription drug benefit: an estimation of its effect on prescription drug costs in a Medicare population with atrial fibrillation.",
+      "patterns": [
+        "(medication|drug).*(cost|afford).*(trial|intervention)"
+      ]
+    },
+    {
+      "pmid": "19161926",
+      "title": "Osteoporosis pharmacotherapy and counseling services in US ambulatory care clinics: opportunities for multidisciplinary interventions.",
+      "patterns": [
+        "osteopor.*(random|trial|intervention|outreach)"
+      ]
+    },
+    {
+      "pmid": "21605732",
+      "title": "Use of a decision aid to improve treatment decisions in osteoporosis: the osteoporosis choice randomized trial.",
+      "patterns": [
+        "osteopor.*(random|trial|intervention|outreach)"
+      ]
+    },
+    {
+      "pmid": "31651954",
+      "title": "Real-Time Benefit Tools for Drug Prices.",
+      "patterns": [
+        "real.time.*(benefit|prescrip|price|cost)"
+      ]
+    },
+    {
+      "pmid": "35114993",
+      "title": "Effect of an osteoporotic fracture prevention program on fracture incidence in routine care: a cluster-randomized trial.",
+      "patterns": [
+        "osteopor.*(random|trial|intervention|outreach)"
+      ]
+    },
+    {
+      "pmid": "36107429",
+      "title": "Effect of Digital Medication Event Reminder and Monitor-Observed Therapy vs Standard Directly Observed Therapy on Health-Related Quality of Life and Catastrophic Costs in Patients With Tuberculosis: A Secondary Analysis of a Randomized Clinical Trial.",
+      "patterns": [
+        "(medication|drug).*(cost|afford).*(trial|intervention)"
+      ]
+    },
+    {
+      "pmid": "36441366",
+      "title": "Where Do Real-Time Prescription Benefit Tools Fit in the Landscape of High US Prescription Medication Costs? A Narrative Review.",
+      "patterns": [
+        "real.time.*(benefit|prescrip|price|cost)"
+      ]
+    },
+    {
+      "pmid": "37705992",
+      "title": "The Influence of Diagnosis Intervention Packet Policy Intervention on Medication Structure and Drug Cost of Elderly Hypertensive Inpatients in China: A Multicenter Interrupted Time-Series Analysis.",
+      "patterns": [
+        "(trial|intervention).*(medication|drug).*(cost|afford)"
+      ]
+    },
+    {
+      "pmid": "38381842",
+      "title": "Effect of Aspirin Versus Low-Molecular-Weight Heparin Thromboprophylaxis on Medication Satisfaction and Out-of-Pocket Costs: A Secondary Analysis of a Randomized Clinical Trial.",
+      "patterns": [
+        "(medication|drug).*(cost|afford).*(trial|intervention)"
+      ]
+    },
+    {
+      "pmid": "38916510",
+      "title": "Osteoporotic Precise Screening Using Chest Radiography and Artificial Neural Network: The OPSCAN Randomized Controlled Trial.",
+      "patterns": [
+        "osteopor.*(random|trial|intervention|outreach)"
+      ]
+    },
+    {
+      "pmid": "39842859",
+      "title": "The association between clinical trial participation, drug costs, and performance in the Oncology Care Model.",
+      "patterns": [
+        "(trial|intervention).*(medication|drug).*(cost|afford)"
+      ]
+    },
+    {
+      "pmid": "40303275",
+      "title": "Real-Time Continuous Glucose Monitoring Reduced Costly Diabetes-Related Events in Adolescents and Young Adults despite Lack of Short-Term Reduction in Hemoglobin A1c.",
+      "patterns": [
+        "real.time.*(benefit|prescrip|price|cost)"
+      ]
+    },
+    {
+      "pmid": "40884225",
+      "title": "Impact of a real-time prescription benefit on adherence and utilization of low-cost prescription alternatives for members new to diabetes treatment.",
+      "patterns": [
+        "real.time.*(benefit|prescrip|price|cost)"
+      ]
+    },
+    {
+      "pmid": "40913582",
+      "title": "Impact of drug utilization management strategies on the incidence and cost of clinical events in patients with non-valvular atrial fibrillation receiving DOACs in the US.",
+      "patterns": [
+        "(medication|drug).*(cost|afford).*(trial|intervention)"
+      ]
+    },
+    {
+      "pmid": "41955092",
+      "title": "Plain language summary looking at the impact of drug management strategies on the incidence and cost of clinical events in patients with non-valvular atrial fibrillation receiving direct oral anticoagulants in the USA.",
+      "patterns": [
+        "(medication|drug).*(cost|afford).*(trial|intervention)"
+      ]
+    },
+    {
+      "pmid": "42573881",
+      "title": "The Promises and Pitfalls of Real-time Benefit Tools: A Qualitative Study of Primary Care Providers.",
+      "patterns": [
+        "real.time.*(benefit|prescrip|price|cost)"
+      ]
+    }
+  ]
+}

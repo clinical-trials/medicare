@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="504pt" height="547.2pt" viewBox="0 0 504 547.2" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-09-21T11:20:30.855617</dc:date>
+    <dc:description>Actual development-search retrieval status, September21,2026. Not a completed PRISMA selection flow. The separately selected register is not an included-study count from the corpus.</dc:description>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.11.2, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 547.2 
+L 504 547.2 
+L 504 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 131.4 228.96 
+L 131.4 242.64 
+L 372.6 242.64 
+L 372.6 228.96 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 252 309.6 
+L 252 324 
+L 131.4 324 
+L 131.4 333.36 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 252 324 
+L 372.6 324 
+L 372.6 333.36 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 131.4 391.68 
+L 131.4 402.48 
+L 372.6 402.48 
+L 372.6 391.68 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 26.856 137.664 
+L 235.944 137.664 
+Q 238.464 137.664 238.464 135.144 
+L 238.464 66.456 
+Q 238.464 63.936 235.944 63.936 
+L 26.856 63.936 
+Q 24.336 63.936 24.336 66.456 
+L 24.336 135.144 
+Q 24.336 137.664 26.856 137.664 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 268.056 137.664 
+L 477.144 137.664 
+Q 479.664 137.664 479.664 135.144 
+L 479.664 66.456 
+Q 479.664 63.936 477.144 63.936 
+L 268.056 63.936 
+Q 265.536 63.936 265.536 66.456 
+L 265.536 135.144 
+Q 265.536 137.664 268.056 137.664 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 131.4 138.24 
+Q 131.4 151.92 131.4 164.370163 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 133.4 160.370163 
+L 131.4 164.370163 
+L 129.4 160.370163 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #315e86; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 372.6 138.24 
+Q 372.6 151.92 372.6 164.370163 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 374.6 160.370163 
+L 372.6 164.370163 
+L 370.6 160.370163 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #315e86; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 26.856 229.104 
+L 235.944 229.104 
+Q 238.464 229.104 238.464 226.584 
+L 238.464 168.696 
+Q 238.464 166.176 235.944 166.176 
+L 26.856 166.176 
+Q 24.336 166.176 24.336 168.696 
+L 24.336 226.584 
+Q 24.336 229.104 26.856 229.104 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 268.056 229.104 
+L 477.144 229.104 
+Q 479.664 229.104 479.664 226.584 
+L 479.664 168.696 
+Q 479.664 166.176 477.144 166.176 
+L 268.056 166.176 
+Q 265.536 166.176 265.536 168.696 
+L 265.536 226.584 
+Q 265.536 229.104 268.056 229.104 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 252 242.64 
+Q 252 250.2 252 256.530163 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 254 252.530163 
+L 252 256.530163 
+L 250 252.530163 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #315e86; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 90.216 309.744 
+L 413.784 309.744 
+Q 416.304 309.744 416.304 307.224 
+L 416.304 260.856 
+Q 416.304 258.336 413.784 258.336 
+L 90.216 258.336 
+Q 87.696 258.336 87.696 260.856 
+L 87.696 307.224 
+Q 87.696 309.744 90.216 309.744 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #f0f5f9; stroke: #315e86; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 131.4 333.36 
+Q 131.4 338.4 131.4 342.210163 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 133.4 338.210163 
+L 131.4 342.210163 
+L 129.4 338.210163 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #315e86; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 372.6 333.36 
+Q 372.6 338.4 372.6 342.210163 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 374.6 338.210163 
+L 372.6 342.210163 
+L 370.6 338.210163 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #315e86; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 26.856 391.824 
+L 235.944 391.824 
+Q 238.464 391.824 238.464 389.304 
+L 238.464 346.536 
+Q 238.464 344.016 235.944 344.016 
+L 26.856 344.016 
+Q 24.336 344.016 24.336 346.536 
+L 24.336 389.304 
+Q 24.336 391.824 26.856 391.824 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 268.056 391.824 
+L 477.144 391.824 
+Q 479.664 391.824 479.664 389.304 
+L 479.664 346.536 
+Q 479.664 344.016 477.144 344.016 
+L 268.056 344.016 
+Q 265.536 344.016 265.536 346.536 
+L 265.536 389.304 
+Q 265.536 391.824 268.056 391.824 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 252 402.48 
+Q 252 410.4 252 417.090163 
+" clip-path="url(#p8f94110b12)" style="fill: none; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+    <path d="M 254 413.090163 
+L 252 417.090163 
+L 250 413.090163 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #315e86; stroke: #315e86; stroke-width: 1.1; stroke-linecap: round"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 26.856 470.304 
+L 477.144 470.304 
+Q 479.664 470.304 479.664 467.784 
+L 479.664 421.416 
+Q 479.664 418.896 477.144 418.896 
+L 26.856 418.896 
+Q 24.336 418.896 24.336 421.416 
+L 24.336 467.784 
+Q 24.336 470.304 26.856 470.304 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #f0f5f9; stroke: #315e86; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 26.856 532.944 
+L 477.144 532.944 
+Q 479.664 532.944 479.664 530.424 
+L 479.664 491.976 
+Q 479.664 489.456 477.144 489.456 
+L 26.856 489.456 
+Q 24.336 489.456 24.336 491.976 
+L 24.336 530.424 
+Q 24.336 532.944 26.856 532.944 
+z
+" clip-path="url(#p8f94110b12)" style="fill: #ffffff; stroke-dasharray: 4,3; stroke-dashoffset: 0; stroke: #8b98a4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 14px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #151515" x="25.2" y="30.448437" transform="rotate(-0 25.2 30.448437)">Figure 1. Retrieval and review status</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 9.5px; font-family: 'DejaVu Sans'; text-anchor: start; fill: #151515" x="25.2" y="51.470078" transform="rotate(-0 25.2 51.470078)">21 September 2026 | Development searches; selection review incomplete</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 10.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="84.284938" transform="rotate(-0 131.4 84.284938)">Baseline PubMed queries</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="109.753594" transform="rotate(-0 131.4 109.753594)">60,770 records</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="127.015844" transform="rotate(-0 131.4 127.015844)">43,904 core + 16,866 supplemental</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="84.243531" transform="rotate(-0 372.6 84.243531)">Targeted PubMed extensions</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 15px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="110.712188" transform="rotate(-0 372.6 110.712188)">756 records</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="127.015844" transform="rotate(-0 372.6 127.015844)">494 bone care + 262 prescription IT</text>
+   </g>
+   <g id="text_9">
+    <text style="font-weight: 700; font-size: 12.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="192.726438" transform="rotate(-0 131.4 192.726438)">58,686 unique PMIDs</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="215.575844" transform="rotate(-0 131.4 215.575844)">2,084 exact-PMID duplicates removed</text>
+   </g>
+   <g id="text_11">
+    <text style="font-weight: 700; font-size: 12.2px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="193.908313" transform="rotate(-0 372.6 193.908313)">461 additional PMIDs</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="215.575844" transform="rotate(-0 372.6 215.575844)">295 baseline-overlapping hits removed</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="252" y="280.787188" transform="rotate(-0 252 280.787188)">59,147 unique records combined</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="252" y="298.569" transform="rotate(-0 252 298.569)">Bibliographic metadata retrieved for every record</text>
+   </g>
+   <g id="text_15">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="365.085094" transform="rotate(-0 131.4 365.085094)">47,152 with abstracts</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="131.4" y="382.441641" transform="rotate(-0 131.4 382.441641)">Available for title/abstract review</text>
+   </g>
+   <g id="text_17">
+    <text style="font-weight: 700; font-size: 11.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="365.085094" transform="rotate(-0 372.6 365.085094)">11,995 without abstracts</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="372.6" y="381.923437" transform="rotate(-0 372.6 381.923437)">Retained; retrieval judgment required</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 12.5px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="252" y="439.720391" transform="rotate(-0 252 439.720391)">Human screening and appraisal pending</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 9.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="252" y="457.744187" transform="rotate(-0 252 457.744187)">Eligibility, related reports, extraction verification and outcome certainty</text>
+   </g>
+   <g id="text_21">
+    <text style="font-weight: 700; font-size: 10.8px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="252" y="507.657937" transform="rotate(-0 252 507.657937)">Separate selected register: 38 candidate or contextual records</text>
+   </g>
+   <g id="text_22">
+    <text style="font-size: 9.6px; font-family: 'DejaVu Sans'; text-anchor: middle; fill: #151515" x="252" y="523.929" transform="rotate(-0 252 523.929)">Earlier selected retrieval; not the screening output of this corpus</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p8f94110b12">
+   <rect x="0" y="0" width="504" height="547.2"/>
+  </clipPath>
+ </defs>
+</svg>

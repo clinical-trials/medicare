@@ -93,7 +93,7 @@ const methodRows=[
  ['Joint sex/gender analysis',scope.interaction_evidence_rule],
  ['Contextual evidence','General reviews support the clinical framework and citation following. Qualitative clinician interviews can identify perceived patient-access barriers, without estimating Medicare disparities. Label these roles separately; cited studies require independent screening.'],
  ['Scope amendment','Adopted September 16, 2026 after the initial broad search. This is a documented amendment, not a prospectively registered criterion. Research-scope exclusion is distinct from Medicare noncoverage.'],
- ['Search status','PubMed core and supplementary queries executed September 21, 2026 before PRESS review. 58,686 unique PMIDs identified; search and metadata archives are separate from this selected evidence register. Human screening and other planned databases remain pending.'],
+ ['Search status','PubMed core, supplementary and two targeted extension queries executed September 21, 2026 before PRESS review. 59,147 unique PMIDs identified; search and metadata archives are separate from this selected evidence register. Human screening and other planned databases remain pending.'],
  ['Eligible topic searches',scope.topic_scope],
  ['Policy levels',scope.policy_level_rule],
  ['Source hierarchy','Coverage uses federal benefit rules, CMS/Medicare guidance, named contractor policy and identified formularies. Scientific studies inform effects and disparity hypotheses, not automatic coverage decisions.'],
@@ -131,7 +131,7 @@ exclusion.freezePanes.freezeRows(8);exclusion.freezePanes.freezeColumns(2);
 put(dash,'B2','Medicare care for men and women');put(dash,'B3','Medicare as a benchmark for equitable care in later life');put(dash,'B4','Cisgender women and men. Anatomy, physiology and eligibility are distinguished below.');
 put(dash,'F5','SCIENTIFIC RECORDS');
 const contextCount=studies.filter(x=>x.synthesis_role==='context_only').length;
-put(dash,'F8',`${studies.length-contextCount} primary candidates + ${contextCount} context record${contextCount===1?'':'s'}`);
+put(dash,'F8',`${studies.length-contextCount} broad candidates + ${contextCount} context record${contextCount===1?'':'s'}`);
 // Clear obsolete formulas beneath the imported merged explanatory cells.
 dash.getRange('B44:I52').unmerge();
 dash.getRange('B44:I52').values=Array.from({length:9},()=>Array(8).fill(''));

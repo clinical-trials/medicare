@@ -581,7 +581,7 @@ AN  - 33273290
 UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/
 KW  - Candidate evidence / retained code-policy component
 Y2  - 2026-09-16
-N1  - Stable ID L-G05. Candidate evidence / retained code-policy component. Full-text sections. Verified against Europe PMC / MEDLINE.
+N1  - Stable ID L-G05. Candidate evidence / retained code-policy component. Full main-text XML and tables reviewed on 2026-09-21; figure images and supplementary appendix not independently inspected. Verified against Europe PMC / MEDLINE.
 N1  - Analytic subject: Patient care / access. Patient sex/gender: Men with fragility fractures; population restriction rather than between-sex comparison. Physician sex/gender: Physicians receive outreach; no physician-gender effect extracted. Comparison: Outreach versus usual care for bone testing and treatment. Inference boundary: Physician participation in an intervention is not physician-gender analysis; no direct female comparator..
 ER  -
 
@@ -1457,6 +1457,79 @@ N1  - Stable ID M-009. Methodological narrative guidance; secondary source. Atta
 ER  -
 
 TY  - JOUR
+ID  - M-010
+AU  - Sterne, Jonathan A C
+AU  - Savović, Jelena
+AU  - Page, Matthew J
+AU  - Elbers, Roy G
+AU  - Blencowe, Natalie S
+AU  - Boutron, Isabelle
+AU  - Cates, Christopher J
+AU  - Cheng, Hung-Yuan
+AU  - Corbett, Mark S
+AU  - Eldridge, Sandra M
+AU  - Emberson, Jonathan R
+AU  - Hernán, Miguel A
+AU  - Hopewell, Sally
+AU  - Hróbjartsson, Asbjørn
+AU  - Junqueira, Daniela R
+AU  - Jüni, Peter
+AU  - Kirkham, Jamie J
+AU  - Lasserson, Toby
+AU  - Li, Tianjing
+AU  - McAleenan, Alexandra
+AU  - Reeves, Barnaby C
+AU  - Shepperd, Sasha
+AU  - Shrier, Ian
+AU  - Stewart, Lesley A
+AU  - Tilling, Kate
+AU  - White, Ian R
+AU  - Whiting, Penny F
+AU  - Higgins, Julian P T
+TI  - RoB 2: a revised tool for assessing risk of bias in randomised trials.
+JO  - BMJ (Clinical research ed.)
+JA  - BMJ
+PY  - 2019
+VL  - 366
+SP  - l4898
+DO  - 10.1136/bmj.l4898
+AN  - 31462531
+UR  - https://pubmed.ncbi.nlm.nih.gov/31462531/
+KW  - Primary methodological source for a risk-of-bias instrument; not Medicare evidence.
+Y2  - 2026-09-21
+N1  - Stable ID M-010. Primary methodological source for a risk-of-bias instrument; not Medicare evidence.. PubMed/MEDLINE metadata and official RoB 2/Cochrane tool guidance landing pages reviewed; full detailed guidance manual not assessed in this task.. Verified against PubMed and the MEDLINE record in Europe PMC, with official tool-developer sources checked.. Cite the primary BMJ article for planned RoB 2 appraisal, alongside the exact design-specific manual when the protocol version is frozen. Instrument availability and bibliographic verification do not mean formal appraisal has occurred. Select the variant by trial design and the result/estimand being assessed. A sex association from an RCT-derived cohort is not automatically a randomized intervention effect. Complete author list follows PubMed/MEDLINE: 28 authors, including Jonathan R Emberson; the tool-site suggested citation currently omits him. The MEDLINE Comment on link to PMID 22008217 concerns the earlier 2011 risk-of-bias article; it is not an erratum or a second RoB 2 study. No linked erratum/retraction was returned in this bounded metadata check.
+ER  -
+
+TY  - JOUR
+ID  - M-011
+AU  - Barker, Timothy H
+AU  - Hasanoff, Sabira
+AU  - Aromataris, Edoardo
+AU  - Stone, Jennifer C
+AU  - Leonardi-Bee, Jo
+AU  - Sears, Kim
+AU  - Klugar, Miloslav
+AU  - Tufanaru, Catalin
+AU  - Moola, Sandeep
+AU  - Liu, Xian-Liang
+AU  - Munn, Zachary
+TI  - The revised JBI critical appraisal tool for the assessment of risk of bias for analytical cross-sectional studies.
+JO  - JBI evidence synthesis
+JA  - JBI Evid Synth
+PY  - 2026
+VL  - 24
+IS  - 3
+SP  - 401
+EP  - 408
+DO  - 10.11124/jbies-24-00523
+AN  - 40521701
+UR  - https://pubmed.ncbi.nlm.nih.gov/40521701/
+KW  - Primary methodological source for a risk-of-bias instrument; not Medicare evidence.
+Y2  - 2026-09-21
+N1  - Stable ID M-011. Primary methodological source for a risk-of-bias instrument; not Medicare evidence.. PubMed/MEDLINE metadata; current official JBI tool page; official JBI-hosted publication text inspected, including tool-development/application sections and Table 1 context. Current linked DOCX identified but its contents were not reviewed.. Verified against PubMed and the MEDLINE record in Europe PMC, with official tool-developer sources checked.. Use 2026;24(3):401-408 for the issue citation; preserve first online publication date 2025-05-10 separately. Copyright 2025 does not change the issue year. Current tool is revised; do not silently cite or apply the older 2017 analytical cross-sectional checklist as though it were this version. The manuscript may name the instrument as planned; no formal JBI appraisal or implemented version is claimed. Reviewers must read and freeze the exact manual/template and pilot interpretation before use. This instrument concerns analytical cross-sectional exposure/outcome associations. It is not a universal tool for cohort studies, prevalence-only descriptions, randomized effects, fee-schedule inventories or policy documents. The paper distinguishes study-, outcome- and result-level judgments; preserve those levels instead of reducing appraisal to a numeric paper score. No linked erratum/retraction was returned by the bounded MEDLINE/Europe PMC metadata check; this is not proof of absence.
+ER  -
+
+TY  - JOUR
 ID  - L-X01
 AU  - Correa-de-Araujo, Rosaly
 AU  - Miller, G Edward
@@ -1498,6 +1571,115 @@ UR  - https://pubmed.ncbi.nlm.nih.gov/36255428/
 KW  - Spending context outside active register
 Y2  - 2026-09-21
 N1  - Stable ID L-X02. Spending context outside active register. Main full text and table inspected; supplement not inspected. Verified against Europe PMC / MEDLINE. Metadata verification is separate from full-text review and study eligibility. No linked correction/retraction returned in the retrieved Europe PMC MED record on 2026-09-21; this does not establish absence. Spending context outside active evidence register; main report does not estimate a patient-sex effect. Linked PMID 36255438 is Comment in, not a correction. Abstract/body spending totals and reported share require source reconciliation; see drug_access_candidates.json.
+ER  -
+
+TY  - JOUR
+ID  - L-T01
+AU  - Agarwal, Sumit D
+AU  - Metzler, Elizabeth
+AU  - Chernew, Michael
+AU  - Thomas, Emily
+AU  - Press, Valerie G
+AU  - Boudreau, Emily
+AU  - Powers, Brian W
+AU  - McWilliams, J Michael
+TI  - Reduced Cost Sharing and Medication Management Services for COPD: A Randomized Clinical Trial
+JO  - JAMA internal medicine
+JA  - JAMA Intern Med
+PY  - 2024
+VL  - 184
+IS  - 10
+SP  - 1186
+EP  - 1194
+DO  - 10.1001/jamainternmed.2024.3499
+AN  - 39073823
+UR  - https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821705
+KW  - Translational intervention context; outside primary patient-sex synthesis
+Y2  - 2026-09-21
+L2  - https://pmc.ncbi.nlm.nih.gov/articles/PMC11287444/
+N1  - Stable ID L-T01. Translational intervention context; outside primary patient-sex synthesis. Full publisher main text/tables reviewed; XML failed twice; supplements/protocol not independently reviewed. Historical VBID discussion is not a current-policy verification.. Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent. Europe PMC firstPublicationDate represents the October issue; publisher explicitly dates online publication July 29, 2024. XML retrieval failed twice with HTTP 500; publisher web text was accessible.
+N1  - Analytic subject: Intervention effectiveness and implementation context. Patient sex/gender: Sex covariate only; no sex-stratified intervention effects or sex interaction reported in reviewed main text/tables.. Physician sex/gender: No physician-gender effect tested. Comparison: Intervention/implementation versus comparator; not female-versus-male treatment effect. Inference boundary: No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap..
+ER  -
+
+TY  - JOUR
+ID  - L-T02
+AU  - Zink, Anna
+AU  - Wehrly, David
+AU  - Bozzi, Debra
+AU  - Sutherland, Amanda
+AU  - Boudreau, Emily
+AU  - McWilliams, J Michael
+AU  - Chernew, Michael
+TI  - Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool
+JO  - JAMA network open
+JA  - JAMA Netw Open
+PY  - 2025
+VL  - 8
+IS  - 7
+SP  - e2519038
+DO  - 10.1001/jamanetworkopen.2025.19038
+AN  - 40608336
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/
+KW  - Translational intervention context; outside primary patient-sex synthesis
+Y2  - 2026-09-21
+L2  - https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/
+N1  - Stable ID L-T02. Translational intervention context; outside primary patient-sex synthesis. Full main text and tables reviewed from XML; supplementary estimates not independently extracted.. Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent. Europe PMC firstPublicationDate July 1 is the issue date; article XML explicitly dates online publication July 3, 2025.
+N1  - Analytic subject: Intervention effectiveness and implementation context. Patient sex/gender: Enrollment gender is an adjustment covariate; no sex/gender intervention contrast reported in reviewed material.. Physician sex/gender: No physician-gender effect tested. Comparison: Intervention/implementation versus comparator; not female-versus-male treatment effect. Inference boundary: No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap..
+ER  -
+
+TY  - JOUR
+ID  - L-T03
+AU  - Ying, Roger
+AU  - Padmanabhan, Prianca
+AU  - Szerencsy, Adam
+AU  - Mehrotra, Ateev
+AU  - Horwitz, Leora I
+AU  - Desai, Sunita M
+TI  - Real-Time Prescription Benefit Tool Availability and Prescription Medication Fill Rates: A Post Hoc Analysis of a Cluster Randomized Clinical Trial
+JO  - JAMA health forum
+JA  - JAMA Health Forum
+PY  - 2026
+VL  - 7
+IS  - 8
+SP  - e262739
+DO  - 10.1001/jamahealthforum.2026.2739
+AN  - 42599729
+UR  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/
+KW  - Translational intervention context; outside primary patient-sex synthesis
+Y2  - 2026-09-21
+L2  - https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/
+N1  - Stable ID L-T03. Translational intervention context; outside primary patient-sex synthesis. Full main text and tables reviewed; Supplement2 selectively reviewed. Original protocol and full2022 parent report not reviewed in this bounded task. Do not call full formal risk-of-bias review complete.. Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent. Date discrepancy preserved: MEDLINE-derived firstPublicationDate is August 7, 2026; article XML Published field and pub-date say August 14, 2026. Year, volume, issue, DOI, title and PMID agree; no date silently substituted.
+N1  - Analytic subject: Intervention effectiveness and implementation context. Patient sex/gender: Sex adjustment only; no sex-stratified intervention effect or intervention-by-sex test in main text or reviewed supplement tables.. Physician sex/gender: No physician-gender effect tested. Comparison: Intervention/implementation versus comparator; not female-versus-male treatment effect. Inference boundary: No reported intervention-by-patient-sex/gender test in the reviewed material; no demonstrated closure of a women/men equity gap..
+ER  -
+
+TY  - JOUR
+ID  - L-T03-P1
+AU  - Desai, Sunita M
+AU  - Chen, Alan Z
+AU  - Wang, Jiejie
+AU  - Chung, Wei-Yi
+AU  - Stadelman, Jay
+AU  - Mahoney, Chris
+AU  - Szerencsy, Adam
+AU  - Anzisi, Lisa
+AU  - Mehrotra, Ateev
+AU  - Horwitz, Leora I
+TI  - Effects of Real-time Prescription Benefit Recommendations on Patient Out-of-Pocket Costs: A Cluster Randomized Clinical Trial
+JO  - JAMA internal medicine
+JA  - JAMA Intern Med
+PY  - 2022
+VL  - 182
+IS  - 11
+SP  - 1129
+EP  - 1137
+DO  - 10.1001/jamainternmed.2022.3946
+AN  - 36094537
+UR  - https://pubmed.ncbi.nlm.nih.gov/36094537/
+KW  - Linked parent report of L-T03; not an independent trial
+Y2  - 2026-09-21
+L2  - https://pmc.ncbi.nlm.nih.gov/articles/PMC9468947/
+N1  - Stable ID L-T03-P1. Linked parent report of L-T03; not an independent trial. Verified metadata and abstract only. Verified against Europe PMC MEDLINE record; title/DOI/PMID consistent. MEDLINE publication-type labels include Comment, but the verified title/abstract describe the original cluster randomized trial. Design classification follows the article; linked Comment in records are not separate corrections or trials.
+N1  - Earlier report of the same trial: L-T03
 ER  -
 
 TY  - ELEC
@@ -1590,10 +1772,10 @@ ER  -
 
 TY  - ELEC
 ID  - P-012
-TI  - Bone mass measurement: estrogen-deficient risk category
+TI  - Bone mass measurements
 UR  - https://www.medicare.gov/coverage/bone-mass-measurements
 KW  - Policy/data source
-N1  - Source description from register; not necessarily formal title. Linked records: G04, G05. Carried from research sources; not reverified during bibliography backfill.
+N1  - Source description from register; not necessarily formal title. Linked records: G04, G05, Translational opportunity assessment. Existing source ID retained; current coverage page rechecked.  Part B covers bone mass measurement under listed qualifying conditions, generally every 24 months or more often when medically necessary. Conditions include clinician-determined estrogen deficiency with osteoporosis risk, specified imaging findings, steroid treatment, primary hyperparathyroidism and monitoring osteoporosis treatment. The test has no patient charge when coverage conditions are met and the provider accepts assignment. Neither male sex nor female sex alone establishes all clinical and coverage criteria; coverage conditions do not define every case of clinical need.
 ER  -
 
 TY  - ELEC
@@ -1662,10 +1844,10 @@ ER  -
 
 TY  - ELEC
 ID  - P-021
-TI  - Lymphedema compression garments, wraps and bandaging supplies
+TI  - Lymphedema compression treatment items
 UR  - https://www.medicare.gov/coverage/lymphedema-compression-treatment-items
 KW  - Policy/data source
-N1  - Source description from register; not necessarily formal title. Linked records: A01. Carried from research sources; not reverified during bibliography backfill.
+N1  - Source description from register; not necessarily formal title. Linked records: A01, Translational opportunity assessment. Existing source ID retained; current coverage page rechecked.  Part B covers qualifying compression treatment items for diagnosed lymphedema when ordered by a clinician. After the Part B deductible, generally 20% of the Medicare-approved amount is owed. Cost sharing and supplier fulfillment can remain after benefit coverage. Earlier pre-2024 studies cannot establish current Medicare noncoverage.
 ER  -
 
 TY  - ELEC
@@ -1774,10 +1956,10 @@ ER  -
 
 TY  - ELEC
 ID  - P-035
-TI  - CMS RVU26C physician relative value files
+TI  - RVU26C
 UR  - https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c
 KW  - Policy/data source
-N1  - Source description from register; not necessarily formal title. Linked records: Procedure values. Carried from research sources; not reverified during bibliography backfill. Version: 2026-06-30.
+N1  - Source description from register; not necessarily formal title. Linked records: Procedure values, Translational opportunity assessment. Existing source ID retained; 2026 file landing page rechecked; file not reanalyzed for this opportunity assessment. Version: 2026-06-30. The landing page identifies RVU26C as the July 2026 physician fee schedule release, updated June 30, 2026. CMS notes that a differential conversion factor applies for qualifying APM participants from January 1, 2026; QP and non-QP files have different contents. Landing-page verification is not validation of code-level values; payment reconstruction must use the appropriate effective file, setting, modifiers and geography.
 ER  -
 
 TY  - ELEC
@@ -1858,6 +2040,110 @@ TI  - NLM VSAC indexed CPT 51597 descriptor, version 2021
 UR  - https://vsac.nlm.nih.gov/context/cs/codesystem/CPT/version/2021/code/51597/info
 KW  - Policy/data source
 N1  - Source description from register; not necessarily formal title. Linked records: Procedure values. Verified against the indexed NLM VSAC code entry on 2026-09-16. Version: 2021. The indexed 2021 descriptor includes hysterectomy as an optional component, so CPT 51597 is not exclusively male anatomy. This source supports classification, not current coverage or the 2026 RVU values.
+ER  -
+
+TY  - ELEC
+ID  - P-046
+TI  - CMS Interoperability and Prior Authorization Final Rule CMS-0057-F
+UR  - https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Final rule summary; requirements have distinct implementation dates. Version: 2024-01-17. Applies to Medicare Advantage and specified Medicaid, CHIP and federally facilitated Exchange payers; Original Medicare is not an impacted payer under this rule. Prior Authorization API and related API changes generally require compliance beginning 2027-01-01; exact dates vary by payer type. Operational provisions generally begin 2026-01-01. Decision timeframes for covered non-drug requests are 72 hours expedited and seven calendar days standard for impacted payers subject to those provisions; QHP issuers on the FFEs are excluded from these finalized timeframe provisions. Denial reasons and public prior-authorization metrics are required. Finalized 2024 prior-authorization provisions exclude drugs. FHIR R4.0.1 is a required standard; named Da Vinci guides are recommended under this rule, not universally required by it. Interoperability and timeliness duties do not guarantee instantaneous approval, eliminate medical review, prove sex disparity, or establish reimbursement for software.
+ER  -
+
+TY  - ELEC
+ID  - P-047
+TI  - Prior Authorization API
+UR  - https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current CMS implementation FAQ checked at assessment cutoff.  CMS reiterates seven-calendar-day standard and 72-hour expedited maximum timeframes for applicable non-drug requests, with payer-specific regulatory exceptions/extensions. Some API requests still require clinical review; real-time approval is not guaranteed. Public aggregate metrics are not a patient-level sex-stratified dataset. Consult payer-specific legal provisions and actual request records before labeling a request overdue; public aggregate metrics cannot identify patient-sex effects.
+ER  -
+
+TY  - ELEC
+ID  - P-048
+TI  - 2026 CMS Interoperability Standards and Prior Authorization for Drugs Proposed Rule
+UR  - https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. PROPOSED (CMS-0062-P); not treated as finalized as of 2026-09-21. Version: 2026-04-10. Proposes adding medical-benefit drugs to Prior Authorization APIs beginning 2027-10-01. Proposes additional NCPDP requirements for pharmacy-benefit drugs for specified non-Part-D payers, aligning with existing Medicare Part D requirements. Proposes making additional implementation guides mandatory, extending drug data availability and updating reporting. An effective date or proposed compliance date is conditional on finalization; this source does not establish a present drug-FHIR obligation. Do not conflate pharmacy-benefit NCPDP transactions with proposed medical-benefit FHIR transactions, or sell unfinalized requirements as legal mandates.
+ER  -
+
+TY  - ELEC
+ID  - P-049
+TI  - E-Prescribing Standards and Requirements
+UR  - https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current CMS standards page rechecked; June 17, 2024 final rule CMS-4205-F2 summarized.  Part D sponsors have been required to implement beneficiary real-time benefit tools since 2023-01-01. NCPDP Real-Time Prescription Benefit version 13 is required for prescriber RTBTs supported by Part D sponsors beginning 2027-01-01. NCPDP Formulary and Benefit version 60 begins 2027-01-01; NCPDP SCRIPT 2023011 becomes required beginning 2028-01-01 after transition. Prescription-related electronic transactions include medication history and electronic prior authorization. These are standards/plan support requirements, not demonstrated clinical benefit, universal clinician use, or a reimbursement code for an independent application.
+ER  -
+
+TY  - ELEC
+ID  - P-050
+TI  - HTI-4 Overview and Key Dates for Certification Program
+UR  - https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Final-rule certification overview, published as part of FY2026 IPPS rule.  HTI-4 includes an RTPB certification criterion based on NCPDP RTPB version 13 and three new electronic prior-authorization certification criteria. The overview identifies a 2028 RTPB/Base EHR milestone, distinct from the 2027 Part D sponsor standard requirement. Certification criteria and payer mandates are different. Product-specific certification applicability and the latest provider reporting measures need separate confirmation; no claim that every standalone application must certify or is paid for certification.
+ER  -
+
+TY  - ELEC
+ID  - P-051
+TI  - Final CY 2026 Part D Redesign Program Instructions
+UR  - https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Final guidance for calendar year 2026, rechecked 2026-09-21. Version: 2025-04-07. The annual out-of-pocket threshold for covered Part D drugs is $2,100 in 2026. The benefit redesign changes enrollee, plan, manufacturer and Medicare liability; it is not a universal cap on all health spending. Distinguish covered-drug true out-of-pocket accounting, premiums, noncovered purchases, monthly cash flow and annual spending. Do not apply the 2026 amount to other years.
+ER  -
+
+TY  - ELEC
+ID  - P-052
+TI  - Will this payment option help me?
+UR  - https://www.medicare.gov/prescription-payment-plan/will-this-help-me
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current beneficiary guidance checked 2026-09-21.  The Medicare Prescription Payment Plan spreads Part D out-of-pocket costs over the calendar year; it does not lower drug costs. Monthly bills can change as prescriptions are filled and the number of remaining months falls. The 2026 covered-drug out-of-pocket maximum applies whether or not an enrollee uses the payment plan. A cash-flow tool must not advertise cost reduction merely from installment enrollment or substitute enrollment for affordability assistance.
+ER  -
+
+TY  - ELEC
+ID  - P-053
+TI  - Osteoporosis to Prevent Fractures: Screening
+UR  - https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Final clinical recommendation; not Medicare coverage policy. Version: 2025-01-14. Recommends screening women aged 65 or older and postmenopausal women under 65 at increased fracture risk. Finds insufficient evidence to determine benefits and harms of screening men. Recommendation applies to adults without known osteoporosis or a history of fragility fracture; it does not answer post-fracture evaluation. Do not turn the screening I statement for men into a recommendation against post-fracture care. Clinical indication and insurance eligibility must be evaluated separately.
+ER  -
+
+TY  - ELEC
+ID  - P-054
+TI  - Lymphedema Compression Treatment Items
+UR  - https://www.cms.gov/medicare/payment/fee-schedules/durable-medical-equipment-prosthetic-devices-prosthetics-orthotics-supplies/lymphedema-compression-treatment-items
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current benefit/payment implementation page checked 2026-09-21.  Benefit includes medically necessary standard/custom gradient garments, wraps, bandaging and specified accessories for affected body parts. CMS pays enrolled DMEPOS suppliers for furnishing covered items. Daytime limit: three garments per affected body part every six months; nighttime: two per affected part every two years, with specified replacement exceptions. Furnishing-related services, including garment donning/doffing education, are bundled in supplier payment; CMS states that this education is not separately payable under the physician fee schedule. Item coverage is not software reimbursement and does not establish realized access. Garments, pumps and surgery have different coverage pathways.
+ER  -
+
+TY  - ELEC
+ID  - P-055
+TI  - Kidney disease education
+UR  - https://www.medicare.gov/coverage/kidney-disease-education
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current beneficiary coverage page checked 2026-09-21.  Part B covers up to six education sessions for eligible people with stage 4 chronic kidney disease referred by a doctor or qualified provider. Specified eligible providers furnish the service; Part B deductible and generally 20% coinsurance apply. Education covers treatment options and relevant health and social concerns. Does not establish coverage for a standalone navigation application, all CKD stages, all transport, unlimited sessions or all proposed users.
+ER  -
+
+TY  - ELEC
+ID  - P-056
+TI  - Clinical Decision Support Software: Guidance for Industry and Food and Drug Administration Staff
+UR  - https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Final guidance, reissued January 29 after January 6, 2026 update. Version: 2026-01-29. FDA explains statutory criteria excluding some CDS functions from the device definition. Some CDS functions, including certain patient/caregiver functions, remain devices subject to applicable FDA policies. Assessment depends on actual software functions and intended use. None of the proposed opportunities is declared FDA-cleared, exempt, non-device or compliant. Evaluate concrete functions before clinical deployment; guidance is not a product authorization.
+ER  -
+
+TY  - ELEC
+ID  - P-057
+TI  - Clinical Decision Support Software Frequently Asked Questions (FAQs)
+UR  - https://www.fda.gov/medical-devices/software-medical-device-samd/clinical-decision-support-software-frequently-asked-questions-faqs
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current FDA FAQ checked 2026-09-21.  FDA advises function-by-function evaluation using relevant digital-health guidance rather than treating all decision support alike. Simple documentation/communication functions and recommendations affecting medical decisions can have different regulatory treatment. Administrative workflow support does not establish that added diagnostic or treatment-selection functions have the same regulatory status.
+ER  -
+
+TY  - ELEC
+ID  - P-059
+TI  - General
+UR  - https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/general
+KW  - Policy/data source
+N1  - Source description from register; not necessarily formal title. Linked records: Translational opportunity assessment. Current interoperability FAQ checked 2026-09-21.  The finalized 2024 rule excludes drug prior-authorization requirements because drug standards and processes differ. CMS identifies CMS-0062-P as a proposal to extend requirements to drugs. Original Medicare has a separate prior-authorization/API context; it must not be represented as an impacted payer under CMS-0057-F. An Original Medicare implementation or pilot is not the same as the MA/other impacted payer rule.
 ER  -
 
 TY  - ELEC

@@ -1,0 +1,489 @@
+{
+  "version": "0.2",
+  "audited_on": "2026-09-21",
+  "status": "preliminary_synthesis_not_completed_systematic_review",
+  "audit_type": "AI repository methods audit, not independent human screening or risk-of-bias assessment",
+  "scope_source": "REVIEW_SCOPE.md",
+  "scope_change_adopted_by_this_audit": false,
+  "pending_scope_question": "Whether sex-recorded cohorts with unreported gender identity may enter a separately labeled analysis. Pending investigator answer; current criterion remains in force.",
+  "recommended_current_manuscript_designation": "Preliminary evidence synthesis and translational research agenda",
+  "intended_final_designation": "Systematic review of Medicare coverage, payment and access equity, with a separately reported translational assessment and distinct original CMS companion methods if retained.",
+  "current_counts": {
+    "baseline_development_unique_pmids": 58686,
+    "baseline_metadata_records": 58686,
+    "baseline_with_abstract": 46735,
+    "baseline_without_abstract": 11951,
+    "baseline_heading_correction_added": 60,
+    "baseline_priority_subset_not_filter": 6769,
+    "extension_raw_hits": 756,
+    "extension_unique_pmids": 756,
+    "extension_baseline_overlap": 295,
+    "extension_new_unique_pmids": 461,
+    "combined_unique_pmids": 59147,
+    "prepared_calibration_records": 50,
+    "human_screened_records": 0,
+    "active_register_records": 38,
+    "legacy_primary_candidate_label_count_not_included_studies": 31,
+    "legacy_context_label_count": 7,
+    "care_items": 40,
+    "exploratory_hypotheses": 9,
+    "scientific_metadata_records": 53,
+    "scope_excluded_studies": 8,
+    "linked_corrections": 1,
+    "methodological_metadata_records": 11,
+    "combined_metadata_records": 59147,
+    "combined_with_abstract": 47152,
+    "combined_without_abstract": 11995,
+    "shared_doi_groups_flagged_not_merged": 17,
+    "normalized_title_groups_flagged_not_merged": 303,
+    "outside_active_historical_leads_context_records": 2,
+    "outside_active_intervention_reports": 4,
+    "outside_active_context_reports_total": 6,
+    "scientific_metadata_components": {
+      "active_register": 38,
+      "scope_excluded_studies": 8,
+      "linked_lancet_correction": 1,
+      "historical_outside_active_leads_context": 2,
+      "new_outside_active_intervention_reports": 4
+    }
+  },
+  "search_status": {
+    "baseline": "Executed before PRESS; fully exported and audit-verified.",
+    "extensions": "Two targeted post hoc PubMed development extensions; counts inspected in manifest; this audit did not independently hash every extension response.",
+    "sentinel_baseline": "9 of 10 selected pilot records; post-execution diagnostic, not validated recall.",
+    "previously_missed_pmid": "18302495",
+    "previously_missed_pmid_retrieved_by_extension": true,
+    "sentinel_interpretation": "Recovery of the known miss is not an independent sensitivity validation.",
+    "other_planned_databases": "Not executed in the audited work; subscription access not confirmed.",
+    "deduplication": "Exact PMID only; report families, related reports, cohort overlap and retrieval-route reconciliation pending.",
+    "complete_metadata_statement_applies_to": "The current 59,147 combined metadata corpus; baseline-only archive verification is described separately.",
+    "complete_systematic_search_claim": false,
+    "combined_metadata": "All 59,147 combined records now have bibliographic metadata, 47,152 with abstracts and 11,995 without, reconciled in queue_summary.json.",
+    "report_family_flags": "17 shared-DOI groups and 303 normalized-title groups; potentially overlapping candidates, not automatically merged duplicates."
+  },
+  "completed_review_claims": {
+    "independent_human_screening": false,
+    "independent_human_critical_extraction": false,
+    "formal_risk_of_bias": false,
+    "formal_certainty_assessment": false,
+    "completed_prisma_flow": false,
+    "prospective_registration": false,
+    "journal_submission": false
+  },
+  "publication_role_counts_proposed": {
+    "medicare_service_valuation_candidate": 6,
+    "valuation_input_directness_unresolved": 3,
+    "clinical_efficacy_safety_background": 10,
+    "medicare_descriptive_drug_use": 1,
+    "medicare_patient_empirical_candidate": 9,
+    "other_payer_empirical_background": 2,
+    "physician_gender_context": 3,
+    "general_or_qualitative_context": 4
+  },
+  "publication_role_mapping": "research/publication_2026-09-21/evidence_roles.json",
+  "blockers": [
+    {
+      "id": "B01",
+      "component": "Scope and estimands",
+      "status": "identity_eligibility_unresolved_current_scope_active",
+      "evidence_file": "REVIEW_SCOPE.md",
+      "required_action": "Resolve identity eligibility under the adopted criterion. Keep identity-unreported patient cohorts unresolved; any separately labeled expansion requires a dated investigator amendment. Other work can continue under the current scope.",
+      "ai_work_available": "Prepare measurement and applicability fields without relabeling cohorts.",
+      "human_role": "Investigator and two eligibility reviewers.",
+      "completion_evidence": "Adopted scope/amendment recorded; all affected records reviewed under the same rules."
+    },
+    {
+      "id": "B02",
+      "component": "Publication evidence roles",
+      "status": "proposal_ready_for_review",
+      "evidence_file": "research/publication_2026-09-21/evidence_roles.json",
+      "required_action": "Separate empirical Medicare patient/service evidence from clinical, other-payer and physician context; do not use 31 or 38 as included-study counts.",
+      "ai_work_available": "Complete role map, source/directness checks and candidate extraction.",
+      "human_role": "Eligibility reviewers and clinical/methods reviewer.",
+      "completion_evidence": "Every final source has an adjudicated role and appropriate inference boundary."
+    },
+    {
+      "id": "B03",
+      "component": "Final search strategy and source coverage",
+      "status": "incomplete",
+      "evidence_file": "research/review_2026-09-21/README.md",
+      "required_action": "PRESS-review and revise strategy across body systems; execute other planned databases/citation routes or transparently amend unavailable sources.",
+      "ai_work_available": "Draft queries, execute accessible sources, preserve queries/exports, reconcile routes.",
+      "human_role": "Information specialist plus separate PRESS reviewer.",
+      "completion_evidence": "Peer-review record, final translated strategies, actual run logs and source-access limitations available."
+    },
+    {
+      "id": "B04",
+      "component": "Deduplication and independent selection",
+      "status": "incomplete",
+      "evidence_file": "research/publication_2026-09-21/search_extensions/manifest.json",
+      "required_action": "Review related reports/cohorts; pilot and complete independent title/abstract and full-text screening; distinguish nonretrieval from exclusion.",
+      "ai_work_available": "Flag exact/near duplicates and report families; prepare screening suggestions and source retrieval.",
+      "human_role": "Two human reviewers; third adjudicator when needed.",
+      "completion_evidence": "Independent decisions, reconciliation, report/study links and flow counts recorded."
+    },
+    {
+      "id": "B05",
+      "component": "Critical data extraction",
+      "status": "incomplete",
+      "evidence_file": "research/review_2026-09-21/drug_access/drug_access_candidates.json",
+      "required_action": "Complete full-text extraction with numerical denominators, CIs, policy years and identity/payer verification; resolve source discrepancies.",
+      "ai_work_available": "Prepopulate source-located fields, cross-check arithmetic and missing-data flags.",
+      "human_role": "Two independent reviewers for critical data and subjective judgments.",
+      "completion_evidence": "Reconciled extraction with retained individual decisions and source locators."
+    },
+    {
+      "id": "B06",
+      "component": "Risk of bias and certainty",
+      "status": "not_completed",
+      "evidence_file": "research/submission/Medicare_systematic_review_protocol.md",
+      "required_action": "Apply appropriate tools by estimand/design; code-policy appraisal separate; certainty by outcome/comparison where framework fits.",
+      "ai_work_available": "Prepare domain prompts and locate supporting passages; do not assign final human ratings.",
+      "human_role": "Two trained appraisers; methods/clinical reviewer.",
+      "completion_evidence": "Domain judgments and rationale reconciled; suitable outcome bodies rated or reason for no rating stated."
+    },
+    {
+      "id": "B07",
+      "component": "Clinical comparability and synthesis",
+      "status": "incomplete",
+      "evidence_file": "research/submission/Medicare_systematic_review_protocol.md",
+      "required_action": "Establish need-based denominators, policy-period alignment, clinical resource comparability and independent compatible estimands; preserve null/male-disadvantage results.",
+      "ai_work_available": "Build structured synthesis tables, reproducible calculations and sensitivity specifications.",
+      "human_role": "Clinical/methods reviewers; statistician if pooling or complex inference is undertaken.",
+      "completion_evidence": "Final analytic plan, independent calculation verification and defensible narrative or quantitative synthesis."
+    },
+    {
+      "id": "B08",
+      "component": "Original CMS companion analyses",
+      "status": "exploratory_only",
+      "evidence_file": "research/submission/Medicare_systematic_review_protocol.md",
+      "required_action": "Keep original analyses outside the literature flow; verify concept/code universes, mapping, setting, resources and denominator/weighting limitations.",
+      "ai_work_available": "Audit scripts/joins and concept lists; reproduce descriptive outputs.",
+      "human_role": "Clinical coding/resource experts and methods/statistical reviewer as indicated.",
+      "completion_evidence": "Separate reproducible methods, validated mapping, sample limits and estimands stated."
+    },
+    {
+      "id": "B09",
+      "component": "Translational opportunity assessment",
+      "status": "proposed_amendment",
+      "evidence_file": "research/publication_2026-09-21/methods_audit.md",
+      "required_action": "Document care gap, mechanism, proposed solution and test separately; evaluate patient benefit/equity before and separately from commercial feasibility.",
+      "ai_work_available": "Build traceability and test specifications; targeted intervention-evidence retrieval and technical assumptions.",
+      "human_role": "Investigator, patient/caregiver, clinical and intended-workflow-user input; developer feasibility review.",
+      "completion_evidence": "Amendment status/date clear; source-linked gap and intervention evidence, prerequisites, uncertainties and stakeholder input documented when performed."
+    },
+    {
+      "id": "B10",
+      "component": "Publication reporting and accountability",
+      "status": "incomplete",
+      "evidence_file": "research/submission/PRISMA_readiness_crosswalk.md",
+      "required_action": "Finalize actual PRISMA accounting, protocol timing/amendments, contributions, AI disclosures, funding/conflicts and reproducibility package.",
+      "ai_work_available": "Prepare manuscript/checklist drafts and cross-check claims/counts/citations.",
+      "human_role": "Accountable author team.",
+      "completion_evidence": "Completed, accurate checklist and final manuscript report only work actually done."
+    }
+  ],
+  "publication_formats": [
+    {
+      "format": "Preliminary synthesis and research agenda",
+      "readiness": "Truthful current designation; final author review still required.",
+      "scope_change_required": false
+    },
+    {
+      "format": "Completed systematic review",
+      "readiness": "Target product after blockers resolved; not current status.",
+      "scope_change_required": false
+    },
+    {
+      "format": "Scoping review/evidence map",
+      "readiness": "Potential alternative only after explicit design amendment and completed systematic identification, selection and charting.",
+      "scope_change_required": "Design amendment required; patient scope need not change."
+    },
+    {
+      "format": "Dated protocol or methods report",
+      "readiness": "Must disclose prior exploratory searching/extraction; publication depends on venue eligibility.",
+      "scope_change_required": false
+    }
+  ],
+  "translational_amendment": {
+    "status": "proposed_not_adopted",
+    "date_prompted": "2026-09-21",
+    "method_type": "Project-specific structured assessment; not a validated score, economic evaluation or market-size study.",
+    "eligibility_changes": false,
+    "unit": "Clinically eligible population × indication/need × Medicare benefit/policy period × documented barrier × proposed mechanism.",
+    "patient_benefit_and_equity_first": true,
+    "commercial_viability_separate": true,
+    "technology_effectiveness_requires_separate_evidence": true,
+    "arbitrary_weighted_scores_permitted": false,
+    "market_size_from_inventory_or_aggregate_spending_permitted": false,
+    "minimum_fields": [
+      "opportunity_id",
+      "clinical_indication",
+      "anatomy_or_physiology_category",
+      "eligible_population_and_identity_measurement",
+      "age_entitlement_and_equity_strata",
+      "medicare_part_plan_and_policy_period",
+      "source_study_and_policy_ids",
+      "source_locators",
+      "observed_gap_outcome",
+      "effect_estimate_and_uncertainty",
+      "numerator_denominator_and_followup",
+      "clinical_need_definition_independent_of_coverage",
+      "currentness_directness_and_appraisal_status",
+      "mechanism_hypothesis",
+      "technical_and_nontechnical_alternatives",
+      "proposed_intervention_and_comparator",
+      "intervention_evidence_separate_from_gap_evidence",
+      "patient_important_benefit_harm_and_affordability_outcomes",
+      "equity_and_reach_outcomes",
+      "appropriate_care_and_nonrecipient_denominators",
+      "missingness_nonuse_and_work_displacement",
+      "falsifiable_test_and_failure_conditions",
+      "data_provenance_availability_and_refresh",
+      "workflow_owner_and_human_correction",
+      "technical_feasibility_unknowns",
+      "potential_adopter_and_buyer_separate_from_patient",
+      "payment_procurement_route_and_incentive_conflicts",
+      "development_operating_cost_evidence_or_unknown",
+      "commercial_feasibility_unknowns",
+      "stakeholder_input_status",
+      "conflicts_of_interest",
+      "unmet_prerequisites_and_planning_state"
+    ],
+    "planning_states": [
+      "requires problem validation",
+      "specified for a feasibility study",
+      "specified for a comparative benefit study"
+    ],
+    "planning_state_warning": "Explanatory prerequisites, not validated rankings or adoption recommendations; no current effectiveness or commercial success inferred."
+  },
+  "methods_sources": [
+    {
+      "source_id": "M-001",
+      "citation": "Page MJ et al. The PRISMA 2020 statement: an updated guideline for reporting systematic reviews. BMJ. 2021;372:n71.",
+      "pmid": "33782057",
+      "doi": "10.1136/bmj.n71",
+      "url": "https://www.prisma-statement.org/prisma-2020",
+      "supports": "PRISMA reporting identity and materials; not a conduct certification.",
+      "verification": "Existing verified project methods metadata and official statement landing page inspected.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": "M-005",
+      "citation": "McGowan J et al. PRESS Peer Review of Electronic Search Strategies: 2015 Guideline Statement. J Clin Epidemiol. 2016;75:40-46.",
+      "pmid": "27005575",
+      "doi": "10.1016/j.jclinepi.2016.01.021",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27005575/",
+      "supports": "Structured peer review of search logic, headings, terms and limits; review before database translation.",
+      "verification": "PubMed metadata and abstract accessed via targeted primary-source search.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": null,
+      "citation": "Cochrane Handbook for Systematic Reviews of Interventions. Chapter 4: Searching for and selecting studies. Section 4.6.4.",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-04",
+      "supports": "Independent final inclusion decisions, pilot selection and records for study/report flow; distinguishes desirable duplicate initial screening from essential duplicate final decisions in Cochrane guidance.",
+      "verification": "Official chapter text inspected; web chapter, not a new PubMed article.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": null,
+      "citation": "Cochrane Handbook for Systematic Reviews of Interventions. Chapter 5: Collecting data. Sections 5.5.2-5.5.5.",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-05",
+      "supports": "Independent critical outcome extraction and subjective interpretation, report-family reconciliation and preserved disagreements.",
+      "verification": "Official chapter text inspected; web chapter, not a new PubMed article.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": null,
+      "citation": "Cochrane Handbook for Systematic Reviews of Interventions. Chapter 14: Completing Summary of findings tables and grading the certainty of the evidence. Section 14.2.",
+      "pmid": null,
+      "doi": null,
+      "url": "https://www.cochrane.org/authors/handbooks-and-manuals/handbook/current/chapter-14",
+      "supports": "Certainty applies to an outcome-specific body of evidence; consider bias, inconsistency, indirectness, imprecision and publication bias.",
+      "verification": "Official chapter text inspected; web chapter, not a new PubMed article.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": null,
+      "citation": "Tricco AC et al. PRISMA Extension for Scoping Reviews (PRISMA-ScR): Checklist and Explanation. Ann Intern Med. 2018;169(7):467-473.",
+      "pmid": "30178033",
+      "doi": "10.7326/M18-0850",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30178033/",
+      "official_guidance_url": "https://www.prisma-statement.org/scoping",
+      "supports": "Scoping reviews systematically map concepts and gaps and require transparent reporting; no justification for relabeling an unfinished review as completed.",
+      "verification": "Title, first author, journal/year/pages, DOI and PMID verified in PubMed primary record; abstract and official PRISMA landing inspected.",
+      "canonical_import_status": "New methodological reference proposal only; no canonical metadata or M-ID assignment performed.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": null,
+      "citation": "Peters MDJ et al. Updated methodological guidance for the conduct of scoping reviews. JBI Evid Synth. 2020;18(10):2119-2126.",
+      "pmid": "33038124",
+      "doi": "10.11124/JBIES-20-00167",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33038124/",
+      "supports": "A scoping design is an option for systematically mapping heterogeneous evidence, contingent on a design decision and completed conduct.",
+      "verification": "Title, authors, journal/year/pages, DOI and PMID verified in PubMed primary record; abstract inspected.",
+      "canonical_import_status": "New methodological reference proposal only; no canonical metadata or M-ID assignment performed.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": "M-004",
+      "citation": "PRISMA-S: an extension to the PRISMA Statement for Reporting Literature Searches in Systematic Reviews.",
+      "pmid": "33499930",
+      "doi": "10.1186/s13643-020-01542-z",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33499930/",
+      "supports": "Exact reporting of sources, dates, complete strategies, limits, supplementary routes and deduplication.",
+      "verification": "Verified canonical metadata and primary tool-developer/publisher sources; source import is separate from instrument use.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": "M-010",
+      "citation": "RoB 2: a revised tool for assessing risk of bias in randomised trials.",
+      "pmid": "31462531",
+      "doi": "10.1136/bmj.l4898",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31462531/",
+      "supports": "Primary RoB 2 instrument source for appropriately selected randomized intervention results.",
+      "verification": "Verified canonical metadata and primary tool-developer/publisher sources; source import is separate from instrument use.",
+      "accessed_on": "2026-09-21"
+    },
+    {
+      "source_id": "M-011",
+      "citation": "The revised JBI critical appraisal tool for the assessment of risk of bias for analytical cross-sectional studies.",
+      "pmid": "40521701",
+      "doi": "10.11124/jbies-24-00523",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40521701/",
+      "supports": "Primary revised JBI analytical cross-sectional appraisal source; not applicable to every observational design.",
+      "verification": "Verified canonical metadata and primary tool-developer/publisher sources; source import is separate from instrument use.",
+      "accessed_on": "2026-09-21"
+    }
+  ],
+  "files_audited": [
+    "REVIEW_SCOPE.md",
+    "research/submission/Medicare_systematic_review_protocol.md",
+    "research/submission/PRISMA_readiness_crosswalk.md",
+    "research/submission/manuscript_methods_proposed.md",
+    "research/submission/verification.json",
+    "research/review_2026-09-21/README.md",
+    "research/review_2026-09-21/search_summary.json",
+    "research/scoped_evidence.json",
+    "research/evidence_subjects.json",
+    "research/publication_2026-09-21/search_extensions/manifest.json",
+    "research/publication_2026-09-21/queue_summary.json",
+    "research/publication_2026-09-21/intervention_evidence.json",
+    "research/publication_2026-09-21/intervention_search_log.md",
+    "research/publication_2026-09-21/manuscript.md",
+    "research/methodology_references.json",
+    "research/bibliography_metadata.json"
+  ],
+  "provenance": "This proposal does not edit canonical register, scope, protocol, bibliography or study eligibility. No editor, author or stakeholder was contacted.",
+  "publication_report_families": {
+    "new_outside_active_reports": [
+      "L-T01",
+      "L-T02",
+      "L-T03",
+      "L-T03-P1"
+    ],
+    "same_trial_reports": [
+      "L-T03",
+      "L-T03-P1"
+    ],
+    "same_trial_id": "NCT04940988",
+    "claim": "Four bibliographic reports do not represent four independent new trials. Existing L-G05 remains in the 38-record active register."
+  },
+  "manuscript_reconciliation": {
+    "audited_on": "2026-09-21",
+    "six_earlier_material_issues_corrected": true,
+    "source_count_consistency": "Current corpus, abstract and metadata counts match retained files.",
+    "primary_appraisal_citations": [
+      "M-010",
+      "M-011"
+    ],
+    "primary_appraisal_citations_replace_secondary_only_basis": true,
+    "formal_appraisal_completed": false,
+    "new_intervention_status": "Translational context; source discrepancies retained, no sex-gap closure established.",
+    "supplemental_methods": "research/publication_2026-09-21/supplemental_methods.md"
+  },
+  "optional_unassigned_method_proposals": [
+    {
+      "proposed_id": null,
+      "status": "Optional SAGER reporting-source proposal only; not imported or counted among 11 canonical methods.",
+      "authors": [
+        {
+          "family": "Heidari",
+          "given": "Shirin",
+          "initials": "S"
+        },
+        {
+          "family": "Babor",
+          "given": "Thomas F",
+          "initials": "TF"
+        },
+        {
+          "family": "De Castro",
+          "given": "Paola",
+          "initials": "P"
+        },
+        {
+          "family": "Tort",
+          "given": "Sera",
+          "initials": "S"
+        },
+        {
+          "family": "Curno",
+          "given": "Mirjam",
+          "initials": "M"
+        }
+      ],
+      "title": "Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use",
+      "journal": "Research Integrity and Peer Review",
+      "journal_abbreviation": "Res Integr Peer Rev",
+      "year": 2016,
+      "volume": "1",
+      "pages": "2",
+      "pmid": "29451543",
+      "pmcid": "PMC5793986",
+      "doi": "10.1186/s41073-016-0007-6",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29451543/",
+      "verified_on": "2026-09-21",
+      "verification_sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/29451543/",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC5793986/"
+      ],
+      "proposed_use": "Preserve sex/gender terminology and measurement, appropriate disaggregation, population-boundary justification, and applicability limits without inferring identity or causal equity.",
+      "linked_correction": {
+        "pmid": "39707570",
+        "pmcid": "PMC11660825",
+        "doi": "10.1186/s41073-024-00155-7",
+        "year": 2024,
+        "journal": "Res Integr Peer Rev",
+        "volume": "9",
+        "issue": "1",
+        "pages": "15",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39707570/",
+        "publisher_url": "https://link.springer.com/article/10.1186/s41073-024-00155-7",
+        "content_verified": "Publisher correction adds missing peer-review reports after a database error; it does not revise SAGER recommendations.",
+        "separate_study": false
+      },
+      "prisma_s_duplicate_needed": false
+    }
+  ],
+  "prisma_s_status": "Already retained as M-004 PMID33499930; no new or duplicate method ID proposed.",
+  "unresolved_intervention_source_issues": {
+    "source_log": "research/publication_2026-09-21/intervention_search_log.md",
+    "L-T03": [
+      "Main versus supplement follow-up end dates and age-band labels differ.",
+      "Excluded-order counts need reconciliation.",
+      "Unused intermediate-cost Medicare CI appears inconsistently printed; no silent correction.",
+      "Highest-cost Medicare subgroup denominator unreported; exploratory selected order subset, not definitive benefit or sex-gap closure."
+    ],
+    "L-T01": [
+      "Demographic-table count/percentage inconsistency preserved without invented correction."
+    ],
+    "required_action": "Resolve against full reports/protocols and seek authorized author clarification where needed before definitive reliance; no correspondence occurred."
+  }
+}

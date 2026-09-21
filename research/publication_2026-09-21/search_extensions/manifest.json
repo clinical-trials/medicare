@@ -1,0 +1,37 @@
+{
+  "completed_at_utc": "2026-09-21T17:56:06.489968+00:00",
+  "queries": [
+    {
+      "id": "PM-BONE-20260921-E1",
+      "purpose": "Targeted bone-testing extension after diagnostic miss PMID18302495; post hoc development amendment",
+      "query": "(\"Medicare\"[Mesh] OR medicare[tiab]) AND (\"Osteoporosis\"[Mesh] OR \"Bone Density\"[Mesh] OR \"Densitometry\"[Mesh] OR osteoporos*[tiab] OR \"bone mass measurement\"[tiab] OR \"bone mineral density\"[tiab] OR DXA[tiab] OR DEXA[tiab])",
+      "count": 494,
+      "translation": "(\"Medicare\"[MeSH Terms] OR \"Medicare\"[Title/Abstract]) AND (\"Osteoporosis\"[MeSH Terms] OR \"Bone Density\"[MeSH Terms] OR \"Densitometry\"[MeSH Terms] OR \"osteoporos*\"[Title/Abstract] OR \"bone mass measurement\"[Title/Abstract] OR \"bone mineral density\"[Title/Abstract] OR \"DXA\"[Title/Abstract] OR \"DEXA\"[Title/Abstract])",
+      "warnings": {},
+      "overlap_with_baseline": 187,
+      "additional_to_baseline": 307,
+      "id_sha256": "db03467103603b670f873cdd9dbdef8170baf9a58d0ede75b9751d1efa305f5d"
+    },
+    {
+      "id": "PM-RXIT-20260921-E1",
+      "purpose": "Targeted health-IT translation extension following new entrepreneurship purpose; not a comprehensive technology review",
+      "query": "(\"Medicare\"[Mesh] OR medicare[tiab]) AND (\"real time benefit\"[tiab] OR \"real-time benefit\"[tiab] OR \"prescription benefit\"[tiab] OR \"electronic prescribing\"[tiab] OR \"e-prescribing\"[tiab] OR ((drug*[tiab] OR medicat*[tiab] OR prescrib*[tiab]) AND (\"decision support\"[tiab] OR \"price transparency\"[tiab] OR \"cost transparency\"[tiab] OR \"cost information\"[tiab])))",
+      "count": 262,
+      "translation": "(\"Medicare\"[MeSH Terms] OR \"Medicare\"[Title/Abstract]) AND (\"real-time benefit\"[Title/Abstract] OR \"real-time benefit\"[Title/Abstract] OR \"prescription benefit\"[Title/Abstract] OR \"electronic prescribing\"[Title/Abstract] OR \"e-prescribing\"[Title/Abstract] OR ((\"drug*\"[Title/Abstract] OR \"medicat*\"[Title/Abstract] OR \"prescrib*\"[Title/Abstract]) AND (\"decision support\"[Title/Abstract] OR \"price transparency\"[Title/Abstract] OR \"cost transparency\"[Title/Abstract] OR \"cost information\"[Title/Abstract])))",
+      "warnings": {},
+      "overlap_with_baseline": 108,
+      "additional_to_baseline": 154,
+      "id_sha256": "aef1241412262225a90878c188e6fd364d9afc2a38e4ccef33334db6bc13cc60"
+    }
+  ],
+  "baseline_unique_records": 58686,
+  "extension_raw_hits": 756,
+  "extension_unique_records": 756,
+  "extension_overlap_with_baseline": 295,
+  "new_unique_records": 461,
+  "combined_unique_records": 59147,
+  "diagnostic_missed_record_18302495_retrieved": true,
+  "deduplication": "Exact PMID only; related reports and cohort overlap still pending",
+  "human_screened": 0,
+  "reporting_limit": "Targeted, post hoc development extensions; not PRESS reviewed or comprehensive multi-database search"
+}
