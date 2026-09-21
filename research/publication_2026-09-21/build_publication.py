@@ -181,12 +181,14 @@ para('**Keywords:** Medicare; health equity; sex differences; reimbursement; hea
 page()
 markdown('## Introduction'+source.split('## Introduction',1)[1])
 
-page();figure_image(HERE/'figures/figure1_retrieval_status.png','Figure 1 Retrieval and review status. 59,147 unique report records identified; human screening and appraisal pending. Selected 38-record register shown separately.')
-para('Counts describe executed PubMed development searches as of September 21, 2026. Each unique PMID is a report record, not necessarily an independent study. Search extensions were developed after the initial search. No counts of full-text exclusions or final included studies are inferred. The selected 38-record register and targeted intervention retrieval are separate routes requiring later reconciliation. This is an audit diagram, not a completed PRISMA selection flow.','Caption')
-
+# Seven-figure research edition requested by the investigator.
+# Figure numbering follows first citation in the main text.
+figure_set=read(HERE/'figures/expanded_figure_manifest.json')['figures']
+assert [f['number'] for f in figure_set]==list(range(1,8))
+for fig in figure_set:
+    page();figure_image(HERE/'figures'/fig['png'],fig['alt_text'])
+    para(fig['caption'],'Caption')
 page();heading(tables['table1']['title']);table(tables['table1'],[1.32,2.68,2.90])
-page();figure_image(HERE/'figures/figure2_validation_pathway.png','Figure 2 Health IT validation pathway. Need, mechanism, intervention, benefit and equity, and implementation require distinct evidence.')
-para('Conceptual framework developed for this project after exploratory evidence review. Each stage requires a specified patient population, clinical indication and appropriate comparator. Progress may reveal that clinical support, policy change or an existing service is more useful than new software. Average benefit, equitable reach and commercial feasibility require separate evidence; no composite score or profitability ranking is implied.','Caption')
 page();heading(tables['table2']['title']);table(tables['table2'],[1.22,2.7,2.98])
 
 page();heading('Supplement A Methods and review completion')
@@ -251,11 +253,11 @@ page();heading('References')
 para('Stable IDs support the working manuscript until final journal numbering. Numeric PMIDs identify scientific and methodological publications; policy/data sources have no PMID. The separate living bibliography and RIS retain all active, excluded, contextual and correction records. Bibliographic verification is distinct from eligibility and full-text review.')
 for rid in used:
     r=refs[rid]
-    if rid.startswith('P-'):
-        title=r.get('official_title') or '; '.join(r.get('descriptions',[]))
+    if rid.startswith(('P-','C-')):
+        title=r.get('official_title') or r.get('title') or '; '.join(r.get('descriptions',[]))
         org=r.get('organization')
         value=f"[{rid}] "+(f"{org}. " if org else '')+f"{title}."
-        if not r.get('official_title'):value+=' Descriptive source label.'
+        if not (r.get('official_title') or r.get('title')):value+=' Descriptive source label.'
         value+=' Access/status: '+str(r.get('source_access_date') or r.get('recorded_on') or 'See source register')+'.'
         url=r['url']
     else:
@@ -266,7 +268,7 @@ for rid in used:
         if rid=='L-B01-E1':value+=' Correction linked to L-B01; not an independent study.'
         if rid=='L-T03-P1':value+=' Same trial as L-T03; not an independent trial.'
         url=r.get('source_url') or r.get('url')
-    p=doc.add_paragraph();p.paragraph_format.space_after=Pt(5);p.paragraph_format.line_spacing=1.0
+    p=doc.add_paragraph();p.paragraph_format.space_after=Pt(3);p.paragraph_format.line_spacing=1.0
     p.paragraph_format.keep_together=True
     run=p.add_run(value);run.font.size=Pt(10)
     if url:
@@ -277,7 +279,7 @@ path=OUT/(STEM+'.docx');doc.save(path)
 stats={'built_on':'2026-09-21','title_characters':len(source.splitlines()[0][2:]),
  'abstract_words_whitespace_count':len(source.split('## Abstract')[1].split('## Key takeaways')[0].split()),
  'main_body_words_including_headings_and_stable_ids':len(source.split('## Introduction')[1].split()),
- 'main_figures':2,'main_tables':2,'opportunity_domains':6,'printed_reference_count':len(used),
+ 'main_figures':7,'figure_edition':'Expanded research and white-paper edition; final journal display allocation pending','main_tables':2,'opportunity_domains':6,'printed_reference_count':len(used),
  'printed_reference_ids':used,'docx_path':str(path),'formal_human_review_completed':False,
  'word_count_note':'Working count; journal treatment of headings, citations, tables and supplements must be confirmed.'}
 (HERE/'publication_build.json').write_text(json.dumps(stats,indent=2)+'\n')

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="547.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 547" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="547.2"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-547)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="547.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="515.0076171875" style="font-family: Arial-Bold; font-size: 14px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Figure 1. Separate the subjects of comparison</text>
+			<text x="22" y="494.35654296875003" style="font-family: Arial; font-size: 9.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,988) scale(1,-1)">Analytical framework | Preserve units, measured variables and inference limits</text>
+			<rect x="22" y="155.20000000000005" width="144" height="315.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="451.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,903) scale(1,-1)">Patient care and access</text>
+			<text x="34" y="431.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,862) scale(1,-1)">Units: patients, product</text>
+			<text x="34" y="418.8109375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,837) scale(1,-1)">records or interviews</text>
+			<text x="34" y="406.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,812) scale(1,-1)"></text>
+			<text x="34" y="393.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,786) scale(1,-1)">Assess: need, costs, use</text>
+			<text x="34" y="380.79493750000006" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,761) scale(1,-1)">and outcomes</text>
+			<text x="34" y="368.12293750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,736) scale(1,-1)"></text>
+			<text x="34" y="355.4509375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,710) scale(1,-1)">Compare: recorded patient</text>
+			<text x="34" y="342.77893750000004" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,685) scale(1,-1)">sex where measured</text>
+			<text x="34" y="330.1069375000001" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,660) scale(1,-1)"></text>
+			<text x="34" y="317.43493750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,634) scale(1,-1)">One eligible population is</text>
+			<text x="34" y="304.7629375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,609) scale(1,-1)">not a between-sex</text>
+			<text x="34" y="292.09093750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,584) scale(1,-1)">comparison.</text>
+			<rect x="180" y="155.20000000000005" width="144" height="315.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="192" y="451.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,903) scale(1,-1)">Service and anatomy</text>
+			<text x="192" y="437.900515625" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,875) scale(1,-1)">valuation</text>
+			<text x="192" y="417.75493750000004" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,835) scale(1,-1)">Unit: codes, procedures or</text>
+			<text x="192" y="405.0829375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,810) scale(1,-1)">policies</text>
+			<text x="192" y="392.41093750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,784) scale(1,-1)"></text>
+			<text x="192" y="379.7389375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,759) scale(1,-1)">Assess: valuation,</text>
+			<text x="192" y="367.06693750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,734) scale(1,-1)">resources and coverage</text>
+			<text x="192" y="354.3949375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,708) scale(1,-1)"></text>
+			<text x="192" y="341.72293750000006" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,683) scale(1,-1)">Compare: defensibly</text>
+			<text x="192" y="329.05093750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,658) scale(1,-1)">matched services</text>
+			<text x="192" y="316.3789375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,632) scale(1,-1)"></text>
+			<text x="192" y="303.70693750000004" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,607) scale(1,-1)">Anatomy and specialty do</text>
+			<text x="192" y="291.03493750000007" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,582) scale(1,-1)">not measure physician</text>
+			<text x="192" y="278.36293750000004" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,556) scale(1,-1)">gender.</text>
+			<rect x="338" y="155.20000000000005" width="144" height="315.0" rx="3" ry="3" style="stroke: rgb(33%,39%,45%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,96%,97%); fill-rule: evenodd;"/>
+			<text x="350" y="451.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,903) scale(1,-1)">Physician sex or gender</text>
+			<text x="350" y="431.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,862) scale(1,-1)">Unit: clinicians or</text>
+			<text x="350" y="418.8109375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,837) scale(1,-1)">provider-service records</text>
+			<text x="350" y="406.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,812) scale(1,-1)"></text>
+			<text x="350" y="393.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,786) scale(1,-1)">Assess: receipts or</text>
+			<text x="350" y="380.79493750000006" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,761) scale(1,-1)">service-level payments</text>
+			<text x="350" y="368.12293750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,736) scale(1,-1)"></text>
+			<text x="350" y="355.4509375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,710) scale(1,-1)">Compare: measured</text>
+			<text x="350" y="342.77893750000004" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,685) scale(1,-1)">physician sex or gender</text>
+			<text x="350" y="330.1069375000001" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,660) scale(1,-1)"></text>
+			<text x="350" y="317.43493750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,634) scale(1,-1)">Contextual stream, outside</text>
+			<text x="350" y="304.7629375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,609) scale(1,-1)">patient-sex synthesis.</text>
+			<rect x="22" y="63.200000000000045" width="460" height="73.0" rx="3" ry="3" style="stroke: rgb(33%,39%,45%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="117.62851562500005" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,235) scale(1,-1)">Clinical and social background</text>
+			<text x="34" y="97.19172656250004" style="font-family: Arial; font-size: 10px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,194) scale(1,-1)">Organizing frameworks support interpretation; they do not supply direct Medicare reimbursement</text>
+			<text x="34" y="83.99172656250003" style="font-family: Arial; font-size: 10px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,167) scale(1,-1)">estimates.</text>
+			<text x="22" y="40.647753906250045" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,81) scale(1,-1)">Preserve the measured variable, comparison axis and outcome. Do not infer patient disparities from clinician</text>
+			<text x="22" y="28.767753906250043" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,57) scale(1,-1)">payments.</text>
+		</g>
+	</g>
+</svg>

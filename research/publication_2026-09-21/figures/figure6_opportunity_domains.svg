@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="547.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 547" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="547.2"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-547)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="547.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="515.0076171875" style="font-family: Arial-Bold; font-size: 14px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Figure 6. Health IT research opportunities</text>
+			<text x="22" y="494.35654296875003" style="font-family: Arial; font-size: 9.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,988) scale(1,-1)">Six unranked domains | Workflows and evaluation targets are proposals</text>
+			<rect x="22" y="344.20000000000005" width="224" height="124.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="449.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,899) scale(1,-1)">O-01 Medication affordability</text>
+			<text x="34" y="429.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,858) scale(1,-1)">Test: staffed benefit navigation</text>
+			<text x="34" y="416.8109375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,833) scale(1,-1)"></text>
+			<text x="34" y="404.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,808) scale(1,-1)">Measure: appropriate medication access and</text>
+			<text x="34" y="391.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,782) scale(1,-1)">unmet need</text>
+			<rect x="258" y="344.20000000000005" width="224" height="124.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="449.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,899) scale(1,-1)">O-02 Post-fracture follow-up</text>
+			<text x="270" y="429.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,858) scale(1,-1)">Test: registry plus accountable human</text>
+			<text x="270" y="416.8109375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,833) scale(1,-1)">follow-up</text>
+			<text x="270" y="404.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,808) scale(1,-1)"></text>
+			<text x="270" y="391.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,782) scale(1,-1)">Measure: appropriate evaluation and shared</text>
+			<text x="270" y="378.79493750000006" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,757) scale(1,-1)">decisions</text>
+			<rect x="22" y="207.20000000000005" width="224" height="124.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="312.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,625) scale(1,-1)">O-03 Non-drug authorization</text>
+			<text x="34" y="292.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,584) scale(1,-1)">Test: requirements and response tracking</text>
+			<text x="34" y="279.8109375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,559) scale(1,-1)"></text>
+			<text x="34" y="267.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,534) scale(1,-1)">Measure: time to appropriate care and patient</text>
+			<text x="34" y="254.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,508) scale(1,-1)">burden</text>
+			<rect x="258" y="207.20000000000005" width="224" height="124.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="312.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,625) scale(1,-1)">O-04 Procedure-valuation research</text>
+			<text x="270" y="292.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,584) scale(1,-1)">Test: transparent comparator and resource</text>
+			<text x="270" y="279.8109375" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,559) scale(1,-1)">audit</text>
+			<text x="270" y="267.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,534) scale(1,-1)"></text>
+			<text x="270" y="254.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,508) scale(1,-1)">Measure: reproducibility and measurement</text>
+			<text x="270" y="241.79493750000006" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,483) scale(1,-1)">reliability</text>
+			<rect x="22" y="70.20000000000005" width="224" height="124.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="175.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,351) scale(1,-1)">O-05 Lymphedema item fulfillment</text>
+			<text x="34" y="155.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,310) scale(1,-1)">Test: clinician-to-supplier coordination</text>
+			<text x="34" y="142.81093750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,285) scale(1,-1)"></text>
+			<text x="34" y="130.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,260) scale(1,-1)">Measure: timely receipt, fit and ability to use</text>
+			<rect x="258" y="70.20000000000005" width="224" height="124.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="175.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,351) scale(1,-1)">O-06 Kidney-care coordination</text>
+			<text x="270" y="155.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,310) scale(1,-1)">Test: human-led education and practical</text>
+			<text x="270" y="142.81093750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,285) scale(1,-1)">support</text>
+			<text x="270" y="130.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,260) scale(1,-1)"></text>
+			<text x="270" y="117.46693750000004" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,234) scale(1,-1)">Measure: understanding and</text>
+			<text x="270" y="104.79493750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,209) scale(1,-1)">preference-concordant care</text>
+			<text x="22" y="40.647753906250045" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,81) scale(1,-1)">For every domain: compare existing services; measure harms, burden and equitable reach; verify implementation</text>
+			<text x="22" y="28.767753906250043" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,57) scale(1,-1)">and buyer need.</text>
+		</g>
+	</g>
+</svg>

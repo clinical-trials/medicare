@@ -1,0 +1,23 @@
+{
+  "status": "PASS",
+  "figure_count": 7,
+  "image_dimensions": [
+    2100,
+    2280
+  ],
+  "png_dpi": 300,
+  "first_citation_order": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7"
+  ],
+  "all_seven_svg_text_editable": true,
+  "docx_media_match_final_figures": true,
+  "source_hashes_verified": true,
+  "bundle_member_count": 17,
+  "zip_sha256": "cb5b6e8ad6cbf21db5172520c3a711a4743283df936071a1d55177a4c440597f"
+}

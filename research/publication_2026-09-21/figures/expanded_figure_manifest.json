@@ -1,0 +1,227 @@
+{
+  "prepared_on": "2026-09-21",
+  "edition": "Seven-figure expanded research and white-paper edition",
+  "figure_count": 7,
+  "dimensions_inches": [
+    7,
+    7.6
+  ],
+  "png_dpi": 300,
+  "editable_svg_text": true,
+  "new_evidence_added": false,
+  "population_scope_changed": false,
+  "figures": [
+    {
+      "number": 1,
+      "title": "Separate evidence streams and their units of analysis",
+      "png": "figure1_evidence_streams.png",
+      "svg": "figure1_evidence_streams.svg",
+      "caption": "Three analytic streams answer different questions and require different units of analysis. Patient studies may compare recorded sex or describe care within one eligible population; neither recorded sex nor a diagnosis establishes gender identity. Service and anatomy studies compare procedures, resources or policies. Physician-gender studies compare clinicians and remain contextual to the patient-sex inquiry. Collections, salary and payment per service are distinct measures. Clinical reviews provide an organizing framework. Clinician interviews about patient barriers and prescriber datasets are classified by their analytic question, not by respondents' profession or data source. The diagram defines interpretation boundaries, not causal effects. [L-R01; L-P01; L-C03; L-Q01; L-B01; L-B01-E1]",
+      "alt_text": "Conceptual classification; no quantitative comparison. Preserve the measured variable, comparison axis and outcome. Do not infer patient disparities from clinician payments.",
+      "source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/evidence_subjects.json",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/reference_registry.json"
+      ],
+      "source_ids": [
+        "L-R01",
+        "L-R02",
+        "L-D01",
+        "L-P01",
+        "L-P02",
+        "L-P03",
+        "L-P04",
+        "L-A02",
+        "L-C01",
+        "L-C02",
+        "L-C03",
+        "L-Q01",
+        "L-B01",
+        "L-B01-E1"
+      ],
+      "source_sha256": {
+        "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+        "research/evidence_subjects.json": "64e190c8c675243bc75593245d02645461554c527abb24e7fac11f587dbfadb5",
+        "research/publication_2026-09-21/manuscript.md": "9912d38a297aaea26af6c74677dc08799f47a098b18b8b6a585525be43373b6a",
+        "research/reference_registry.json": "9471d5b3b70596db6583e7314924c6f3d8b8cdeca165cad2234209b097bdf31a"
+      },
+      "output_sha256": {
+        "png": "abac2f21117c1f9f78ee272563e58f7cc34ddfdd1a121a45b13fadc28061db5a",
+        "svg": "89e22e966aed474a3a58aa413c85fdb78860bf2986006ba2be0ee1826ab83ca7"
+      }
+    },
+    {
+      "number": 2,
+      "title": "Inclusion and exclusion criteria",
+      "png": "figure2_eligibility_criteria.png",
+      "svg": "figure2_eligibility_criteria.svg",
+      "alt_text": "Adopted population scope, proposed screening routes, exclusions, unresolved eligibility and context are distinguished. No selection counts.",
+      "caption": "The adopted September 16 scope is distinguished from operational screening proposed September 21. Original Medicare, Medicare Advantage and Part D results are extracted separately. Mixed populations contribute only separable eligible results; unreported gender identity remains unresolved rather than inferred. Code-only research has no individual patient-identity assessment, whereas any patient component requires one. Clinical need is assessed independently of coverage. Contextual records and exclusion reasons remain in the audit trail. The compact framework summarizes REVIEW_SCOPE.md and draft protocol sections 2, 3 and 6; it is not a completed PRISMA selection flow. [M-001]",
+      "source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/submission/Medicare_systematic_review_protocol.md"
+      ],
+      "source_ids": [
+        "M-001"
+      ],
+      "source_sha256": {
+        "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+        "research/submission/Medicare_systematic_review_protocol.md": "7d9da2ab7ddfc742962a9dc17010a3e27fbfabdddb84ae604e259eec5ca10e30"
+      },
+      "output_sha256": {
+        "png": "009a45eaecaea535c86b7abd272006f0b31884791818f26279a3ec70f74b65cb",
+        "svg": "0bb90c983e8a78f16692c9b0740e8f56a50a7bd254ce5c975d782fdc919cc496"
+      }
+    },
+    {
+      "number": 3,
+      "title": "Classify the care indication separately from eligibility and burden",
+      "png": "figure3_clinical_basis.png",
+      "svg": "figure3_clinical_basis.svg",
+      "caption": "Care-item classification concerns the recorded indication and anatomical or physiological target. Shared-system care may have unequal disease burden or sex-defined policy eligibility without becoming exclusive to one sex. Reproductive anatomy and reproductive physiology remain distinct: local vaginal treatment and systemic menopausal treatment illustrate this distinction. Mixed or site-dependent services require component-level review before comparison. Policy eligibility and population burden are separate descriptors, not additional anatomical categories. Clinical need is defined independently of reimbursement eligibility, and an opposite-sex counterpart is not required for every indication. These categories neither assign patient identity nor quantify national inequity. [L-B01; L-B01-E1; C-001; C-002; C-003; C-004]",
+      "alt_text": "Conceptual clinical classification; no patient assignment or frequency encoding. These categories describe care, not gender identity. Define clinical need independently of reimbursement rules.",
+      "source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/clinical_basis.json",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/reference_registry.json"
+      ],
+      "source_ids": [
+        "L-B01",
+        "L-B01-E1",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004"
+      ],
+      "source_sha256": {
+        "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+        "research/clinical_basis.json": "0927dd8e75ad9de09476afbcc8b45d090e7cb0d9576f6a9b904ba2a6a8809ae5",
+        "research/publication_2026-09-21/manuscript.md": "9912d38a297aaea26af6c74677dc08799f47a098b18b8b6a585525be43373b6a",
+        "research/reference_registry.json": "9471d5b3b70596db6583e7314924c6f3d8b8cdeca165cad2234209b097bdf31a"
+      },
+      "output_sha256": {
+        "png": "a93a3b2548bbad716f81445aaa84c2e9aeb6f888760e8b0c1ac49578c1586763",
+        "svg": "753ad18c809e79084b77d75284e921437f3e7b1577beebbc52fa0c1d9d877fd3"
+      }
+    },
+    {
+      "number": 4,
+      "title": "Retrieval and review status",
+      "png": "figure4_retrieval_status.png",
+      "svg": "figure4_retrieval_status.svg",
+      "alt_text": "59,147 unique report records identified; human screening and appraisal pending. The selected 38-record register is separate.",
+      "caption": "Counts describe executed PubMed development searches as of September 21, 2026. Each unique PMID is a report record, not necessarily an independent study. Search extensions were developed after the initial search. No counts of full-text exclusions or final included studies are inferred. The selected 38-record register and targeted intervention retrieval are separate routes requiring later reconciliation. This is an audit diagram, not a completed PRISMA selection flow.",
+      "source_paths": [
+        "research/review_2026-09-21/search_summary.json",
+        "research/publication_2026-09-21/search_extensions/manifest.json",
+        "research/publication_2026-09-21/queue_summary.json",
+        "research/publication_2026-09-21/manuscript.md"
+      ],
+      "source_ids": [],
+      "source_sha256": {
+        "research/review_2026-09-21/search_summary.json": "c4f6fc0295cf459a0f1d088c91f7529651a2057685b220283f353b0786ae32d3",
+        "research/publication_2026-09-21/search_extensions/manifest.json": "80e0da5e08ddbf4ff1509d0117e08e2f183ad7d37be43a2d6b94b23ff021dc54",
+        "research/publication_2026-09-21/queue_summary.json": "62b71798a1f50288956dca7749b7f72b55111ef2e2fee9201c7049f283018c0a",
+        "research/publication_2026-09-21/manuscript.md": "9912d38a297aaea26af6c74677dc08799f47a098b18b8b6a585525be43373b6a"
+      },
+      "output_sha256": {
+        "png": "128055a7ae124a58d76cdd31540e2f4dbfbb3d06b0a4f9f992876e280e54bbd2",
+        "svg": "ee9b55f7447456692a0a0f9c0abf034ca6284c551e110f1d8420cd18e7686754"
+      }
+    },
+    {
+      "number": 5,
+      "title": "From financing measures to patient outcomes: links to test",
+      "png": "figure5_financing_care.png",
+      "svg": "figure5_financing_care.svg",
+      "caption": "Financing, access and patient outcomes are distinct measurement domains. The dashed links identify relationships to evaluate; they do not assert that coverage, higher payment or lower recorded spending causes better care. Policy permission differs from authorization performance, clinician receipts and patient out-of-pocket burden. Appropriate receipt, delays and unmet need require patient-level ascertainment, including people who do not complete a transaction. Health and experience outcomes require separate follow-up. Clinical need, indication, alternatives and preferences inform interpretation across the pathway. Analyses retain payer, policy period, age and entitlement, and evaluate equitable reach alongside average benefit. [L-D01; L-R01; L-P01; L-T01; L-T02]",
+      "alt_text": "Conceptual measurement pathway; dashed connections are hypotheses, not demonstrated causal effects. Retain payer, policy year, age and entitlement. Compare equity in need, reach and outcomes separately.",
+      "source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/publication_2026-09-21/opportunities.json",
+        "research/publication_2026-09-21/intervention_evidence.json",
+        "research/reference_registry.json"
+      ],
+      "source_ids": [
+        "L-D01",
+        "L-R01",
+        "L-P01",
+        "L-T01",
+        "L-T02"
+      ],
+      "source_sha256": {
+        "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+        "research/publication_2026-09-21/manuscript.md": "9912d38a297aaea26af6c74677dc08799f47a098b18b8b6a585525be43373b6a",
+        "research/publication_2026-09-21/opportunities.json": "dfb575b728606e3c3e3d0e8a6851c9954ed18109f03d2a583140a4e0dbfceb30",
+        "research/publication_2026-09-21/intervention_evidence.json": "9b83aa0e794d6edc2bee5473c0a6c6116d29677032399073e8d6574d4e29bee6",
+        "research/reference_registry.json": "9471d5b3b70596db6583e7314924c6f3d8b8cdeca165cad2234209b097bdf31a"
+      },
+      "output_sha256": {
+        "png": "dce9d958cda6552ae38721c4465e43de8ece5c4d57a83a89855d6216baa794c5",
+        "svg": "cdfc7d1b48f24ff30ffd0c2d1877ca6348219b11c603beaa97df781415f38743"
+      }
+    },
+    {
+      "number": 6,
+      "title": "Six health IT domains and their proposed evaluation targets",
+      "png": "figure6_opportunity_domains.png",
+      "svg": "figure6_opportunity_domains.svg",
+      "caption": "Six purposively selected domains translate the local evidence register into prospective evaluation questions. The workflow and outcome in each panel are proposals, not established effects of a digital product. Medication and fracture-care interventions provide precedents for testing specified approaches; effectiveness does not automatically transfer to other domains. Procedure valuation initially requires reliable research measurements, with patient effects assessed separately. All proposals require comparison with existing services, clinically appropriate denominators, harms monitoring and explicit equity assessment. Coverage or an interoperability requirement does not establish software reimbursement, customer demand or profitability. Domain order conveys no priority or ranking. [L-T01; L-T02; L-G05; L-P01; L-P02; L-A02; L-Q01; P-054]",
+      "alt_text": "Unranked research-agenda matrix; targets are proposed outcomes, not observed product effects. For every domain: compare existing services; measure harms, burden and equitable reach; verify implementation and buyer need.",
+      "source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/publication_2026-09-21/opportunities.json",
+        "research/publication_2026-09-21/opportunity_policy_sources.json",
+        "research/publication_2026-09-21/intervention_evidence.json",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/reference_registry.json"
+      ],
+      "source_ids": [
+        "L-T01",
+        "L-T02",
+        "L-G05",
+        "L-P01",
+        "L-P02",
+        "L-A02",
+        "L-Q01",
+        "P-054"
+      ],
+      "source_sha256": {
+        "REVIEW_SCOPE.md": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+        "research/publication_2026-09-21/opportunities.json": "dfb575b728606e3c3e3d0e8a6851c9954ed18109f03d2a583140a4e0dbfceb30",
+        "research/publication_2026-09-21/opportunity_policy_sources.json": "35b834db1cdab051283e4f2123dbb248eeea7d6ecf04aad79ca50db9ed3f116c",
+        "research/publication_2026-09-21/intervention_evidence.json": "9b83aa0e794d6edc2bee5473c0a6c6116d29677032399073e8d6574d4e29bee6",
+        "research/publication_2026-09-21/manuscript.md": "9912d38a297aaea26af6c74677dc08799f47a098b18b8b6a585525be43373b6a",
+        "research/reference_registry.json": "9471d5b3b70596db6583e7314924c6f3d8b8cdeca165cad2234209b097bdf31a"
+      },
+      "output_sha256": {
+        "png": "9351586897533f0ba169052eda85d986553319c2be2114ec843cf5468612cba5",
+        "svg": "2f80fdf0d46eb4fb96681f2a5ae7f45860a7f3522ba379c73e1644b4454b766d"
+      }
+    },
+    {
+      "number": 7,
+      "title": "A health IT validation pathway",
+      "png": "figure7_validation_pathway.png",
+      "svg": "figure7_validation_pathway.svg",
+      "alt_text": "Need, mechanism, intervention, benefit and equity, and implementation require distinct evidence.",
+      "caption": "Conceptual framework developed for this project after exploratory evidence review. Each stage requires a specified patient population, clinical indication and appropriate comparator. Progress may reveal that clinical support, policy change or an existing service is more useful than new software. Average benefit, equitable reach and commercial feasibility require separate evidence; no composite score or profitability ranking is implied.",
+      "source_paths": [
+        "research/publication_2026-09-21/manuscript.md",
+        "research/publication_2026-09-21/opportunities.json"
+      ],
+      "source_ids": [],
+      "source_sha256": {
+        "research/publication_2026-09-21/manuscript.md": "9912d38a297aaea26af6c74677dc08799f47a098b18b8b6a585525be43373b6a",
+        "research/publication_2026-09-21/opportunities.json": "dfb575b728606e3c3e3d0e8a6851c9954ed18109f03d2a583140a4e0dbfceb30"
+      },
+      "output_sha256": {
+        "png": "50411c611d29348b1c3c0594b56856bab4a0db12c67cd8613cdd8835f5f21bd5",
+        "svg": "aaf445fa65467af3e25270e6b97dddf064970040196031a0cb7b1ccd74807b97"
+      }
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="547.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 547" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="547.2"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-547)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="547.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="515.0076171875" style="font-family: Arial-Bold; font-size: 14px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Figure 2. Inclusion and exclusion criteria</text>
+			<text x="22" y="494.35654296875003" style="font-family: Arial; font-size: 9.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,988) scale(1,-1)">Adopted scope: 16 Sep 2026 | Operational screening proposed: 21 Sep 2026</text>
+			<rect x="22" y="413.20000000000005" width="460" height="64.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="458.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,917) scale(1,-1)">REVIEW POPULATION AND OUTCOMES</text>
+			<text x="34" y="438.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,876) scale(1,-1)">Cisgender women and men; retain eligible Medicare beneficiaries under 65. Coverage, payment,</text>
+			<text x="34" y="425.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,850) scale(1,-1)">patient costs and clinically indicated care access.</text>
+			<rect x="22" y="285.20000000000005" width="224" height="116.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="382.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,765) scale(1,-1)">PATIENT EVIDENCE</text>
+			<text x="34" y="362.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,724) scale(1,-1)">Relevant original Medicare research with a</text>
+			<text x="34" y="349.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,698) scale(1,-1)">sex comparison or a clinical-need/access</text>
+			<text x="34" y="336.46533203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,672) scale(1,-1)">question within an eligible sex-linked</text>
+			<text x="34" y="323.52933203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,647) scale(1,-1)">population. Establish patient eligibility.</text>
+			<rect x="258" y="285.20000000000005" width="224" height="116.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="382.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,765) scale(1,-1)">SERVICE VALUATION</text>
+			<text x="270" y="362.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,724) scale(1,-1)">Original service/code research involving</text>
+			<text x="270" y="349.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,698) scale(1,-1)">Medicare, with a sex-related valuation</text>
+			<text x="270" y="336.46533203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,672) scale(1,-1)">question and defensible comparators.</text>
+			<text x="270" y="323.52933203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,647) scale(1,-1)">Code-only results require no patient-identity</text>
+			<text x="270" y="310.59333203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,621) scale(1,-1)">assessment.</text>
+			<rect x="22" y="152.20000000000005" width="224" height="121.0" rx="3" ry="3" style="stroke: rgb(58%,23%,19%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,95%,94%); fill-rule: evenodd;"/>
+			<text x="34" y="254.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(58%,23%,19%); stroke:none;" transform="translate(0,509) scale(1,-1)">EXCLUDE FROM PRIMARY</text>
+			<text x="34" y="234.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,468) scale(1,-1)">Transgender-focused patient studies;</text>
+			<text x="34" y="221.81093750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,443) scale(1,-1)">gender-affirming-care indications. Combined</text>
+			<text x="34" y="209.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,418) scale(1,-1)">mixed-population estimates without separable</text>
+			<text x="34" y="196.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,392) scale(1,-1)">eligible cisgender results. Retain citation and</text>
+			<text x="34" y="183.79493750000006" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,367) scale(1,-1)">reason.</text>
+			<rect x="258" y="152.20000000000005" width="224" height="121.0" rx="3" ry="3" style="stroke: rgb(46%,34%,9%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(98%,97%,92%); fill-rule: evenodd;"/>
+			<text x="270" y="254.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(46%,34%,9%); stroke:none;" transform="translate(0,509) scale(1,-1)">AWAITING INFORMATION</text>
+			<text x="270" y="234.48293750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,468) scale(1,-1)">Recorded male/female sex with identity</text>
+			<text x="270" y="221.81093750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,443) scale(1,-1)">unreported: clarify; never infer cisgender</text>
+			<text x="270" y="209.13893750000005" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,418) scale(1,-1)">identity. Unclear eligibility remains pending.</text>
+			<text x="270" y="196.46693750000003" style="font-family: Arial; font-size: 9.6px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,392) scale(1,-1)">Log unretrieved reports separately.</text>
+			<rect x="22" y="63.200000000000045" width="460" height="77.0" rx="3" ry="3" style="stroke: rgb(33%,39%,45%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(96%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="121.62851562500005" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,243) scale(1,-1)">RETAIN SEPARATELY AS CONTEXT</text>
+			<text x="34" y="101.55574023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,203) scale(1,-1)">Policy/formulary sources, clinical reviews, physician-gender research, other-payer evidence and</text>
+			<text x="34" y="89.01574023437503" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,178) scale(1,-1)">general intervention studies. Policy sources have no patient-identity test; eligible empirical findings use</text>
+			<text x="34" y="76.47574023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,152) scale(1,-1)">the routes above.</text>
+			<text x="22" y="40.647753906250045" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,81) scale(1,-1)">No opposite-sex counterpart is required. Retain null/opposing findings. No automatic exclusion by language or</text>
+			<text x="22" y="28.767753906250043" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,57) scale(1,-1)">access. Final eligibility and selection counts remain pending.</text>
+		</g>
+	</g>
+</svg>

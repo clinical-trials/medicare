@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="547.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 547" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="547.2"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-547)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="547.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="515.0076171875" style="font-family: Arial-Bold; font-size: 14px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Figure 5. Financing and care outcomes</text>
+			<text x="22" y="494.35654296875003" style="font-family: Arial; font-size: 9.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,988) scale(1,-1)">Measurement framework | Dashed links show relationships to evaluate</text>
+			<rect x="22" y="406.20000000000005" width="460" height="67.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="454.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,909) scale(1,-1)">Clinical need and the eligible population</text>
+			<text x="34" y="434.19172656250004" style="font-family: Arial; font-size: 10px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,868) scale(1,-1)">Assess indication, alternatives and preferences; retain people who never receive care.</text>
+			<rect x="22" y="247.20000000000005" width="144" height="139.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="367.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,735) scale(1,-1)">Coverage and</text>
+			<text x="34" y="353.900515625" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,707) scale(1,-1)">administration</text>
+			<text x="34" y="333.827740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,667) scale(1,-1)">Eligibility and restrictions</text>
+			<text x="34" y="321.287740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,642) scale(1,-1)">Authorization and benefit</text>
+			<text x="34" y="308.74774023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,617) scale(1,-1)">rules</text>
+			<text x="34" y="296.207740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,592) scale(1,-1)"></text>
+			<text x="34" y="283.667740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,567) scale(1,-1)">What does the dated policy</text>
+			<text x="34" y="271.12774023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,542) scale(1,-1)">permit?</text>
+			<path d="M 94,247.2 L 252,214.2 Z" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 3;"/>
+			<polygon points="252 214.2, 249 220.2, 255 220.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,52%); fill-rule: evenodd;"/>
+			<rect x="180" y="247.20000000000005" width="144" height="139.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="192" y="367.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,735) scale(1,-1)">Provider payment and</text>
+			<text x="192" y="353.900515625" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,707) scale(1,-1)">valuation</text>
+			<text x="192" y="333.827740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,667) scale(1,-1)">Work RVUs and total RVUs</text>
+			<text x="192" y="321.287740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,642) scale(1,-1)">Allowed amounts and</text>
+			<text x="192" y="308.74774023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,617) scale(1,-1)">receipts</text>
+			<text x="192" y="296.207740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,592) scale(1,-1)"></text>
+			<text x="192" y="283.667740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,567) scale(1,-1)">Which payment measure is</text>
+			<text x="192" y="271.12774023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,542) scale(1,-1)">observed?</text>
+			<path d="M 252,247.2 L 252,214.2 Z" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 3;"/>
+			<polygon points="252 214.2, 249 220.2, 255 220.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,52%); fill-rule: evenodd;"/>
+			<rect x="338" y="247.20000000000005" width="144" height="139.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="350" y="367.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,735) scale(1,-1)">Patient financial burden</text>
+			<text x="350" y="347.55574023437504" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,695) scale(1,-1)">Out-of-pocket spending</text>
+			<text x="350" y="335.015740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,670) scale(1,-1)">Affordability and payment</text>
+			<text x="350" y="322.47574023437505" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,644) scale(1,-1)">timing</text>
+			<text x="350" y="309.93574023437503" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,619) scale(1,-1)"></text>
+			<text x="350" y="297.395740234375" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,594) scale(1,-1)">What does the patient</text>
+			<text x="350" y="284.85574023437505" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,569) scale(1,-1)">actually bear?</text>
+			<path d="M 410,247.2 L 252,214.2 Z" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 3;"/>
+			<polygon points="252 214.2, 249 220.2, 255 220.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,52%); fill-rule: evenodd;"/>
+			<rect x="87" y="145.20000000000005" width="330" height="67.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="99" y="193.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,387) scale(1,-1)">Realized access</text>
+			<text x="99" y="173.33733203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,346) scale(1,-1)">Receipt of appropriate care; Delay, abandonment and unmet need</text>
+			<path d="M 252,145.2 L 252,121.2 Z" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 1; stroke-dasharray: 3, 3;"/>
+			<polygon points="252 121.2, 249 127.2, 255 127.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(19%,36%,52%); fill-rule: evenodd;"/>
+			<rect x="87" y="57.200000000000045" width="330" height="62.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="99" y="100.62851562500005" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,201) scale(1,-1)">Health and patient experience</text>
+			<text x="99" y="80.33733203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,160) scale(1,-1)">Symptoms, function and quality of life; Harms and treatment burden</text>
+			<text x="22" y="40.647753906250045" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,81) scale(1,-1)">Links are hypotheses, with unestablished effects. Retain payer, policy year, age and entitlement. Assess equitable</text>
+			<text x="22" y="28.767753906250043" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,57) scale(1,-1)">reach separately from average benefit.</text>
+		</g>
+	</g>
+</svg>

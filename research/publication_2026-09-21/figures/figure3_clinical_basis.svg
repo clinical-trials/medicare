@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE svg
+  PUBLIC '-//W3C//DTD SVG 1.0//EN'
+  'http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd'>
+<svg width="504" height="547.2" preserveAspectRatio="xMinYMin meet" viewBox="0 0 504 547" xmlns="http://www.w3.org/2000/svg" version="1.0" fill-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<title>...</title>
+	<desc>...</desc>
+	<clipPath id="clip">
+		<rect x="0" y="0" width="504" height="547.2"/>
+	</clipPath>
+	<g id="group" transform="scale(1,-1) translate(0,-547)" style="clip-path: url(#clip)">
+		<g transform="">
+			<rect x="0" y="0" width="504" height="547.2" style="stroke: none; stroke-linecap: butt; stroke-width: 1; fill: rgb(100%,100%,100%); fill-rule: evenodd;"/>
+			<text x="22" y="515.0076171875" style="font-family: Arial-Bold; font-size: 14px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,1030) scale(1,-1)">Figure 3. Clinical anatomy and physiology</text>
+			<text x="22" y="494.35654296875003" style="font-family: Arial; font-size: 9.4px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,988) scale(1,-1)">Classify each care indication | Categories describe services, not patient identity</text>
+			<rect x="22" y="361.20000000000005" width="224" height="109.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="451.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,903) scale(1,-1)">Shared systems or functions</text>
+			<text x="34" y="431.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,862) scale(1,-1)">Examples: bone, breast, lymphatic and renal</text>
+			<text x="34" y="418.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,836) scale(1,-1)">care</text>
+			<text x="34" y="405.46533203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,810) scale(1,-1)">Compare within condition and clinical need</text>
+			<rect x="258" y="361.20000000000005" width="224" height="109.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="451.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,903) scale(1,-1)">Female reproductive anatomy</text>
+			<text x="270" y="431.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,862) scale(1,-1)">Specified reproductive organ or tissue</text>
+			<text x="270" y="418.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,836) scale(1,-1)">Example: local vaginal treatment</text>
+			<rect x="22" y="240.20000000000005" width="224" height="109.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="330.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,661) scale(1,-1)">Male reproductive anatomy</text>
+			<text x="34" y="310.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,620) scale(1,-1)">Specified reproductive organ or function</text>
+			<text x="34" y="297.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,594) scale(1,-1)">Example: prostate screening</text>
+			<rect x="258" y="240.20000000000005" width="224" height="109.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="330.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,661) scale(1,-1)">Female reproductive physiology</text>
+			<text x="270" y="310.33733203125" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,620) scale(1,-1)">Classify the indication, not the molecule</text>
+			<text x="270" y="297.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,594) scale(1,-1)">Example: systemic menopause treatment</text>
+			<rect x="22" y="119.20000000000005" width="224" height="109.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="34" y="209.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,419) scale(1,-1)">Male reproductive physiology</text>
+			<text x="34" y="189.33733203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,378) scale(1,-1)">Reproductive endocrine indication</text>
+			<text x="34" y="176.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,352) scale(1,-1)">Example: documented male hypogonadism</text>
+			<rect x="258" y="119.20000000000005" width="224" height="109.0" rx="3" ry="3" style="stroke: rgb(19%,36%,52%); stroke-linecap: butt; stroke-width: 0.8; fill: rgb(94%,96%,97%); fill-rule: evenodd;"/>
+			<text x="270" y="209.62851562500003" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,419) scale(1,-1)">Mixed or site-dependent services</text>
+			<text x="270" y="189.33733203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,378) scale(1,-1)">Bundled services or unresolved anatomy</text>
+			<text x="270" y="176.40133203125004" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,352) scale(1,-1)">Split diagnosis, site and procedure</text>
+			<text x="270" y="163.46533203125003" style="font-family: Arial; font-size: 9.8px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,326) scale(1,-1)">components</text>
+			<text x="22" y="90.62851562500005" style="font-family: Arial-Bold; font-size: 10.4px;fill: rgb(19%,36%,52%); stroke:none;" transform="translate(0,181) scale(1,-1)">Record separate descriptors</text>
+			<text x="22" y="71.28374023437505" style="font-family: Arial; font-size: 9.5px;fill: rgb(9%,17%,23%); stroke:none;" transform="translate(0,142) scale(1,-1)">Policy eligibility: sex-defined rules. Disease burden: need and distribution.</text>
+			<text x="22" y="40.647753906250045" style="font-family: Arial; font-size: 9px;fill: rgb(33%,39%,45%); stroke:none;" transform="translate(0,81) scale(1,-1)">These categories describe care, not gender identity. Define clinical need independently of reimbursement rules.</text>
+		</g>
+	</g>
+</svg>

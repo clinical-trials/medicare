@@ -13,13 +13,13 @@ read=lambda p:json.loads(p.read_text())
 sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
 stats=read(HERE/'publication_build.json');stem=Path(stats['docx_path']).stem
 pdf=HERE/'rendered'/f'{stem}.pdf';reader=PdfReader(pdf)
-assert len(reader.pages)==27
+assert len(reader.pages)==32
 page_text=[p.extract_text() or '' for p in reader.pages]
 assert all(len(t)>400 for t in page_text), 'Unexpected nearly empty page'
 alltext='\n'.join(page_text)
 normalized_text=re.sub(r'\s+',' ',alltext)
 assert '\ufffd' not in alltext
-assert all(s in page_text[16] for s in ['drug*','medicat*','prescrib*','osteoporos*'])
+assert all(s in alltext for s in ['drug*','medicat*','prescrib*','osteoporos*'])
 ns={'w':'http://schemas.openxmlformats.org/wordprocessingml/2006/main'}
 with zipfile.ZipFile(stats['docx_path']) as z:
     doc=E.fromstring(z.read('word/document.xml'))
@@ -27,7 +27,7 @@ with zipfile.ZipFile(stats['docx_path']) as z:
     for q in read(HERE/'search_extensions/queries.json')['queries']:
         assert q['query'] in paras, 'Search query characters changed in DOCX'
     assert len(doc.findall('.//w:tbl',ns))==3 # Two main tables + source-location supplement.
-    assert len(doc.findall('.//w:drawing',ns))==2
+    assert len(doc.findall('.//w:drawing',ns))==7
     assert not doc.findall('.//w:pBdr',ns)
     assert not doc.findall('.//w:trHeight',ns)
 assert stats['abstract_words_whitespace_count']<=200
@@ -93,19 +93,19 @@ for name in ['Medicare_health_IT_opportunity_assessment_2026-09-21.xlsx','Medica
 wbcheck=OUT/'opportunity_workbook_previews/verification.json'
 shutil.copyfile(wbcheck,HERE/'opportunity_workbook_verification.json')
 for name,expected in read(wbcheck)['source_sha256'].items():assert sha(ROOT/name)==expected,name
-qa={str(n):sha(HERE/'rendered'/f'page-{n}.png') for n in range(1,28)}
+qa={str(n):sha(HERE/'rendered'/f'page-{n}.png') for n in range(1,len(reader.pages)+1)}
 result={'verified_on':'2026-09-21','verification_type':'Artifact and source consistency, not completed scientific review',
- 'pdf_pages':27,'main_words':stats['main_body_words_including_headings_and_stable_ids'],'abstract_words':199,
- 'main_tables':2,'main_figures':2,'printed_references':59,'canonical_references':126,
+ 'pdf_pages':len(reader.pages),'main_words':stats['main_body_words_including_headings_and_stable_ids'],'abstract_words':199,
+ 'main_tables':2,'main_figures':7,'printed_references':stats['printed_reference_count'],'canonical_references':126,
  'scientific_metadata':53,'methodology_metadata':11,'numeric_verified_pmids':64,
  'queue_records':59147,'with_abstract':abstracts,'without_abstract':len(queue)-abstracts,
  'human_review_states':dict(review_states),'extension_payloads_hash_verified':payloads,
  'literal_docx_queries_verified':True,'pdf_wildcards_verified':True,
  'docx_sha256':sha(Path(stats['docx_path'])),'rendered_pdf_sha256':sha(pdf),
  'workbooks':workbooks,'page_png_sha256':qa,
- 'visual_review_logs':['visual_qa_pages_2_8.json','visual_qa_pages_13_27.json'],
- 'root_visual_review_pages':[1,9,10,11,12,26],
- 'final_visual_correction':'Root rechecked page 26 after removing empty policy-organization punctuation; all other previously reviewed pages remain unchanged after that correction.',
+ 'visual_review_logs':['expanded_manuscript_visual_qa.json','figures/expanded_figure_visual_qa.json','expanded_root_visual_qa.json','expanded_appendix_visual_qa.json'],
+ 'root_visual_review_pages':list(range(9,16)),
+ 'final_visual_correction':'Expanded to seven figures with synchronized numbering and captions. Compact eligibility wording clarified; reference spacing reduced to avoid a nearly empty final page.',
  'scientific_limitations':'No completed independent human screening, eligibility adjudication, formal appraisal or certainty assessment. Clinical and commercial hypotheses remain unvalidated.'}
 (HERE/'verification.json').write_text(json.dumps(result,indent=2)+'\n')
 print(json.dumps({k:v for k,v in result.items() if k not in ['page_png_sha256','extension_payloads_hash_verified','workbooks']},indent=2))

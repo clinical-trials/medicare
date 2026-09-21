@@ -1,0 +1,343 @@
+{
+  "artifact": "Expanded seven-figure manuscript appendix and final references",
+  "scope": "Visual QA of final rendered manuscript pages 23–32 and read-only checking of C-001–C-004 DOCX hyperlink targets against the local source register. This is not scientific eligibility review, full-text review, source re-verification, risk-of-bias assessment, or human peer review.",
+  "reviewed_on": "2026-09-21",
+  "reviewer": "Codex subagent expanded_appendix_qa",
+  "checked_pages": [
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32
+  ],
+  "status": "pass_with_nonblocking_notes",
+  "blocking_findings": 0,
+  "minor_findings": 2,
+  "findings": [
+    {
+      "id": "AQA-001",
+      "severity": "minor",
+      "blocking": false,
+      "pages": [
+        23,
+        29
+      ],
+      "type": "citation_line_wrap",
+      "description": "Stable reference identifiers wrap at the hyphen in the Opportunity 1 evidence anchors and Supplement C role lists. All characters remain visible and understandable.",
+      "suggestion": "Optionally keep stable reference identifiers together during line wrapping."
+    },
+    {
+      "id": "AQA-002",
+      "severity": "minor",
+      "blocking": false,
+      "pages": [
+        29
+      ],
+      "type": "editorial_grammar",
+      "description": "The role label reads Medicare descriptive drug use and spending: 1 records.",
+      "suggestion": "Optional grammatical correction to 1 record."
+    }
+  ],
+  "clinical_guidance_reference_check": {
+    "page": 32,
+    "result": "pass",
+    "method": "Visual confirmation of displayed organization/title and absence of PMID claims; read-only DOCX XML hyperlink extraction matched to research/clinical_basis.json. URLs were not fetched in this layout QA.",
+    "references": [
+      {
+        "id": "C-001",
+        "page": 32,
+        "organization": "National Cancer Institute",
+        "title": "Male Breast Cancer",
+        "url": "https://www.cancer.gov/types/breast/male-breast-cancer",
+        "organization_and_title_visible": true,
+        "source_hyperlink_present": true,
+        "url_matches_clinical_basis_register": true,
+        "pmid_claim_present": false
+      },
+      {
+        "id": "C-002",
+        "page": 32,
+        "organization": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+        "title": "About Endometriosis",
+        "url": "https://www.nichd.nih.gov/health/topics/endometri/conditioninfo",
+        "organization_and_title_visible": true,
+        "source_hyperlink_present": true,
+        "url_matches_clinical_basis_register": true,
+        "pmid_claim_present": false
+      },
+      {
+        "id": "C-003",
+        "page": 32,
+        "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+        "title": "Treatments for Bladder Control Problems (Urinary Incontinence)",
+        "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/treatment",
+        "organization_and_title_visible": true,
+        "source_hyperlink_present": true,
+        "url_matches_clinical_basis_register": true,
+        "pmid_claim_present": false
+      },
+      {
+        "id": "C-004",
+        "page": 32,
+        "organization": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+        "title": "Osteoporosis in Men",
+        "url": "https://www.niams.nih.gov/health-topics/osteoporosis-men",
+        "organization_and_title_visible": true,
+        "source_hyperlink_present": true,
+        "url_matches_clinical_basis_register": true,
+        "pmid_claim_present": false
+      }
+    ]
+  },
+  "pages": [
+    {
+      "page": 23,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-23.png",
+      "sha256": "dc79da29694e7b651f6344f2718ef20e0683682cf9bb4004c57e26d24d45bdd6",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Supplement B introduction and Opportunity 1 Prescription affordability and benefit navigation",
+      "findings": [
+        "AQA-001"
+      ],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 24,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-24.png",
+      "sha256": "9ec43b55488eb1029f5e241366950f7fefe62839208e9507ce5725262eb0b5a8",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Opportunity 2 Post fracture bone health follow up",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 25,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-25.png",
+      "sha256": "15ce64f574187c00ddf413fed90488d99c9f2e427b91819315aea92fa4e810c2",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Opportunity 3 Prior authorization workflow for clinically indicated non drug care",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 26,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-26.png",
+      "sha256": "7dbcf9cf4a0194dfb882d2b80b8aa7361c104743d7092e4254884dedc2945529",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Opportunity 4 Procedure valuation research and audit infrastructure",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 27,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-27.png",
+      "sha256": "06565f18fcbdce45b534c41443af131bc4a6aa5930d8a2f14ab292b1b1f7d8c5",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Opportunity 5 Lymphedema compression item access and fulfillment",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 28,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-28.png",
+      "sha256": "a7c561c5273dc9093dee621001ecd223c0df43216ed8fec31fce3582c4ab2040",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Opportunity 6 Kidney care education and practical support coordination",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 29,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-29.png",
+      "sha256": "9fdaaa14fe19162db94eaa217df6c1a2c91c408e837b87b0fb498d33636c1a49",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "Supplement C reference roles, authorship funding interests, AI disclosure, and data code access",
+      "findings": [
+        "AQA-001",
+        "AQA-002"
+      ],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 30,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-30.png",
+      "sha256": "b089a9a199462998a3a624493da23221b29effd973cb362c5d756e8cb893dc8b",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "References opening, clinical organizing review and correction, methodology and scientific entries",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 31,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-31.png",
+      "sha256": "e4ea59f0e5ccf990a021030c952ff5a7ced759f176bc9d766c799d48fbfaaf8b",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "References continuation, policy labels, valuation, bone, physician gender, qualitative and intervention entries",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    },
+    {
+      "page": 32,
+      "file": "/Users/lgm/Documents/ChatGPT/Medicare/research/publication_2026-09-21/rendered/page-32.png",
+      "sha256": "2007f1ddb8f3a824e7008d8341a60eedf21423e8e573c75cdf8a488597a40263",
+      "pixels": {
+        "width": 1547,
+        "height": 2002
+      },
+      "inspection": "view_image detail=original; complete page visually inspected",
+      "content": "References conclusion, intervention reports, policy sources and clinical guidance C-001 through C-004",
+      "findings": [],
+      "checks": {
+        "text_legible": true,
+        "headings_legible": true,
+        "no_clipping": true,
+        "no_overlap": true,
+        "no_missing_glyphs": true,
+        "not_blank": true,
+        "page_number_visible": true,
+        "page_break_acceptable": true,
+        "table_alignment_and_wrapping": "not_applicable"
+      }
+    }
+  ],
+  "disclosures_check": {
+    "page": 29,
+    "authorship_funding_interests_visible": true,
+    "ai_use_disclosure_visible": true,
+    "data_code_access_visible": true,
+    "no_layout_defects": true
+  },
+  "manuscript_was_edited": false,
+  "manuscript_was_rerendered": false
+}

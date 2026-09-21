@@ -1,0 +1,283 @@
+{
+  "reviewed_at_utc": "2026-09-21T18:59:39.440209+00:00",
+  "review_type": "AI visual and content QA of rendered figures; independent of rendering implementation. This is not human evidence screening, eligibility adjudication, risk-of-bias appraisal or formal certainty assessment.",
+  "status": "PASS",
+  "material_errors_found": false,
+  "manifest_path": "research/publication_2026-09-21/figures/expanded_figure_manifest.json",
+  "manifest_sha256": "abd64a15061a85fff26d687f2a145aa028fb27a970df9bde478aefba8b2d897b",
+  "scope_path": "REVIEW_SCOPE.md",
+  "scope_sha256": "cd2f4217ef5eeec25b6e7f6be74908bbce8e9a2c6c0ec7a7ae44a4f33ddd0e9f",
+  "content_spec_path": "research/publication_2026-09-21/figures/expanded_figure_content.json",
+  "content_spec_sha256": "780558a7afb6d3f6c7f94be1a9495b7835930694cda8ef96c3bbeea8114de550",
+  "visual_review_coverage": [
+    1,
+    2,
+    3,
+    5,
+    6
+  ],
+  "caption_review_coverage": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "visual_findings": [
+    {
+      "figure_number": 1,
+      "png_path": "research/publication_2026-09-21/figures/figure1_evidence_streams.png",
+      "png_sha256": "abac2f21117c1f9f78ee272563e58f7cc34ddfdd1a121a45b13fadc28061db5a",
+      "svg_path": "research/publication_2026-09-21/figures/figure1_evidence_streams.svg",
+      "svg_sha256": "89e22e966aed474a3a58aa413c85fdb78860bf2986006ba2be0ee1826ab83ca7",
+      "png_dimensions_pixels": [
+        2100,
+        2280
+      ],
+      "viewed_with": "view_image(detail=original)",
+      "visual_status": "PASS",
+      "content_status": "PASS",
+      "minimum_design_font_points_at_7_inch_width": 9.0,
+      "font_sizes_in_svg_user_units": [
+        9.0,
+        9.4,
+        9.6,
+        10.0,
+        10.4,
+        14.0
+      ],
+      "render_basis": "504-point width in builder; PNG 2100 pixels at 300 dpi, corresponding to 7 inches.",
+      "output_hashes_match_manifest": true,
+      "source_hashes_match_manifest": {
+        "REVIEW_SCOPE.md": true,
+        "research/evidence_subjects.json": true,
+        "research/publication_2026-09-21/manuscript.md": true,
+        "research/reference_registry.json": true
+      },
+      "content": [
+        "Patient-care, service/anatomy and physician-sex/gender streams remain separate, with clinical/social background in its own band.",
+        "Patient-care units explicitly include product records and interviews. One-population findings are not presented as between-sex contrasts.",
+        "Physician-gender context is outside the patient-sex synthesis; no counts or effects are visually encoded."
+      ],
+      "visual": [
+        "All card titles, wrapped lines and footer text are legible at original resolution.",
+        "No clipping, collisions, truncated words or ambiguous connections observed. Equal-width columns do not suggest pooled estimates."
+      ],
+      "caption": "Matches the conceptual specification; retains coding/identity limits, distinctions among payment measures and the analytic role of clinician interviews."
+    },
+    {
+      "figure_number": 2,
+      "png_path": "research/publication_2026-09-21/figures/figure2_eligibility_criteria.png",
+      "png_sha256": "009a45eaecaea535c86b7abd272006f0b31884791818f26279a3ec70f74b65cb",
+      "svg_path": "research/publication_2026-09-21/figures/figure2_eligibility_criteria.svg",
+      "svg_sha256": "0bb90c983e8a78f16692c9b0740e8f56a50a7bd254ce5c975d782fdc919cc496",
+      "png_dimensions_pixels": [
+        2100,
+        2280
+      ],
+      "viewed_with": "view_image(detail=original)",
+      "visual_status": "PASS",
+      "content_status": "PASS",
+      "minimum_design_font_points_at_7_inch_width": 9.0,
+      "font_sizes_in_svg_user_units": [
+        9.0,
+        9.4,
+        9.5,
+        9.6,
+        9.8,
+        10.4,
+        14.0
+      ],
+      "render_basis": "504-point width in builder; PNG 2100 pixels at 300 dpi, corresponding to 7 inches.",
+      "output_hashes_match_manifest": true,
+      "source_hashes_match_manifest": {
+        "REVIEW_SCOPE.md": true,
+        "research/submission/Medicare_systematic_review_protocol.md": true
+      },
+      "content": [
+        "Adopted September 16 scope and proposed September 21 operational screening are visibly distinguished.",
+        "Retains eligible younger Medicare beneficiaries; unreported identity remains unresolved and is not inferred from recorded male/female sex.",
+        "Mixed-population estimates without separable eligible results are outside primary synthesis; citations and reasons remain retained.",
+        "Code-only patient-identity exception is distinguished from patient evidence; caption adds that patient components require assessment.",
+        "Context remains separate and no completed PRISMA selection flow or finalized counts are claimed.",
+        "Final wording says original service/code research involving Medicare, removing ambiguity with the Original Medicare benefit."
+      ],
+      "visual": [
+        "Cards, borders and all text are fully visible; the context band and footer are separated without overlap.",
+        "Blue inclusion routes, red scope exclusions and amber unresolved information remain distinguishable by labels as well as color.",
+        "Re-viewed the corrected final PNG at original resolution; the longer service-valuation wording fits without clipping or collision."
+      ],
+      "caption": "Accurately states payer separation, identity limits, clinical need independent of coverage and incomplete selection; references the existing scope/protocol rather than asserting PRISMA approval.",
+      "recheck_reason": "Minor originality-versus-benefit-name ambiguity was clarified by the rendering agent.",
+      "previously_viewed_png_sha256": "2b4fc02d0c6a24b3fe9169b2b5eb15a9650480a5a459b4a48eea13f47dc1b146"
+    },
+    {
+      "figure_number": 3,
+      "png_path": "research/publication_2026-09-21/figures/figure3_clinical_basis.png",
+      "png_sha256": "a93a3b2548bbad716f81445aaa84c2e9aeb6f888760e8b0c1ac49578c1586763",
+      "svg_path": "research/publication_2026-09-21/figures/figure3_clinical_basis.svg",
+      "svg_sha256": "753ad18c809e79084b77d75284e921437f3e7b1577beebbc52fa0c1d9d877fd3",
+      "png_dimensions_pixels": [
+        2100,
+        2280
+      ],
+      "viewed_with": "view_image(detail=original)",
+      "visual_status": "PASS",
+      "content_status": "PASS",
+      "minimum_design_font_points_at_7_inch_width": 9.0,
+      "font_sizes_in_svg_user_units": [
+        9.0,
+        9.4,
+        9.5,
+        9.8,
+        10.4,
+        14.0
+      ],
+      "render_basis": "504-point width in builder; PNG 2100 pixels at 300 dpi, corresponding to 7 inches.",
+      "output_hashes_match_manifest": true,
+      "source_hashes_match_manifest": {
+        "REVIEW_SCOPE.md": true,
+        "research/clinical_basis.json": true,
+        "research/publication_2026-09-21/manuscript.md": true,
+        "research/reference_registry.json": true
+      },
+      "content": [
+        "All six existing clinical categories remain present; no new classification is introduced.",
+        "Shared-system examples retain bone, breast, lymphatic and renal care. Local vaginal treatment and systemic menopausal treatment remain separate examples.",
+        "Mixed/site-dependent rows require component separation. Policy eligibility and disease burden appear as separate descriptors.",
+        "Footer explicitly distinguishes care classification from gender identity and defines clinical need independently of reimbursement."
+      ],
+      "visual": [
+        "Two-column, three-row layout is legible with ample padding.",
+        "No clipping, text overlap, category counts, proportions or implied effect scale observed."
+      ],
+      "caption": "Matches the conceptual source and preserves no-opposite-sex-counterpart and no-identity-assignment boundaries."
+    },
+    {
+      "figure_number": 5,
+      "png_path": "research/publication_2026-09-21/figures/figure5_financing_care.png",
+      "png_sha256": "dce9d958cda6552ae38721c4465e43de8ece5c4d57a83a89855d6216baa794c5",
+      "svg_path": "research/publication_2026-09-21/figures/figure5_financing_care.svg",
+      "svg_sha256": "cdfc7d1b48f24ff30ffd0c2d1877ca6348219b11c603beaa97df781415f38743",
+      "png_dimensions_pixels": [
+        2100,
+        2280
+      ],
+      "viewed_with": "view_image(detail=original)",
+      "visual_status": "PASS",
+      "content_status": "PASS",
+      "minimum_design_font_points_at_7_inch_width": 9.0,
+      "font_sizes_in_svg_user_units": [
+        9.0,
+        9.4,
+        9.5,
+        9.8,
+        10.0,
+        10.4,
+        14.0
+      ],
+      "render_basis": "504-point width in builder; PNG 2100 pixels at 300 dpi, corresponding to 7 inches.",
+      "output_hashes_match_manifest": true,
+      "source_hashes_match_manifest": {
+        "REVIEW_SCOPE.md": true,
+        "research/publication_2026-09-21/manuscript.md": true,
+        "research/publication_2026-09-21/opportunities.json": true,
+        "research/publication_2026-09-21/intervention_evidence.json": true,
+        "research/reference_registry.json": true
+      },
+      "content": [
+        "Coverage/administration, provider payment/valuation and patient burden are parallel domains, not a serial coverage-to-payment-to-cost chain.",
+        "All links to access and health are dashed; both subtitle and footer explicitly identify relationships/hypotheses to evaluate.",
+        "Retains nonrecipients in the clinical-need denominator. Receipt of appropriate care is separate from symptoms/function/quality-of-life, harms and burden.",
+        "No favorable effect, effect size, causality, software efficacy or equity improvement is asserted."
+      ],
+      "visual": [
+        "Dashed links converge above the access card and then connect access to health without crossing text.",
+        "All titles, measure labels and footer are legible; no clipping or collisions."
+      ],
+      "caption": "Explicitly states that dashed connections do not establish causation; preserves separate follow-up for health/experience and average benefit versus equity."
+    },
+    {
+      "figure_number": 6,
+      "png_path": "research/publication_2026-09-21/figures/figure6_opportunity_domains.png",
+      "png_sha256": "9351586897533f0ba169052eda85d986553319c2be2114ec843cf5468612cba5",
+      "svg_path": "research/publication_2026-09-21/figures/figure6_opportunity_domains.svg",
+      "svg_sha256": "2f80fdf0d46eb4fb96681f2a5ae7f45860a7f3522ba379c73e1644b4454b766d",
+      "png_dimensions_pixels": [
+        2100,
+        2280
+      ],
+      "viewed_with": "view_image(detail=original)",
+      "visual_status": "PASS",
+      "content_status": "PASS",
+      "minimum_design_font_points_at_7_inch_width": 9.0,
+      "font_sizes_in_svg_user_units": [
+        9.0,
+        9.4,
+        9.6,
+        10.4,
+        14.0
+      ],
+      "render_basis": "504-point width in builder; PNG 2100 pixels at 300 dpi, corresponding to 7 inches.",
+      "output_hashes_match_manifest": true,
+      "source_hashes_match_manifest": {
+        "REVIEW_SCOPE.md": true,
+        "research/publication_2026-09-21/opportunities.json": true,
+        "research/publication_2026-09-21/opportunity_policy_sources.json": true,
+        "research/publication_2026-09-21/intervention_evidence.json": true,
+        "research/publication_2026-09-21/manuscript.md": true,
+        "research/reference_registry.json": true
+      },
+      "content": [
+        "All six existing O-IDs are present in their existing order and explicitly described as unranked proposals.",
+        "O-04 targets research reproducibility and reliability, not patient treatment benefit. O-02 targets evaluation/shared decisions, not claimed fracture prevention.",
+        "O-03 remains non-drug authorization. O-05 measures receipt/fit/use. O-06 measures understanding and preference-concordant care.",
+        "Footer preserves existing-service comparison, harms, burden, equitable reach, implementation and buyer need."
+      ],
+      "visual": [
+        "Consistent card sizes and colors show no scores or benefit ranking.",
+        "All domain titles and wrapped workflow/outcome lines are visible and legible; no clipping or collisions."
+      ],
+      "caption": "Proposed digital-product effects remain unestablished, evidence does not transfer automatically between domains, and software payment/demand/profitability are not inferred."
+    }
+  ],
+  "minor_findings": [
+    {
+      "id": "F2-WORDING-01",
+      "severity": "minor",
+      "figure": 2,
+      "location": "SERVICE VALUATION first sentence",
+      "observed_text": "Original Medicare service/code research with a sex-related valuation question and defensible comparators.",
+      "issue": "Original Medicare may be read as the fee-for-service benefit rather than as original research, despite the caption explicitly retaining Medicare Advantage and Part D.",
+      "suggestion": "Original service/code research involving Medicare with a sex-related valuation question and defensible comparators.",
+      "blocking": false,
+      "communicated_to_rendering_agent": true,
+      "status": "RESOLVED",
+      "final_text": "Original service/code research involving Medicare, with a sex-related valuation question and defensible comparators.",
+      "verified_by": "Original-resolution visual reinspection of final figure2_eligibility_criteria.png"
+    }
+  ],
+  "caption_notes": [
+    {
+      "figure": 4,
+      "finding": "Caption explicitly treats unique PMIDs as report records, selected register and intervention retrieval as separate routes, and selection counts as unfinished. Quantitative search/source records were not independently re-audited in this visual task."
+    },
+    {
+      "figure": 7,
+      "finding": "Caption identifies a project-developed framework after exploratory review, separates benefit, equity and feasibility, and avoids score/profitability claims."
+    }
+  ],
+  "limitations": [
+    "Only the five listed PNGs were visually viewed in this task; Figures 4 and 7 received caption-only review.",
+    "No physical print, color-vision simulation or final manuscript page-layout check performed here.",
+    "Source-ID matching and local-source conceptual checks do not constitute independent screening or verification of scientific article results.",
+    "QA applies to the recorded image hashes; changed images require renewed visual inspection."
+  ],
+  "files_modified_by_this_qa": [
+    "research/publication_2026-09-21/figures/expanded_figure_visual_qa.json"
+  ],
+  "unresolved_findings": [],
+  "verification_summary": "All five reviewed final PNGs and SVG hashes match the final current manifest. Text is at least 9 points at the intended 7-inch width; no material visual/content issues remain."
+}

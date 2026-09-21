@@ -1,0 +1,24 @@
+{
+  "reviewed_on": "2026-09-21",
+  "review_type": "AI visual inspection of final rendered manuscript figure pages; not human evidence screening",
+  "pages": [
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "result": "PASS",
+  "findings": "All seven figures and captions fit on their own pages. Numbering, labels, conceptual versus measured content, dashed hypothesized links, source IDs and footer placement are readable without clipping or overlap. Some stable IDs wrap at hyphens but retain all characters.",
+  "page_png_sha256": {
+    "9": "8f5cb565a6fd8298650a2cdcfb1f47bec7b030601a866ccfa67e804a08772a60",
+    "10": "a001b7ba0f4da5ceaecd5e52802b69eb14622cd7608cf8447bdb2c7a838f9af1",
+    "11": "028f5516e2277b61579ee3be8304237ebae321b793e5079632d346a3fde94bc7",
+    "12": "de7d82b718d4746b74413b75910d6953caec4ab65f3b47f4a7abe44875d5f995",
+    "13": "27bc6e464f9f378bbdb97d293c88003849911fab4b56ede14f821bbfca77849d",
+    "14": "0b3e162fa0044dbcfc9f5d0c494eb44fff94a9bccd13e2e5ec98ab227db8a838",
+    "15": "09ca8e46e7b13eb62eea42dd3d27e5d78791e15d57716a864baf8e3b62e7c682"
+  }
+}

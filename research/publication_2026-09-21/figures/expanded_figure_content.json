@@ -1,0 +1,829 @@
+{
+  "created_on": "2026-09-21",
+  "status": "Conceptual figure content for an existing preliminary manuscript; no new evidence, counts or scope changes",
+  "authoring_scope": "Local-source-only content audit and figure text. Rendering, numbering, manuscript integration and visual verification are separate tasks.",
+  "design_constraints": {
+    "target_width_inches": 7,
+    "minimum_text_points": 9,
+    "preferred_body_text_points": 10,
+    "panel_fill": "Equal card sizes; no inferred prevalence or evidence-strength encoding",
+    "caption_target_words": "80-120 excluding source-ID tokens",
+    "reference_display": "Keep full source IDs and PMIDs in this provenance file; captions carry a concise illustrative citation set already in the living bibliography."
+  },
+  "figures": [
+    {
+      "key": "A_evidence_streams",
+      "title": "Separate evidence streams and their units of analysis",
+      "figure_type": "Conceptual classification; no quantitative comparison",
+      "suggested_layout": "Three equal columns; a separate full-width clinical-background band below. Do not join the columns into a pooled estimate.",
+      "panels": [
+        {
+          "label": "A",
+          "title": "Patient care and access",
+          "lines": [
+            "Units: patients, product records or interviews",
+            "Assess: need, costs, use and outcomes",
+            "Compare: recorded patient sex where measured"
+          ],
+          "boundary": "One eligible population is not a between-sex comparison.",
+          "source_ids": [
+            "L-R01",
+            "L-R02",
+            "L-D01",
+            "L-Q01"
+          ]
+        },
+        {
+          "label": "B",
+          "title": "Service and anatomy valuation",
+          "lines": [
+            "Unit: codes, procedures or policies",
+            "Assess: valuation, resources and coverage",
+            "Compare: defensibly matched services"
+          ],
+          "boundary": "Anatomy and specialty do not measure physician gender.",
+          "source_ids": [
+            "L-P01",
+            "L-P02",
+            "L-P03",
+            "L-P04",
+            "L-A02"
+          ]
+        },
+        {
+          "label": "C",
+          "title": "Physician sex or gender",
+          "lines": [
+            "Unit: clinicians or provider-service records",
+            "Assess: receipts or service-level payments",
+            "Compare: measured physician sex or gender"
+          ],
+          "boundary": "Contextual stream, outside patient-sex synthesis.",
+          "source_ids": [
+            "L-C01",
+            "L-C02",
+            "L-C03"
+          ]
+        }
+      ],
+      "supporting_band": {
+        "title": "Clinical and social background",
+        "text": "Organizing frameworks support interpretation; they do not supply direct Medicare reimbursement estimates.",
+        "source_ids": [
+          "L-B01",
+          "L-B01-E1"
+        ]
+      },
+      "footer": "Preserve the measured variable, comparison axis and outcome. Do not infer patient disparities from clinician payments.",
+      "caption": "Three analytic streams answer different questions and require different units of analysis. Patient studies may compare recorded sex or describe care within one eligible population; neither recorded sex nor a diagnosis establishes gender identity. Service and anatomy studies compare procedures, resources or policies. Physician-gender studies compare clinicians and remain contextual to the patient-sex inquiry. Collections, salary and payment per service are distinct measures. Clinical reviews provide an organizing framework. Clinician interviews about patient barriers and prescriber datasets are classified by their analytic question, not by respondents' profession or data source. The diagram defines interpretation boundaries, not causal effects. [L-R01; L-P01; L-C03; L-Q01; L-B01; L-B01-E1]",
+      "source_ids": [
+        "L-R01",
+        "L-R02",
+        "L-D01",
+        "L-P01",
+        "L-P02",
+        "L-P03",
+        "L-P04",
+        "L-A02",
+        "L-C01",
+        "L-C02",
+        "L-C03",
+        "L-Q01",
+        "L-B01",
+        "L-B01-E1"
+      ],
+      "local_source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/evidence_subjects.json",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/reference_registry.json"
+      ],
+      "interpretation_boundaries": [
+        "The patient-care category contains population-specific and qualitative evidence; not every record supplies a male/female contrast.",
+        "Do not classify L-Q01 as physician-gender evidence or L-D01 as a clinician-pay comparison.",
+        "Do not pool physician-gender results with patient-sex or anatomy valuations.",
+        "The clinical background stream does not become an original Medicare reimbursement study.",
+        "No counts or directional results are encoded in panel size, color or arrangement."
+      ]
+    },
+    {
+      "key": "B_clinical_basis",
+      "title": "Classify the care indication separately from eligibility and burden",
+      "figure_type": "Conceptual clinical classification; no patient assignment or frequency encoding",
+      "suggested_layout": "Two rows of three equally sized category cards, then a separate band containing two independent descriptors. Retain all six original category names.",
+      "panels": [
+        {
+          "label": "A",
+          "title": "Shared systems or functions",
+          "lines": [
+            "Examples: bone, breast, lymphatic and renal care",
+            "Compare within condition and clinical need"
+          ],
+          "clinical_group": "shared"
+        },
+        {
+          "label": "B",
+          "title": "Female reproductive anatomy",
+          "lines": [
+            "Specified reproductive organ or tissue",
+            "Example: local vaginal treatment"
+          ],
+          "clinical_group": "female_anatomy"
+        },
+        {
+          "label": "C",
+          "title": "Male reproductive anatomy",
+          "lines": [
+            "Specified reproductive organ or function",
+            "Example: prostate screening"
+          ],
+          "clinical_group": "male_anatomy"
+        },
+        {
+          "label": "D",
+          "title": "Female reproductive physiology",
+          "lines": [
+            "Classify the indication, not the molecule",
+            "Example: systemic menopause treatment"
+          ],
+          "clinical_group": "female_physiology"
+        },
+        {
+          "label": "E",
+          "title": "Male reproductive physiology",
+          "lines": [
+            "Reproductive endocrine indication",
+            "Example: documented male hypogonadism"
+          ],
+          "clinical_group": "male_physiology"
+        },
+        {
+          "label": "F",
+          "title": "Mixed or site-dependent services",
+          "lines": [
+            "Bundled services or unresolved anatomy",
+            "Split diagnosis, site and procedure components"
+          ],
+          "clinical_group": "mixed"
+        }
+      ],
+      "independent_descriptors": [
+        {
+          "title": "Policy eligibility",
+          "text": "Record sex-defined rules separately."
+        },
+        {
+          "title": "Population disease burden",
+          "text": "Record need and distribution separately."
+        }
+      ],
+      "footer": "These categories describe care, not gender identity. Define clinical need independently of reimbursement rules.",
+      "caption": "Care-item classification concerns the recorded indication and anatomical or physiological target. Shared-system care may have unequal disease burden or sex-defined policy eligibility without becoming exclusive to one sex. Reproductive anatomy and reproductive physiology remain distinct: local vaginal treatment and systemic menopausal treatment illustrate this distinction. Mixed or site-dependent services require component-level review before comparison. Policy eligibility and population burden are separate descriptors, not additional anatomical categories. Clinical need is defined independently of reimbursement eligibility, and an opposite-sex counterpart is not required for every indication. These categories neither assign patient identity nor quantify national inequity. [L-B01; L-B01-E1; C-001; C-002; C-003; C-004]",
+      "source_ids": [
+        "L-B01",
+        "L-B01-E1",
+        "C-001",
+        "C-002",
+        "C-003",
+        "C-004"
+      ],
+      "local_source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/clinical_basis.json",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/reference_registry.json"
+      ],
+      "source_item_ids": [
+        "D01",
+        "D03",
+        "D12",
+        "G07",
+        "P01",
+        "P13",
+        "P14"
+      ],
+      "interpretation_boundaries": [
+        "Use the existing six categories without a new scope amendment or changes to active inventory.",
+        "Examples are from the existing classified indications; they are not statements that treatment is appropriate for every patient.",
+        "Do not infer gender identity from reproductive anatomy, diagnosis or medication.",
+        "Do not reclassify breast, bone, lymphatic, pelvic-floor or renal care as exclusive to women.",
+        "The broad prolapse row remains provisional until site and procedure verification.",
+        "Do not encode relative category size, national need or bias frequency."
+      ]
+    },
+    {
+      "key": "C_financing_to_care",
+      "title": "From financing measures to patient outcomes: links to test",
+      "figure_type": "Conceptual measurement pathway; dashed connections are hypotheses, not demonstrated causal effects",
+      "suggested_layout": "Three financing cards across the top feed, with dashed connectors, into an access card and then a health-outcome card. Place clinical need above all cards. Do not draw a serial coverage-to-payment-to-cost chain.",
+      "context_band": {
+        "title": "Clinical need and the eligible population",
+        "text": "Assess indication, alternatives and preferences; retain people who never receive care."
+      },
+      "panels": [
+        {
+          "label": "A",
+          "id": "coverage",
+          "title": "Coverage and administration",
+          "lines": [
+            "Eligibility and restrictions",
+            "Authorization and benefit rules"
+          ],
+          "measurement_question": "What does the dated policy permit?"
+        },
+        {
+          "label": "B",
+          "id": "payment",
+          "title": "Provider payment and valuation",
+          "lines": [
+            "Work RVUs and total RVUs",
+            "Allowed amounts and receipts"
+          ],
+          "measurement_question": "Which payment measure is observed?"
+        },
+        {
+          "label": "C",
+          "id": "cost",
+          "title": "Patient financial burden",
+          "lines": [
+            "Out-of-pocket spending",
+            "Affordability and payment timing"
+          ],
+          "measurement_question": "What does the patient actually bear?"
+        },
+        {
+          "label": "D",
+          "id": "access",
+          "title": "Realized access",
+          "lines": [
+            "Receipt of appropriate care",
+            "Delay, abandonment and unmet need"
+          ],
+          "measurement_question": "Does indicated care reach the patient?"
+        },
+        {
+          "label": "E",
+          "id": "health",
+          "title": "Health and patient experience",
+          "lines": [
+            "Symptoms, function and quality of life",
+            "Harms and treatment burden"
+          ],
+          "measurement_question": "Is patient benefit demonstrated?"
+        }
+      ],
+      "edges": [
+        {
+          "from": "coverage",
+          "to": "access",
+          "style": "dashed"
+        },
+        {
+          "from": "payment",
+          "to": "access",
+          "style": "dashed"
+        },
+        {
+          "from": "cost",
+          "to": "access",
+          "style": "dashed"
+        },
+        {
+          "from": "access",
+          "to": "health",
+          "style": "dashed"
+        }
+      ],
+      "edge_legend": "Dashed links identify relationships requiring evaluation; direction and magnitude are unestablished.",
+      "footer": "Retain payer, policy year, age and entitlement. Compare equity in need, reach and outcomes separately.",
+      "caption": "Financing, access and patient outcomes are distinct measurement domains. The dashed links identify relationships to evaluate; they do not assert that coverage, higher payment or lower recorded spending causes better care. Policy permission differs from authorization performance, clinician receipts and patient out-of-pocket burden. Appropriate receipt, delays and unmet need require patient-level ascertainment, including people who do not complete a transaction. Health and experience outcomes require separate follow-up. Clinical need, indication, alternatives and preferences inform interpretation across the pathway. Analyses retain payer, policy period, age and entitlement, and evaluate equitable reach alongside average benefit. [L-D01; L-R01; L-P01; L-T01; L-T02]",
+      "source_ids": [
+        "L-D01",
+        "L-R01",
+        "L-P01",
+        "L-T01",
+        "L-T02"
+      ],
+      "local_source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/publication_2026-09-21/opportunities.json",
+        "research/publication_2026-09-21/intervention_evidence.json",
+        "research/reference_registry.json"
+      ],
+      "interpretation_boundaries": [
+        "The graph is a measurement framework, not a causal directed acyclic graph or a validated mediation model.",
+        "Dashed links must remain dashed and visibly labeled as hypotheses to test.",
+        "Do not imply that higher provider payment necessarily lowers patient cost or improves health.",
+        "Work RVUs, total RVUs, allowed payment and clinician receipts require separate estimands even within the payment panel.",
+        "Do not equate a submitted or approved request with receipt of appropriate care.",
+        "Average access improvement does not establish reduction in sex-related inequity.",
+        "Clinical eligibility must not be defined solely by benefit eligibility."
+      ]
+    },
+    {
+      "key": "D_opportunity_domains",
+      "title": "Six health IT domains and their proposed evaluation targets",
+      "figure_type": "Unranked research-agenda matrix; targets are proposed outcomes, not observed product effects",
+      "suggested_layout": "Two columns by three rows. Each card contains domain name, one workflow line and one outcome line. Preserve O-IDs and an explicit unverified banner. No scoring, ranking or benefit-colored scale.",
+      "status_banner": "Unranked proposals. Clinical benefit, equitable reach and purchasing feasibility remain to be tested.",
+      "panels": [
+        {
+          "label": "O-01",
+          "title": "Medication affordability",
+          "lines": [
+            "Test: staffed benefit navigation",
+            "Measure: appropriate medication access and unmet need"
+          ],
+          "opportunity_id": "O-01",
+          "full_domain": "Prescription affordability and benefit navigation",
+          "source_ids": [
+            "L-D01",
+            "L-D03",
+            "L-D04",
+            "L-T01",
+            "L-T02",
+            "L-T03",
+            "P-049",
+            "P-050",
+            "P-051",
+            "P-052",
+            "P-056",
+            "P-057"
+          ],
+          "validation_design": "Prospectively registered pragmatic cluster trial comparing existing RTBT/usual navigation with RTBT plus staffed closed-loop navigation; specify any cost-sharing assistance as a separate component.",
+          "evidence_gap": "No verified evidence that this proposed product closes a national patient-sex access gap. Incremental effectiveness after Part D redesign and cost-effectiveness remain unknown.",
+          "commercial_status": "UNVERIFIED"
+        },
+        {
+          "label": "O-02",
+          "title": "Post-fracture follow-up",
+          "lines": [
+            "Test: registry plus accountable human follow-up",
+            "Measure: appropriate evaluation and shared decisions"
+          ],
+          "opportunity_id": "O-02",
+          "full_domain": "Post-fracture bone-health follow-up",
+          "source_ids": [
+            "L-G05",
+            "L-G04",
+            "P-012",
+            "P-053",
+            "P-056",
+            "P-057"
+          ],
+          "validation_design": "Multisite pragmatic cluster trial of closed-loop follow-up versus existing discharge/referral processes, enrolling both sexes with clinically comparable qualifying fractures.",
+          "evidence_gap": "Digital incremental benefit, contemporary multi-payer effectiveness, fracture reduction and sex-specific benefit remain unestablished.",
+          "commercial_status": "UNVERIFIED"
+        },
+        {
+          "label": "O-03",
+          "title": "Non-drug authorization",
+          "lines": [
+            "Test: requirements and response tracking",
+            "Measure: time to appropriate care and patient burden"
+          ],
+          "opportunity_id": "O-03",
+          "full_domain": "Prior-authorization workflow for clinically indicated non-drug care",
+          "source_ids": [
+            "L-A02",
+            "L-Q01",
+            "P-046",
+            "P-047",
+            "P-048",
+            "P-050",
+            "P-059",
+            "P-056",
+            "P-057"
+          ],
+          "validation_design": "Prospective controlled rollout or cluster trial across defined services, with parallel clinically eligible patient ascertainment and audit of requests requiring manual handling.",
+          "evidence_gap": "No extracted study establishes this proposed product's patient benefit, cost-effectiveness or sex-gap closure. National administrative metrics do not supply a patient-level causal test.",
+          "commercial_status": "UNVERIFIED"
+        },
+        {
+          "label": "O-04",
+          "title": "Procedure-valuation research",
+          "lines": [
+            "Test: transparent comparator and resource audit",
+            "Measure: reproducibility and measurement reliability"
+          ],
+          "opportunity_id": "O-04",
+          "full_domain": "Procedure-valuation research and audit infrastructure",
+          "source_ids": [
+            "L-P01",
+            "L-P02",
+            "L-P03",
+            "L-P04",
+            "P-035"
+          ],
+          "validation_design": "Registered multicenter measurement study with independently adjudicated comparators, full-episode work sampling and external replication; only subsequently evaluate downstream policy changes using a justified causal design.",
+          "evidence_gap": "The three headline contrasts are not directly poolable; contemporary full-resource measurements and causal downstream access effects are missing.",
+          "commercial_status": "UNVERIFIED"
+        },
+        {
+          "label": "O-05",
+          "title": "Lymphedema item fulfillment",
+          "lines": [
+            "Test: clinician-to-supplier coordination",
+            "Measure: timely receipt, fit and ability to use"
+          ],
+          "opportunity_id": "O-05",
+          "full_domain": "Lymphedema compression-item access and fulfillment",
+          "source_ids": [
+            "L-A01",
+            "L-A02",
+            "P-021",
+            "P-054",
+            "P-056",
+            "P-057"
+          ],
+          "validation_design": "Prospective post-2024 access audit followed by a controlled or randomized fulfillment intervention across diverse suppliers and clinical sites.",
+          "evidence_gap": "Current national fulfillment, fit and cost-sharing barriers after the benefit expansion have not been established by the cited studies.",
+          "commercial_status": "UNVERIFIED"
+        },
+        {
+          "label": "O-06",
+          "title": "Kidney-care coordination",
+          "lines": [
+            "Test: human-led education and practical support",
+            "Measure: understanding and preference-concordant care"
+          ],
+          "opportunity_id": "O-06",
+          "full_domain": "Kidney-care education and practical support coordination",
+          "source_ids": [
+            "L-Q01",
+            "P-055",
+            "P-056",
+            "P-057"
+          ],
+          "validation_design": "Begin with US Medicare patient/caregiver interviews and an access audit, then co-design and pilot a controlled coordination intervention before a definitive pragmatic trial.",
+          "evidence_gap": "No directly evaluated Medicare technology intervention or verified patient-sex benefit in the cited record. Patient and caregiver evidence is required before product selection.",
+          "commercial_status": "UNVERIFIED"
+        }
+      ],
+      "footer": "For every domain: compare existing services; measure harms, burden and equitable reach; verify implementation and buyer need.",
+      "caption": "Six purposively selected domains translate the local evidence register into prospective evaluation questions. The workflow and outcome in each panel are proposals, not established effects of a digital product. Medication and fracture-care interventions provide precedents for testing specified approaches; effectiveness does not automatically transfer to other domains. Procedure valuation initially requires reliable research measurements, with patient effects assessed separately. All proposals require comparison with existing services, clinically appropriate denominators, harms monitoring and explicit equity assessment. Coverage or an interoperability requirement does not establish software reimbursement, customer demand or profitability. Domain order conveys no priority or ranking. [L-T01; L-T02; L-G05; L-P01; L-P02; L-A02; L-Q01; P-054]",
+      "source_ids": [
+        "L-T01",
+        "L-T02",
+        "L-G05",
+        "L-P01",
+        "L-P02",
+        "L-A02",
+        "L-Q01",
+        "P-054"
+      ],
+      "local_source_paths": [
+        "REVIEW_SCOPE.md",
+        "research/publication_2026-09-21/opportunities.json",
+        "research/publication_2026-09-21/opportunity_policy_sources.json",
+        "research/publication_2026-09-21/intervention_evidence.json",
+        "research/publication_2026-09-21/manuscript.md",
+        "research/reference_registry.json"
+      ],
+      "interpretation_boundaries": [
+        "These are the six existing unranked opportunity domains, not a census, new recommendations or verified markets.",
+        "O-04 is research infrastructure with indirect patient benefit; do not depict it as an effective treatment or access intervention.",
+        "O-02 evaluation/shared decisions are not synonymous with fracture prevention.",
+        "O-03 is the existing non-drug proposal; do not depict proposed drug-authorization rules as effective policy.",
+        "O-05 historical cost/coverage studies do not establish present post-benefit fulfillment barriers.",
+        "O-06 international clinician perceptions do not establish US Medicare patient barrier prevalence or a measured patient-sex effect.",
+        "Keep patient benefits, process measures, equity and purchasing feasibility distinct.",
+        "Do not imply that all six domains have randomized evidence or comparable evidence maturity."
+      ]
+    }
+  ],
+  "bibliography_registry": "research/reference_registry.json",
+  "verified_source_ids_present_in_registry": [
+    "C-001",
+    "C-002",
+    "C-003",
+    "C-004",
+    "L-A01",
+    "L-A02",
+    "L-B01",
+    "L-B01-E1",
+    "L-C01",
+    "L-C02",
+    "L-C03",
+    "L-D01",
+    "L-D03",
+    "L-D04",
+    "L-G04",
+    "L-G05",
+    "L-P01",
+    "L-P02",
+    "L-P03",
+    "L-P04",
+    "L-Q01",
+    "L-R01",
+    "L-R02",
+    "L-T01",
+    "L-T02",
+    "L-T03",
+    "P-012",
+    "P-021",
+    "P-035",
+    "P-046",
+    "P-047",
+    "P-048",
+    "P-049",
+    "P-050",
+    "P-051",
+    "P-052",
+    "P-053",
+    "P-054",
+    "P-055",
+    "P-056",
+    "P-057",
+    "P-059"
+  ],
+  "reference_provenance": {
+    "C-001": {
+      "id": "C-001",
+      "title": "Male Breast Cancer",
+      "organization": "National Cancer Institute",
+      "url": "https://www.cancer.gov/types/breast/male-breast-cancer"
+    },
+    "C-002": {
+      "id": "C-002",
+      "title": "About Endometriosis",
+      "organization": "Eunice Kennedy Shriver National Institute of Child Health and Human Development",
+      "url": "https://www.nichd.nih.gov/health/topics/endometri/conditioninfo"
+    },
+    "C-003": {
+      "id": "C-003",
+      "title": "Treatments for Bladder Control Problems (Urinary Incontinence)",
+      "organization": "National Institute of Diabetes and Digestive and Kidney Diseases",
+      "url": "https://www.niddk.nih.gov/health-information/urologic-diseases/bladder-control-problems/treatment"
+    },
+    "C-004": {
+      "id": "C-004",
+      "title": "Osteoporosis in Men",
+      "organization": "National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "url": "https://www.niams.nih.gov/health-topics/osteoporosis-men"
+    },
+    "L-A01": {
+      "id": "L-A01",
+      "title": "Drivers of cost differences between US breast cancer survivors with or without lymphedema.",
+      "pmid": "31446591",
+      "doi": "10.1007/s11764-019-00799-1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31446591/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31446591/"
+    },
+    "L-A02": {
+      "id": "L-A02",
+      "title": "Cross-Sectional Analysis of Insurance Coverage for Lymphedema Treatments in the United States.",
+      "pmid": "37285151",
+      "doi": "10.1001/jamasurg.2023.2017",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37285151/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/37285151/"
+    },
+    "L-B01": {
+      "id": "L-B01",
+      "title": "Sex and gender: modifiers of health, disease, and medicine.",
+      "pmid": "32828189",
+      "doi": "10.1016/s0140-6736(20)31561-0",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32828189/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7440877/"
+    },
+    "L-B01-E1": {
+      "id": "L-B01-E1",
+      "title": "Department of Error.",
+      "pmid": "32891210",
+      "doi": "10.1016/s0140-6736(20)31827-4",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32891210/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/32891210/"
+    },
+    "L-C01": {
+      "id": "L-C01",
+      "title": "Gender-Specific Trends in Ophthalmologist Medicare Collections.",
+      "pmid": "31926887",
+      "doi": "10.1016/j.ajo.2019.12.024",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31926887/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/31926887/"
+    },
+    "L-C02": {
+      "id": "L-C02",
+      "title": "Gender Differences in Medicare Payments Among Cardiologists.",
+      "pmid": "34495296",
+      "doi": "10.1001/jamacardio.2021.3385",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34495296/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8427494/"
+    },
+    "L-C03": {
+      "id": "L-C03",
+      "title": "Gender-Based Variations in Medicare Reimbursements Among Different Surgical Subspecialties.",
+      "pmid": "39046733",
+      "doi": "10.1001/jamasurg.2024.2298",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39046733/",
+      "source_url": "https://jamanetwork.com/journals/jamasurgery/fullarticle/2821588"
+    },
+    "L-D01": {
+      "id": "L-D01",
+      "title": "Vaginal Estrogen Prescribing and Cost Trends Among Medicare Part D Beneficiaries.",
+      "pmid": "38527966",
+      "doi": "10.1097/spv.0000000000001504",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38527966/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38527966/"
+    },
+    "L-D03": {
+      "id": "L-D03",
+      "title": "Efficacy of Vaginal Estradiol or Vaginal Moisturizer vs Placebo for Treating Postmenopausal Vulvovaginal Symptoms: A Randomized Clinical Trial.",
+      "pmid": "29554173",
+      "doi": "10.1001/jamainternmed.2018.0116",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29554173/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/29554173/"
+    },
+    "L-D04": {
+      "id": "L-D04",
+      "title": "Hormonal Treatments and Vaginal Moisturizers for Genitourinary Syndrome of Menopause : A Systematic Review.",
+      "pmid": "39250810",
+      "doi": "10.7326/annals-24-00610",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39250810/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39250810/"
+    },
+    "L-G04": {
+      "id": "L-G04",
+      "title": "Longitudinal trends in use of bone mass measurement among older americans, 1999-2005.",
+      "pmid": "18302495",
+      "doi": "10.1359/jbmr.080232",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/18302495/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2497454/"
+    },
+    "L-G05": {
+      "id": "L-G05",
+      "title": "Evaluation of an Osteoporosis Outreach Program for Men With a Fragility Fracture and Their Physicians.",
+      "pmid": "33273290",
+      "doi": "10.1097/mlr.0000000000001459",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33273290/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7899217/"
+    },
+    "L-P01": {
+      "id": "L-P01",
+      "title": "Price and Prejudice: Reimbursement of Surgical Care on Male Versus Female Anatomies.",
+      "pmid": "39978776",
+      "doi": "10.1089/jwh.2024.0984",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39978776/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/39978776/"
+    },
+    "L-P02": {
+      "id": "L-P02",
+      "title": "Comparison of Work Relative Value Units Assigned to Urological and Gynecological Surgical Procedures.",
+      "pmid": "38758183",
+      "doi": "10.1097/upj.0000000000000612",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38758183/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/38758183/"
+    },
+    "L-P03": {
+      "id": "L-P03",
+      "title": "Reimbursement for Female-Specific Compared With Male-Specific Procedures Over Time.",
+      "pmid": "34736273",
+      "doi": "10.1097/aog.0000000000004599",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34736273/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34736273/"
+    },
+    "L-P04": {
+      "id": "L-P04",
+      "title": "Discrepancies Created by Surgeon Self-Reported Operative Time and the Effects on Procedural Relative Value Units and Reimbursement.",
+      "pmid": "34237766",
+      "doi": "10.1097/aog.0000000000004467",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34237766/",
+      "source_url": "https://pubmed.ncbi.nlm.nih.gov/34237766/"
+    },
+    "L-Q01": {
+      "id": "L-Q01",
+      "title": "Nephrologists' Perspectives on Gender Disparities in CKD and Dialysis.",
+      "pmid": "35257055",
+      "doi": "10.1016/j.ekir.2021.10.022",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35257055/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8897691/"
+    },
+    "L-R01": {
+      "id": "L-R01",
+      "title": "Cost-related Medication Nonadherence and Its Risk Factors Among Medicare Beneficiaries.",
+      "pmid": "33298705",
+      "doi": "10.1097/mlr.0000000000001458",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33298705/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7735208/"
+    },
+    "L-R02": {
+      "id": "L-R02",
+      "title": "Prevalence and Persistence of Cost-Related Medication Nonadherence Among Medicare Beneficiaries at High Risk of Hospitalization.",
+      "pmid": "33656528",
+      "doi": "10.1001/jamanetworkopen.2021.0498",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33656528/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7930921/"
+    },
+    "L-T01": {
+      "id": "L-T01",
+      "title": "Reduced Cost Sharing and Medication Management Services for COPD: A Randomized Clinical Trial",
+      "pmid": "39073823",
+      "doi": "10.1001/jamainternmed.2024.3499",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39073823/",
+      "source_url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2821705"
+    },
+    "L-T02": {
+      "id": "L-T02",
+      "title": "Prescription Use and Spending After the Introduction of a Real-Time Prescription Benefit Tool",
+      "pmid": "40608336",
+      "doi": "10.1001/jamanetworkopen.2025.19038",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40608336/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12232181/"
+    },
+    "L-T03": {
+      "id": "L-T03",
+      "title": "Real-Time Prescription Benefit Tool Availability and Prescription Medication Fill Rates: A Post Hoc Analysis of a Cluster Randomized Clinical Trial",
+      "pmid": "42599729",
+      "doi": "10.1001/jamahealthforum.2026.2739",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42599729/",
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC13476843/"
+    },
+    "P-012": {
+      "id": "P-012",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/coverage/bone-mass-measurements"
+    },
+    "P-021": {
+      "id": "P-021",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/coverage/lymphedema-compression-treatment-items"
+    },
+    "P-035": {
+      "id": "P-035",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/physician/pfs-relative-value-files/rvu26c"
+    },
+    "P-046": {
+      "id": "P-046",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/cms-interoperability-prior-authorization-final-rule-cms-0057-f"
+    },
+    "P-047": {
+      "id": "P-047",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/prior-authorization-api"
+    },
+    "P-048": {
+      "id": "P-048",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/2026-cms-interoperability-standards-prior-authorization-drugs-proposed-rule"
+    },
+    "P-049": {
+      "id": "P-049",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/medicare/regulations-guidance/electronic-prescribing/adopted-standard-and-transactions"
+    },
+    "P-050": {
+      "id": "P-050",
+      "organization": "Office of the National Coordinator for Health Information Technology",
+      "url": "https://healthit.gov/resources/hti-4-overview-and-key-dates-for-certification-program/"
+    },
+    "P-051": {
+      "id": "P-051",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/newsroom/fact-sheets/final-cy-2026-part-d-redesign-program-instructions"
+    },
+    "P-052": {
+      "id": "P-052",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/prescription-payment-plan/will-this-help-me"
+    },
+    "P-053": {
+      "id": "P-053",
+      "organization": "US Preventive Services Task Force",
+      "url": "https://www.uspreventiveservicestaskforce.org/uspstf/recommendation/osteoporosis-screening"
+    },
+    "P-054": {
+      "id": "P-054",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/medicare/payment/fee-schedules/durable-medical-equipment-prosthetic-devices-prosthetics-orthotics-supplies/lymphedema-compression-treatment-items"
+    },
+    "P-055": {
+      "id": "P-055",
+      "organization": "Medicare.gov / Centers for Medicare & Medicaid Services",
+      "url": "https://www.medicare.gov/coverage/kidney-disease-education"
+    },
+    "P-056": {
+      "id": "P-056",
+      "organization": "Food and Drug Administration",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/clinical-decision-support-software"
+    },
+    "P-057": {
+      "id": "P-057",
+      "organization": "Food and Drug Administration",
+      "url": "https://www.fda.gov/medical-devices/software-medical-device-samd/clinical-decision-support-software-frequently-asked-questions-faqs"
+    },
+    "P-059": {
+      "id": "P-059",
+      "organization": "Centers for Medicare & Medicaid Services",
+      "url": "https://www.cms.gov/initiatives/burden-reduction/overview/interoperability/frequently-asked-questions/general"
+    }
+  },
+  "verification_notes": [
+    "Read REVIEW_SCOPE.md before content work.",
+    "Matched every figure and panel source ID to the existing reference registry; no new external lookup performed.",
+    "No source records, classifications, evidence counts, manuscript text or opportunity judgments were changed.",
+    "Source citations indicate conceptual foundations or illustrative evidence, not completed eligibility adjudication or formal certainty assessment."
+  ]
+}

@@ -1,3 +1,23 @@
+# Seven figure expanded publication edition
+
+The investigator requested more than five figures on September 21, 2026. The manuscript now includes seven numbered figures in order of first citation:
+
+1. Separate the subjects of comparison
+2. Inclusion and exclusion criteria
+3. Clinical anatomy and physiology
+4. Retrieval and review status
+5. Financing and care outcomes
+6. Health IT research opportunities
+7. A health IT validation pathway
+
+All have editable SVG and 300-dpi PNG exports at 7 by 7.6 inches. [Download the complete set with captions and provenance](../../../outputs/01a0ab2c-c289-74e3-8442-d7966be4cbe8/Medicare_seven_publication_figures_2026-09-21.zip). The manuscript's bibliography includes all caption citations and numeric PMIDs where applicable. Figure 4 alone reports search counts; the other figures are conceptual frameworks, not new empirical findings.
+
+`expanded_figure_manifest.json` records the seven final assets, captions, source hashes and export hashes. `expanded_figure_content.json` preserves panel content and reference provenance. Rebuild Figures 4 and 7 with `build_figures.py` using Matplotlib; rebuild Figures 1, 2, 3, 5 and 6 and the ZIP with `build_expanded_figures.py` using ReportLab and Poppler. Then run `build_publication.py`, render the DOCX and inspect all pages. The original two diagram exports and their earlier audit below remain as history; current numbering is given above.
+
+The expanded edition supersedes the earlier four-display planning budget for the working white paper. Final journal selection of main and supplementary displays remains pending. The separate, detailed eligibility figure remains unchanged; Figure 2 is a compact manuscript adaptation. No population-scope change, evidence addition, final eligibility decision or formal appraisal is implied.
+
+---
+
 # Publication figures and intervention-section audit
 
 Generated September 21, 2026. This is an AI consistency audit, not independent human evidence screening or appraisal.

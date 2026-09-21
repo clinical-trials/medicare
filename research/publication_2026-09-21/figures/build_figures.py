@@ -94,10 +94,10 @@ assert counts["baseline_unique"] + counts["extension_new"] == counts["combined_u
 assert counts["abstract_available"] + counts["abstract_unavailable"] == counts["combined_unique"]
 assert queue["human_screened"] == 0 and queue["records_excluded"] == 0
 
-# Figure 1: separate two retrieval routes and prevent the selected register
+# Figure 4: separate two retrieval routes and prevent the selected register
 # from looking like an included-study count from the unreviewed corpus.
 fig, ax = canvas(7.6)
-txt(ax, .35, 7.23, "Figure 1. Retrieval and review status", 14, "bold")
+txt(ax, .35, 7.23, "Figure 4. Retrieval and review status", 14, "bold")
 txt(ax, .35, 6.92, "21 September 2026 | Development searches; selection review incomplete", 9.5)
 
 for x, title, number, detail in [
@@ -146,13 +146,13 @@ txt(ax, 3.5, 1.28, "Eligibility, related reports, extraction verification and ou
 box(ax, .35, .21, 6.30, .58, dashed=True)
 txt(ax, 3.5, .59, "Separate selected register: 38 candidate or contextual records", 10.8, "bold", ha="center")
 txt(ax, 3.5, .36, "Earlier selected retrieval; not the screening output of this corpus", 9.6, ha="center")
-save(fig, "figure1_retrieval_status",
+save(fig, "figure4_retrieval_status",
      "Actual development-search retrieval status, September21,2026. Not a completed PRISMA selection flow. The separately selected register is not an included-study count from the corpus.")
 
-# Figure 2: five validation stages; prospective, not a claim that products
+# Figure 7: five validation stages; prospective, not a claim that products
 # or the selected evidence have already passed any stage.
 fig, ax = canvas(7.6)
-txt(ax, .35, 7.23, "Figure 2. A health IT validation pathway", 14, "bold")
+txt(ax, .35, 7.23, "Figure 7. A health IT validation pathway", 14, "bold")
 txt(ax, .35, 6.91, "Proposed research framework | Evidence is required at each stage", 9.8)
 stages = [
     ("1  NEED", "Define clinically indicated care and unmet need.",
@@ -177,7 +177,7 @@ for i, (label, main, detail) in enumerate(stages):
         arrow(ax, (3.5,y-.02), (3.5,y-.15))
 txt(ax, .35, .57, "Advance, revise or stop according to the evidence.", 11.1, "bold")
 txt(ax, .35, .29, "Average benefit does not establish equity; a coverage code does not establish a market.", 9.2)
-save(fig, "figure2_validation_pathway",
+save(fig, "figure7_validation_pathway",
      "Conceptual five-stage health IT validation pathway: need, mechanism, intervention, benefit and equity, implementation. Proposed research framework, not validated product efficacy or commercial viability.")
 
 manifest = {
@@ -186,8 +186,8 @@ manifest = {
     "dimensions_inches": [7,7.6], "png_dpi": 300,
     "counts": counts,
     "source_files": ["research/review_2026-09-21/search_summary.json", "research/publication_2026-09-21/search_extensions/manifest.json", "research/publication_2026-09-21/queue_summary.json", "research/publication_2026-09-21/manuscript.md"],
-    "outputs": ["figure1_retrieval_status.svg","figure1_retrieval_status.png","figure2_validation_pathway.svg","figure2_validation_pathway.png"],
-    "interpretation": ["Figure1 is actual retrieval status, not a completed PRISMA selection flow.", "38 selected records are a separate route, not screening output.", "Figure2 is a proposed five-stage validation framework, not a claim of validated products."],
+    "outputs": ["figure4_retrieval_status.svg","figure4_retrieval_status.png","figure7_validation_pathway.svg","figure7_validation_pathway.png"],
+    "interpretation": ["Figure4 is actual retrieval status, not a completed PRISMA selection flow.", "38 selected records are a separate route, not screening output.", "Figure7 is a proposed five-stage validation framework, not a claim of validated products."],
 }
 (OUT / "figure_manifest.json").write_text(json.dumps(manifest,indent=2)+"\n")
 print("Built four figure files; count reconciliation passed.")

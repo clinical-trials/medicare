@@ -27,14 +27,14 @@
     "research/publication_2026-09-21/manuscript.md"
   ],
   "outputs": [
-    "figure1_retrieval_status.svg",
-    "figure1_retrieval_status.png",
-    "figure2_validation_pathway.svg",
-    "figure2_validation_pathway.png"
+    "figure4_retrieval_status.svg",
+    "figure4_retrieval_status.png",
+    "figure7_validation_pathway.svg",
+    "figure7_validation_pathway.png"
   ],
   "interpretation": [
-    "Figure1 is actual retrieval status, not a completed PRISMA selection flow.",
+    "Figure4 is actual retrieval status, not a completed PRISMA selection flow.",
     "38 selected records are a separate route, not screening output.",
-    "Figure2 is a proposed five-stage validation framework, not a claim of validated products."
+    "Figure7 is a proposed five-stage validation framework, not a claim of validated products."
   ]
 }
